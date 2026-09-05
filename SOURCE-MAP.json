@@ -1,0 +1,221 @@
+{
+  "mathematical_files": [
+    {
+      "path": "results/coefficient-cone/README.md",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "cf20c0d73c056df6b90faa5004de4f3ac444aa5c",
+      "source_path": "methods/frontier-gpt6-pro-002-004/wildcard-verification/portable/README.md",
+      "source_sha256": "f86dcd6362caa7f6a6281efaa40e4aafb038371ee19ccde4d0cb5c6f98ba6d0f",
+      "included_sha256": "2e66b8c4a6a825c98d0b4e1c51e86af1924246d3d9d008167c129321c3d468c1",
+      "transformation": "packaging, command-default or count-data validation changes; mathematical core preserved"
+    },
+    {
+      "path": "results/coefficient-cone/certificate.json",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "cf20c0d73c056df6b90faa5004de4f3ac444aa5c",
+      "source_path": "methods/frontier-gpt6-pro-002-004/wildcard-verification/portable/certificate.json",
+      "source_sha256": "5a9902eeb91623bfc78d1beb37a516e692d19b4d1db1e972d1192b3b8068c0f0",
+      "included_sha256": "5a9902eeb91623bfc78d1beb37a516e692d19b4d1db1e972d1192b3b8068c0f0",
+      "transformation": "none"
+    },
+    {
+      "path": "results/coefficient-cone/flow-polynomial.json",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "cf20c0d73c056df6b90faa5004de4f3ac444aa5c",
+      "source_path": "methods/frontier-gpt6-pro-002-004/wildcard-verification/portable/flow-polynomial.json",
+      "source_sha256": "efdae31839871f978402b51afc12eff14b3cdc69f667f3739835803489688ac3",
+      "included_sha256": "efdae31839871f978402b51afc12eff14b3cdc69f667f3739835803489688ac3",
+      "transformation": "none"
+    },
+    {
+      "path": "results/coefficient-cone/numerator.json",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "cf20c0d73c056df6b90faa5004de4f3ac444aa5c",
+      "source_path": "methods/frontier-gpt6-pro-002-004/wildcard-verification/portable/numerator.json",
+      "source_sha256": "89d3df7d63d368a3e85a0d722ecff4a2a001381e5971468271d6dfbc6e03ebff",
+      "included_sha256": "89d3df7d63d368a3e85a0d722ecff4a2a001381e5971468271d6dfbc6e03ebff",
+      "transformation": "none"
+    },
+    {
+      "path": "results/coefficient-cone/reproduce.py",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "cf20c0d73c056df6b90faa5004de4f3ac444aa5c",
+      "source_path": "methods/frontier-gpt6-pro-002-004/wildcard-verification/portable/reproduce.py",
+      "source_sha256": "8abe504ee974e23d451ea04c5a20872bd82d967c4fdb0a85267c57978131ad19",
+      "included_sha256": "763c124d44a66f4e70ee0f09461c063424c3d8f62f5751effaa482af5d0590d9",
+      "transformation": "packaging, command-default or count-data validation changes; mathematical core preserved"
+    },
+    {
+      "path": "results/hurwitz-cone/PROOF.md",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "cf20c0d73c056df6b90faa5004de4f3ac444aa5c",
+      "source_path": "methods/frontier-gpt6-pro-002-004/roots-verification/portable/PROOF.md",
+      "source_sha256": "534ea9f654fd187b8f2931ff7191b876379480d0a095d1fefb2b1ed968ee9c9b",
+      "included_sha256": "ae3def643d2c34254e2c2105660505b58e557090f732aecf73b81180f844cdca",
+      "transformation": "packaging, command-default or count-data validation changes; mathematical core preserved"
+    },
+    {
+      "path": "results/hurwitz-cone/README.md",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "cf20c0d73c056df6b90faa5004de4f3ac444aa5c",
+      "source_path": "methods/frontier-gpt6-pro-002-004/roots-verification/portable/README.md",
+      "source_sha256": "a77c2a21c2492b8dfaef238a73b75c2ed9d54db66315f22254a6f7f89690550f",
+      "included_sha256": "9c799cb7ff56b157dc199e2b40747bd491abf91684c256bdd55388cfd734c605",
+      "transformation": "packaging, command-default or count-data validation changes; mathematical core preserved"
+    },
+    {
+      "path": "results/hurwitz-cone/checker.py",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "cf20c0d73c056df6b90faa5004de4f3ac444aa5c",
+      "source_path": "methods/frontier-gpt6-pro-002-004/roots-verification/portable/checker.py",
+      "source_sha256": "abc1f471e57ca4f2d4f44d95f0276e2ed727630587cd4b5e9403b062a1731aaa",
+      "included_sha256": "57796c9b371907a144b712cb7202bcb54da1532fdbb60300975bbfb28a4498b5",
+      "transformation": "packaging, command-default or count-data validation changes; mathematical core preserved"
+    },
+    {
+      "path": "results/hurwitz-cone/data/theorem-data.json",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "cf20c0d73c056df6b90faa5004de4f3ac444aa5c",
+      "source_path": "methods/frontier-gpt6-pro-002-004/roots-verification/portable/data/theorem-data.json",
+      "source_sha256": "c4bcba2c15b1450dd997b6f4b8091a32330fbbd8142d1ba32bc082ee57b0d902",
+      "included_sha256": "c4bcba2c15b1450dd997b6f4b8091a32330fbbd8142d1ba32bc082ee57b0d902",
+      "transformation": "none"
+    },
+    {
+      "path": "results/hurwitz-cone/reproduce.py",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "cf20c0d73c056df6b90faa5004de4f3ac444aa5c",
+      "source_path": "methods/frontier-gpt6-pro-002-004/roots-verification/portable/reproduce.py",
+      "source_sha256": "125344c9dfbe6b549aaf20ed9c608c768a5f274b2a2d1e3d339f7fdf625d65cc",
+      "included_sha256": "abfb3c003f88a3fc93746979086d0fab0d2795a5f7a17e3d8282869603b88c5c",
+      "transformation": "packaging, command-default or count-data validation changes; mathematical core preserved"
+    },
+    {
+      "path": "results/hurwitz-counterexample/ROOT-CERTIFICATE.json",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "57218642d9b758478feb8f6c847157ffb3dc10f2",
+      "source_path": "methods/frontier-gpt6-pro-001/expert-package/ROOT-CERTIFICATE.json",
+      "source_sha256": "7f95c5d52bb17abff40d79624adb8427ab8afeafa310787ab90fd645ce95d30c",
+      "included_sha256": "7f95c5d52bb17abff40d79624adb8427ab8afeafa310787ab90fd645ce95d30c",
+      "transformation": "none"
+    },
+    {
+      "path": "results/hurwitz-counterexample/ROOT-COUNTEREXAMPLE-PROOF.md",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "57218642d9b758478feb8f6c847157ffb3dc10f2",
+      "source_path": "methods/frontier-gpt6-pro-001/expert-package/ROOT-COUNTEREXAMPLE-PROOF.md",
+      "source_sha256": "250e00e969b7b21d353444ac7cfbc3220cb31a4651dbc186a05e05f11ea5aca0",
+      "included_sha256": "250e00e969b7b21d353444ac7cfbc3220cb31a4651dbc186a05e05f11ea5aca0",
+      "transformation": "none"
+    },
+    {
+      "path": "results/hurwitz-counterexample/ROOT-DEGREE-AND-METHOD.md",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "57218642d9b758478feb8f6c847157ffb3dc10f2",
+      "source_path": "methods/frontier-gpt6-pro-001/expert-package/ROOT-DEGREE-AND-METHOD.md",
+      "source_sha256": "414937c222574bf70898d12eda85d7b9e28e0fa651f01a5721f7e2dc2d364edd",
+      "included_sha256": "414937c222574bf70898d12eda85d7b9e28e0fa651f01a5721f7e2dc2d364edd",
+      "transformation": "none"
+    },
+    {
+      "path": "results/hurwitz-counterexample/ROOT-POLYNOMIAL.json",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "57218642d9b758478feb8f6c847157ffb3dc10f2",
+      "source_path": "methods/frontier-gpt6-pro-001/expert-package/ROOT-POLYNOMIAL.json",
+      "source_sha256": "a997cd91c9160953e64b0e543ec62be9a6899c146f8ca58203e1931a062efb4d",
+      "included_sha256": "a997cd91c9160953e64b0e543ec62be9a6899c146f8ca58203e1931a062efb4d",
+      "transformation": "none"
+    },
+    {
+      "path": "results/hurwitz-counterexample/ROOT-VALUES.json",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "57218642d9b758478feb8f6c847157ffb3dc10f2",
+      "source_path": "methods/frontier-gpt6-pro-001/expert-package/ROOT-VALUES.json",
+      "source_sha256": "21a7db511cf6045b302b112f6683e7adb556118263dd4534971bf20f14edb057",
+      "included_sha256": "21a7db511cf6045b302b112f6683e7adb556118263dd4534971bf20f14edb057",
+      "transformation": "none"
+    },
+    {
+      "path": "results/hurwitz-counterexample/check_root.py",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "57218642d9b758478feb8f6c847157ffb3dc10f2",
+      "source_path": "methods/frontier-gpt6-pro-001/expert-package/check_root.py",
+      "source_sha256": "5227c97fa106a4f3540f0664f11fb470b0bb60a81c6cac6fcc486bc392daea06",
+      "included_sha256": "5227c97fa106a4f3540f0664f11fb470b0bb60a81c6cac6fcc486bc392daea06",
+      "transformation": "none"
+    },
+    {
+      "path": "results/hurwitz-counterexample/r18_count.py",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "57218642d9b758478feb8f6c847157ffb3dc10f2",
+      "source_path": "methods/frontier-gpt6-pro-001/expert-package/r18_count.py",
+      "source_sha256": "49cd39cc1cfeceb3c5221c0268b095cb8cb5979b40585d5d05a441e5b6e6e12b",
+      "included_sha256": "49cd39cc1cfeceb3c5221c0268b095cb8cb5979b40585d5d05a441e5b6e6e12b",
+      "transformation": "none"
+    },
+    {
+      "path": "results/hurwitz-counterexample/reproduce.py",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "57218642d9b758478feb8f6c847157ffb3dc10f2",
+      "source_path": "methods/frontier-gpt6-pro-001/expert-package/reproduce.py",
+      "source_sha256": "7dc1fbce6f77695fa6a01e2e060a5ba54f820b6fa902062f103cb5cf99d6dbcb",
+      "included_sha256": "7dc1fbce6f77695fa6a01e2e060a5ba54f820b6fa902062f103cb5cf99d6dbcb",
+      "transformation": "none"
+    },
+    {
+      "path": "results/parabolic-a3/PROOF.md",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "cf20c0d73c056df6b90faa5004de4f3ac444aa5c",
+      "source_path": "methods/frontier-gpt6-pro-002-004/a3-verification/portable/PROOF.md",
+      "source_sha256": "7edef59542de493a01fbf1653ce1f24f2c7034ffeaf9bfb30000ee7cdf2bd4d3",
+      "included_sha256": "7edef59542de493a01fbf1653ce1f24f2c7034ffeaf9bfb30000ee7cdf2bd4d3",
+      "transformation": "none"
+    },
+    {
+      "path": "results/parabolic-a3/README.md",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "cf20c0d73c056df6b90faa5004de4f3ac444aa5c",
+      "source_path": "methods/frontier-gpt6-pro-002-004/a3-verification/portable/README.md",
+      "source_sha256": "9a3b78c058736abc318fbf76e53d02bd1a8919250f48118b823d069a56a0e634",
+      "included_sha256": "9a3b78c058736abc318fbf76e53d02bd1a8919250f48118b823d069a56a0e634",
+      "transformation": "none"
+    },
+    {
+      "path": "results/parabolic-a3/a3-data.json",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "cf20c0d73c056df6b90faa5004de4f3ac444aa5c",
+      "source_path": "methods/frontier-gpt6-pro-002-004/a3-verification/portable/a3-data.json",
+      "source_sha256": "cf20d1583e8ec7d0da51555257b6e8b4a02d7d0e87d46af5599ef7c22428f56f",
+      "included_sha256": "cf20d1583e8ec7d0da51555257b6e8b4a02d7d0e87d46af5599ef7c22428f56f",
+      "transformation": "none"
+    },
+    {
+      "path": "results/parabolic-a3/a3_reproduce.py",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "cf20c0d73c056df6b90faa5004de4f3ac444aa5c",
+      "source_path": "methods/frontier-gpt6-pro-002-004/a3-verification/portable/a3_reproduce.py",
+      "source_sha256": "e5fcca98db79aca36150969397466120879315f3651ae875147c8798ed41c707",
+      "included_sha256": "e5fcca98db79aca36150969397466120879315f3651ae875147c8798ed41c707",
+      "transformation": "none"
+    },
+    {
+      "path": "results/two-row-nonconcavity/PROOF.md",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "cf20c0d73c056df6b90faa5004de4f3ac444aa5c",
+      "source_path": "methods/frontier-gpt6-pro-002-004/two-row-verification/PROOF.md",
+      "source_sha256": "d2cd84fedb634e8cf17f39359b98ef3e3f0431d536294bbd204a55e7147531ea",
+      "included_sha256": "0759335deac556b19d85adb4bf02b59eb85f6ccfa9c11c6ccc572b935b14f320",
+      "transformation": "packaging, command-default or count-data validation changes; mathematical core preserved"
+    },
+    {
+      "path": "results/two-row-nonconcavity/two_row.py",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "cf20c0d73c056df6b90faa5004de4f3ac444aa5c",
+      "source_path": "methods/frontier-gpt6-pro-002-004/two-row-verification/two_row.py",
+      "source_sha256": "8f7a817381a619f51e8d1b45fd0d3cb55829b7283ea10e28169d6ccd28c87a0a",
+      "included_sha256": "8f7a817381a619f51e8d1b45fd0d3cb55829b7283ea10e28169d6ccd28c87a0a",
+      "transformation": "none"
+    }
+  ],
+  "new_repository_wrappers": "README/RESULTS/REFERENCES/PROVENANCE, root runner and two reader READMEs authored during PUB-1; source-backed claims are cited in those files"
+}
