@@ -3,7 +3,7 @@
 These Python tools make several proved count models directly usable. They
 include a fast bare-triple counter on one explicit rank-six sector, general
 admissible strip counts, transportation and segment-quotient counters,
-whole-polytope LR constructions, and checkable support certificates.
+whole-polytope LR constructions, checkable support certificates, and a general exact skew-tableau counter.
 
 Use Python 3.11+ and its standard library. No installation, network access or
 original research checkout is needed for the commands below. From the repository
@@ -17,7 +17,7 @@ python3 -B tooling/benchmarks/compare.py --case transport-repeated8x8
 
 The example and checks print their results without writing output files.
 The benchmark launches one bounded Python child at a time and prints JSON;
-its default is the fourteen-input count panel with one cold repetition.
+its default is the seventeen-input count panel with one cold repetition.
 
 For a notebook or script, put `tooling/` on `PYTHONPATH` and import the APIs:
 
@@ -38,6 +38,7 @@ assert transport_count([1, 1, 1, 1], [1, 1, 1, 1]) == 24
 | --- | --- | --- |
 | `cdagger_count`, `cdagger_polynomial` | An ordinary triple, lambda outer; a scalar count or all ordinary coefficients | Complete Cdagger domain checked, maximum trimmed rank six; outside inputs raise `OutsideCdaggerError` |
 | `cdagger_parameters`, `verify_cdagger_certificate` | Exact strip parameters, or replay of the fixed full-hive certificate | All 553 domain rows, the integer chart and all 36 implication identities |
+| `skew_tableau_count` | A skew shape, ordered content and stretch; exact SSYT/Kostka count | Ordinary LR use needs the proved buffer lift; typed work limits, scalar t=0 convention and no degree/full-vector claim |
 | `strip_count`, `strip_polynomial` | Group sizes and `T,B,C,D`; full admissible interval/simplex counts | `h>=0`, `q1,q2>=1`, nonnegative parameters and `T<=B+C+D` |
 | `transport_count`, `transport_to_lr` | Balanced labeled margins; exact table count or an entire-family LR triple | Nonnegative margins; the constructor requires nonempty margin vectors |
 | `minkowski_obstruction` | Two labeled margin pairs; an opposite-sign cut or `None` | The complete transportation criterion, not an arbitrary-hive criterion |
@@ -71,3 +72,16 @@ and the existing private licensing boundary. The repository's `SOURCE-MAP.json`
 pins this versioned projection to its maintained sources. Historical benchmark
 oracles remain frozen comparison code; the maintained algorithms have one source
 home in the research package.
+
+The skew counter makes the changed rank-thirteen family's previously expensive
+small-dilation counts practical through partial-row aggregation. For example:
+
+```python
+from slr_ehrhart import skew_tableau_count
+assert skew_tableau_count([30, 26, 3, 2, 1], [2, 1],
+                          [14, 14, 14, 12, 1, 1, 1, 1, 1], 2) == 12562151868
+```
+
+Run `python3 -B tooling/benchmarks/compare.py --case skew-r11-t3` to compare
+its three complete counting algorithms. Native-source Python methods in this
+benchmark are not fresh LR-engine runs.

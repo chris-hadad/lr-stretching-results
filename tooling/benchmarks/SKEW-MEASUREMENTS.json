@@ -1,0 +1,182 @@
+{
+  "schema": "shared-tools-skew-benchmark/v1",
+  "measured_date": "2026-09-09",
+  "comparison_measurements": 18,
+  "repetitions": 3,
+  "cases": [
+    {
+      "case_id": "R11-T2",
+      "value": "12562151868",
+      "methods": {
+        "native_forward": {
+          "samples": [
+            {
+              "identity": "ST-SKEW-PAIR-T2-NATIVE-FORWARD-R1",
+              "count_seconds": 0.5592424169881269,
+              "contained_seconds": 0.5967538749682717,
+              "maxrss_bytes": 35586048
+            },
+            {
+              "identity": "ST-SKEW-PAIR-T2-NATIVE-FORWARD-R2",
+              "count_seconds": 0.5679388749995269,
+              "contained_seconds": 0.6074009580188431,
+              "maxrss_bytes": 35799040
+            },
+            {
+              "identity": "ST-SKEW-PAIR-T2-NATIVE-FORWARD-R3",
+              "count_seconds": 0.5639207499916665,
+              "contained_seconds": 0.6031906249700114,
+              "maxrss_bytes": 35487744
+            }
+          ],
+          "median_count_seconds": 0.5639207499916665,
+          "median_contained_seconds": 0.6031906249700114
+        },
+        "native_row_sweep": {
+          "samples": [
+            {
+              "identity": "ST-SKEW-PAIR-T2-NATIVE-ROW-SWEEP-R1",
+              "count_seconds": 0.15704516699770465,
+              "contained_seconds": 0.1912374590174295,
+              "maxrss_bytes": 35684352
+            },
+            {
+              "identity": "ST-SKEW-PAIR-T2-NATIVE-ROW-SWEEP-R2",
+              "count_seconds": 0.15742962498916313,
+              "contained_seconds": 0.19255174999125302,
+              "maxrss_bytes": 35700736
+            },
+            {
+              "identity": "ST-SKEW-PAIR-T2-NATIVE-ROW-SWEEP-R3",
+              "count_seconds": 0.15886441699694842,
+              "contained_seconds": 0.19438183400779963,
+              "maxrss_bytes": 35749888
+            }
+          ],
+          "median_count_seconds": 0.15742962498916313,
+          "median_contained_seconds": 0.19255174999125302
+        },
+        "maintained": {
+          "samples": [
+            {
+              "identity": "ST-SKEW-PAIR-T2-MAINTAINED-R1",
+              "count_seconds": 0.054032917018048465,
+              "contained_seconds": 0.09653216699371114,
+              "maxrss_bytes": 26656768
+            },
+            {
+              "identity": "ST-SKEW-PAIR-T2-MAINTAINED-R2",
+              "count_seconds": 0.05408220802200958,
+              "contained_seconds": 0.09715833299560472,
+              "maxrss_bytes": 26804224
+            },
+            {
+              "identity": "ST-SKEW-PAIR-T2-MAINTAINED-R3",
+              "count_seconds": 0.0537999999942258,
+              "contained_seconds": 0.09756962500978261,
+              "maxrss_bytes": 26820608
+            }
+          ],
+          "median_count_seconds": 0.054032917018048465,
+          "median_contained_seconds": 0.09715833299560472
+        }
+      },
+      "count_ratios_over_maintained": {
+        "native_forward": 10.43661495830961,
+        "native_row_sweep": 2.9135873774236054,
+        "maintained": 1.0
+      }
+    },
+    {
+      "case_id": "R11-T3",
+      "value": "9648083027500",
+      "methods": {
+        "native_forward": {
+          "samples": [
+            {
+              "identity": "ST-SKEW-PAIR-T3-NATIVE-FORWARD-R1",
+              "count_seconds": 6.542054749967065,
+              "contained_seconds": 6.581820417020936,
+              "maxrss_bytes": 91996160
+            },
+            {
+              "identity": "ST-SKEW-PAIR-T3-NATIVE-FORWARD-R2",
+              "count_seconds": 6.5311374589800835,
+              "contained_seconds": 6.5701086659682915,
+              "maxrss_bytes": 91979776
+            },
+            {
+              "identity": "ST-SKEW-PAIR-T3-NATIVE-FORWARD-R3",
+              "count_seconds": 6.537533833005,
+              "contained_seconds": 6.577396499982569,
+              "maxrss_bytes": 91881472
+            }
+          ],
+          "median_count_seconds": 6.537533833005,
+          "median_contained_seconds": 6.577396499982569
+        },
+        "native_row_sweep": {
+          "samples": [
+            {
+              "identity": "ST-SKEW-PAIR-T3-NATIVE-ROW-SWEEP-R1",
+              "count_seconds": 1.3052291250205599,
+              "contained_seconds": 1.3398132500005886,
+              "maxrss_bytes": 112033792
+            },
+            {
+              "identity": "ST-SKEW-PAIR-T3-NATIVE-ROW-SWEEP-R2",
+              "count_seconds": 1.3287339170346968,
+              "contained_seconds": 1.3641243750462309,
+              "maxrss_bytes": 112033792
+            },
+            {
+              "identity": "ST-SKEW-PAIR-T3-NATIVE-ROW-SWEEP-R3",
+              "count_seconds": 1.3125136659946293,
+              "contained_seconds": 1.3478304159943946,
+              "maxrss_bytes": 112017408
+            }
+          ],
+          "median_count_seconds": 1.3125136659946293,
+          "median_contained_seconds": 1.3478304159943946
+        },
+        "maintained": {
+          "samples": [
+            {
+              "identity": "ST-SKEW-PAIR-T3-MAINTAINED-R1",
+              "count_seconds": 0.33221579203382134,
+              "contained_seconds": 0.37494233303004876,
+              "maxrss_bytes": 46759936
+            },
+            {
+              "identity": "ST-SKEW-PAIR-T3-MAINTAINED-R2",
+              "count_seconds": 0.3345164170023054,
+              "contained_seconds": 0.37720862502465025,
+              "maxrss_bytes": 46694400
+            },
+            {
+              "identity": "ST-SKEW-PAIR-T3-MAINTAINED-R3",
+              "count_seconds": 0.33104400004958734,
+              "contained_seconds": 0.37443012499716133,
+              "maxrss_bytes": 46743552
+            }
+          ],
+          "median_count_seconds": 0.33221579203382134,
+          "median_contained_seconds": 0.37494233303004876
+        }
+      },
+      "count_ratios_over_maintained": {
+        "native_forward": 19.67857636442353,
+        "native_row_sweep": 3.9507864992191832,
+        "maintained": 1.0
+      }
+    }
+  ],
+  "source_sage_price": {
+    "value": "12562151868",
+    "s": 11,
+    "t": 2,
+    "seconds": 1491.138,
+    "provenance": "LAB-132/source-reported prior Sage LR call, not reexecuted or a paired timing here"
+  },
+  "limits": "Same-input Python method comparisons with imports outside count timers; all complete outputs agree. Full degree29 vectors are not reconstructed; no T^6 extrapolation is adopted as a certified floor."
+}

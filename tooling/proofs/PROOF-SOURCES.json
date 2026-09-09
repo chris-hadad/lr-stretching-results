@@ -81,6 +81,18 @@
       ],
       "transformation": "Curated exact count, scalar exchange and complete whole-LR construction proof; omitted unrelated source-numerator dispute and operational history.",
       "included_sha256": "5caadc8aba7e895b64022d607c307a1bf1d7d8ade929fd850118ebf3cc79bf5b"
+    },
+    {
+      "included_path": "tooling/proofs/skew-count.md",
+      "inputs": [
+        {
+          "repository": "codex-workbench",
+          "path": "plans/active/stretched-lr-counterexample-campaign/sessions/SHARED-TOOLS/extension/SKEW-COUNT.md",
+          "sha256": "9703b535145a107ca4cf646c1deb4e1b21b8eb3088d69b7b3026d913e3cd32c0"
+        }
+      ],
+      "transformation": "Retained complete recurrence, aggregation, pruning and limit proof; curated execution/provenance wording for standalone use.",
+      "included_sha256": "9b0c5de4b211926a5a7555c511b0c9c4f144248648e56d96ceb65c97d6de5d47"
     }
   ]
 }

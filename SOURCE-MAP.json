@@ -219,317 +219,371 @@
     {
       "path": "tooling/BENCHMARKS.md",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "methods/shared-tools-2026-09-09/publication/tooling/BENCHMARKS.md",
-      "source_sha256": "c4e2562069a899ef8761be4b80062b303b47bb9d692623051b0b7feb8240067d",
-      "included_sha256": "c4e2562069a899ef8761be4b80062b303b47bb9d692623051b0b7feb8240067d",
-      "transformation": "none; authored or curated publication source"
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/BENCHMARKS.md",
+      "source_sha256": "292864ac6875273cca4b35a51da2e7fb8f3e7b0f20f077e24ab0bf7ec8881c44",
+      "included_sha256": "292864ac6875273cca4b35a51da2e7fb8f3e7b0f20f077e24ab0bf7ec8881c44",
+      "transformation": "none; versioned publication source"
     },
     {
       "path": "tooling/PROOFS.md",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "methods/shared-tools-2026-09-09/publication/tooling/PROOFS.md",
-      "source_sha256": "a5e026d7f3f030ef2f0a7d91cf4d279f3256b919ff80f8cf3f5500523993846e",
-      "included_sha256": "a5e026d7f3f030ef2f0a7d91cf4d279f3256b919ff80f8cf3f5500523993846e",
-      "transformation": "none; authored or curated publication source"
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/PROOFS.md",
+      "source_sha256": "400d70b272a50ae2ba1f72684d7dbafdf31666570c78874354e4d2742e629acd",
+      "included_sha256": "400d70b272a50ae2ba1f72684d7dbafdf31666570c78874354e4d2742e629acd",
+      "transformation": "none; versioned publication source"
     },
     {
       "path": "tooling/README.md",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "methods/shared-tools-2026-09-09/publication/tooling/README.md",
-      "source_sha256": "8a54fe12b07855e0dc1b029bee56ec94ba8668ef6967939bf6b3eb55859d7f38",
-      "included_sha256": "8a54fe12b07855e0dc1b029bee56ec94ba8668ef6967939bf6b3eb55859d7f38",
-      "transformation": "none; authored or curated publication source"
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/README.md",
+      "source_sha256": "cae532d5e552a7daaeab76c582816042c9d57e2c5393d946abea8d6a82035578",
+      "included_sha256": "cae532d5e552a7daaeab76c582816042c9d57e2c5393d946abea8d6a82035578",
+      "transformation": "none; versioned publication source"
     },
     {
       "path": "tooling/SOURCE-LICENSES.md",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "methods/shared-tools-2026-09-09/publication/tooling/SOURCE-LICENSES.md",
-      "source_sha256": "73f486d4ea45208d0d77fdb330f4835f5efbf5c6770f2fee84a6eb72d2fe53b0",
-      "included_sha256": "73f486d4ea45208d0d77fdb330f4835f5efbf5c6770f2fee84a6eb72d2fe53b0",
-      "transformation": "none; authored or curated publication source"
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/SOURCE-LICENSES.md",
+      "source_sha256": "9b0eb301078f2e70948951d3dd51343eb2a8df79a12dd4aa80715ba2ca933b2a",
+      "included_sha256": "9b0eb301078f2e70948951d3dd51343eb2a8df79a12dd4aa80715ba2ca933b2a",
+      "transformation": "none; versioned publication source"
     },
     {
       "path": "tooling/benchmarks/MEASUREMENTS.json",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "methods/shared-tools-2026-09-09/publication/tooling/benchmarks/MEASUREMENTS.json",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/benchmarks/MEASUREMENTS.json",
       "source_sha256": "9fd18792da65a26f13fc9e6cfde118f5c4fda40c4011eb3f197b5c8fb49e9e38",
       "included_sha256": "9fd18792da65a26f13fc9e6cfde118f5c4fda40c4011eb3f197b5c8fb49e9e38",
-      "transformation": "none; authored or curated publication source"
+      "transformation": "none; versioned publication source"
+    },
+    {
+      "path": "tooling/benchmarks/SKEW-MEASUREMENTS.json",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/benchmarks/SKEW-MEASUREMENTS.json",
+      "source_sha256": "27428f029ba6ff785096701e00d9fb79df950c40f89c2424e7190a5149b156f4",
+      "included_sha256": "27428f029ba6ff785096701e00d9fb79df950c40f89c2424e7190a5149b156f4",
+      "transformation": "none; versioned publication source"
+    },
+    {
+      "path": "tooling/benchmarks/baselines/skew_forward.py",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/benchmarks/baselines/skew_forward.py",
+      "source_sha256": "37251a4d70618acc9adb3c890081e10b164876363387f5ab43590cfb3e73c859",
+      "included_sha256": "37251a4d70618acc9adb3c890081e10b164876363387f5ab43590cfb3e73c859",
+      "transformation": "none; versioned publication source"
+    },
+    {
+      "path": "tooling/benchmarks/baselines/skew_row_sweep.py",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/benchmarks/baselines/skew_row_sweep.py",
+      "source_sha256": "36abb01dc19c292b148444316b769ad48ec557d369e3ffbaf3f9738dcb277ad0",
+      "included_sha256": "36abb01dc19c292b148444316b769ad48ec557d369e3ffbaf3f9738dcb277ad0",
+      "transformation": "none; versioned publication source"
     },
     {
       "path": "tooling/benchmarks/cases.json",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "methods/shared-tools-2026-09-09/publication/tooling/benchmarks/cases.json",
-      "source_sha256": "37b0437a008123664bf2dd3dad58ab4dfbecd15e75da14f3355731b2a56e9330",
-      "included_sha256": "37b0437a008123664bf2dd3dad58ab4dfbecd15e75da14f3355731b2a56e9330",
-      "transformation": "none; authored or curated publication source"
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/benchmarks/cases.json",
+      "source_sha256": "9081d6fdbf0d1ac2ab93160ff01d856ccd985395b2320ac3e7ecad9878662ddf",
+      "included_sha256": "9081d6fdbf0d1ac2ab93160ff01d856ccd985395b2320ac3e7ecad9878662ddf",
+      "transformation": "none; versioned publication source"
     },
     {
       "path": "tooling/benchmarks/compare.py",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "methods/shared-tools-2026-09-09/publication/tooling/benchmarks/compare.py",
-      "source_sha256": "909b5260e3a5b7a32ae62ab44baffab5a9fa39a0b95c2be465f73e06466345e7",
-      "included_sha256": "909b5260e3a5b7a32ae62ab44baffab5a9fa39a0b95c2be465f73e06466345e7",
-      "transformation": "none; authored or curated publication source"
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/benchmarks/compare.py",
+      "source_sha256": "a2db6f5af11d78ad6cc8e52e082b5b56d4ea08492e85959702360a90466caa2e",
+      "included_sha256": "a2db6f5af11d78ad6cc8e52e082b5b56d4ea08492e85959702360a90466caa2e",
+      "transformation": "none; versioned publication source"
     },
     {
       "path": "tooling/check.py",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "methods/shared-tools-2026-09-09/publication/tooling/check.py",
-      "source_sha256": "6bd7a8294326f2557c56e8d72ddb189e066723325b77e90832fc46468d9a7327",
-      "included_sha256": "6bd7a8294326f2557c56e8d72ddb189e066723325b77e90832fc46468d9a7327",
-      "transformation": "none; authored or curated publication source"
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/check.py",
+      "source_sha256": "19088af7db7a04ada0f9879abaeedcad2c2c024357d7eb3861735cc49a0634f1",
+      "included_sha256": "19088af7db7a04ada0f9879abaeedcad2c2c024357d7eb3861735cc49a0634f1",
+      "transformation": "none; versioned publication source"
     },
     {
       "path": "tooling/examples/quickstart.py",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "methods/shared-tools-2026-09-09/publication/tooling/examples/quickstart.py",
-      "source_sha256": "221fe6f6b7b894dcd42a18aabda146bfdeb5b39ce519ceb909e5777f60b06e33",
-      "included_sha256": "221fe6f6b7b894dcd42a18aabda146bfdeb5b39ce519ceb909e5777f60b06e33",
-      "transformation": "none; authored or curated publication source"
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/examples/quickstart.py",
+      "source_sha256": "8c551c0e09da2224ff7e05b22219212dee13da1ded5ff1e177194d99b9d2a163",
+      "included_sha256": "8c551c0e09da2224ff7e05b22219212dee13da1ded5ff1e177194d99b9d2a163",
+      "transformation": "none; versioned publication source"
     },
     {
       "path": "tooling/proofs/PROOF-SOURCES.json",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "methods/shared-tools-2026-09-09/publication/tooling/proofs/PROOF-SOURCES.json",
-      "source_sha256": "2e139f271bbd85f7555bccffbad5df6286ca6bf5beb91f4bdc67acaf2a920d49",
-      "included_sha256": "2e139f271bbd85f7555bccffbad5df6286ca6bf5beb91f4bdc67acaf2a920d49",
-      "transformation": "none; authored or curated publication source"
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/proofs/PROOF-SOURCES.json",
+      "source_sha256": "63afcc88bac84881da63455f9fbb13125776d3c4baac277628e39b31de68c986",
+      "included_sha256": "63afcc88bac84881da63455f9fbb13125776d3c4baac277628e39b31de68c986",
+      "transformation": "none; versioned publication source"
     },
     {
       "path": "tooling/proofs/cdagger.md",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "methods/shared-tools-2026-09-09/publication/tooling/proofs/cdagger.md",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/proofs/cdagger.md",
       "source_sha256": "b1bf90ccd52f04ea4c96014f168d04132741d120ccce4c9c3830f3ff995fc0b7",
       "included_sha256": "b1bf90ccd52f04ea4c96014f168d04132741d120ccce4c9c3830f3ff995fc0b7",
-      "transformation": "none; authored or curated publication source"
+      "transformation": "none; versioned publication source"
     },
     {
       "path": "tooling/proofs/flow-support.md",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "methods/shared-tools-2026-09-09/publication/tooling/proofs/flow-support.md",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/proofs/flow-support.md",
       "source_sha256": "dbd1021be3ee32805d1502251117e12c6584fd75fb234a8ab9b56481a5cb891f",
       "included_sha256": "dbd1021be3ee32805d1502251117e12c6584fd75fb234a8ab9b56481a5cb891f",
-      "transformation": "none; authored or curated publication source"
+      "transformation": "none; versioned publication source"
     },
     {
       "path": "tooling/proofs/matrix-invariants.md",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "methods/shared-tools-2026-09-09/publication/tooling/proofs/matrix-invariants.md",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/proofs/matrix-invariants.md",
       "source_sha256": "5caadc8aba7e895b64022d607c307a1bf1d7d8ade929fd850118ebf3cc79bf5b",
       "included_sha256": "5caadc8aba7e895b64022d607c307a1bf1d7d8ade929fd850118ebf3cc79bf5b",
-      "transformation": "none; authored or curated publication source"
+      "transformation": "none; versioned publication source"
     },
     {
       "path": "tooling/proofs/positive-strip.md",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "methods/shared-tools-2026-09-09/publication/tooling/proofs/positive-strip.md",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/proofs/positive-strip.md",
       "source_sha256": "2ab54b1e166c958cd12e98c84c5e5f40b4c5e737a73115b6a388476ce4b082a5",
       "included_sha256": "2ab54b1e166c958cd12e98c84c5e5f40b4c5e737a73115b6a388476ce4b082a5",
-      "transformation": "none; authored or curated publication source"
+      "transformation": "none; versioned publication source"
+    },
+    {
+      "path": "tooling/proofs/skew-count.md",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/proofs/skew-count.md",
+      "source_sha256": "9b0c5de4b211926a5a7555c511b0c9c4f144248648e56d96ceb65c97d6de5d47",
+      "included_sha256": "9b0c5de4b211926a5a7555c511b0c9c4f144248648e56d96ceb65c97d6de5d47",
+      "transformation": "none; versioned publication source"
     },
     {
       "path": "tooling/proofs/skew-lift.md",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "methods/shared-tools-2026-09-09/publication/tooling/proofs/skew-lift.md",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/proofs/skew-lift.md",
       "source_sha256": "bcb558936849de07b98839b4713afd62c5a116482bafe25865b1c973456f3eee",
       "included_sha256": "bcb558936849de07b98839b4713afd62c5a116482bafe25865b1c973456f3eee",
-      "transformation": "none; authored or curated publication source"
+      "transformation": "none; versioned publication source"
     },
     {
       "path": "tooling/proofs/transport.md",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "methods/shared-tools-2026-09-09/publication/tooling/proofs/transport.md",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/proofs/transport.md",
       "source_sha256": "06084c6c6814b270b7af1aa0a7cd27665aa52a8f9c581efccf8089862a3eb240",
       "included_sha256": "06084c6c6814b270b7af1aa0a7cd27665aa52a8f9c581efccf8089862a3eb240",
-      "transformation": "none; authored or curated publication source"
+      "transformation": "none; versioned publication source"
     },
     {
       "path": "tooling/slr_ehrhart/__init__.py",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "methods/shared-tools-2026-09-09/publication/tooling/slr_ehrhart/__init__.py",
-      "source_sha256": "9d86e3b50386c2de85bc372f34f7b70993e5f74495fcaa2dd458cd080c5c9c5d",
-      "included_sha256": "9d86e3b50386c2de85bc372f34f7b70993e5f74495fcaa2dd458cd080c5c9c5d",
-      "transformation": "none; authored or curated publication source"
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/slr_ehrhart/__init__.py",
+      "source_sha256": "ed68a670c66863d9fe684a16171ca1160b5b6df0acb3d902ff8793586f9f10fa",
+      "included_sha256": "ed68a670c66863d9fe684a16171ca1160b5b6df0acb3d902ff8793586f9f10fa",
+      "transformation": "none; versioned publication source"
     },
     {
       "path": "tooling/slr_ehrhart/_cdagger_data.py",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
       "source_path": "code/ehrhart/src/slr_ehrhart/_cdagger_data.py",
       "source_sha256": "ac564b713476f344368ab7fd38300b9df0159c2b68390641099b4a698b49b9bc",
       "included_sha256": "ac564b713476f344368ab7fd38300b9df0159c2b68390641099b4a698b49b9bc",
-      "transformation": "none"
+      "transformation": "none; maintained implementation"
     },
     {
       "path": "tooling/slr_ehrhart/cdagger.py",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
       "source_path": "code/ehrhart/src/slr_ehrhart/cdagger.py",
       "source_sha256": "3912b8da7ff9cceffaebfaea2bb263bf955c20f0f66ab006e7880d2792faf02c",
       "included_sha256": "3912b8da7ff9cceffaebfaea2bb263bf955c20f0f66ab006e7880d2792faf02c",
-      "transformation": "none"
+      "transformation": "none; maintained implementation"
     },
     {
       "path": "tooling/slr_ehrhart/constructions.py",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "code/ehrhart/src/slr_ehrhart/constructions.py",
-      "source_sha256": "48de4ccc72b2893f26e42f561619392860ca60a57747aed49aac1014d802d350",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/slr_ehrhart/constructions.py",
+      "source_sha256": "c0286440f8de8643e8b2641e63c353f0b22967a93050a7c18c9529891c5e8e68",
       "included_sha256": "c0286440f8de8643e8b2641e63c353f0b22967a93050a7c18c9529891c5e8e68",
-      "transformation": "proof/docstring references made portable; arithmetic unchanged"
+      "transformation": "none; versioned publication source"
     },
     {
       "path": "tooling/slr_ehrhart/flow_support.py",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
       "source_path": "code/ehrhart/src/slr_ehrhart/flow_support.py",
       "source_sha256": "4d3d43c80163dc8e5c64112fe5c3b1a7fb4874b6a1ced573fdc649e66cfc3c00",
       "included_sha256": "4d3d43c80163dc8e5c64112fe5c3b1a7fb4874b6a1ced573fdc649e66cfc3c00",
-      "transformation": "none"
+      "transformation": "none; maintained implementation"
     },
     {
       "path": "tooling/slr_ehrhart/hive.py",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
       "source_path": "code/ehrhart/src/slr_ehrhart/hive.py",
       "source_sha256": "8797f8e2662fd9ba9b4f7e0b9e29d7831e96f4a0d15e86841b348278e588392a",
       "included_sha256": "8797f8e2662fd9ba9b4f7e0b9e29d7831e96f4a0d15e86841b348278e588392a",
-      "transformation": "none"
+      "transformation": "none; maintained implementation"
     },
     {
       "path": "tooling/slr_ehrhart/matrix_invariants.py",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "code/ehrhart/src/slr_ehrhart/matrix_invariants.py",
-      "source_sha256": "3d4ec376e20be5117caf49a06c5ee90e67fe5136c5cfad6ca44b241890ae2d09",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/slr_ehrhart/matrix_invariants.py",
+      "source_sha256": "612f480fc8fbc00340eb6f24d859bcb9362c7d458c9b77ee9dfaa70774e827e3",
       "included_sha256": "612f480fc8fbc00340eb6f24d859bcb9362c7d458c9b77ee9dfaa70774e827e3",
-      "transformation": "proof/docstring references made portable; arithmetic unchanged"
+      "transformation": "none; versioned publication source"
+    },
+    {
+      "path": "tooling/slr_ehrhart/skew_count.py",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "code/ehrhart/src/slr_ehrhart/skew_count.py",
+      "source_sha256": "38c2d959a036a30109b3fda000e11f49ade6a96d0a22627269ed7ff7615fe90d",
+      "included_sha256": "38c2d959a036a30109b3fda000e11f49ade6a96d0a22627269ed7ff7615fe90d",
+      "transformation": "none; maintained implementation"
     },
     {
       "path": "tooling/slr_ehrhart/strip.py",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
       "source_path": "code/ehrhart/src/slr_ehrhart/strip.py",
       "source_sha256": "26db8a7594b88cc4fc83b79684b63dc1fe74f16de1b941c94d96929175a97c00",
       "included_sha256": "26db8a7594b88cc4fc83b79684b63dc1fe74f16de1b941c94d96929175a97c00",
-      "transformation": "none"
+      "transformation": "none; maintained implementation"
     },
     {
       "path": "tooling/slr_ehrhart/support.py",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
       "source_path": "code/ehrhart/src/slr_ehrhart/support.py",
       "source_sha256": "6f8537aa68696423210ad241e3a4ad41a9957ef2a1b5d18cee234732fb9570b9",
       "included_sha256": "6f8537aa68696423210ad241e3a4ad41a9957ef2a1b5d18cee234732fb9570b9",
-      "transformation": "none"
+      "transformation": "none; maintained implementation"
     },
     {
       "path": "tooling/slr_ehrhart/transport.py",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
       "source_path": "code/ehrhart/src/slr_ehrhart/transport.py",
       "source_sha256": "35372ffcadfece1215c016c50013454d557333def8ff1cff6c453c04b39c3f70",
       "included_sha256": "35372ffcadfece1215c016c50013454d557333def8ff1cff6c453c04b39c3f70",
-      "transformation": "none"
+      "transformation": "none; maintained implementation"
     },
     {
       "path": "tooling/tests/fixtures/frc_support_controls.json",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "code/ehrhart/tests/fixtures/frc_support_controls.json",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/tests/fixtures/frc_support_controls.json",
       "source_sha256": "baac58a67a20e901f4e532b6257528a6c1536076265c242d8ff6b250998334d4",
       "included_sha256": "baac58a67a20e901f4e532b6257528a6c1536076265c242d8ff6b250998334d4",
-      "transformation": "none; frozen independent comparison fixture"
+      "transformation": "none; versioned publication source"
     },
     {
       "path": "tooling/tests/fixtures/native_k_oracles.py",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "code/ehrhart/tests/fixtures/native_k_oracles.py",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/tests/fixtures/native_k_oracles.py",
       "source_sha256": "c0f9092fa2c6691bc0d9748d3e7138b83cfc6c1b769fd385bfcfab925da95bfc",
       "included_sha256": "c0f9092fa2c6691bc0d9748d3e7138b83cfc6c1b769fd385bfcfab925da95bfc",
-      "transformation": "none; frozen independent comparison fixture"
+      "transformation": "none; versioned publication source"
     },
     {
       "path": "tooling/tests/fixtures/transport_before_shared_tools.py",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "code/ehrhart/tests/fixtures/transport_before_shared_tools.py",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/tests/fixtures/transport_before_shared_tools.py",
       "source_sha256": "0b9083ce68e9802233eb8ab954416510d2e6e2013044eb91e3e31dece0440b65",
       "included_sha256": "0b9083ce68e9802233eb8ab954416510d2e6e2013044eb91e3e31dece0440b65",
-      "transformation": "none; frozen independent comparison fixture"
+      "transformation": "none; versioned publication source"
     },
     {
       "path": "tooling/tests/test_cdagger.py",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "code/ehrhart/tests/test_cdagger.py",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/tests/test_cdagger.py",
       "source_sha256": "d1c1ee61be4a686369b914cc9ceda61e0e55e5b7242bb35c2056a172ca7ee627",
       "included_sha256": "d1c1ee61be4a686369b914cc9ceda61e0e55e5b7242bb35c2056a172ca7ee627",
-      "transformation": "none"
+      "transformation": "none; versioned publication source"
     },
     {
       "path": "tooling/tests/test_consumers.py",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "code/ehrhart/tests/test_consumers.py",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/tests/test_consumers.py",
       "source_sha256": "71a1421273baaebd1399701187787bcaa7628ee59db1766260deda760e5b3ec2",
       "included_sha256": "71a1421273baaebd1399701187787bcaa7628ee59db1766260deda760e5b3ec2",
-      "transformation": "none"
+      "transformation": "none; versioned publication source"
     },
     {
       "path": "tooling/tests/test_flow_support.py",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "code/ehrhart/tests/test_flow_support.py",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/tests/test_flow_support.py",
       "source_sha256": "e1096800969b675752c841c6847a54236458c508154c592e0ed7180de6963054",
       "included_sha256": "e1096800969b675752c841c6847a54236458c508154c592e0ed7180de6963054",
-      "transformation": "none"
+      "transformation": "none; versioned publication source"
+    },
+    {
+      "path": "tooling/tests/test_skew_count.py",
+      "source_repository": "stretched-lr-research",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/tests/test_skew_count.py",
+      "source_sha256": "41fb5d33b8ff92950f7d0f6076eac980cb2c4df02af68f1c458a9f35f1866f7c",
+      "included_sha256": "41fb5d33b8ff92950f7d0f6076eac980cb2c4df02af68f1c458a9f35f1866f7c",
+      "transformation": "none; versioned publication source"
     },
     {
       "path": "tooling/tests/test_strip.py",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "code/ehrhart/tests/test_strip.py",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/tests/test_strip.py",
       "source_sha256": "23bf8cd731f1b65f39979649c2b4364dff451345cf9b0be3a325552eb5ff9287",
       "included_sha256": "23bf8cd731f1b65f39979649c2b4364dff451345cf9b0be3a325552eb5ff9287",
-      "transformation": "none"
+      "transformation": "none; versioned publication source"
     },
     {
       "path": "tooling/tests/test_transport.py",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "code/ehrhart/tests/test_transport.py",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/tests/test_transport.py",
       "source_sha256": "e898c05fe3ef1e070ec5cd16f1b56738f1f63e46d4512969a53a41266407f2db",
       "included_sha256": "e898c05fe3ef1e070ec5cd16f1b56738f1f63e46d4512969a53a41266407f2db",
-      "transformation": "none"
+      "transformation": "none; versioned publication source"
     },
     {
       "path": "tooling/tests/test_transport_optimization.py",
       "source_repository": "stretched-lr-research",
-      "source_commit": "5cd399564def6bd5ec4160471678ceaf0fda99dd",
-      "source_path": "code/ehrhart/tests/test_transport_optimization.py",
+      "source_commit": "0d386fff9db62a50b447de7757365074a42a429e",
+      "source_path": "methods/shared-tools-extension-2026-09-09/publication/tooling/tests/test_transport_optimization.py",
       "source_sha256": "0147987e01920acd4a1f9e28b6b6c15a15b52674ffcea72f9041008fa6e7f2b1",
       "included_sha256": "0147987e01920acd4a1f9e28b6b6c15a15b52674ffcea72f9041008fa6e7f2b1",
-      "transformation": "none"
+      "transformation": "none; versioned publication source"
     }
   ],
   "new_repository_wrappers": "README/RESULTS/REFERENCES/PROVENANCE, root runner and two reader READMEs authored during PUB-1; source-backed claims are cited in those files"

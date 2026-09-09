@@ -274,5 +274,107 @@
       ],
       1
     ]
+  },
+  {
+    "id": "skew-r11-t2",
+    "operation": "skew",
+    "args": [
+      [
+        30,
+        26,
+        3,
+        2,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        14,
+        14,
+        14,
+        12,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      2
+    ],
+    "implementations": [
+      "native_forward",
+      "native_row_sweep",
+      "optimized"
+    ]
+  },
+  {
+    "id": "skew-r11-t3",
+    "operation": "skew",
+    "args": [
+      [
+        30,
+        26,
+        3,
+        2,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        14,
+        14,
+        14,
+        12,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      3
+    ],
+    "implementations": [
+      "native_forward",
+      "native_row_sweep",
+      "optimized"
+    ]
+  },
+  {
+    "id": "skew-native-row5-t1",
+    "operation": "skew",
+    "args": [
+      [
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      1
+    ],
+    "implementations": [
+      "native_forward",
+      "native_row_sweep",
+      "optimized"
+    ]
   }
 ]

@@ -88,3 +88,13 @@ the conventional hive. Existing native Fable oracle functions and selected
 Codex support objects provide actual comparison inputs; executing these in
 Codex does not claim native deployment or adoption of this version. Full source,
 AI-assistance and licensing context is in [SOURCE-LICENSES.md](tooling/SOURCE-LICENSES.md).
+
+## Skew-count extension — 9 September 2026
+
+The second tooling version is bound to research commit `0d386fff9db62a50b447de7757365074a42a429e`.
+It adds complete skew-tableau scalar counting, a proof of aggregation and
+pruning, literal-cell controls and two selected native-source comparison
+methods. The new measurements compare identical inputs under one interpreter.
+The prior Sage timing is source-reported and was not rerun. Agreement on the
+two changed-family third dilations verifies those scalar values; it supplies
+no full degree-29 vector, new coefficient sign or native deployment claim.

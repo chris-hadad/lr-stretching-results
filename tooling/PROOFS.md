@@ -117,6 +117,17 @@ original matrix size is retained by the whole-family constructor. The supporting
 an assertion about the entire graded ring. Optional work limits raise a typed
 exception; no partial signed sum is returned as a count.
 
+## General skew-tableau scalar counting
+
+A semistandard skew tableau is a chain of horizontal strips, one per label.
+The new counter aggregates partial bottom-up row sweeps, preserving the old
+upper rows needed by interlacing. Spent area is determined by the mixed tuple
+and fixed preceding-layer area; exact capacity and future-height bounds prune
+only impossible continuations. [The complete proof](proofs/skew-count.md)
+explains the bijection, aggregation and typed work limits. The buffer lift above
+identifies the count with its particular whole ordinary LR triple. This does
+not invert arbitrary LR inputs or reconstruct high-degree polynomials.
+
 ## Exact support and dimension
 
 For unique interval edges `(u,v)` on vertices `0..n`, the complete flow fiber is

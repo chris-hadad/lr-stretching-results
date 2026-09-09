@@ -7,7 +7,8 @@ remain unresolved; no public release or human peer review is implied.
 
 The [exact tooling section](tooling/README.md) provides standalone Python
 counts and certificates: a checked bare-triple path on the proved Cdagger
-rank-six sector, faster transportation and segment-quotient counts, whole-family
+rank-six sector, complete skew-tableau scalar counts, faster transportation and
+segment-quotient counts, whole-family
 LR constructors, and exact support/dimension witnesses. It includes examples,
 focused tests, complete mathematical premises and same-input benchmarks.
 

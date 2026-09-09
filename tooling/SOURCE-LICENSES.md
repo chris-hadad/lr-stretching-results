@@ -39,3 +39,13 @@ no new public license and changes no existing licensing or authorship decision.
 Public licensing, public release and collaborator invitations remain decisions
 for the repository owner. Source notices are preserved; model assistance is
 disclosed without assigning models human authorship.
+
+
+The second tooling version adds the skew-tableau scalar counter, developed
+from the late native horizontal-strip method. Its tuple-only aggregation and
+exact pruning were independently implemented and checked against native-source
+forward and row-sweep code, literal small tableaux and actual research inputs.
+The two frozen benchmark baselines preserve selected native function bodies
+with only standard-library import wrappers. Source timing is distinguished
+from new paired measurements, and scalar agreement does not authenticate a
+full high-degree polynomial.
