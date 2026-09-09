@@ -1,0 +1,939 @@
+{
+  "schema": "shared-tools-benchmarks/v1",
+  "measured_date": "2026-09-09",
+  "python": "3.14.3",
+  "system": "Darwin",
+  "architecture": "arm64",
+  "environment_note": "Shared workstation; one thread per child; warm cross-call caches are not used. Timings are observations, not universal guarantees.",
+  "transport_baseline_sha256": "0b9083ce68e9802233eb8ab954416510d2e6e2013044eb91e3e31dece0440b65",
+  "transport_optimized_sha256": "35372ffcadfece1215c016c50013454d557333def8ff1cff6c453c04b39c3f70",
+  "paired_count_measurements": 84,
+  "strip_comparison_measurements": 18,
+  "count_cases": [
+    {
+      "case_id": "transport-permutation10",
+      "value": "3628800",
+      "versions": {
+        "BASE": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-01-BASE-R1",
+              "count_seconds": 0.0002021660329774022,
+              "contained_seconds": 0.11052195797674358,
+              "maxrss_bytes": 29491200
+            },
+            {
+              "identity": "ST-PAIRED-01-BASE-R2",
+              "count_seconds": 0.00019520800560712814,
+              "contained_seconds": 0.11576383298961446,
+              "maxrss_bytes": 29474816
+            },
+            {
+              "identity": "ST-PAIRED-01-BASE-R3",
+              "count_seconds": 0.00019412499386817217,
+              "contained_seconds": 0.11311045801267028,
+              "maxrss_bytes": 29507584
+            }
+          ],
+          "median_count_seconds": 0.00019520800560712814,
+          "median_contained_seconds": 0.11311045801267028
+        },
+        "OPT": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-01-OPT-R1",
+              "count_seconds": 0.00016316596884280443,
+              "contained_seconds": 0.10546204197453335,
+              "maxrss_bytes": 29065216
+            },
+            {
+              "identity": "ST-PAIRED-01-OPT-R2",
+              "count_seconds": 0.00011966703459620476,
+              "contained_seconds": 0.11715654202271253,
+              "maxrss_bytes": 29343744
+            },
+            {
+              "identity": "ST-PAIRED-01-OPT-R3",
+              "count_seconds": 0.00013050000416114926,
+              "contained_seconds": 0.12054716603597626,
+              "maxrss_bytes": 29147136
+            }
+          ],
+          "median_count_seconds": 0.00013050000416114926,
+          "median_contained_seconds": 0.11715654202271253
+        }
+      },
+      "count_ratio_baseline_over_optimized": 1.4958467385646481,
+      "contained_ratio_baseline_over_optimized": 0.9654642929862349
+    },
+    {
+      "case_id": "transport-repeated3x8",
+      "value": "1579060246400",
+      "versions": {
+        "BASE": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-02-BASE-R1",
+              "count_seconds": 0.004210291954223067,
+              "contained_seconds": 0.10799862496787682,
+              "maxrss_bytes": 29245440
+            },
+            {
+              "identity": "ST-PAIRED-02-BASE-R2",
+              "count_seconds": 0.004455374961253256,
+              "contained_seconds": 0.12415333301760256,
+              "maxrss_bytes": 29229056
+            },
+            {
+              "identity": "ST-PAIRED-02-BASE-R3",
+              "count_seconds": 0.0051263339701108634,
+              "contained_seconds": 0.12021408404689282,
+              "maxrss_bytes": 29081600
+            }
+          ],
+          "median_count_seconds": 0.004455374961253256,
+          "median_contained_seconds": 0.12021408404689282
+        },
+        "OPT": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-02-OPT-R1",
+              "count_seconds": 0.001244042010512203,
+              "contained_seconds": 0.10872979200212285,
+              "maxrss_bytes": 29081600
+            },
+            {
+              "identity": "ST-PAIRED-02-OPT-R2",
+              "count_seconds": 0.0012732910108752549,
+              "contained_seconds": 0.12093516695313156,
+              "maxrss_bytes": 29261824
+            },
+            {
+              "identity": "ST-PAIRED-02-OPT-R3",
+              "count_seconds": 0.001677708001807332,
+              "contained_seconds": 0.12041762500302866,
+              "maxrss_bytes": 29147136
+            }
+          ],
+          "median_count_seconds": 0.0012732910108752549,
+          "median_contained_seconds": 0.12041762500302866
+        }
+      },
+      "count_ratio_baseline_over_optimized": 3.4991018731771693,
+      "contained_ratio_baseline_over_optimized": 0.9983097079341108
+    },
+    {
+      "case_id": "native-chart-m0-t2",
+      "value": "1002",
+      "versions": {
+        "BASE": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-03-BASE-R1",
+              "count_seconds": 0.00023958302335813642,
+              "contained_seconds": 0.12643966701580212,
+              "maxrss_bytes": 29458432
+            },
+            {
+              "identity": "ST-PAIRED-03-BASE-R2",
+              "count_seconds": 0.00023991696070879698,
+              "contained_seconds": 0.11674466700060293,
+              "maxrss_bytes": 29130752
+            },
+            {
+              "identity": "ST-PAIRED-03-BASE-R3",
+              "count_seconds": 0.0002358339843340218,
+              "contained_seconds": 0.11497779097408056,
+              "maxrss_bytes": 29474816
+            }
+          ],
+          "median_count_seconds": 0.00023958302335813642,
+          "median_contained_seconds": 0.11674466700060293
+        },
+        "OPT": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-03-OPT-R1",
+              "count_seconds": 0.0002691660192795098,
+              "contained_seconds": 0.1090818329830654,
+              "maxrss_bytes": 28983296
+            },
+            {
+              "identity": "ST-PAIRED-03-OPT-R2",
+              "count_seconds": 0.00019762496231123805,
+              "contained_seconds": 0.12414241599617526,
+              "maxrss_bytes": 29409280
+            },
+            {
+              "identity": "ST-PAIRED-03-OPT-R3",
+              "count_seconds": 0.0001930830185301602,
+              "contained_seconds": 0.11636220797663555,
+              "maxrss_bytes": 29327360
+            }
+          ],
+          "median_count_seconds": 0.00019762496231123805,
+          "median_contained_seconds": 0.11636220797663555
+        }
+      },
+      "count_ratio_baseline_over_optimized": 1.2123115448382422,
+      "contained_ratio_baseline_over_optimized": 1.00328679758332
+    },
+    {
+      "case_id": "native-chart-m3-t4",
+      "value": "173539",
+      "versions": {
+        "BASE": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-04-BASE-R1",
+              "count_seconds": 0.007844624982681125,
+              "contained_seconds": 0.11569758295081556,
+              "maxrss_bytes": 29229056
+            },
+            {
+              "identity": "ST-PAIRED-04-BASE-R2",
+              "count_seconds": 0.007526291999965906,
+              "contained_seconds": 0.12598249997245148,
+              "maxrss_bytes": 29474816
+            },
+            {
+              "identity": "ST-PAIRED-04-BASE-R3",
+              "count_seconds": 0.01126679201843217,
+              "contained_seconds": 0.14978258399059996,
+              "maxrss_bytes": 29294592
+            }
+          ],
+          "median_count_seconds": 0.007844624982681125,
+          "median_contained_seconds": 0.12598249997245148
+        },
+        "OPT": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-04-OPT-R1",
+              "count_seconds": 0.0009773749625310302,
+              "contained_seconds": 0.11032712500309572,
+              "maxrss_bytes": 29212672
+            },
+            {
+              "identity": "ST-PAIRED-04-OPT-R2",
+              "count_seconds": 0.0016530409920960665,
+              "contained_seconds": 0.13715412496821955,
+              "maxrss_bytes": 29507584
+            },
+            {
+              "identity": "ST-PAIRED-04-OPT-R3",
+              "count_seconds": 0.0011099160183221102,
+              "contained_seconds": 0.12667512497864664,
+              "maxrss_bytes": 29245440
+            }
+          ],
+          "median_count_seconds": 0.0011099160183221102,
+          "median_contained_seconds": 0.12667512497864664
+        }
+      },
+      "count_ratio_baseline_over_optimized": 7.067764455314426,
+      "contained_ratio_baseline_over_optimized": 0.9945322729595735
+    },
+    {
+      "case_id": "transport-two-row",
+      "value": "83834501",
+      "versions": {
+        "BASE": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-05-BASE-R1",
+              "count_seconds": 0.2108986250241287,
+              "contained_seconds": 0.32050274999346584,
+              "maxrss_bytes": 29556736
+            },
+            {
+              "identity": "ST-PAIRED-05-BASE-R2",
+              "count_seconds": 0.23413712496403605,
+              "contained_seconds": 0.35140404204139486,
+              "maxrss_bytes": 29622272
+            },
+            {
+              "identity": "ST-PAIRED-05-BASE-R3",
+              "count_seconds": 0.2601079170126468,
+              "contained_seconds": 0.37711037503322586,
+              "maxrss_bytes": 29851648
+            }
+          ],
+          "median_count_seconds": 0.23413712496403605,
+          "median_contained_seconds": 0.35140404204139486
+        },
+        "OPT": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-05-OPT-R1",
+              "count_seconds": 4.9915979616343975e-05,
+              "contained_seconds": 0.10589224996510893,
+              "maxrss_bytes": 29016064
+            },
+            {
+              "identity": "ST-PAIRED-05-OPT-R2",
+              "count_seconds": 5.954096559435129e-05,
+              "contained_seconds": 0.11358483403455466,
+              "maxrss_bytes": 29245440
+            },
+            {
+              "identity": "ST-PAIRED-05-OPT-R3",
+              "count_seconds": 6.391596980392933e-05,
+              "contained_seconds": 0.13752529199700803,
+              "maxrss_bytes": 29392896
+            }
+          ],
+          "median_count_seconds": 5.954096559435129e-05,
+          "median_contained_seconds": 0.11358483403455466
+        }
+      },
+      "count_ratio_baseline_over_optimized": 3932.3703038206836,
+      "contained_ratio_baseline_over_optimized": 3.0937584672130707
+    },
+    {
+      "case_id": "transport-unequal",
+      "value": "212858",
+      "versions": {
+        "BASE": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-06-BASE-R1",
+              "count_seconds": 0.003093042003456503,
+              "contained_seconds": 0.10836825001752004,
+              "maxrss_bytes": 29229056
+            },
+            {
+              "identity": "ST-PAIRED-06-BASE-R2",
+              "count_seconds": 0.003162749984767288,
+              "contained_seconds": 0.12812404200667515,
+              "maxrss_bytes": 29327360
+            },
+            {
+              "identity": "ST-PAIRED-06-BASE-R3",
+              "count_seconds": 0.0034314580261707306,
+              "contained_seconds": 0.13682737504132092,
+              "maxrss_bytes": 29425664
+            }
+          ],
+          "median_count_seconds": 0.003162749984767288,
+          "median_contained_seconds": 0.12812404200667515
+        },
+        "OPT": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-06-OPT-R1",
+              "count_seconds": 0.0021489590290002525,
+              "contained_seconds": 0.11083587497705594,
+              "maxrss_bytes": 29147136
+            },
+            {
+              "identity": "ST-PAIRED-06-OPT-R2",
+              "count_seconds": 0.0021437079994939268,
+              "contained_seconds": 0.11974170804023743,
+              "maxrss_bytes": 29130752
+            },
+            {
+              "identity": "ST-PAIRED-06-OPT-R3",
+              "count_seconds": 0.002373916970100254,
+              "contained_seconds": 0.12977308296831325,
+              "maxrss_bytes": 29212672
+            }
+          ],
+          "median_count_seconds": 0.0021489590290002525,
+          "median_contained_seconds": 0.11974170804023743
+        }
+      },
+      "count_ratio_baseline_over_optimized": 1.471759089906277,
+      "contained_ratio_baseline_over_optimized": 1.0700034608126767
+    },
+    {
+      "case_id": "native-quotient-t10",
+      "value": "2774200",
+      "versions": {
+        "BASE": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-07-BASE-R1",
+              "count_seconds": 0.0009479169966652989,
+              "contained_seconds": 0.10524629201972857,
+              "maxrss_bytes": 29163520
+            },
+            {
+              "identity": "ST-PAIRED-07-BASE-R2",
+              "count_seconds": 0.0009526250069029629,
+              "contained_seconds": 0.1286143329925835,
+              "maxrss_bytes": 29458432
+            },
+            {
+              "identity": "ST-PAIRED-07-BASE-R3",
+              "count_seconds": 0.0009450000361539423,
+              "contained_seconds": 0.11972254200372845,
+              "maxrss_bytes": 29114368
+            }
+          ],
+          "median_count_seconds": 0.0009479169966652989,
+          "median_contained_seconds": 0.11972254200372845
+        },
+        "OPT": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-07-OPT-R1",
+              "count_seconds": 0.0002080000122077763,
+              "contained_seconds": 0.1095845410018228,
+              "maxrss_bytes": 29114368
+            },
+            {
+              "identity": "ST-PAIRED-07-OPT-R2",
+              "count_seconds": 0.00020637502893805504,
+              "contained_seconds": 0.10940854100044817,
+              "maxrss_bytes": 29245440
+            },
+            {
+              "identity": "ST-PAIRED-07-OPT-R3",
+              "count_seconds": 0.00026162504218518734,
+              "contained_seconds": 0.1225172919803299,
+              "maxrss_bytes": 29474816
+            }
+          ],
+          "median_count_seconds": 0.0002080000122077763,
+          "median_contained_seconds": 0.1095845410018228
+        }
+      },
+      "count_ratio_baseline_over_optimized": 4.557292985725412,
+      "contained_ratio_baseline_over_optimized": 1.092513058039245
+    },
+    {
+      "case_id": "quotient-unequal",
+      "value": "60222",
+      "versions": {
+        "BASE": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-08-BASE-R1",
+              "count_seconds": 0.00021662504877895117,
+              "contained_seconds": 0.10504208400379866,
+              "maxrss_bytes": 29065216
+            },
+            {
+              "identity": "ST-PAIRED-08-BASE-R2",
+              "count_seconds": 0.0003506250213831663,
+              "contained_seconds": 0.11771766695892438,
+              "maxrss_bytes": 29523968
+            },
+            {
+              "identity": "ST-PAIRED-08-BASE-R3",
+              "count_seconds": 0.00031183299142867327,
+              "contained_seconds": 0.12302583397831768,
+              "maxrss_bytes": 29294592
+            }
+          ],
+          "median_count_seconds": 0.00031183299142867327,
+          "median_contained_seconds": 0.11771766695892438
+        },
+        "OPT": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-08-OPT-R1",
+              "count_seconds": 8.899997919797897e-05,
+              "contained_seconds": 0.1028393330052495,
+              "maxrss_bytes": 29163520
+            },
+            {
+              "identity": "ST-PAIRED-08-OPT-R2",
+              "count_seconds": 9.837502148002386e-05,
+              "contained_seconds": 0.12218604201916605,
+              "maxrss_bytes": 29442048
+            },
+            {
+              "identity": "ST-PAIRED-08-OPT-R3",
+              "count_seconds": 0.00010595796629786491,
+              "contained_seconds": 0.1333033749833703,
+              "maxrss_bytes": 29376512
+            }
+          ],
+          "median_count_seconds": 9.837502148002386e-05,
+          "median_contained_seconds": 0.12218604201916605
+        }
+      },
+      "count_ratio_baseline_over_optimized": 3.1698391190897417,
+      "contained_ratio_baseline_over_optimized": 0.9634297421669428
+    },
+    {
+      "case_id": "quotient-repeated2x6",
+      "value": "9235339956",
+      "versions": {
+        "BASE": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-09-BASE-R1",
+              "count_seconds": 0.0015044999890960753,
+              "contained_seconds": 0.10102508298587054,
+              "maxrss_bytes": 29179904
+            },
+            {
+              "identity": "ST-PAIRED-09-BASE-R2",
+              "count_seconds": 0.0018756670178845525,
+              "contained_seconds": 0.1171214579953812,
+              "maxrss_bytes": 29229056
+            },
+            {
+              "identity": "ST-PAIRED-09-BASE-R3",
+              "count_seconds": 0.0019354579853825271,
+              "contained_seconds": 0.1232780420104973,
+              "maxrss_bytes": 29032448
+            }
+          ],
+          "median_count_seconds": 0.0018756670178845525,
+          "median_contained_seconds": 0.1171214579953812
+        },
+        "OPT": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-09-OPT-R1",
+              "count_seconds": 0.0008300000336021185,
+              "contained_seconds": 0.10271779197501019,
+              "maxrss_bytes": 29179904
+            },
+            {
+              "identity": "ST-PAIRED-09-OPT-R2",
+              "count_seconds": 0.0008448329754173756,
+              "contained_seconds": 0.12785612494917586,
+              "maxrss_bytes": 29458432
+            },
+            {
+              "identity": "ST-PAIRED-09-OPT-R3",
+              "count_seconds": 0.0008620829903520644,
+              "contained_seconds": 0.1218910829629749,
+              "maxrss_bytes": 29376512
+            }
+          ],
+          "median_count_seconds": 0.0008448329754173756,
+          "median_contained_seconds": 0.1218910829629749
+        }
+      },
+      "count_ratio_baseline_over_optimized": 2.2201631239096824,
+      "contained_ratio_baseline_over_optimized": 0.9608697793829389
+    },
+    {
+      "case_id": "quotient-repeated4x3",
+      "value": "4942967",
+      "versions": {
+        "BASE": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-10-BASE-R1",
+              "count_seconds": 0.0009018339915201068,
+              "contained_seconds": 0.10174404201097786,
+              "maxrss_bytes": 29147136
+            },
+            {
+              "identity": "ST-PAIRED-10-BASE-R2",
+              "count_seconds": 0.0006940420134924352,
+              "contained_seconds": 0.10939983400749043,
+              "maxrss_bytes": 29261824
+            },
+            {
+              "identity": "ST-PAIRED-10-BASE-R3",
+              "count_seconds": 0.0007071250001899898,
+              "contained_seconds": 0.11618083401117474,
+              "maxrss_bytes": 29327360
+            }
+          ],
+          "median_count_seconds": 0.0007071250001899898,
+          "median_contained_seconds": 0.10939983400749043
+        },
+        "OPT": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-10-OPT-R1",
+              "count_seconds": 0.00045179104199633,
+              "contained_seconds": 0.09991945803631097,
+              "maxrss_bytes": 29196288
+            },
+            {
+              "identity": "ST-PAIRED-10-OPT-R2",
+              "count_seconds": 0.0006462089950218797,
+              "contained_seconds": 0.11253500002203509,
+              "maxrss_bytes": 29261824
+            },
+            {
+              "identity": "ST-PAIRED-10-OPT-R3",
+              "count_seconds": 0.0005275000003166497,
+              "contained_seconds": 0.12339562497800216,
+              "maxrss_bytes": 29310976
+            }
+          ],
+          "median_count_seconds": 0.0005275000003166497,
+          "median_contained_seconds": 0.11253500002203509
+        }
+      },
+      "count_ratio_baseline_over_optimized": 1.3405213265696951,
+      "contained_ratio_baseline_over_optimized": 0.9721405250461564
+    },
+    {
+      "case_id": "mixed-star",
+      "value": "210336",
+      "versions": {
+        "BASE": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-11-BASE-R1",
+              "count_seconds": 0.0001265000319108367,
+              "contained_seconds": 0.10137445799773559,
+              "maxrss_bytes": 29081600
+            },
+            {
+              "identity": "ST-PAIRED-11-BASE-R2",
+              "count_seconds": 0.00013766600750386715,
+              "contained_seconds": 0.10732033295789734,
+              "maxrss_bytes": 29147136
+            },
+            {
+              "identity": "ST-PAIRED-11-BASE-R3",
+              "count_seconds": 0.00024554197443649173,
+              "contained_seconds": 0.12381458299933001,
+              "maxrss_bytes": 29245440
+            }
+          ],
+          "median_count_seconds": 0.00013766600750386715,
+          "median_contained_seconds": 0.10732033295789734
+        },
+        "OPT": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-11-OPT-R1",
+              "count_seconds": 4.6916946303099394e-05,
+              "contained_seconds": 0.10170525003923103,
+              "maxrss_bytes": 28884992
+            },
+            {
+              "identity": "ST-PAIRED-11-OPT-R2",
+              "count_seconds": 4.295795224606991e-05,
+              "contained_seconds": 0.11969254200812429,
+              "maxrss_bytes": 29245440
+            },
+            {
+              "identity": "ST-PAIRED-11-OPT-R3",
+              "count_seconds": 5.1084032747894526e-05,
+              "contained_seconds": 0.1284691250184551,
+              "maxrss_bytes": 29474816
+            }
+          ],
+          "median_count_seconds": 4.6916946303099394e-05,
+          "median_contained_seconds": 0.11969254200812429
+        }
+      },
+      "count_ratio_baseline_over_optimized": 2.9342491008365723,
+      "contained_ratio_baseline_over_optimized": 0.8966334172317338
+    },
+    {
+      "case_id": "mixed-star-transpose",
+      "value": "210336",
+      "versions": {
+        "BASE": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-12-BASE-R1",
+              "count_seconds": 0.00013154098996892571,
+              "contained_seconds": 0.10130500001832843,
+              "maxrss_bytes": 28835840
+            },
+            {
+              "identity": "ST-PAIRED-12-BASE-R2",
+              "count_seconds": 0.0001324170152656734,
+              "contained_seconds": 0.11947941698599607,
+              "maxrss_bytes": 29376512
+            },
+            {
+              "identity": "ST-PAIRED-12-BASE-R3",
+              "count_seconds": 0.00013754202518612146,
+              "contained_seconds": 0.12645350000821054,
+              "maxrss_bytes": 29491200
+            }
+          ],
+          "median_count_seconds": 0.0001324170152656734,
+          "median_contained_seconds": 0.11947941698599607
+        },
+        "OPT": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-12-OPT-R1",
+              "count_seconds": 4.479201743379235e-05,
+              "contained_seconds": 0.10769512498518452,
+              "maxrss_bytes": 29523968
+            },
+            {
+              "identity": "ST-PAIRED-12-OPT-R2",
+              "count_seconds": 4.600000102072954e-05,
+              "contained_seconds": 0.1166777919861488,
+              "maxrss_bytes": 29425664
+            },
+            {
+              "identity": "ST-PAIRED-12-OPT-R3",
+              "count_seconds": 5.320803029462695e-05,
+              "contained_seconds": 0.1295577910495922,
+              "maxrss_bytes": 29212672
+            }
+          ],
+          "median_count_seconds": 4.600000102072954e-05,
+          "median_contained_seconds": 0.1166777919861488
+        }
+      },
+      "count_ratio_baseline_over_optimized": 2.878630702768913,
+      "contained_ratio_baseline_over_optimized": 1.024011638823092
+    },
+    {
+      "case_id": "transport-repeated8x8",
+      "value": "1046591482728407939338275",
+      "versions": {
+        "BASE": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-13-BASE-R1",
+              "count_seconds": 5.139998625032604,
+              "contained_seconds": 5.245731125003658,
+              "maxrss_bytes": 30277632
+            },
+            {
+              "identity": "ST-PAIRED-13-BASE-R2",
+              "count_seconds": 5.728535207977984,
+              "contained_seconds": 5.8404916250146925,
+              "maxrss_bytes": 30081024
+            },
+            {
+              "identity": "ST-PAIRED-13-BASE-R3",
+              "count_seconds": 6.109652582963463,
+              "contained_seconds": 6.235324707988184,
+              "maxrss_bytes": 30277632
+            }
+          ],
+          "median_count_seconds": 5.728535207977984,
+          "median_contained_seconds": 5.8404916250146925
+        },
+        "OPT": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-13-OPT-R1",
+              "count_seconds": 1.4860921659856103,
+              "contained_seconds": 1.5986424590228125,
+              "maxrss_bytes": 41926656
+            },
+            {
+              "identity": "ST-PAIRED-13-OPT-R2",
+              "count_seconds": 1.6649365409975871,
+              "contained_seconds": 1.7838994169724174,
+              "maxrss_bytes": 42106880
+            },
+            {
+              "identity": "ST-PAIRED-13-OPT-R3",
+              "count_seconds": 1.7386514579993673,
+              "contained_seconds": 1.8740252919960767,
+              "maxrss_bytes": 42172416
+            }
+          ],
+          "median_count_seconds": 1.6649365409975871,
+          "median_contained_seconds": 1.7838994169724174
+        }
+      },
+      "count_ratio_baseline_over_optimized": 3.4406928233706693,
+      "contained_ratio_baseline_over_optimized": 3.2740027657652395
+    },
+    {
+      "case_id": "quotient-repeated6x6",
+      "value": "2249748844892166904160",
+      "versions": {
+        "BASE": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-14-BASE-R1",
+              "count_seconds": 1.1303970830049366,
+              "contained_seconds": 1.2487947919871658,
+              "maxrss_bytes": 30375936
+            },
+            {
+              "identity": "ST-PAIRED-14-BASE-R2",
+              "count_seconds": 1.208915374998469,
+              "contained_seconds": 1.3236195829813369,
+              "maxrss_bytes": 30425088
+            },
+            {
+              "identity": "ST-PAIRED-14-BASE-R3",
+              "count_seconds": 1.1974874580046162,
+              "contained_seconds": 1.3207312079612166,
+              "maxrss_bytes": 30244864
+            }
+          ],
+          "median_count_seconds": 1.1974874580046162,
+          "median_contained_seconds": 1.3207312079612166
+        },
+        "OPT": {
+          "measurements": [
+            {
+              "identity": "ST-PAIRED-14-OPT-R1",
+              "count_seconds": 0.437456541985739,
+              "contained_seconds": 0.5479952089954168,
+              "maxrss_bytes": 38830080
+            },
+            {
+              "identity": "ST-PAIRED-14-OPT-R2",
+              "count_seconds": 0.42117766704177484,
+              "contained_seconds": 0.5389092499972321,
+              "maxrss_bytes": 38912000
+            },
+            {
+              "identity": "ST-PAIRED-14-OPT-R3",
+              "count_seconds": 0.43116545799421147,
+              "contained_seconds": 0.5485959590296261,
+              "maxrss_bytes": 39387136
+            }
+          ],
+          "median_count_seconds": 0.43116545799421147,
+          "median_contained_seconds": 0.5479952089954168
+        }
+      },
+      "count_ratio_baseline_over_optimized": 2.7773269769228426,
+      "contained_ratio_baseline_over_optimized": 2.410114516114798
+    }
+  ],
+  "strip_cases": [
+    {
+      "case_id": "strip-old",
+      "value": "6405525358251539588741290919301",
+      "methods": {
+        "GROUPED-ENUMERATION": {
+          "measurements": [
+            {
+              "identity": "ST-STRIP-OLD-GROUPED-ENUMERATION-V2-R1",
+              "count_seconds": 3.3407475000130944,
+              "contained_seconds": 3.4169753750320524
+            },
+            {
+              "identity": "ST-STRIP-OLD-GROUPED-ENUMERATION-V2-R2",
+              "count_seconds": 3.4085002499632537,
+              "contained_seconds": 3.4826743340236135
+            },
+            {
+              "identity": "ST-STRIP-OLD-GROUPED-ENUMERATION-V2-R3",
+              "count_seconds": 3.4762931669829413,
+              "contained_seconds": 3.5532525000162423
+            }
+          ],
+          "median_count_seconds": 3.4085002499632537,
+          "median_contained_seconds": 3.4826743340236135
+        },
+        "POSITIVE-EXPANSION": {
+          "measurements": [
+            {
+              "identity": "ST-STRIP-OLD-POSITIVE-EXPANSION-V2-R1",
+              "count_seconds": 0.00022508297115564346,
+              "contained_seconds": 0.07690229098079726
+            },
+            {
+              "identity": "ST-STRIP-OLD-POSITIVE-EXPANSION-V2-R2",
+              "count_seconds": 0.00019666599109768867,
+              "contained_seconds": 0.07337050000205636
+            },
+            {
+              "identity": "ST-STRIP-OLD-POSITIVE-EXPANSION-V2-R3",
+              "count_seconds": 0.0002158329589292407,
+              "contained_seconds": 0.07612537499517202
+            }
+          ],
+          "median_count_seconds": 0.0002158329589292407,
+          "median_contained_seconds": 0.07612537499517202
+        },
+        "INTEGER-MOMENTS": {
+          "measurements": [
+            {
+              "identity": "ST-STRIP-OLD-INTEGER-MOMENTS-V2-R1",
+              "count_seconds": 4.333304241299629e-05,
+              "contained_seconds": 0.07460916700074449
+            },
+            {
+              "identity": "ST-STRIP-OLD-INTEGER-MOMENTS-V2-R2",
+              "count_seconds": 3.362499410286546e-05,
+              "contained_seconds": 0.07554129196796566
+            },
+            {
+              "identity": "ST-STRIP-OLD-INTEGER-MOMENTS-V2-R3",
+              "count_seconds": 3.308302257210016e-05,
+              "contained_seconds": 0.07216124999104068
+            }
+          ],
+          "median_count_seconds": 3.362499410286546e-05,
+          "median_contained_seconds": 0.07460916700074449
+        }
+      }
+    },
+    {
+      "case_id": "strip-neighbor",
+      "value": "1519107914638247466",
+      "methods": {
+        "GROUPED-ENUMERATION": {
+          "measurements": [
+            {
+              "identity": "ST-STRIP-NEIGHBOR-GROUPED-ENUMERATION-V2-R1",
+              "count_seconds": 0.0049787089810706675,
+              "contained_seconds": 0.08170812501339242
+            },
+            {
+              "identity": "ST-STRIP-NEIGHBOR-GROUPED-ENUMERATION-V2-R2",
+              "count_seconds": 0.004928250040393323,
+              "contained_seconds": 0.08362541696988046
+            },
+            {
+              "identity": "ST-STRIP-NEIGHBOR-GROUPED-ENUMERATION-V2-R3",
+              "count_seconds": 0.005299625045154244,
+              "contained_seconds": 0.08454387495294213
+            }
+          ],
+          "median_count_seconds": 0.0049787089810706675,
+          "median_contained_seconds": 0.08362541696988046
+        },
+        "POSITIVE-EXPANSION": {
+          "measurements": [
+            {
+              "identity": "ST-STRIP-NEIGHBOR-POSITIVE-EXPANSION-V2-R1",
+              "count_seconds": 7.808394730091095e-05,
+              "contained_seconds": 0.08663674996932968
+            },
+            {
+              "identity": "ST-STRIP-NEIGHBOR-POSITIVE-EXPANSION-V2-R2",
+              "count_seconds": 0.00010783399920910597,
+              "contained_seconds": 0.0795501249958761
+            },
+            {
+              "identity": "ST-STRIP-NEIGHBOR-POSITIVE-EXPANSION-V2-R3",
+              "count_seconds": 7.362500764429569e-05,
+              "contained_seconds": 0.07634533301461488
+            }
+          ],
+          "median_count_seconds": 7.808394730091095e-05,
+          "median_contained_seconds": 0.0795501249958761
+        },
+        "INTEGER-MOMENTS": {
+          "measurements": [
+            {
+              "identity": "ST-STRIP-NEIGHBOR-INTEGER-MOMENTS-V2-R1",
+              "count_seconds": 2.945796586573124e-05,
+              "contained_seconds": 0.07789308298379183
+            },
+            {
+              "identity": "ST-STRIP-NEIGHBOR-INTEGER-MOMENTS-V2-R2",
+              "count_seconds": 2.8999987989664078e-05,
+              "contained_seconds": 0.08118329202989116
+            },
+            {
+              "identity": "ST-STRIP-NEIGHBOR-INTEGER-MOMENTS-V2-R3",
+              "count_seconds": 3.429199568927288e-05,
+              "contained_seconds": 0.07600729097612202
+            }
+          ],
+          "median_count_seconds": 2.945796586573124e-05,
+          "median_contained_seconds": 0.07789308298379183
+        }
+      }
+    }
+  ],
+  "scope": "Same exact inputs/outputs; count timings exclude imports; contained timings include interpreter and adapter cleanup, but not outer orchestration or report work. Profile runs and unequal-setup v1 strip timings are excluded."
+}

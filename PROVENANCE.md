@@ -72,3 +72,19 @@ No human expert has endorsed these results through this repository, and
 historical novelty remains unresolved. AI assistance is disclosed without
 assigning models human authorship. A future paper's authorship, licensing,
 expert review and public release are separate owner decisions.
+
+## Shared mathematical tooling — 9 September 2026
+
+The tooling section is a versioned projection of maintained source at research
+commit `5cd399564def6bd5ec4160471678ceaf0fda99dd`. Its source map covers the exact selected code, tests,
+comparison fixtures, proof notes and measured benchmark data. Arithmetic is
+unchanged during packaging; the initializer selects the standalone surface and
+constructor provenance links are made local. Native execution adapters and the
+census supervisor are excluded.
+
+The new counters retain complete whole-object domains and exact integer
+multiplicities. The Cdagger verifier replays all thirty-six implications against
+the conventional hive. Existing native Fable oracle functions and selected
+Codex support objects provide actual comparison inputs; executing these in
+Codex does not claim native deployment or adoption of this version. Full source,
+AI-assistance and licensing context is in [SOURCE-LICENSES.md](tooling/SOURCE-LICENSES.md).

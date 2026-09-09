@@ -1,0 +1,86 @@
+{
+  "sources": [
+    {
+      "included_path": "tooling/proofs/positive-strip.md",
+      "inputs": [
+        {
+          "repository": "codex-workbench",
+          "path": "plans/active/stretched-lr-counterexample-campaign/sessions/ASTRA-WILDCARD-003/A06/TWO-SIDED-STRIP.md",
+          "sha256": "8ddb3b77f550f546ebdf81ae66110181660e8869bf5b51f3866cc1b8d9de7557"
+        }
+      ],
+      "transformation": "Retained complete mathematical sections; removed session/draft header; clarified coupled fibers versus independent interval factors.",
+      "included_sha256": "2ab54b1e166c958cd12e98c84c5e5f40b4c5e737a73115b6a388476ce4b082a5"
+    },
+    {
+      "included_path": "tooling/proofs/cdagger.md",
+      "inputs": [
+        {
+          "repository": "codex-workbench",
+          "path": "plans/active/stretched-lr-counterexample-campaign/sessions/SHARED-TOOLS/CDAGGER.md",
+          "sha256": "b1bf90ccd52f04ea4c96014f168d04132741d120ccce4c9c3830f3ff995fc0b7"
+        }
+      ],
+      "transformation": "Standalone tool/whole-certificate note; unchanged.",
+      "included_sha256": "b1bf90ccd52f04ea4c96014f168d04132741d120ccce4c9c3830f3ff995fc0b7"
+    },
+    {
+      "included_path": "tooling/proofs/flow-support.md",
+      "inputs": [
+        {
+          "repository": "codex-workbench",
+          "path": "plans/active/stretched-lr-counterexample-campaign/sessions/SHARED-TOOLS/FLOW-SUPPORT.md",
+          "sha256": "593691b167727652aef1c724a41eb3757c58f41708b21dbf744828e7f8d812a3"
+        }
+      ],
+      "transformation": "Retained API and complete proof; replaced session-owned execution instructions with standalone checks.",
+      "included_sha256": "dbd1021be3ee32805d1502251117e12c6584fd75fb234a8ab9b56481a5cb891f"
+    },
+    {
+      "included_path": "tooling/proofs/transport.md",
+      "inputs": [
+        {
+          "repository": "codex-workbench",
+          "path": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-018-INTEGRATION/transport-proof-verification/PROOF/VERIFICATION.md",
+          "sha256": "057e81995fe70ecce917599257af165b150bb78879c129e1897221125519244a"
+        }
+      ],
+      "transformation": "Retained all six mathematical sections; removed operational header/runtime and external check-output reference; clarified standalone proof reference.",
+      "included_sha256": "06084c6c6814b270b7af1aa0a7cd27665aa52a8f9c581efccf8089862a3eb240"
+    },
+    {
+      "included_path": "tooling/proofs/skew-lift.md",
+      "inputs": [
+        {
+          "repository": "codex-workbench",
+          "path": "plans/active/stretched-lr-counterexample-campaign/sessions/FRE/bridge/PROOF-v002.md",
+          "sha256": "fbc134878ff5ed128a68e345d2a9816cf570c171936ed39c3da9650144dd928e"
+        }
+      ],
+      "transformation": "Selected the complete formula-(7) proof; replaced an omitted cross-reference with its short induction and removed unrelated research disposition.",
+      "included_sha256": "bcb558936849de07b98839b4713afd62c5a116482bafe25865b1c973456f3eee"
+    },
+    {
+      "included_path": "tooling/proofs/matrix-invariants.md",
+      "inputs": [
+        {
+          "repository": "codex-workbench",
+          "path": "plans/active/stretched-lr-counterexample-campaign/sessions/ASTRA-WILDCARD-002/attacks/A08/WEYL-COUNT.md",
+          "sha256": "d3703dad7403c36cfa51a49957769390a0c17e672dc45e0c006532fdaddad03c"
+        },
+        {
+          "repository": "codex-workbench",
+          "path": "plans/active/stretched-lr-counterexample-campaign/sessions/ASTRA-WILDCARD-002/attacks/A09/PROOF-v002.md",
+          "sha256": "fdd3a04cf36c993f2f85d97e4b1dbab89fa01b716c98fb8797848be1bfc084e4"
+        },
+        {
+          "repository": "codex-workbench",
+          "path": "plans/active/stretched-lr-counterexample-campaign/sessions/ASTRA-WILDCARD-002/delegates/actual-lr-geometry/A08-E6-EXTENSION.md",
+          "sha256": "e6ca79ca88744fa0584e9f5b4069b4e245de4a463c57d1d861c35e25b53dc0d6"
+        }
+      ],
+      "transformation": "Curated exact count, scalar exchange and complete whole-LR construction proof; omitted unrelated source-numerator dispute and operational history.",
+      "included_sha256": "5caadc8aba7e895b64022d607c307a1bf1d7d8ade929fd850118ebf3cc79bf5b"
+    }
+  ]
+}
