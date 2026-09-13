@@ -290121,7 +290121,7 @@
     {
       "code_source_mappings": [],
       "included_bytes": 24333,
-      "included_sha256": "f09fad6b55bdbbdc84a21751ed1ff545605fc45d37942dd92e037a15520b0d20",
+      "included_sha256": "596289f2297cb811737e45b4b8610baae4c02b889a66c3fea82fcd4f9cc848da",
       "origin_labels": [],
       "role": "curated_document_or_evidence",
       "source_records": [],
@@ -291277,7 +291277,7 @@
     },
     {
       "included_bytes": 10477,
-      "included_sha256": "ea4f79dc00850710b67000dfdfa169ac01add10340a57aef596915387e351148",
+      "included_sha256": "b3895ba5e23d84628f3a7f2782b82b08849bc31f7745e9cdf7f457b0a688e94b",
       "origin_labels": [
         "restored-pro026:base/prompts/gpt/attachments/SLR-GPT6-PRO-FRONTIER-023/payload/history/022/artifacts/current/frontier-011-013/frc/sparse/PROOF.md"
       ],

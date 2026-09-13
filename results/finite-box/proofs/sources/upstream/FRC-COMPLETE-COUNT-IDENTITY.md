@@ -11,7 +11,7 @@ coefficient coverage. Independent review of the complete certificate remains a s
 
 For each cut choose S1-only, S2-only, or both. Exclude the two assignments
 making a support empty, then quotient support exchange. Only the all-both
-assignment is fixed by exchange, giving (3^N-1)/2=121/364 pairs. The producer
+assignment is fixed by exchange, giving (3^n-1)/2=121/364 pairs. The producer
 uses increasing positive bit masks with bitwise union all cuts, an equivalent
 complete enumeration; no support pairs are sampled. It verifies both adopted
 interval-hit inverses against the coverage F for every support pair.
@@ -48,7 +48,7 @@ containment is independently checked as a necessary identity consequence.
 
 Replace the interval column [i,j] by the directed edge i->j+1 on vertices
 0,...,n, using zero-based cuts. Applying successive differences to A_m x=R
-gives outgoing-minus-incoming incidence b=(R1,R2-R1,...,Rn-R_(N-1),-Rn).
+gives outgoing-minus-incoming incidence b=(R1,R2-R1,...,Rn-R_(n-1),-Rn).
 The graph is acyclic. Set M=sum_v max(b_v,0). Add source arcs of capacity b_v
 where b_v>0 and sink arcs of capacity -b_v where b_v<0; give every original
 edge capacity M. Any feasible nonnegative flow decomposes into paths from

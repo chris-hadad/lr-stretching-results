@@ -56,7 +56,7 @@
     {
       "path": "SOURCE-MAP.json",
       "bytes": 12191721,
-      "sha256": "7d90bca1171f65689964ad5e4582fa3215271bafd15a4a8d07c1db636c0fa52d"
+      "sha256": "4cbd934d0ef7bd68ce5fccf40e31ffb4578912ab7ef03145c1aa27f54c48e15b"
     },
     {
       "path": "code/ADAPTATIONS.md",
@@ -646,7 +646,7 @@
     {
       "path": "proofs/SOURCE-CUT.json",
       "bytes": 24333,
-      "sha256": "f09fad6b55bdbbdc84a21751ed1ff545605fc45d37942dd92e037a15520b0d20"
+      "sha256": "596289f2297cb811737e45b4b8610baae4c02b889a66c3fea82fcd4f9cc848da"
     },
     {
       "path": "proofs/sources/ORIGINAL/sources/PROOFS/023-SHORT-NORMAL-COEFFICIENT-POSITIVITY.md",
@@ -866,7 +866,7 @@
     {
       "path": "proofs/sources/upstream/FRC-COMPLETE-COUNT-IDENTITY.md",
       "bytes": 10477,
-      "sha256": "ea4f79dc00850710b67000dfdfa169ac01add10340a57aef596915387e351148"
+      "sha256": "b3895ba5e23d84628f3a7f2782b82b08849bc31f7745e9cdf7f457b0a688e94b"
     },
     {
       "path": "proofs/sources/upstream/FRD-TAIL-COMPLETION.md",

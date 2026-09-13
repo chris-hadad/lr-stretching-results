@@ -6295,7 +6295,7 @@
     },
     {
       "included_bytes": 33966,
-      "included_sha256": "440353f6d94e5ef196da7da9a547ed648a3d47b42a6cbdbf1b862bccd661b9f8",
+      "included_sha256": "6f4532bc9ba297d5b16985af5d294bec90ea4a4c313d512369f91c6c2b4dbe20",
       "path": "results/finite-box/FILE-MANIFEST.json",
       "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted",
       "prior_included_sha256": "477ee7bc238516ca70768b9ac565131ca12822b8e8e33b17c9a29e49ffc1797e",
@@ -6378,7 +6378,7 @@
     },
     {
       "included_bytes": 12191721,
-      "included_sha256": "7d90bca1171f65689964ad5e4582fa3215271bafd15a4a8d07c1db636c0fa52d",
+      "included_sha256": "4cbd934d0ef7bd68ce5fccf40e31ffb4578912ab7ef03145c1aa27f54c48e15b",
       "path": "results/finite-box/SOURCE-MAP.json",
       "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted",
       "prior_included_sha256": "7a2946b74d9937209930da224fbde24c8fe1f4b62f5f1f74e97c48625ad2145f",
@@ -7209,7 +7209,7 @@
     },
     {
       "included_bytes": 24333,
-      "included_sha256": "f09fad6b55bdbbdc84a21751ed1ff545605fc45d37942dd92e037a15520b0d20",
+      "included_sha256": "596289f2297cb811737e45b4b8610baae4c02b889a66c3fea82fcd4f9cc848da",
       "path": "results/finite-box/proofs/SOURCE-CUT.json",
       "source_map": "results/finite-box/SOURCE-MAP.json",
       "source_pointer": "/records/11734",
@@ -7737,7 +7737,7 @@
     },
     {
       "included_bytes": 10477,
-      "included_sha256": "ea4f79dc00850710b67000dfdfa169ac01add10340a57aef596915387e351148",
+      "included_sha256": "b3895ba5e23d84628f3a7f2782b82b08849bc31f7745e9cdf7f457b0a688e94b",
       "path": "results/finite-box/proofs/sources/upstream/FRC-COMPLETE-COUNT-IDENTITY.md",
       "source_map": "results/finite-box/SOURCE-MAP.json",
       "source_pointer": "/records/11778",
@@ -9605,7 +9605,7 @@
     "results/finite-box": {
       "bytes": 12191721,
       "path": "results/finite-box/SOURCE-MAP.json",
-      "sha256": "7d90bca1171f65689964ad5e4582fa3215271bafd15a4a8d07c1db636c0fa52d"
+      "sha256": "4cbd934d0ef7bd68ce5fccf40e31ffb4578912ab7ef03145c1aa27f54c48e15b"
     },
     "results/structural-positivity": {
       "bytes": 28234,
