@@ -1,25 +1,24 @@
-# Proof and dependency outline
+# Guide to the completed finite-box proof
 
-The target is the finite ordinary-coefficient statement described in README.md.
-This outline organizes the staged proof sources; it does not certify a theorem.
+The theorem is stated in [PROOF.md](PROOF.md): ordinary-coefficient
+nonnegativity through length seven and outer area thirty, with the precise
+empty-family conventions and Ferudun's cited all-size length-five premise.
+The earlier pending-stage wording of this outline is superseded by the
+completed records in [REPLAY.json](REPLAY.json).
 
-1. State the LR/hive and polynomiality conventions, the zero-family convention,
-   true-interior reciprocity and the exact external length-five theorem.
-2. Reproduce the original bounded partition domain, mask and essential-Horn
-   terminals, the exact A004 source-positive strata and F025 small/quartic and
-   metric exceptions. Retain full original-to-residual maps and multiplicities.
-3. Check every literal tensor/determinant/dilation/inactive-gap rewrite and
-   Horn sign implication, with exact domain and feasibility qualifications.
-4. Discharge every actually used FRE/FRI, early U02/U03, U04–U10 and final U11
-   terminal using its own complete geometry and numerical/proof source closure.
-5. Check the complete coefficient identities and supplied integer intervals.
-   Every tree split has integral midpoint/endpoints and both children. Lower
-   subsets retain every mixed constraint and prove disjointness. A missing or
-   unfinished branch is not zero, and a noncollapsed interval is not a count.
-6. Join the exact accepted terminal identities to every original residual
-   identity once. Counts of callers or certificates alone do not prove coverage.
+1. Check the LR/hive, polynomiality, lattice and relative-interior conventions.
+2. Follow the complete original census, earlier finite terminals and exact
+   original-to-residual maps, keeping all preimage multiplicities.
+3. Verify the literal gap, tensor, determinant, dilation and proper Horn
+   reductions with their whole-count and feasibility qualifications.
+4. Check every used earlier vector and later sign certificate at its exact
+   geometry, numerical and source scope.
+5. Derive the ordinary coefficient identities and verify every integer-bound
+   branch. Missing branches are not empty; a noncollapsed interval is not a count.
+6. Join the exact accepted terminal identities to every residual identity.
+   Equal totals alone do not prove coverage.
 
-`proofs/sources/` preserves relevant mathematical source bodies with source
-hashes. `DEPENDENCIES.json` identifies what still requires retrieval, adaptation
-or root acceptance. A future complete result must discharge those requirements
-at its explicitly stated literature boundary.
+[DEPENDENCIES.md](DEPENDENCIES.md) is the current dependency explanation.
+Historical machine/source records preserve their original stage labels;
+the completed theorem and replay record do not imply fresh regeneration of
+the cited universal theorems or external human acceptance.

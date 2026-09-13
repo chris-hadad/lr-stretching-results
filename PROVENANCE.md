@@ -1,5 +1,13 @@
 # Discovery, verification and source provenance
 
+The September 13 researcher edition adds a [research-note draft](papers/finite-box.md),
+a [process account](METHODS.md), a [verification guide](REPRODUCING.md),
+precise primary-source locators and standalone structural algebra checks.
+Its additional executions and limits are recorded in [PUBLICATION-CHECKS.md](PUBLICATION-CHECKS.md).
+Earlier proofs, source identities and verification records retain their
+original dates and scopes. New exposition is not a new census or scientific
+acceptance event. The source-map inventory binds this edition’s actual files.
+
 The finite-box theorem and the structural result catalog were integrated on
 12 September 2026. Chris Hadad directed the campaign and continued the frontier
 work; GPT 6 Pro developed the Pro026/027 arguments, and Codex independently
@@ -17,8 +25,12 @@ new executions and does not relocate old receipts and call them new checks.
 The [structural catalog](results/structural-positivity/README.md) includes
 44 source proof documents and the 60 accepted mathematical claim scopes.
 The full 139-claim administrative/source ledger stays in the private campaign
-archive. Its additional
-standalone certificate packaging is identified separately. The slope-three
+archive. Its [standalone family module](results/structural-positivity/replay/README.md)
+now supplies exact two-row finite proof checks and complete gap-three and
+transportation algebra replay. The latter two use historical accepted count
+observations; independent interpolation algorithms share those inputs.
+The full normal atlas and fresh recount adapters remain separately mapped
+packaging tasks. The slope-three
 sign proof and homogeneous transport linear-coefficient argument are root
 extensions of the supplied whole-count models; the source formulas and prior
 Minkowski valuation results retain their original credit.

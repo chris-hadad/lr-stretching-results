@@ -4957,18 +4957,20 @@
       "transformation": "none; complete source bytes preserved"
     },
     {
-      "bytes": 9948,
+      "bytes": 9845,
       "path": "proofs/rectangular-bridge.md",
       "source_path": "methods/astra-wildcard-002-2026-09-07/delegates/actual-lr-geometry/rectangular/BRIDGE.md",
       "source_sha256": "a84c4cbe74ec67433b1da0baf9736e857e443b29bdd03c37e086194c01e92940",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Document link projection only; exact replacements in repository DOCUMENTATION-ADAPTATIONS.json. Earlier source hash retained.",
+      "included_sha256": "f479a9baf764fcce1242576014f07249ea5c20f6cca2561fb376e1e6d8be5b8d"
     },
     {
-      "bytes": 8529,
+      "bytes": 8550,
       "path": "proofs/rectangular-canonical.md",
       "source_path": "methods/astra-wildcard-002-2026-09-07/delegates/actual-lr-geometry/rectangular/CANONICAL.md",
       "source_sha256": "e15600206c999bf2153af33b84754e461db3278ca50a76946f264739d3cb6b1b",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Document link projection only; exact replacements in repository DOCUMENTATION-ADAPTATIONS.json. Earlier source hash retained.",
+      "included_sha256": "57ad343b4798dc30c9e305a5bfb90eef1ce11459958bdd6ee67189e1e790b40d"
     },
     {
       "bytes": 11517,
@@ -5095,6 +5097,22 @@
       "source_path": "methods/astra-wildcard-005-2026-09-10/A04-UNIFORM-TENSOR-CHANNEL.md",
       "source_sha256": "11345c3e0c167099624635e445a953dee71abcd4f92eecf4a2390c685be172c9",
       "transformation": "none; complete source bytes preserved"
+    },
+    {
+      "path": "data/rectangular-nonvanishing.json",
+      "bytes": 3827,
+      "sha256": "42f2acf869a670096cd21f76c6ec98e27c444d5f647bfb0195d320292b34b698",
+      "source_path": "methods/astra-wildcard-002-2026-09-07/science/results/A002-RECTANGULAR-NONVANISHING-002.json",
+      "source_sha256": "42f2acf869a670096cd21f76c6ec98e27c444d5f647bfb0195d320292b34b698",
+      "transformation": "Complete source bytes preserved"
+    },
+    {
+      "path": "proofs/rectangular-evidence.md",
+      "bytes": 1728,
+      "sha256": "042f0b3eadcb9782ff89d5a468de624230dd6a6c1b44f9d2bcb9a3e42cc3bdee",
+      "source_path": null,
+      "source_sha256": null,
+      "transformation": "New reader-facing evidence explanation and current scalar command."
     }
   ],
   "historical_path_policy": "Historical source paths are provenance. No executable fallback to the original workspace is provided.",

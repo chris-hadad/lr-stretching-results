@@ -3,7 +3,7 @@
 This verifies the root's additional canonical argument for three p-by-(p+1)
 matrices, p=2,3, over C. The independently frozen nonvanishing gates are
 P_2(1)=20 and P_3(1)=266 in A002-RECTANGULAR-NONVANISHING-002, as linked
-and inspected in [BRIDGE.md](BRIDGE.md). It uses no square-matrix canonical
+and inspected in [rectangular bridge](rectangular-bridge.md). It uses no square-matrix canonical
 formula. No count or scientific execution was performed by this delegate.
 The root's degree-plus-holdout panels remain independent of these conclusions.
 

@@ -6,9 +6,9 @@ weighted Weyl count: P_2(1)=20 and P_3(1)=266 in attempt
 A002-RECTANGULAR-NONVANISHING-002. I read its completed result, runtime
 receipt, and successful adapter return after the root supplied the result.
 The result file also records the four (1,2) controls 1,3,6,10 at t=0,...,3.
-[Frozen count result](../../../science/results/A002-RECTANGULAR-NONVANISHING-002.json)
-[Runtime receipt](../../../science/runtime/attempts/A002-RECTANGULAR-NONVANISHING-002/receipt.json)
-[Adapter return](../../../science/runtime/attempts/A002-RECTANGULAR-NONVANISHING-002/adapter-return.json)
+[Frozen count result](../data/rectangular-nonvanishing.json)
+[Runtime receipt](rectangular-evidence.md#historical-execution)
+[Adapter return](rectangular-evidence.md#historical-execution)
 No scientific program, count, native call, or external-model call was run by
 this delegate. Prior delegate files remain frozen.
 
@@ -44,7 +44,7 @@ These are constructor calculations, not evaluations of LR coefficients.
 ## 2. Exceptional pair and source character
 
 Use the inward-oriented Q=T_(3,3,4) from
-[the frozen A08 derivation](../A08-E6-EXTENSION.md), with new outer source
+[the frozen A08 derivation](rectangular-extension.md), with new outer source
 v on the long arm. The old affine-E6 subquiver Q0 has null root delta with
 outer/inner arm values 1,2 and central value 3. Let e be the old extending
 endpoint adjacent to v. The exceptional representation E1 has dimension

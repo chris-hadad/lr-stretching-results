@@ -604,28 +604,92 @@
       "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted"
     },
     {
-      "included_bytes": 9568,
-      "included_sha256": "20b2ffcc4b075acb9d191248b128633b52b693f056cab61e8a7e90c415a72ff3",
+      "path": "DOCUMENTATION-ADAPTATIONS.json",
+      "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
+      "included_bytes": 4484,
+      "included_sha256": "753094c2342a4b75deb2e7d709cff9a5f18fafd95f7c123e564ff1e0bd208ba5"
+    },
+    {
+      "path": "METHODS.md",
+      "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
+      "included_bytes": 7225,
+      "included_sha256": "25d735d14795cbf40689dae20fb00c1e75220eede1d9cff361b1a4a7378f24a0"
+    },
+    {
+      "included_bytes": 10450,
+      "included_sha256": "70158ea43e387e5e316b39caeb25436f3e05c7f72f070690498fa59371a2cd60",
       "path": "PROVENANCE.md",
-      "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted"
+      "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted",
+      "prior_included_sha256": "20b2ffcc4b075acb9d191248b128633b52b693f056cab61e8a7e90c415a72ff3"
     },
     {
-      "included_bytes": 3927,
-      "included_sha256": "a92b1ae5efb9f764a082299d87044ad319459cbcc91ea155fa39dda6b0b1b326",
+      "path": "PUBLICATION-CHECKS.json",
+      "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
+      "included_bytes": 7455,
+      "included_sha256": "4a67fc69e9a14bd119e6bb59ec23712afca4fb3c44a60e2b4cbd55afcd39fb6d"
+    },
+    {
+      "path": "PUBLICATION-CHECKS.md",
+      "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
+      "included_bytes": 3690,
+      "included_sha256": "7ebe6a1f20c7bc1b3c4f98bcd39c4f74d5cc726827c087793966c00968484b95"
+    },
+    {
+      "included_bytes": 4559,
+      "included_sha256": "573a7f8478d2c682846366fb69e6f5c480fcd4635ae9a19f87e6bc0e261fcb05",
       "path": "README.md",
-      "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted"
+      "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted",
+      "prior_included_sha256": "a92b1ae5efb9f764a082299d87044ad319459cbcc91ea155fa39dda6b0b1b326"
     },
     {
-      "included_bytes": 6252,
-      "included_sha256": "5108eef157c57565bbda20e014540b0373a4f36383dfaf02b5bc8ec5176d6ad8",
+      "path": "REFERENCE-NOTES.md",
+      "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
+      "included_bytes": 10778,
+      "included_sha256": "7f4b6f240ede2dc014e53be82dc8739a145e61b385a1b4e7ce92f9a4092bf254"
+    },
+    {
+      "included_bytes": 7482,
+      "included_sha256": "9891dce9095020eab945d8490414b9bc37f2318f38153fffa7fc66ca502ab77e",
       "path": "REFERENCES.md",
-      "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted"
+      "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted",
+      "prior_included_sha256": "5108eef157c57565bbda20e014540b0373a4f36383dfaf02b5bc8ec5176d6ad8"
     },
     {
-      "included_bytes": 10307,
-      "included_sha256": "6a6061f595bbe633552823a3976125366a286062ae357534ff7be5228902b127",
+      "path": "REPRODUCING.md",
+      "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
+      "included_bytes": 5848,
+      "included_sha256": "d96f1a8806bd468fd81739bba9b46be8be24dc37092c1c9fcc6a1b62afe7f92d"
+    },
+    {
+      "included_bytes": 10596,
+      "included_sha256": "b0bf3ed847a6ffff27add8b39cf706a9f77d73e60ce58bdd2d108fe8e1af56aa",
       "path": "RESULTS.md",
-      "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted"
+      "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted",
+      "prior_included_sha256": "6a6061f595bbe633552823a3976125366a286062ae357534ff7be5228902b127"
+    },
+    {
+      "path": "SHARING.md",
+      "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
+      "included_bytes": 1854,
+      "included_sha256": "2c80401c5d35490b6301e38b07c97590bdcf209ff678ba12c7dc7ccc4128a5d7"
+    },
+    {
+      "path": "examples/sign_completion.py",
+      "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
+      "included_bytes": 1687,
+      "included_sha256": "549525c7ec36f937b35f7ad05b694d27dc10e4fad5f8c7aa1f280e05cbb7a4ca"
+    },
+    {
+      "path": "papers/families-and-compensation.md",
+      "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
+      "included_bytes": 4498,
+      "included_sha256": "7729b13d06663899dedb7a271576ce0b2f74bb37c8f096085bb2d9c3e2200364"
+    },
+    {
+      "path": "papers/finite-box.md",
+      "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
+      "included_bytes": 15879,
+      "included_sha256": "c9c40de756a348260257d4094bf2921e129d26740d1716d88a336e43112012ef"
     },
     {
       "included_bytes": 713,
@@ -720,16 +784,18 @@
       "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted"
     },
     {
-      "included_bytes": 15870,
-      "included_sha256": "8c279b3a5ae1fcf87be345f48dd32accd60f0b3dd7075f034e5759b71d3339a4",
+      "included_bytes": 16117,
+      "included_sha256": "f3d058f7e0d4a574326fbfbd84ed35904cf8961d653046bb0b7eda63f9d8e078",
       "path": "results/families-and-obstructions/README.md",
-      "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted"
+      "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted",
+      "prior_included_sha256": "8c279b3a5ae1fcf87be345f48dd32accd60f0b3dd7075f034e5759b71d3339a4"
     },
     {
-      "included_bytes": 238274,
-      "included_sha256": "4ab7695a2c1ae8b7cebc8d78771816b2fa62649cea4fce146f7575de472615d0",
+      "included_bytes": 239387,
+      "included_sha256": "c47d1916d3e26926087feb1635deacb6c3a067c9ac44222f7f7e33a75b2f3ea0",
       "path": "results/families-and-obstructions/SOURCE-MAP.json",
-      "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted"
+      "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted",
+      "prior_included_sha256": "4ab7695a2c1ae8b7cebc8d78771816b2fa62649cea4fce146f7575de472615d0"
     },
     {
       "included_bytes": 110670,
@@ -1141,6 +1207,12 @@
       "path": "results/families-and-obstructions/data/rank-eight/FRI-R8-COLUMN-POISED-001.json",
       "source_map": "results/families-and-obstructions/SOURCE-MAP.json",
       "source_pointer": "/files/56"
+    },
+    {
+      "path": "results/families-and-obstructions/data/rectangular-nonvanishing.json",
+      "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
+      "included_bytes": 3827,
+      "included_sha256": "42f2acf869a670096cd21f76c6ec98e27c444d5f647bfb0195d320292b34b698"
     },
     {
       "included_bytes": 1988,
@@ -5712,18 +5784,26 @@
       "source_pointer": "/files/707"
     },
     {
-      "included_bytes": 9948,
-      "included_sha256": "a84c4cbe74ec67433b1da0baf9736e857e443b29bdd03c37e086194c01e92940",
+      "included_bytes": 9845,
+      "included_sha256": "f479a9baf764fcce1242576014f07249ea5c20f6cca2561fb376e1e6d8be5b8d",
       "path": "results/families-and-obstructions/proofs/rectangular-bridge.md",
       "source_map": "results/families-and-obstructions/SOURCE-MAP.json",
-      "source_pointer": "/files/708"
+      "source_pointer": "/files/708",
+      "prior_included_sha256": "a84c4cbe74ec67433b1da0baf9736e857e443b29bdd03c37e086194c01e92940"
     },
     {
-      "included_bytes": 8529,
-      "included_sha256": "e15600206c999bf2153af33b84754e461db3278ca50a76946f264739d3cb6b1b",
+      "included_bytes": 8550,
+      "included_sha256": "57ad343b4798dc30c9e305a5bfb90eef1ce11459958bdd6ee67189e1e790b40d",
       "path": "results/families-and-obstructions/proofs/rectangular-canonical.md",
       "source_map": "results/families-and-obstructions/SOURCE-MAP.json",
-      "source_pointer": "/files/709"
+      "source_pointer": "/files/709",
+      "prior_included_sha256": "e15600206c999bf2153af33b84754e461db3278ca50a76946f264739d3cb6b1b"
+    },
+    {
+      "path": "results/families-and-obstructions/proofs/rectangular-evidence.md",
+      "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
+      "included_bytes": 1728,
+      "included_sha256": "042f0b3eadcb9782ff89d5a468de624230dd6a6c1b44f9d2bcb9a3e42cc3bdee"
     },
     {
       "included_bytes": 11517,
@@ -5873,17 +5953,19 @@
       "source_pointer": "/records/2"
     },
     {
-      "included_bytes": 27884,
-      "included_sha256": "477ee7bc238516ca70768b9ac565131ca12822b8e8e33b17c9a29e49ffc1797e",
+      "included_bytes": 33965,
+      "included_sha256": "1788c98f3437cb3af78308ef38cf1f6815ea07dd56193b84b8d63f402c4ca5be",
       "path": "results/finite-box/FILE-MANIFEST.json",
-      "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted"
+      "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted",
+      "prior_included_sha256": "477ee7bc238516ca70768b9ac565131ca12822b8e8e33b17c9a29e49ffc1797e"
     },
     {
-      "included_bytes": 1642,
-      "included_sha256": "e0bd85eaa423e2a74cd71edeae2833c003e6c68c0b8fb2218c8bff09ca45829b",
+      "included_bytes": 1423,
+      "included_sha256": "483dc8b2e89e2831c3f6319f9051fa8d256939241723e062e8ba0715f62c7b4d",
       "path": "results/finite-box/PROOF-OUTLINE.md",
       "source_map": "results/finite-box/SOURCE-MAP.json",
-      "source_pointer": "/records/3"
+      "source_pointer": "/records/3",
+      "prior_included_sha256": "e0bd85eaa423e2a74cd71edeae2833c003e6c68c0b8fb2218c8bff09ca45829b"
     },
     {
       "included_bytes": 17460,
@@ -5893,11 +5975,12 @@
       "source_pointer": "/records/4"
     },
     {
-      "included_bytes": 6631,
-      "included_sha256": "e21075fdd88ef81b15f40f73029a0f421dbd4c34f0353745deda0b2fe3e4c99a",
+      "included_bytes": 6730,
+      "included_sha256": "b9ee5efcf6c915d150e884570921ebc1d53af6a945c13bd4daf875cce39ccb0e",
       "path": "results/finite-box/README.md",
       "source_map": "results/finite-box/SOURCE-MAP.json",
-      "source_pointer": "/records/5"
+      "source_pointer": "/records/5",
+      "prior_included_sha256": "e21075fdd88ef81b15f40f73029a0f421dbd4c34f0353745deda0b2fe3e4c99a"
     },
     {
       "included_bytes": 7284,
@@ -5928,10 +6011,11 @@
       "source_pointer": "/records/9"
     },
     {
-      "included_bytes": 9488608,
-      "included_sha256": "7a2946b74d9937209930da224fbde24c8fe1f4b62f5f1f74e97c48625ad2145f",
+      "included_bytes": 12176431,
+      "included_sha256": "1e263731bd1f129fb9d22f0f49acd20a25bc690863b057bec064fb91b7065afb",
       "path": "results/finite-box/SOURCE-MAP.json",
-      "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted"
+      "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted",
+      "prior_included_sha256": "7a2946b74d9937209930da224fbde24c8fe1f4b62f5f1f74e97c48625ad2145f"
     },
     {
       "included_bytes": 4760,
@@ -7387,16 +7471,18 @@
       "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted"
     },
     {
-      "included_bytes": 5826,
-      "included_sha256": "43ffdf75527ec257c59c44a8f082f48e4a135d72812b47d5e1ec3b57791cf691",
+      "included_bytes": 6572,
+      "included_sha256": "42ea735e00b1c47d043a2dc4d0bc47bab9a09fc49c3e9cb8601ea2f88b53af45",
       "path": "results/structural-positivity/README.md",
-      "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted"
+      "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted",
+      "prior_included_sha256": "43ffdf75527ec257c59c44a8f082f48e4a135d72812b47d5e1ec3b57791cf691"
     },
     {
-      "included_bytes": 13239,
-      "included_sha256": "d502ccdd987255b01d0ac70082e5392b1d82b0ef8b9264333b90f2b702910b1a",
+      "included_bytes": 13531,
+      "included_sha256": "c18f9aebee1d4efe9b3b9e2b4705ef38114c893e167cccbe229011b91b9068a4",
       "path": "results/structural-positivity/SOURCE-MAP.json",
-      "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted"
+      "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted",
+      "prior_included_sha256": "d502ccdd987255b01d0ac70082e5392b1d82b0ef8b9264333b90f2b702910b1a"
     },
     {
       "included_bytes": 8171,
@@ -7713,6 +7799,84 @@
       "source_pointer": "/files/43"
     },
     {
+      "path": "results/structural-positivity/replay/DEPENDENCIES.md",
+      "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
+      "included_bytes": 10988,
+      "included_sha256": "d2c9eaad923bae6deb1ca1eb84bff064852695db354f4c775b6027cd806a8ae1"
+    },
+    {
+      "path": "results/structural-positivity/replay/README.md",
+      "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
+      "included_bytes": 11998,
+      "included_sha256": "41d6214f889371ec0ae946e3c44e76f27c6fac67dbf62d03040fbc16aab4f2ed"
+    },
+    {
+      "path": "results/structural-positivity/replay/SOURCE-MAP.json",
+      "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
+      "included_bytes": 13788,
+      "included_sha256": "fb995cca9650918d895a895e7d43d7a484cf14381b6164525e3ecf6a8693daa2"
+    },
+    {
+      "path": "results/structural-positivity/replay/data/gap-three.json",
+      "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
+      "included_bytes": 7264,
+      "included_sha256": "116e926f7286d4aa5b9459b3dbe4fa9e3d7a6609751cc904977b9d623cb10315"
+    },
+    {
+      "path": "results/structural-positivity/replay/data/transport.json",
+      "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
+      "included_bytes": 20326,
+      "included_sha256": "aa85413ad2a9d9007880548847cb57d8e09209c434bb4e705b4ba9e5285fae14"
+    },
+    {
+      "path": "results/structural-positivity/replay/exact.py",
+      "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
+      "included_bytes": 2245,
+      "included_sha256": "c9947a3933b29d2e69a3fea4dfca719bdc1f365ac9b32307b91688edc5f16970"
+    },
+    {
+      "path": "results/structural-positivity/replay/failure_cases.py",
+      "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
+      "included_bytes": 2910,
+      "included_sha256": "f71c1a8ef16c780cfc67d9962bf7f3dc89b34e40421bf8240233ca418c5b5d79"
+    },
+    {
+      "path": "results/structural-positivity/replay/gap_algebra.py",
+      "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
+      "included_bytes": 10753,
+      "included_sha256": "e8d1702b0b73002e8fd83aa73056c109ef56803d655ccfef80ef3b64b9d79567"
+    },
+    {
+      "path": "results/structural-positivity/replay/proofs/DELTA-TWO-BRANCHING.md",
+      "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
+      "included_bytes": 9261,
+      "included_sha256": "790be8b587c07e911b29475ce5fb553304294c7253a70533499010a0e778ab4d"
+    },
+    {
+      "path": "results/structural-positivity/replay/proofs/GENERAL-HEIGHT.md",
+      "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
+      "included_bytes": 9790,
+      "included_sha256": "72be270c32030447b27dd88efacc475761fb964623f7021b221d58b32237d7e1"
+    },
+    {
+      "path": "results/structural-positivity/replay/proofs/SOURCE-CUT.json",
+      "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
+      "included_bytes": 640,
+      "included_sha256": "08a564dd8a8cfc6e9276e9f8a30d204b4c6d2e7403a38297c3ff287de02f46d0"
+    },
+    {
+      "path": "results/structural-positivity/replay/proofs/WEIGHTED-GT-INTERIORS.md",
+      "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
+      "included_bytes": 8142,
+      "included_sha256": "37e00b27c964f006fef8ff18c004f2a32948d2d2fad5d02e3e54daea6c4985bc"
+    },
+    {
+      "path": "results/structural-positivity/replay/reproduce.py",
+      "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
+      "included_bytes": 12746,
+      "included_sha256": "c635a931582410f986e9f19914a9ff3a3923cf5340c72b538ad2847b18d1957a"
+    },
+    {
       "included_bytes": 6094,
       "included_sha256": "0759335deac556b19d85adb4bf02b59eb85f6ccfa9c11c6ccc572b935b14f320",
       "path": "results/two-row-nonconcavity/PROOF.md",
@@ -7759,11 +7923,12 @@
       "source_pointer": "/files/0"
     },
     {
-      "included_bytes": 2408,
-      "included_sha256": "6ad9349fea88b0ce73ca818ccb8543d2824a1c8ad383d7be010c49711c3c7154",
+      "included_bytes": 2906,
+      "included_sha256": "773374711fd25f95dd55eca3354e6ad8c6be3b5388d5e7ec9bd8025c1e1c548f",
       "path": "tooling/CURRENT-SOURCES.md",
       "source_map": "tooling/SOURCE-UPDATE.json",
-      "source_pointer": "/files/1"
+      "source_pointer": "/files/1",
+      "prior_included_sha256": "6ad9349fea88b0ce73ca818ccb8543d2824a1c8ad383d7be010c49711c3c7154"
     },
     {
       "included_bytes": 8835,
@@ -7790,10 +7955,11 @@
       "source_pointer": "/files/4"
     },
     {
-      "included_bytes": 64380,
-      "included_sha256": "c115e205cfacbbda6184910382ef364cec4568eaa64341430675213eee7e7e1a",
+      "included_bytes": 64899,
+      "included_sha256": "1f895a27276d5acb4d88a2c373a94f47ffa4723716fec40c2f55e8ae3036499b",
       "path": "tooling/SOURCE-UPDATE.json",
-      "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted"
+      "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted",
+      "prior_included_sha256": "c115e205cfacbbda6184910382ef364cec4568eaa64341430675213eee7e7e1a"
     },
     {
       "included_bytes": 33526,
@@ -7902,18 +8068,20 @@
       "source_pointer": "/files/18"
     },
     {
-      "included_bytes": 7711,
-      "included_sha256": "400d70b272a50ae2ba1f72684d7dbafdf31666570c78874354e4d2742e629acd",
+      "included_bytes": 7753,
+      "included_sha256": "2917181a86496e7d0c3c82431828060a51fe38a8eba67df6b2eae0819a68d6b1",
       "path": "tooling/history/previous-tooling/PROOFS.md",
       "source_map": "tooling/SOURCE-UPDATE.json",
-      "source_pointer": "/files/19"
+      "source_pointer": "/files/19",
+      "prior_included_sha256": "400d70b272a50ae2ba1f72684d7dbafdf31666570c78874354e4d2742e629acd"
     },
     {
-      "included_bytes": 5755,
-      "included_sha256": "cae532d5e552a7daaeab76c582816042c9d57e2c5393d946abea8d6a82035578",
+      "included_bytes": 5767,
+      "included_sha256": "11f0e185bed07d4d98e4ff3ebd81af60a3e3287fe7c32fc39ca56b2daba87a94",
       "path": "tooling/history/previous-tooling/README.md",
       "source_map": "tooling/SOURCE-UPDATE.json",
-      "source_pointer": "/files/20"
+      "source_pointer": "/files/20",
+      "prior_included_sha256": "cae532d5e552a7daaeab76c582816042c9d57e2c5393d946abea8d6a82035578"
     },
     {
       "included_bytes": 874,
@@ -8105,11 +8273,12 @@
       "source_pointer": "/files/46"
     },
     {
-      "included_bytes": 1806,
-      "included_sha256": "50497d9225c808f7d2460da6c7405b01c9217617c2640c3999d4405007af4032",
+      "included_bytes": 1812,
+      "included_sha256": "44766b05b845de881f37024e950a6cda354bbb3c47931064e8d9262fdf4b112c",
       "path": "tooling/proofs/sources/rectangular-api-original.md",
       "source_map": "tooling/SOURCE-UPDATE.json",
-      "source_pointer": "/files/47"
+      "source_pointer": "/files/47",
+      "prior_included_sha256": "50497d9225c808f7d2460da6c7405b01c9217617c2640c3999d4405007af4032"
     },
     {
       "included_bytes": 6945,
@@ -8377,28 +8546,39 @@
       "path": "tooling/tests/test_two_widths.py",
       "source_map": "tooling/SOURCE-UPDATE.json",
       "source_pointer": "/files/82"
+    },
+    {
+      "path": "verification/recipient_failures.py",
+      "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
+      "included_bytes": 3520,
+      "included_sha256": "b20bec23755f1f8bcc5c8e003e385df12afdd91bc54f0496491d5e7c08310598"
     }
   ],
   "module_source_maps": {
     "results/families-and-obstructions": {
-      "bytes": 238274,
+      "bytes": 239387,
       "path": "results/families-and-obstructions/SOURCE-MAP.json",
-      "sha256": "4ab7695a2c1ae8b7cebc8d78771816b2fa62649cea4fce146f7575de472615d0"
+      "sha256": "c47d1916d3e26926087feb1635deacb6c3a067c9ac44222f7f7e33a75b2f3ea0"
     },
     "results/finite-box": {
-      "bytes": 9488608,
+      "bytes": 12176431,
       "path": "results/finite-box/SOURCE-MAP.json",
-      "sha256": "7a2946b74d9937209930da224fbde24c8fe1f4b62f5f1f74e97c48625ad2145f"
+      "sha256": "1e263731bd1f129fb9d22f0f49acd20a25bc690863b057bec064fb91b7065afb"
     },
     "results/structural-positivity": {
-      "bytes": 13239,
+      "bytes": 13531,
       "path": "results/structural-positivity/SOURCE-MAP.json",
-      "sha256": "d502ccdd987255b01d0ac70082e5392b1d82b0ef8b9264333b90f2b702910b1a"
+      "sha256": "c18f9aebee1d4efe9b3b9e2b4705ef38114c893e167cccbe229011b91b9068a4"
     },
     "tooling": {
-      "bytes": 64380,
+      "bytes": 64899,
       "path": "tooling/SOURCE-UPDATE.json",
-      "sha256": "c115e205cfacbbda6184910382ef364cec4568eaa64341430675213eee7e7e1a"
+      "sha256": "1f895a27276d5acb4d88a2c373a94f47ffa4723716fec40c2f55e8ae3036499b"
+    },
+    "results/structural-positivity/replay": {
+      "path": "results/structural-positivity/replay/SOURCE-MAP.json",
+      "bytes": 13788,
+      "sha256": "fb995cca9650918d895a895e7d43d7a484cf14381b6164525e3ecf6a8693daa2"
     }
   },
   "schema": "curated-repository-source-map-v2",

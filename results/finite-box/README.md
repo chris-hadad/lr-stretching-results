@@ -7,7 +7,8 @@ accepted the computer-assisted proof after independent mathematical and
 computational checks. The unrestricted KTT conjecture and whole-rank positivity
 for ranks six and seven remain open.
 
-Read [the proof](PROOF.md), [the audit map](REVIEWER-GUIDE.md), and
+Start with the [research-note draft](../../papers/finite-box.md) for a connected
+account. Read [the detailed proof](PROOF.md), [the audit map](REVIEWER-GUIDE.md), and
 [the dependencies](DEPENDENCIES.md) first. The [verification record](REPLAY.json)
 states exactly which exported computations were completed. A program success
 message does not replace the named mathematical premises or external review.

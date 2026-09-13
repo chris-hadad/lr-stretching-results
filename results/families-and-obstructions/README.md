@@ -9,7 +9,10 @@ peer-review claim is made.
 
 [ACCEPTED-SCOPES.json](ACCEPTED-SCOPES.json) preserves the precise mathematical
 claims and verification levels. [SOURCE-MAP.json](SOURCE-MAP.json) binds the
-728 selected proof and data files to their original bytes. The complete
+the selected proof and data files to their sources. Two rectangular proof
+links are relocated in this edition without changing mathematical statements;
+[the exact link projection](../../DOCUMENTATION-ADAPTATIONS.json) preserves
+the earlier and current hashes. The original nonvanishing result is included. The complete
 mathematical evidence is available for inspection; these historical records
 are not new executions of a portable checker. The [tool collection](../../tooling/README.md)
 provides usable counters and selected complete polynomial/certificate interfaces.

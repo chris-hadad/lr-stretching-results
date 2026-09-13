@@ -1,0 +1,154 @@
+{
+  "schema": "researcher-edition-checks-v1",
+  "date": "2026-09-13",
+  "starting_source_commit": "198a9ae5a74e171c4792f2c50c1d149b5a4d1995",
+  "scope": "Fresh external source exports; no new science or exhaustive finite-box replay in this edition. Unchanged source imports retain the starting commit; new source is bound by this edition inventory.",
+  "checks": [
+    {
+      "name": "baseline-extract",
+      "command": "python3 -I -S -B verify.py extract --assets ASSETS --data NEW_DATA",
+      "exit_code": 0,
+      "elapsed_seconds": 28.990922791999765,
+      "timed_out": false,
+      "owned_process_group_exited": true,
+      "output_sha256": "6bf2fe73e03c49877c2d4e4a23823e0fc03ca343e5a6eb08110e9359945bdbb6",
+      "error_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "baseline-inventory",
+      "command": "python3 -I -S -B verify.py inventory --data DATA --work NEW_WORK",
+      "exit_code": 0,
+      "elapsed_seconds": 1.6438714580144733,
+      "timed_out": false,
+      "owned_process_group_exited": true,
+      "output_sha256": "8b30cfa3c5dd4329a618dd36d3d1a69f3784a7b82443cb0177bdbd7a8a5ef968",
+      "error_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "baseline-sample",
+      "command": "python3 -I -S -B verify.py sample --data DATA --work NEW_WORK --compiler CXX",
+      "exit_code": 0,
+      "elapsed_seconds": 132.7261566669913,
+      "timed_out": false,
+      "owned_process_group_exited": true,
+      "output_sha256": "0e8f0a8b5346a10fc81ec1aab7b450cbcfe35a9bbf801c81891cd3b07c637e8e",
+      "error_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "established-modules",
+      "command": "python3 -B reproduce.py",
+      "exit_code": 0,
+      "elapsed_seconds": 12.656434665899724,
+      "timed_out": false,
+      "owned_process_group_exited": true,
+      "output_sha256": "83f21e6dc45a8a8c595f208b3ecdf5dda768eb8686bb72f39bf51f2af4c66e65",
+      "error_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "quintic-example",
+      "command": "python3 -B examples/sign_completion.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.024033207911998034,
+      "timed_out": false,
+      "owned_process_group_exited": true,
+      "output_sha256": "5ce789b6a283f70d9ac777f5038d9a018383aae4bbc862af041a42dbec69868c",
+      "error_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "recipient-failures",
+      "command": "Session verification fixture for missing/interrupted inputs; exact fixture source included in verification/recipient_failures.py.",
+      "exit_code": 1,
+      "elapsed_seconds": 0.14014679205138236,
+      "timed_out": false,
+      "owned_process_group_exited": true,
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error_output_sha256": "49e2de94a44fe2110a64635d887b77570ee94a85d3abe9f83582a476d42ab678"
+    },
+    {
+      "name": "recipient-failures-v2",
+      "command": "Session verification fixture for missing/interrupted inputs; exact fixture source included in verification/recipient_failures.py.",
+      "exit_code": 0,
+      "elapsed_seconds": 2.7920518750324845,
+      "timed_out": false,
+      "owned_process_group_exited": true,
+      "output_sha256": "b38ab52b55b59f54adab3d71852d044a4079b515f0a2b6f98b65463d35ce2f2f",
+      "error_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "rectangular-nonvanishing",
+      "command": "python3 -B -c import sys; sys.path.insert(0, \"tooling\"); from slr_ehrhart import rectangular_matrix_invariant_count as c; values = [c(1, 2, 3, t) for t in range(4)] + [c(2, 3, 3, 1), c(3, 4, 3, 1)]; assert values == [1, 3, 6, 10, 20, 266]; print(values)",
+      "exit_code": 0,
+      "elapsed_seconds": 0.0878488749731332,
+      "timed_out": false,
+      "owned_process_group_exited": true,
+      "output_sha256": "9efba601ed2921b056cd00e6045ef0bfa87eb1beb422657bef95374d0262b2e4",
+      "error_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "structural-all",
+      "command": "python3 -B results/structural-positivity/replay/reproduce.py --module all",
+      "exit_code": 0,
+      "elapsed_seconds": 0.26205912500154227,
+      "timed_out": false,
+      "owned_process_group_exited": true,
+      "output_sha256": "01073e672d17e817d6f27f83550cbe1f464acb76cf6a0c909bdcb733f5c089ea",
+      "error_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "structural-refusals",
+      "command": "python3 -B results/structural-positivity/replay/failure_cases.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.08650466601829976,
+      "timed_out": false,
+      "owned_process_group_exited": true,
+      "output_sha256": "a66ed69bee9dc3fe3745930c4cf4d9618b4171307dfc0fdbb6e50ebb77ff9c12",
+      "error_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "tooling-current-controls",
+      "command": "python3 -B tooling/check_current.py --research-controls",
+      "exit_code": 0,
+      "elapsed_seconds": 0.35846770799253136,
+      "timed_out": false,
+      "owned_process_group_exited": true,
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error_output_sha256": "15169f79cbeea194198969642def5a1e37b54c65d3f0ddfc2a8224a8903e8f71"
+    },
+    {
+      "name": "tooling-current-examples",
+      "command": "python3 -B tooling/examples/current_apis.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.08812279102858156,
+      "timed_out": false,
+      "owned_process_group_exited": true,
+      "output_sha256": "2cba01a8f0b8f4652575b667191d3cb4566fecb0a1f926da62df8d030f4e65a9",
+      "error_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "tooling-examples",
+      "command": "python3 -B tooling/examples.py",
+      "exit_code": 2,
+      "elapsed_seconds": 0.023950708098709583,
+      "timed_out": false,
+      "owned_process_group_exited": true,
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error_output_sha256": "d0b191876a57eb898917ea53b82da129a4ec90bb6847a7414a77c0768ea7a5ee"
+    },
+    {
+      "name": "tooling-rank8-records",
+      "command": "python3 -B tooling/check_rank8_data.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.08481370797380805,
+      "timed_out": false,
+      "owned_process_group_exited": true,
+      "output_sha256": "f679ed5f149e41c299a7182e3e9871a46059251b66559b6a2396afa9bb77af2c",
+      "error_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "adverse_attempts": {
+    "recipient-failures": "The first fixture expected only the facade refusal label; the controller correctly returned REFUSED. The fixture, not the production code, was corrected and rerun in a new directory.",
+    "tooling-examples": "A newly drafted guide named a nonexistent examples.py. The guide was corrected to examples/current_apis.py and that exact command passed."
+  },
+  "full_convenience_facade_executed": false,
+  "external_human_review_inferred": false
+}

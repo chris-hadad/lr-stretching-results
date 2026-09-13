@@ -310,5 +310,11 @@
       "transformation": "none"
     }
   ],
-  "proof_files": 44
+  "proof_files": 44,
+  "standalone_replay": {
+    "path": "replay/SOURCE-MAP.json",
+    "bytes": 13788,
+    "sha256": "fb995cca9650918d895a895e7d43d7a484cf14381b6164525e3ecf6a8693daa2",
+    "scope": "Three selected modules with exact dependencies; historical count/algebra scope stated in replay/README.md."
+  }
 }

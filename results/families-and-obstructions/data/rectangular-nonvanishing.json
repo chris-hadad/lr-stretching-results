@@ -1,0 +1,203 @@
+{
+  "status": "complete",
+  "pid": 23864,
+  "pgid": 23864,
+  "native_calls": 0,
+  "controls": [
+    {
+      "p": 1,
+      "t": 0,
+      "value": 1,
+      "statistics": {
+        "states": 1,
+        "transitions": 3,
+        "permutations": 3,
+        "allocation_orbits": 0,
+        "represented_labeled_allocations": 0,
+        "residual_terms": 0,
+        "schedule_cache_hits": 0,
+        "schedule_cache_misses": 0,
+        "margin_profiles": 1
+      }
+    },
+    {
+      "p": 1,
+      "t": 1,
+      "value": 3,
+      "statistics": {
+        "states": 2,
+        "transitions": 3,
+        "permutations": 3,
+        "allocation_orbits": 0,
+        "represented_labeled_allocations": 0,
+        "residual_terms": 0,
+        "schedule_cache_hits": 0,
+        "schedule_cache_misses": 0,
+        "margin_profiles": 2
+      }
+    },
+    {
+      "p": 1,
+      "t": 2,
+      "value": 6,
+      "statistics": {
+        "states": 2,
+        "transitions": 3,
+        "permutations": 3,
+        "allocation_orbits": 0,
+        "represented_labeled_allocations": 0,
+        "residual_terms": 0,
+        "schedule_cache_hits": 0,
+        "schedule_cache_misses": 0,
+        "margin_profiles": 2
+      }
+    },
+    {
+      "p": 1,
+      "t": 3,
+      "value": 10,
+      "statistics": {
+        "states": 2,
+        "transitions": 3,
+        "permutations": 3,
+        "allocation_orbits": 0,
+        "represented_labeled_allocations": 0,
+        "residual_terms": 0,
+        "schedule_cache_hits": 0,
+        "schedule_cache_misses": 0,
+        "margin_profiles": 2
+      }
+    }
+  ],
+  "nonvanishing_gates": [
+    {
+      "p": 2,
+      "q": 3,
+      "m": 3,
+      "t": 1,
+      "value": 20,
+      "entry_degree": 6,
+      "degree_prior": 6,
+      "triple": {
+        "lambda": [
+          18,
+          18,
+          18,
+          18,
+          15,
+          15,
+          8,
+          8,
+          8,
+          6,
+          6,
+          6
+        ],
+        "mu": [
+          12,
+          12,
+          12,
+          12,
+          6,
+          6,
+          6,
+          6
+        ],
+        "nu": [
+          12,
+          12,
+          12,
+          12,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "statistics": {
+        "states": 21,
+        "transitions": 55,
+        "permutations": 8,
+        "allocation_orbits": 20,
+        "represented_labeled_allocations": 26,
+        "residual_terms": 27,
+        "schedule_cache_hits": 4,
+        "schedule_cache_misses": 10,
+        "margin_profiles": 10
+      },
+      "seconds": 8.770794374868274e-05
+    },
+    {
+      "p": 3,
+      "q": 4,
+      "m": 3,
+      "t": 1,
+      "value": 266,
+      "entry_degree": 12,
+      "degree_prior": 12,
+      "triple": {
+        "lambda": [
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          25,
+          25,
+          25,
+          13,
+          13,
+          13,
+          13,
+          13,
+          10,
+          10,
+          10,
+          10
+        ],
+        "mu": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "nu": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      "statistics": {
+        "states": 199,
+        "transitions": 824,
+        "permutations": 30,
+        "allocation_orbits": 260,
+        "represented_labeled_allocations": 360,
+        "residual_terms": 534,
+        "schedule_cache_hits": 105,
+        "schedule_cache_misses": 80,
+        "margin_profiles": 80
+      },
+      "seconds": 0.0007337909773923457
+    }
+  ],
+  "seconds": 0.0009562079794704914
+}

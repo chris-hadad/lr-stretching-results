@@ -40,3 +40,12 @@ examples and check commands are reproducible routes; their actual execution
 evidence belongs in the review records, with fresh results distinguished from
 the preserved research observations.
 
+
+## September 13 documentation projection
+
+Three relocated historical documentation files have corrected relative links
+to current proof, benchmark, licensing and rectangular-adoption notes. Their
+mathematical statements and all executable tooling code are unchanged.
+[DOCUMENTATION-ADAPTATIONS.json](../DOCUMENTATION-ADAPTATIONS.json) records every
+replacement and before/after hash; the earlier exact bytes remain at the
+pinned source commit. This changes navigation, not the earlier test scope.

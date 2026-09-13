@@ -91,3 +91,23 @@ defines the finite bounds addressed by the box theorem. Epoch's
 adjudicate nonexistence claims and relies on the mathematical community.
 Campaign verification does not establish that community or institutional
 acceptance has occurred.
+
+## Exact source locations and flow antecedents
+
+[REFERENCE-NOTES.md](REFERENCE-NOTES.md) records the theorem and page locations
+checked for the premises above. In particular, Derksen–Weyman Corollary 3
+(printed p. 256), Rassart Theorem 4.1 (preprint p. 10), Ressayre Theorem 5
+and equation (16) (p. 9), and Beck–Develin Theorem 5 (p. 8) supply the
+polynomiality, chamber, factorization and rational-reciprocity statements.
+
+Karola Mészáros and Alejandro H. Morales, [*Volumes and Ehrhart polynomials of flow polytopes*](https://arxiv.org/abs/1710.00701),
+Compositio Mathematica 155 (2019), 1270–1291, section 1.2, case II(a),
+identify the complete-graph source–sink flow family as the Chan–Robbins–Yuen
+polytope. Thawinrak’s dissertation section 3.4 (printed pp. 41–42) already
+gives its stated LR polynomial specialization. The more general stable
+affine integer map and interior theorem in this collection have their own
+proofs; the CRY connection itself is prior work.
+
+Thawinrak’s short polynomiality proof also appeared in *Ars Combinatoria*
+162 (2025), 205–212, [DOI: 10.61091/ars162-15](https://doi.org/10.61091/ars162-15).
+This metadata update does not replace Derksen–Weyman’s earlier theorem.

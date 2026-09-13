@@ -7,7 +7,22 @@ their original bytes; [ACCEPTED-SCOPES.json](ACCEPTED-SCOPES.json) gives the
 precise scope of the 60 accepted mathematical claim records. Historical pilot or runtime
 assertions in those documents are not promoted merely by copying them.
 
-These are proof and result materials. A standalone replay of every normal
+The [standalone family replay](replay/README.md) provides exact two-row proof
+checks, gap-three algebra and transportation endpoint reconstruction, with
+their [complete dependency map](replay/DEPENDENCIES.md). Run:
+
+```sh
+python3 -B results/structural-positivity/replay/reproduce.py --module all
+python3 -B results/structural-positivity/replay/failure_cases.py
+```
+
+Two-row checks freshly expand the finite proof cases and compare complete
+character formulas on a bounded roster. Gap-three and transportation modes
+recompute exact algebra from explicitly historical accepted count values;
+they do not freshly enumerate those underlying counts. All parameter domains,
+whole-LR constructions and open complements are stated in the module guide.
+
+A standalone replay of every normal
 certificate and family count is a separate packaging task; the repository's
 quick reproduction command does not perform that replay. Source proofs that
 refer to numbered data files should be read with this limitation. The
@@ -49,8 +64,8 @@ produce a negative entire LR coefficient.
 
 - **Gap three:** the exact specified nonnegative integer quadrant and homogeneous
   three-ray cone are positive, including their initial axes. The full four
-  parent bases were reconstructed from 40 fresh positive values and eight
-  unused checks. General gap-three and fractional wings remain open.
+  parent bases were reconstructed from 32 determining positive values and eight
+  unused checks: 40 positive count sites in total. General gap-three and fractional wings remain open.
 - **Two banks:** the complete g=1, h=0 family has positive ordinary coefficients
   for every m≥2, rank m+3 and degree 2m−1. The complete capped g formula gives
   c1≥3m−1 on its stated full domain. Read the

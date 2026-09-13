@@ -46,7 +46,7 @@
       "transformation": "Byte-preserving published baseline copy."
     },
     {
-      "bytes": 2408,
+      "bytes": 2906,
       "origin": {
         "repository": "codex-workbench",
         "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/tooling/CURRENT-SOURCES.md",
@@ -55,8 +55,9 @@
         "source_sha256": "6ad9349fea88b0ce73ca818ccb8543d2824a1c8ad383d7be010c49711c3c7154"
       },
       "path": "CURRENT-SOURCES.md",
-      "sha256": "6ad9349fea88b0ce73ca818ccb8543d2824a1c8ad383d7be010c49711c3c7154",
-      "transformation": "Authored standalone packaging, API documentation, example or bounded verification interface; no mathematical kernel edits."
+      "sha256": "773374711fd25f95dd55eca3354e6ad8c6be3b5388d5e7ec9bd8025c1e1c548f",
+      "transformation": "Documentation navigation/provenance update only; mathematics and executable source unchanged.",
+      "prior_included_sha256": "6ad9349fea88b0ce73ca818ccb8543d2824a1c8ad383d7be010c49711c3c7154"
     },
     {
       "bytes": 8835,
@@ -294,7 +295,7 @@
       "transformation": "Byte-preserving published baseline copy."
     },
     {
-      "bytes": 7711,
+      "bytes": 7753,
       "origin": {
         "repository": "lr-stretching-results",
         "source": "tooling/PROOFS.md",
@@ -303,11 +304,12 @@
         "source_sha256": "400d70b272a50ae2ba1f72684d7dbafdf31666570c78874354e4d2742e629acd"
       },
       "path": "history/previous-tooling/PROOFS.md",
-      "sha256": "400d70b272a50ae2ba1f72684d7dbafdf31666570c78874354e4d2742e629acd",
-      "transformation": "Exact prior published source retained before refresh."
+      "sha256": "2917181a86496e7d0c3c82431828060a51fe38a8eba67df6b2eae0819a68d6b1",
+      "transformation": "Documentation navigation/provenance update only; mathematics and executable source unchanged.",
+      "prior_included_sha256": "400d70b272a50ae2ba1f72684d7dbafdf31666570c78874354e4d2742e629acd"
     },
     {
-      "bytes": 5755,
+      "bytes": 5767,
       "origin": {
         "repository": "lr-stretching-results",
         "source": "tooling/README.md",
@@ -316,8 +318,9 @@
         "source_sha256": "cae532d5e552a7daaeab76c582816042c9d57e2c5393d946abea8d6a82035578"
       },
       "path": "history/previous-tooling/README.md",
-      "sha256": "cae532d5e552a7daaeab76c582816042c9d57e2c5393d946abea8d6a82035578",
-      "transformation": "Exact prior published source retained before refresh."
+      "sha256": "11f0e185bed07d4d98e4ff3ebd81af60a3e3287fe7c32fc39ca56b2daba87a94",
+      "transformation": "Documentation navigation/provenance update only; mathematics and executable source unchanged.",
+      "prior_included_sha256": "cae532d5e552a7daaeab76c582816042c9d57e2c5393d946abea8d6a82035578"
     },
     {
       "bytes": 874,
@@ -813,7 +816,7 @@
       }
     },
     {
-      "bytes": 1806,
+      "bytes": 1812,
       "origin": {
         "repository": "stretched-lr-research",
         "source": "methods/frg-2026-09-10/PUBLIC-API.md",
@@ -822,8 +825,9 @@
         "source_sha256": "50497d9225c808f7d2460da6c7405b01c9217617c2640c3999d4405007af4032"
       },
       "path": "proofs/sources/rectangular-api-original.md",
-      "sha256": "50497d9225c808f7d2460da6c7405b01c9217617c2640c3999d4405007af4032",
-      "transformation": "Byte-preserving copy."
+      "sha256": "44766b05b845de881f37024e950a6cda354bbb3c47931064e8d9262fdf4b112c",
+      "transformation": "Documentation navigation/provenance update only; mathematics and executable source unchanged.",
+      "prior_included_sha256": "50497d9225c808f7d2460da6c7405b01c9217617c2640c3999d4405007af4032"
     },
     {
       "bytes": 6945,

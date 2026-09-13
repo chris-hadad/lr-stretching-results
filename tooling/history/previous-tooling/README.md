@@ -63,11 +63,11 @@ which this snapshot does not install; the examples and checks need no Sage.
 The transport counter aggregates equal-cap allocation orbits with their exact
 labeled multiplicities and closes the last rows by coefficient formulas.
 The strip counter evaluates integer binomial moments instead of enumerating
-compositions. [BENCHMARKS.md](BENCHMARKS.md) reports same-input measurements,
+compositions. [BENCHMARKS.md](../../BENCHMARKS.md) reports same-input measurements,
 including startup costs and cases with little practical gain.
 
 [PROOFS.md](PROOFS.md) states the mathematical contracts and their limits.
-[SOURCE-LICENSES.md](SOURCE-LICENSES.md) explains source provenance, AI assistance
+[SOURCE-LICENSES.md](../../SOURCE-LICENSES.md) explains source provenance, AI assistance
 and the existing private licensing boundary. The repository's `SOURCE-MAP.json`
 pins this versioned projection to its maintained sources. Historical benchmark
 oracles remain frozen comparison code; the maintained algorithms have one source

@@ -1,0 +1,20 @@
+{
+  "scope": "Three byte-preserved mathematical source snapshots; sibling README and dependency explanations are authored prose outside this directory.",
+  "files": [
+    {
+      "path": "DELTA-TWO-BRANCHING.md",
+      "bytes": 9261,
+      "sha256": "790be8b587c07e911b29475ce5fb553304294c7253a70533499010a0e778ab4d"
+    },
+    {
+      "path": "GENERAL-HEIGHT.md",
+      "bytes": 9790,
+      "sha256": "72be270c32030447b27dd88efacc475761fb964623f7021b221d58b32237d7e1"
+    },
+    {
+      "path": "WEIGHTED-GT-INTERIORS.md",
+      "bytes": 8142,
+      "sha256": "37e00b27c964f006fef8ff18c004f2a32948d2d2fad5d02e3e54daea6c4985bc"
+    }
+  ]
+}

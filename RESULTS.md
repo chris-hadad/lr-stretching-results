@@ -31,10 +31,12 @@ root-location property is not, by itself, a counterexample to KTT positivity.
 | [Interior surplus and its limits](results/families-and-obstructions/README.md#interior-surplus-theorems-and-their-limit) | Low-defect surplus/shifted-interior positivity, and full-polynomial positivity under an additional reflection law | Complete symbolic proofs and an integral negative-polytope challenge showing why the stronger conclusion needs its hypotheses. |
 | [Three local rank-six cones](results/families-and-obstructions/README.md#three-earlier-local-rank-six-cones-with-their-full-domains) | Complete positive whole-count formulas and negative-real roots on their exact closed ray cones | All three 17-ray domains, parameter forms and integer lattice certificates supplied. |
 
-The structural section currently provides the accepted theorem catalog and
-source proofs. Its README distinguishes completed campaign verification from
-the additional standalone certificate packaging still required for those
-modules. The finite-box package has its own exhaustive reproduction interface.
+The structural section supplies the accepted theorem catalog, full selected
+source proofs and [three standalone family checks](results/structural-positivity/replay/README.md).
+Two-row finite proof cases and bounded character comparisons are freshly
+computed. Gap-three and transport replay use exact historical count inputs
+and regenerate complete coefficient algebra. The [dependency map](results/structural-positivity/replay/DEPENDENCIES.md)
+states the full normal-atlas packaging and fresh-count replay work still open. The finite-box package has its own exhaustive reproduction interface.
 The five older small modules run from the repository root with:
 
 ```sh

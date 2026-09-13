@@ -38,7 +38,7 @@ interval factors give the additional stated degree bound. Exact finite
 differences at that proved bound recover the whole polynomial.
 
 The complete positive expansion for both active cuts is included in
-[the strip proof](proofs/positive-strip.md). It supplies coefficient positivity;
+[the strip proof](../../proofs/positive-strip.md). It supplies coefficient positivity;
 the subtractive evaluation formula alone would not prove it.
 
 The Cdagger API first checks a fixed, complete sufficient domain on padded
@@ -46,7 +46,7 @@ rank-six boundaries. It retains 521 essential Horn, 18 partition and 17 source
 facet inequalities, yielding 553 distinct rows on the trace section. Its
 unimodular slack chart identifies the entire hive with the strip at
 `h=q1=q2=3` times an independent interval. The complete proof is included in
-[the sector note](proofs/cdagger.md); the thirty-six exact implications are
+[the sector note](../../proofs/cdagger.md); the thirty-six exact implications are
 replayed by `verify_cdagger_certificate()`. Neither the proof nor the tool
 enumerates a complete rank-six fan or claims a whole-box cover.
 
@@ -84,7 +84,7 @@ schedule in the API. Reciprocity uses the original active dimension.
 For a specified whole LR parent, the full-lattice construction and the
 Minkowski premise are additional obligations. The count function receives no
 parent margins and cannot certify them. The complete transportation-to-hive
-argument is included in [the transport proof](proofs/transport.md).
+argument is included in [the transport proof](../../proofs/transport.md).
 
 ## Whole-polytope constructions
 
@@ -101,7 +101,7 @@ Nu = kappa.
 Insertion/deletion of the fixed superstandard buffer identifies the complete
 real row-count polytopes and their integer lattices at every stretch. Content
 order and zero entries keep their label positions; this is not Ferrers
-conjugation. The full argument is in [the skew lift](proofs/skew-lift.md).
+conjugation. The full argument is in [the skew lift](../../proofs/skew-lift.md).
 
 Positive matrix caps admit unique integral slack completion to transportation
 margins `(sum(column_caps), *row_caps)` and `(sum(row_caps), *column_caps)`.
@@ -113,7 +113,7 @@ matrix at the threshold. These are constructions, not arbitrary-LR inverses.
 The square-matrix invariant constructor and counter retain their independently
 verified specialized Weyl identity and scalar size/grade transposition. The
 original matrix size is retained by the whole-family constructor. The supporting
-[matrix notes](proofs/matrix-invariants.md) distinguish the scalar identity from
+[matrix notes](../../proofs/matrix-invariants.md) distinguish the scalar identity from
 an assertion about the entire graded ring. Optional work limits raise a typed
 exception; no partial signed sum is returned as a count.
 
@@ -123,7 +123,7 @@ A semistandard skew tableau is a chain of horizontal strips, one per label.
 The new counter aggregates partial bottom-up row sweeps, preserving the old
 upper rows needed by interlacing. Spent area is determined by the mixed tuple
 and fixed preceding-layer area; exact capacity and future-height bounds prune
-only impossible continuations. [The complete proof](proofs/skew-count.md)
+only impossible continuations. [The complete proof](../../proofs/skew-count.md)
 explains the bijection, aggregation and typed work limits. The buffer lift above
 identifies the count with its particular whole ordinary LR triple. This does
 not invert arbitrary LR inputs or reconstruct high-degree polynomials.
@@ -141,7 +141,7 @@ tail in this residual graph. A recorded cycle makes it positive. Otherwise a
 closed cut proves it forced zero. The complete active/forced partition gives
 dimension `active_edges-(n+1)+components`, including isolated vertices.
 Total unimodularity and boundedness make this the exact Ehrhart degree.
-[The support note](proofs/flow-support.md) gives the complete certificate
+[The support note](../../proofs/flow-support.md) gives the complete certificate
 contract and proof. No degree is assigned to an infeasible fiber.
 
 `plan_support` is a different, conditional instrument. If complete summand

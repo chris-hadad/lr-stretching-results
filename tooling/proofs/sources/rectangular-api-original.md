@@ -24,7 +24,7 @@ The CLI uses the same exact JSON and error behavior as the square command.
 This scalar API does not provide a general rectangular LR constructor or
 degree theorem. The separate primitive p4q5 theorem and independently positive
 degree-20 vector are in
-[FRG acceptance](../../methods/frg-2026-09-10/ACCEPTANCE.md).
+[curated rectangular adoption and limits](rectangular-adoption.md).
 
 The focused regression selectors are `test_matrix_invariants.py` and
 `test_rectangular_matrix_invariants.py`; the owning FRG record contains the
