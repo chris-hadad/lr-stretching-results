@@ -1,0 +1,148 @@
+{
+  "schema": "portable-box-source-copies-v1",
+  "copy_scope": "Exact named root source snapshots; source paths are provenance and are never looked up by the portable launcher.",
+  "copies": [
+    {
+      "path": "box_geometry.py",
+      "original_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/box_geometry.py",
+      "original_bytes": 12293,
+      "original_sha256": "988ea146f001f93a0b5a1a2a8b78076d710b9bb494a2e894189e273391426f8c",
+      "portable_bytes": 12293,
+      "portable_sha256": "988ea146f001f93a0b5a1a2a8b78076d710b9bb494a2e894189e273391426f8c",
+      "action": "exact_source_copy"
+    },
+    {
+      "path": "box_geometry_early.py",
+      "original_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/box_geometry_early.py",
+      "original_bytes": 13107,
+      "original_sha256": "795fc221181a01654b96ec097ffd3d939900a8608083151b057f5fba43503fbf",
+      "portable_bytes": 13107,
+      "portable_sha256": "795fc221181a01654b96ec097ffd3d939900a8608083151b057f5fba43503fbf",
+      "action": "exact_source_copy"
+    },
+    {
+      "path": "verify_box_geometry.py",
+      "original_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/verify_box_geometry.py",
+      "original_bytes": 8534,
+      "original_sha256": "b8e871f2da036ebf233eeea17065faf84715cb35779ca78b28792255cedd18f6",
+      "portable_bytes": 8534,
+      "portable_sha256": "b8e871f2da036ebf233eeea17065faf84715cb35779ca78b28792255cedd18f6",
+      "action": "exact_source_copy"
+    },
+    {
+      "path": "verify_box_algebra.py",
+      "original_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/verify_box_algebra.py",
+      "original_bytes": 9516,
+      "original_sha256": "f0cad7d2fb3d99a72a78e904dfb0704efd3ba223fbe4576a686329408c160fdc",
+      "portable_bytes": 9516,
+      "portable_sha256": "f0cad7d2fb3d99a72a78e904dfb0704efd3ba223fbe4576a686329408c160fdc",
+      "action": "exact_source_copy"
+    },
+    {
+      "path": "verify_box_bounds.py",
+      "original_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/verify_box_bounds.py",
+      "original_bytes": 54660,
+      "original_sha256": "53aac7c79374b42e383bb1071c79e9b68f10b6d22b62ca8057de72d576ab159c",
+      "portable_bytes": 54660,
+      "portable_sha256": "53aac7c79374b42e383bb1071c79e9b68f10b6d22b62ca8057de72d576ab159c",
+      "action": "exact_source_copy"
+    },
+    {
+      "path": "verify_box_bounds.pre_r2_10d71fc01a6c5f31.py",
+      "original_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/verify_box_bounds.pre_r2_10d71fc01a6c5f31.py",
+      "original_bytes": 52375,
+      "original_sha256": "10d71fc01a6c5f316b2a648800c066380b20521b92c50b880adb7e5875ff8869",
+      "portable_bytes": 52375,
+      "portable_sha256": "10d71fc01a6c5f316b2a648800c066380b20521b92c50b880adb7e5875ff8869",
+      "action": "exact_source_copy"
+    },
+    {
+      "path": "verify_box_composition.py",
+      "original_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/verify_box_composition.py",
+      "original_bytes": 82416,
+      "original_sha256": "9e3f4bfac1ca9f57e4087ec7a37d06bdb4000d988312bf152a0ac08721cfc9c3",
+      "portable_bytes": 82416,
+      "portable_sha256": "9e3f4bfac1ca9f57e4087ec7a37d06bdb4000d988312bf152a0ac08721cfc9c3",
+      "action": "exact_source_copy"
+    },
+    {
+      "path": "verify_box_composition.pre_repair_969d83d6845340e2.py",
+      "original_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/verify_box_composition.pre_repair_969d83d6845340e2.py",
+      "original_bytes": 77805,
+      "original_sha256": "969d83d6845340e2811351da790e1875a09a7ea4b169599e3bc0701c056005ef",
+      "portable_bytes": 77805,
+      "portable_sha256": "969d83d6845340e2811351da790e1875a09a7ea4b169599e3bc0701c056005ef",
+      "action": "exact_source_copy"
+    },
+    {
+      "path": "verify_box_composition.pre_export_f50aac462a517665.py",
+      "original_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/verify_box_composition.pre_export_f50aac462a517665.py",
+      "original_bytes": 81488,
+      "original_sha256": "f50aac462a5176655301961014e86eb61b3aa6fc24fd8413b801c67ebead7844",
+      "portable_bytes": 81488,
+      "portable_sha256": "f50aac462a5176655301961014e86eb61b3aa6fc24fd8413b801c67ebead7844",
+      "action": "exact_source_copy"
+    },
+    {
+      "path": "verify_early_terminals.py",
+      "original_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/verify_early_terminals.py",
+      "original_bytes": 49939,
+      "original_sha256": "a0c3b83db3a4e472f08fcb98d6f380e67b2aba4016bc2ed42dfb99fb6ab7b53d",
+      "portable_bytes": 49939,
+      "portable_sha256": "a0c3b83db3a4e472f08fcb98d6f380e67b2aba4016bc2ed42dfb99fb6ab7b53d",
+      "action": "exact_source_copy"
+    },
+    {
+      "path": "verify_box_final_bindings.py",
+      "original_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/verify_box_final_bindings.py",
+      "original_bytes": 11084,
+      "original_sha256": "6d4bbe4f6e8747fc3b507465ca1ad3c8d32ff07690bdc7a69b179732b3cfe31e",
+      "portable_bytes": 14086,
+      "portable_sha256": "877575481a0be9a5b21421dea4b75dd8d1abf6688d869fd4189d7015da2cb7b4",
+      "action": "portable_manifest_source_adapter"
+    },
+    {
+      "path": "recount_records.py",
+      "original_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/recount_records.py",
+      "original_bytes": 40480,
+      "original_sha256": "f62a78a78f1d38452fb805ca051c89fe1dabf26d0d2c0d6a900c9200fd6aa4e7",
+      "portable_bytes": 40480,
+      "portable_sha256": "f62a78a78f1d38452fb805ca051c89fe1dabf26d0d2c0d6a900c9200fd6aa4e7",
+      "action": "exact_source_copy"
+    },
+    {
+      "path": "v2_independent_hive_recount.cpp",
+      "original_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/v2_independent_hive_recount.cpp",
+      "original_bytes": 11949,
+      "original_sha256": "093c6a8eb69958aaea519c3946b3a2e6ee32636ba9dcb218cd5bc88b8fd12dcc",
+      "portable_bytes": 11949,
+      "portable_sha256": "093c6a8eb69958aaea519c3946b3a2e6ee32636ba9dcb218cd5bc88b8fd12dcc",
+      "action": "exact_source_copy"
+    },
+    {
+      "path": "originals/verify_box_final_bindings.py",
+      "original_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/verify_box_final_bindings.py",
+      "original_bytes": 11084,
+      "original_sha256": "6d4bbe4f6e8747fc3b507465ca1ad3c8d32ff07690bdc7a69b179732b3cfe31e",
+      "portable_bytes": 11084,
+      "portable_sha256": "6d4bbe4f6e8747fc3b507465ca1ad3c8d32ff07690bdc7a69b179732b3cfe31e",
+      "action": "unaltered_adapter_predecessor_not_launched"
+    }
+  ],
+  "configuration_only": [
+    {
+      "module": "box_geometry",
+      "attribute": "CANONICAL",
+      "value": "{data_root}/namespaces/base"
+    },
+    {
+      "module": "box_geometry_early",
+      "attribute": "CANONICAL",
+      "value": "{data_root}/namespaces/base"
+    }
+  ],
+  "adaptation_patch": "adaptations/final-bindings-relative-manifest.patch",
+  "provider_proof_or_data_bytes_modified": false,
+  "historical_scientific_receipts_copied_or_relabelled": false,
+  "whole_theorem_accepted": false
+}

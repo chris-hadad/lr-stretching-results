@@ -1,0 +1,189 @@
+{
+  "degree": 10,
+  "ordinary_stretch_coefficient_forms": {
+    "0": {
+      "mixed_monomials": {
+        "0,0": "1"
+      },
+      "nonzero_count": 1,
+      "all_nonnegative": true,
+      "all_present_strictly_positive": true
+    },
+    "1": {
+      "mixed_monomials": {
+        "1,0": "11/6",
+        "0,1": "2351/630"
+      },
+      "nonzero_count": 2,
+      "all_nonnegative": true,
+      "all_present_strictly_positive": true
+    },
+    "2": {
+      "mixed_monomials": {
+        "2,0": "1",
+        "1,1": "14779/2520",
+        "0,2": "5939/1008"
+      },
+      "nonzero_count": 3,
+      "all_nonnegative": true,
+      "all_present_strictly_positive": true
+    },
+    "3": {
+      "mixed_monomials": {
+        "3,0": "1/6",
+        "2,1": "199/70",
+        "1,2": "58943/7560",
+        "0,3": "58997/11340"
+      },
+      "nonzero_count": 4,
+      "all_nonnegative": true,
+      "all_present_strictly_positive": true
+    },
+    "4": {
+      "mixed_monomials": {
+        "3,1": "121/280",
+        "2,2": "16399/5040",
+        "1,3": "518687/90720",
+        "0,4": "518741/181440"
+      },
+      "nonzero_count": 4,
+      "all_nonnegative": true,
+      "all_present_strictly_positive": true
+    },
+    "5": {
+      "mixed_monomials": {
+        "3,2": "469/1080",
+        "2,3": "359/180",
+        "1,4": "1109/432",
+        "0,5": "1109/1080"
+      },
+      "nonzero_count": 4,
+      "all_nonnegative": true,
+      "all_present_strictly_positive": true
+    },
+    "6": {
+      "mixed_monomials": {
+        "3,3": "967/4320",
+        "2,4": "2087/2880",
+        "1,5": "2119/2880",
+        "0,6": "2119/8640"
+      },
+      "nonzero_count": 4,
+      "all_nonnegative": true,
+      "all_present_strictly_positive": true
+    },
+    "7": {
+      "mixed_monomials": {
+        "3,4": "7/108",
+        "2,5": "29/180",
+        "1,6": "73/540",
+        "0,7": "73/1890"
+      },
+      "nonzero_count": 4,
+      "all_nonnegative": true,
+      "all_present_strictly_positive": true
+    },
+    "8": {
+      "mixed_monomials": {
+        "3,5": "23/2160",
+        "2,6": "31/1440",
+        "1,7": "233/15120",
+        "0,8": "233/60480"
+      },
+      "nonzero_count": 4,
+      "all_nonnegative": true,
+      "all_present_strictly_positive": true
+    },
+    "9": {
+      "mixed_monomials": {
+        "3,6": "1/1080",
+        "2,7": "1/630",
+        "1,8": "1/1008",
+        "0,9": "1/4536"
+      },
+      "nonzero_count": 4,
+      "all_nonnegative": true,
+      "all_present_strictly_positive": true
+    },
+    "10": {
+      "mixed_monomials": {
+        "3,7": "1/30240",
+        "2,8": "1/20160",
+        "1,9": "1/36288",
+        "0,10": "1/181440"
+      },
+      "nonzero_count": 4,
+      "all_nonnegative": true,
+      "all_present_strictly_positive": true
+    }
+  },
+  "open_rank6_degrees_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "mixed_negative_terms": [],
+  "ordinary_negative_evaluation": null,
+  "ordinary_nonnegativity_on_nonnegative_domain": true,
+  "status": "FULL_LATTICE_SUM_AND_ALL_COEFFICIENTS_VERIFIED",
+  "chamber_id": "b54e0912e4e93806",
+  "geometry_sha256": "7ac349e042e3f34298961a21f5512e159f08824e70cf26b3c67d75b3a8c26eb7",
+  "parameters": [
+    "a",
+    "w"
+  ],
+  "parameter_ray_indices": [
+    15,
+    16
+  ],
+  "full_polynomial": "1/30240*a^3*w^7 + 1/20160*a^2*w^8 + 1/36288*a*w^9 + 1/181440*w^10 + 1/1080*a^3*w^6 + 1/630*a^2*w^7 + 1/1008*a*w^8 + 1/4536*w^9 + 23/2160*a^3*w^5 + 31/1440*a^2*w^6 + 233/15120*a*w^7 + 233/60480*w^8 + 7/108*a^3*w^4 + 29/180*a^2*w^5 + 73/540*a*w^6 + 73/1890*w^7 + 967/4320*a^3*w^3 + 2087/2880*a^2*w^4 + 2119/2880*a*w^5 + 2119/8640*w^6 + 469/1080*a^3*w^2 + 359/180*a^2*w^3 + 1109/432*a*w^4 + 1109/1080*w^5 + 121/280*a^3*w + 16399/5040*a^2*w^2 + 518687/90720*a*w^3 + 518741/181440*w^4 + 1/6*a^3 + 199/70*a^2*w + 58943/7560*a*w^2 + 58997/11340*w^3 + a^2 + 14779/2520*a*w + 5939/1008*w^2 + 11/6*a + 2351/630*w + 1",
+  "composition_average": "1/6*a^3 + 1/4*a^2*w + 5/36*a*w^2 + 1/36*w^3 + a^2 + 10/9*a*w + 1/3*w^2 + 11/6*a + 41/36*w + 1",
+  "moments": [
+    {
+      "j": 0,
+      "mean_binomial_subset": "1",
+      "generating_function_multiplier": "1",
+      "generating_function_z_power": 0,
+      "generating_function_denominator_power": 8
+    },
+    {
+      "j": 1,
+      "mean_binomial_subset": "1/2*w",
+      "generating_function_multiplier": "4",
+      "generating_function_z_power": 1,
+      "generating_function_denominator_power": 9
+    },
+    {
+      "j": 2,
+      "mean_binomial_subset": "5/36*w^2 - 5/36*w",
+      "generating_function_multiplier": "10",
+      "generating_function_z_power": 2,
+      "generating_function_denominator_power": 10
+    },
+    {
+      "j": 3,
+      "mean_binomial_subset": "1/36*w^3 - 1/12*w^2 + 1/18*w",
+      "generating_function_multiplier": "20",
+      "generating_function_z_power": 3,
+      "generating_function_denominator_power": 11
+    }
+  ],
+  "ordinary_stretch_polynomial": "(1/30240*a^3*w^7 + 1/20160*a^2*w^8 + 1/36288*a*w^9 + 1/181440*w^10)*t^10 + (1/1080*a^3*w^6 + 1/630*a^2*w^7 + 1/1008*a*w^8 + 1/4536*w^9)*t^9 + (23/2160*a^3*w^5 + 31/1440*a^2*w^6 + 233/15120*a*w^7 + 233/60480*w^8)*t^8 + (7/108*a^3*w^4 + 29/180*a^2*w^5 + 73/540*a*w^6 + 73/1890*w^7)*t^7 + (967/4320*a^3*w^3 + 2087/2880*a^2*w^4 + 2119/2880*a*w^5 + 2119/8640*w^6)*t^6 + (469/1080*a^3*w^2 + 359/180*a^2*w^3 + 1109/432*a*w^4 + 1109/1080*w^5)*t^5 + (121/280*a^3*w + 16399/5040*a^2*w^2 + 518687/90720*a*w^3 + 518741/181440*w^4)*t^4 + (1/6*a^3 + 199/70*a^2*w + 58943/7560*a*w^2 + 58997/11340*w^3)*t^3 + (a^2 + 14779/2520*a*w + 5939/1008*w^2)*t^2 + (11/6*a + 2351/630*w)*t + 1",
+  "constant_term": "1",
+  "formula_source": "exact composition generating function and Vandermonde; no fitting or stored values",
+  "boxed_specialization_w0": "1/6*a^3 + a^2 + 11/6*a + 1",
+  "source_sha256": "313d5e50f5a339cec27143654cfb87fa7cc5a8573a74774925a4028ea22ba247",
+  "models_sha256": "fa9bf472e28eff9e71689829458c269654de9ff618c8aa9271cd5499a61c22fc",
+  "represented_parameter_domain": "all nonnegative integral active parameters; integral boundary forms proved by geometry",
+  "claim_premises": [
+    "exact frozen hive construction and hive/LR correspondence",
+    "boundary in the proved stored homogeneous H-cone",
+    "integral legal balanced boundary for lattice counts",
+    "affine nonnegative simplex-fiber corner-generation lemma"
+  ],
+  "elapsed_s": 0.05119870800990611,
+  "verifier_sha256": "67d296e987adccd9f379b49f18657afff26914b755b90a9b88d2b0ac9e9cd360"
+}

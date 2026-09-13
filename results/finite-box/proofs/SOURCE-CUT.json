@@ -1,0 +1,245 @@
+{
+  "scope": "Unchanged mathematical source proof copies; reader-facing statements outside this directory are separately authored and checked.",
+  "files": [
+    {
+      "path": "sources/ORIGINAL/sources/PROOFS/023-SHORT-NORMAL-COEFFICIENT-POSITIVITY.md",
+      "bytes": 8218,
+      "sha256": "4aa04c1cc72f160838af6a8f7a803bda39fb457f35e4fdb7f0def4962844115c"
+    },
+    {
+      "path": "sources/ORIGINAL/sources/PROOFS/027-BOUNDARY-MASK-POSITIVE-TERMINAL.md",
+      "bytes": 7125,
+      "sha256": "dce329b788fff554f98767f9dfc6e167620b28ae43c9efbb092473d6c1b158cb"
+    },
+    {
+      "path": "sources/ORIGINAL/sources/PROOFS/028-EXHAUSTIVE-ORIGINAL-BOX-REDUCTION.md",
+      "bytes": 8086,
+      "sha256": "c8bafbd576a9104b75960796babb3bea8eed290bb337361cb19c85f6d3dee803"
+    },
+    {
+      "path": "sources/ORIGINAL/sources/PROOFS/029-EVALUATION-KEYS-AND-AREA-SIXTEEN.md",
+      "bytes": 8217,
+      "sha256": "a486dfa48d844153a223286a6b107f73e1f80f59dfe7283d18d97f3f92b2af36"
+    },
+    {
+      "path": "sources/ORIGINAL/verification/local-cones/MASS-INDEX-LEMMA.md",
+      "bytes": 4439,
+      "sha256": "63e69b8eaf024ddd9d5f504200de0b988472d3121378beee9335f78337b193b2"
+    },
+    {
+      "path": "sources/U01/PROOFS/U01-AMBIENT-STRICTNESS-GATE.md",
+      "bytes": 6054,
+      "sha256": "4261e4042e57a839c5fac1131552c13c6daf29c15cd887f8ebc086d03766f942"
+    },
+    {
+      "path": "sources/U01/PROOFS/U01-COMPLETE-ROW-RECURRENCE.md",
+      "bytes": 9198,
+      "sha256": "4445a05619e505127dfe6c6db424b3d065be0a9d914043c26e08483342cb0210"
+    },
+    {
+      "path": "sources/U02/PROOFS/U02/COMPLETE-COMPONENT-COUNTER.md",
+      "bytes": 4791,
+      "sha256": "11f1ad59bdbcd81b9c4460ecaeeaec2a1fb4366a10c763f43a9e6b181695012e"
+    },
+    {
+      "path": "sources/U02/PROOFS/U02/HOLDOUT-CACHE-REPAIR.md",
+      "bytes": 1944,
+      "sha256": "dbd9a519504b65f32cc7eb5497b9dd68c0bfa26f4fc0cedce495ceecb8820c32"
+    },
+    {
+      "path": "sources/U02/PROOFS/U02/PROVED-ROOT-RECONSTRUCTION.md",
+      "bytes": 6788,
+      "sha256": "d06be2ca16c94a374ac04779838655e427e6afdd65448bed8f93cf0f3c904f13"
+    },
+    {
+      "path": "sources/U02/PROOFS/U02/ROW-HIVE-INTERIOR-MAP.md",
+      "bytes": 5956,
+      "sha256": "7d440348b0355955b8a2fbfd3441311c4e993a9971746084ffbe10af255e41ca"
+    },
+    {
+      "path": "sources/U02/PROOFS/U02/TWO-ROW-TAIL.md",
+      "bytes": 2945,
+      "sha256": "5683b8a6312dabebbc19958341b4586c00004eb9366724b9455e512026e0f28c"
+    },
+    {
+      "path": "sources/U03/PROOFS/U03/COMPLETE-SCALAR-REUSE.md",
+      "bytes": 5710,
+      "sha256": "e26bebdd568f8b5f47f66fc00c9857888f20b9284fcb115be2702eda313b4cfb"
+    },
+    {
+      "path": "sources/U03/PROOFS/U03/INACTIVE-GAP-DIRECT-LR.md",
+      "bytes": 8059,
+      "sha256": "78652cae36bcad99c21589a73c16c99e5879a3514e2d05649840e3c9845f05cf"
+    },
+    {
+      "path": "sources/U04/PROOFS/U04/COMPLETE-BOUND-FIVE-LAYER.md",
+      "bytes": 6436,
+      "sha256": "91bf0f4ee2fb520d46d2c135b9a98ce5119639da6baeecfe3d4e88f69994b927"
+    },
+    {
+      "path": "sources/U04/PROOFS/U04/FORCED-EQUALITY-REPAIR.md",
+      "bytes": 4942,
+      "sha256": "27c6b6b508d36e271c351d61d30a318e9337b9eba1c15a0781770f3f225b8184"
+    },
+    {
+      "path": "sources/U04/PROOFS/U04/INTERIOR-LOWER-BOUND-DUAL.md",
+      "bytes": 3149,
+      "sha256": "4538506feb6d1db53845b5d604d6fda7a2d95994b0e2ca64b70c6be9e75f9c62"
+    },
+    {
+      "path": "sources/U05/PROOFS/U05/ADAPTIVE-INTERIOR-UPPER-COVER.md",
+      "bytes": 5234,
+      "sha256": "e4c1d84b30084c4782baa0f1933c5e5a749dcea5ec976b091ed892ae2deb0d69"
+    },
+    {
+      "path": "sources/U05/PROOFS/U05/COMPLETE-BOUND-SIX-LAYER.md",
+      "bytes": 3567,
+      "sha256": "84ca926e387fc4e1dc95e691e16e357aa563895359a9c4d2b2f30177944c63b6"
+    },
+    {
+      "path": "sources/U05/PROOFS/U05/FIVE-COUNT-SEXTIC-ENCLOSURE.md",
+      "bytes": 3626,
+      "sha256": "69016fada4df87f089a848651633d47b2734abf937d2cb58cb9aa14ac81a448d"
+    },
+    {
+      "path": "sources/U05/PROOFS/U05/NONTERMINAL-HORN-REDUCTION.md",
+      "bytes": 2295,
+      "sha256": "77638698782696756a79124954209f81d7e999e68ab4a8e3c9a380e4e215af6c"
+    },
+    {
+      "path": "sources/U05/PROOFS/U05/RELEASE-GRAMMAR-TESTS.md",
+      "bytes": 2960,
+      "sha256": "9650baa7351e66b440681dbbfb9fdd9aa06239405cd552331b31745a89218340"
+    },
+    {
+      "path": "sources/U05/PROOFS/U05/THIRD-INTERIOR-SEXTIC-CERTIFICATE.md",
+      "bytes": 5475,
+      "sha256": "5356a0665d4bc382b102b1a625c32febf9a512868c8fe4a75b5b121934d666a2"
+    },
+    {
+      "path": "sources/U06/PROOFS/U06/COMPLETE-BOUND-SEVEN-LAYER.md",
+      "bytes": 5704,
+      "sha256": "95b95d73b659e5ec50610d71b18a5baa6b41273c6a2a0cc23ddab67fd6b7425b"
+    },
+    {
+      "path": "sources/U06/PROOFS/U06/PROOF-DEPENDENCIES.md",
+      "bytes": 2387,
+      "sha256": "5814fdd8055a0e9787cafe961d6501cf2ce8ae48fffe37b77f39b93c6b05997a"
+    },
+    {
+      "path": "sources/U06/PROOFS/U06/SIX-COUNT-SEPTIC-CERTIFICATE.md",
+      "bytes": 8222,
+      "sha256": "6667b05167e08da21fdadf93b0530681bcf4373831926e4c29423e6692a0f920"
+    },
+    {
+      "path": "sources/U07/PROOFS/U07/BALANCED-ONE-UNKNOWN-KERNEL.md",
+      "bytes": 3654,
+      "sha256": "907a0495cecd07142196adc4cef18197d3d1621f72f3eafaa1fa7165c36abb3e"
+    },
+    {
+      "path": "sources/U07/PROOFS/U07/COMPLETE-BOUND-EIGHT-LAYER.md",
+      "bytes": 6459,
+      "sha256": "298662bbfa927057d377aeb33132c776bcc1bf52a584f8ab9717f9b56095002b"
+    },
+    {
+      "path": "sources/U07/PROOFS/U07/DISJOINT-LOWER-SLICES.md",
+      "bytes": 2623,
+      "sha256": "ebaba50c60f4c9f0fa261edeec8b95dc2e04fd92f8b661dc48eee949f061df2a"
+    },
+    {
+      "path": "sources/U07/PROOFS/U07/SEVEN-COUNT-OCTIC-CERTIFICATE.md",
+      "bytes": 5065,
+      "sha256": "c80133120b1f972afa5156800d8abbc10cd0e77779fa796413e662e7b085c0af"
+    },
+    {
+      "path": "sources/U08/PROOFS/U08/COMPLETE-BOUND-NINE-LAYER.md",
+      "bytes": 6034,
+      "sha256": "da313f01f85574f0cf2baadbe267e917fd44dd42459c4c2112e52972234c7677"
+    },
+    {
+      "path": "sources/U08/PROOFS/U08/EIGHT-COUNT-NONIC-CERTIFICATE.md",
+      "bytes": 5790,
+      "sha256": "aa520607a4cc53cf03bd97d385bf44c68ad2861f49ed306882a0cc76fab9c33f"
+    },
+    {
+      "path": "sources/U08/PROOFS/U08/INTERIOR-BIASED-NODE-GRIDS.md",
+      "bytes": 3646,
+      "sha256": "229f662cc8b3290b9ecce463e41a6d14af4c9510d2c9fb6bd2acd0cafe85698f"
+    },
+    {
+      "path": "sources/U08/PROOFS/U08/PARTIAL-JOINT-SEPARATOR-FIBERS.md",
+      "bytes": 4388,
+      "sha256": "87f5258738c14da744c7483fc476a8fe8e21ace4ded60d8dc6d67fa9f51c769d"
+    },
+    {
+      "path": "sources/U08/PROOFS/U08/STRICT-POINT-SEARCH-REPAIR.md",
+      "bytes": 1799,
+      "sha256": "8223960a7e31e3cc62e8e3d1e15cf6fb19f4826066477c3bb218a1c53022dc54"
+    },
+    {
+      "path": "sources/U09/PROOFS/U09/COMPLETE-BOUND-TEN-LAYER.md",
+      "bytes": 5102,
+      "sha256": "cb45752c8ad4da1149998fb68f8ec9ee7153e76b57b0a7e7d1ab73c5e2b68e59"
+    },
+    {
+      "path": "sources/U09/PROOFS/U09/GRID-COMPARISON-AND-ENDPOINT-COMPLETION.md",
+      "bytes": 5411,
+      "sha256": "000f6b928d30e34077c45d54d9e69180e561d6a11681dabcc60235c22f34ff91"
+    },
+    {
+      "path": "sources/U09/PROOFS/U09/NINE-COUNT-DEGREE-TEN-CERTIFICATE.md",
+      "bytes": 7947,
+      "sha256": "95e0b0174aca3042d775ba9c5d1fa591545d2e37bdc3917db9625192171817ae"
+    },
+    {
+      "path": "sources/U10/PROOFS/U10/PARTIAL-ORIGINAL-BOX-COVER.md",
+      "bytes": 2171,
+      "sha256": "cd07b651f650422733fad6e31dde3f10716c081d8be9488fa95e358fd8184244"
+    },
+    {
+      "path": "sources/U10/PROOFS/U10/TEN-COUNT-DEGREE-ELEVEN.md",
+      "bytes": 4103,
+      "sha256": "57cb01d25861210d86a95bc83b976c0e0d404adc223c13c2e7d042f5c7f0db59"
+    },
+    {
+      "path": "sources/u11/PROOFS/U11/COMPLETE-ORIGINAL-BOX.md",
+      "bytes": 9786,
+      "sha256": "84a83238b777a11e7817a224496d523f47e28d60e4ca0dbd1efc78f62b73901f"
+    },
+    {
+      "path": "sources/u11/PROOFS/U11/EXACT-COMPLETION.md",
+      "bytes": 2857,
+      "sha256": "748ef3ec3c37e67317904b356629bb4b05eb973281aa497ec3534d781570a7b9"
+    },
+    {
+      "path": "sources/upstream/A004-BOX-CERTIFICATE.md",
+      "bytes": 11114,
+      "sha256": "24f56124d9b119876dbffa21867836242cbbb0cea933079dabfcc72f0f23f127"
+    },
+    {
+      "path": "sources/upstream/FRC-COMPLETE-COUNT-IDENTITY.md",
+      "bytes": 10941,
+      "sha256": "5c61b0c7d9cc67bff70ce1d88e26b47478a828946c66f46a55b303714683569d"
+    },
+    {
+      "path": "sources/upstream/FRD-TAIL-COMPLETION.md",
+      "bytes": 4381,
+      "sha256": "6ece1b806501c355f8d52fff4eaeb8f90a3a8499b50be60ecc111d5c5d9f0070"
+    },
+    {
+      "path": "sources/upstream/FRE-COMPLETE-GRAMMAR.md",
+      "bytes": 5535,
+      "sha256": "b9b38c52607ba22aab45f80e9614457cba4a95ffa00883f73e071dbd6c071786"
+    },
+    {
+      "path": "sources/upstream/FRI-BOX-CERTIFICATE.md",
+      "bytes": 8390,
+      "sha256": "544042339eb57acd586a7d59dcaf5e6efa89953415362316d02f1c1dd8ef7ff7"
+    },
+    {
+      "path": "sources/upstream/NONNEGATIVE-M-LEMMA.md",
+      "bytes": 7273,
+      "sha256": "d29046ca851ab87938b09bbf57ded9785bcc8b097e95a6dbf08dcb770a6dd445"
+    }
+  ]
+}

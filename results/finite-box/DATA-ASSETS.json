@@ -1,0 +1,67 @@
+{
+  "assets": [
+    {
+      "bytes": 276959740,
+      "members": 6302,
+      "name": "finite-box-data-01.tar.gz",
+      "sha256": "b76b4d587a122ae18f4b9599495e1e79f6b57b822f5611ca687dffc6bf74fce0"
+    },
+    {
+      "bytes": 289451605,
+      "members": 53,
+      "name": "finite-box-data-02.tar.gz",
+      "sha256": "7855a9d2108bd6e07ffefff0f8823a112f5b6e632a2afe7502440191f9728c63"
+    },
+    {
+      "bytes": 239277828,
+      "members": 27,
+      "name": "finite-box-data-03.tar.gz",
+      "sha256": "389a0f028a95943f78a0fa7ee61d8e49510068f65aaf181869f1a7665aadec08"
+    },
+    {
+      "bytes": 244682283,
+      "members": 27,
+      "name": "finite-box-data-04.tar.gz",
+      "sha256": "e240cea6cc14396d74a006511ec6a4d974146ddc2e5fa4fcc43edaf03873d696"
+    },
+    {
+      "bytes": 221989782,
+      "members": 37,
+      "name": "finite-box-data-05.tar.gz",
+      "sha256": "35ff0577f36310392a03be9bc3a45f2c7c5adeb873a1ab7c88cb106a0c79660b"
+    },
+    {
+      "bytes": 241097956,
+      "members": 119,
+      "name": "finite-box-data-06.tar.gz",
+      "sha256": "f468ead77d7e0744ddebad56e44233891394ce9d0244b5b1458b05648d3cbe55"
+    },
+    {
+      "bytes": 160419120,
+      "members": 138,
+      "name": "finite-box-data-07.tar.gz",
+      "sha256": "0ac6df5a82b772903b41803437bc4a916eabfb5d26cb938e05deb77588680d1c"
+    },
+    {
+      "bytes": 74463679,
+      "members": 322,
+      "name": "finite-box-data-08.tar.gz",
+      "sha256": "854515cb6c2de41dc5a45241e591f762d8b2df81846448162652c7b768430dcf"
+    },
+    {
+      "bytes": 9501148,
+      "members": 24,
+      "name": "finite-box-data-09.tar.gz",
+      "sha256": "ce4b2dcf41b3372ee91b7a6ed943b25203e39507965f52cf40d0cb08d0f91bed"
+    },
+    {
+      "bytes": 3962170,
+      "members": 4558,
+      "name": "finite-box-data-10.tar.gz",
+      "sha256": "71c8619c7a3d70b4eed130863c5809527099e83808f67cfa6cb53a5a31da014d"
+    }
+  ],
+  "expanded_bytes": 12349067632,
+  "members": 11607,
+  "schema": "finite-box-data-assets-v1"
+}

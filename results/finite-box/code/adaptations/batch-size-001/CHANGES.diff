@@ -1,0 +1,31 @@
+--- previous/verify.py
++++ successor/verify.py
+@@ -78,7 +78,7 @@
+ def parameters(module,mode,data,work,compiler=None,jobs=None):
+     need(mode in MODES,"Unknown recipient mode")
+     cfg=module["config"];profile=cfg["profiles"][mode]
+-    batch=integer(profile["jobs_per_call"] if jobs is None else jobs,1,64,"jobs-per-call")
++    batch=integer(profile["jobs_per_call"] if jobs is None else jobs,1,4096,"jobs-per-call")
+     numeric,upstream,chunk=0.0,0.0,1
+     if mode=="full":
+         need(profile.get("calibration_status")=="CALIBRATED","Full execution remains unpriced; root must freeze calibrated allocations and acceptance chunk in REPRODUCTION-CONFIG.json")
+--- previous/reproduce.py
++++ successor/reproduce.py
+@@ -109,7 +109,7 @@
+             "bulk_data_content_hashes_checked":False,"source_manifest":manifest,"whole_theorem_accepted":False}
+ 
+ def jobs_per_call(value):
+-    need(type(value) is int and 1<=value<=64,"Jobs per controller call must be an exact integer in 1..64")
++    need(type(value) is int and 1<=value<=4096,"Jobs per controller call must be an exact integer in 1..4096")
+     return value
+ 
+ def prepare(a):
+@@ -451,7 +451,7 @@
+     for name in META:p.add_argument("--"+name.replace("_","-"),type=Path,required=True)
+     p.add_argument("--source-manifest-sha256");p.add_argument("--numerical-seconds",type=float,default=0);p.add_argument("--upstream-seconds",type=float,default=0)
+     p.add_argument("--acceptance-chunk",type=int,default=2048)
+-    p.add_argument("--jobs-per-call",type=int,default=16,help="Frozen scientific jobs per controller run/finalize call, 1..64 (default 16)")
++    p.add_argument("--jobs-per-call",type=int,default=16,help="Frozen scientific jobs per controller run/finalize call, 1..4096 (default 16)")
+     for name in ("run","status"):
+         p=sub.add_parser(name);p.add_argument("--work-root",type=Path,required=True)
+         if name=="run":p.add_argument("--max-calls",type=int,default=1)

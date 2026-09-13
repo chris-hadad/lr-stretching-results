@@ -1,0 +1,12 @@
+{
+  "before_sha256": "500fca9f356bbad1be20236787a1d6aae632b5803f8aa8b6cbeba25e83b44881",
+  "after_sha256": "a45b4d7a1521603243fe685f3a599261808a44deb62478c9650c71b57970dd7a",
+  "changes": [
+    "Accept the actual compact U11 group_id field and reject conflicting identity fields.",
+    "Register only the exact compiler pin from the source-bound complete numerical report and recipe.",
+    "Separate metadata-only assembly at 600 internal / 660 physical seconds; individual verification remains 100/120."
+  ],
+  "source": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-F2627-EXTERNAL-WORKSPACE-20260912-001/u11-acceptance-repair/publication/portable-box-acceptance-metadata.py",
+  "prior_sources_preserved": true,
+  "root_focused_tests": 17
+}

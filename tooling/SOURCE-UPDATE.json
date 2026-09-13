@@ -1,0 +1,1518 @@
+{
+  "adapters": [
+    "rank6_split.py: only .horn import -> ._partitions; partition/triple helper bodies extracted exactly.",
+    "matrix_invariants.py: exact current maintained file; prior published version retained.",
+    "Public initializer: preserve 24 prior exports, add nine current APIs and explicit __all__.",
+    "Square/rectangular tests: retain mathematical test bodies, remove only research CLI classes/import.",
+    "Seven rank-eight JSON projections: all mathematical fields/list order retained; named operational fields removed; full original hash retained.",
+    "Two acceptance notes: exact selected sections with a context header.",
+    "Current proof/API notes, examples and bounded Python check/control wrappers are newly authored.",
+    "Complete H-system C++ kernel copied byte for byte; no kernel source edits."
+  ],
+  "baseline": {
+    "bytes": 404712,
+    "files": 41,
+    "refreshed_with_exact_prior_copy": [
+      "PROOFS.md",
+      "README.md",
+      "slr_ehrhart/__init__.py",
+      "slr_ehrhart/matrix_invariants.py"
+    ],
+    "source_repository": "lr-stretching-results",
+    "source_subtree": "tooling",
+    "unchanged_at_original_path": 37
+  },
+  "claim_limits": [
+    "Rank-six APIs are complete sufficient sectors, not a classification of all rank-six triples.",
+    "Clipped rank-eight scalar/vector evaluation uses a fixed previously accepted complete certificate.",
+    "Two-width objects are abstract without a separate whole LR map and can have negative ordinary coefficients.",
+    "General rectangular API returns scalar invariant dimensions, with no general LR construction/degree/positivity theorem.",
+    "H-system count requires complete inequalities and caller-proved lattice chart and finite coordinate bounds.",
+    "Preserved source observations and benchmark measurements are historical, not newly executed here."
+  ],
+  "file_roster_scope": "Every regular tooling member except SOURCE-UPDATE.json itself; generated __pycache__ files are not distributable sources.",
+  "files": [
+    {
+      "bytes": 6420,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/BENCHMARKS.md",
+        "source_bytes": 6420,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "292864ac6875273cca4b35a51da2e7fb8f3e7b0f20f077e24ab0bf7ec8881c44"
+      },
+      "path": "BENCHMARKS.md",
+      "sha256": "292864ac6875273cca4b35a51da2e7fb8f3e7b0f20f077e24ab0bf7ec8881c44",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 2408,
+      "origin": {
+        "repository": "codex-workbench",
+        "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/tooling/CURRENT-SOURCES.md",
+        "source_bytes": 2408,
+        "source_commit": null,
+        "source_sha256": "6ad9349fea88b0ce73ca818ccb8543d2824a1c8ad383d7be010c49711c3c7154"
+      },
+      "path": "CURRENT-SOURCES.md",
+      "sha256": "6ad9349fea88b0ce73ca818ccb8543d2824a1c8ad383d7be010c49711c3c7154",
+      "transformation": "Authored standalone packaging, API documentation, example or bounded verification interface; no mathematical kernel edits."
+    },
+    {
+      "bytes": 8835,
+      "origin": {
+        "repository": "codex-workbench",
+        "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/tooling/PROOFS.md",
+        "source_bytes": 8835,
+        "source_commit": null,
+        "source_sha256": "c7f34ad8f1becdeb535456eb4ba5074594e882d866a759efa8f77d63e04b9adf"
+      },
+      "path": "PROOFS.md",
+      "previous_version": {
+        "bytes": 7711,
+        "path": "history/previous-tooling/PROOFS.md",
+        "sha256": "400d70b272a50ae2ba1f72684d7dbafdf31666570c78874354e4d2742e629acd"
+      },
+      "sha256": "c7f34ad8f1becdeb535456eb4ba5074594e882d866a759efa8f77d63e04b9adf",
+      "transformation": "Authored standalone packaging, API documentation, example or bounded verification interface; no mathematical kernel edits."
+    },
+    {
+      "bytes": 7737,
+      "origin": {
+        "repository": "codex-workbench",
+        "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/tooling/README.md",
+        "source_bytes": 7737,
+        "source_commit": null,
+        "source_sha256": "97cf619867bf03e948eb601b217d8de337dd95c61d3914c01f69b2c960cab0c1"
+      },
+      "path": "README.md",
+      "previous_version": {
+        "bytes": 5755,
+        "path": "history/previous-tooling/README.md",
+        "sha256": "cae532d5e552a7daaeab76c582816042c9d57e2c5393d946abea8d6a82035578"
+      },
+      "sha256": "97cf619867bf03e948eb601b217d8de337dd95c61d3914c01f69b2c960cab0c1",
+      "transformation": "Authored standalone packaging, API documentation, example or bounded verification interface; no mathematical kernel edits."
+    },
+    {
+      "bytes": 3029,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/SOURCE-LICENSES.md",
+        "source_bytes": 3029,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "9b0eb301078f2e70948951d3dd51343eb2a8df79a12dd4aa80715ba2ca933b2a"
+      },
+      "path": "SOURCE-LICENSES.md",
+      "sha256": "9b0eb301078f2e70948951d3dd51343eb2a8df79a12dd4aa80715ba2ca933b2a",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 33526,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/benchmarks/MEASUREMENTS.json",
+        "source_bytes": 33526,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "9fd18792da65a26f13fc9e6cfde118f5c4fda40c4011eb3f197b5c8fb49e9e38"
+      },
+      "path": "benchmarks/MEASUREMENTS.json",
+      "sha256": "9fd18792da65a26f13fc9e6cfde118f5c4fda40c4011eb3f197b5c8fb49e9e38",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 6481,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/benchmarks/SKEW-MEASUREMENTS.json",
+        "source_bytes": 6481,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "27428f029ba6ff785096701e00d9fb79df950c40f89c2424e7190a5149b156f4"
+      },
+      "path": "benchmarks/SKEW-MEASUREMENTS.json",
+      "sha256": "27428f029ba6ff785096701e00d9fb79df950c40f89c2424e7190a5149b156f4",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 1841,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/benchmarks/baselines/skew_forward.py",
+        "source_bytes": 1841,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "37251a4d70618acc9adb3c890081e10b164876363387f5ab43590cfb3e73c859"
+      },
+      "path": "benchmarks/baselines/skew_forward.py",
+      "sha256": "37251a4d70618acc9adb3c890081e10b164876363387f5ab43590cfb3e73c859",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 1479,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/benchmarks/baselines/skew_row_sweep.py",
+        "source_bytes": 1479,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "36abb01dc19c292b148444316b769ad48ec557d369e3ffbaf3f9738dcb277ad0"
+      },
+      "path": "benchmarks/baselines/skew_row_sweep.py",
+      "sha256": "36abb01dc19c292b148444316b769ad48ec557d369e3ffbaf3f9738dcb277ad0",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 4470,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/benchmarks/cases.json",
+        "source_bytes": 4470,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "9081d6fdbf0d1ac2ab93160ff01d856ccd985395b2320ac3e7ecad9878662ddf"
+      },
+      "path": "benchmarks/cases.json",
+      "sha256": "9081d6fdbf0d1ac2ab93160ff01d856ccd985395b2320ac3e7ecad9878662ddf",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 6441,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/benchmarks/compare.py",
+        "source_bytes": 6441,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "a2db6f5af11d78ad6cc8e52e082b5b56d4ea08492e85959702360a90466caa2e"
+      },
+      "path": "benchmarks/compare.py",
+      "sha256": "a2db6f5af11d78ad6cc8e52e082b5b56d4ea08492e85959702360a90466caa2e",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 797,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/check.py",
+        "source_bytes": 797,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "19088af7db7a04ada0f9879abaeedcad2c2c024357d7eb3861735cc49a0634f1"
+      },
+      "path": "check.py",
+      "sha256": "19088af7db7a04ada0f9879abaeedcad2c2c024357d7eb3861735cc49a0634f1",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 1461,
+      "origin": {
+        "repository": "codex-workbench",
+        "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/tooling/check_current.py",
+        "source_bytes": 1461,
+        "source_commit": null,
+        "source_sha256": "aa55f3a39d373f95fa229f041fa72465f3b5d6e5a9365448be0b3a6a8a22dffa"
+      },
+      "path": "check_current.py",
+      "sha256": "aa55f3a39d373f95fa229f041fa72465f3b5d6e5a9365448be0b3a6a8a22dffa",
+      "transformation": "Authored standalone packaging, API documentation, example or bounded verification interface; no mathematical kernel edits."
+    },
+    {
+      "bytes": 10098,
+      "isolation_adaptation": {
+        "change": "Explicit local library search path for the published isolated Python invocation; mathematical checks unchanged.",
+        "prior_sha256": "0ea05f7fa3359ba6d603ed6a61183a0e1ca6609f0d0124f61499be1173e88e25"
+      },
+      "origin": {
+        "repository": "codex-workbench",
+        "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/tooling/check_rank8_data.py",
+        "source_bytes": 10057,
+        "source_commit": null,
+        "source_sha256": "0ea05f7fa3359ba6d603ed6a61183a0e1ca6609f0d0124f61499be1173e88e25"
+      },
+      "path": "check_rank8_data.py",
+      "sha256": "bb6d0eaf7e4fb8201d7888c8d9b2ca51bd5a2823cc8dff84cd3bcb59748c0390",
+      "transformation": "Authored standalone packaging, API documentation, example or bounded verification interface; no mathematical kernel edits."
+    },
+    {
+      "bytes": 2702,
+      "origin": {
+        "repository": "codex-workbench",
+        "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/tooling/cpp/README.md",
+        "source_bytes": 2702,
+        "source_commit": null,
+        "source_sha256": "328bcf6d8e72b21e5fdb8bde558c419afaaa42c2dab479a0c4d6361fb9c81ea7"
+      },
+      "path": "cpp/README.md",
+      "sha256": "328bcf6d8e72b21e5fdb8bde558c419afaaa42c2dab479a0c4d6361fb9c81ea7",
+      "transformation": "Authored standalone packaging, API documentation, example or bounded verification interface; no mathematical kernel edits."
+    },
+    {
+      "bytes": 11949,
+      "origin": {
+        "repository": "codex-workbench",
+        "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/portable-box-numerics/originals/v2_independent_hive_recount.cpp",
+        "source_bytes": 11949,
+        "source_commit": null,
+        "source_sha256": "093c6a8eb69958aaea519c3946b3a2e6ee32636ba9dcb218cd5bc88b8fd12dcc"
+      },
+      "path": "cpp/complete_h_system.cpp",
+      "sha256": "093c6a8eb69958aaea519c3946b3a2e6ee32636ba9dcb218cd5bc88b8fd12dcc",
+      "transformation": "Byte-preserving copy."
+    },
+    {
+      "bytes": 5264,
+      "origin": {
+        "repository": "codex-workbench",
+        "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/tooling/cpp/control.py",
+        "source_bytes": 5264,
+        "source_commit": null,
+        "source_sha256": "35160aa1b23d5bdc88f76ca1a187bb7afa52d1893a2021c4f9fd495348872680"
+      },
+      "path": "cpp/control.py",
+      "sha256": "35160aa1b23d5bdc88f76ca1a187bb7afa52d1893a2021c4f9fd495348872680",
+      "transformation": "Authored standalone packaging, API documentation, example or bounded verification interface; no mathematical kernel edits."
+    },
+    {
+      "bytes": 1755,
+      "origin": {
+        "repository": "codex-workbench",
+        "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/tooling/examples/current_apis.py",
+        "source_bytes": 1755,
+        "source_commit": null,
+        "source_sha256": "3dc45c6dc7eac7f855100d6c2b8f1d3b41110c2188c8cf19bb0a596e539434bc"
+      },
+      "path": "examples/current_apis.py",
+      "sha256": "3dc45c6dc7eac7f855100d6c2b8f1d3b41110c2188c8cf19bb0a596e539434bc",
+      "transformation": "Authored standalone packaging, API documentation, example or bounded verification interface; no mathematical kernel edits."
+    },
+    {
+      "bytes": 2052,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/examples/quickstart.py",
+        "source_bytes": 2052,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "8c551c0e09da2224ff7e05b22219212dee13da1ded5ff1e177194d99b9d2a163"
+      },
+      "path": "examples/quickstart.py",
+      "sha256": "8c551c0e09da2224ff7e05b22219212dee13da1ded5ff1e177194d99b9d2a163",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 7711,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/PROOFS.md",
+        "source_bytes": 7711,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "400d70b272a50ae2ba1f72684d7dbafdf31666570c78874354e4d2742e629acd"
+      },
+      "path": "history/previous-tooling/PROOFS.md",
+      "sha256": "400d70b272a50ae2ba1f72684d7dbafdf31666570c78874354e4d2742e629acd",
+      "transformation": "Exact prior published source retained before refresh."
+    },
+    {
+      "bytes": 5755,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/README.md",
+        "source_bytes": 5755,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "cae532d5e552a7daaeab76c582816042c9d57e2c5393d946abea8d6a82035578"
+      },
+      "path": "history/previous-tooling/README.md",
+      "sha256": "cae532d5e552a7daaeab76c582816042c9d57e2c5393d946abea8d6a82035578",
+      "transformation": "Exact prior published source retained before refresh."
+    },
+    {
+      "bytes": 874,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/slr_ehrhart/__init__.py",
+        "source_bytes": 874,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "ed68a670c66863d9fe684a16171ca1160b5b6df0acb3d902ff8793586f9f10fa"
+      },
+      "path": "history/previous-tooling/slr_ehrhart/__init__.py",
+      "sha256": "ed68a670c66863d9fe684a16171ca1160b5b6df0acb3d902ff8793586f9f10fa",
+      "transformation": "Exact prior published source retained before refresh."
+    },
+    {
+      "bytes": 10801,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/slr_ehrhart/matrix_invariants.py",
+        "source_bytes": 10801,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "612f480fc8fbc00340eb6f24d859bcb9362c7d458c9b77ee9dfaa70774e827e3"
+      },
+      "path": "history/previous-tooling/slr_ehrhart/matrix_invariants.py",
+      "sha256": "612f480fc8fbc00340eb6f24d859bcb9362c7d458c9b77ee9dfaa70774e827e3",
+      "transformation": "Exact prior published source retained before refresh."
+    },
+    {
+      "bytes": 4846,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/proofs/PROOF-SOURCES.json",
+        "source_bytes": 4846,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "63afcc88bac84881da63455f9fbb13125776d3c4baac277628e39b31de68c986"
+      },
+      "path": "proofs/PROOF-SOURCES.json",
+      "sha256": "63afcc88bac84881da63455f9fbb13125776d3c4baac277628e39b31de68c986",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 4259,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/proofs/cdagger.md",
+        "source_bytes": 4259,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "b1bf90ccd52f04ea4c96014f168d04132741d120ccce4c9c3830f3ff995fc0b7"
+      },
+      "path": "proofs/cdagger.md",
+      "sha256": "b1bf90ccd52f04ea4c96014f168d04132741d120ccce4c9c3830f3ff995fc0b7",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 61864,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/fri-2026-09-09/science/results/FRI-R8-BIVARIATE-001.json",
+        "source_bytes": 64519,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "6ee617103f0edd8897c5a7b703337bba557a19afb2e7ec4f083fbdd3521370ea"
+      },
+      "path": "proofs/data/rank8-bivariate.json",
+      "sha256": "45a34d06625955eab33e69122a886ce12028ee9ed84437f11d2a568848b654f2",
+      "transformation": {
+        "kind": "selected_operational_field_removal",
+        "removed_field_names": [
+          "binary",
+          "binary_pgid",
+          "binary_pid",
+          "command",
+          "counters",
+          "elapsed_seconds",
+          "finished_at",
+          "native_calls",
+          "pgid",
+          "pid",
+          "roster",
+          "seconds",
+          "started_at",
+          "stderr"
+        ],
+        "removed_pointer_count": 256,
+        "removed_pointers_sha256": "545c98aea1c968547df37496c85ff8b958409a591975e018bf6568e3008bfe5b",
+        "retained": "Every other mathematical field and list order."
+      }
+    },
+    {
+      "bytes": 3584,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/fri-2026-09-09/science/results/FRI-R8-CERTIFICATE-001.json",
+        "source_bytes": 2968,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "73b40709bd3668c1d1ea900244bddcc42bfb36a4d41796f8b2df32044bfe8ddb"
+      },
+      "path": "proofs/data/rank8-certificate.json",
+      "sha256": "5c979f458dcd5a47a4a7640e53c27ea4a6f6ea46be7f899f80523185e02b477e",
+      "transformation": {
+        "kind": "selected_operational_field_removal",
+        "removed_field_names": [
+          "binary",
+          "binary_pgid",
+          "binary_pid",
+          "command",
+          "counters",
+          "elapsed_seconds",
+          "finished_at",
+          "native_calls",
+          "pgid",
+          "pid",
+          "roster",
+          "seconds",
+          "started_at",
+          "stderr"
+        ],
+        "removed_pointer_count": 3,
+        "removed_pointers_sha256": "29c45ce77c0fa368e441db0c8e58c5d9d771bea4782465f783864586049b5326",
+        "retained": "Every other mathematical field and list order."
+      }
+    },
+    {
+      "bytes": 140916,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/fri-2026-09-09/science/results/FRI-R8-COLUMN-POISED-001.json",
+        "source_bytes": 336513,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "929d09200d2957f0e0e7d9af1a51a11a54e21e349b2c4f6c08c0cf3ab7e172bd"
+      },
+      "path": "proofs/data/rank8-independent-grid.json",
+      "sha256": "198c1c6be8202ec0336f9583a5a9923b99b2b1f29e3a6dca0d1a0313a22a432b",
+      "transformation": {
+        "kind": "selected_operational_field_removal",
+        "removed_field_names": [
+          "binary",
+          "binary_pgid",
+          "binary_pid",
+          "command",
+          "counters",
+          "elapsed_seconds",
+          "finished_at",
+          "native_calls",
+          "pgid",
+          "pid",
+          "roster",
+          "seconds",
+          "started_at",
+          "stderr"
+        ],
+        "removed_pointer_count": 2538,
+        "removed_pointers_sha256": "3b2029b871684d044b493287f9e54a276e87563f6298380ba8dcd3db3a4650aa",
+        "retained": "Every other mathematical field and list order."
+      }
+    },
+    {
+      "bytes": 2917,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/fri-2026-09-09/science/results/FRI-R8-COLUMN-HOLDOUTS-001.json",
+        "source_bytes": 6121,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "93a5517814e1b842263eb862c7c4b4be113c8863472465e2f09aa796883d4953"
+      },
+      "path": "proofs/data/rank8-independent-holdouts.json",
+      "sha256": "a44b863082a18ae180217771472c518d3e9335140bb61095ec069e379788a16f",
+      "transformation": {
+        "kind": "selected_operational_field_removal",
+        "removed_field_names": [
+          "binary",
+          "binary_pgid",
+          "binary_pid",
+          "command",
+          "counters",
+          "elapsed_seconds",
+          "finished_at",
+          "native_calls",
+          "pgid",
+          "pid",
+          "roster",
+          "seconds",
+          "started_at",
+          "stderr"
+        ],
+        "removed_pointer_count": 48,
+        "removed_pointers_sha256": "e1618dc7c25c66d8eef19607faf0daab4e02da89bc75db94a6f561308cb609c9",
+        "retained": "Every other mathematical field and list order."
+      }
+    },
+    {
+      "bytes": 2460,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra-wildcard-004-2026-09-09/science/results/A004-RANK8-OUTSIDE-GEOMETRY-001.json",
+        "source_bytes": 1897,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "06e2c2c3234a94a68da2fab1ccff7b0576c72828cc3aff7cec5451a752fa6190"
+      },
+      "path": "proofs/data/rank8-strict-witness.json",
+      "sha256": "bc4e4d07853a9a772cc8829df0ddf287e95d34d6ad8d574b419e71c7a0d0dbd7",
+      "transformation": {
+        "kind": "selected_operational_field_removal",
+        "removed_field_names": [
+          "binary",
+          "binary_pgid",
+          "binary_pid",
+          "command",
+          "counters",
+          "elapsed_seconds",
+          "finished_at",
+          "native_calls",
+          "pgid",
+          "pid",
+          "roster",
+          "seconds",
+          "started_at",
+          "stderr"
+        ],
+        "removed_pointer_count": 3,
+        "removed_pointers_sha256": "29c45ce77c0fa368e441db0c8e58c5d9d771bea4782465f783864586049b5326",
+        "retained": "Every other mathematical field and list order."
+      }
+    },
+    {
+      "bytes": 4710,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra-wildcard-004-2026-09-09/science/results/A004-CLIPPED-RANK8-001.json",
+        "source_bytes": 4034,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "18f890a77eda38f06bca08477eabae9e8f0083bce955b7b93e58ac409698324a"
+      },
+      "path": "proofs/data/rank8-three-cuts.json",
+      "sha256": "3b8e6981813f4b3a85dbebab7f87c7ad60b242f855efcb967ff37772e2b1eca6",
+      "transformation": {
+        "kind": "selected_operational_field_removal",
+        "removed_field_names": [
+          "binary",
+          "binary_pgid",
+          "binary_pid",
+          "command",
+          "counters",
+          "elapsed_seconds",
+          "finished_at",
+          "native_calls",
+          "pgid",
+          "pid",
+          "roster",
+          "seconds",
+          "started_at",
+          "stderr"
+        ],
+        "removed_pointer_count": 3,
+        "removed_pointers_sha256": "29c45ce77c0fa368e441db0c8e58c5d9d771bea4782465f783864586049b5326",
+        "retained": "Every other mathematical field and list order."
+      }
+    },
+    {
+      "bytes": 93412,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra-wildcard-004-2026-09-09/science/results/A004-RANK8-SIMPLEX-001.json",
+        "source_bytes": 81450,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "f32be525a9bb1bd6d858629c52e45cd9eba6396f64106bcb01e9c57a7cdbc31c"
+      },
+      "path": "proofs/data/rank8-whole-chart.json",
+      "sha256": "47cb6d0087e02ca4f8a964508208aa90f19f63c210ff6e54147bfb83076f111c",
+      "transformation": {
+        "kind": "selected_operational_field_removal",
+        "removed_field_names": [
+          "binary",
+          "binary_pgid",
+          "binary_pid",
+          "command",
+          "counters",
+          "elapsed_seconds",
+          "finished_at",
+          "native_calls",
+          "pgid",
+          "pid",
+          "roster",
+          "seconds",
+          "started_at",
+          "stderr"
+        ],
+        "removed_pointer_count": 3,
+        "removed_pointers_sha256": "29c45ce77c0fa368e441db0c8e58c5d9d771bea4782465f783864586049b5326",
+        "retained": "Every other mathematical field and list order."
+      }
+    },
+    {
+      "bytes": 8148,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/proofs/flow-support.md",
+        "source_bytes": 8148,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "dbd1021be3ee32805d1502251117e12c6584fd75fb234a8ab9b56481a5cb891f"
+      },
+      "path": "proofs/flow-support.md",
+      "sha256": "dbd1021be3ee32805d1502251117e12c6584fd75fb234a8ab9b56481a5cb891f",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 13390,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/proofs/matrix-invariants.md",
+        "source_bytes": 13390,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "5caadc8aba7e895b64022d607c307a1bf1d7d8ade929fd850118ebf3cc79bf5b"
+      },
+      "path": "proofs/matrix-invariants.md",
+      "sha256": "5caadc8aba7e895b64022d607c307a1bf1d7d8ade929fd850118ebf3cc79bf5b",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 7503,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/proofs/positive-strip.md",
+        "source_bytes": 7503,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "2ab54b1e166c958cd12e98c84c5e5f40b4c5e737a73115b6a388476ce4b082a5"
+      },
+      "path": "proofs/positive-strip.md",
+      "sha256": "2ab54b1e166c958cd12e98c84c5e5f40b4c5e737a73115b6a388476ce4b082a5",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 1883,
+      "origin": {
+        "repository": "codex-workbench",
+        "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/tooling/proofs/rank6-split.md",
+        "source_bytes": 1883,
+        "source_commit": null,
+        "source_sha256": "c51f79c4a086b4dd876f711c85a3289f93667ba3cb44bb177a5e5793a8bc12c6"
+      },
+      "path": "proofs/rank6-split.md",
+      "sha256": "c51f79c4a086b4dd876f711c85a3289f93667ba3cb44bb177a5e5793a8bc12c6",
+      "transformation": "Authored standalone packaging, API documentation, example or bounded verification interface; no mathematical kernel edits."
+    },
+    {
+      "bytes": 2457,
+      "origin": {
+        "repository": "codex-workbench",
+        "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/tooling/proofs/rank8-clipped.md",
+        "source_bytes": 2457,
+        "source_commit": null,
+        "source_sha256": "3900e369fbacaa486e714ac687053a694fc2eb4fdab42068ca2f18d73b526954"
+      },
+      "path": "proofs/rank8-clipped.md",
+      "sha256": "3900e369fbacaa486e714ac687053a694fc2eb4fdab42068ca2f18d73b526954",
+      "transformation": "Authored standalone packaging, API documentation, example or bounded verification interface; no mathematical kernel edits."
+    },
+    {
+      "bytes": 2101,
+      "origin": {
+        "repository": "codex-workbench",
+        "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/tooling/proofs/rectangular-matrix-invariants.md",
+        "source_bytes": 2101,
+        "source_commit": null,
+        "source_sha256": "545a6bd91ab64c9b65ad26045c3f4bb49b510766c8a19e83623a9983421bb74f"
+      },
+      "path": "proofs/rectangular-matrix-invariants.md",
+      "sha256": "545a6bd91ab64c9b65ad26045c3f4bb49b510766c8a19e83623a9983421bb74f",
+      "transformation": "Authored standalone packaging, API documentation, example or bounded verification interface; no mathematical kernel edits."
+    },
+    {
+      "bytes": 5976,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/proofs/skew-count.md",
+        "source_bytes": 5976,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "9b0c5de4b211926a5a7555c511b0c9c4f144248648e56d96ceb65c97d6de5d47"
+      },
+      "path": "proofs/skew-count.md",
+      "sha256": "9b0c5de4b211926a5a7555c511b0c9c4f144248648e56d96ceb65c97d6de5d47",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 2011,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/proofs/skew-lift.md",
+        "source_bytes": 2011,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "bcb558936849de07b98839b4713afd62c5a116482bafe25865b1c973456f3eee"
+      },
+      "path": "proofs/skew-lift.md",
+      "sha256": "bcb558936849de07b98839b4713afd62c5a116482bafe25865b1c973456f3eee",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 6165,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra-wildcard-004-2026-09-09/A04-PRINCIPAL-SPLIT-CONE.md",
+        "source_bytes": 6165,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "0e4a777772334bdea89195870077aad158ecb1b49eb2fd035424ef746d895dab"
+      },
+      "path": "proofs/sources/rank6-split-original.md",
+      "sha256": "0e4a777772334bdea89195870077aad158ecb1b49eb2fd035424ef746d895dab",
+      "transformation": "Byte-preserving copy."
+    },
+    {
+      "bytes": 1372,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/fri-2026-09-09/ACCEPTANCE.md",
+        "source_bytes": 5994,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "42d3deaccf79f1c47e0881663803559253a850d4ff200e4b5054692489cbc4d8"
+      },
+      "path": "proofs/sources/rank8-adoption.md",
+      "sha256": "1da8ad10277ed9b39166d4af18ca66b457339aa984a33a7791000df74e4cde6c",
+      "transformation": {
+        "exclusive_end_marker": "## Exact next original-box layers",
+        "kind": "exact_relevant_section_with_context_header",
+        "start_marker": "## Complete clipped rank-eight family"
+      }
+    },
+    {
+      "bytes": 3231,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/fri-2026-09-09/RANK8-AGGREGATION.md",
+        "source_bytes": 3231,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "c7e232625eac0ef79a2801960761395d63d19b82152294ce07b79bff8f13e56d"
+      },
+      "path": "proofs/sources/rank8-aggregation-original.md",
+      "sha256": "c7e232625eac0ef79a2801960761395d63d19b82152294ce07b79bff8f13e56d",
+      "transformation": "Byte-preserving copy."
+    },
+    {
+      "bytes": 5941,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/fri-2026-09-09/RANK8-CERTIFICATE.md",
+        "source_bytes": 5941,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "d0cdb0420a14247f5873c9439f7b519002feb8847b2023170702924a00727b50"
+      },
+      "path": "proofs/sources/rank8-certificate-original.md",
+      "sha256": "d0cdb0420a14247f5873c9439f7b519002feb8847b2023170702924a00727b50",
+      "transformation": "Byte-preserving copy."
+    },
+    {
+      "bytes": 4860,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/fri-2026-09-09/RANK8-POLYNOMIALITY.md",
+        "source_bytes": 4860,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "e15ddb7cf2294e90ba948e4b7384f6ba21d11bf645c56288f4a372e6728295fa"
+      },
+      "path": "proofs/sources/rank8-polynomiality-original.md",
+      "sha256": "e15ddb7cf2294e90ba948e4b7384f6ba21d11bf645c56288f4a372e6728295fa",
+      "transformation": "Byte-preserving copy."
+    },
+    {
+      "bytes": 12556,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra-wildcard-004-2026-09-09/A05-NONLINEAR-COMPENSATION.md",
+        "source_bytes": 12556,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "6312408cde17fa197650ef4a488a0342d3e19fe1e882508746f5a1b340e708ac"
+      },
+      "path": "proofs/sources/rank8-tableau-map-original.md",
+      "sha256": "6312408cde17fa197650ef4a488a0342d3e19fe1e882508746f5a1b340e708ac",
+      "transformation": "Byte-preserving copy."
+    },
+    {
+      "bytes": 1121,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/frg-2026-09-10/ACCEPTANCE.md",
+        "source_bytes": 5401,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "19c6ab02309702fdc904f89bcd1f148a67d0e1e4a74c326ed658ead63377e076"
+      },
+      "path": "proofs/sources/rectangular-adoption.md",
+      "sha256": "5612414404ee44e526136b7137450ef816b01b629717b1055ab2c7aec21bbd6d",
+      "transformation": {
+        "exclusive_end_marker": "Python grade-five attempts",
+        "kind": "exact_relevant_section_with_context_header",
+        "start_marker": "## Maintained program and useful repair"
+      }
+    },
+    {
+      "bytes": 1806,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/frg-2026-09-10/PUBLIC-API.md",
+        "source_bytes": 1806,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "50497d9225c808f7d2460da6c7405b01c9217617c2640c3999d4405007af4032"
+      },
+      "path": "proofs/sources/rectangular-api-original.md",
+      "sha256": "50497d9225c808f7d2460da6c7405b01c9217617c2640c3999d4405007af4032",
+      "transformation": "Byte-preserving copy."
+    },
+    {
+      "bytes": 6945,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra-wildcard-004-2026-09-09/A01-TWO-WIDTHS.md",
+        "source_bytes": 6945,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "ca3603b8d3ea28417bb52ef105c9497690c492d4c0ddec53c7dc1e7858ba8a9e"
+      },
+      "path": "proofs/sources/two-widths-original.md",
+      "sha256": "ca3603b8d3ea28417bb52ef105c9497690c492d4c0ddec53c7dc1e7858ba8a9e",
+      "transformation": "Byte-preserving copy."
+    },
+    {
+      "bytes": 12576,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/proofs/transport.md",
+        "source_bytes": 12576,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "06084c6c6814b270b7af1aa0a7cd27665aa52a8f9c581efccf8089862a3eb240"
+      },
+      "path": "proofs/transport.md",
+      "sha256": "06084c6c6814b270b7af1aa0a7cd27665aa52a8f9c581efccf8089862a3eb240",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 1554,
+      "origin": {
+        "repository": "codex-workbench",
+        "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/tooling/proofs/two-widths.md",
+        "source_bytes": 1554,
+        "source_commit": null,
+        "source_sha256": "264fd5d5498c051134c160ae6a1d66fc503bf1485adaa6fc26c5481de565e668"
+      },
+      "path": "proofs/two-widths.md",
+      "sha256": "264fd5d5498c051134c160ae6a1d66fc503bf1485adaa6fc26c5481de565e668",
+      "transformation": "Authored standalone packaging, API documentation, example or bounded verification interface; no mathematical kernel edits."
+    },
+    {
+      "bytes": 2038,
+      "origin": {
+        "repository": "codex-workbench",
+        "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/tooling/slr_ehrhart/__init__.py",
+        "source_bytes": 2038,
+        "source_commit": null,
+        "source_sha256": "75a69472606e41730337a9a7fbe4e66f3eedcc2feefd4eacfc16120347ee0ce0"
+      },
+      "path": "slr_ehrhart/__init__.py",
+      "previous_version": {
+        "bytes": 874,
+        "path": "history/previous-tooling/slr_ehrhart/__init__.py",
+        "sha256": "ed68a670c66863d9fe684a16171ca1160b5b6df0acb3d902ff8793586f9f10fa"
+      },
+      "sha256": "75a69472606e41730337a9a7fbe4e66f3eedcc2feefd4eacfc16120347ee0ce0",
+      "transformation": "Authored standalone packaging, API documentation, example or bounded verification interface; no mathematical kernel edits."
+    },
+    {
+      "bytes": 48580,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/slr_ehrhart/_cdagger_data.py",
+        "source_bytes": 48580,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "ac564b713476f344368ab7fd38300b9df0159c2b68390641099b4a698b49b9bc"
+      },
+      "path": "slr_ehrhart/_cdagger_data.py",
+      "sha256": "ac564b713476f344368ab7fd38300b9df0159c2b68390641099b4a698b49b9bc",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 821,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/ehrhart/src/slr_ehrhart/horn.py",
+        "source_bytes": 7889,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "320223d1a74cfe6bc8f501ba4a447d4a4e28a4343d0b6091cd8a488dec09875e"
+      },
+      "path": "slr_ehrhart/_partitions.py",
+      "sha256": "6dca4c22f05c4cd03d86093225013fdc5f3ff34a4f229767378a4cf7af6b6097",
+      "transformation": {
+        "functions": [
+          "partition",
+          "triple"
+        ],
+        "kind": "selected_exact_function_bodies"
+      }
+    },
+    {
+      "bytes": 8472,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/ehrhart/src/slr_ehrhart/_rank8_clipped_data.py",
+        "source_bytes": 8472,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "587e78bbd7062d469336d19dcb9a2e7507ccc53c14de097404d5cbec108e54f0"
+      },
+      "path": "slr_ehrhart/_rank8_clipped_data.py",
+      "sha256": "587e78bbd7062d469336d19dcb9a2e7507ccc53c14de097404d5cbec108e54f0",
+      "transformation": "Byte-preserving copy."
+    },
+    {
+      "bytes": 8819,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/slr_ehrhart/cdagger.py",
+        "source_bytes": 8819,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "3912b8da7ff9cceffaebfaea2bb263bf955c20f0f66ab006e7880d2792faf02c"
+      },
+      "path": "slr_ehrhart/cdagger.py",
+      "sha256": "3912b8da7ff9cceffaebfaea2bb263bf955c20f0f66ab006e7880d2792faf02c",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 7236,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/slr_ehrhart/constructions.py",
+        "source_bytes": 7236,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "c0286440f8de8643e8b2641e63c353f0b22967a93050a7c18c9529891c5e8e68"
+      },
+      "path": "slr_ehrhart/constructions.py",
+      "sha256": "c0286440f8de8643e8b2641e63c353f0b22967a93050a7c18c9529891c5e8e68",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 14049,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/slr_ehrhart/flow_support.py",
+        "source_bytes": 14049,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "4d3d43c80163dc8e5c64112fe5c3b1a7fb4874b6a1ced573fdc649e66cfc3c00"
+      },
+      "path": "slr_ehrhart/flow_support.py",
+      "sha256": "4d3d43c80163dc8e5c64112fe5c3b1a7fb4874b6a1ced573fdc649e66cfc3c00",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 17390,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/slr_ehrhart/hive.py",
+        "source_bytes": 17390,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "8797f8e2662fd9ba9b4f7e0b9e29d7831e96f4a0d15e86841b348278e588392a"
+      },
+      "path": "slr_ehrhart/hive.py",
+      "sha256": "8797f8e2662fd9ba9b4f7e0b9e29d7831e96f4a0d15e86841b348278e588392a",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 14050,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/ehrhart/src/slr_ehrhart/matrix_invariants.py",
+        "source_bytes": 14050,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "a60383158318e947af26d9cbc5c0d19b1caf8c8f763775413ab39186863b5fc8"
+      },
+      "path": "slr_ehrhart/matrix_invariants.py",
+      "previous_version": {
+        "bytes": 10801,
+        "path": "history/previous-tooling/slr_ehrhart/matrix_invariants.py",
+        "sha256": "612f480fc8fbc00340eb6f24d859bcb9362c7d458c9b77ee9dfaa70774e827e3"
+      },
+      "sha256": "a60383158318e947af26d9cbc5c0d19b1caf8c8f763775413ab39186863b5fc8",
+      "transformation": "Byte-preserving copy."
+    },
+    {
+      "bytes": 6629,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/ehrhart/src/slr_ehrhart/rank6_split.py",
+        "source_bytes": 6622,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "d92dc7df6266ec3a2af28218bc07d599d78c1f3dd9b9888340122957bf872290"
+      },
+      "path": "slr_ehrhart/rank6_split.py",
+      "sha256": "7242534244a451f5eb28424ecaa3146b9430c4d3114051eeb816eebd0b308e4f",
+      "transformation": "Only import path changed from .horn to private ._partitions; complete mathematical function bodies unchanged."
+    },
+    {
+      "bytes": 3072,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/ehrhart/src/slr_ehrhart/rank8_clipped.py",
+        "source_bytes": 3072,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "652618d0e36ceef4aacfde39509d979a88a02ddcfa1ee647c6e8acff221849a2"
+      },
+      "path": "slr_ehrhart/rank8_clipped.py",
+      "sha256": "652618d0e36ceef4aacfde39509d979a88a02ddcfa1ee647c6e8acff221849a2",
+      "transformation": "Byte-preserving copy."
+    },
+    {
+      "bytes": 6354,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/slr_ehrhart/skew_count.py",
+        "source_bytes": 6354,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "38c2d959a036a30109b3fda000e11f49ade6a96d0a22627269ed7ff7615fe90d"
+      },
+      "path": "slr_ehrhart/skew_count.py",
+      "sha256": "38c2d959a036a30109b3fda000e11f49ade6a96d0a22627269ed7ff7615fe90d",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 5846,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/slr_ehrhart/strip.py",
+        "source_bytes": 5846,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "26db8a7594b88cc4fc83b79684b63dc1fe74f16de1b941c94d96929175a97c00"
+      },
+      "path": "slr_ehrhart/strip.py",
+      "sha256": "26db8a7594b88cc4fc83b79684b63dc1fe74f16de1b941c94d96929175a97c00",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 8802,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/slr_ehrhart/support.py",
+        "source_bytes": 8802,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "6f8537aa68696423210ad241e3a4ad41a9957ef2a1b5d18cee234732fb9570b9"
+      },
+      "path": "slr_ehrhart/support.py",
+      "sha256": "6f8537aa68696423210ad241e3a4ad41a9957ef2a1b5d18cee234732fb9570b9",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 21101,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/slr_ehrhart/transport.py",
+        "source_bytes": 21101,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "35372ffcadfece1215c016c50013454d557333def8ff1cff6c453c04b39c3f70"
+      },
+      "path": "slr_ehrhart/transport.py",
+      "sha256": "35372ffcadfece1215c016c50013454d557333def8ff1cff6c453c04b39c3f70",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 5014,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/ehrhart/src/slr_ehrhart/two_widths.py",
+        "source_bytes": 5014,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "62d0eb496eff884166b6c3742fa90bdd736142207e4770669f36fe93ff477454"
+      },
+      "path": "slr_ehrhart/two_widths.py",
+      "sha256": "62d0eb496eff884166b6c3742fa90bdd736142207e4770669f36fe93ff477454",
+      "transformation": "Byte-preserving copy."
+    },
+    {
+      "bytes": 30902,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/tests/fixtures/frc_support_controls.json",
+        "source_bytes": 30902,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "baac58a67a20e901f4e532b6257528a6c1536076265c242d8ff6b250998334d4"
+      },
+      "path": "tests/fixtures/frc_support_controls.json",
+      "sha256": "baac58a67a20e901f4e532b6257528a6c1536076265c242d8ff6b250998334d4",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 4049,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/tests/fixtures/native_k_oracles.py",
+        "source_bytes": 4049,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "c0f9092fa2c6691bc0d9748d3e7138b83cfc6c1b769fd385bfcfab925da95bfc"
+      },
+      "path": "tests/fixtures/native_k_oracles.py",
+      "sha256": "c0f9092fa2c6691bc0d9748d3e7138b83cfc6c1b769fd385bfcfab925da95bfc",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 13986,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/tests/fixtures/transport_before_shared_tools.py",
+        "source_bytes": 13986,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "0b9083ce68e9802233eb8ab954416510d2e6e2013044eb91e3e31dece0440b65"
+      },
+      "path": "tests/fixtures/transport_before_shared_tools.py",
+      "sha256": "0b9083ce68e9802233eb8ab954416510d2e6e2013044eb91e3e31dece0440b65",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 4240,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/tests/test_cdagger.py",
+        "source_bytes": 4240,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "d1c1ee61be4a686369b914cc9ceda61e0e55e5b7242bb35c2056a172ca7ee627"
+      },
+      "path": "tests/test_cdagger.py",
+      "sha256": "d1c1ee61be4a686369b914cc9ceda61e0e55e5b7242bb35c2056a172ca7ee627",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 2341,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/tests/test_consumers.py",
+        "source_bytes": 2341,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "71a1421273baaebd1399701187787bcaa7628ee59db1766260deda760e5b3ec2"
+      },
+      "path": "tests/test_consumers.py",
+      "sha256": "71a1421273baaebd1399701187787bcaa7628ee59db1766260deda760e5b3ec2",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 6040,
+      "origin": {
+        "repository": "codex-workbench",
+        "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/tooling/tests/test_current_contracts.py",
+        "source_bytes": 6040,
+        "source_commit": null,
+        "source_sha256": "dc42c2c6f39a63b411b3ffcc7e39e2c18025ced833f7bf12c4364161991a4391"
+      },
+      "path": "tests/test_current_contracts.py",
+      "sha256": "dc42c2c6f39a63b411b3ffcc7e39e2c18025ced833f7bf12c4364161991a4391",
+      "transformation": "Authored standalone packaging, API documentation, example or bounded verification interface; no mathematical kernel edits."
+    },
+    {
+      "bytes": 16501,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/tests/test_flow_support.py",
+        "source_bytes": 16501,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "e1096800969b675752c841c6847a54236458c508154c592e0ed7180de6963054"
+      },
+      "path": "tests/test_flow_support.py",
+      "sha256": "e1096800969b675752c841c6847a54236458c508154c592e0ed7180de6963054",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 12172,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/ehrhart/tests/test_matrix_invariants.py",
+        "source_bytes": 16173,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "2aa06895daf349ee4a47037cab0a9ec7a511b87ccc584208b6644ad861475550"
+      },
+      "path": "tests/test_matrix_api.py",
+      "sha256": "16efedc384e261e1d732fbe06c9f74ee97e63883292188a33b7d9c8e620d9b83",
+      "transformation": {
+        "changed_import": "Remove cli only; retained helper/function/test-class bodies are unchanged.",
+        "kind": "standalone_API_test_projection",
+        "removed_class": "MatrixCliTests"
+      }
+    },
+    {
+      "bytes": 7418,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/ehrhart/tests/test_rank6_split.py",
+        "source_bytes": 7418,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "6b1291dc1b64cb850645b887290b6364c60352ffe9dd70d1c30e795566b5517e"
+      },
+      "path": "tests/test_rank6_split.py",
+      "sha256": "6b1291dc1b64cb850645b887290b6364c60352ffe9dd70d1c30e795566b5517e",
+      "transformation": "Byte-preserving copy."
+    },
+    {
+      "bytes": 6641,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/ehrhart/tests/test_rank8_clipped.py",
+        "source_bytes": 6641,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "fe815cf31fed56b15936a0f4061a03b8fc8efea7fa88828dcbc99b93a236cfbe"
+      },
+      "path": "tests/test_rank8_clipped.py",
+      "sha256": "fe815cf31fed56b15936a0f4061a03b8fc8efea7fa88828dcbc99b93a236cfbe",
+      "transformation": "Byte-preserving copy."
+    },
+    {
+      "bytes": 10885,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/ehrhart/tests/test_rectangular_matrix_invariants.py",
+        "source_bytes": 17174,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "ea9428ca26deb4623475facd0241bdac25a231fdd51d70d31fdd766debf0598c"
+      },
+      "path": "tests/test_rectangular_api.py",
+      "sha256": "cf19a8b14578f17847692e9871e920a7bad814dadcf7fd13825c66bf65fdb30a",
+      "transformation": {
+        "changed_import": "Remove cli only; retained helper/function/test-class bodies are unchanged.",
+        "kind": "standalone_API_test_projection",
+        "removed_class": "RectangularMatrixCliTests"
+      }
+    },
+    {
+      "bytes": 9848,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/tests/test_skew_count.py",
+        "source_bytes": 9848,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "41fb5d33b8ff92950f7d0f6076eac980cb2c4df02af68f1c458a9f35f1866f7c"
+      },
+      "path": "tests/test_skew_count.py",
+      "sha256": "41fb5d33b8ff92950f7d0f6076eac980cb2c4df02af68f1c458a9f35f1866f7c",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 4144,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/tests/test_strip.py",
+        "source_bytes": 4144,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "23bf8cd731f1b65f39979649c2b4364dff451345cf9b0be3a325552eb5ff9287"
+      },
+      "path": "tests/test_strip.py",
+      "sha256": "23bf8cd731f1b65f39979649c2b4364dff451345cf9b0be3a325552eb5ff9287",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 10660,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/tests/test_transport.py",
+        "source_bytes": 10660,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "e898c05fe3ef1e070ec5cd16f1b56738f1f63e46d4512969a53a41266407f2db"
+      },
+      "path": "tests/test_transport.py",
+      "sha256": "e898c05fe3ef1e070ec5cd16f1b56738f1f63e46d4512969a53a41266407f2db",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 19478,
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "tooling/tests/test_transport_optimization.py",
+        "source_bytes": 19478,
+        "source_commit": "620496822c95aecdcc54528c82715323c9a76edd",
+        "source_sha256": "0147987e01920acd4a1f9e28b6b6c15a15b52674ffcea72f9041008fa6e7f2b1"
+      },
+      "path": "tests/test_transport_optimization.py",
+      "sha256": "0147987e01920acd4a1f9e28b6b6c15a15b52674ffcea72f9041008fa6e7f2b1",
+      "transformation": "Byte-preserving published baseline copy."
+    },
+    {
+      "bytes": 5884,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/ehrhart/tests/test_two_widths.py",
+        "source_bytes": 5884,
+        "source_commit": "10b9ee63eae83d7ac49620980ee7a30c76159792",
+        "source_sha256": "1c1407cc8e4eb9a53885ad661924a9f6aa93f3e99b020938b41a2bdfc83946d6"
+      },
+      "path": "tests/test_two_widths.py",
+      "sha256": "1c1407cc8e4eb9a53885ad661924a9f6aa93f3e99b020938b41a2bdfc83946d6",
+      "transformation": "Byte-preserving copy."
+    }
+  ],
+  "omitted_machinery": [
+    "full Horn API",
+    "census and native census orchestration",
+    "engine installation",
+    "research CLI",
+    "process managers",
+    "broad benchmark refresh"
+  ],
+  "root_validation": [
+    {
+      "config_sha256": "1877ee99643f0c58d5f2c4772602f957cd8d31458bd76fe1d9b015fbcc558b17",
+      "elapsed_seconds": 0.10913758305832744,
+      "identity": "F2627-PORTABLE-TOOLING-EXAMPLES-001",
+      "receipt_sha256": "ef284e3189704384561816c4408694dae1f1a7fba8880418c94683b3ea7b5f5d",
+      "returncode": 0,
+      "scope": "Published current API examples",
+      "source_pins": [
+        {
+          "name": "PORTABLE-EXPORT-001.sb",
+          "sha256": "7aadeade797edd37fc59b75e309eb5b5e34357df8bc85c4d823b33c7ccdba3aa"
+        },
+        {
+          "name": "current_apis.py",
+          "sha256": "3dc45c6dc7eac7f855100d6c2b8f1d3b41110c2188c8cf19bb0a596e539434bc"
+        },
+        {
+          "name": "run_portable_batch_v2.py",
+          "sha256": "7b569f6d8f635ffab9a5e13908c36c87665e2f4bc18baccaa8d6e688ff47636f"
+        },
+        {
+          "name": "python3.14",
+          "sha256": "cbf84109626aa1013bbe408fbb9590bd0f1c1548f038b2221c6b8b87de26ca43"
+        }
+      ]
+    },
+    {
+      "config_sha256": "8242539e62da2c7f0c4d16ad0b471020af8db73a97c4749f533e83c150cba5f8",
+      "elapsed_seconds": 0.8005102500319481,
+      "identity": "F2627-PORTABLE-TOOLING-OLD-CHECKS-001",
+      "receipt_sha256": "c23f33ed16493d0c6844c902cefd7f81c58f7e9c3bbed41f2a2b390dc9ae2166",
+      "returncode": 0,
+      "scope": "75 established tooling tests",
+      "source_pins": [
+        {
+          "name": "PORTABLE-EXPORT-001.sb",
+          "sha256": "7aadeade797edd37fc59b75e309eb5b5e34357df8bc85c4d823b33c7ccdba3aa"
+        },
+        {
+          "name": "check.py",
+          "sha256": "19088af7db7a04ada0f9879abaeedcad2c2c024357d7eb3861735cc49a0634f1"
+        },
+        {
+          "name": "run_portable_batch_v2.py",
+          "sha256": "7b569f6d8f635ffab9a5e13908c36c87665e2f4bc18baccaa8d6e688ff47636f"
+        },
+        {
+          "name": "python3.14",
+          "sha256": "cbf84109626aa1013bbe408fbb9590bd0f1c1548f038b2221c6b8b87de26ca43"
+        }
+      ]
+    },
+    {
+      "config_sha256": "70458eeace407d0a957bfae39bb7fd74c0b16a33fbf7532c7cb46064c3304c92",
+      "elapsed_seconds": 0.3497654579114169,
+      "identity": "F2627-PORTABLE-TOOLING-CURRENT-CHECKS-001",
+      "receipt_sha256": "97ca91da91d8a8187c720d451cfb6b5547a8d866cc643a8d00112dfa4e6bf2db",
+      "returncode": 0,
+      "scope": "60 current tooling tests",
+      "source_pins": [
+        {
+          "name": "PORTABLE-EXPORT-001.sb",
+          "sha256": "7aadeade797edd37fc59b75e309eb5b5e34357df8bc85c4d823b33c7ccdba3aa"
+        },
+        {
+          "name": "check_current.py",
+          "sha256": "aa55f3a39d373f95fa229f041fa72465f3b5d6e5a9365448be0b3a6a8a22dffa"
+        },
+        {
+          "name": "run_portable_batch_v2.py",
+          "sha256": "7b569f6d8f635ffab9a5e13908c36c87665e2f4bc18baccaa8d6e688ff47636f"
+        },
+        {
+          "name": "python3.14",
+          "sha256": "cbf84109626aa1013bbe408fbb9590bd0f1c1548f038b2221c6b8b87de26ca43"
+        }
+      ]
+    },
+    {
+      "config_sha256": "b55608cc3eac7e4c99ba10f390cee427b2963e497aa4e3dc603efe54c029b4a8",
+      "elapsed_seconds": 0.16539962496608496,
+      "identity": "F2627-PORTABLE-TOOLING-RANK8-DATA-002",
+      "receipt_sha256": "c78bbeb652825efa491502681dcb7a3f6671850d509725f01f5c06a355a413ca",
+      "returncode": 0,
+      "scope": "Recorded rank-eight data consistency: 253 coefficients/sites, four holds and recorded controls; no fresh full LR recount",
+      "source_pins": [
+        {
+          "name": "PORTABLE-EXPORT-001.sb",
+          "sha256": "7aadeade797edd37fc59b75e309eb5b5e34357df8bc85c4d823b33c7ccdba3aa"
+        },
+        {
+          "name": "check_rank8_data.py",
+          "sha256": "bb6d0eaf7e4fb8201d7888c8d9b2ca51bd5a2823cc8dff84cd3bcb59748c0390"
+        },
+        {
+          "name": "run_portable_batch_v2.py",
+          "sha256": "7b569f6d8f635ffab9a5e13908c36c87665e2f4bc18baccaa8d6e688ff47636f"
+        },
+        {
+          "name": "python3.14",
+          "sha256": "cbf84109626aa1013bbe408fbb9590bd0f1c1548f038b2221c6b8b87de26ca43"
+        }
+      ]
+    },
+    {
+      "config_sha256": "fe05a078e08adeff40e76807375eed6bfb1294047a1593b21aef47796f9b2dd2",
+      "elapsed_seconds": 0.6932273750426248,
+      "identity": "F2627-PORTABLE-TOOLING-KERNEL-BUILD-001",
+      "receipt_sha256": "a43fb3ae68c2b8b250d10583c7a0c7818d221064befd65528e41550d3052952a",
+      "returncode": 0,
+      "scope": "Unchanged complete H-system C++ kernel build",
+      "source_pins": [
+        {
+          "name": "PORTABLE-EXPORT-001.sb",
+          "sha256": "7aadeade797edd37fc59b75e309eb5b5e34357df8bc85c4d823b33c7ccdba3aa"
+        },
+        {
+          "name": "run_portable_batch_v2.py",
+          "sha256": "7b569f6d8f635ffab9a5e13908c36c87665e2f4bc18baccaa8d6e688ff47636f"
+        },
+        {
+          "name": "c++",
+          "sha256": "b8763cf250e607a778bb4603cecb5b90338814d0a3dfcba0d57b1de242f610e9"
+        }
+      ]
+    },
+    {
+      "config_sha256": "f036e2c4dcd79fa265106555bf8d5c5c5345d369d4b452ecee5e05f3153d3117",
+      "elapsed_seconds": 0.37497333297505975,
+      "identity": "F2627-PORTABLE-TOOLING-KERNEL-CONTROL-002",
+      "receipt_sha256": "1ed217d34bfe81f47fa2d4ef112053339554b9bef2ed54a69b0fb81a0de1d5c7",
+      "returncode": 0,
+      "scope": "Three fresh tiny exact integer controls and an explicit resource refusal, with the actual binary pinned",
+      "source_pins": [
+        {
+          "name": "PORTABLE-EXPORT-001.sb",
+          "sha256": "7aadeade797edd37fc59b75e309eb5b5e34357df8bc85c4d823b33c7ccdba3aa"
+        },
+        {
+          "name": "control.py",
+          "sha256": "35160aa1b23d5bdc88f76ca1a187bb7afa52d1893a2021c4f9fd495348872680"
+        },
+        {
+          "name": "run_portable_batch_v4.py",
+          "sha256": "cc718a25800a3365428c6694f66e14cb4d924081dc21873d2aa3876dfb25486a"
+        },
+        {
+          "name": "python3.14",
+          "sha256": "cbf84109626aa1013bbe408fbb9590bd0f1c1548f038b2221c6b8b87de26ca43"
+        }
+      ]
+    }
+  ],
+  "root_validation_pending": [],
+  "root_validation_scope": "Actual isolated exported executions of the listed versions. Data-consistency checks retain their stated scope; tiny scalar controls are not a whole-polynomial certificate.",
+  "runtime_requirements": {
+    "default": "Python 3.11+ standard library; no installation or original checkout",
+    "optional_cpp": "C++17 GCC/Clang-compatible __int128 and checked-overflow builtins; no Boost/GMP",
+    "optional_hive_geometry": "Sage only for explicitly invoked existing polyhedron/dimension hooks"
+  },
+  "schema": "tooling-source-update-v1",
+  "scope": "Standalone API and source evidence update; byte binding and recorded-data consistency are not fresh scientific acceptance.",
+  "source_commit_note": "Imported original bytes were checked directly against the listed exact repository commits. Newly authored packaging/interface bytes retain their explicit source hashes; no earlier commit is claimed for them.",
+  "version": "tooling-2026-09-12",
+  "worker_validation": [
+    {
+      "command": "python3 -B tooling/check_current.py",
+      "exit_code": 0,
+      "scope": "tiny synthetic/degenerate inputs and explicit refusal/interface tests",
+      "test_body_seconds": 0.001,
+      "tests": 12
+    },
+    {
+      "command": "python3 -B tooling-publication-helper/test_publication_tooling.py",
+      "exit_code": 0,
+      "scope": "degree-one synthetic roster and source-binding mutation fixtures",
+      "test_body_seconds": 0.004,
+      "tests": 8
+    },
+    {
+      "check": "Python AST parsing",
+      "files": 42,
+      "scope": "syntax only"
+    },
+    {
+      "check": "Exact source readback",
+      "reconstructed_projections": 10,
+      "scope": "all selected source hashes stable; byte copies exact; declared projections reconstructed",
+      "selected_origins": 32
+    },
+    {
+      "baseline_files": 41,
+      "check": "Prior-file preservation",
+      "exact_archived_prior_versions": 4,
+      "unchanged": 37
+    },
+    {
+      "authored_markdown_findings": 0,
+      "check": "Prose spacing"
+    }
+  ]
+}

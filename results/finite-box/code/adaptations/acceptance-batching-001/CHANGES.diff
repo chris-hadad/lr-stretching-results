@@ -1,0 +1,11 @@
+--- previous/reproduce.py
++++ successor/reproduce.py
+@@ -153,7 +153,7 @@
+     if mode=="full":
+         add("acceptance-prepare","acceptance-prepare")
+         for unit,total in UNITS.items():
+-            chunk=min(plan["acceptance_chunk"],4 if unit=="LEGACY" else 64 if unit in ("U02","U03") else 8192)
++            chunk=plan["acceptance_chunk"]
+             for start in range(0,total,chunk):add(f"accept-{unit}-{start}","acceptance-verify",unit=unit,start=start,stop=min(start+chunk,total))
+         add("acceptance-assemble","acceptance-assemble");add("composition-finalize","composition-finalize")
+     return out

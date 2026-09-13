@@ -1,0 +1,454 @@
+{
+  "files": [
+    {
+      "bytes": 3370580,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/MASK6.json",
+      "present_in_plan_003": false,
+      "role": "mask6",
+      "sha256": "abf7adfd8fb24aa8cdeab633ad8c9d69901a0c6bfcf80f058cabd9bfe5c7f8c0",
+      "target": "data/upstream/f025/P08/MASK6.json"
+    },
+    {
+      "bytes": 4021986,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/COVER6.json",
+      "present_in_plan_003": false,
+      "role": "cover_source6",
+      "sha256": "fde6e4555bb1cf7278c6c6018154397e8471fa8747b287a7f0115641aa69e4d4",
+      "target": "data/upstream/f025/P08/COVER6.json"
+    },
+    {
+      "bytes": 65543,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/SCORES6.txt",
+      "present_in_plan_003": true,
+      "role": "score_source6",
+      "sha256": "fbaa3f35d9b4d0bce946e5de6a4c22067efae48a7c2f71f0e4f8301cde67dae6",
+      "target": "data/upstream/f025/F025-SCORES6-001.txt"
+    },
+    {
+      "bytes": 5513,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/HORN6.txt",
+      "present_in_plan_003": true,
+      "role": "horn_source6",
+      "sha256": "31e8a4c12f04f204e699a13a57dc082c64174f5d50d776124bcbc95a8a6e62b0",
+      "target": "data/namespaces/base/methods/frontier-025-2026-09-10/sources/DATA/P08/HORN6.txt"
+    },
+    {
+      "bytes": 30616240,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/MASK7.json",
+      "present_in_plan_003": false,
+      "role": "mask7",
+      "sha256": "31e96162820ca264fc31602c6534dbe21f7ffb906c344b5db66d577c00e35b92",
+      "target": "data/upstream/f025/P08/MASK7.json"
+    },
+    {
+      "bytes": 30036609,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/COVER7.json",
+      "present_in_plan_003": false,
+      "role": "cover_source7",
+      "sha256": "6645952b3fec5513a677dcfb2c6b413ae4c9e158c9e2fb2ef6cd6404f25885af",
+      "target": "data/upstream/f025/P08/COVER7.json"
+    },
+    {
+      "bytes": 530548,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/SCORES7.txt",
+      "present_in_plan_003": true,
+      "role": "score_source7",
+      "sha256": "6f385d37a848e3d0c0c8fa6cb90a9a6ff97c5a9f7d23777422ea987f796d7881",
+      "target": "data/upstream/f025/F025-SCORES7-001.txt"
+    },
+    {
+      "bytes": 23131,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/HORN7.txt",
+      "present_in_plan_003": true,
+      "role": "horn_source7",
+      "sha256": "3ee137aef3db721a42f39ac82ee99e1b3d15ec243dfe105cbfb5d23daaf407f8",
+      "target": "data/namespaces/base/methods/frontier-025-2026-09-10/sources/DATA/P08/HORN7.txt"
+    },
+    {
+      "bytes": 197163,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/session-fn-wi202-essential-horn-inventory.json",
+      "present_in_plan_003": false,
+      "role": "horn_inventory",
+      "sha256": "3d11e2f6d60f07cb5155ca8db112b977e46dbfa318573b1684d1eb1ffd456f86",
+      "target": "data/upstream/f025/accepted-horn-inventory.json"
+    },
+    {
+      "bytes": 20281,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/SMALL-ROSTER.json",
+      "present_in_plan_003": false,
+      "role": "small_roster",
+      "sha256": "c39deee9c631dd74c0169e1819d3a430384943333a1ab675636756e9d5009020",
+      "target": "data/upstream/f025/P08/SMALL-ROSTER.json"
+    },
+    {
+      "bytes": 7406,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/SMALL15-VECTORS.json",
+      "present_in_plan_003": false,
+      "role": "small_vectors0",
+      "sha256": "7fae5647b83bf2f7c05d8929d3dbc5d4f40e60cb903ef5ded66ebc4ac43fa9e4",
+      "target": "data/upstream/f025/P08/SMALL15-VECTORS.json"
+    },
+    {
+      "bytes": 34365,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/SMALL16-VECTORS.json",
+      "present_in_plan_003": false,
+      "role": "small_vectors1",
+      "sha256": "9e4658c66cbfc81d4fb350483b468ffad9a4818b0a3cdd57aa22b4bc0c43fa42",
+      "target": "data/upstream/f025/P08/SMALL16-VECTORS.json"
+    },
+    {
+      "bytes": 663725,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P09/JOBS/J16-INDEPENDENT-APPLICATION6/UNCOVERED-FOUR.json",
+      "present_in_plan_003": false,
+      "role": "quartic_cases0",
+      "sha256": "c3c63c53d559d5fbe4a3f0a101d1d4cd47a0af6a464e353e3f2230fbe9675da5",
+      "target": "data/upstream/f025/P09/JOBS/J16-INDEPENDENT-APPLICATION6/UNCOVERED-FOUR.json"
+    },
+    {
+      "bytes": 850188,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P09/JOBS/J17-INDEPENDENT-APPLICATION7/UNCOVERED-FOUR.json",
+      "present_in_plan_003": false,
+      "role": "quartic_cases1",
+      "sha256": "6e9f42a6300506adc8b00f360354b0344e1646700a0c1984f8562d139ecf3d27",
+      "target": "data/upstream/f025/P09/JOBS/J17-INDEPENDENT-APPLICATION7/UNCOVERED-FOUR.json"
+    },
+    {
+      "bytes": 3434255,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P10/PRIMARY-VECTORS.jsonl",
+      "present_in_plan_003": false,
+      "role": "quartic_primary",
+      "sha256": "b9ca8b9cb1c79efdc9b1feb0cdf6d0f9bac39bbfad20244b88f54b6a10affe3b",
+      "target": "data/upstream/f025/P10/PRIMARY-VECTORS.jsonl"
+    },
+    {
+      "bytes": 558573,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P09/JOBS/J14-FINAL-MASK-WORDS/MASK-WITNESSES.json",
+      "present_in_plan_003": false,
+      "role": "mask_words",
+      "sha256": "ad37c39c834e775e7c3d803a1348068a53d3379aa9ba648f76a134065bbc0be8",
+      "target": "data/upstream/f025/P09/JOBS/J14-FINAL-MASK-WORDS/MASK-WITNESSES.json"
+    },
+    {
+      "bytes": 16847905,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P09/JOBS/J15-FINAL-BOX-APPLICATION/NEW-KEYS.tsv",
+      "present_in_plan_003": false,
+      "role": "source_new_keys",
+      "sha256": "42cbaee0ea2333ff5ce0111c8da6a4e2325d679b45a65e2667a4e1aa78603292",
+      "target": "data/upstream/f025/P09/JOBS/J15-FINAL-BOX-APPLICATION/NEW-KEYS.tsv"
+    },
+    {
+      "bytes": 7315228,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/verification/local-cones/proposed-roster.json",
+      "present_in_plan_003": true,
+      "role": "cone_roster",
+      "sha256": "3fe478284dc1b199c7d6b1beef86db43b748d3b5c05a16067c5a84c5aa0ab2a6",
+      "target": "data/namespaces/base/methods/frontier-025-2026-09-10/verification/local-cones/proposed-roster.json"
+    },
+    {
+      "bytes": 146,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/verification/maps/EXPECTED-P08.tsv",
+      "present_in_plan_003": true,
+      "role": "map_expected",
+      "sha256": "3b5f3749e4c333d85b60d8e90eefc3943822d39eb76613d3aaa4e45927dd132f",
+      "target": "data/namespaces/base/methods/frontier-025-2026-09-10/verification/maps/EXPECTED-P08.tsv"
+    },
+    {
+      "bytes": 1331,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/verification/census/expected_roster.json",
+      "present_in_plan_003": true,
+      "role": "census_expected",
+      "sha256": "864a222979c56007cd827a4d0ebfdffd85b0a9be5ac8d3abad02017fd480b3ba",
+      "target": "data/namespaces/base/methods/frontier-025-2026-09-10/verification/census/expected_roster.json"
+    },
+    {
+      "bytes": 17850,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/ADOPTION.md",
+      "present_in_plan_003": true,
+      "role": "adoption",
+      "sha256": "59d52280105c08ec03a19eb6934c645fb5c046d5f4da019fd4a2be2a79193a34",
+      "target": "data/namespaces/base/methods/frontier-025-2026-09-10/ADOPTION.md"
+    },
+    {
+      "bytes": 7125,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/PROOFS/027-BOUNDARY-MASK-POSITIVE-TERMINAL.md",
+      "present_in_plan_003": false,
+      "role": "proof0",
+      "sha256": "dce329b788fff554f98767f9dfc6e167620b28ae43c9efbb092473d6c1b158cb",
+      "target": "data/upstream/f025/proofs/027-BOUNDARY-MASK-POSITIVE-TERMINAL.md"
+    },
+    {
+      "bytes": 8218,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/PROOFS/023-SHORT-NORMAL-COEFFICIENT-POSITIVITY.md",
+      "present_in_plan_003": false,
+      "role": "proof1",
+      "sha256": "4aa04c1cc72f160838af6a8f7a803bda39fb457f35e4fdb7f0def4962844115c",
+      "target": "data/upstream/f025/proofs/023-SHORT-NORMAL-COEFFICIENT-POSITIVITY.md"
+    },
+    {
+      "bytes": 62518940,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/BOX6-RESIDUAL.tsv",
+      "present_in_plan_003": true,
+      "role": "BOX6-RESIDUAL.tsv",
+      "sha256": "37104842a81e385a1ef132ddbbd9a13c790cfb9747522d571725546f3d752e2f",
+      "target": "data/upstream/f025/P08/BOX6-RESIDUAL.tsv"
+    },
+    {
+      "bytes": 165865946,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/BOX7-RESIDUAL.tsv",
+      "present_in_plan_003": true,
+      "role": "BOX7-RESIDUAL.tsv",
+      "sha256": "db1e6b4744755b98f4eb4e8c09659370015d4124554b2a96dac79de1d545da26",
+      "target": "data/upstream/f025/P08/BOX7-RESIDUAL.tsv"
+    },
+    {
+      "bytes": 65444805,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/CANON6-KEYS.tsv",
+      "present_in_plan_003": true,
+      "role": "CANON6-KEYS.tsv",
+      "sha256": "fce2aa92bb6b32f2a7f617e442e79605610d1cfb623523a043c59045585cecaf",
+      "target": "data/upstream/f025/P08/CANON6-KEYS.tsv"
+    },
+    {
+      "bytes": 184347058,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/CANON7-KEYS.tsv",
+      "present_in_plan_003": true,
+      "role": "CANON7-KEYS.tsv",
+      "sha256": "0280ac282a7d337add05d60d1a8bd2ccfd2cc1fd0c9bf50a67e82fe68f226dde",
+      "target": "data/upstream/f025/P08/CANON7-KEYS.tsv"
+    },
+    {
+      "bytes": 18064753,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/CANON6-MAP.tsv",
+      "present_in_plan_003": true,
+      "role": "CANON6-MAP.tsv",
+      "sha256": "caae8010bf66a4eba7ac21b2da235d92b3b26eff0b7c97a2e032117f9b477319",
+      "target": "data/upstream/f025/P08/CANON6-MAP.tsv"
+    },
+    {
+      "bytes": 43453707,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/CANON7-MAP.tsv",
+      "present_in_plan_003": true,
+      "role": "CANON7-MAP.tsv",
+      "sha256": "2e7ee4e9d0b2a1b30bd079399c3d52e40708315a40a4d8604e11b282941add1a",
+      "target": "data/upstream/f025/P08/CANON7-MAP.tsv"
+    },
+    {
+      "bytes": 9805794,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/GLOBAL-MAP6.txt",
+      "present_in_plan_003": true,
+      "role": "GLOBAL-MAP6.txt",
+      "sha256": "37e26e88007f1d4f98009615c5ba20937236bb395dd09b7e1f8964dbb2eaed01",
+      "target": "data/upstream/f025/P08/GLOBAL-MAP6.txt"
+    },
+    {
+      "bytes": 27217805,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/GLOBAL-MAP7.txt",
+      "present_in_plan_003": true,
+      "role": "GLOBAL-MAP7.txt",
+      "sha256": "9043f72bc9ffe884d7a843b0a360dbaafbe4291a8d938a137a099004d46bcfa9",
+      "target": "data/upstream/f025/P08/GLOBAL-MAP7.txt"
+    },
+    {
+      "bytes": 259305202,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/GLOBAL-KEYS.tsv",
+      "present_in_plan_003": true,
+      "role": "GLOBAL-KEYS.tsv",
+      "sha256": "ad454565d2bb62ef4d73fbf9a5f402efb67ce3988c31fdb98b399ac8f4e80c26",
+      "target": "data/upstream/f025/P08/GLOBAL-KEYS.tsv"
+    },
+    {
+      "bytes": 296345,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P09/JOBS/J01-FOUR-ATLASES/ATLAS6.json",
+      "present_in_plan_003": true,
+      "role": "cone_atlas6",
+      "sha256": "f9760ef4c732e547fc1a6ed131a68531fe527b337828a7abda7f66ffc7acf95c",
+      "target": "data/namespaces/base/methods/frontier-025-2026-09-10/sources/DATA/P09/JOBS/J01-FOUR-ATLASES/ATLAS6.json"
+    },
+    {
+      "bytes": 1824932,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P09/JOBS/J01-FOUR-ATLASES/ATLAS7.json",
+      "present_in_plan_003": true,
+      "role": "cone_atlas7",
+      "sha256": "748aad0054444c1fa0c2779e8dd33b34a7a09001d4b465e43fa3aa3db6b1d5da",
+      "target": "data/namespaces/base/methods/frontier-025-2026-09-10/sources/DATA/P09/JOBS/J01-FOUR-ATLASES/ATLAS7.json"
+    },
+    {
+      "bytes": 602884,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P09/JOBS/J04-CONES-EXACT/THREE-CONE-TYPES.json",
+      "present_in_plan_003": true,
+      "role": "cone_primary_types",
+      "sha256": "213e2e54ad186c0cdbe795b96933c32021c78faf52321dcecf73c756d513edc1",
+      "target": "data/namespaces/base/methods/frontier-025-2026-09-10/sources/DATA/P09/JOBS/J04-CONES-EXACT/THREE-CONE-TYPES.json"
+    },
+    {
+      "bytes": 309820,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P09/JOBS/J23A-CONE-IDENTITY-REPAIR/INDEPENDENT-CONE-CERTIFICATE.json",
+      "present_in_plan_003": true,
+      "role": "cone_repaired_types",
+      "sha256": "a44c9ee245950eec817e597eb6b56c2cf40886b53fba8be301fd354ee955d7b8",
+      "target": "data/namespaces/base/methods/frontier-025-2026-09-10/sources/DATA/P09/JOBS/J23A-CONE-IDENTITY-REPAIR/INDEPENDENT-CONE-CERTIFICATE.json"
+    },
+    {
+      "bytes": 2359462,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P09/JOBS/J11-EXACT-METRICS-0/EXACT-METRIC-CERTIFICATE.json",
+      "present_in_plan_003": true,
+      "role": "cone_metric0",
+      "sha256": "939961bdab067f1e51e0a437941c9a7caa6e1f1e133ae1e2ae954354b9dfc8e6",
+      "target": "data/namespaces/base/methods/frontier-025-2026-09-10/sources/DATA/P09/JOBS/J11-EXACT-METRICS-0/EXACT-METRIC-CERTIFICATE.json"
+    },
+    {
+      "bytes": 2283643,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P09/JOBS/J12-EXACT-METRICS-1500/EXACT-METRIC-CERTIFICATE.json",
+      "present_in_plan_003": true,
+      "role": "cone_metric1500",
+      "sha256": "1dd570ca132602aed32a1e9eb9bdb1c1026f24f8ecb30ea70237460e022379a6",
+      "target": "data/namespaces/base/methods/frontier-025-2026-09-10/sources/DATA/P09/JOBS/J12-EXACT-METRICS-1500/EXACT-METRIC-CERTIFICATE.json"
+    },
+    {
+      "bytes": 1373983,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P09/JOBS/J13-EXACT-METRICS-3000/EXACT-METRIC-CERTIFICATE.json",
+      "present_in_plan_003": true,
+      "role": "cone_metric3000",
+      "sha256": "4b587b4bd60b1caa9cfedb3299372b61d4db93ac3f1740fdcd94a2fe9f6aa7ff",
+      "target": "data/namespaces/base/methods/frontier-025-2026-09-10/sources/DATA/P09/JOBS/J13-EXACT-METRICS-3000/EXACT-METRIC-CERTIFICATE.json"
+    },
+    {
+      "bytes": 256381,
+      "original_path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P09/JOBS/J24-FULL-MASK-BINDING/FINAL-SCIENTIFIC-RECONCILIATION.json",
+      "present_in_plan_003": true,
+      "role": "cone_reconciliation",
+      "sha256": "6092fa826ee36fbbeef5cb18e80ca7c2324be86c7d887b32ebd7f032d2948e2a",
+      "target": "data/namespaces/base/methods/frontier-025-2026-09-10/sources/DATA/P09/JOBS/J24-FULL-MASK-BINDING/FINAL-SCIENTIFIC-RECONCILIATION.json"
+    }
+  ],
+  "schema": "portable-f025-inputs-v1",
+  "source_roster_metadata": {
+    "box-inputs-roster.json": {
+      "accepted_horn_inventory": "/Volumes/SLR-Research/stretched-lr-research/results/runs/session-fn-wi202-essential-horn-inventory.json",
+      "ranks": [
+        {
+          "cover_source": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/COVER6.json",
+          "horn_source": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/HORN6.txt",
+          "rank": 6,
+          "score_output": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-SCORES6-001.txt",
+          "score_source": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/SCORES6.txt",
+          "verified_masks": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-MASK-R6-001.json"
+        },
+        {
+          "cover_source": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/COVER7.json",
+          "horn_source": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/HORN7.txt",
+          "rank": 7,
+          "score_output": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-SCORES7-001.txt",
+          "score_source": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/SCORES7.txt",
+          "verified_masks": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-MASK-R7-001.json"
+        }
+      ]
+    },
+    "global-application-roster.json": {
+      "admitted6": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-METRIC-MASKS6-001.txt",
+      "admitted7": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-METRIC-MASKS7-001.txt",
+      "census6": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-CENSUS-R6-001.census.json",
+      "census7": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-CENSUS-R7-001.census.json",
+      "global_keys": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/GLOBAL-KEYS.tsv",
+      "map_report": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-MAPS-FULL-001.data/report.json",
+      "metric_binding": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-METRIC-MASK-BINDING-001.json",
+      "pricing_panel_output": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-BOUND5-PRICING-PANEL-001.json",
+      "quartic_certificate": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-QUARTIC-CERTIFICATE-001.json",
+      "residual_output": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-RESIDUAL-KEYS-001.tsv",
+      "scores6": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-SCORES6-001.txt",
+      "scores7": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-SCORES7-001.txt",
+      "small_certificate": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-SMALL-CERTIFICATE-001.json",
+      "source_new_keys": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P09/JOBS/J15-FINAL-BOX-APPLICATION/NEW-KEYS.tsv"
+    },
+    "mask-r6-roster.json": {
+      "mask_source": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/MASK6.json",
+      "proofs": [
+        "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/PROOFS/027-BOUNDARY-MASK-POSITIVE-TERMINAL.md",
+        "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/PROOFS/023-SHORT-NORMAL-COEFFICIENT-POSITIVITY.md"
+      ],
+      "rank": 6,
+      "start": 0,
+      "stop": 32768
+    },
+    "mask-r7-roster.json": {
+      "mask_source": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/MASK7.json",
+      "proofs": [
+        "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/PROOFS/027-BOUNDARY-MASK-POSITIVE-TERMINAL.md",
+        "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/PROOFS/023-SHORT-NORMAL-COEFFICIENT-POSITIVITY.md"
+      ],
+      "rank": 7,
+      "start": 0,
+      "stop": 262144
+    },
+    "metric-mask-binding-roster.json": {
+      "mask_words": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P09/JOBS/J14-FINAL-MASK-WORDS/MASK-WITNESSES.json",
+      "metric_aggregate": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-CONE-AGGREGATE-001.json",
+      "metric_expected": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/verification/local-cones/proposed-roster.json",
+      "ranks": [
+        {
+          "admitted_output": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-METRIC-MASKS6-001.txt",
+          "atlases": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P09/JOBS/J01-FOUR-ATLASES/ATLAS6.json",
+          "rank": 6,
+          "verified_masks": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-MASK-R6-001.json"
+        },
+        {
+          "admitted_output": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-METRIC-MASKS7-001.txt",
+          "atlases": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P09/JOBS/J01-FOUR-ATLASES/ATLAS7.json",
+          "rank": 7,
+          "verified_masks": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-MASK-R7-001.json"
+        }
+      ]
+    },
+    "quartic-charts-roster.json": {
+      "charts_output": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-QUARTIC-CHARTS-001.txt",
+      "exceptions": [
+        {
+          "expected_count": 4670,
+          "path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P09/JOBS/J16-INDEPENDENT-APPLICATION6/UNCOVERED-FOUR.json"
+        },
+        {
+          "expected_count": 5678,
+          "path": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P09/JOBS/J17-INDEPENDENT-APPLICATION7/UNCOVERED-FOUR.json"
+        }
+      ],
+      "verified_masks": [
+        {
+          "path": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-MASK-R6-001.json"
+        },
+        {
+          "path": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-MASK-R7-001.json"
+        }
+      ]
+    },
+    "quartic-reconciliation-roster.json": {
+      "fit": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-QUARTIC-FIT-001.json",
+      "holdouts": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-QUARTIC-HOLDOUTS-001.json",
+      "models": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-QUARTIC-CHARTS-001.json",
+      "primary": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P10/PRIMARY-VECTORS.jsonl"
+    },
+    "r3-corrections-roster.json": {
+      "certificate": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-SMALL-CERTIFICATE-001.json",
+      "cover": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-GLOBAL-COVER-001.json",
+      "global": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/GLOBAL-KEYS.tsv",
+      "original6": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/BOX6-RESIDUAL.tsv",
+      "original7": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/BOX7-RESIDUAL.tsv"
+    },
+    "small-charts-roster.json": {
+      "charts_output": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-SMALL-CHARTS-001.txt",
+      "small_roster": "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/SMALL-ROSTER.json",
+      "verified_masks": [
+        "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-MASK-R6-001.json",
+        "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-MASK-R7-001.json"
+      ]
+    },
+    "small-reconciliation-roster.json": {
+      "fit": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-SMALL-FIT-001.json",
+      "holdouts": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-SMALL-HOLDOUTS-001.json",
+      "models": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/science/results/F025-SMALL-CHARTS-001.json",
+      "source_vectors": [
+        "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/SMALL15-VECTORS.json",
+        "/Volumes/SLR-Research/stretched-lr-research/handoffs/returned/SLR-GPT6-PRO-FRONTIER-025-RETURN-001/payload/DATA/P08/SMALL16-VECTORS.json"
+      ]
+    }
+  }
+}

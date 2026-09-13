@@ -1,0 +1,606 @@
+{
+  "claims": [
+    {
+      "id": "FR027-P00-A02-ANCHOR",
+      "literal_claim": "The planned balanced outer-size48 rank6 triple (15,12,9,6,4,2);(12,9,6,4,2);(5,4,3,2,1) has actual degree10 and true codegree3 under the complete GT/LR count identity; roots -1,-2 reduce prospective determining data.",
+      "literal_scope": "No new scalar/vector, ordinary-sign theorem, reflection assertion, affine ordinary-hive inverse, or independent source-theorem regeneration.",
+      "provider_status": "ADOPTED_SOURCE_THEOREM_APPLICATION",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P01-F001",
+      "literal_claim": "W0=P0-P1+tQ has negative ordinary coefficients1 through4 while the complete P0 is positive.",
+      "literal_scope": "Auxiliary wall only. No entire LR bridge for W0; not a candidate.",
+      "provider_status": "PROVED_AUXILIARY_NEGATIVE",
+      "disposition": "ACCEPTED_VERIFIED_AUXILIARY",
+      "accepted_scope": "The complete auxiliary W0 has negative ordinary coefficients at degrees 1 through 4, while the entire P0 parent is positive.",
+      "campaign_accepted": true,
+      "next_destination": "Retain as a complete auxiliary compensation example in the research synthesis and Pro029; any negative quotient amplification needs a separate whole-parent proof."
+    },
+    {
+      "id": "FR027-P01-T001",
+      "literal_claim": "Complete eight-term skew branching law for every strict five-row/six-positive-label Delta3=3 Kostka/LR member.",
+      "literal_scope": "General count identity, not general gap-three positivity.",
+      "provider_status": "PROVED_ORIGINATING",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P01-T002",
+      "literal_claim": "The exact complete quotient has saturated Z9 homogeneous lattice, actual degree9, constant1, period collapse and roots-1,-2.",
+      "literal_scope": "Exact quotient of the displayed parent family; not assigned an ordinary LR rank.",
+      "provider_status": "PROVED_ORIGINATING",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P01-T003",
+      "literal_claim": "The entire x-family satisfies P_x=P1+(x-1)tQ for every integer x>=1; threshold1 is sharp.",
+      "literal_scope": "All-stretch pairing cancellation; x=0 separate, no generic compatible-ray assertion.",
+      "provider_status": "PROVED_ORIGINATING",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P01-T004",
+      "literal_claim": "Every ordinary coefficient of the complete displayed rank-six LR family is positive for every integer x>=0.",
+      "literal_scope": "Outer size6x+48, degree10, codegree3, full GT lattice and LR count bridge. No all-rank or whole-gap-three claim.",
+      "provider_status": "PROVED_WITH_EXACT_COMPUTATION",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P02-T001",
+      "literal_claim": "The entire two-parameter rank-six family has exact determinant-complement symmetry P_xy=P_yx.",
+      "literal_scope": "All x,y,t nonnegative integers; six-label padding and weight-block permutation explicit.",
+      "provider_status": "PROVED_ORIGINATING",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P02-T002",
+      "literal_claim": "All11 ordinary coefficients of every P_xy, x,y>=0, are strictly positive; full positive quadrant, both initial axes and origin are retained.",
+      "literal_scope": "Exact complete quadrant and axis laws; axes overlap Unit1 by duality, not separate new sign families.",
+      "provider_status": "PROVED_WITH_EXACT_COMPUTATION",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P02-T003",
+      "literal_claim": "Complete saturated-Z9 quotient Q1 has a closed all-grade hinge-moment formula and ten strictly positive ordinary coefficients.",
+      "literal_scope": "Entire quotient, not an asserted ordinary LR rank; R has its separate simple capped Z8 count.",
+      "provider_status": "PROVED_WITH_EXACT_COMPUTATION",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P02-T004",
+      "literal_claim": "The full homogeneous three-ray cone has40 strictly positive joint coefficients and strictly positive whole stretching coefficients through actual degree, including every parameter boundary.",
+      "literal_scope": "Rank6 for s+b>0, rank3 on the remaining nonzero axis; degree10 for s>0, else2/1/0. Codegreeceil(3/s) for s>0 and explicit boundary affine-lattice model.",
+      "provider_status": "PROVED_WITH_EXACT_COMPUTATION",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P02-T005",
+      "literal_claim": "Complete initial walls W_y=W1+(y-1)tZ have negative ordinary coefficients; their quadratic coefficient is unbounded below with y.",
+      "literal_scope": "Auxiliary correction polynomials only; not entire LR candidates. All negative raw observations preserved before reconciliation.",
+      "provider_status": "PROVED_WITH_EXACT_COMPUTATION",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P02-T006",
+      "literal_claim": "An inhabited positive finite-difference decomposition proves coefficientwise monotonicity and supermodularity on the full integer quadrant.",
+      "literal_scope": "The C,D,E and mixed R contributions include the initial corner. No universal positive-operation or all-LR generation theorem.",
+      "provider_status": "PROVED_WITH_EXACT_COMPUTATION",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P03-C001",
+      "literal_claim": "105 distinct family sites agree between complete positive-table and signed-assignment models; all133 parent coefficients,14 unused positive holds and108 nonconstant difference coefficients reconcile.",
+      "literal_scope": "Seven complete degree18 vectors. Fifteen pinned-parent reorder checks overlap h0. Different count models and Python/Boost integer engines inside one originating mission, not external campaign acceptance.",
+      "provider_status": "COMPUTED",
+      "disposition": "ACCEPTED_AT_EXACT_REPLAY_SCOPE",
+      "accepted_scope": "All seven complete endpoint polynomials, 133 ordinary coefficients, six differences with 108 nonconstant coefficients and 14 unused positive checks; 98 positive sites are newly counted and seven zero-grade values are explicit. Other reordered duplicates remain overlap evidence.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P03-T001",
+      "literal_claim": "Uniform insertion residue involution and exact multinomial recurrence; every even unshifted layer reduces to lower odd layers.",
+      "literal_scope": "Positive integral a,b,c, integer polynomial weight shift e. At odd a the leading multiplier is zero; no inversion or generic all-a vanishing.",
+      "provider_status": "PROVED_ORIGINATING",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P03-T002",
+      "literal_claim": "D_e(a,b,c)=(-1)^(b+c+1)D_e(a,c,b); all-a equal-tail diagonal vanishes and the reduced numerator is divisible by b-c.",
+      "literal_scope": "Auxiliary insertion functional with the full original shift; every a,b>=1 on b=c. Not a complete transportation assignment-sum theorem.",
+      "provider_status": "PROVED_ORIGINATING",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P03-T003",
+      "literal_claim": "D_0(a,b,c)=0 for every 1<=a<=6 and all b,c>=1, with an exact a5 polynomial certificate and independent beta-grid proof.",
+      "literal_scope": "a1..3 inherited; a4/a6 from recurrence, a5 new. Strict C3 gate a<=6, C2 gate c<=6, C5 gate a,b<=6. Other chambers and generic odd a>=7 remain open.",
+      "provider_status": "PROVED_WITH_EXACT_COMPUTATION",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P03-T004",
+      "literal_claim": "Every h>=0 member of the displayed rank-ten 4-by-7 transportation/LR family is strictly positive in all nineteen ordinary coefficients.",
+      "literal_scope": "Complete bare triple, size127+4h, actual degree18, codegree7, saturated matrix Z18; seven distinct polynomials and count-preserving stabilization, not a whole-rank theorem.",
+      "provider_status": "PROVED_WITH_EXACT_COMPUTATION",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P03-T005",
+      "literal_claim": "Every nonconstant coefficient increases strictly from h=0 through h=6 and then stabilizes; P6-P5=binom(t+17,18) and threshold6 is sharp.",
+      "literal_scope": "Entire integer cap-release family; all six successive polynomial differences retained. No homogeneous real-parameter extension claimed.",
+      "provider_status": "PROVED_WITH_EXACT_COMPUTATION",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P03-T006",
+      "literal_claim": "The entire transportation linear coefficient equals the double-cut core on this family; the source size133 rank10 parent has c1=5279/360 and a full positive vector.",
+      "literal_scope": "Pinned source parent equals h0 by complete row/column permutations. Generic E=0, minimal lift size/rank, and other margin families remain unproved.",
+      "provider_status": "PROVED_WITH_EXACT_COMPUTATION",
+      "disposition": "ACCEPTED_AT_NARROWER_SCOPE",
+      "accepted_scope": "The entire size-133 parent equals the size-127 h = 0 lift by complete row/column permutations; its full polynomial is positive and c1 = 5279/360.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P04-T001",
+      "literal_claim": "Exact whole positive-gap two-bank LR contraction to a descending-width count and its complete total-deficit moment.",
+      "literal_scope": "m>=2,g1,h0; full source row inverse, all stretches including zero. Not Q19 synchronization.",
+      "provider_status": "PROVED_ORIGINATING",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P04-T002",
+      "literal_claim": "Bare whole family has rank m+3, size5m^2+13m-2, saturated Z^(2m-1), degree2m-1 and codegree m.",
+      "literal_scope": "All integer m>=2 at g1,h0; rank5 member protected control, no minimum-rank assertion.",
+      "provider_status": "PROVED_ORIGINATING",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P04-T003",
+      "literal_claim": "Every ordinary coefficient of the entire g1,h0 family is strictly positive for every integer m>=2.",
+      "literal_scope": "Unbounded-rank/degree family, not every LR triple at any rank. Complete moment subtraction repaired by positive E_i recurrence.",
+      "provider_status": "PROVED_ORIGINATING",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P04-T004",
+      "literal_claim": "Exact complete capped polynomial for integer0<=g<=2m-2 at h0; every support wall and small-stretch exception retained.",
+      "literal_scope": "Positive gaps degree2m-1/codegree max(2,ceil(m/g)); zero gap dimension m/codegree1.",
+      "provider_status": "PROVED_ORIGINATING",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P04-T005",
+      "literal_claim": "Entire c1>=3m-1 for every integer m>=2 and0<=g<=2m-2; sharp at endpoints, strict inside for m>=3.",
+      "literal_scope": "Complete positive-weighted-tent expression. No general higher-sign theorem off g1/endpoints.",
+      "provider_status": "PROVED_ORIGINATING",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P04-T006",
+      "literal_claim": "Exact marked whole count by actual internal label3 mass, with full q0-face formula and q1-parent specialization.",
+      "literal_scope": "Proper face for k>=2,g>0; arbitrary-fugacity stretch polynomiality and Q19 whole-LR gluing are not claimed.",
+      "provider_status": "PROVED_ORIGINATING",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P05-T001",
+      "literal_claim": "Every complete source-sink acyclic complete-graph interior lattice point decomposes into a first-interior point and a nonnegative source-sink flow; all integral dilations inherit this.",
+      "literal_scope": "Full stable LR identity rederived for n>=3,M>=s>=1; rank n, degree (n-1)(n-2)/2, saturated flow lattice, codegree ceil(floor(n^2/4)/s). Closed positive-slack real Minkowski equality, not equality of open real interiors. No all-rank ordinary-coefficient sign conclusion.",
+      "provider_status": "PROVED_ORIGINATING",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P05-T002",
+      "literal_claim": "Complete translated-interior intersections are shifted full flow counts; a compatible integer-cell pulling triangulation gives a finite alternating Euler-sum formula.",
+      "literal_scope": "All coordinate maxima keep their actual divergence; no assumed min/max flow closure, no independent shifted-term polynomiality or positive-basis assertion. Full small n6/n7 overlap laws and n8 point bodies retained.",
+      "provider_status": "PROVED_ORIGINATING",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P05-T003",
+      "literal_claim": "For every n>=5 and positive integral ordered weights, the whole LR suffix lift with nu=(W-2,2) has P=binom(2t+n-2,n-2)-u binom(t+n-3,n-2) and every ordinary coefficient positive.",
+      "literal_scope": "u is the number of unit weights; ordinary rank n, actual degree n-2, true codegree floor(n/2), saturated GT lattice. Exactly n+1 distinct polynomials at fixed n; arbitrary large weights do not create an infinite fixed-rank spectrum. This is not the shared uniform CENTRAL channel.",
+      "provider_status": "PROVED_ORIGINATING",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P05-T004",
+      "literal_claim": "For the entire unequal-weight channel, the full surplus S=I(q+t)-P obeys 0<=coeff S/2<=coeff rho M with rho<1 and M=(I(q+t)+P)/2.",
+      "literal_scope": "For d=n-2 odd rho=u/(2d); for d even rho=(d^2+u)/(d(d+2)). Constants and both parities retained; unbounded residual degree. A family-specific complete quantitative bound, not a generic positive-surplus inference.",
+      "provider_status": "PROVED_ORIGINATING",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P05-T005",
+      "literal_claim": "Odd n=2m+1,m>=3,u>0 have a unique first-interior point but exactly u uncovered points at the next grade, and the full uncovered polynomial is S=u(C-D).",
+      "literal_scope": "All first translates here means the single unique translate. General even-n union differs from S. Positivity survives this all-rank failure of first-grade generation; old n7 uniform control is an overlap.",
+      "provider_status": "PROVED_ORIGINATING",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P05-T006",
+      "literal_claim": "For n>=7 and nu=(W-3,3), the complete count has the four-term cap formula retaining the positive-sign two-unit-cap intersection.",
+      "literal_scope": "All positive weights; u=#1,v=#2; general higher-coefficient positivity remains unproved. Degree n-2 prior. A separate complete n8 degree6 finite vector is positive with independent GT and bare checks.",
+      "provider_status": "PROVED_ORIGINATING",
+      "disposition": "ACCEPTED_IDENTITY_OPEN_SIGN_PART_SUPERSEDED",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "The separate root SLOPE-THREE-PROOF theorem now closes the sign question for positive weights at n >= 6, with its n = 6 degree exception; do not attribute that stronger proof to Pro027."
+    },
+    {
+      "id": "FR027-P06-C001",
+      "literal_claim": "All1180 affine implications,10125 triple occurrences,2535 literal full-parallelepiped constants and6105 hidden pairs pass independent exact checks, with complete new-mask coverage.",
+      "literal_scope": "Seven original manuscripts and old all-mask/metric certificates remain source premises. Distinct arithmetic/model implementations inside one mission, not external campaign acceptance.",
+      "provider_status": "INDEPENDENT_EXACT_VERIFICATION",
+      "disposition": "ACCEPTED_AT_EXACT_REPLAY_SCOPE",
+      "accepted_scope": "The complete finite certificate population consumed by the named current independent aggregate, retaining all overlaps and exact mathematical prerequisites.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P06-T001",
+      "literal_claim": "All246 residual four-coordinate masks (24 rank6,222 rank7) admit one of29 complete boundary-aware presentations with every independent triple positive in one standard metric.",
+      "literal_scope": "At arbitrary sizes on their exact closed boundary-mask domains, with all original affine inequalities and saturated maps retained.1180 sequential exact implications; not arbitrary independent offsets.",
+      "provider_status": "PROVED_BY_COMPLETE_EXACT_CERTIFICATE",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P06-T002",
+      "literal_claim": "For independent u,v,w, the actual saturated-kernel two-cone weight equals alpha3(u,v,w)+alpha3(-u,v,w).",
+      "literal_scope": "One fixed rational metric; BV dual solid valuation and ambient/subspace compatibility; rational affine hulls are denominator-cleared and translated first.6105 direct restricted pairs agree.",
+      "provider_status": "PROVED",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P06-T003",
+      "literal_claim": "Every whole ordinary-rank-at-most-seven LR polynomial admitted by the complete at-most-four-coordinate boundary-identification criterion is ordinary-nonnegative at all sizes; actual quartics have all five coefficients strictly positive.",
+      "literal_scope": "Combines adopted old at-most-three and old metric-admitted masks with exactly246 new masks. Not every actual quartic, whole rank, full KTT or a new area-thirty endpoint.",
+      "provider_status": "PROVED_BY_COMPLETE_EXACT_CERTIFICATE",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P06-T004",
+      "literal_claim": "The nonhomothetic rank6 family b0+s*bw in proof023 has degree4 and all ordinary coefficients positive for every integer s>=0.",
+      "literal_scope": "Outer size19+48s, exact mask4932, full real/integer hive map; seed is an inherited control; no joint parameter polynomial or universal codegree claimed.",
+      "provider_status": "PROVED",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P07-C001",
+      "literal_claim": "All2571 full cone types,36157 facequotients,39669 fundamentalpoint occurrences,13265 cone occurrences,7334 primitive correction incidences,41 boundaryimplications and24maskwords pass independent exact verification.",
+      "literal_scope": "Different arithmetic/implementation and HNF numerators; same mathematical BV theorem. IndexoneGram compression only; full literal lattice data retained at higher index.",
+      "provider_status": "INDEPENDENT_EXACT_VERIFICATION",
+      "disposition": "ACCEPTED_AT_EXACT_REPLAY_SCOPE",
+      "accepted_scope": "The complete finite certificate population consumed by the named current independent aggregate, retaining all overlaps and exact mathematical prerequisites.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P07-T001",
+      "literal_claim": "One rational correction on all independent q-normal cones preserves the full k-face coefficient sum by complete refined normal-cycle balance, including nonpointed normal fans and hidden affine strata. Strict corrected weights give a quantitative full-face lower bound.",
+      "literal_scope": "General sufficient normal-list theorem for bounded rational period-one polytopes in the actual saturated lattice and one fixed metric; no converse over realizable weights or perturbation-coefficient continuity.",
+      "provider_status": "PROVED",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P07-T002",
+      "literal_claim": "All ordinary coefficients of entire LR members of the two closed six-part boundary domains A/B in proof026 are nonnegative, strictly positive through actual degree for nonempty members. Twenty-four exact tensor mask patterns and all their closed walls are covered.",
+      "literal_scope": "Full five-coordinate chart and all original rows;41 universal implications; exact independent c1/c2 cycle certificates; source short-normal c3 and intrinsic top coefficients. Only2of125r6 residualorbits, no whole rank or box join.",
+      "provider_status": "PROVED",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P08-C001",
+      "literal_claim": "All123neworbits/1251patterns and707032completeconeoccurrences pass;4790fulltypes,2638affineimplications,398551primitiveincidences independently checked.",
+      "literal_scope": "Finite certificate over whole unbounded boundary domains, not a feasible-hive census.",
+      "provider_status": "COMPUTED_INDEPENDENTLY_VERIFIED",
+      "disposition": "ACCEPTED_AT_EXACT_REPLAY_SCOPE",
+      "accepted_scope": "The 123 new presentations with 707,032 independent cone occurrences and 398,551 incidences; the full aggregate includes 125 presentations and 2,679 implications including the 41 already supplied by P07, and 4,790 full types. These populations are not additive to P07.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P08-T001",
+      "literal_claim": "All-size ordinary nonnegativity for rank<=6 under the complete source coordinate bound<=5 after exact tensor symmetry; strict actual quintics and every nonempty member of the125five-coordinate closed domains.",
+      "literal_scope": "Not all actual quintics, all rank6, rank7bound5, wholebox or KTT.",
+      "provider_status": "PROVED_ORIGINATING",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P08-T002",
+      "literal_claim": "Signed ambient coordinate plus normal-generator permutations give exact full lattice/metric cone reuse at nontrivial index; index-one Gram reuse retains its separate proof.",
+      "literal_scope": "No high-index equal-Gram/index gluing inference.",
+      "provider_status": "PROVED_ORIGINATING",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P09-C001",
+      "literal_claim": "Complete102297 independent quadruples/9633 dependent subsets;381 rank7 correction supports;14067 incidences; minimum164999999111/491400000000000.4296 types independently replayed.",
+      "literal_scope": "Entire original42-normal rank6 atlas.132 local negatives are not whole-polynomial observations.4296 includes4284 target types and12 calibration-only types.",
+      "provider_status": "COMPUTED_INDEPENDENT_EXACT_VERIFICATION",
+      "disposition": "ACCEPTED_AT_EXACT_REPLAY_SCOPE",
+      "accepted_scope": "The complete finite certificate population consumed by the named current independent aggregate, retaining all overlaps and exact mathematical prerequisites.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P09-T001",
+      "literal_claim": "For every rank-at-most-six entire LR polynomial, c6>=0; c6>0 iff the nonempty actual degree is at least6. In the original ambient10 chart c6 >= (1/3000) sum actual six-face normalized volumes.",
+      "literal_scope": "All legal sizes, masks and hidden strata. No all-rank-six full-coefficient conclusion. Period collapse and the complete whole-hive model are essential.",
+      "provider_status": "PROVED_WITH_COMPLETE_EXACT_CERTIFICATE",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The stated ambient-index coefficient protection: for n = 6,...,12, D_n = (n-1)(n-2)/2 and the full c_(D_n-4) face-volume bound, with the exact nonempty actual-degree qualification. Together with prior ambient top-four results this protects ambient indices D_n-4 through D_n; it is not automatically the top five actual coefficients of every degenerate hive.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P09-T002",
+      "literal_claim": "None of the132 raw-negative independent quadruples can be a COMPLETE SIMPLICIAL six-face normal cone of a full-dimensional legal rank-six hive.",
+      "literal_scope": "All192 choices of original duplicate-direction rhombi have exact Farkas certificates; no classification of nonsimplicial complete weights or hidden strata by this exclusion.",
+      "provider_status": "PROVED_EXACT_BOUNDARY_EXCLUSION",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P09-T003",
+      "literal_claim": "Combining c6 with adopted ambient top-four positivity protects c6 through c10 for all rank-at-most-six whole LR triples.",
+      "literal_scope": "Remaining possible negative indices at rank6 are1..min(actual_degree-2,5), subject to all older terminals. No original-box identity join.",
+      "provider_status": "PROVED_SOURCE_COMBINATION",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The stated ambient-index coefficient protection: for n = 6,...,12, D_n = (n-1)(n-2)/2 and the full c_(D_n-4) face-volume bound, with the exact nonempty actual-degree qualification. Together with prior ambient top-four results this protects ambient indices D_n-4 through D_n; it is not automatically the top five actual coefficients of every degenerate hive.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P10-C001",
+      "literal_claim": "All462468 independent rank7 normal quadruples,6250 complete type records,20925 primitive rank12 incidences and rational corrected signs pass independent exact verification; minimum164999998979/491400000000000>1/3000.",
+      "literal_scope": "Finite complete certificate;6238targettypes12calibration;132negative raw local occurrences preserved. Independence is implementation/engine within the mission,not external campaign acceptance.",
+      "provider_status": "COMPUTED_INDEPENDENTLY_VERIFIED",
+      "disposition": "ACCEPTED_AT_EXACT_REPLAY_SCOPE",
+      "accepted_scope": "The complete finite certificate population consumed by the named current independent aggregate, retaining all overlaps and exact mathematical prerequisites.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P10-T001",
+      "literal_claim": "For every entire LR polynomial of ordinary rank at most7, c11>=0 at all sizes and boundaries; strict when nonempty actual degree>=11. In the original fifteen-coordinate chart c11>=sum of actual eleven-face lattice volumes/3000.",
+      "literal_scope": "Complete c11 only, not all lower coefficients,whole-rank KTT or box endpoint. All63rhombi,saturated lattices,period collapse and hidden strata retained.",
+      "provider_status": "PROVED_ORIGINATING_COMPUTER_ASSISTED",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The stated ambient-index coefficient protection: for n = 6,...,12, D_n = (n-1)(n-2)/2 and the full c_(D_n-4) face-volume bound, with the exact nonempty actual-degree qualification. Together with prior ambient top-four results this protects ambient indices D_n-4 through D_n; it is not automatically the top five actual coefficients of every degenerate hive.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P10-T002",
+      "literal_claim": "At n>=3,M>=s>=0, the entire conventional hive for (2M rho-s theta;M rho;M rho) is grade-compatibly affine-lattice equivalent to the complete acyclic source-sink flow fiber of total s.",
+      "literal_scope": "Direct geometric map and integer inverse; count family,dimension and codegree are inherited controls. Stable M>=s only; no minimum-rank or all-rank ordinary-positivity claim.",
+      "provider_status": "PROVED_ORIGINATING_GEOMETRIC_REFINEMENT",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P10-T003",
+      "literal_claim": "Complete first-interior generation for the stable source-sink flow model now transfers to its actual conventional hives under the direct graded affine map.",
+      "literal_scope": "Uses Unit5 complete all-cut generation plus T002; overlaps and uncovered-stratum counterexamples in other LR models remain. No positivity follows just from generation.",
+      "provider_status": "PROVED_COROLLARY_WITH_INHERITED_PREMISE",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P11-C001",
+      "literal_claim": "Both independent567-parameter support-local arrays are positive after exact A02 regeneration. The stronger shared399-template array receives full independent replay.",
+      "literal_scope": null,
+      "provider_status": "COMPUTED",
+      "disposition": "ACCEPTED_AT_EXACT_REPLAY_SCOPE",
+      "accepted_scope": "The complete finite certificate population consumed by the named current independent aggregate, retaining all overlaps and exact mathematical prerequisites.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P11-C002",
+      "literal_claim": "Every24549 independent affected rank8 cone passes, with501 dependent constructors and381 matching supports. Independent grid/lattice/type/incidence replay passes; untouched cones and c17 remain unproved.",
+      "literal_scope": null,
+      "provider_status": "COMPUTED_INDEPENDENT",
+      "disposition": "ACCEPTED_AT_EXACT_REPLAY_SCOPE",
+      "accepted_scope": "The complete finite certificate population consumed by the named current independent aggregate, retaining all overlaps and exact mathematical prerequisites.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P11-T001",
+      "literal_claim": "For a normal triple J and independent extension n, primitive quotient divisibility equals index(J+n)/index(J). Ambient rational v in ker J gives the same quotient functional v dot n/g.",
+      "literal_scope": null,
+      "provider_status": "PROVED",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P11-T002",
+      "literal_claim": "The399 boundary-tagged directed geometric patch templates with621 parameters give strictly positive complete codimension-four arrays in BOTH original rank6/rank7 atlases. Every564765 occurrence and34992 primitive incidence passes independent exact replay. This is a new representation of existing c6/c11 protection, not a new coefficient frontier.",
+      "literal_scope": null,
+      "provider_status": "PROVED",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P11-T003",
+      "literal_claim": "In the selected381-support space with58 abstract isometry types and36 invariant parameters, two complete cone constraints have corrections x,-2x and nonnegative dual weights2/3,1/3 with weighted raw sum -271/235872. No nonnegative array is possible in that space, even with unbounded parameters. Additional supports/context/metrics remain open.",
+      "literal_scope": null,
+      "provider_status": "PROVED",
+      "disposition": "ACCEPTED_OBSTRUCTION_AT_STATED_SCOPE",
+      "accepted_scope": "The exact selected 381-support, 58-type, 36-parameter correction-space obstruction with its two-cone rational dual certificate. Other support/context/metric spaces remain open.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P11-T004",
+      "literal_claim": "The fixed boundary-patch rule reduces its all-rank certification to raw connected q<=3 cones through rank2q+3, corrected connected quadruples through14, and all affected quadruples through15. The finite positivity tasks remain incomplete.",
+      "literal_scope": null,
+      "provider_status": "PROVED_REDUCTION_NOT_COMPLETED_SIGN_THEOREM",
+      "disposition": "ACCEPTED_CONDITIONAL_REDUCTION",
+      "accepted_scope": "The finite-horizon reduction with its complete stated A/B/C tasks; no all-rank positivity follows before the two remaining untouched connected rank-13/14 checks.",
+      "campaign_accepted": true,
+      "next_destination": "Focused Astra006 normal-extension gate; retain the minimum of old and new positive bounds rather than assuming 1/3000 survives."
+    },
+    {
+      "id": "FR027-P12-C001",
+      "literal_claim": "Independent final replay verifies1,508,387 independent A/B/C cone occurrences and127,467 primitive incidences;1028 new trace bodies represent972 distinct keys,12273 fundamental-point and12054 proper-face-quotient occurrences. Overlap is retained. No new LR scalar or full vector in Unit12.",
+      "literal_scope": null,
+      "provider_status": "COMPUTED",
+      "disposition": "ACCEPTED_AT_EXACT_REPLAY_SCOPE",
+      "accepted_scope": "All 34 exact A/B/C rosters, 1,508,387 independent occurrences, 34,761 dependent occurrences, 127,467 primitive incidences and all 5,480 referenced complete Laurent types. Unit-only new-body/calibration counts retain their source-specific scope.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P12-T001",
+      "literal_claim": "For every n=6,...,12 and every entire balanced ordinary LR triple of maximum trimmed length at most n, c_(D_n-4)>=1/3000 times the complete normalized actual (D_n-4)-face-volume sum. Strict when nonempty actual degree reaches the index, zero otherwise; all original boundaries and hidden strata retained.",
+      "literal_scope": null,
+      "provider_status": "PROVED",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The stated ambient-index coefficient protection: for n = 6,...,12, D_n = (n-1)(n-2)/2 and the full c_(D_n-4) face-volume bound, with the exact nonempty actual-degree qualification. Together with prior ambient top-four results this protects ambient indices D_n-4 through D_n; it is not automatically the top five actual coefficients of every degenerate hive.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P12-T002",
+      "literal_claim": "All connected raw q<=3 cone values are positive at arbitrary rank, and every configuration with a nonzero individual boundary-patch correction is corrected-positive at arbitrary rank, via complete A/C finite-horizon certificates. This does not control an untouched connected quadruple at arbitrary rank.",
+      "literal_scope": null,
+      "provider_status": "PROVED",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "The complete all-parameter identity, sign theorem or sufficient structural statement at exactly the source domain and explicitly listed analytic/lattice premises.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    },
+    {
+      "id": "FR027-P12-T003",
+      "literal_claim": "The fixed patch rule has132 negative connected rank-five local configurations. All192 full original-rhombus choices have enclosing-boundary gaps <=1 and hence cannot be cap-two images of larger-rank configurations. This repairs the universal criterion base case, not the rank-five functionals; no whole LR negativity.",
+      "literal_scope": null,
+      "provider_status": "PROVED",
+      "disposition": "ACCEPTED_THEOREM",
+      "accepted_scope": "Exactly 132 negative connected rank-five local configurations and all 192 original-rhombus choices in the fixed cap-two horizon argument; no ordinary-negative LR coefficient and no unrestricted nonliftability claim.",
+      "campaign_accepted": true,
+      "next_destination": "Accepted campaign knowledge; retain the exact domain and do not infer a broader endpoint."
+    }
+  ],
+  "scope_rule": "Only these exact accepted mathematical scopes are promoted. Copying a source proof does not accept its other historical pilot, runtime, administrative or unperformed-check assertions. The full 139-claim ledger remains in the private campaign archive.",
+  "scope_count": 60
+}

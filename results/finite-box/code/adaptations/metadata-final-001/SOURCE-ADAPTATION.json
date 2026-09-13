@@ -1,0 +1,28 @@
+{
+  "changes": [
+    {
+      "source": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-F2627-EXTERNAL-WORKSPACE-20260912-001/u11-acceptance-repair/publication/portable-box-acceptance-cached.py",
+      "target": "portable-box-acceptance.py",
+      "before_sha256": "a45b4d7a1521603243fe685f3a599261808a44deb62478c9650c71b57970dd7a",
+      "after_sha256": "b38c303a47e502f07b45ce5c82f683e834bc9c9ab0b061a8626d0e6eb90add6f",
+      "bytes": 100861
+    },
+    {
+      "source": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-F2627-EXTERNAL-WORKSPACE-20260912-001/u11-acceptance-repair/publication/portable-box-composition.py",
+      "target": "portable-box-composition.py",
+      "before_sha256": "87eff618145c2d94d4f2dffe4d5267ed4f9f77e9988f72c80057ab5400b5358e",
+      "after_sha256": "f7fcdeb0cfc17ae96fbec98ee29b9a824c682dd124af682065ca855880cdcfd6",
+      "bytes": 54704
+    },
+    {
+      "source": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-F2627-EXTERNAL-WORKSPACE-20260912-001/u11-acceptance-repair/publication/composition_metadata.py",
+      "target": "composition_metadata.py",
+      "before_sha256": null,
+      "after_sha256": "02811802f3130bcf7bcd44dd7d6f3cd25066e0f86c3ce3fed79723471ffeab30",
+      "bytes": 11870
+    }
+  ],
+  "root_recipient_fixtures_passed": 36,
+  "original_core_bytes_unchanged": true,
+  "scope": "Metadata-only launch/resource adaptations, exact evidence path caches and explicit source/tool admission; original mathematical and completeness predicates remain."
+}

@@ -1,0 +1,11 @@
+--- reproduce.before.py
++++ reproduce.py
+@@ -201,7 +201,7 @@
+             name="finalize" if k.endswith("finalize") else "run"
+             cmd=py+[str(code/"portable-box-composition.py"),name,"--data-root",p["data_root"],"--code-root",core,"--work-root",str(r["composition"]),"--max-jobs",batch]
+             if k=="composition-run" or k=="composition-init" and str(r["composition"]) in self.last_states:cmd+=["--resume"]
+-            if name=="finalize":cmd += ["--acceptances",self.done["acceptance-assemble"]["bindings"]["path"]]
++            if name=="finalize":cmd += ["--acceptances",self.done["acceptance-assemble"]["bindings"]["path"],"--compiler",p["compiler"]["path"]]
+             return cmd
+         if k.startswith("upstream"):
+             cmd=py+[str(code/"portable-box-upstream/upstream.py"),k.split("-")[1],"--work-root",str(r["upstream"])]

@@ -1,0 +1,106 @@
+--- originals/verify_box_final_bindings.py
++++ verify_box_final_bindings.py
+@@ -11,22 +11,73 @@
+ 
+ 
+ class Sources:
+-    def __init__(self, root):
+-        self.root = root
++    def __init__(self, root, manifest, manifest_sha256):
++        self.root = Path(root).resolve()
+         self.pins, self.reads, self.lines_cache = {}, {}, {}
+-        with (root / 'MEMBERS.jsonl').open() as f:
+-            for line in f:
+-                x = json.loads(line)
+-                if x.get('state') == 'restored_inert' and x.get('output_path'):
+-                    self.pins[str(Path(x['output_path']).resolve())] = x['sha256']
++        self.sizes = {}
++        self.manifest = Path(manifest).absolute()
++        self._regular(self.manifest)
++        raw = self.manifest.read_bytes()
++        need(isinstance(manifest_sha256, str) and len(manifest_sha256) == 64
++             and all(c in '0123456789abcdef' for c in manifest_sha256), 'Explicit portable manifest hash required')
++        self.manifest_sha256 = hashlib.sha256(raw).hexdigest()
++        need(self.manifest_sha256 == manifest_sha256, 'Portable manifest changed')
++        document = json.loads(raw, object_pairs_hook=self._unique)
++        need(isinstance(document, dict) and document.get('schema') == 'early-input-manifest-v1'
++             and isinstance(document.get('files'), list), 'Expected portable relative input manifest')
++        for entry in document['files']:
++            need(isinstance(entry, dict) and set(entry) == {'path', 'bytes', 'sha256'}, 'Portable manifest entry fields')
++            name = self._relative(entry['path'])
++            need(type(entry['bytes']) is int and entry['bytes'] >= 0 and isinstance(entry['sha256'], str)
++                 and len(entry['sha256']) == 64 and all(c in '0123456789abcdef' for c in entry['sha256']),
++                 'Malformed portable byte binding')
++            p = self.root / name
++            key = str(p)
++            need(key not in self.pins, 'Duplicate portable input identity')
++            self.pins[key], self.sizes[key] = entry['sha256'], entry['bytes']
++        self.verify_unchanged()
++
++    @staticmethod
++    def _unique(items):
++        result = {}
++        for key, value in items:
++            need(key not in result, 'Duplicate portable manifest JSON field')
++            result[key] = value
++        return result
++
++    @staticmethod
++    def _relative(name):
++        need(isinstance(name, str) and name and '\\' not in name and ':' not in name
++             and all(ord(c) >= 32 and ord(c) != 127 for c in name), 'Invalid portable relative path')
++        p = Path(name)
++        need(p.parts and not p.is_absolute() and str(p) == name and all(v not in ('.', '..') for v in p.parts),
++             'Escaping or noncanonical portable relative path')
++        return name
++
++    @staticmethod
++    def _regular(path):
++        need(path.is_file() and not any(p.is_symlink() for p in (path, *path.parents)), 'Missing or symlink portable source')
++
++    def verify_unchanged(self):
++        self._regular(self.manifest)
++        need(hashlib.sha256(self.manifest.read_bytes()).hexdigest() == self.manifest_sha256, 'Portable manifest changed after reading')
++        for key, expected in self.reads.items():
++            path = Path(key)
++            self._regular(path)
++            data = path.read_bytes()
++            need(len(data) == self.sizes[key] and hashlib.sha256(data).hexdigest() == expected, 'Portable source changed after reading')
+ 
+     def lines(self, namespace, relative):
+-        p = (self.root / 'namespaces' / namespace / relative).resolve()
++        need(namespace in {'base', *(f'u{i:02d}' for i in range(2, 13))}, 'Unknown portable namespace')
++        relative = self._relative(relative)
++        p = self.root / 'namespaces' / namespace / relative
++        self._regular(p)
++        p = p.resolve()
+         need(p.is_relative_to(self.root / 'namespaces') and str(p) in self.pins, 'Unmanifested input path')
+         key = str(p)
+         if key not in self.lines_cache:
+             b = p.read_bytes()
+-            need(hashlib.sha256(b).hexdigest() == self.pins[key], 'Changed manifested source')
++            need(len(b) == self.sizes[key] and hashlib.sha256(b).hexdigest() == self.pins[key], 'Changed manifested source')
+             self.reads[key] = self.pins[key]
+             if p.suffix == '.gz':
+                 b = gzip.decompress(b)
+@@ -65,9 +116,11 @@
+ def main():
+     p = argparse.ArgumentParser()
+     p.add_argument('--restored', type=Path, required=True)
++    p.add_argument('--source-manifest', type=Path, required=True)
++    p.add_argument('--source-manifest-sha256', required=True)
+     p.add_argument('--output', type=Path, required=True)
+     a = p.parse_args()
+-    S = Sources(a.restored.resolve())
++    S = Sources(a.restored.resolve(), a.source_manifest.resolve(), a.source_manifest_sha256)
+     compact = S.lines('u12', 'AUDIT/U11-COMPLETE-VECTORS/COMPACT-CERTIFICATES.jsonl.gz')
+     need(len(compact) == 495, 'Final certificate population changed')
+     input_maps, raw_maps, source_records = {}, {}, {}
+@@ -172,6 +225,7 @@
+             identities.write(json.dumps({'id': key, 'bare_triple': c['original'], 'geometry_sha256': gh,
+                                           'actual_degree': d, 'certificate_sha256': hashlib.sha256(zline).hexdigest()}, separators=(',', ':')) + '\n')
+     need(len(seen) == 495 and determined == 2 * 5596 and held == 990 and reused == 2 * 3390, 'Final exact count population')
++    S.verify_unchanged()
+     result = {'status': 'PASS', 'records': 495, 'paired_determining_sites': determined // 2,
+               'paired_reused_sites': reused // 2, 'paired_positive_holdouts': held,
+               'distinct_vectors': len(vectors), 'source_inputs': S.reads,

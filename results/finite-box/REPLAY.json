@@ -1,0 +1,363 @@
+{
+  "schema": "finite-box-verification-record-v1",
+  "recorded_utc": "2026-09-13T02:26:22.853507+00:00",
+  "claim": "Every ordinary coefficient is nonnegative for balanced lambda-outer triples with outer area at most 30 and maximum trimmed length at most seven.",
+  "campaign_acceptance": {
+    "status": "ACCEPTED_AT_STATED_FINITE_SCOPE",
+    "source": {
+      "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/WHOLE-BOX-ACCEPTANCE.md",
+      "bytes": 3150,
+      "sha256": "1e291b505526027a25d2493f12eedad577f7b7fc8f86ee4d55c1dc5eab47c24f"
+    },
+    "unrestricted_KTT_or_whole_rank_above_five_proved": false,
+    "external_human_or_Epoch_acceptance_inferred": false
+  },
+  "execution_scope": {
+    "manual_exhaustive_export": "COMPLETE",
+    "fresh_full_convenience_facade_executed": false,
+    "recipient_inventory": "COMPLETE",
+    "recipient_representative_counts": "COMPLETE",
+    "scope_explanation": "The complete source-bound export was executed through its individual controllers and explicit metadata finalization. The final convenience interface was exercised for inventory and representative counts and through targeted composition/acceptance child fixtures; no full convenience-facade execution is asserted."
+  },
+  "host": {
+    "system": "Darwin",
+    "architecture": "arm64",
+    "macos": "26.6.2",
+    "python": "3.14.3",
+    "physical_memory_bytes": 25769803776,
+    "compiler_first_line": "Apple clang version 21.0.0 (clang-2100.1.1.101)"
+  },
+  "complete_numerics": {
+    "parent_result": {
+      "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/export-001/replay/composition-001/numerics-final-rung-001/B09-RESULT.json",
+      "bytes": 16166,
+      "sha256": "e07d4421c3ca7bda4f4a55ac9c41cb379227d285d0a88e6b8c0d70e7f5ade1bc"
+    },
+    "aggregate": {
+      "bytes": 754102106,
+      "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/export-001/replay/composition-001/numerics-full-003/aggregate-000001.json",
+      "sha256": "5c4bd135d99c3fdcec8bc5682ade70b0477996cfed713064ea2e414e16907820"
+    },
+    "records": 624314,
+    "physical_count_sites": 3561385,
+    "attempts_including_retries": 2257,
+    "numerical_child_seconds_including_earlier_attempts": 9078.727385000007,
+    "unresolved_streams": 0
+  },
+  "predecessor": {
+    "report": {
+      "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/export-001/replay/composition-001/upstream-003/aggregate-000001.json",
+      "bytes": 333219,
+      "sha256": "6d1435a8fbbece8da0182850abc92c421121c94014afaca2a3803edd98ca6e03"
+    },
+    "status": "F025_PREDECESSOR_REPLAY_COMPLETE_CONDITIONAL_ON_NAMED_EXTERNAL_THEOREMS",
+    "exact_steps": 82,
+    "fresh_census_ranks": [
+      6,
+      7
+    ],
+    "fresh_whole_chart_scalar_sites": 72884,
+    "retained_external_premises": [
+      "The ordinary LR/full integral hive identity, LR stretching polynomiality, and saturation.",
+      "The previously accepted rank-at-most-five coefficient theorem and the exact supplied A004 family used by the census.",
+      "The Horn inequality/factorization theorem; finite Horn index multiplicities are checked here.",
+      "The short-normal coefficient theorem, closed-chamber transfer, and BV valuation on correct saturated quotient lattices.",
+      "A single scalar product applies to an entire polytope for a given coefficient; lower-dimensional members and nonsimplicial valuations retain the source proof qualifications.",
+      "F025 alone leaves the literal residual to the later box-theorem proof. This replay does not accept the whole box theorem."
+    ]
+  },
+  "terminal_union": {
+    "report": {
+      "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/export-001/replay/composition-001/acceptance-metadata-assembly-cached-001/jobs/assembly-001/result.json",
+      "bytes": 10145512,
+      "sha256": "d786fb934447f882be425eac656b83212c0dd687b6c5fd6d07f9df593d0214bc"
+    },
+    "status": "COMPLETE_PORTABLE_BOX_TERMINAL_ACCEPTANCE",
+    "records": 624314,
+    "counts": {
+      "LEGACY": 297,
+      "U02": 169,
+      "U03": 3478,
+      "U04": 150147,
+      "U05": 154408,
+      "U06": 143401,
+      "U07": 99212,
+      "U08": 51477,
+      "U09": 18424,
+      "U10": 2806,
+      "U11": 495
+    },
+    "exact_expected_identities_once": true,
+    "bindings": {
+      "bytes": 40977257409,
+      "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/export-001/replay/composition-001/acceptance-metadata-assembly-cached-001/jobs/assembly-001/result.bindings.jsonl",
+      "sha256": "805247d82702336e9a3ae6fba26928b3f779b784e725577e610aba8841186449"
+    },
+    "execution": {
+      "receipt": {
+        "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/science/F2627-PORTABLE-METADATA-ASSEMBLY-CACHED-001/receipt.json",
+        "bytes": 635,
+        "sha256": "e5e256919b49e6f85916bbb26e19f42409a21f98c0fcf9b6e0b9db6426a41fa9"
+      },
+      "configuration": {
+        "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/science/F2627-PORTABLE-METADATA-ASSEMBLY-CACHED-001/config.json",
+        "bytes": 25353,
+        "sha256": "7e97e0dced21582d2ae7b3cb60acb478a4dd745aa0e7a93328a7a0c6ea6be3a7"
+      },
+      "elapsed_seconds": 530.2049090829678,
+      "cleanup_verified": true,
+      "source_input_bytes_unchanged": true
+    }
+  },
+  "literal_acceptance": {
+    "report": {
+      "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/export-001/replay/composition-001/u11-metadata-finalization-cached-001/jobs/acceptance-001/result.json",
+      "bytes": 14898346,
+      "sha256": "3fd674b96564bf22f73eba7b4f94e16e2756b32f6f26d774591a869b91e29978"
+    },
+    "status": "AGGREGATE_PHASE_PASS",
+    "missing_terminal_ids": [],
+    "execution": {
+      "receipt": {
+        "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/science/F2627-PORTABLE-METADATA-FINALIZE-ACCEPTANCE-001/receipt.json",
+        "bytes": 639,
+        "sha256": "c0831a8d47ca0a0afcd009584d3a71dc64b5d9f03f99e0bb2dd0eeda2cdbd1d4"
+      },
+      "configuration": {
+        "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/science/F2627-PORTABLE-METADATA-FINALIZE-ACCEPTANCE-001/config.json",
+        "bytes": 6239,
+        "sha256": "510efaa6e7811868c7fc95869394ff28b3a84eac73002793125965e7c4f6438e"
+      },
+      "elapsed_seconds": 536.0950707080774,
+      "cleanup_verified": true,
+      "source_input_bytes_unchanged": true
+    }
+  },
+  "final_composition": {
+    "report": {
+      "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/export-001/replay/composition-001/u11-metadata-finalization-cached-001/jobs/final-001/result.json",
+      "bytes": 1210495,
+      "sha256": "b063b101ff7d4955833f147389941eb9f7f3af10119afaa883b2f14ca2976606"
+    },
+    "status": "COMPLETE_LITERAL_COMPOSITION_WITH_OWNER_ACCEPTED_TERMINALS",
+    "required_terminal_count": 624314,
+    "derived_counts": {
+      "U03_keys": 479379,
+      "U03_obligations": 571407,
+      "U03_rewrite_steps": 4620322,
+      "U03_scale_1": 3936015,
+      "U04_adopted_mask_or_Horn_terminals": 34756,
+      "U04_certificates": 150147,
+      "U04_keys": 1190913,
+      "U04_numerical_target_joins": 150147,
+      "U04_obligations": 1331498,
+      "U05_certificates": 154408,
+      "U05_child_rewrite_steps": 14886,
+      "U05_keys": 1223503,
+      "U05_obligations": 1348643,
+      "U06_certificates": 143401,
+      "U06_keys": 612637,
+      "U06_obligations": 659660,
+      "U07_certificates": 99212,
+      "U07_keys": 280195,
+      "U07_obligations": 294688,
+      "U08_certificates": 51477,
+      "U08_keys": 113471,
+      "U08_obligations": 117708,
+      "U09_certificates": 18424,
+      "U09_keys": 31616,
+      "U09_obligations": 32295,
+      "U10_certificates": 2806,
+      "U10_keys": 3767,
+      "U10_obligations": 3790,
+      "U11_certificates": 495,
+      "U11_keys": 534,
+      "U11_obligations": 539,
+      "adopted_or_exact_zero_terminals": 815,
+      "early_U03_numerical_terminals": 3478,
+      "first_unit_U03": 4759,
+      "first_unit_U04": 184903,
+      "first_unit_U05": 233915,
+      "first_unit_U06": 160413,
+      "first_unit_U07": 100951,
+      "first_unit_U08": 51495,
+      "first_unit_U09": 18424,
+      "first_unit_U10": 2806,
+      "first_unit_U11": 495,
+      "horn_changed": 98276,
+      "known_family_terminals": 466,
+      "original_keys": 3936015,
+      "rank6_preimages": 1192996,
+      "rank7_preimages": 3167232
+    },
+    "literal_group_composition": {
+      "normalized_targets": 758161,
+      "original_keys": 3936015,
+      "post_Horn_targets": 470223,
+      "rank6_preimages": 1192996,
+      "rank7_preimages": 3167232
+    },
+    "source_and_database_recheck_completed": true,
+    "execution": {
+      "receipt": {
+        "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/science/F2627-PORTABLE-METADATA-FINALIZE-FINAL-001/receipt.json",
+        "bytes": 634,
+        "sha256": "70382d3a9071934fee6af60954a13af0fe0ca18c9f4440e071a4712ce2505a1a"
+      },
+      "configuration": {
+        "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/science/F2627-PORTABLE-METADATA-FINALIZE-FINAL-001/config.json",
+        "bytes": 6226,
+        "sha256": "817d0a0a69c5b412742676a06c01698524680f55b34ce58cf33dbdec07cf16a0"
+      },
+      "elapsed_seconds": 308.1427046250319,
+      "cleanup_verified": true,
+      "source_input_bytes_unchanged": true
+    }
+  },
+  "recipient": {
+    "source_copy": {
+      "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/RECIPIENT-MODULE-COPY-006.json",
+      "bytes": 34137,
+      "sha256": "39e3ce94e9ab52e0dc057e04f9709376de9e35ad13ba6aeed2449588358e87aa"
+    },
+    "inventory": {
+      "report": {
+        "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/export-001/replay/recipient-inventory-006/REPORT-000001.json",
+        "bytes": 681,
+        "sha256": "665f9b08292b489f89efa17ded51a96666e08fc8d6083d939d4ed709f82c0aae"
+      },
+      "scope": "Declared data-file presence and sizes plus metadata/source hash closure; no mathematical count.",
+      "execution": {
+        "receipt": {
+          "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/science/F2627-PORTABLE-RECIPIENT-INVENTORY-006/receipt.json",
+          "bytes": 619,
+          "sha256": "e7bd8268d1626a9e76f05797ed2091acc06ba2187131990c62d154885ea9ee09"
+        },
+        "configuration": {
+          "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/science/F2627-PORTABLE-RECIPIENT-INVENTORY-006/config.json",
+          "bytes": 3954,
+          "sha256": "04158e8d262908b36c4b4ec5464e7e4ca12e298746ef5bd41994876e640ecd0d"
+        },
+        "elapsed_seconds": 2.085725124925375,
+        "cleanup_verified": true,
+        "source_input_bytes_unchanged": true
+      }
+    },
+    "representative": {
+      "report": {
+        "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/export-001/replay/recipient-sample-006/REPORT-000001.json",
+        "bytes": 2574,
+        "sha256": "ae9aec5f1db9c87884fc942448b04e475b6d126a646994e200c8fb7bbcda5771"
+      },
+      "scope": "Selected fresh count evidence only; no exhaustive coverage or terminal acceptance.",
+      "completed_stages": [
+        "numerics-prepare",
+        "numerics-run",
+        "numerics-aggregate"
+      ],
+      "execution": {
+        "receipt": {
+          "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/science/F2627-PORTABLE-RECIPIENT-SAMPLE-006/receipt.json",
+          "bytes": 1145,
+          "sha256": "6ab05a35dfb2eeece02f1d650a19ca382ed99131be7390fc30396af6c0ef884c"
+        },
+        "configuration": {
+          "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/science/F2627-PORTABLE-RECIPIENT-SAMPLE-006/config.json",
+          "bytes": 3977,
+          "sha256": "aeadfd4b91e0a96fc165379e2d33b08e107ae1822d2e17df841cfa6691689880"
+        },
+        "elapsed_seconds": 134.38154025003314,
+        "cleanup_verified": true,
+        "source_input_bytes_unchanged": true
+      }
+    },
+    "extraction": {
+      "receipt": {
+        "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/export-001/replay/extracted-data-001.EXTRACTION.json",
+        "bytes": 1829575,
+        "sha256": "1f4bc4c3fa55e761b6e37e4bd56bb9b2d9d2b6cffac8351358fa9d21a0710b78"
+      },
+      "execution": {
+        "receipt": {
+          "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/science/F2627-PORTABLE-RECIPIENT-EXTRACT-001/receipt.json",
+          "bytes": 616,
+          "sha256": "22450a032a4d1ccd747790bc0299e132a9d00272e57335e718ebd8134f0c8ef8"
+        },
+        "configuration": {
+          "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/science/F2627-PORTABLE-RECIPIENT-EXTRACT-001/config.json",
+          "bytes": 3004,
+          "sha256": "3b4e2c7361da5c1f50b03121f459c388ecd718866b0010942d3c2092d1e0a2f8"
+        },
+        "elapsed_seconds": 25.5547288749367,
+        "cleanup_verified": true,
+        "source_input_bytes_unchanged": true
+      }
+    },
+    "configuration_after_reporting": {
+      "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/results/finite-box/REPRODUCTION-CONFIG.json",
+      "bytes": 2555,
+      "sha256": "8623f4aa52cf6a2a979de99e5c293d96d01f57d6b9baaea85ab53e57ada185cb"
+    },
+    "configuration_before_reporting": {
+      "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/results/finite-box/REPRODUCTION-CONFIG.json",
+      "bytes": 2355,
+      "sha256": "093c002b06738105f87f1056fc6dc633c1d54a52d06826fa931f56dd33e72e15"
+    },
+    "configuration_change": "Only the sample calibration label and its explanatory basis changed after the successful run; the exact tested copy remains unchanged. All allocations, commands, source pins, job limits and call limits are the tested values."
+  },
+  "operational_repairs": {
+    "original_attempts_preserved": true,
+    "description": [
+      "The U11 compact identity reader uses group_id and rejects conflicting aliases. Only the 495 U11 records required revalidation; 623819 earlier terminal acceptances retain their original source and execution identities.",
+      "Metadata assembly and finalization have explicit 600-second internal and 660-second child limits, separate from the original scientific limits.",
+      "Operation-local caches remove repeated evidence-path filesystem work while preserving each reference comparison and the original final source checks.",
+      "Explicit invocation adapters retain original core bytes, actual producer/source identities, exact Python/compiler admission and every mathematical completeness predicate."
+    ],
+    "actual_export_sources": [
+      {
+        "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/export-001/replay/composition-001/u11-acceptance-repair-002/acceptance_repair.py",
+        "bytes": 1269,
+        "sha256": "86fa1de1fe373b8e9a39fff3dfa3a85a0bc40c66dbf5b0b7c4743d84f45b804f"
+      },
+      {
+        "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/export-001/replay/composition-001/u11-acceptance-repair-002/repair_support.py",
+        "bytes": 13334,
+        "sha256": "f148edacff98384daa021086299ef7562ac80875ec1156fb8a730d4d2673fefb"
+      },
+      {
+        "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/export-001/replay/composition-001/u11-acceptance-repair-002/metadata_assembly_cached.py",
+        "bytes": 11372,
+        "sha256": "96bf3a88ad188c6a369400bae9c33b36eb1a10db4bcec2ee78c0be804a4cd248"
+      },
+      {
+        "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/export-001/replay/composition-001/u11-acceptance-repair-002/metadata_caches.py",
+        "bytes": 2511,
+        "sha256": "5eafc90bfdc7cc454ce88f29c97c12c6a389bfd603155fec2ef469ed01c56bf6"
+      },
+      {
+        "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/export-001/replay/composition-001/u11-acceptance-repair-002/metadata_supervisor.py",
+        "bytes": 1808,
+        "sha256": "c8d709d3daacc732b6747a0cad658c2bcfb37d626ed9e93639187a0c7a23f9b0"
+      },
+      {
+        "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/export-001/replay/composition-001/u11-acceptance-repair-002/finalization_cached.py",
+        "bytes": 15866,
+        "sha256": "0c824572745cdfb89e5671b0dc94c2f7920fce49d87141b766fda1120d010f4d"
+      }
+    ],
+    "recipient_targeted_fixtures": {
+      "entrypoint": 17,
+      "composition_acceptance_and_launchers": 36,
+      "cached_finalizer": 7
+    }
+  },
+  "resource_guidance": {
+    "minimum_free_disk_bytes": 150000000000,
+    "scientific_child_process_seconds": 120,
+    "metadata_internal_seconds": 600,
+    "metadata_child_process_seconds": 660,
+    "metadata_launcher_seconds": 900,
+    "scientific_children_serial": true
+  },
+  "artifact_reference_policy": "Absolute paths identify retained campaign execution evidence and are provenance labels, not runtime prerequisites. Fresh replay uses the distributed code/proofs and ten indexed data assets, together with the stated Python/compiler and cited theorem prerequisites. Historical internal execution journals are retained by the campaign; they are not imported by the recipient interface."
+}

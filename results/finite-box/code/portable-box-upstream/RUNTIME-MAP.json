@@ -1,0 +1,236 @@
+{
+  "files": [
+    {
+      "bytes": 7889,
+      "change": "none; import-safe mathematical module",
+      "original": "originals/slr_ehrhart/horn.py",
+      "original_sha256": "320223d1a74cfe6bc8f501ba4a447d4a4e28a4343d0b6091cd8a488dec09875e",
+      "path": "runtime/slr_ehrhart/horn.py",
+      "sha256": "320223d1a74cfe6bc8f501ba4a447d4a4e28a4343d0b6091cd8a488dec09875e"
+    },
+    {
+      "argument": "a",
+      "bytes": 7294,
+      "change": "Argument parsing removed; the unchanged entry body accepts one explicit namespace",
+      "entry_body_ast_sha256": "7506479f9bdcbe3f595b92d25fbf69e59600f818433187f4cb0686f261c81e4e",
+      "original": "originals/verification/box/apply_global_cover_v1.py",
+      "original_sha256": "e416dc73aca77877bf733dd3919a9b92f3f60a0dd51b24fd34dbe5e92d332be1",
+      "path": "runtime/verification/box/apply_global_cover_v1.py",
+      "sha256": "ab81c1c4a641f02d39efc4a25536700f7857631cb5dfea70c7bc81425701e04a",
+      "unchanged_helper_ast_sha256": {}
+    },
+    {
+      "argument": "a",
+      "bytes": 6210,
+      "change": "Argument parsing removed; the unchanged entry body accepts one explicit namespace",
+      "entry_body_ast_sha256": "d961c5b487eeaedbbfc42bcec470582f89c2317c931b0710c6c6126153668299",
+      "original": "originals/verification/box/bind_metric_masks_v1.py",
+      "original_sha256": "deaa75e534e81d83e52afacdf2842a5faf9c0a83a252bf25e1bdb25bada85a5c",
+      "path": "runtime/verification/box/bind_metric_masks_v1.py",
+      "sha256": "52e842843fb0655a78df57df81a6e282973f35328587ecc1f1817e651613316a",
+      "unchanged_helper_ast_sha256": {
+        "coordinate_permutation": "3b24e1183fdb9db8e0e8ae8aa67eb837653dffbace999c778538320135967671",
+        "normals_for": "586607523807588440324e551bf1092b3f438cc46e595dd2aa4385ce37229b1c",
+        "word_image": "ace888f6959841796fc62f4332645e25d36a3d9400602cb76e4934991d0612af"
+      }
+    },
+    {
+      "argument": "a",
+      "bytes": 4092,
+      "change": "Argument parsing removed; the unchanged entry body accepts one explicit namespace",
+      "entry_body_ast_sha256": "fbec8358a062cf82e4558a96e2dd10967f495eef059c77d5d10d565e715d61e2",
+      "original": "originals/verification/box/fit_quartics_v1.py",
+      "original_sha256": "a0789d02ae3c3d19b5c7ab6f63f257451a1650452e552fc6182a765e2bcaaad4",
+      "path": "runtime/verification/box/fit_quartics_v1.py",
+      "sha256": "1156ceafe61116b0cc2a8eb7a87e4bd95f2a12dffd5a7c18c630687012eced97",
+      "unchanged_helper_ast_sha256": {
+        "polynomial": "5ada4d974038614b93da6a4daafe967c510605c0a52c9242341393e181edeea8"
+      }
+    },
+    {
+      "argument": "a",
+      "bytes": 2416,
+      "change": "Argument parsing removed; the unchanged entry body accepts one explicit namespace",
+      "entry_body_ast_sha256": "67b9cc5357e8bb1e0cea44ea96982896419d13f862a093a1e0ebe0708dd33414",
+      "original": "originals/verification/box/fit_small_v1.py",
+      "original_sha256": "5d8b6bbcb341c9cf0b27c72a3a7d4544c332d0cdf4629f20f55a3a72d62a17a7",
+      "path": "runtime/verification/box/fit_small_v1.py",
+      "sha256": "35211a2e355489314fd9bb6da4f48ddafeac5532e2b788dd03024449f5142627",
+      "unchanged_helper_ast_sha256": {
+        "interpolate": "0a701b279d644bac483889ee58cac75649d2da12a4c6bc1509c829d8a60e05f8"
+      }
+    },
+    {
+      "bytes": 7657,
+      "change": "none; import-safe mathematical module",
+      "original": "originals/verification/box/mask_model_v1.py",
+      "original_sha256": "d9cd67e39026b6f803ddc1d29af5fba9cf49b4206ca0116863544d41087dff61",
+      "path": "runtime/verification/box/mask_model_v1.py",
+      "sha256": "d9cd67e39026b6f803ddc1d29af5fba9cf49b4206ca0116863544d41087dff61"
+    },
+    {
+      "argument": "a",
+      "bytes": 6508,
+      "change": "Argument parsing removed; the unchanged entry body accepts one explicit namespace",
+      "entry_body_ast_sha256": "cecb34cd2e6b16a8e971b706fd645118051a326eb14264dbd6345440abb89c4f",
+      "original": "originals/verification/box/prepare_box_inputs_v1.py",
+      "original_sha256": "3301f6c95b00bd4267179bbf18dbeb3f117f37ccf3460378d04892cd1e4146d5",
+      "path": "runtime/verification/box/prepare_box_inputs_v1.py",
+      "sha256": "1d8189480e5a31601e83aade1208b62923632c4122e76fb00a50cc9e533ba171",
+      "unchanged_helper_ast_sha256": {
+        "part_counts": "7525fcfade01b057a0460008fd14812cc5cd623460fa1beae8cb584d18a451f8",
+        "verify_cover": "2ffac8346c53b450f26dbcb95d534b3038ff763347130290596520d2d3477fb9"
+      }
+    },
+    {
+      "argument": "a",
+      "bytes": 5706,
+      "change": "Argument parsing removed; the unchanged entry body accepts one explicit namespace",
+      "entry_body_ast_sha256": "0de7df98e760c7d6007492fe5b0cbfe54108da8e77750ea46a778a6e2892ab97",
+      "original": "originals/verification/box/prepare_quartic_charts_v1.py",
+      "original_sha256": "c2fbfd36c62640108aae90c9424236ebd09158e8957ac5eafc4b9669936250d1",
+      "path": "runtime/verification/box/prepare_quartic_charts_v1.py",
+      "sha256": "100e8da0dd36573e1404af61e932c838d9f6f645ce87c845b76ac85793f861b8",
+      "unchanged_helper_ast_sha256": {
+        "compact": "f15a2b32047b7f4028c9b412b5fb086758da1a952d7bc1e117727167aab7521b",
+        "variants": "70310168f44e8c54ffe70a57ed31e0f2063bd2419d271c44aeab1947667f042e"
+      }
+    },
+    {
+      "argument": "a",
+      "bytes": 2957,
+      "change": "Argument parsing removed; the unchanged entry body accepts one explicit namespace",
+      "entry_body_ast_sha256": "5640cfd478eace432cdbd8480b92cbf5d76bc000cd781f5817282147a5705bb5",
+      "original": "originals/verification/box/prepare_small_charts_v1.py",
+      "original_sha256": "177b5e89f33b67a6345896863689d705c8e9ec884805a7656c4807fdb63bd5ad",
+      "path": "runtime/verification/box/prepare_small_charts_v1.py",
+      "sha256": "a9fd1ef9626745eef9e0299ff7224b6f0b5cc0033aecdfe402c41254669ce417",
+      "unchanged_helper_ast_sha256": {}
+    },
+    {
+      "argument": "a",
+      "bytes": 4134,
+      "change": "Argument parsing removed; the unchanged entry body accepts one explicit namespace",
+      "entry_body_ast_sha256": "1910fda8174d138fd3edc9559952c37a5fbd1add0e05a6531c672c8f763f50ab",
+      "original": "originals/verification/box/reconcile_quartics_v1.py",
+      "original_sha256": "b048088cc9adf25ea0633c58996b7f5480a2099e4e108c345d0fe2bfac929893",
+      "path": "runtime/verification/box/reconcile_quartics_v1.py",
+      "sha256": "1dc8b2d0f040cb884e24be4f2e1491f3fdbe6391fce341334e07a382fc44d9b7",
+      "unchanged_helper_ast_sha256": {}
+    },
+    {
+      "argument": "a",
+      "bytes": 2778,
+      "change": "Argument parsing removed; the unchanged entry body accepts one explicit namespace",
+      "entry_body_ast_sha256": "74147b5532639efc2dc0baf82693e0f2bce6a24c8c567fd22ef63870937b80c3",
+      "original": "originals/verification/box/reconcile_small_v1.py",
+      "original_sha256": "822d13e8c8930b119932b5824ff09b4404d7ff1e2bc7b8d70ae2a58d6a5cd792",
+      "path": "runtime/verification/box/reconcile_small_v1.py",
+      "sha256": "f84595d4253bea3544078239e3e565ac7062ae855dfec25c2d049c366b3df7fc",
+      "unchanged_helper_ast_sha256": {
+        "key": "bf469cbfdc0c6a1a6842cbeedd307895d14f929f92f15298bbd593bbca6f139b"
+      }
+    },
+    {
+      "argument": "a",
+      "bytes": 2857,
+      "change": "Argument parsing removed; the unchanged entry body accepts one explicit namespace",
+      "entry_body_ast_sha256": "54ed79ddc260110c34bfbf9c2584a6b65f9d140c5c7464feb1b373a5f82de47c",
+      "original": "originals/verification/box/verify_masks_v1.py",
+      "original_sha256": "a091e298227bbc4b5fa5412573e965131ec455d61c6242940e87f98eafb45325",
+      "path": "runtime/verification/box/verify_masks_v1.py",
+      "sha256": "9baf36ebea119acf0ecc53c266c543e3295de5f2801c115e791fea1d4660f602",
+      "unchanged_helper_ast_sha256": {}
+    },
+    {
+      "argument": "args",
+      "bytes": 45874,
+      "change": "Argument parsing removed; the unchanged entry body accepts one explicit namespace",
+      "entry_body_ast_sha256": "bfb79d14174077018ce96da01b7c8f104a6c604e9336347f97f77302664512f9",
+      "original": "originals/verification/local-cones/check_local_cones.py",
+      "original_sha256": "2c848f328730f9dce58d9d05aa9976af298cd63076016c6656409a489949eef0",
+      "path": "runtime/verification/local-cones/check_local_cones.py",
+      "sha256": "cc54bf422e70eeea0bd60635c9b528571824a11bdbe0a2a36e5e3712bb070fda",
+      "unchanged_helper_ast_sha256": {
+        "atlas_id": "02352e390d72bac4dc00850abfb6b43fb3b062892a339f06218841ee39b148ff",
+        "bezout": "52d697a301f823cd17d64a84e257b6acaf42706339f506b45d22308f479d366b",
+        "cone_constant": "9fc2af23ecccc775c2ceef5dc709e27eb73f3fbefbdf1b68b855699153333e89",
+        "cone_geometry": "be33fc08d11373c6d8e1c5b4ddcb8308f0fc9e625f5f43139f9d520667b75460",
+        "coordinates": "06eff35d6332af098619fbd00689b3d67fbae34a7532e39ef6587becc3078237",
+        "decode": "3229a1a344db9be7efa9b79332a444e7e7701fcd8137716de785eac656a6a079",
+        "dedekind": "53593e6decd5fe7e71f016bc6668f7145783d24e9ef63a5d41960f236e2642c0",
+        "det": "b15ae5187d94809abe446fe8f55b59c471035677453162600ec5e00276f6994d",
+        "digest_file": "6e67f307fcd577cc64790c47ab8fff6d67080234d547f43336611d84dc32ded2",
+        "dot": "ecfd8dd2cbcd5077fb30dd342df2f284fe847c35b86079b14798de4e51d72812",
+        "edge_quotient": "3aca6f6c19abdf74202bfc6aeeb4dc4cce58a35a2b4accbd366f028289ca9c81",
+        "exact_integers": "9fec6b780d04aa5e5425dda2cf736fe688c83f79dfc957c0eac524b02e329ee8",
+        "eye": "4e75d04f7045d5dd1e748335242620ee75fe5a15cdded4a19ab233b16e2fc67a",
+        "generic_cone_values": "e47f359856602164755a521956f9ff0a3c322328e0c8520c692eb91534efe003",
+        "hidden_cubic": "96265c4c894802bdc35136f0575eec0efdb20d5e51be5370290f59d121d7b8a1",
+        "imat": "9623f767791617806a329b3639f3e0e6ee387d5fb0beac440f444cf8c5f34b4f",
+        "index": "9df03e93cfd08304f72e74e1daad5c429f2a1bb319be39014d251309fee15854",
+        "integer": "7eff89611f05eef0e79caeaed34c807914b15d73f802b7bc85c075debddc09ba",
+        "inverse": "b8cc63ae376bbc59eb4d117e34f8417ce2de097b827afed6ff2fa7fd10fb26a0",
+        "ivec": "7019ce3f715703fb5f2fa127506489901a87d0030e36dacb8d096cd7e2ebdd2d",
+        "kernel_basis": "5ea4de88007eec0ab812e583b2a307aa698214c0f0c228e14d4ba8e2704fb7b0",
+        "laurent_coefficient": "2f8da3167528f062548b1d5772907de1d391f559599688138ef07474fc22d125",
+        "load_inputs": "d6917217af6e5727c7c20e6c532676ca224bc2fb82d21b5b4f517ad241125d78",
+        "load_type_certificate": "2e1d02d5c7506f06cd821001ee435f7e25801192e2e566a3b8a738439eaa4197",
+        "metric_dot": "efd94f5f6a53f46819e39c6ad49e230708b0424e5509e37d068d6391396a44db",
+        "metric_gram": "368a8cdd1f342010c979b1f577d977aa1ab8bd9083d656969d01fb520e632b0f",
+        "metric_value": "32bcf2f33cd47a1ecb7b018a6db1f1a7fe10c8d47908904c158903cf63bbb4b5",
+        "multiply": "46c1779d02d74ed11f3a6a1216c5895616485b909e1a5a06b16d0329fa9b6ffd",
+        "need": "4c578a2b5b4540506811974148be887136119c778bf5eee9459478dc3a26b754",
+        "no_duplicate_keys": "ff8ffa1608b1dfb5c19d17ab7b86817dce9d1d434fcb78f32b14fedc79eb238a",
+        "normal_list": "c23e5e8d15a08a14887667ab71c22234b59c2e37343f597c31fc6f60d0aed6ba",
+        "pair_tangent": "210015e03695ada043f363b25eb2104f0a1bd5a9b057dad0706505436c52ca98",
+        "parallelepiped": "06a8c1e4877f8a1106d323d0f850110b173d437c61f86865b2e8fcbf8aba2e48",
+        "primitive": "4be57d6a2886a0cdacf0ca1ead7c7cad5ee9423e0602609f4d9fb746a1c699ff",
+        "primitive_dual_rays": "7461920fc9a7a506b64ecbb4ec46bd349cc4e278d32328d16ae4a1dbec392fea",
+        "primitive_row_reduction": "acbdc7912a92f61d8593fbe7e7541a5894340c90c929aec0f32f21666460427b",
+        "rational": "4c61e1d2202ebfc1996a8b944ed2d1931ea053cc126f65fa5647754c2866ee43",
+        "read_bound": "9fec82e89733823180357432b1eaaa2d4b8936b9163c7a80474ea2430418e811",
+        "reject_constant": "f441e987ac94c40dfc87ba3e55ede508b7755700615617c9355ebbe7795af4e0",
+        "signature": "5ccfeb0f6e1472ae4dfe3d227fad2995dec8fb99314c8e3420751e75651b0c24",
+        "transpose": "2b0039ca0b699edf6dd73880b2415f899bdd722cb6700634f9e7526286376961",
+        "verify_aggregate": "a906589117b809cc466b4f9e265627357d1f8a4cec17f3bc5e2f239d7302d4c4",
+        "verify_explicit_triples": "9d34500533bdafa4a79063624ebcbad89d3fa72577ccdb53df608dbb82ca2dc3",
+        "verify_metric_record": "816366ef3999820a86fecaaf5d99efadffde8c2f2f1546f54871120ebac1b822",
+        "verify_metrics": "88cb63335e32492287c9a7f55bb0d93c6e560ed273ab5225692c1560e5d7f581",
+        "verify_type": "444321ea52bd6bada60562fe95b39cf0d057b15d12dfca3b400e55f729546937",
+        "verify_types": "ee5e9fb3c75b2855f778a1fd4b142e9668d56b797f36223b5ad4b451bc034a82",
+        "weighted_gram_value": "fcf42e769f44fbfe4281cc4d5f2d6f82c39785dd29074768c5eeb2fb07e1e090"
+      }
+    },
+    {
+      "bytes": 17390,
+      "change": "none; import-safe mathematical module",
+      "original": "originals/slr_ehrhart/hive.py",
+      "original_sha256": "8797f8e2662fd9ba9b4f7e0b9e29d7831e96f4a0d15e86841b348278e588392a",
+      "path": "runtime/slr_ehrhart/hive.py",
+      "sha256": "8797f8e2662fd9ba9b4f7e0b9e29d7831e96f4a0d15e86841b348278e588392a"
+    },
+    {
+      "argument": "a",
+      "bytes": 4523,
+      "change": "Argument parsing removed; the unchanged entry body accepts one explicit namespace",
+      "entry_body_ast_sha256": "1f7c214bae1064f65d15f04336da413775644094b86c18adeb9618d59bc9e6b3",
+      "original": "originals/verification/check_r3_corrections_v1.py",
+      "original_sha256": "7c4451bb282f63fb0ccdc05e2f24e79b0435293a0e633c90892b6e8a3f9880c7",
+      "path": "runtime/verification/check_r3_corrections_v1.py",
+      "sha256": "58804bb79402c6dda807fd35d22c7023a3116d8e39584aef707bda040f943144",
+      "unchanged_helper_ast_sha256": {
+        "H": "505fa279d8bfdebff9e62583b6952487ad58207b8798d4da1b42ce9d9ba76e01",
+        "key": "641ee579518aae1698a0544f5ed934f04d4d777b095b2e37b4c19e0e3df3e0ed",
+        "sha": "0325a83f77e8cf5d3bf1ac84063e139ba39d503f5921fbeddf09d3c2cd2e7ab1"
+      }
+    },
+    {
+      "bytes": 80,
+      "change": "New empty namespace; no historical package initializer copied or executed",
+      "path": "runtime/slr_ehrhart/__init__.py",
+      "sha256": "9f42354592809c904e6d1cc065349a14c408dd2b367f3225b914c98265c83d00"
+    }
+  ],
+  "schema": "portable-f025-runtime-v1"
+}

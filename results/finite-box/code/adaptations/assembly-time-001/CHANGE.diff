@@ -1,0 +1,11 @@
+--- reproduce.before.py
++++ reproduce.py
+@@ -224,7 +224,7 @@
+                         "--composition-root",str(r["composition"]),"--components-root",str(r["components"]),"--numerics-root",str(r["numerics"]),
+                         "--requirements",self.done["composition-run"]["requirements"]["path"],"--component-reports",
+                         *[self.done[c+"-aggregate"]["result"]["path"] for c in COMPONENTS],"--numerical-reports",self.done["numerics-aggregate"]["result"]["path"]]
+-        cmd += ["--id",identity,"--seconds","100"]
++        cmd += ["--id",identity,"--seconds","600" if k=="acceptance-assemble" else "100"]
+         if k=="acceptance-verify":return cmd+["--unit",task["unit"],"--start",str(task["start"]),"--stop",str(task["stop"])]
+         need(k=="acceptance-assemble","Unknown frozen stage")
+         return cmd+["--parts",*[v["result"]["path"] for key,v in self.done.items() if key.startswith("accept-")]]

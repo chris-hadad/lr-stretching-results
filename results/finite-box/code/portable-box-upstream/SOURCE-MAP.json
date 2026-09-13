@@ -1,0 +1,119 @@
+{
+  "copies": [
+    {
+      "bytes": 7889,
+      "path": "originals/slr_ehrhart/horn.py",
+      "sha256": "320223d1a74cfe6bc8f501ba4a447d4a4e28a4343d0b6091cd8a488dec09875e",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/finite-box/checkers/upstream/slr_ehrhart/horn.py"
+    },
+    {
+      "bytes": 6006,
+      "path": "originals/verification/box/apply_global_cover_v1.py",
+      "sha256": "e416dc73aca77877bf733dd3919a9b92f3f60a0dd51b24fd34dbe5e92d332be1",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/finite-box/checkers/upstream/verification/box/apply_global_cover_v1.py"
+    },
+    {
+      "bytes": 5640,
+      "path": "originals/verification/box/bind_metric_masks_v1.py",
+      "sha256": "deaa75e534e81d83e52afacdf2842a5faf9c0a83a252bf25e1bdb25bada85a5c",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/finite-box/checkers/upstream/verification/box/bind_metric_masks_v1.py"
+    },
+    {
+      "bytes": 3782,
+      "path": "originals/verification/box/fit_quartics_v1.py",
+      "sha256": "a0789d02ae3c3d19b5c7ab6f63f257451a1650452e552fc6182a765e2bcaaad4",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/finite-box/checkers/upstream/verification/box/fit_quartics_v1.py"
+    },
+    {
+      "bytes": 2017,
+      "path": "originals/verification/box/fit_small_v1.py",
+      "sha256": "5d8b6bbcb341c9cf0b27c72a3a7d4544c332d0cdf4629f20f55a3a72d62a17a7",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/finite-box/checkers/upstream/verification/box/fit_small_v1.py"
+    },
+    {
+      "bytes": 7657,
+      "path": "originals/verification/box/mask_model_v1.py",
+      "sha256": "d9cd67e39026b6f803ddc1d29af5fba9cf49b4206ca0116863544d41087dff61",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/finite-box/checkers/upstream/verification/box/mask_model_v1.py"
+    },
+    {
+      "bytes": 5722,
+      "path": "originals/verification/box/prepare_box_inputs_v1.py",
+      "sha256": "3301f6c95b00bd4267179bbf18dbeb3f117f37ccf3460378d04892cd1e4146d5",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/finite-box/checkers/upstream/verification/box/prepare_box_inputs_v1.py"
+    },
+    {
+      "bytes": 5286,
+      "path": "originals/verification/box/prepare_quartic_charts_v1.py",
+      "sha256": "c2fbfd36c62640108aae90c9424236ebd09158e8957ac5eafc4b9669936250d1",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/finite-box/checkers/upstream/verification/box/prepare_quartic_charts_v1.py"
+    },
+    {
+      "bytes": 2576,
+      "path": "originals/verification/box/prepare_small_charts_v1.py",
+      "sha256": "177b5e89f33b67a6345896863689d705c8e9ec884805a7656c4807fdb63bd5ad",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/finite-box/checkers/upstream/verification/box/prepare_small_charts_v1.py"
+    },
+    {
+      "bytes": 3800,
+      "path": "originals/verification/box/reconcile_quartics_v1.py",
+      "sha256": "b048088cc9adf25ea0633c58996b7f5480a2099e4e108c345d0fe2bfac929893",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/finite-box/checkers/upstream/verification/box/reconcile_quartics_v1.py"
+    },
+    {
+      "bytes": 2561,
+      "path": "originals/verification/box/reconcile_small_v1.py",
+      "sha256": "822d13e8c8930b119932b5824ff09b4404d7ff1e2bc7b8d70ae2a58d6a5cd792",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/finite-box/checkers/upstream/verification/box/reconcile_small_v1.py"
+    },
+    {
+      "bytes": 2820,
+      "path": "originals/verification/box/verify_masks_v1.py",
+      "sha256": "a091e298227bbc4b5fa5412573e965131ec455d61c6242940e87f98eafb45325",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/finite-box/checkers/upstream/verification/box/verify_masks_v1.py"
+    },
+    {
+      "bytes": 35401,
+      "path": "originals/verification/census/original_box_census_v1.cpp",
+      "sha256": "9cedcadd29425973f04d00eeeb4fd38f0b43c0199c8b5e19959ebbc35a83af9a",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/finite-box/checkers/upstream/verification/census/original_box_census_v1.cpp"
+    },
+    {
+      "bytes": 26591,
+      "path": "originals/verification/chart-counter/chart_counter_v3.cpp",
+      "sha256": "9a3efbb919ede15d890793b4984345b215f227335d09190106ad8ccf024c7ad7",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/finite-box/checkers/upstream/verification/chart-counter/chart_counter_v3.cpp"
+    },
+    {
+      "bytes": 48065,
+      "path": "originals/verification/local-cones/check_local_cones.py",
+      "sha256": "2c848f328730f9dce58d9d05aa9976af298cd63076016c6656409a489949eef0",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/finite-box/checkers/upstream/verification/local-cones/check_local_cones.py"
+    },
+    {
+      "bytes": 29426,
+      "path": "originals/verification/maps/verify_maps.cpp",
+      "sha256": "4ba06a0c2b3a198d0242ac8d939213ba4719cdaf2b13163599cdc7d55eebed78",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/finite-box/checkers/upstream/verification/maps/verify_maps.cpp"
+    },
+    {
+      "bytes": 17390,
+      "path": "originals/slr_ehrhart/hive.py",
+      "sha256": "8797f8e2662fd9ba9b4f7e0b9e29d7831e96f4a0d15e86841b348278e588392a",
+      "source_path": "/Volumes/SLR-Research/stretched-lr-research/code/ehrhart/src/slr_ehrhart/hive.py"
+    },
+    {
+      "bytes": 4212,
+      "path": "originals/verification/check_r3_corrections_v1.py",
+      "sha256": "7c4451bb282f63fb0ccdc05e2f24e79b0435293a0e633c90892b6e8a3f9880c7",
+      "source_path": "/Volumes/SLR-Research/stretched-lr-research/methods/frontier-025-2026-09-10/verification/check_r3_corrections_v1.py"
+    },
+    {
+      "bytes": 27738,
+      "path": "originals/portable_run.py",
+      "sha256": "de2ae53528ea1819a5e8a41d5d4f5f811b377ce6155b40f2dc1e776485d2f2a7",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/portable-box-code/portable_run.py"
+    }
+  ],
+  "schema": "portable-f025-originals-v1"
+}

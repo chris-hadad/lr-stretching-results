@@ -1,0 +1,47 @@
+{
+  "schema": "FRD-geometry-source/v1",
+  "files": [
+    {
+      "chamber_id": "04b974e74c9d1358",
+      "repository": "/Volumes/SLR-Research/slr-lab",
+      "ref": "5763f356748ea5f2813b288e680d288c81537ae4",
+      "path": "sessions/2026-09-03-S1960-phase1-d/computations/r6-mp200-rng36-seed-0.json",
+      "sha256": "3fefe94b4b1b16e6e967294740e857f06b9d3fad11735b6de952c30c8f19bbf7",
+      "source_reported_vertices": 48,
+      "source_reported_active_support": 3,
+      "claim_status": "SOURCE; successor must independently verify geometry and domain",
+      "copy": "frozen/record-04b974e74c9d1358.json",
+      "bytes": 4361830
+    },
+    {
+      "chamber_id": "b54e0912e4e93806",
+      "repository": "/Volumes/SLR-Research/slr-lab",
+      "ref": "5763f356748ea5f2813b288e680d288c81537ae4",
+      "path": "sessions/2026-09-03-S1960-phase1-d/computations/r6-mp200-rng36-seed-9.json",
+      "sha256": "313d5e50f5a339cec27143654cfb87fa7cc5a8573a74774925a4028ea22ba247",
+      "source_reported_vertices": 32,
+      "source_reported_active_support": 2,
+      "claim_status": "SOURCE; successor must independently verify geometry and domain",
+      "copy": "frozen/record-b54e0912e4e93806.json",
+      "bytes": 4311546
+    },
+    {
+      "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRC/native/frozen/campaign/code/ehrhart/src/slr_ehrhart/hive.py",
+      "copy": "frozen/hive.py",
+      "sha256": "8797f8e2662fd9ba9b4f7e0b9e29d7831e96f4a0d15e86841b348278e588392a",
+      "bytes": 17390
+    },
+    {
+      "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRC/native/revision-003/adapter.py",
+      "copy": "runtime/adapter.py",
+      "sha256": "c8dda8cc048ede4b4f989a53f6609372eeb8d766d0bfaa085145430efd3683d4",
+      "bytes": 4478
+    },
+    {
+      "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRC/native/revision-003/canonical_contained.py",
+      "copy": "runtime/canonical_contained.py",
+      "sha256": "265a22c5b5067ffee2bd4cb9efde595c2f4bb5df63123054180edf3684c7cbfd",
+      "bytes": 16671
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+--- portable-box-acceptance.before.py
++++ portable-box-acceptance.py
+@@ -123,6 +123,11 @@
+         out.append(p)
+     need(sum(out[0])==sum(out[1])+sum(out[2]),"Unbalanced entire triple");return out
+ def record_id(z):return integer(z.get("group_id",z.get("target_ordinal",z.get("id"))))
++def u11_record_id(row):
++    values=[integer(row[key]) for key in ("group_id","target_ordinal","id") if key in row]
++    need(values and all(value==values[0] for value in values),"Missing or conflicting U11 identity fields")
++    return record_id(row)
++
+ def insert(table,key,value):
+     need(key not in table,"Duplicate exact identity: "+str(key));table[key]=value
+ def option(words,flag,many=False):
+@@ -812,7 +817,7 @@
+     compacts=raw_compacts(g,unit,wanted);bridge={}
+     if unit=="U11":
+         # Even a requested U11 slice binds the complete 495-row bridge.
+-        all_ids={integer(r["id"]) for _,r,_ in g.lines(g.source("namespaces/u11/DATA/U11/"+COMPACT[unit])["path"])}
++        all_ids={u11_record_id(r) for _,r,_ in g.lines(g.source("namespaces/u11/DATA/U11/"+COMPACT[unit])["path"])}
+         original=raw_compacts(g,unit,all_ids);audited=raw_compacts(g,unit,all_ids,True)
+         for idx in all_ids:
+             a,b=original[idx],audited[idx];need(a[0]==b[0],"U11/U12 order changed")
+@@ -1112,12 +1117,35 @@
+     return z,evidence(g.pin(path),ep,rp),outputs
+ 
+ 
++def register_assembly_compiler(g):
++    expected_recipe=g.pin(Path(g.recipe["numerics_root"])/"RECIPE.json")
++    recipes=[]
++    for declared in g.recipe["numerical_reports"]:
++        g.bound(declared);meta={}
++        for _ in array_records(declared["path"],"exact_source_and_node_roster",meta):pass
++        need(meta["schema"]=="portable-box-numerics-v1" and meta["kind"]=="global_count_evidence" and
++             meta["mode"]=="full" and meta["status"]=="FULL_LITERAL_COUNT_EVIDENCE_COMPLETE_PENDING_MATHEMATICAL_JOINS",
++             "Assembly compiler requires the frozen full numerical report")
++        need(g.bound(meta["recipe"])==expected_recipe,"Numerical report names another recipe")
++        recipe=g.read(expected_recipe["path"])
++        need(recipe["work_root"]==g.recipe["numerics_root"] and recipe["data_root"]==str(g.data) and
++             recipe["mode"]=="full" and recipe["code"]==g.numeric_code,"Assembly numerical recipe/source epoch differs")
++        numeric_execution_source(g,recipe,meta)
++        recipes.append(recipe)
++    need(recipes and all(r==recipes[0] for r in recipes),"Missing or mixed numerical recipe for assembly compiler")
++    compiler=recipes[0]["compiler"]
++    need(set(compiler)=={"path","bytes","sha256"} and type(compiler["bytes"]) is int and compiler["bytes"]>=0 and
++         type(compiler["sha256"]) is str and re.fullmatch(r"[0-9a-f]{64}",compiler["sha256"]),"Malformed exact compiler pin")
++    g.tool_paths.add(str(plain(compiler["path"])))
++    g.bound(compiler)
++    return compiler
++
+ def child_assemble(recipe,operation,output):
+     g=Guard(recipe,operation.get("seconds",100));result={"schema":SCHEMA,"kind":"assembly","status":"PARTIAL","complete":False,
+         "checker_sha256":sha(Path(__file__).read_bytes()),"requirements":recipe["requirements"],"whole_theorem_accepted":False,"premises":PREMISES}
+     rows_path=output.with_suffix(".bindings.jsonl")
+     try:
+-        code_package(g);items,req_exec,meta=required_rows(g);expected=dict(items);totals=Counter();parts=[]
++        code_package(g);register_assembly_compiler(g);items,req_exec,meta=required_rows(g);expected=dict(items);totals=Counter();parts=[]
+         need(operation["parts"] and len({p["path"] for p in operation["parts"]})==len(operation["parts"]),"Missing/duplicate slice files")
+         with rows_path.open("xb") as out:
+             for p in operation["parts"]:
+@@ -1189,7 +1217,14 @@
+     return {**r,"recipe_pin":p},p
+ 
+ 
++def acceptance_seconds(kind,value):
++    need(kind in ("verify","assemble") and type(value) is int and 1<=value<=(600 if kind=="assemble" else 100),
++         "Exact deadline must be 1..600 for metadata assembly or 1..100 for verification")
++    return value
++
++
+ def launch(args,operation):
++    acceptance_seconds(operation["kind"],operation["seconds"])
+     recipe,rp=read_recipe(args.work_root);work=Path(recipe["work_root"])
+     need(re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_.-]*",args.id),"Explicit safe fresh execution ID required")
+     directory=work/"jobs"/args.id;request_path=work/"requests"/(args.id+".json")
+@@ -1202,7 +1237,7 @@
+     # Only the reviewed process supervisor is reused; no old CLI, checker,
+     # counter, compiler or mathematical module is invoked through this import.
+     command=[str(Path(sys.executable).resolve()),"-I","-S","-B",str(Path(__file__).resolve()),"_child","--request",str(request_path),"--request-sha256",request_pin["sha256"]]
+-    outcome=module.supervise(command,directory,directory/"stdout.txt",directory/"stderr.txt",120,directory/"LAUNCH.json")
++    outcome=module.supervise(command,directory,directory/"stdout.txt",directory/"stderr.txt",660 if operation["kind"]=="assemble" else 120,directory/"LAUNCH.json")
+     stable=pin(request_path)==request_pin and pin(rp["path"])==rp and sha(Path(__file__).read_bytes())==recipe["checker_sha256"]
+     outputs=[pin(p) for p in sorted(directory.iterdir()) if p.is_file()]
+     record={"schema":SCHEMA,"kind":"execution","request":request_pin,"command":command,**outcome,
+@@ -1235,10 +1270,11 @@
+             recipe=decode(Path(rp["path"]).read_bytes());recipe["recipe_pin"]=rp
+             output=plain(request["output"]);need(output.parent==Path(recipe["work_root"])/"jobs"/request["id"] and not output.exists(),"Wrong fresh child output")
+             need(sha(Path(__file__).read_bytes())==recipe["checker_sha256"]==request["checker_sha256"],"Changed acceptance checker code")
++            acceptance_seconds(request["operation"]["kind"],request["operation"]["seconds"])
+             save(output.with_name("CHILD.json"),{"schema":SCHEMA,"request":request_pin,"pid":os.getpid(),"checker_sha256":recipe["checker_sha256"],"before_mathematical_calls":True})
+             return child_verify(recipe,request["operation"],output) if request["operation"]["kind"]=="verify" else child_assemble(recipe,request["operation"],output)
+         else:
+-            need(1<=args.seconds<=100,"Internal cap must be 1..100 seconds")
++            acceptance_seconds(args.command,args.seconds)
+             op={"kind":args.command,"seconds":args.seconds}
+             if args.command=="verify":op.update(unit=args.unit,start=args.start,stop=COUNTS[args.unit] if args.stop is None else args.stop)
+             else:op["parts"]=[pin(p) for p in args.parts]

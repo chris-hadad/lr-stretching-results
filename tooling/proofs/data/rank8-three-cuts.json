@@ -1,0 +1,214 @@
+{
+  "schema": "tooling-rank8-source-projection-v1",
+  "source_name": "A004-CLIPPED-RANK8-001.json",
+  "source_sha256": "18f890a77eda38f06bca08477eabae9e8f0083bce955b7b93e58ac409698324a",
+  "status_scope": "Preserved accepted scientific evidence; source projection is not a new count or proof replay.",
+  "data": {
+    "status": "complete",
+    "scope": "Entire stated rank-eight family for 0<=S<=2M; selected counts only, no outside-family polynomial signs",
+    "exact_additional_constraints": [
+      "nonnegative_6_5",
+      "column_4_3",
+      "ballot_2_1"
+    ],
+    "cases": [
+      {
+        "id": "R8M1S1",
+        "M": 1,
+        "S": 1,
+        "lambda": [
+          49,
+          46,
+          36,
+          32,
+          24,
+          19,
+          9,
+          5
+        ],
+        "mu": [
+          27,
+          23,
+          19,
+          15,
+          13,
+          9,
+          5,
+          1
+        ],
+        "nu": [
+          25,
+          22,
+          19,
+          14,
+          12,
+          9,
+          6,
+          1
+        ],
+        "counts": [
+          {
+            "t": 0,
+            "whole_count": 1,
+            "cross_matrices": 1,
+            "distinct_margins_per_child": 1,
+            "explicit_full_parent_checks": 0
+          },
+          {
+            "t": 1,
+            "whole_count": 280,
+            "cross_matrices": 16,
+            "distinct_margins_per_child": 4,
+            "explicit_full_parent_checks": 0
+          },
+          {
+            "t": 2,
+            "whole_count": 13910,
+            "cross_matrices": 136,
+            "distinct_margins_per_child": 10,
+            "explicit_full_parent_checks": 0
+          },
+          {
+            "t": 3,
+            "whole_count": 310856,
+            "cross_matrices": 816,
+            "distinct_margins_per_child": 20,
+            "explicit_full_parent_checks": 0
+          }
+        ],
+        "four_site_negative_witness_functional": 501551
+      },
+      {
+        "id": "R8M1S2",
+        "M": 1,
+        "S": 2,
+        "lambda": [
+          48,
+          46,
+          36,
+          32,
+          25,
+          19,
+          9,
+          5
+        ],
+        "mu": [
+          27,
+          23,
+          19,
+          15,
+          13,
+          9,
+          5,
+          1
+        ],
+        "nu": [
+          25,
+          22,
+          19,
+          14,
+          12,
+          9,
+          6,
+          1
+        ],
+        "counts": [
+          {
+            "t": 0,
+            "whole_count": 1,
+            "cross_matrices": 1,
+            "distinct_margins_per_child": 1,
+            "explicit_full_parent_checks": 0
+          },
+          {
+            "t": 1,
+            "whole_count": 1678,
+            "cross_matrices": 136,
+            "distinct_margins_per_child": 10,
+            "explicit_full_parent_checks": 1678
+          },
+          {
+            "t": 2,
+            "whole_count": 236305,
+            "cross_matrices": 3876,
+            "distinct_margins_per_child": 35,
+            "explicit_full_parent_checks": 0
+          },
+          {
+            "t": 3,
+            "whole_count": 10771720,
+            "cross_matrices": 54264,
+            "distinct_margins_per_child": 84,
+            "explicit_full_parent_checks": 0
+          },
+          {
+            "t": 4,
+            "whole_count": 250633155,
+            "cross_matrices": 490314,
+            "distinct_margins_per_child": 165,
+            "explicit_full_parent_checks": 0
+          }
+        ],
+        "four_site_negative_witness_functional": 19446888
+      },
+      {
+        "id": "R8M2S3",
+        "M": 2,
+        "S": 3,
+        "lambda": [
+          97,
+          92,
+          72,
+          64,
+          49,
+          38,
+          18,
+          10
+        ],
+        "mu": [
+          54,
+          46,
+          38,
+          30,
+          26,
+          18,
+          10,
+          2
+        ],
+        "nu": [
+          50,
+          44,
+          38,
+          28,
+          24,
+          18,
+          12,
+          2
+        ],
+        "counts": [
+          {
+            "t": 0,
+            "whole_count": 1,
+            "cross_matrices": 1,
+            "distinct_margins_per_child": 1,
+            "explicit_full_parent_checks": 0
+          },
+          {
+            "t": 1,
+            "whole_count": 69083,
+            "cross_matrices": 816,
+            "distinct_margins_per_child": 20,
+            "explicit_full_parent_checks": 0
+          },
+          {
+            "t": 2,
+            "whole_count": 44649478,
+            "cross_matrices": 54264,
+            "distinct_margins_per_child": 84,
+            "explicit_full_parent_checks": 0
+          }
+        ]
+      }
+    ]
+  }
+}

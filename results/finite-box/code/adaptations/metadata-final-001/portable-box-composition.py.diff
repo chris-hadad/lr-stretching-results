@@ -1,0 +1,231 @@
+--- portable-box-composition.py.before
++++ portable-box-composition.py
+@@ -248,9 +248,50 @@
+     return None
+ 
+ 
++METADATA_ADAPTER_SHA = "02811802f3130bcf7bcd44dd7d6f3cd25066e0f86c3ce3fed79723471ffeab30"
++
++
++def metadata_task(task):
++    return task.get("command") == "aggregate" and task.get("phase") in ("acceptance","final")
++
++
++def task_limits(config,task):
++    if metadata_task(task):return 600,660,900
++    return config["budget_seconds"],config["checker_timeout"],config["launcher_timeout"]
++
++
++def metadata_source(config):
++    expected=Path(__file__).resolve().with_name("composition_metadata.py")
++    limits=[config[k] for k in ("metadata_budget_seconds","metadata_checker_timeout","metadata_launcher_timeout")]
++    need(all(type(x) is int for x in limits) and limits==[600,660,900],"Changed exact finite metadata resource profile")
++    need(config["controller_root"] == str(expected.parent) and config["metadata_adapter"] == pin(expected)
++         and config["metadata_adapter"]["sha256"] == METADATA_ADAPTER_SHA,"Wrong exact metadata adapter/controller root")
++    return config["metadata_adapter"]
++
++
++def metadata_profile(config):
++    import importlib.util
++    source=metadata_source(config)
++    spec=importlib.util.spec_from_file_location("_exact_composition_metadata",source["path"])
++    module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
++    _,_,_,profile=module.build(Path(config["code_root"]))
++    need(profile["adapter"]==source,"Metadata invocation source changed")
++    return profile
++
++
++def launcher_command(config,task,words,identity):
++    timeout=task_limits(config,task)[1]
++    if metadata_task(task):
++        source=metadata_source(config)
++        start=[config["python"]["path"],"-I","-S","-B",source["path"],"run","--core-code-root",config["code_root"]]
++    else:start=[config["python"]["path"],"-B",str(Path(config["code_root"])/"portable_run.py"),"run"]
++    return start+["--data-root",config["data_root"],"--work-root",config["work_root"],"--id",identity,
++                  "--checker",CHECKER,"--timeout",str(timeout),"--",*words]
++
++
+ def checker_arguments(task, progress, config, acceptance_files=()):
+     words = [task["command"], "--root", str(Path(config["data_root"])/"namespaces"),
+-             "--budget-seconds", str(config["budget_seconds"])]
++             "--budget-seconds", str(task_limits(config,task)[0])]
+     command = task["command"]
+     if command in ("index","seal"):
+         words += ["--manifest", progress["manifest"]["path"], "--database", config["database"]]
+@@ -394,17 +435,26 @@
+     return {"sources":result,"database":database,"database_stamp":snapshot["database_stamp"],"checked_utc":utc()}
+ 
+ 
++def frozen_acceptance_inputs(config,record):
++    tool_pins=record["explicit_tool_pins"]
++    need(type(tool_pins) is list and len(tool_pins)<=1,"Only the explicitly supplied compiler may join the frozen Python tool")
++    tools={p["path"]:check_pin(p) for p in [config["python"],*tool_pins]}
++    for value in record["acceptance_files"]:check_pin(value,plan_roots(config))
++    for value in record["evidence_files"]:
++        if value["path"] in tools:need(value==tools[value["path"]],"Changed exact frozen tool evidence")
++        else:check_pin(value,plan_roots(config))
++    return tool_pins
++
++
+ def plan_roots(config):
+-    return [Path(config[k]) for k in ("data_root","code_root","work_root")]
++    return [Path(config[k]) for k in ("data_root","code_root","controller_root","work_root")]
+ 
+ 
+ def make_request(config, plan_pin, task, progress, number, acceptance_files=()):
+     identity = f"composition-{number:06d}"
+     work,code = Path(config["work_root"]),Path(config["code_root"])
+     words = checker_arguments(task,progress,config,acceptance_files)
+-    command = [config["python"]["path"], "-B", str(code/"portable_run.py"), "run", "--data-root", config["data_root"],
+-               "--work-root", config["work_root"], "--id", identity, "--checker", CHECKER,
+-               "--timeout", str(config["checker_timeout"]), "--", *words]
++    command = launcher_command(config,task,words,identity)
+     return {"schema":SCHEMA,"id":identity,"number":number,"plan":plan_pin,"task":task,
+             "command":command,"checker_args":words,"output_root":str(work/identity),
+             "control_root":str(work/"control"/identity),"created_utc":utc()}
+@@ -444,11 +494,9 @@
+     need(control == Path(config["work_root"])/"control"/request["id"] and output == Path(config["work_root"])/request["id"] and
+          request_path == control/"REQUEST.json", "Launcher request escaped its exact workspace")
+     command = request["command"]
+-    expected_command = [config["python"]["path"],"-B",str(Path(config["code_root"])/"portable_run.py"),"run",
+-                        "--data-root",config["data_root"],"--work-root",config["work_root"],"--id",request["id"],
+-                        "--checker",CHECKER,"--timeout",str(config["checker_timeout"]),"--",*request["checker_args"]]
++    expected_command = launcher_command(config,request["task"],request["checker_args"],request["id"])
+     need(command == expected_command,"Helper launches only the exact declared portable runner request")
+-    check_pin(config["python"])
++    check_pin(config["python"]);metadata_source(config)
+     check_pin(config["source_map"])
+     for value in config["code_pins"].values():check_pin(value,[Path(config["code_root"])])
+     write_new(control/"HELPER-LAUNCH.json", {"pid":os.getpid(),"pgid":os.getpgrp(),"request_sha256":request_sha,"started_utc":utc()})
+@@ -457,7 +505,7 @@
+         with (control/"launcher-stdout.txt").open("xb") as out,(control/"launcher-stderr.txt").open("xb") as err:
+             process = subprocess.Popen(command,cwd=config["work_root"],stdout=out,stderr=err,start_new_session=True)
+             write_new(control/"LAUNCHER.json",{"pid":process.pid,"pgid":process.pid,"argv":command,"started_utc":utc()})
+-            end = time.monotonic()+config["launcher_timeout"]
++            end = time.monotonic()+task_limits(config,request["task"])[2]
+             try:
+                 while process.poll() is None and time.monotonic() < end:
+                     try:process.wait(timeout=.5)
+@@ -489,6 +537,7 @@
+         self.progress,self.manifest,self.snapshot = blank_progress(),None,None
+         self.acceptance_files = []
+         self.finalize = False
++        self.acceptance_tool_pins = []
+         self.artifact_cache = {}
+ 
+     def save(self):
+@@ -506,7 +555,7 @@
+ 
+     def stable_code(self):
+         need(digest(Path(__file__).read_bytes()) == self.config["controller_sha256"], "Controller source changed; use a fresh epoch")
+-        self.bound(self.plan_pin)
++        self.bound(self.plan_pin);metadata_source(self.config)
+         for value in self.config["code_pins"].values():self.bound(value,[self.code])
+         self.bound(self.config["source_map"],[self.code])
+         mapping,sources = source_package(self.code)
+@@ -544,7 +593,7 @@
+              c["requested_checker_args"] == request["checker_args"] and c["checker_argv"] == request["checker_args"]+["--output",str(output/"result.json")],
+              "Actual portable configuration/argv belongs to another request/root")
+         need(c["help_only"] is False and c["command"] == request["task"]["command"] and
+-             c["source_map"] == self.config["source_map"] and c["timeout_seconds"] == self.config["checker_timeout"], "Wrong portable source/configuration epoch")
++             c["source_map"] == self.config["source_map"] and c["timeout_seconds"] == task_limits(self.config,request["task"])[1], "Wrong portable source/configuration epoch")
+         expected_copies = {k:v for k,v in self.config["code_pins"].items() if k != "portable_run.py"}
+         need(c["copied_sources"] == expected_copies, "Actual copied source roster differs")
+         for value in c["fixed_inputs"]:
+@@ -563,11 +612,20 @@
+         need(launch["pid"] == launch["pgid"] == applied["pid"] == e["pid"] and applied["before_mathematical_calls"] is True and
+              applied["configuration"] == cp and launch["command"][-5:] == ["_child","--configuration",cp["path"],"--configuration-sha256",cp["sha256"]],
+              "Wrong actual checker launch/applied configuration identity")
++        if metadata_task(request["task"]):
++            profile=metadata_profile(self.config)
++            expected_command=[self.config["python"]["path"],"-I","-S","-B",profile["adapter"]["path"],"--core-code-root",self.config["code_root"],"_child",
++                "--configuration",cp["path"],"--configuration-sha256",cp["sha256"]]
++            need(c.get("metadata_adapter")==profile and applied.get("metadata_adapter")==profile and
++                 launch["command"]==expected_command and profile["adapter"] in c["fixed_inputs"],"Wrong actual metadata child/profile")
++        else:need("metadata_adapter" not in c and "metadata_adapter" not in applied,"Metadata adapter used on a scientific operation")
+         base = str(self.root/"base")
+         need(applied["applied"] == {"box_geometry.CANONICAL":base,"box_geometry_early.CANONICAL":base}, "A mathematical module retained another data root")
+         result = requirements_summary(result_path) if request["task"]["command"] == "requirements" else read(result_path)
+         need(result["schema"] == CHECKER_SCHEMA and result["checker_sha256"] == ESSENTIAL_CODE[CHECKER] and
+              result["status"] == e["checker_status"], "Actual checker result/source binding failed")
++        if metadata_task(request["task"]):need(result.get("metadata_adapter")==profile,"Result omitted the executed metadata adapter")
++        else:need("metadata_adapter" not in result,"Foreign metadata result epoch")
+         partial = result["status"] == "PARTIAL" and result.get("interruption") and request["task"]["command"] in ("index","verify")
+         if e["child_returncode"] == 0:
+             need(e["status"] == "CHECKER_EXITED_ZERO" and owner_exit["launcher_returncode"] == 0, "False successful launcher/checker exit")
+@@ -730,7 +788,8 @@
+         need(next_task(self.progress,self.manifest,self.snapshot,self.config,False) is None,
+              "Finish all fresh nonacceptance work before supplying acceptance files")
+         need(paths and len(set(map(str,paths))) == len(paths), "Missing/duplicate earned acceptance files")
+-        files,evidence,seen = [],{},set()
++        files,evidence,seen,resolved_paths = [],{},set(),{}
++        tools={p["path"]:check_pin(p) for p in [self.config["python"],*self.acceptance_tool_pins]}
+         for path in paths:
+             path = within(path,[self.work]);files.append(pin(path))
+             with path.open("rb") as stream:
+@@ -741,13 +800,16 @@
+                          and isinstance(row["binding"],dict) and tid not in seen and row["evidence"], "Malformed/duplicate caller acceptance")
+                     seen.add(tid)
+                     for ref in row["evidence"]:
+-                        p = within(ref["path"],plan_roots(self.config))
+-                        if str(p) not in evidence:evidence[str(p)] = pin(p)
++                        raw_path=ref["path"]
++                        if raw_path not in resolved_paths:
++                            resolved_paths[raw_path]=no_links(raw_path) if raw_path in tools else within(raw_path,plan_roots(self.config))
++                        p=resolved_paths[raw_path]
++                        if str(p) not in evidence:evidence[str(p)] = tools[str(p)] if str(p) in tools else pin(p)
+                         need(evidence[str(p)]["sha256"] == ref["sha256"], "Acceptance evidence bytes changed")
+         need(len(seen) == self.progress["requirements"]["records"], "Caller acceptances omit/add literal terminal identities")
+         record = {"schema":SCHEMA,"acceptance_files":files,"evidence_files":list(evidence.values()),
+                   "already_earned_mathematical_acceptance_is_a_caller_premise":True,
+-                  "requirements":self.progress["requirements"],"terminal_count":len(seen)}
++                  "requirements":self.progress["requirements"],"terminal_count":len(seen),"explicit_tool_pins":self.acceptance_tool_pins}
+         path = self.work/"ACCEPTANCE-INPUTS.json"
+         if path.exists():need(read(path) == record, "Frozen acceptance inputs changed")
+         else:write_new(path,record)
+@@ -784,7 +846,11 @@
+     need(1 <= args.index_limit <= 250000 and 1 <= args.verify_limit <= 100000 and
+          1 <= args.budget_seconds <= 100 and args.budget_seconds < args.checker_timeout <= 120 and
+          args.checker_timeout+10 <= args.launcher_timeout <= 600, "Invalid explicit slice/resource limits")
++    helper=pin(Path(__file__).resolve().with_name("composition_metadata.py"))
++    need(helper["sha256"]==METADATA_ADAPTER_SHA,"Wrong new metadata helper source")
+     config = {"schema":SCHEMA,"data_root":str(data),"code_root":str(code),"work_root":str(work),
++              "controller_root":str(Path(__file__).resolve().parent),"metadata_adapter":helper,
++              "metadata_budget_seconds":600,"metadata_checker_timeout":660,"metadata_launcher_timeout":900,
+               "database":str(work/"literal.sqlite"),"controller_sha256":digest(Path(__file__).read_bytes()),
+               "python":pin(Path(sys.executable).resolve()),"source_map":mapping,"code_pins":sources,
+               "index_limit":args.index_limit,"verify_limit":args.verify_limit,"budget_seconds":args.budget_seconds,
+@@ -803,6 +869,8 @@
+          config["data_root"] == str(no_links(args.data_root)) and config["code_root"] == str(no_links(args.code_root)),
+          "Resume roots differ from the exact fresh epoch; old receipts are never rewritten")
+     need(config["database"] == str(work/"literal.sqlite"),"Database path cannot escape the fresh work epoch")
++    metadata_source(config)
++    need((config["metadata_budget_seconds"],config["metadata_checker_timeout"],config["metadata_launcher_timeout"])==(600,660,900),"Changed finite metadata resource profile")
+     return config,state,pin(work/"PLAN.json")
+ 
+ 
+@@ -817,7 +885,9 @@
+             p.add_argument("--resume",action="store_true");p.add_argument("--index-limit",type=int,default=100000)
+             p.add_argument("--verify-limit",type=int,default=25000);p.add_argument("--budget-seconds",type=int,default=100)
+             p.add_argument("--checker-timeout",type=int,default=120);p.add_argument("--launcher-timeout",type=int,default=300)
+-        else:p.add_argument("--acceptances",nargs="+",type=Path,required=True)
++        else:
++            p.add_argument("--acceptances",nargs="+",type=Path,required=True)
++            p.add_argument("--compiler",type=Path,help="Exact compiler file used by the earned acceptance evidence; no directory exemption")
+     helper = subs.add_parser("_launch",help=argparse.SUPPRESS)
+     helper.add_argument("--request",type=Path,required=True);helper.add_argument("--request-sha256",required=True)
+     args = parser.parse_args(argv)
+@@ -840,11 +910,12 @@
+         acceptance = work/"ACCEPTANCE-INPUTS.json"
+         if acceptance.exists():
+             a = read(acceptance)
+-            for value in a["acceptance_files"]+a["evidence_files"]:check_pin(value,plan_roots(config))
++            controller.acceptance_tool_pins=frozen_acceptance_inputs(config,a)
+             controller.acceptance_files = a["acceptance_files"]
+             controller.finalize = True
+         controller.recover()
+         if args.mode == "finalize":
++            controller.acceptance_tool_pins=[] if args.compiler is None else [pin(no_links(args.compiler))]
+             controller.freeze_acceptances(args.acceptances);controller.finalize = True
+         status = controller.run(args.max_jobs)
+         print(json.dumps({"status":status,"work_root":str(work),"jobs":len(state["jobs"]),"whole_theorem_accepted":False},sort_keys=True),flush=True)

@@ -1,0 +1,10 @@
+{
+  "change": "Use the calibrated configured acceptance chunk for every unit; original per-child deadlines and exact interval/union checks remain unchanged.",
+  "old_sha256": "c102cfbcfe5e62aef240a45217c64890007d13e5550bd1b206df958dfd900cd9",
+  "new_sha256": "c1e6e5724e7b59e4ea903f7efa04418cb3445330ed3b540d2181fd280bb8e932",
+  "tests": 15,
+  "test_returncode": 0,
+  "test_elapsed_seconds": 0.21823424997273833,
+  "calibration_evidence": "U02 all 169, U03 all 3478 and legacy all 297 passed their full-unit acceptance under the unchanged mathematical reader in a 53.092562292-second actual parent batch.",
+  "active_or_historical_replay_sources_modified": false
+}

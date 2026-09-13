@@ -1,0 +1,150 @@
+{
+  "attempt": "SLR-GPT6-PRO-FRONTIER-024-P07-A01-9739f13c17c5::J06",
+  "counts": [
+    {
+      "stretch": 0,
+      "value": 1,
+      "radix": 1,
+      "digit_bits": 2,
+      "truncated_bit_bound": 2
+    },
+    {
+      "stretch": 1,
+      "value": 60,
+      "radix": 3,
+      "digit_bits": 12,
+      "truncated_bit_bound": 168
+    },
+    {
+      "stretch": 2,
+      "value": 1470,
+      "radix": 5,
+      "digit_bits": 18,
+      "truncated_bit_bound": 1134
+    },
+    {
+      "stretch": 3,
+      "value": 18640,
+      "radix": 7,
+      "digit_bits": 23,
+      "truncated_bit_bound": 3956
+    },
+    {
+      "stretch": 4,
+      "value": 151550,
+      "radix": 9,
+      "digit_bits": 27,
+      "truncated_bit_bound": 9855
+    },
+    {
+      "stretch": 5,
+      "value": 900451,
+      "radix": 11,
+      "digit_bits": 31,
+      "truncated_bit_bound": 20646
+    },
+    {
+      "stretch": 6,
+      "value": 4241895,
+      "radix": 13,
+      "digit_bits": 33,
+      "truncated_bit_bound": 36267
+    },
+    {
+      "stretch": 7,
+      "value": 16715910,
+      "radix": 15,
+      "digit_bits": 36,
+      "truncated_bit_bound": 60768
+    },
+    {
+      "stretch": 8,
+      "value": 57178590,
+      "radix": 17,
+      "digit_bits": 38,
+      "truncated_bit_bound": 93366
+    },
+    {
+      "stretch": 9,
+      "value": 174344820,
+      "radix": 19,
+      "digit_bits": 40,
+      "truncated_bit_bound": 137200
+    },
+    {
+      "stretch": 10,
+      "value": 483305576,
+      "radix": 21,
+      "digit_bits": 42,
+      "truncated_bit_bound": 194502
+    },
+    {
+      "stretch": 11,
+      "value": 1236526655,
+      "radix": 23,
+      "digit_bits": 44,
+      "truncated_bit_bound": 267696
+    },
+    {
+      "stretch": 12,
+      "value": 2954263520,
+      "radix": 25,
+      "digit_bits": 46,
+      "truncated_bit_bound": 359398
+    },
+    {
+      "stretch": 13,
+      "value": 6652891350,
+      "radix": 27,
+      "digit_bits": 47,
+      "truncated_bit_bound": 462574
+    },
+    {
+      "stretch": 14,
+      "value": 14228589110,
+      "radix": 29,
+      "digit_bits": 49,
+      "truncated_bit_bound": 597555
+    }
+  ],
+  "degree": 12,
+  "determining_sites": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "unused_positive_holdouts": [
+    13,
+    14
+  ],
+  "coefficients": [
+    "1",
+    "325/72",
+    "328081/33264",
+    "5005039/362880",
+    "29441411/2177280",
+    "399515/41472",
+    "1257551/248832",
+    "44951/23040",
+    "1587499/2903040",
+    "31375/290304",
+    "24827/1741824",
+    "233/207360",
+    "547/13685760"
+  ],
+  "c1": "325/72",
+  "all_coefficients_positive": true,
+  "all_holdouts_passed": true,
+  "elapsed_seconds": 0.29189934599980916,
+  "peak_rss_kib": 93484
+}

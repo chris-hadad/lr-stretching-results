@@ -1,0 +1,105 @@
+{
+  "schema": "tooling-rank8-source-projection-v1",
+  "source_name": "FRI-R8-COLUMN-HOLDOUTS-001.json",
+  "source_sha256": "93a5517814e1b842263eb862c7c4b4be113c8863472465e2f09aa796883d4953",
+  "status_scope": "Preserved accepted scientific evidence; source projection is not a new count or proof replay.",
+  "data": {
+    "algorithm": "rank8_column_transfer_v1",
+    "binary_sha256": "036719485fb687d86a52b7b3b30dd295836e5c6459840469fd584067122bed8d",
+    "case_count": 4,
+    "cases": [
+      {
+        "count": "29770172352100574100",
+        "index": 0,
+        "m": 22,
+        "request": {
+          "m": 22,
+          "s": 44
+        },
+        "result": {
+          "algorithm": "rank8_column_transfer_v1",
+          "count": "29770172352100574100",
+          "integer_backend": "checked_signed_int128",
+          "intermediate_absolute_bound": "2^114",
+          "m": 22,
+          "s": 44,
+          "schema_version": 1,
+          "status": "complete"
+        },
+        "returncode": 0,
+        "s": 44,
+        "status": "complete"
+      },
+      {
+        "count": "65809335330948932400",
+        "index": 1,
+        "m": 23,
+        "request": {
+          "m": 23,
+          "s": 46
+        },
+        "result": {
+          "algorithm": "rank8_column_transfer_v1",
+          "count": "65809335330948932400",
+          "integer_backend": "checked_signed_int128",
+          "intermediate_absolute_bound": "2^114",
+          "m": 23,
+          "s": 46,
+          "schema_version": 1,
+          "status": "complete"
+        },
+        "returncode": 0,
+        "s": 46,
+        "status": "complete"
+      },
+      {
+        "count": "2580301275339784080",
+        "index": 2,
+        "m": 22,
+        "request": {
+          "m": 22,
+          "s": 34
+        },
+        "result": {
+          "algorithm": "rank8_column_transfer_v1",
+          "count": "2580301275339784080",
+          "integer_backend": "checked_signed_int128",
+          "intermediate_absolute_bound": "2^114",
+          "m": 22,
+          "s": 34,
+          "schema_version": 1,
+          "status": "complete"
+        },
+        "returncode": 0,
+        "s": 34,
+        "status": "complete"
+      },
+      {
+        "count": "1901881685329870272",
+        "index": 3,
+        "m": 24,
+        "request": {
+          "m": 24,
+          "s": 31
+        },
+        "result": {
+          "algorithm": "rank8_column_transfer_v1",
+          "count": "1901881685329870272",
+          "integer_backend": "checked_signed_int128",
+          "intermediate_absolute_bound": "2^114",
+          "m": 24,
+          "s": 31,
+          "schema_version": 1,
+          "status": "complete"
+        },
+        "returncode": 0,
+        "s": 31,
+        "status": "complete"
+      }
+    ],
+    "completed_cases": 4,
+    "roster_sha256": "15ce79b2d62510a6bfb52098c2057b26911581fdcbee171bc0394e4a66424d12",
+    "schema_version": 1,
+    "status": "complete"
+  }
+}

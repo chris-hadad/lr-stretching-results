@@ -1,56 +1,62 @@
-# Littlewood–Richardson stretching: results and exact verification
+# Littlewood–Richardson stretching: proofs, results and exact verification
 
-This private working collection organizes mathematical results that may
-support a future paper. Each result has a precise statement, proof and
-standalone exact reproduction. Historical novelty and publication priority
-remain unresolved; no public release or human peer review is implied.
+This collection documents a substantially AI-assisted mathematical research
+campaign. Its main result is a computer-assisted proof that **the original
+FrontierMath search box contains no counterexample**: every ordinary coefficient
+is nonnegative when the outer partition has area at most 30 and all three
+partitions have length at most seven. The unrestricted King–Tollu–Toumazet
+positivity conjecture remains open, as do whole ranks six and seven.
 
-The [exact tooling section](tooling/README.md) provides standalone Python
-counts and certificates: a checked bare-triple path on the proved Cdagger
-rank-six sector, complete skew-tableau scalar counts, faster transportation and
-segment-quotient counts, whole-family
-LR constructors, and exact support/dimension witnesses. It includes examples,
-focused tests, complete mathematical premises and same-input benchmarks.
+Start with the [finite-box result](results/finite-box/README.md), its
+[readable proof](results/finite-box/PROOF.md), and its verification instructions.
+The proof covers every legal input, including empty cases and boundary strata.
+It combines exhaustive reductions, exact closed/interior counts, coefficient
+bounds and full vectors for the final tail. Complete data are distributed
+separately from the small proof and code tree, with exact checksums.
 
-The leading result is an infinite family of stretched Kostka/Littlewood–
-Richardson polynomials with positive ordinary coefficients and an exact
-integer threshold for Hurwitz stability. Let rho_m=(m,m-1,...,1). For
-u,v>=0, u+v>0, and lambda the outer partition, set
+**Alper Ferudun's positivity theorem through rank five is a central prior
+result and an explicit dependency.** His theorem and correction methods,
+along with the classical and recent mathematics used throughout the campaign,
+are credited in [REFERENCES.md](REFERENCES.md). This repository does not claim
+those contributions as its own.
 
-    lambda=(u+v)rho_18, mu=(u+v)rho_17,
-    nu=(7u+8v,6u+6v,5u+4v).
+| Where to go | What it contains |
+|---|---|
+| [Results and open questions](RESULTS.md) | Major theorems, exact domains, verification levels and unresolved questions |
+| [Finite-box proof](results/finite-box/PROOF.md) | Why the bounded counterexample cannot exist and how the proof works |
+| [Structural positivity](results/structural-positivity/README.md) | Normal corrections, boundary-coordinate theorems and whole-family results that guide the continuing search |
+| [Families and obstructions](results/families-and-obstructions/README.md) | All-size low-degree theorems, unbounded positive families, exact cone domains, negative graph/LR faces and their complete selected evidence |
+| [Exact tooling](tooling/README.md) | Complete LR/tableau and transportation counters, constructors, examples and proof premises |
+| [Discovery and verification](PROVENANCE.md) | Human direction, AI assistance, independent checks and source identities |
 
-The stretching polynomial has degree 31 and 32 strictly positive ordinary
-coefficients. Every u>=22v has at least two roots in the open right half-plane.
-On the primitive slice (u,v)=(q-1,1), it is strictly Hurwitz stable exactly
-for q=1,...,22 and unstable for every q>=23. The complete two-variable
-polynomial has 528 strictly positive coefficients. See the
-[cone theorem and proof](results/hurwitz-cone/README.md).
+The earlier standalone modules include a positive infinite LR family with
+an exact transition to roots in the open right half-plane. That result rules
+out universal Hurwitz stability as a proof strategy; it is not a negative
+ordinary coefficient. The catalog keeps such obstructions distinct from
+positivity theorems and genuine counterexample candidates.
 
-The simpler [R18 example](results/hurwitz-counterexample/README.md) is
-K_((7t,6t,5t),(t^18)), with exactly two open-right-half-plane roots.
-Thus universal Hurwitz stability cannot prove ordinary coefficient positivity.
-These results do **not** refute KTT positivity.
+The broader collection also includes the all-size actual-cubic theorem through
+rank seven, uniform central two-row tensors, matching layers, strict gap
+families, the full rank-six Horn release, an explicit clipped rank-eight region,
+transportation coefficient theorems, and a primitive rank-24 example. Each has
+its exact hypotheses and proof/evidence links in the result catalog. The tools
+are organized by the mathematical object they count, with small examples and
+explicit domain and verification limits.
 
-Run every module with Python 3.11+ and its standard library:
+The five small established modules run with Python 3.11+ and its standard
+library, without network access or writes:
 
 ```sh
 python3 -B reproduce.py
 ```
 
-No package installation, network access or original research checkout is
-needed. The default command writes no files. The individual commands and
-scope of each result are listed in [RESULTS.md](RESULTS.md).
+The much larger finite-box verification has its own explicit data, compiler,
+workspace and resource instructions. The quick command above does not replay
+the entire box. Each module states exactly what its commands establish.
 
-The collection also contains [parabolic A3 certificates](results/parabolic-a3/README.md),
-a [two-parameter linear/quadratic coefficient theorem](results/coefficient-cone/README.md),
-and an [all-index obstruction to raw weight concavity](results/two-row-nonconcavity/README.md).
-Each addresses a different part of the positivity problem; none establishes
-all-rank positivity or a completed finite-box search.
-
-[REFERENCES.md](REFERENCES.md) separates established antecedents from the
-results here. [PROVENANCE.md](PROVENANCE.md) records discovery, verification,
-AI assistance and source identities. Future results should add a focused
-module with its exact statement and reproduction; proposals belong in the
-catalog until their mathematical obligations are discharged. Public licensing,
-authorship and release remain decisions for the repository owner.
+The repository is currently private. Campaign mathematical and computational
+review is complete for the accepted results at their stated scopes; independent
+human review, historical novelty, publication and FrontierMath's own disposition
+are separate matters. The campaign continues toward whole-rank positivity,
+unrestricted KTT positivity and a rigorous ordinary-negative entire LR object
+outside the closed box.

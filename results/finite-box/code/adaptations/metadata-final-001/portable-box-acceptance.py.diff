@@ -1,0 +1,93 @@
+--- portable-box-acceptance.py.before
++++ portable-box-acceptance.py
+@@ -52,7 +52,8 @@
+          7:"bb595b3914ce05105743e9386f2cc64a4d2ae2d59df0d340c3221b8b74d7cd9c"}
+ VERSIONS = {
+     "portable-box-components.py":"b899b55f6a0304bc1890208c14ab311964146925f68e1f3431efa373213bfc7e",
+-    "portable-box-composition.py":"87eff618145c2d94d4f2dffe4d5267ed4f9f77e9988f72c80057ab5400b5358e",
++    "portable-box-composition.py":"f7fcdeb0cfc17ae96fbec98ee29b9a824c682dd124af682065ca855880cdcfd6",
++    "composition_metadata.py":"02811802f3130bcf7bcd44dd7d6f3cd25066e0f86c3ce3fed79723471ffeab30",
+     "portable-box-code/portable_run.py":"de2ae53528ea1819a5e8a41d5d4f5f811b377ce6155b40f2dc1e776485d2f2a7",
+     "portable-box-code/verify_box_composition.py":"9e3f4bfac1ca9f57e4087ec7a37d06bdb4000d988312bf152a0ac08721cfc9c3",
+     "portable-box-code/SOURCE-MAP.json":"5fa5b9d1e91de235fa59ec310bd0452c3598567d324986239aabbca3f9589fc9",
+@@ -1140,12 +1141,21 @@
+     g.bound(compiler)
+     return compiler
+ 
++def assembly_evidence(g,reference,cache):
++    key=reference['path']
++    if key not in cache:cache[key]=g.bound(reference)
++    actual=cache[key]
++    if actual['sha256']!=reference['sha256'] or ('bytes' in reference and actual['bytes']!=reference['bytes']):
++        raise ValueError('Repeated assembly evidence has a conflicting exact hash/size')
++    return actual
++
++
+ def child_assemble(recipe,operation,output):
+     g=Guard(recipe,operation.get("seconds",100));result={"schema":SCHEMA,"kind":"assembly","status":"PARTIAL","complete":False,
+         "checker_sha256":sha(Path(__file__).read_bytes()),"requirements":recipe["requirements"],"whole_theorem_accepted":False,"premises":PREMISES}
+     rows_path=output.with_suffix(".bindings.jsonl")
+     try:
+-        code_package(g);register_assembly_compiler(g);items,req_exec,meta=required_rows(g);expected=dict(items);totals=Counter();parts=[]
++        code_package(g);register_assembly_compiler(g);items,req_exec,meta=required_rows(g);expected=dict(items);totals=Counter();parts=[];evidence_cache={}
+         need(operation["parts"] and len({p["path"] for p in operation["parts"]})==len(operation["parts"]),"Missing/duplicate slice files")
+         with rows_path.open("xb") as out:
+             for p in operation["parts"]:
+@@ -1153,7 +1163,7 @@
+                 for _,row,_raw in g.lines(z["bindings"]["path"]):
+                     tid=row["terminal_id"];consume_binding(row,expected)
+                     need(requirement_unit(tid)==z["unit"] and row["evidence"],"Slice belongs to another unit or lacks evidence")
+-                    for ref in row["evidence"]:g.bound(ref)
++                    for ref in row["evidence"]:assembly_evidence(g,ref,evidence_cache)
+                     row["evidence"]=evidence(row["evidence"],refs);out.write(encoded(row)+b"\n")
+                     local.append(tid);totals[z["unit"]]+=1
+                 need(local==z["checked_terminal_ids"]==z["expected_terminal_ids"] and len(local)==z["records"],"Slice ledger/accepted identity roster differs")
+@@ -1217,6 +1227,32 @@
+     return {**r,"recipe_pin":p},p
+ 
+ 
++"""Exact deadline-only adaptation of the pinned process supervisor for metadata."""
++import ast
++import hashlib
++from pathlib import Path
++
++RUNNER_SHA='de2ae53528ea1819a5e8a41d5d4f5f811b377ce6155b40f2dc1e776485d2f2a7'
++OLD_GUARD='need(os.name == "posix" and math.isfinite(timeout) and 0 < timeout <= 120, "A POSIX host and a child deadline of at most 120 seconds are required")'
++NEW_GUARD='need(os.name == "posix" and math.isfinite(timeout) and 0 < timeout <= 660, "A POSIX host and a metadata deadline of at most 660 seconds are required")'
++
++def metadata_supervisor(module):
++    path=Path(module.__file__).resolve();raw=path.read_bytes();digest=hashlib.sha256(raw).hexdigest()
++    if digest!=RUNNER_SHA:raise ValueError('Unexpected original process-supervisor source')
++    nodes=[n for n in ast.parse(raw).body if isinstance(n,ast.FunctionDef) and n.name=='supervise']
++    if len(nodes)!=1:raise ValueError('Missing/duplicate exact supervisor function')
++    original=ast.get_source_segment(raw.decode(),nodes[0])
++    if original.count(OLD_GUARD)!=1:raise ValueError('Original supervisor guard differs')
++    adapted=original.replace(OLD_GUARD,NEW_GUARD,1)
++    if adapted.replace(NEW_GUARD,OLD_GUARD,1)!=original:raise ValueError('Supervisor changed beyond its deadline guard/message')
++    ns=dict(vars(module));exec(compile(adapted,str(Path(__file__).resolve())+'::metadata-supervise-660','exec'),ns)
++    proof={'original_supervisor_source':{'path':str(path),'bytes':len(raw),'sha256':digest},
++           'original_function_sha256':hashlib.sha256(original.encode()).hexdigest(),
++           'executed_function_sha256':hashlib.sha256(adapted.encode()).hexdigest(),
++           'exact_replacement':{'before':OLD_GUARD,'after':NEW_GUARD},'process_and_cleanup_behavior_unchanged':True}
++    return ns['supervise'],proof
++
++
+ def acceptance_seconds(kind,value):
+     need(kind in ("verify","assemble") and type(value) is int and 1<=value<=(600 if kind=="assemble" else 100),
+          "Exact deadline must be 1..600 for metadata assembly or 1..100 for verification")
+@@ -1237,11 +1273,13 @@
+     # Only the reviewed process supervisor is reused; no old CLI, checker,
+     # counter, compiler or mathematical module is invoked through this import.
+     command=[str(Path(sys.executable).resolve()),"-I","-S","-B",str(Path(__file__).resolve()),"_child","--request",str(request_path),"--request-sha256",request_pin["sha256"]]
+-    outcome=module.supervise(command,directory,directory/"stdout.txt",directory/"stderr.txt",660 if operation["kind"]=="assemble" else 120,directory/"LAUNCH.json")
++    supervise=module.supervise;supervisor_provenance={"original_supervisor_source":pin(path),"mode":"unchanged_scientific_supervisor"}
++    if operation["kind"]=="assemble":supervise,supervisor_provenance=metadata_supervisor(module)
++    outcome=supervise(command,directory,directory/"stdout.txt",directory/"stderr.txt",660 if operation["kind"]=="assemble" else 120,directory/"LAUNCH.json")
+     stable=pin(request_path)==request_pin and pin(rp["path"])==rp and sha(Path(__file__).read_bytes())==recipe["checker_sha256"]
+     outputs=[pin(p) for p in sorted(directory.iterdir()) if p.is_file()]
+     record={"schema":SCHEMA,"kind":"execution","request":request_pin,"command":command,**outcome,
+-            "sources_unchanged":stable,"outputs":outputs,"whole_theorem_accepted":False};save(directory/"EXECUTION.json",record)
++            "sources_unchanged":stable,"outputs":outputs,"supervisor_provenance":supervisor_provenance,"whole_theorem_accepted":False};save(directory/"EXECUTION.json",record)
+     return {"status":"CHILD_COMPLETE" if stable and outcome["disposition"]=="exited" and outcome["child_returncode"]==0 and outcome["cleanup_verified"] else "CHILD_NOT_ACCEPTED",
+             "result":str(directory/"result.json"),"execution":str(directory/"EXECUTION.json"),"child_returncode":outcome["child_returncode"]}
+ 

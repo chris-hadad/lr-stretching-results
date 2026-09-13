@@ -1,0 +1,89 @@
+{
+  "copies": [
+    {
+      "adaptation": "none; source bytes preserved",
+      "bytes": 40480,
+      "path": "originals/recount_records.py",
+      "sha256": "f62a78a78f1d38452fb805ca051c89fe1dabf26d0d2c0d6a900c9200fd6aa4e7",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/recount_records.py"
+    },
+    {
+      "adaptation": "none; source bytes preserved",
+      "bytes": 11949,
+      "path": "originals/v2_independent_hive_recount.cpp",
+      "sha256": "093c6a8eb69958aaea519c3946b3a2e6ee32636ba9dcb218cd5bc88b8fd12dcc",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/v2_independent_hive_recount.cpp"
+    },
+    {
+      "adaptation": "none; source bytes preserved",
+      "bytes": 49939,
+      "path": "originals/verify_early_terminals.py",
+      "sha256": "a0c3b83db3a4e472f08fcb98d6f380e67b2aba4016bc2ed42dfb99fb6ab7b53d",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/verify_early_terminals.py"
+    },
+    {
+      "adaptation": "none; source bytes preserved",
+      "bytes": 10150,
+      "path": "originals/index_early_recounts.py",
+      "sha256": "0e14d6ef9fe61747c7224739cbae81c55f8f11ea62aa7c87ab9094c76ca223f5",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/index_early_recounts.py"
+    },
+    {
+      "adaptation": "none; source bytes preserved",
+      "bytes": 12293,
+      "path": "originals/box_geometry.py",
+      "sha256": "988ea146f001f93a0b5a1a2a8b78076d710b9bb494a2e894189e273391426f8c",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/box_geometry.py"
+    },
+    {
+      "adaptation": "none; source bytes preserved",
+      "bytes": 13107,
+      "path": "originals/box_geometry_early.py",
+      "sha256": "795fc221181a01654b96ec097ffd3d939900a8608083151b057f5fba43503fbf",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/box_geometry_early.py"
+    },
+    {
+      "adaptation": "none; source bytes preserved",
+      "bytes": 51313,
+      "path": "originals/accept_legacy_prefix.py",
+      "sha256": "a7c9304aa09a93083afd442d2f73de42fb68ac257ac98638789807a430311882",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/accept_legacy_prefix.py"
+    },
+    {
+      "adaptation": "none; source bytes preserved",
+      "bytes": 56400,
+      "path": "originals/index_legacy_tail_recounts.py",
+      "sha256": "1d019a0c9e2e27ba1c07480c045c4aec72d8f6e3e24a313419b6c6fec499e9af",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/index_legacy_tail_recounts.py"
+    },
+    {
+      "adaptation": "none; source bytes preserved",
+      "bytes": 28807,
+      "path": "originals/index_legacy_recounts.py",
+      "sha256": "984d04f0fcac56ebab3980ec30ccec02070f498b63b579fd9a8ebf4561ddc83f",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/index_legacy_recounts.py"
+    },
+    {
+      "adaptation": "none; source bytes preserved",
+      "bytes": 52328,
+      "path": "originals/portable-box-components.py",
+      "sha256": "050faf13075547f8c1c489939d28c4b39bf73686d9448cf2ca0044d119c40dc6",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/portable-box-components.py"
+    },
+    {
+      "adaptation": "none; only its bounded supervise function is reused",
+      "bytes": 27738,
+      "path": "originals/portable_run.py",
+      "sha256": "de2ae53528ea1819a5e8a41d5d4f5f811b377ce6155b40f2dc1e776485d2f2a7",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/portable-box-code/portable_run.py"
+    },
+    {
+      "adaptation": "none; only replacement_grades and RULE are reused",
+      "bytes": 6514,
+      "path": "originals/prepare_u02_hold_amendments.py",
+      "sha256": "9f924e1a119287d7606a30908211d236f6e3354401be928f529382e803446eec",
+      "source_path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/prepare_u02_hold_amendments.py"
+    }
+  ],
+  "schema": "portable-numerics-originals-v1"
+}

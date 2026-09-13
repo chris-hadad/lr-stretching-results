@@ -1,0 +1,28 @@
+# Closure of the complete original coordinate-bound-seven residual layer
+
+Let K be the original authenticated Frontier026 residual of 3,936,015 normalized evaluation keys, representing 4,360,228 original obligations under the precisely adopted exhaustive census/normalization bridge. The last source column is a coordinate-identification upper bound, not necessarily actual dimension. Exactly 805,975 source keys have bound seven. U05's exact cumulative cover has 2,893,795 keys / 3,251,548 original obligations and leaves 315,815 literal targets / 1,042,220 keys / 1,108,680 original obligations. All original bound-five and bound-six keys are already closed.
+
+U06 takes the 143,401 retained targets with inherited upper bound seven from that exact U05 list. The inherited bound is not used as an actual-dimension assertion. Every target receives a complete original hive/chart substitution, saturated integer inverse, full forced-affine-space check, row–hive map and explicit strict integer point. The formal verifier confirms that the chart is the entire forced affine solution and the strict point is strict in every nonconstant defining row. Hence its actual dimension is seven. Every primitive inward normal has squared norm at most six, giving c5>0 by the adopted complete codimension-two theorem; intrinsic c6,c7>0 also hold. Tensor count_boundary and original bare target are linked by the preserved entire-polynomial identity, not an assumed arbitrary affine isomorphism.
+
+The full sufficient criterion is SIX-COUNT-SEPTIC-CERTIFICATE.md. Both independent complete counting models actually count P(1),P(2),P(3),I(1),I(2),I(3), with true relative interiors in the checked chart. All 860,406 scalar pairs agree, and the independent audit rebinds every raw request/response to its complete object, lattice, grading and model. No interior is assumed zero. The full prior degree-seven coefficient identities leave only Z=I(4) unknown. Positivity of protected coefficients and integrality first bound Z. This suffices for 128,862 targets; the remaining 14,539 receive a full finite two-sided integer-box enclosure, checked independently without a numerical count oracle. Every branch is exhaustive and disjoint, all necessary rounding deductions are explicit, wholly feasible leaf boxes give a lower bound, and all leaf cardinalities give an upper bound.
+
+All 143,401 targets are thereby strictly ordinary-positive. The verified uniform lower bounds are
+
+    c1>=1/420, c2>=469/180, c3>=967/720, c4>=7/18,
+    c5>=1/720, c6>=1/180, c7>=1/5040, with c0=1.
+
+These are finite-class certified bounds, not asserted sharp coefficient minima or 143,401 full vectors. Exactly 292 final I4 intervals collapse, while 143,109 remain noncollapsed. A collapsed interval is not automatically zero. There are 52 nonempty second interiors and 7,463 nonempty third interiors, with maxima two and 74 respectively; all first interiors are counted zero. The initial sufficient c1 lower bound is negative on 14,539 targets, with minimum -701/60, but these are not actual negative ordinary coefficients. Every initial failure and subsequent repair is preserved before comparison.
+
+For coverage, compose the immutable complete U03 gap/tensor/determinant rewrite with U05's exact singleton-Horn reduction and the new positivity certificate at the resulting literal target. Every incoming positive scale remains part of the identity; all observed scales in these streams are one. No new normalization, equal-early-value cache or source-total subtraction is introduced.
+
+Both final implementations independently decode all sixteen original residual shards, verify expanded hashes, and check every one of the 3,936,015 original eight-column records. They compare complete U05 retained records, every newly covered and retained row, each original preimage multiplicity and each final target group. The second implementation reconstructs membership from complete certified bare triples using all 22 literal rank/partition bytes, rather than trusting the primary decision table or digest-only equality. Both find
+
+    U06 new cover: 612,637 source keys / 659,660 original obligations;
+    cumulative cover: 3,506,432 keys / 3,911,208 original obligations;
+    exact remainder: 172,414 literal targets / 429,583 keys / 449,020 obligations.
+
+The new cover contains all 526,588 source-bound-seven keys retained after U05. Adding the 279,387 already closed ones accounts for all 805,975 in the original layer. No bound-seven source key remains. New-covered bounds 7..12 have counts 526,588; 62,801; 20,010; 2,800; 423; 15. Remaining source bounds 8..12 have counts 263,783;125,168;36,035;4,415;182. Remaining target inherited bounds 8..12 have populations 99,212;51,477;18,424;3,150;151.
+
+DATA/U06/coverage/INDEPENDENT-AUDIT.json and the primary summary are PASS. All covered witnesses, full retained original records, exact IDs, target triples and preimage weights are supplied. The much larger lists of original bare-triple preimages were not regenerated; the accepted original exhaustive census/normalization premise remains the last provenance bridge. A multiplicity is not a list of triples. The historical campaign additive ledger remains 4,554; no independent campaign adoption of this return is asserted.
+
+The conclusion closes the original source coordinate-bound-seven layer and additional higher-bound keys sharing its positive targets. It is not all-size septic positivity, not recognition of every hidden degree-seven member, and not a minimal feasible/unknown or distinct-polynomial census. The original area-thirty box, whole ranks and full KTT remain unclosed. No ordinary-negative entire LR candidate was observed.

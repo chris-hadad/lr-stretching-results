@@ -1,0 +1,74 @@
+{
+  "schema": "finite-box-recipient-config-v1",
+  "tools": {
+    "reproduce": {
+      "path": "code/reproduce.py",
+      "bytes": 35094,
+      "sha256": "938933c8e466a2fb055693f513e02e2d8fff4b63beb9929c353d39cbdb22c449"
+    },
+    "extract_assets": {
+      "path": "extract_assets.py",
+      "bytes": 11695,
+      "sha256": "e39511ee19d89ba4992d5dd61d63382e1d9080a52790008a8fa7cb3308c7eb85"
+    }
+  },
+  "metadata": {
+    "chosen_terminals": {
+      "path": "code/metadata/chosen_terminals.json",
+      "bytes": 1004291,
+      "sha256": "befde4781652edbb93465e76667fa556c57bb4f7af4c484effcdc3b775f3be53"
+    },
+    "copy_plan": {
+      "path": "code/metadata/copy_plan.json",
+      "bytes": 3113500,
+      "sha256": "884d9037f8b3da1016900bfee77c4e51c1e6ef3ae388028cd895f80be6fbf4de"
+    },
+    "geometry_jobs": {
+      "path": "code/metadata/geometry_jobs.json",
+      "bytes": 186787,
+      "sha256": "d96925646894d9576db6ed58063490534744c5d950d06ac09b64d8cc49c43ae5"
+    },
+    "legacy_vectors": {
+      "path": "code/metadata/legacy_vectors.json",
+      "bytes": 944318,
+      "sha256": "225c66d78739d69780d97f7849101cfeb7191e153261da0864156a6ccb2657fa"
+    },
+    "source_manifest": {
+      "path": "code/metadata/source_manifest.json",
+      "bytes": 2219642,
+      "sha256": "43b25fc85517c0a8866401dc4f5de185580c6bea8efca3948681e0401cedcf19"
+    }
+  },
+  "assets": {
+    "catalog": {
+      "path": "DATA-ASSETS.json",
+      "bytes": 1977,
+      "sha256": "51dd65f2c9d68405660884b5cd600e35007b15c3447a99c56425e55e2512afa8"
+    },
+    "count": 10,
+    "members": 11607,
+    "expanded_bytes": 12349067632
+  },
+  "profiles": {
+    "inventory": {
+      "jobs_per_call": 16,
+      "max_calls": 1
+    },
+    "sample": {
+      "calibration_status": "CALIBRATED",
+      "numerical_seconds": 1800,
+      "jobs_per_call": 64,
+      "max_calls": 8,
+      "calibration_basis": "The exact recipient representative profile completed in 134.38154025003314 parent seconds on the recorded host; numerical allocation and job/call limits are unchanged."
+    },
+    "full": {
+      "calibration_status": "CALIBRATED",
+      "numerical_seconds": 14400,
+      "upstream_seconds": 7200,
+      "acceptance_chunk": 8192,
+      "jobs_per_call": 4096,
+      "max_calls": 256,
+      "calibration_basis": "Complete 3,561,385-site numerical export (9,078.727385 child seconds), complete upstream replay, and successful 8,192-terminal acceptance calibration; complete final acceptance and convenience-interface execution scopes are recorded separately in REPLAY.json."
+    }
+  }
+}

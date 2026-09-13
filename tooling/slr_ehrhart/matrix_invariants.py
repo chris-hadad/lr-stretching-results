@@ -1,4 +1,4 @@
-"""Exact graded matrix-invariant counts and their entire-family LR construction.
+"""Exact square and rectangular matrix-invariant counts and the square LR family.
 
 Adapted from the root-authored weighted-transport Weyl counter and A08/A09
 proofs. Standard library only; all memoization is local to one count call.
@@ -9,10 +9,13 @@ from __future__ import annotations
 from collections import Counter
 from functools import cache, lru_cache
 from itertools import permutations
-from math import comb, prod
+from math import comb, lcm, prod
 from typing import Any
 
-__all__ = ["MatrixCountLimitError", "matrix_invariant_count", "matrix_invariants_to_lr"]
+__all__ = [
+    "MatrixCountLimitError", "matrix_invariant_count",
+    "rectangular_matrix_invariant_count", "matrix_invariants_to_lr",
+]
 
 
 class MatrixCountLimitError(RuntimeError):
@@ -91,6 +94,61 @@ def matrix_invariant_count(
     if n == 1:
         return comb(t + m - 1, m - 1)
 
+    return _weyl_matrix_invariant_count(
+        n, n, m, t, t, max_states=max_states, max_transitions=max_transitions,
+    )
+
+
+def rectangular_matrix_invariant_count(
+    p: int, q: int, m: int, t: int, *,
+    max_states: int | None = None, max_transitions: int | None = None,
+) -> int:
+    """Count full SL_p x SL_q invariants of m p-by-q matrices in grade lcm(p,q)*t.
+
+    Require exact Python ints p,q,m>=1 and t>=0, with exact nonnegative
+    integer ceilings when supplied. Grade zero is 1. A single unequal-sided
+    matrix has no positive-grade invariants: the full-rank locus is one orbit
+    under the larger special linear group, so invariant polynomials are constant.
+
+    Square inputs delegate to matrix_invariant_count, preserving its elementary
+    cases, proved n/t swap, per-call caches and work accounting. Unequal inputs
+    use row target lcm(p,q)*t/p and column target lcm(p,q)*t/q, independent Weyl
+    profiles and their full Cartesian pairing; there is no rectangular rank/
+    stretch swap or rectangular LR constructor. Divisibility of the grade by
+    p and q is necessary but does not guarantee a nonzero invariant count.
+
+    Work ceilings, MatrixCountLimitError and per-call caching have the square
+    API's contract. For unequal sides, margin_profiles counts the sum of the
+    completed row and column profile lists, and permutations counts both Weyl
+    groups. No partial count is returned on exhaustion.
+    """
+    p = _integer(p, "p", 1)
+    q = _integer(q, "q", 1)
+    m = _integer(m, "m", 1)
+    t = _integer(t, "t", 0)
+    for name, limit in (("max_states", max_states), ("max_transitions", max_transitions)):
+        if limit is not None:
+            _integer(limit, name, 0)
+    if p == q:
+        return matrix_invariant_count(
+            p, m, t, max_states=max_states, max_transitions=max_transitions,
+        )
+    if t == 0:
+        return 1
+    if m == 1:
+        return 0
+    entry_degree = lcm(p, q) * t
+    return _weyl_matrix_invariant_count(
+        p, q, m, entry_degree // p, entry_degree // q,
+        max_states=max_states, max_transitions=max_transitions,
+    )
+
+
+def _weyl_matrix_invariant_count(
+    p: int, q: int, m: int, row_target: int, column_target: int, *,
+    max_states: int | None, max_transitions: int | None,
+) -> int:
+    """Shared weighted-table kernel; callers validate and select the exact grade."""
     statistics = {"states": 0, "transitions": 0, "permutations": 0,
                   "allocation_orbits": 0, "represented_labeled_allocations": 0,
                   "residual_terms": 0, "schedule_cache_hits": 0,
@@ -103,17 +161,24 @@ def matrix_invariant_count(
             raise MatrixCountLimitError(resource, limit, statistics)
         statistics[resource] += 1
 
-    signs: Counter[tuple[int, ...]] = Counter()
-    for sigma in permutations(range(n)):
-        charge("transitions")
-        statistics["permutations"] += 1
-        margins = tuple(sorted(t + i - sigma[i] for i in range(n)))
-        if margins[0] < 0:
-            continue
-        inversions = sum(sigma[i] > sigma[j] for i in range(n) for j in range(i + 1, n))
-        signs[margins] += (-1) ** inversions
-    profiles = [(margins, sign) for margins, sign in signs.items() if sign]
-    statistics["margin_profiles"] = len(profiles)
+    def weyl_profiles(rank: int, target: int):
+        signs: Counter[tuple[int, ...]] = Counter()
+        for sigma in permutations(range(rank)):
+            charge("transitions")
+            statistics["permutations"] += 1
+            margins = tuple(sorted(target + i - sigma[i] for i in range(rank)))
+            if margins[0] < 0:
+                continue
+            inversions = sum(sigma[i] > sigma[j] for i in range(rank)
+                             for j in range(i + 1, rank))
+            signs[margins] += (-1) ** inversions
+        profiles = [(margins, sign) for margins, sign in signs.items() if sign]
+        statistics["margin_profiles"] += len(profiles)
+        return profiles
+
+    row_profiles = weyl_profiles(p, row_target)
+    square = p == q and row_target == column_target
+    column_profiles = row_profiles if square else weyl_profiles(q, column_target)
 
     @cache
     def weight(entry: int) -> int:
@@ -203,11 +268,19 @@ def matrix_invariant_count(
         return answer
 
     answer = 0
-    for left, (rows, coefficient) in enumerate(profiles):
-        for right in range(left, len(profiles)):
-            columns, column_coefficient = profiles[right]
-            value = tables(tuple(x for x in rows if x), tuple(x for x in columns if x))
-            answer += (1 if left == right else 2) * coefficient * column_coefficient * value
+    if square:
+        # Reuse the original square traversal and its exact work accounting.
+        for left, (rows, coefficient) in enumerate(row_profiles):
+            for right in range(left, len(column_profiles)):
+                columns, column_coefficient = column_profiles[right]
+                value = tables(tuple(x for x in rows if x), tuple(x for x in columns if x))
+                answer += (1 if left == right else 2) * coefficient * column_coefficient * value
+    else:
+        for rows, coefficient in row_profiles:
+            for columns, column_coefficient in column_profiles:
+                value = tables(tuple(x for x in rows if x), tuple(x for x in columns if x))
+                answer += coefficient * column_coefficient * value
+
     if answer < 0:
         raise ArithmeticError("the complete matrix-invariant count cannot be negative")
     return answer
@@ -240,7 +313,7 @@ def matrix_invariants_to_lr(n: int, m: int) -> dict[str, Any]:
             "entry_degree_per_stretch": n,
             "scope": "entire ordinary LR family: c^(t*lambda)_(t*mu,t*nu) = dim R(n,m)_(n*t)",
             "source_bounds": {"n_min": 1, "m_min": 2, "t_min": 0},
-            "proof": "proofs/matrix-invariants.md",
+            "proof": "methods/astra-wildcard-002-2026-09-07/delegates/actual-lr-geometry/A08-E6-EXTENSION.md",
             "dimension": None,
             "degree": None,
         },

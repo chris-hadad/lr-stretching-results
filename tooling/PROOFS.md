@@ -149,3 +149,23 @@ spans and a common-type Minkowski polynomial identity are supplied, every
 monomial exponent must satisfy the subset span-rank caps. The tool computes
 that necessary support. It does not establish the premises, claim each allowed
 monomial occurs or evaluate any LR coefficient.
+
+## Current family and scalar additions
+
+The [principal split sector](proofs/rank6-split.md) checks all 51 parent minima
+before applying its complete rank-six product formula. Its boundary faces keep
+their actual lower degrees. The [clipped rank-eight family](proofs/rank8-clipped.md)
+has a complete degree-21 bivariate certificate on its stated parameter cone,
+with full mathematical source data and later adoption scope included.
+
+[Two-width bundles](proofs/two-widths.md) provide complete abstract lattice
+counts and vectors; a separate full map is required for an LR interpretation.
+They may have negative ordinary coefficients. The
+[rectangular matrix API](proofs/rectangular-matrix-invariants.md) evaluates
+general exact scalar Weyl counts at entry degree lcm(p,q)*t. Its domain is
+broader than the specialized square LR constructor; it supplies no general
+rectangular polynomial or positivity theorem.
+
+The optional [complete H-system counter](cpp/README.md) counts every supplied
+row inside caller-proved finite bounds. It does not establish the chart,
+lattice, dimension or true-interior premises of an LR recount.

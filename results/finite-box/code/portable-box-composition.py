@@ -1,0 +1,939 @@
+#!/usr/bin/env python3
+"""Serial portable composition replay over unchanged copied checkers.
+
+run --data-root DATA --code-root CODE --work-root NEW [--max-jobs N]
+run --data-root DATA --code-root CODE --work-root WORK --resume [--max-jobs N]
+finalize --data-root DATA --code-root CODE --work-root WORK --acceptances FILES...
+
+The ordinary run stops at READY_FOR_EARNED_ACCEPTANCES. It does not create
+terminal acceptance evidence. All actual checker executions use portable_run.py;
+the controller records its own new requests and actual launcher exits. No old
+receipt is read, relocated, relabelled, or rewritten. Each checker has at most
+120 seconds; source hashing by the portable launcher has a separate wall limit.
+"""
+from __future__ import annotations
+
+import argparse
+from contextlib import contextmanager
+from datetime import datetime, timezone
+import hashlib
+import json
+import math
+import os
+from pathlib import Path
+import re
+import signal
+import sqlite3
+import stat
+import subprocess
+import sys
+import time
+
+SCHEMA = "portable-composition-controller-v1"
+EXECUTION_SCHEMA = "portable-box-execution-v1"
+CHECKER_SCHEMA = "frontier-026-literal-composition-v1"
+CHECKER = "verify_box_composition.py"
+GATES = ("original", "targets", "horn", "terminals", "certificates")
+PHASES = ("membership", "original-weights", "horn-weights", "remaining")
+ESSENTIAL_CODE = {
+    "portable_run.py": "de2ae53528ea1819a5e8a41d5d4f5f811b377ce6155b40f2dc1e776485d2f2a7",
+    CHECKER: "9e3f4bfac1ca9f57e4087ec7a37d06bdb4000d988312bf152a0ac08721cfc9c3",
+    "box_geometry.py": "988ea146f001f93a0b5a1a2a8b78076d710b9bb494a2e894189e273391426f8c",
+    "box_geometry_early.py": "795fc221181a01654b96ec097ffd3d939900a8608083151b057f5fba43503fbf",
+    "verify_box_composition.pre_repair_969d83d6845340e2.py": "969d83d6845340e2811351da790e1875a09a7ea4b169599e3bc0701c056005ef",
+    "verify_box_composition.pre_export_f50aac462a517665.py": "f50aac462a5176655301961014e86eb61b3aa6fc24fd8413b801c67ebead7844",
+}
+
+
+class Refused(ValueError):
+    pass
+
+
+class Unresolved(RuntimeError):
+    pass
+
+
+def need(ok, message):
+    if not ok:
+        raise Refused(message)
+
+
+def integer(value):
+    need(type(value) is int, "Exact integer required")
+    return value
+
+
+def unique(pairs):
+    out = {}
+    for k,v in pairs:
+        need(k not in out, "Duplicate JSON key")
+        out[k] = v
+    return out
+
+
+def decode(raw):
+    return json.loads(raw, object_pairs_hook=unique)
+
+
+def encoded(value):
+    return json.dumps(value, sort_keys=True, separators=(",", ":"), allow_nan=False).encode()
+
+
+def digest(raw):
+    return hashlib.sha256(raw).hexdigest()
+
+
+def utc():
+    return datetime.now(timezone.utc).isoformat()
+
+
+def no_links(path):
+    path = Path(path).absolute()
+    need(not any(p.is_symlink() for p in (path, *path.parents)), "Symlink path refused")
+    return path.resolve()
+
+
+def relative(value):
+    need(type(value) is str and value and "\\" not in value and ":" not in value
+         and all(ord(c) >= 32 for c in value), "Invalid relative source")
+    p = Path(value)
+    need(not p.is_absolute() and str(p) == value and all(x not in (".", "..") for x in p.parts), "Escaping source name")
+    return value
+
+
+def within(path, roots, exists=True):
+    path = no_links(path)
+    need(any(path.is_relative_to(root) for root in roots), "Artifact/evidence escapes explicit portable roots")
+    if exists:
+        need(path.is_file(), "Missing required artifact: " + str(path))
+    return path
+
+
+def signature(path):
+    s = Path(path).lstat()
+    need(stat.S_ISREG(s.st_mode), "A regular file is required")
+    return [s.st_dev, s.st_ino, s.st_size, s.st_mtime_ns, s.st_ctime_ns]
+
+
+def pin(path):
+    path = no_links(path)
+    before = signature(path)
+    h = hashlib.sha256()
+    with path.open("rb") as stream:
+        while raw := stream.read(1024*1024):
+            h.update(raw)
+    need(signature(path) == before, "File changed during hashing")
+    return {"path":str(path), "bytes":before[2], "sha256":h.hexdigest()}
+
+
+def check_pin(value, roots=None):
+    if roots is not None:
+        within(value["path"], roots)
+    need(pin(value["path"]) == value, "Source/artifact bytes changed: " + value["path"])
+    return value
+
+
+def read(path):
+    return decode(Path(path).read_bytes())
+
+
+def write_new(path, value):
+    with Path(path).open("xb") as stream:
+        stream.write(encoded(value)+b"\n");stream.flush();os.fsync(stream.fileno())
+
+
+def atomic_state(path, value):
+    temporary = Path(path).with_name(Path(path).name+f".tmp-{os.getpid()}")
+    write_new(temporary, value)
+    os.replace(temporary, path)
+    fd = os.open(str(Path(path).parent), os.O_RDONLY)
+    try:
+        os.fsync(fd)
+    finally:
+        os.close(fd)
+
+
+def alive(pid):
+    if type(pid) is not int or pid <= 0:
+        return False
+    try:
+        os.kill(pid, 0)
+        return True
+    except ProcessLookupError:
+        return False
+
+
+def group_alive(pgid):
+    if type(pgid) is not int or pgid <= 0:
+        return False
+    try:
+        os.killpg(pgid, 0)
+        return True
+    except ProcessLookupError:
+        return False
+
+
+def source_package(code):
+    mapping_pin = pin(code/"SOURCE-MAP.json")
+    mapping = read(mapping_pin["path"])
+    need(mapping["schema"] == "portable-box-source-copies-v1", "Wrong portable code map")
+    sources = {}
+    for row in mapping["copies"]:
+        name = relative(row["path"])
+        need(name not in sources, "Duplicate portable code identity")
+        current = pin(code/name)
+        need(current["sha256"] == row["portable_sha256"] and current["bytes"] == row["portable_bytes"], "Copied code differs from its source map")
+        sources[name] = current
+    for name, expected in ESSENTIAL_CODE.items():
+        current = pin(code/name)
+        need(current["sha256"] == expected, "Unreviewed portable code epoch: " + name)
+        sources[name] = current
+    allowed = {Path(n).name for n in sources if "/" not in n} | {"portable_tests.py"}
+    need(all(p.name in allowed for p in code.iterdir() if p.is_file() and p.suffix == ".py"),
+         "Unmapped importable Python file in the copied code root")
+    check_pin(mapping_pin)
+    return mapping_pin, sources
+
+
+def validate_manifest(manifest, checker_sha):
+    need(manifest["schema"] == CHECKER_SCHEMA and manifest["kind"] == "manifest" and
+         manifest["status"] == "FROZEN_INPUTS_ONLY" and manifest["checker_sha256"] == checker_sha,
+         "No fresh manifest from the pinned checker")
+    sources = manifest["sources"]
+    need(type(sources) is dict and sources and set(manifest["gate_sources"]) == set(GATES), "Incomplete source/gate roster")
+    for name,spec in sources.items():
+        relative(name)
+        need(type(spec["index"]) is bool and spec["format"] in ("tsv","jsonl","records","sources","ids","premise") and
+             spec["gate"] in (None,*GATES) and type(spec["role"]) is str and spec["role"], "Malformed source role")
+        need(type(spec["bytes"]) is int and spec["bytes"] >= 0 and re.fullmatch(r"[a-f0-9]{64}", spec["sha256"]), "Invalid source byte declaration")
+        need(spec["index"] == (spec["format"] != "premise") and (spec["gate"] is None or spec["index"]), "Wrong index/source role")
+    for gate,names in manifest["gate_sources"].items():
+        need(type(names) is list and len(set(names)) == len(names) and
+             set(names) == {n for n,s in sources.items() if s["gate"] == gate}, "Missing/extra gate source identity")
+    return sorted(n for n,s in sources.items() if s["index"])
+
+
+def blank_progress():
+    return {"manifest":None, "snapshot":None, "index":{}, "verify":{}, "verification_reports":[],
+            "requirements":None, "phases":{}, "acceptance":None, "final":None, "database_after":None,
+            "additional_sources":{}}
+
+
+def next_task(progress, manifest, snapshot, config, finalize=False):
+    if progress["manifest"] is None:
+        return {"command":"freeze"}
+    for name in sorted(n for n,s in manifest["sources"].items() if s["index"]):
+        state = progress["index"].get(name, {"stop":0,"complete":False})
+        if not state["complete"]:
+            return {"command":"index", "source":name, "start":state["stop"], "limit":config["index_limit"]}
+    if progress["snapshot"] is None:
+        return {"command":"seal"}
+    for gate in GATES:
+        for name in manifest["gate_sources"][gate]:
+            total = integer(snapshot["source_rows"][name])
+            state = progress["verify"].get(gate, {}).get(name, {"stop":0,"complete":False})
+            if not state["complete"]:
+                return {"command":"verify", "gate":gate, "source":name, "start":state["stop"],
+                        "limit":min(config["verify_limit"], total-state["stop"]) if total else 1}
+    if progress["requirements"] is None:
+        return {"command":"requirements"}
+    for phase in PHASES:
+        if phase not in progress["phases"]:
+            return {"command":"aggregate", "phase":phase}
+    if finalize:
+        if progress["acceptance"] is None:
+            return {"command":"aggregate", "phase":"acceptance"}
+        if progress["final"] is None:
+            return {"command":"aggregate", "phase":"final"}
+    return None
+
+
+METADATA_ADAPTER_SHA = "02811802f3130bcf7bcd44dd7d6f3cd25066e0f86c3ce3fed79723471ffeab30"
+
+
+def metadata_task(task):
+    return task.get("command") == "aggregate" and task.get("phase") in ("acceptance","final")
+
+
+def task_limits(config,task):
+    if metadata_task(task):return 600,660,900
+    return config["budget_seconds"],config["checker_timeout"],config["launcher_timeout"]
+
+
+def metadata_source(config):
+    expected=Path(__file__).resolve().with_name("composition_metadata.py")
+    limits=[config[k] for k in ("metadata_budget_seconds","metadata_checker_timeout","metadata_launcher_timeout")]
+    need(all(type(x) is int for x in limits) and limits==[600,660,900],"Changed exact finite metadata resource profile")
+    need(config["controller_root"] == str(expected.parent) and config["metadata_adapter"] == pin(expected)
+         and config["metadata_adapter"]["sha256"] == METADATA_ADAPTER_SHA,"Wrong exact metadata adapter/controller root")
+    return config["metadata_adapter"]
+
+
+def metadata_profile(config):
+    import importlib.util
+    source=metadata_source(config)
+    spec=importlib.util.spec_from_file_location("_exact_composition_metadata",source["path"])
+    module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+    _,_,_,profile=module.build(Path(config["code_root"]))
+    need(profile["adapter"]==source,"Metadata invocation source changed")
+    return profile
+
+
+def launcher_command(config,task,words,identity):
+    timeout=task_limits(config,task)[1]
+    if metadata_task(task):
+        source=metadata_source(config)
+        start=[config["python"]["path"],"-I","-S","-B",source["path"],"run","--core-code-root",config["code_root"]]
+    else:start=[config["python"]["path"],"-B",str(Path(config["code_root"])/"portable_run.py"),"run"]
+    return start+["--data-root",config["data_root"],"--work-root",config["work_root"],"--id",identity,
+                  "--checker",CHECKER,"--timeout",str(timeout),"--",*words]
+
+
+def checker_arguments(task, progress, config, acceptance_files=()):
+    words = [task["command"], "--root", str(Path(config["data_root"])/"namespaces"),
+             "--budget-seconds", str(task_limits(config,task)[0])]
+    command = task["command"]
+    if command in ("index","seal"):
+        words += ["--manifest", progress["manifest"]["path"], "--database", config["database"]]
+    elif command != "freeze":
+        words += ["--snapshot", progress["snapshot"]["path"]]
+    if command in ("index","verify"):
+        words += ["--source", task["source"], "--start", str(task["start"]), "--limit", str(task["limit"])]
+    if command == "verify":
+        words += ["--gate", task["gate"]]
+    if command in ("requirements","aggregate"):
+        words += ["--reports", *[r["path"] for r in progress["verification_reports"]]]
+    if command == "aggregate":
+        words += ["--phase", task["phase"]]
+        if task["phase"] == "acceptance":
+            need(acceptance_files, "Explicit earned acceptance files are required")
+            words += ["--acceptances", *[p["path"] for p in acceptance_files]]
+        elif task["phase"] == "final":
+            words += ["--aggregates", *[progress["phases"][p]["path"] for p in PHASES], progress["acceptance"]["path"]]
+    return words
+
+
+def database_stamp(database):
+    path = no_links(database)
+    need(not path.stat().st_mode & 0o222, "Sealed SQLite database must remain read-only")
+    return signature(path)
+
+
+@contextmanager
+def database_read(database):
+    path = no_links(database)
+    need(path.is_file(), "Missing actual SQLite database")
+    connection = sqlite3.connect(path.as_uri()+"?mode=ro", uri=True)
+    try:
+        yield connection
+    finally:
+        connection.close()
+
+
+def checked_ids(database, source, start, stop):
+    with database_read(database) as db:
+        return [r[0] for r in db.execute("SELECT id FROM records WHERE source=? AND ordinal>=? AND ordinal<? ORDER BY ordinal", (source,start,stop))]
+
+
+def validate_prefix(task, report, expected_ids, total=None):
+    need(report["source"] == task["source"] and integer(report["start"]) == task["start"], "Slice resumed from a different exact cursor")
+    start,stop = task["start"],integer(report["stop"])
+    ceiling = start+task["limit"] if total is None else min(total,start+task["limit"])
+    need(start <= stop <= ceiling and report["checked_ids"] == expected_ids and len(expected_ids) == stop-start,
+         "Omitted/duplicated/foreign checked IDs or an unearned cursor advance")
+    if total is not None:
+        need(integer(report["total"]) == total and report["gate"] == task["gate"], "Wrong snapshot source/gate total")
+    if report["status"] == "PARTIAL":
+        need(not report.get("complete",False), "PARTIAL indexing cannot declare complete")
+        if stop == start:
+            return "NO_PROGRESS"
+        return "CHECKED_PREFIX"
+    if task["command"] == "index":
+        need(report["status"] == "INDEXED_ONLY" and report["complete"] is True, "No exact EOF indexing certificate")
+    else:
+        need(report["status"] == "SLICE_VERIFIED_CONDITIONAL_ON_TERMINALS" and start == 0 and stop == total,
+             "Wrong complete-source verification status")
+    return "SOURCE_COMPLETE"
+
+
+class JSONReader:
+    def __init__(self, stream):
+        self.stream,self.buffer,self.position,self.eof = stream,"",0,False
+        self.decoder = json.JSONDecoder(object_pairs_hook=unique)
+
+    def fill(self):
+        self.buffer = self.buffer[self.position:];self.position = 0
+        block = self.stream.read(1024*1024);self.eof = not block;self.buffer += block
+        need(len(self.buffer) < 16_000_000, "Oversized individual requirements value")
+
+    def peek(self):
+        while True:
+            while self.position < len(self.buffer) and self.buffer[self.position].isspace():self.position += 1
+            if self.position < len(self.buffer) or self.eof:return self.buffer[self.position:self.position+1]
+            self.fill()
+
+    def char(self, expected):
+        need(self.peek() == expected, "Malformed requirements JSON punctuation");self.position += 1
+
+    def value(self):
+        self.peek()
+        while True:
+            try:
+                value,end = self.decoder.raw_decode(self.buffer,self.position)
+                if end == len(self.buffer) and not self.eof:self.fill();continue
+                self.position = end;return value
+            except json.JSONDecodeError:
+                need(not self.eof, "Truncated requirements JSON");self.fill()
+
+
+def requirements_summary(path):
+    metadata,keys,count,last,identity_hash = {},set(),0,None,hashlib.sha256()
+    with Path(path).open(encoding="utf-8") as stream:
+        r = JSONReader(stream);r.char("{")
+        while r.peek() != "}":
+            key = r.value();need(type(key) is str and key not in keys, "Duplicate requirement metadata key")
+            keys.add(key);r.char(":")
+            if key == "requirements":
+                r.char("[")
+                while r.peek() != "]":
+                    value = r.value();need(isinstance(value,dict),"Malformed requirement record")
+                    tid = value.get("terminal_id")
+                    need(type(tid) is str and (last is None or last < tid) and
+                         value.get("predicate") == "entire_stretching_polynomial_nonnegative" and isinstance(value.get("binding"),dict),
+                         "Requirements are duplicated, unordered, or malformed")
+                    identity_hash.update(encoded(value)+b"\n");count += 1;last = tid
+                    if r.peek() == "]":break
+                    r.char(",");need(r.peek() != "]", "Trailing requirement comma")
+                r.char("]")
+            else:
+                metadata[key] = r.value()
+            if r.peek() == "}":break
+            r.char(",");need(r.peek() != "}", "Trailing metadata comma")
+        r.char("}");need(r.peek() == "" and r.eof, "Trailing requirements data")
+    need("requirements" in keys and integer(metadata["start"]) == 0 and
+         integer(metadata["stop"]) == integer(metadata["total"]) == integer(metadata["required_terminal_count"]) == count,
+         "Requirements export is only a slice or has an omitted identity")
+    metadata["exported_requirement_count"] = count
+    metadata["canonical_requirement_stream_sha256"] = identity_hash.hexdigest()
+    return metadata
+
+
+def source_recheck(config, manifest, snapshot, additional_sources=None):
+    root = Path(config["data_root"])/"namespaces"
+    result = []
+    for name,spec in sorted(manifest["sources"].items()):
+        value = pin(within(root/relative(name), [root]))
+        need((value["sha256"],value["bytes"]) == (spec["sha256"],spec["bytes"]), "Frozen literal source changed: "+name)
+        result.append(value)
+    for name,spec in sorted((additional_sources or {}).items()):
+        value = pin(within(root/relative(name),[root]))
+        need(value == spec,"Additional checker-declared mathematical source changed")
+        result.append(value)
+    need(database_stamp(config["database"]) == snapshot["database_stamp"], "Sealed database identity changed")
+    database = pin(config["database"])
+    need({k:database[k] for k in ("bytes","sha256")} == snapshot["database"], "Final sealed database byte hash changed")
+    return {"sources":result,"database":database,"database_stamp":snapshot["database_stamp"],"checked_utc":utc()}
+
+
+def frozen_acceptance_inputs(config,record):
+    tool_pins=record["explicit_tool_pins"]
+    need(type(tool_pins) is list and len(tool_pins)<=1,"Only the explicitly supplied compiler may join the frozen Python tool")
+    tools={p["path"]:check_pin(p) for p in [config["python"],*tool_pins]}
+    for value in record["acceptance_files"]:check_pin(value,plan_roots(config))
+    for value in record["evidence_files"]:
+        if value["path"] in tools:need(value==tools[value["path"]],"Changed exact frozen tool evidence")
+        else:check_pin(value,plan_roots(config))
+    return tool_pins
+
+
+def plan_roots(config):
+    return [Path(config[k]) for k in ("data_root","code_root","controller_root","work_root")]
+
+
+def make_request(config, plan_pin, task, progress, number, acceptance_files=()):
+    identity = f"composition-{number:06d}"
+    work,code = Path(config["work_root"]),Path(config["code_root"])
+    words = checker_arguments(task,progress,config,acceptance_files)
+    command = launcher_command(config,task,words,identity)
+    return {"schema":SCHEMA,"id":identity,"number":number,"plan":plan_pin,"task":task,
+            "command":command,"checker_args":words,"output_root":str(work/identity),
+            "control_root":str(work/"control"/identity),"created_utc":utc()}
+
+
+def kill_owned_group(pgid):
+    if not group_alive(pgid):return True
+    for sig,delay in ((signal.SIGTERM,.5),(signal.SIGKILL,2)):
+        try:os.killpg(pgid,sig)
+        except ProcessLookupError:return True
+        until = time.monotonic()+delay
+        while group_alive(pgid) and time.monotonic() < until:time.sleep(.02)
+        if not group_alive(pgid):return True
+    return False
+
+
+def active_checker_group(request):
+    output = Path(request["output_root"])
+    path = output/"LAUNCH.json"
+    if not path.exists():return None
+    launch = read(path)
+    config_path = output/"CONFIGURATION.json"
+    need(config_path.is_file(), "Checker launch lacks its fresh configuration")
+    command = launch["command"]
+    need(command[-4:] == ["--configuration",str(config_path),"--configuration-sha256",pin(config_path)["sha256"]] and
+         command[-5] == "_child" and integer(launch["pid"]) == integer(launch["pgid"]) > 0,
+         "Unrecognized current checker process identity")
+    return launch["pgid"]
+
+
+def launcher_helper(request_path, request_sha):
+    need(pin(request_path)["sha256"] == request_sha, "Launcher request bytes changed")
+    request = read(request_path);config = read(check_pin(request["plan"])["path"])
+    need(request["schema"] == SCHEMA and config["schema"] == SCHEMA and
+         digest(Path(__file__).read_bytes()) == config["controller_sha256"], "Wrong controller/helper source epoch")
+    control,output = Path(request["control_root"]),Path(request["output_root"])
+    need(control == Path(config["work_root"])/"control"/request["id"] and output == Path(config["work_root"])/request["id"] and
+         request_path == control/"REQUEST.json", "Launcher request escaped its exact workspace")
+    command = request["command"]
+    expected_command = launcher_command(config,request["task"],request["checker_args"],request["id"])
+    need(command == expected_command,"Helper launches only the exact declared portable runner request")
+    check_pin(config["python"]);metadata_source(config)
+    check_pin(config["source_map"])
+    for value in config["code_pins"].values():check_pin(value,[Path(config["code_root"])])
+    write_new(control/"HELPER-LAUNCH.json", {"pid":os.getpid(),"pgid":os.getpgrp(),"request_sha256":request_sha,"started_utc":utc()})
+    process = None;disposition = "launch_error";cleanup = False;started = time.monotonic()
+    try:
+        with (control/"launcher-stdout.txt").open("xb") as out,(control/"launcher-stderr.txt").open("xb") as err:
+            process = subprocess.Popen(command,cwd=config["work_root"],stdout=out,stderr=err,start_new_session=True)
+            write_new(control/"LAUNCHER.json",{"pid":process.pid,"pgid":process.pid,"argv":command,"started_utc":utc()})
+            end = time.monotonic()+task_limits(config,request["task"])[2]
+            try:
+                while process.poll() is None and time.monotonic() < end:
+                    try:process.wait(timeout=.5)
+                    except subprocess.TimeoutExpired:pass
+                disposition = "exited" if process.poll() is not None else "timeout"
+            except KeyboardInterrupt:
+                disposition = "interrupted"
+            if disposition != "exited":
+                process.send_signal(signal.SIGINT)
+                try:process.wait(timeout=5)
+                except subprocess.TimeoutExpired:pass
+            if process.poll() is None:kill_owned_group(process.pid)
+            try:process.wait(timeout=2)
+            except subprocess.TimeoutExpired:pass
+            checker_group = active_checker_group(request)
+            checker_clean = checker_group is None or kill_owned_group(checker_group)
+            cleanup = kill_owned_group(process.pid) and checker_clean and process.poll() is not None
+    finally:
+        write_new(control/"LAUNCHER-EXIT.json",{"schema":SCHEMA,"request_sha256":request_sha,
+                   "launcher_pid":process.pid if process else None,"launcher_returncode":process.returncode if process else None,
+                   "disposition":disposition,"cleanup_verified":cleanup,"elapsed_seconds":time.monotonic()-started,"ended_utc":utc()})
+    return 0 if disposition == "exited" and cleanup and process.returncode in (0,2) else 2
+
+
+class Controller:
+    def __init__(self, config, state, plan_pin):
+        self.config,self.state,self.plan_pin = config,state,plan_pin
+        self.work,self.code,self.root = Path(config["work_root"]),Path(config["code_root"]),Path(config["data_root"])/"namespaces"
+        self.progress,self.manifest,self.snapshot = blank_progress(),None,None
+        self.acceptance_files = []
+        self.finalize = False
+        self.acceptance_tool_pins = []
+        self.artifact_cache = {}
+
+    def save(self):
+        self.state["progress"] = self.progress
+        self.state["next_task"] = next_task(self.progress,self.manifest,self.snapshot,self.config,self.finalize)
+        atomic_state(self.work/"STATE.json",self.state)
+
+    def bound(self, value, roots=None):
+        path = within(value["path"],roots or [self.work])
+        key = str(path);stamp = signature(path)
+        if key not in self.artifact_cache or self.artifact_cache[key][0] != stamp:
+            actual = pin(path);self.artifact_cache[key] = (stamp,actual)
+        need(self.artifact_cache[key][1] == value,"Changed actual execution artifact")
+        return value
+
+    def stable_code(self):
+        need(digest(Path(__file__).read_bytes()) == self.config["controller_sha256"], "Controller source changed; use a fresh epoch")
+        self.bound(self.plan_pin);metadata_source(self.config)
+        for value in self.config["code_pins"].values():self.bound(value,[self.code])
+        self.bound(self.config["source_map"],[self.code])
+        mapping,sources = source_package(self.code)
+        need(mapping == self.config["source_map"] and sources == self.config["code_pins"],
+             "The copied code package or importable file roster changed")
+        need(self.config["python"] == pin(Path(sys.executable).resolve()),"The explicitly recorded Python interpreter changed")
+
+    def execution(self, request, check_live=True):
+        control,output = Path(request["control_root"]),Path(request["output_root"])
+        helper_path,exit_path = control/"HELPER-LAUNCH.json",control/"LAUNCHER-EXIT.json"
+        if not helper_path.exists() or not exit_path.exists() or not (output/"EXECUTION.json").exists():
+            raise Unresolved("Pending attempt lacks a complete actual launcher/execution record; never relaunch or fabricate it")
+        helper,owner_exit,launcher = read(helper_path),read(exit_path),read(control/"LAUNCHER.json")
+        need(integer(helper["pid"]) == integer(helper["pgid"]) > 0 and
+             helper["request_sha256"] == pin(control/"REQUEST.json")["sha256"] and
+             integer(launcher["pid"]) == integer(launcher["pgid"]) > 0,
+             "Wrong actual helper/launcher request identity")
+        if check_live and (alive(helper["pid"]) or group_alive(launcher["pgid"])):
+            raise Unresolved("Exact previous launcher/helper runtime is still present")
+        need(owner_exit["schema"] == SCHEMA and owner_exit["request_sha256"] == pin(control/"REQUEST.json")["sha256"] and
+             owner_exit["launcher_pid"] == launcher["pid"] == launcher["pgid"] and launcher["argv"] == request["command"] and
+             owner_exit["disposition"] == "exited" and owner_exit["cleanup_verified"] is True,
+             "Actual portable launcher did not complete and clean up")
+        execution_pin = pin(output/"EXECUTION.json");e = read(execution_pin["path"])
+        need(e["schema"] == EXECUTION_SCHEMA and e["checker"] == CHECKER and e["cleanup_verified"] is True and
+             e["fixed_inputs_unchanged"] is True and not e["source_errors"] and e["disposition"] == "exited" and
+             e["supervisor_error"] is None and integer(e["pid"]) == integer(e["pgid"]) > 0,
+             "Missing, changed, interrupted, or unresolved checker execution")
+        if check_live:
+            need(not group_alive(e["pgid"]), "Checker process group is unresolved")
+        cp = self.bound(e["configuration"]);c = read(cp["path"])
+        need(cp["path"] == str(output/"CONFIGURATION.json") and c["schema"] == EXECUTION_SCHEMA and
+             c["id"] == request["id"] and c["checker"] == CHECKER and c["data_root"] == self.config["data_root"] and
+             c["work_root"] == str(self.work) and c["output_root"] == str(output) and c["invocation_cwd"] == str(self.work) and
+             c["requested_checker_args"] == request["checker_args"] and c["checker_argv"] == request["checker_args"]+["--output",str(output/"result.json")],
+             "Actual portable configuration/argv belongs to another request/root")
+        need(c["help_only"] is False and c["command"] == request["task"]["command"] and
+             c["source_map"] == self.config["source_map"] and c["timeout_seconds"] == task_limits(self.config,request["task"])[1], "Wrong portable source/configuration epoch")
+        expected_copies = {k:v for k,v in self.config["code_pins"].items() if k != "portable_run.py"}
+        need(c["copied_sources"] == expected_copies, "Actual copied source roster differs")
+        for value in c["fixed_inputs"]:
+            roots = plan_roots(self.config)
+            if value["path"] == self.config["python"]["path"]:check_pin(value)
+            else:self.bound(value,roots)
+        outputs = {p["path"]:p for p in e["outputs"]}
+        need(len(outputs) == len(e["outputs"]), "Duplicate execution output identity")
+        for value in outputs.values():
+            need(Path(value["path"]).parent == output,"Execution output escaped its fresh directory")
+            self.bound(value)
+        result_path = str(output/"result.json")
+        need(result_path in outputs and str(output/"LAUNCH.json") in outputs and str(output/"APPLIED-CONFIGURATION.json") in outputs,
+             "Missing actual result, launch, or applied configuration")
+        launch,applied = read(output/"LAUNCH.json"),read(output/"APPLIED-CONFIGURATION.json")
+        need(launch["pid"] == launch["pgid"] == applied["pid"] == e["pid"] and applied["before_mathematical_calls"] is True and
+             applied["configuration"] == cp and launch["command"][-5:] == ["_child","--configuration",cp["path"],"--configuration-sha256",cp["sha256"]],
+             "Wrong actual checker launch/applied configuration identity")
+        if metadata_task(request["task"]):
+            profile=metadata_profile(self.config)
+            expected_command=[self.config["python"]["path"],"-I","-S","-B",profile["adapter"]["path"],"--core-code-root",self.config["code_root"],"_child",
+                "--configuration",cp["path"],"--configuration-sha256",cp["sha256"]]
+            need(c.get("metadata_adapter")==profile and applied.get("metadata_adapter")==profile and
+                 launch["command"]==expected_command and profile["adapter"] in c["fixed_inputs"],"Wrong actual metadata child/profile")
+        else:need("metadata_adapter" not in c and "metadata_adapter" not in applied,"Metadata adapter used on a scientific operation")
+        base = str(self.root/"base")
+        need(applied["applied"] == {"box_geometry.CANONICAL":base,"box_geometry_early.CANONICAL":base}, "A mathematical module retained another data root")
+        result = requirements_summary(result_path) if request["task"]["command"] == "requirements" else read(result_path)
+        need(result["schema"] == CHECKER_SCHEMA and result["checker_sha256"] == ESSENTIAL_CODE[CHECKER] and
+             result["status"] == e["checker_status"], "Actual checker result/source binding failed")
+        if metadata_task(request["task"]):need(result.get("metadata_adapter")==profile,"Result omitted the executed metadata adapter")
+        else:need("metadata_adapter" not in result,"Foreign metadata result epoch")
+        partial = result["status"] == "PARTIAL" and result.get("interruption") and request["task"]["command"] in ("index","verify")
+        if e["child_returncode"] == 0:
+            need(e["status"] == "CHECKER_EXITED_ZERO" and owner_exit["launcher_returncode"] == 0, "False successful launcher/checker exit")
+        else:
+            need(partial and e["child_returncode"] == 2 and e["status"] == "CHECKER_NONZERO_EXIT" and owner_exit["launcher_returncode"] == 2,
+                 "Nonzero checker result is not a resumable checked prefix")
+        return result,outputs[result_path],e,c,execution_pin
+
+    def admit(self, request, check_live=True):
+        task = request["task"]
+        expected = next_task(self.progress,self.manifest,self.snapshot,self.config,self.finalize)
+        need(task == expected, "Historical job does not follow the exact derived cursor")
+        report,result_pin,e,c,execution_pin = self.execution(request,check_live)
+        command = task["command"]
+        need(report["kind"] == ("manifest" if command == "freeze" else "snapshot" if command == "seal" else command), "Wrong checker result kind")
+        if command == "freeze":
+            validate_manifest(report,ESSENTIAL_CODE[CHECKER]);self.manifest = report;self.progress["manifest"] = result_pin
+        elif command in ("index","seal"):
+            need(report["manifest_sha256"] == self.progress["manifest"]["sha256"], "Index/seal belongs to another manifest")
+            database = self.config["database"]
+            expected_mutable = [database+s for s in ("","-journal","-wal","-shm")]
+            need(c["mutable_paths"] == expected_mutable and set(e["mutable_after"]) == set(expected_mutable), "Mutable SQLite scope changed")
+            need(c["mutable_before"][database] == self.progress["database_after"], "SQLite byte chain changed between exact jobs")
+            need(all(e["mutable_after"][p] is None for p in expected_mutable[1:]), "Unresolved SQLite transaction files")
+            self.progress["database_after"] = e["mutable_after"][database]
+            if command == "index":
+                ids = checked_ids(database,task["source"],task["start"],integer(report["stop"]))
+                outcome = validate_prefix(task,report,ids)
+                self.progress["index"][task["source"]] = {"stop":report["stop"],"complete":report.get("complete") is True}
+                if outcome == "NO_PROGRESS":return outcome,result_pin,execution_pin
+            else:
+                need(report["status"] == "INDEX_SNAPSHOT_ONLY" and report["manifest_path"] == self.progress["manifest"]["path"] and
+                     report["database_path"] == database and report["indexer_sha256"] == ESSENTIAL_CODE[CHECKER], "Wrong fresh sealed snapshot identity")
+                need(report["source_rows"] == {k:v["stop"] for k,v in self.progress["index"].items()} and
+                     all(v["complete"] for v in self.progress["index"].values()), "Snapshot omitted an exact indexed source")
+                need(report["database"] == {k:self.progress["database_after"][k] for k in ("bytes","sha256")}, "Seal byte hash differs from actual launcher database output")
+                self.snapshot = report;self.progress["snapshot"] = result_pin
+        else:
+            need(report["snapshot_sha256"] == self.progress["snapshot"]["sha256"], "Result belongs to another sealed snapshot")
+            need(not c["mutable_paths"] and not e["mutable_after"], "Post-seal checker declared a mutable database")
+            additional = report["additional_repair_source"]
+            name = relative(additional["path"])
+            current = pin(within(self.root/name,[self.root]))
+            need(current["sha256"] == additional["sha256"],"Additional checker-declared repair source changed")
+            prior = self.progress["additional_sources"].get(name)
+            need(prior is None or prior == current,"Mixed additional-source epoch")
+            self.progress["additional_sources"][name] = current
+            if command == "verify":
+                ids = checked_ids(self.config["database"],task["source"],task["start"],integer(report["stop"]))
+                outcome = validate_prefix(task,report,ids,self.snapshot["source_rows"][task["source"]])
+                if outcome == "NO_PROGRESS":return outcome,result_pin,execution_pin
+                self.progress["verify"].setdefault(task["gate"],{})[task["source"]] = {
+                    "stop":report["stop"],"complete":report["stop"] == self.snapshot["source_rows"][task["source"]]}
+                self.progress["verification_reports"].append(result_pin)
+            else:
+                need(not report["missing_slices"], "Some exact verification source spans remain missing")
+                if command == "requirements":
+                    need(report["status"] == "REQUIREMENTS_ONLY", "No complete literal requirement export")
+                    self.progress["requirements"] = {**result_pin,"records":report["exported_requirement_count"],
+                                                     "canonical_stream_sha256":report["canonical_requirement_stream_sha256"]}
+                else:
+                    phase = task["phase"]
+                    need(report["phase"] == phase and report["verification_receipts"] == sorted(self.progress["verification_reports"],key=lambda p:p["path"]),
+                         "Aggregate used a different exact verification roster")
+                    need(report["status"] == ("COMPLETE_LITERAL_COMPOSITION_WITH_OWNER_ACCEPTED_TERMINALS" if phase == "final" else "AGGREGATE_PHASE_PASS"),
+                         "Unfinished aggregate/terminal acceptance")
+                    if phase in PHASES:self.progress["phases"][phase] = result_pin
+                    elif phase == "acceptance":
+                        need(not report["missing_terminal_ids"], "Caller acceptance omits required terminals")
+                        self.progress["acceptance"] = result_pin
+                    else:self.progress["final"] = result_pin
+        return "ACCEPTED",result_pin,execution_pin
+
+    def check_database(self):
+        path = Path(self.config["database"])
+        if self.progress["database_after"] is None:
+            need(not path.exists(), "Unexpected pre-existing SQLite database")
+            return
+        if self.snapshot:
+            need(database_stamp(path) == self.snapshot["database_stamp"], "Sealed SQLite stamp changed")
+        else:
+            self.bound(self.progress["database_after"])
+        with database_read(path) as db:
+            metadata = dict(db.execute("SELECT key,value FROM metadata"))
+            need(metadata.get("manifest") == self.progress["manifest"]["sha256"] and metadata.get("indexer_sha256") == ESSENTIAL_CODE[CHECKER],
+                 "SQLite metadata does not bind the current fresh epoch")
+            actual = {source:{"stop":stop,"complete":bool(done)} for source,stop,done in db.execute("SELECT source,stop,complete FROM progress")}
+            need(actual == self.progress["index"], "SQLite committed cursor differs from the complete execution history")
+
+    def recover(self):
+        need(self.state["schema"] == SCHEMA and self.state["plan_sha256"] == self.plan_pin["sha256"], "Wrong controller state epoch")
+        expected_dirs = set()
+        for number,item in enumerate(self.state["jobs"],1):
+            identity = f"composition-{number:06d}";need(item["id"] == identity, "Nonmonotone or reused execution ID")
+            expected_dirs.add(identity)
+            rp = self.bound(item["request"]);request = read(rp["path"])
+            need(request["number"] == number and request["id"] == identity and request["plan"] == self.plan_pin,
+                 "Changed controller request identity")
+            expected = make_request(self.config,self.plan_pin,next_task(self.progress,self.manifest,self.snapshot,self.config,self.finalize),
+                                    self.progress,number,self.acceptance_files)
+            need({k:v for k,v in request.items() if k != "created_utc"} == {k:v for k,v in expected.items() if k != "created_utc"},
+                 "Changed request/argv or skipped exact source cursor")
+            # An already admitted historical PID can now belong to an unrelated
+            # process. Its recorded cleanup and pinned receipts remain binding;
+            # live-process reconciliation is only for the pending attempt.
+            outcome,rp,ep = self.admit(request,check_live=not bool(item.get("result")))
+            if item.get("result"):
+                need(item["result"] == rp and item["execution"] == ep and item["outcome"] == outcome, "Previously admitted result changed")
+            item.update(outcome=outcome,result=rp,execution=ep)
+        actual_dirs = {p.name for p in (self.work/"control").iterdir() if p.is_dir()}
+        need(actual_dirs == expected_dirs, "Unrecorded or missing controller attempt directory")
+        actual_outputs = {p.name for p in self.work.iterdir() if p.is_dir() and p.name.startswith("composition-")}
+        need(actual_outputs == expected_dirs, "Unrecorded or missing portable execution directory")
+        self.check_database();self.save()
+
+    def launch(self, task):
+        number = len(self.state["jobs"])+1
+        request = make_request(self.config,self.plan_pin,task,self.progress,number,self.acceptance_files)
+        control = Path(request["control_root"]);control.mkdir()
+        need(not Path(request["output_root"]).exists(), "Never reuse an execution output identity")
+        request_path = control/"REQUEST.json";write_new(request_path,request);rp = pin(request_path)
+        item = {"id":request["id"],"request":rp,"outcome":"PENDING"};self.state["jobs"].append(item);self.save()
+        command = [self.config["python"]["path"],"-I","-S","-B",str(Path(__file__).resolve()),
+                   "_launch","--request",str(request_path),"--request-sha256",rp["sha256"]]
+        with (control/"helper-stdout.txt").open("xb") as out,(control/"helper-stderr.txt").open("xb") as err:
+            process = subprocess.Popen(command,cwd=self.work,stdout=out,stderr=err,start_new_session=True)
+            next_notice = time.monotonic()+20
+            try:
+                while process.poll() is None:
+                    try:process.wait(timeout=.5)
+                    except subprocess.TimeoutExpired:pass
+                    if time.monotonic() >= next_notice:
+                        print(json.dumps({"status":"RUNNING", "id":request["id"], "task":task},sort_keys=True),flush=True)
+                        next_notice = time.monotonic()+20
+            except KeyboardInterrupt:
+                process.send_signal(signal.SIGINT)
+                try:process.wait(timeout=15)
+                except subprocess.TimeoutExpired:
+                    launcher_path = control/"LAUNCHER.json"
+                    if launcher_path.exists():
+                        launcher = read(launcher_path)
+                        need(launcher["argv"] == request["command"] and launcher["pid"] == launcher["pgid"],
+                             "Cannot attribute the pending launcher group")
+                        checker_group = active_checker_group(request)
+                        if checker_group is not None:kill_owned_group(checker_group)
+                        kill_owned_group(launcher["pgid"])
+                    kill_owned_group(process.pid)
+                    try:process.wait(timeout=2)
+                    except subprocess.TimeoutExpired:pass
+                    raise Unresolved("Interrupted attempt needed forced cleanup; incomplete execution evidence is retained")
+                raise Unresolved("Interrupted; actual helper/launcher receipts retained for explicit resume")
+        need(process.returncode == 0, "Owned launcher helper failed; inspect its new runtime records")
+        outcome,result,execution = self.admit(request)
+        item.update(outcome=outcome,result=result,execution=execution)
+        self.check_database();self.save()
+        print(json.dumps({"id":request["id"],"task":task,"outcome":outcome,"result":result["path"]},sort_keys=True),flush=True)
+        return outcome
+
+    def freeze_acceptances(self, paths):
+        need(next_task(self.progress,self.manifest,self.snapshot,self.config,False) is None,
+             "Finish all fresh nonacceptance work before supplying acceptance files")
+        need(paths and len(set(map(str,paths))) == len(paths), "Missing/duplicate earned acceptance files")
+        files,evidence,seen,resolved_paths = [],{},set(),{}
+        tools={p["path"]:check_pin(p) for p in [self.config["python"],*self.acceptance_tool_pins]}
+        for path in paths:
+            path = within(path,[self.work]);files.append(pin(path))
+            with path.open("rb") as stream:
+                for raw in stream:
+                    need(raw.endswith(b"\n") and raw.strip(), "Truncated/empty acceptance record")
+                    row = decode(raw);tid = row["terminal_id"]
+                    need(row["schema"] == "box-terminal-acceptance-v1" and row["predicate"] == "entire_stretching_polynomial_nonnegative"
+                         and isinstance(row["binding"],dict) and tid not in seen and row["evidence"], "Malformed/duplicate caller acceptance")
+                    seen.add(tid)
+                    for ref in row["evidence"]:
+                        raw_path=ref["path"]
+                        if raw_path not in resolved_paths:
+                            resolved_paths[raw_path]=no_links(raw_path) if raw_path in tools else within(raw_path,plan_roots(self.config))
+                        p=resolved_paths[raw_path]
+                        if str(p) not in evidence:evidence[str(p)] = tools[str(p)] if str(p) in tools else pin(p)
+                        need(evidence[str(p)]["sha256"] == ref["sha256"], "Acceptance evidence bytes changed")
+        need(len(seen) == self.progress["requirements"]["records"], "Caller acceptances omit/add literal terminal identities")
+        record = {"schema":SCHEMA,"acceptance_files":files,"evidence_files":list(evidence.values()),
+                  "already_earned_mathematical_acceptance_is_a_caller_premise":True,
+                  "requirements":self.progress["requirements"],"terminal_count":len(seen),"explicit_tool_pins":self.acceptance_tool_pins}
+        path = self.work/"ACCEPTANCE-INPUTS.json"
+        if path.exists():need(read(path) == record, "Frozen acceptance inputs changed")
+        else:write_new(path,record)
+        self.acceptance_files = files
+
+    def run(self, max_jobs):
+        done = 0
+        while True:
+            self.stable_code();self.check_database()
+            task = next_task(self.progress,self.manifest,self.snapshot,self.config,self.finalize)
+            if task is None:
+                checked = source_recheck(self.config,self.manifest,self.snapshot,self.progress["additional_sources"])
+                label = "COMPLETE_LITERAL_COMPOSITION_WITH_CALLER_ACCEPTANCES" if self.progress["final"] else "READY_FOR_EARNED_ACCEPTANCES"
+                seal = {"schema":SCHEMA,"status":label,"progress":self.progress,"source_rechecks":checked,
+                        "whole_theorem_accepted":False,
+                        "scope":"Fresh literal residual composition only; upstream census/theorems and scientific terminal acceptance retain their separate premises."}
+                boundary = self.work/("FINAL-BOUNDARY.json" if self.progress["final"] else "NONACCEPTANCE-BOUNDARY.json")
+                if not boundary.exists():write_new(boundary,seal)
+                self.state.update(status=label,boundary=pin(boundary));self.save();return label
+            if max_jobs is not None and done >= max_jobs:
+                self.state["status"] = "PAUSED_AT_EXACT_CURSOR";self.save();return self.state["status"]
+            outcome = self.launch(task);done += 1
+            if outcome == "NO_PROGRESS":
+                self.state["status"] = "STOPPED_NO_PROGRESS";self.save();return self.state["status"]
+
+
+def initialize(args):
+    data,code,work = no_links(args.data_root),no_links(args.code_root),no_links(args.work_root)
+    need(data.is_dir() and (data/"namespaces"/"base").is_dir() and code.is_dir(), "Explicit portable data/code roots are required")
+    need(not work.is_relative_to(data) and not work.is_relative_to(code) and not data.is_relative_to(work) and not code.is_relative_to(work),
+         "Fresh work root must be disjoint from source/data roots")
+    need(not work.exists(), "Initial work root must be fresh; use --resume for its exact epoch")
+    mapping,sources = source_package(code)
+    need(1 <= args.index_limit <= 250000 and 1 <= args.verify_limit <= 100000 and
+         1 <= args.budget_seconds <= 100 and args.budget_seconds < args.checker_timeout <= 120 and
+         args.checker_timeout+10 <= args.launcher_timeout <= 600, "Invalid explicit slice/resource limits")
+    helper=pin(Path(__file__).resolve().with_name("composition_metadata.py"))
+    need(helper["sha256"]==METADATA_ADAPTER_SHA,"Wrong new metadata helper source")
+    config = {"schema":SCHEMA,"data_root":str(data),"code_root":str(code),"work_root":str(work),
+              "controller_root":str(Path(__file__).resolve().parent),"metadata_adapter":helper,
+              "metadata_budget_seconds":600,"metadata_checker_timeout":660,"metadata_launcher_timeout":900,
+              "database":str(work/"literal.sqlite"),"controller_sha256":digest(Path(__file__).read_bytes()),
+              "python":pin(Path(sys.executable).resolve()),"source_map":mapping,"code_pins":sources,
+              "index_limit":args.index_limit,"verify_limit":args.verify_limit,"budget_seconds":args.budget_seconds,
+              "checker_timeout":args.checker_timeout,"launcher_timeout":args.launcher_timeout,"created_utc":utc(),
+              "old_scientific_receipts_used":False,"canonical_fallback":False}
+    work.mkdir(parents=True);(work/"control").mkdir()
+    write_new(work/"PLAN.json",config);plan_pin = pin(work/"PLAN.json")
+    state = {"schema":SCHEMA,"plan_sha256":plan_pin["sha256"],"jobs":[],"status":"NEW","progress":blank_progress()}
+    write_new(work/"STATE.json",state)
+    return config,state,plan_pin
+
+
+def resume(args):
+    work = no_links(args.work_root);config = read(work/"PLAN.json");state = read(work/"STATE.json")
+    need(config["schema"] == SCHEMA and config["work_root"] == str(work) and
+         config["data_root"] == str(no_links(args.data_root)) and config["code_root"] == str(no_links(args.code_root)),
+         "Resume roots differ from the exact fresh epoch; old receipts are never rewritten")
+    need(config["database"] == str(work/"literal.sqlite"),"Database path cannot escape the fresh work epoch")
+    metadata_source(config)
+    need((config["metadata_budget_seconds"],config["metadata_checker_timeout"],config["metadata_launcher_timeout"])==(600,660,900),"Changed finite metadata resource profile")
+    return config,state,pin(work/"PLAN.json")
+
+
+def main(argv=None):
+    parser = argparse.ArgumentParser(description=__doc__,formatter_class=argparse.RawDescriptionHelpFormatter)
+    subs = parser.add_subparsers(dest="mode",required=True)
+    for name in ("run","finalize"):
+        p = subs.add_parser(name)
+        p.add_argument("--data-root",type=Path,required=True);p.add_argument("--code-root",type=Path,required=True)
+        p.add_argument("--work-root",type=Path,required=True);p.add_argument("--max-jobs",type=int)
+        if name == "run":
+            p.add_argument("--resume",action="store_true");p.add_argument("--index-limit",type=int,default=100000)
+            p.add_argument("--verify-limit",type=int,default=25000);p.add_argument("--budget-seconds",type=int,default=100)
+            p.add_argument("--checker-timeout",type=int,default=120);p.add_argument("--launcher-timeout",type=int,default=300)
+        else:
+            p.add_argument("--acceptances",nargs="+",type=Path,required=True)
+            p.add_argument("--compiler",type=Path,help="Exact compiler file used by the earned acceptance evidence; no directory exemption")
+    helper = subs.add_parser("_launch",help=argparse.SUPPRESS)
+    helper.add_argument("--request",type=Path,required=True);helper.add_argument("--request-sha256",required=True)
+    args = parser.parse_args(argv)
+    if args.mode == "_launch":return launcher_helper(no_links(args.request),args.request_sha256)
+    controller = None;lock = None
+    try:
+        need(args.max_jobs is None or args.max_jobs > 0, "max-jobs must be positive")
+        config,state,pp = resume(args) if args.mode == "finalize" or args.resume else initialize(args)
+        work = Path(config["work_root"]);lock = work/"CONTROLLER.lock"
+        try:
+            fd = os.open(lock,os.O_WRONLY|os.O_CREAT|os.O_EXCL,0o600)
+        except FileExistsError:
+            owner = read(lock)
+            need(not alive(owner["pid"]), "Another exact controller is still active")
+            # Only a dead controller lock is retired. Pending launcher/checker
+            # groups are independently reconciled before any new launch.
+            lock.unlink();fd = os.open(lock,os.O_WRONLY|os.O_CREAT|os.O_EXCL,0o600)
+        with os.fdopen(fd,"wb") as stream:stream.write(encoded({"pid":os.getpid(),"started_utc":utc()})+b"\n");stream.flush();os.fsync(stream.fileno())
+        controller = Controller(config,state,pp);controller.stable_code()
+        acceptance = work/"ACCEPTANCE-INPUTS.json"
+        if acceptance.exists():
+            a = read(acceptance)
+            controller.acceptance_tool_pins=frozen_acceptance_inputs(config,a)
+            controller.acceptance_files = a["acceptance_files"]
+            controller.finalize = True
+        controller.recover()
+        if args.mode == "finalize":
+            controller.acceptance_tool_pins=[] if args.compiler is None else [pin(no_links(args.compiler))]
+            controller.freeze_acceptances(args.acceptances);controller.finalize = True
+        status = controller.run(args.max_jobs)
+        print(json.dumps({"status":status,"work_root":str(work),"jobs":len(state["jobs"]),"whole_theorem_accepted":False},sort_keys=True),flush=True)
+        return 0 if status != "STOPPED_NO_PROGRESS" else 2
+    except (Refused,Unresolved,OSError,ValueError,KeyError,TypeError,sqlite3.Error) as exc:
+        if controller:
+            controller.state.update(status="STOPPED_UNRESOLVED" if isinstance(exc,Unresolved) else "STOPPED_INVALID",error=f"{type(exc).__name__}: {exc}")
+            controller.save()
+        print(json.dumps({"status":"STOPPED","error":f"{type(exc).__name__}: {exc}","whole_theorem_accepted":False}),file=sys.stderr,flush=True)
+        return 2
+    finally:
+        if lock is not None and lock.exists():
+            try:
+                owner = read(lock)
+                if owner["pid"] == os.getpid():lock.unlink()
+            except (OSError,ValueError,KeyError):
+                pass  # Never remove an unreadable lock with unknown ownership.
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

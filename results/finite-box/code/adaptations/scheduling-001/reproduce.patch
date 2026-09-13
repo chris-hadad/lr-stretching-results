@@ -1,0 +1,11 @@
+--- a/reproduce.py
++++ b/reproduce.py
+@@ -217,7 +217,7 @@
+             cmd=py+[str(code/"portable-box-numerics/numerics.py"),k.split("-")[1],"--work-root",str(r["numerics"])]
+             if k.endswith("prepare"):
+                 return cmd+["--data-root",p["data_root"],"--mode",p["mode"],"--compiler",p["compiler"]["path"],"--holdouts","first-unused","--total-seconds",str(p["numerical_seconds"])]+meta(META)
+-            return cmd+["--cohort","all"]+(["--max-jobs",batch] if k.endswith("run") else [])
++            return cmd+["--cohort","all"]+(["--max-jobs",batch,"--total-seconds",str(p["numerical_seconds"])] if k.endswith("run") else [])
+         cmd=py+[str(code/"portable-box-acceptance.py"),k.split("-")[1],"--work-root",str(r["acceptance"])]
+         if k=="acceptance-prepare":
+             return cmd+["--data-root",p["data_root"],"--code-root",p["code_root"],"--core-code-root",core,

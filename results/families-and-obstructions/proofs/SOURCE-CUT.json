@@ -1,0 +1,235 @@
+{
+  "scope": "Unchanged copied mathematical sources. Authored reader presentation remains outside this directory.",
+  "files": [
+    {
+      "path": "actual-cubics.md",
+      "bytes": 6246,
+      "sha256": "50b773fc3dac16fec646195b823a14a5f4abd1b9e584b291c57990036ed4b410"
+    },
+    {
+      "path": "coupled-simplex-independent-count.md",
+      "bytes": 4498,
+      "sha256": "3ee703e4d1a935c0d4b1225dce3a8a1f1e575e7d074c0ecc95a95cfcdebb6e3a"
+    },
+    {
+      "path": "coupled-simplex.md",
+      "bytes": 10921,
+      "sha256": "a68471f1de0914a4517cf5aed21a691d5e6734abc143da873cc88f8774c3377a"
+    },
+    {
+      "path": "euler-embedding-obstruction.md",
+      "bytes": 4921,
+      "sha256": "574ffcfd9d57e622d447e79a92492583900854641bc9a9a7c7dd11ebf3461752"
+    },
+    {
+      "path": "euler-source.md",
+      "bytes": 7334,
+      "sha256": "fee52d106c5e5b0af4f41998d54614c24b82217fa74902dbcff3359beee37405"
+    },
+    {
+      "path": "flow-lattice-obstruction.md",
+      "bytes": 4035,
+      "sha256": "05e0204bb5e8aa8a111e22c6bb59d58dde5a99cfa01e8cae44a1eef2d057a877"
+    },
+    {
+      "path": "gap-one.md",
+      "bytes": 11893,
+      "sha256": "d60bd2fea435945b7218afe848e2fd49a5136c806a43579ac50a2c138720a107"
+    },
+    {
+      "path": "gap-staircase.md",
+      "bytes": 8142,
+      "sha256": "37e00b27c964f006fef8ff18c004f2a32948d2d2fad5d02e3e54daea6c4985bc"
+    },
+    {
+      "path": "gap-two-branching.md",
+      "bytes": 9261,
+      "sha256": "790be8b587c07e911b29475ce5fb553304294c7253a70533499010a0e778ab4d"
+    },
+    {
+      "path": "gap-two-marginal-count.md",
+      "bytes": 4141,
+      "sha256": "ffc0ede705d6e35663de2b6158d1f44ac1d1d0c9e761b84b0c49ea11a8b1ca74"
+    },
+    {
+      "path": "gap-two-positivity.md",
+      "bytes": 10593,
+      "sha256": "7d4260a4e2deb34d1a0f8b1f71375ad86ac681bfcb25fd009a8b637c1b418628"
+    },
+    {
+      "path": "gap-two-profiles.md",
+      "bytes": 8550,
+      "sha256": "bec135646beaf857153523cc2ae7cb350b47efe015cfe26b07e562c16131263e"
+    },
+    {
+      "path": "interior-surplus.md",
+      "bytes": 7273,
+      "sha256": "c4060c434f756d61e71ad0223ea8937d4305e0a12d1b25079fb572f8e2d4e857"
+    },
+    {
+      "path": "low-defect-reflection.md",
+      "bytes": 5662,
+      "sha256": "d6c1b5c21c1e25eeb994b56d5ed8bb450c291217c5853a325d2c0dd214b890e6"
+    },
+    {
+      "path": "matching-character-premise.md",
+      "bytes": 7273,
+      "sha256": "d29046ca851ab87938b09bbf57ded9785bcc8b097e95a6dbf08dcb770a6dd445"
+    },
+    {
+      "path": "matching-layers.md",
+      "bytes": 8463,
+      "sha256": "a8900dbb726d77614ece239e52da787b3de34e4eac1f886310f66b6c5578eabe"
+    },
+    {
+      "path": "matching-positive-shifts.md",
+      "bytes": 4437,
+      "sha256": "76174be685ca4aea6e435a4e9669d9b1881cb96bf3780725acfe62a205d71ef2"
+    },
+    {
+      "path": "matching-scope.md",
+      "bytes": 7618,
+      "sha256": "514462e79d44844ec29e4adcba8935acf8d8dc60c6b5e6202761b8f138863655"
+    },
+    {
+      "path": "matching-three-layers.md",
+      "bytes": 10034,
+      "sha256": "bbe553d228238538a5ceee0a6af906a4f52b74a19b0684f708eee7ea7412d7df"
+    },
+    {
+      "path": "matching-whole-bridge.md",
+      "bytes": 10659,
+      "sha256": "eaee296fc5f4f9385def6bfcc1baa4bdcef35854e99edfc6f482a57f06570910"
+    },
+    {
+      "path": "negative-graphs-and-lr-faces.md",
+      "bytes": 16241,
+      "sha256": "ec7cb8acea74a063b04b3116677778d51e0556003b5773422e1a6e6965711df6"
+    },
+    {
+      "path": "negative-pyramid-challenge.md",
+      "bytes": 4462,
+      "sha256": "0be9c1eabed3ce5f0347754c68a54fe4b849daf0cf23cb1ef735bfe4106ca720"
+    },
+    {
+      "path": "rank-eight-aggregation.md",
+      "bytes": 3231,
+      "sha256": "c7e232625eac0ef79a2801960761395d63d19b82152294ce07b79bff8f13e56d"
+    },
+    {
+      "path": "rank-eight-map.md",
+      "bytes": 12556,
+      "sha256": "6312408cde17fa197650ef4a488a0342d3e19fe1e882508746f5a1b340e708ac"
+    },
+    {
+      "path": "rank-eight-polynomiality.md",
+      "bytes": 4860,
+      "sha256": "e15ddb7cf2294e90ba948e4b7384f6ba21d11bf645c56288f4a372e6728295fa"
+    },
+    {
+      "path": "rank-six-horn-release.md",
+      "bytes": 8778,
+      "sha256": "c9792bd716458bc50880ef265cde888060eee451cd8636a8f5ec6b92bcc30ec1"
+    },
+    {
+      "path": "rectangular-bridge.md",
+      "bytes": 9948,
+      "sha256": "a84c4cbe74ec67433b1da0baf9736e857e443b29bdd03c37e086194c01e92940"
+    },
+    {
+      "path": "rectangular-canonical.md",
+      "bytes": 8529,
+      "sha256": "e15600206c999bf2153af33b84754e461db3278ca50a76946f264739d3cb6b1b"
+    },
+    {
+      "path": "rectangular-extension.md",
+      "bytes": 11517,
+      "sha256": "e6ca79ca88744fa0584e9f5b4069b4e245de4a463c57d1d861c35e25b53dc0d6"
+    },
+    {
+      "path": "rectangular-premises.md",
+      "bytes": 8813,
+      "sha256": "41b9f3b785d30b6ee45b7c47199f7d1fd4ee2ab93709bfd067245b26017a3a59"
+    },
+    {
+      "path": "rectangular-tableau.md",
+      "bytes": 3155,
+      "sha256": "bf7e04f716054a1aedaa56f77e8fece94fb969d9ffb6f8a13e66cd7fabe04d78"
+    },
+    {
+      "path": "sparse-complete.md",
+      "bytes": 5535,
+      "sha256": "b9b38c52607ba22aab45f80e9614457cba4a95ffa00883f73e071dbd6c071786"
+    },
+    {
+      "path": "sparse-constructor.md",
+      "bytes": 10941,
+      "sha256": "5c61b0c7d9cc67bff70ce1d88e26b47478a828946c66f46a55b303714683569d"
+    },
+    {
+      "path": "sparse-nonnegative-parameters.md",
+      "bytes": 7273,
+      "sha256": "d29046ca851ab87938b09bbf57ded9785bcc8b097e95a6dbf08dcb770a6dd445"
+    },
+    {
+      "path": "three-local-cones-first-two.md",
+      "bytes": 16501,
+      "sha256": "830a9c5216a9fe7cf920eca7a4b30ba831c812e20b7af48e25021565acaaba8b"
+    },
+    {
+      "path": "three-local-cones-third.md",
+      "bytes": 7326,
+      "sha256": "825fe37b6655326a5ffda434db812a5d29a08673255a15b2f8717f66f125cf01"
+    },
+    {
+      "path": "transport-a3-premise.md",
+      "bytes": 13026,
+      "sha256": "2ad9ac14066f5bcfa7a21ecb446b7e704f49a8c9198a8f0683f852bbf26ca647"
+    },
+    {
+      "path": "transport-cut-regions.md",
+      "bytes": 8810,
+      "sha256": "dcecbaf39738426be3adf88b529efb123dc6019a2b61ecbe1acc46388b2dde4d"
+    },
+    {
+      "path": "transport-double-cuts.md",
+      "bytes": 10969,
+      "sha256": "37656ed2a50b40bdddc97b2560cd40b36c5d704217cb6ae06eb9791fe5900f8c"
+    },
+    {
+      "path": "transport-four-by-five.md",
+      "bytes": 8864,
+      "sha256": "7b4d23e5f9f9559adf0756966ff275373d6f713d712a0c62259b81f5bfac26e4"
+    },
+    {
+      "path": "transport-four-by-four.md",
+      "bytes": 13538,
+      "sha256": "9600c5cffc95b7d26b1a556a7189db2911733e9441cbcf4652627ceabdcbc525"
+    },
+    {
+      "path": "transport-near-corner.md",
+      "bytes": 7616,
+      "sha256": "5e24760a8a92fbe09be82dab2ceaf32652e7e0407416bbfda92c7880b88d447a"
+    },
+    {
+      "path": "transport-small-side.md",
+      "bytes": 6850,
+      "sha256": "fb8fb15773d407de5e6b364ad6120d452965060a6307aef25e3999c619eb7d66"
+    },
+    {
+      "path": "transport-two-gates.md",
+      "bytes": 6235,
+      "sha256": "e3acda979a5e7ed17ed2fd6a53346fb790a8dc7a32877ab2cc57b2bc4d954dfb"
+    },
+    {
+      "path": "transport-whole-lr-bridge.md",
+      "bytes": 16501,
+      "sha256": "fd78f5ad5696a125cc2d258f11938de21935beb413399d8b32582359bb04f625"
+    },
+    {
+      "path": "uniform-two-row.md",
+      "bytes": 6646,
+      "sha256": "11345c3e0c167099624635e445a953dee71abcd4f92eecf4a2390c685be172c9"
+    }
+  ]
+}

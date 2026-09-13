@@ -1,0 +1,202 @@
+{
+  "claim": "Exact existing accepted campaign scopes; this copy performs no fresh mathematics.",
+  "records": [
+    {
+      "id": "A005-CUBIC-RANK7",
+      "provenance": "Root-originated whole-object mathematics and exact certificates, independently reviewed in Astra005 R1/R2. ACCEPTANCE.md and the frozen proof/evidence records define the scope. No worldwide novelty claim.",
+      "scope": "Complete boundary-face strict-witness transfer uses signed auxiliary dominant boundaries and ordinary targets. All 445 rank-six and 8075 rank-seven unresolved mask representatives have exact witnesses; a separate integer checker rebuilds all 8520 witnesses, literal original rows/ranks and complete twelve-symmetry orbits. Adopted rank-at-most-five/metric terminals and exact Horn product degree induction cover all remaining faces. Deliberately impossible pilot controls are outside the residual roster.",
+      "statement": "Every whole LR polynomial of ordinary rank at most seven and actual degree at most three is ordinary-coefficient nonnegative at every outer size.",
+      "status": "PROVED"
+    },
+    {
+      "id": "A005-UNIFORM-TENSOR",
+      "provenance": "Root-originated whole-object mathematics and exact certificates, independently reviewed in Astra005 R1/R2. ACCEPTANCE.md and the frozen proof/evidence records define the scope. No worldwide novelty claim.",
+      "scope": "Full skew character h_(gt)^n, both central-weight determinant terms, complete endpoints and both parities are retained. A signed integral argument proves all parameters; sixteen full vectors, 64 independent unsigned Clebsch-Gordan controls and eight bare native controls agree. This is an all-rank uniform family, not a whole-rank theorem.",
+      "statement": "For n>=3, g>=1 and even ng, lambda=(ng,(n-1)g,...,g), mu=((n-1)g,...,g), nu=(ng/2,ng/2) has an entire LR polynomial with all ordinary coefficients strictly positive through actual degree n-3.",
+      "status": "PROVED"
+    },
+    {
+      "id": "A005-MATCHING",
+      "provenance": "Root-originated whole-object mathematics and exact certificates, independently reviewed in Astra005 R1/R2. ACCEPTANCE.md and the frozen proof/evidence records define the scope. No worldwide novelty claim.",
+      "scope": "The complete numerator and saturated lattice are retained. Parent degree is qr+4q+4r+11, displayed ordinary rank a+f+q+r+7. Any negative member of this constructor needs q,r>=6, displayed rank at least 21 and degree at least 95. The positive two-shift combination keeps the compensation for negative G(t-2). At q6 the entire fixed nonnegative-removal cone fails uniformly because its best constant is -2 r^2/2278125+O(r); a changed-baseline finite prefix search also fails only at that narrower scope.",
+      "statement": "Every ordinary coefficient of the complete unit-flank six-run matching LR family is positive for min(q,r)<=5, with arbitrary positive end runs and common positive integral dilation; zero-run and zero-direction cases retain their separate accepted formulas.",
+      "status": "PROVED"
+    },
+    {
+      "id": "A005-HORN-RELEASE",
+      "provenance": "Root-originated whole-object mathematics and exact certificates, independently reviewed in Astra005 R1/R2. ACCEPTANCE.md and the frozen proof/evidence records define the scope. No worldwide novelty claim.",
+      "scope": "The full two-Weyl cancellation and every cut-subset weight are retained. One proved complete Minkowski chamber gives a bivariate degree-ten polynomial with 63 positive nonzero terms. All 66 determining sites and two unused positive sites have independent bare-LR reconstruction; the v=0 stable boundary agrees in the full degree-ten space. Actual degree is ten for 0<s<2M, eight at s=2M>0 and zero at s=0. Released examples are outside both Cdagger and Csplit; stable Csplit overlap is retained.",
+      "statement": "For rho=(5,4,3,2,1,0), mu=nu=M rho and lambda=2M rho-s(1,0,0,0,0,-1), every integer M>=0 and 0<=s<=2M gives a whole LR polynomial with nonnegative ordinary coefficients.",
+      "status": "PROVED"
+    },
+    {
+      "id": "A004-GAPONE",
+      "provenance": "Campaign-root Astra004 result with independent review; source-only native/owner statements explicitly distinguished.",
+      "scope": "Entire ordinary rank-six LR realization; degree ten and codegree nine. Complete paired-interior and all-stretch tableau proofs; no repeated-shape, zero-content or arbitrary-gap extension.",
+      "statement": "The strict five-row, six-positive-label Kostka family with strict dominance gaps and Delta_3=1 has complete positive factorization binom(t+8,8)*(1+p*t)*(1+q*t), with p,q specified by exact minima.",
+      "status": "PROVED"
+    },
+    {
+      "id": "FR025-GAP1-SPECTRUM",
+      "provenance": "Complete Pro025/root arguments with independent original-object, lattice, algebra and population checks at the named scopes; acceptance is recorded in ADOPTION.md and the final R3 dispositions. No worldwide novelty claim.",
+      "scope": "The complete GT lattice is saturated of dimension ten, codegree nine, and the tail construction gives entire ordinary-rank-six LR counts. This overlaps the accepted Astra004 factorization; it is not a second independent family. Exact interior coordinates, determinant-column extension and constructor size bounds 40/61 retain their strict-domain hypotheses; they are not globally minimal realization sizes.",
+      "statement": "The strict five-row/six-positive-label, strictly dominant Delta3=1 family has exactly the polynomial spectrum binom(t+8,8)*(1+s*t/3)*(1+r*t/3) for positive integers s,r. All eleven ordinary coefficients are positive.",
+      "status": "PROVED"
+    },
+    {
+      "id": "FR025-GAP2",
+      "provenance": "Complete Pro025/root arguments with independent original-object, lattice, algebra and population checks at the named scopes; acceptance is recorded in ADOPTION.md and the final R3 dispositions. No worldwide novelty claim.",
+      "scope": "Actual degree ten; codegree eight exactly when Delta2=1 or Delta4=1, otherwise five. The full branching retains all cap/hinge/pair endpoints and all three determinant corrections. All 637 inhabited bilinear profiles, every corner, all 28,028 ordinary entries and 5,096 reserved corner-site occurrences pass an independent one-column-marginal recount. The baseline has c1=2351/630. Historical interrupted source jobs remain unreaped in the historical record; their complete recount debt is now closed.",
+      "statement": "Every strict five-row/six-positive-label, strictly dominant Delta3=2 family is coefficientwise at least binom(t+7,7)*(t+4)*(t^2+8t+9)/36 and has all eleven ordinary coefficients positive.",
+      "status": "PROVED"
+    },
+    {
+      "id": "A004-RANK8-POSITIVE",
+      "provenance": "Campaign-root Astra004 result with independent review; source-only native/owner statements explicitly distinguished.",
+      "scope": "Outer area 220M; actual degree 21 for S>0, six for S=0<M, zero at the origin. Complete row/column lattice map and every parameter wall retained.",
+      "statement": "The explicit entire rank-eight family in A05 is coefficientwise positive for integral M>=S>=0 by a complete 92-row integer tableau map and exact cubic simplex compensation.",
+      "status": "PROVED"
+    },
+    {
+      "id": "FRI-RANK8-CONE",
+      "provenance": "FRI campaign-root result with independent mathematics and impacted correctness/simplicity review; native and owner status explicitly source-only.",
+      "scope": "Complete original LR map and saturated-lattice premises from Astra004, full aggregation and polynomiality proof on the closed parameter cone; independent transfer agrees at all 253 poised sites and four unused sites. No whole-rank or S>2M claim.",
+      "statement": "The entire clipped rank-eight LR count on 0<=M<=S<=2M is a single bivariate polynomial of degree at most 21 in u=2M-S,v=S-M, with all 253 ordinary coefficients strictly positive. Every nonzero supported stretching polynomial is positive; the origin is constant one.",
+      "status": "PROVED"
+    },
+    {
+      "id": "F014-FRD",
+      "provenance": "campaign2026-09-06",
+      "scope": "The two exact coupled-simplex cones and the specified finite sparse results; no new additive coverage.",
+      "statement": "Two coupled-simplex entire lattice/count identities are accepted: 48/32 corners, 17 rays and 92 positive forms. The 64 selected sparse polynomials have 627 positive coefficients; the remaining 550 keys were subsequently closed by FRE.",
+      "status": "PROVED"
+    },
+    {
+      "id": "FR020-FRE",
+      "provenance": "Inherited campaign source; exact original record retained.",
+      "scope": "The explicit two-support, positive-R, ordinary rank-six/seven grammar inside outer size 30; not the whole box.",
+      "statement": "FRE closes exactly 5861 positive-R two-support keys: 1848 infeasible, 3399 proof terminals and 614 complete positive polynomials. Frozen additive coverage remains 4554.",
+      "status": "COMPUTED"
+    },
+    {
+      "id": "FRG-PREMISES",
+      "provenance": "Root specialization of the retained exceptional-pair construction, exact nonvanishing in two full models and independent R1/R2 mathematical review.",
+      "scope": "Ordinary rank 24, outer area 672. The full LR multiplicity, original character descent, stable effective GL quotient, entire section ring and original hive stretch lattice are retained. P(1)=6798; true interior counts at grades 1,2,3 are 0,0,1. No general rectangular constructor or arbitrary-dimensional canonical theorem is inferred.",
+      "statement": "Three 4-by-5 matrices have the entire LR family lambda=(42^8,35^4,18^7,14^5), mu=nu=(28^8,14^8), with primitive original entry grade 20t, exact degree 20, canonical reflection P(-t-3)=P(t) and true codegree three.",
+      "status": "PROVED"
+    },
+    {
+      "id": "FRG-POLYNOMIAL",
+      "provenance": "Complete independent weighted-table and grouped-Schur tableau counts, separate Newton/Lagrange reconstructions and independent mathematical review.",
+      "scope": "Both complete count models agree at every grade 0..11. Only 0..9 determine either vector; unused holds 10/11 equal 68854860446309034 and 363517577408286492. Exact reflection and negative roots are checked. The rank-24 native t1 control timed out and supplied no third-model value; it is not needed to replace the complete second model.",
+      "statement": "The entire p4q5 degree-20 ordinary LR polynomial is strictly coefficientwise positive: all 21 coefficients are positive, with c1=31225531/3063060 and c20=52560061531/1280474741145600. Its factorization is (t+1)(t+2)Q(t(t+3)), and all ten coefficients of Q are positive.",
+      "status": "COMPUTED"
+    },
+    {
+      "id": "FR024-CUT",
+      "provenance": "Pro024 complete derivation, root applicability/algebra assessment, independent final R3 mathematics review and targeted repairs/checks. Inherited source theorems and provider numerical rosters retain separate scope.",
+      "scope": "D sums w_p(I)w_N(J) min(r(I),M-r(I),c(J),M-c(J)) over nonempty proper subsets, with w_k(S)=(|S|-1)!(k-|S|-1)!/[2(k-1)!]. D is symmetric, homogeneous, jointly concave and superadditive on balanced nonnegative margins. Those global properties are not asserted for arbitrary whole LR c1. The complete transportation bridge has displayed ordinary rank p+N-1 and degree (p-1)(N-1) for positive margins; it is a count identity, not an asserted affine hive isomorphism.",
+      "statement": "For all positive integral p-by-N transportation margins, p,N>=2, the complete one-/two-class ordinary linear contribution equals the positive double-cut functional D. The whole c1 is D plus the complete signed higher-class remainder E.",
+      "status": "PROVED"
+    },
+    {
+      "id": "FR024-SMALL-SIDE",
+      "provenance": "Pro024 complete derivation, root applicability/algebra assessment, independent final R3 mathematics review and targeted repairs/checks. Inherited source theorems and provider numerical rosters retain separate scope.",
+      "scope": "Root independently reconstructed every one of 245 N=4 and 154 relevant N=5 A3 chamber polynomials at a proved total degree on poised strict-interior grids, with separate holdouts. This protects c1 within the transportation constructor through displayed rank eight, not every LR triple there and not all ordinary coefficients. Zero rows/columns require deletion; a point has c1=0.",
+      "statement": "For p,N>=2, complete transportation c1 is strictly positive when min(p,N)<=3, and for 4 by 4 and 4 by 5 and their transposes. The last two sharp positive-integral minima are 65/18 and 325/72.",
+      "status": "PROVED"
+    },
+    {
+      "id": "FR024-WHOLE-REGIONS",
+      "provenance": "Pro024 complete derivation, root applicability/algebra assessment, independent final R3 mathematics review and targeted repairs/checks. Inherited source theorems and provider numerical rosters retain separate scope.",
+      "scope": "Two-column exclusion keeps its original total-outside-one-row condition. For four rows and N>=3, after an allowed row order the new sufficient region is r4<=c_(1), r3+r4<=c_(1)+c_(2), including ties; the old third/four-column margin gate is unnecessary. Near-corner keeps m>=3 positive minor rows a_i, A=sum a_i, positive major row M-A, N>=2 and c_j>=A-min a_i. Its complete binomial-difference positivity is a separate result, not an arbitrary convex-hull extension.",
+      "statement": "Whole transportation c1 equals D on the two-smallest-column exclusion cone and the enlarged four-row two-gate region. The separate near-corner family retains all ordinary coefficients positive.",
+      "status": "PROVED"
+    },
+    {
+      "id": "FR025-INSERTION",
+      "provenance": "Complete Pro025/root arguments with independent original-object, lattice, algebra and population checks at the named scopes; acceptance is recorded in ADOPTION.md and the final R3 dispositions. No worldwide novelty claim.",
+      "scope": "Every shift, support endpoint and full nonzero wall correction is retained. The reduction is not general-a vanishing. The artificial weight shift can give -1/74256 but has no whole LR bridge. Zero base gradient alone fails under insertion, and odd-class equal-multiplicity sector parity does not settle even/higher whole coefficients. Generic occupations, other empty positions, remaining support walls and the complete higher-class aggregate are open.",
+      "statement": "All seven (a,b,1,0) A3 chamber first jets vanish for all positive a,b, and the four-row transportation cone needs only r4<=c_(1), r3+r4<=c_(1)+c_(2) for whole c1=D>0. The unrestricted insertion moment has an all-a finite polynomial reduction, with entire a=2,3 unbounded layers proved zero.",
+      "status": "PROVED"
+    },
+    {
+      "id": "F014-W013-T01",
+      "provenance": "root-verification",
+      "scope": "Graph-flow count only; no general LR interpretation.",
+      "statement": "C_(n,p) is the entire bounded-circulation Ehrhart polynomial of G_(n,p), of exact degree n+p, integral and reflexive in its saturated cycle lattice, with the explicit common-current sum.",
+      "status": "PROVED"
+    },
+    {
+      "id": "F014-W013-T02",
+      "provenance": "root-verification",
+      "scope": "All-n theorem, with classical Bernoulli premises; graph polynomial. Six further provider small-n outerplanar counts were not separately recounted.",
+      "statement": "For C_(n,1), n>=1, and interior indices1<=k<=n, c_k<0 exactly when n+1-k is a multiple of four at least20; all other interior coefficients are positive. The constant c0=1 and degree(n+1) leading coefficient are positive. There are max(0,floor(n/4)-4) negative coefficients. For n>=2 a simple outerplanar subcubic graph has this entire count.",
+      "status": "PROVED"
+    },
+    {
+      "id": "F014-W013-T03",
+      "provenance": "root-verification",
+      "scope": "Negative whole graph and later LR face only. Degree 18 is minimum only in the specified165graph roster.",
+      "statement": "For n>=1, [t]C_(n,3)=2n+3+(-1)^(n+1)(5B_(n+1)+B_(n+2)); n=15 has exact degree 18 and c1=-251/102, all other coefficients positive; c1<0 for n=15,19,23,... .",
+      "status": "PROVED"
+    },
+    {
+      "id": "F014-W013-T05",
+      "provenance": "root-verification",
+      "scope": "Degree 480 whole polynomial and all its ordinary signs remain uncomputed; unbounded negativity belongs to faces of integral LR triangles.",
+      "statement": "The degree-18 C_(15,3) polytope is a face of the complete integral LR triangle at the explicit rank-48, size-2593 triple, whose whole degree is 480. Integral LR triangles also have faces with unboundedly many negative ordinary coefficients.",
+      "status": "PROVED"
+    },
+    {
+      "id": "A002-C22",
+      "provenance": "Campaign-adopted Astra002 result; original independent gates and source premises are preserved.",
+      "scope": "A07; excludes only Euler-preserving exceptional embeddings of the specified higher-index negative-flow graphs",
+      "statement": "a three-arm flag Euler form has at most one negative direction",
+      "status": "PROVED"
+    },
+    {
+      "id": "A004-FLOW",
+      "provenance": "Campaign-root Astra004 result with independent review; source-only native/owner statements explicitly distinguished.",
+      "scope": "Complete standard single-commodity network-flow polytopes at any graph size. Not arbitrary projections, sections, equal-count identities or general hives.",
+      "statement": "Every standard bounded incidence-flow polytope has primitive edge coordinates in {-1,0,1}; a primitive relation v-w=m*u forces abs(m)<=2. Q_ab with max(a,b)>2 therefore has no direct affine-lattice flow realization.",
+      "status": "PROVED"
+    },
+    {
+      "id": "PUB1-023",
+      "provenance": "accepted independent mathematical verification or explicitly adopted source theorem; package preparation is not a new scientific run",
+      "scope": "Exactly the supplied lattice models and their complete source-defined domains",
+      "statement": "The three exact local rank-six cone formulas E32,E33 and cone 393b7353 remain proved whole-count identities on their represented real closed cones, with nonnegative ordinary coefficients and negative-real roots on nonconstant rays. All three original-box intersections have degree at most 2.",
+      "status": "PROVED"
+    },
+    {
+      "id": "ROOT-F025-MARGINAL",
+      "provenance": "Complete Pro025/root arguments with independent original-object, lattice, algebra and population checks at the named scopes; acceptance is recorded in ADOPTION.md and the final R3 dispositions. No worldwide novelty claim.",
+      "scope": "For detached sum 2t, at most one unit-cap violation occurs. Conditional exchangeability gives the other columns mean (2t-s)/2; the pair/cap correction is retained. Both upper overlaps retain sum 2t; the lower overlap uses its exact sum t-1 formula. Literal 3-by-3 matrix and whole controls pass, and all 637 complete profile reconstructions match. This is a new complete counting representation at the strict gap-two scope, not a generic large-defect oracle.",
+      "statement": "The complete gap-two branching count can be evaluated from one-column marginals W_s=[z^s] product_j sum_(x=0)^u_j (u_j-x+1)z^x, retaining all linear, cap, single-hinge, pair-hinge and determinant-overlap terms.",
+      "status": "PROVED"
+    },
+    {
+      "id": "FR025-INTERIOR-SURPLUS",
+      "provenance": "Complete Pro025/root arguments with independent original-object, lattice, algebra and population checks at the named scopes; acceptance is recorded in ADOPTION.md and the final R3 dispositions. No worldwide novelty claim.",
+      "scope": "The proof combines negative-grade roots, exact reflection parity and the complete interior-translation injection. It assumes no nonnegative h-star numerator. The residual-degree-two bound kappa<=q^2 eta gives nonnegative residual coefficients, with strict positivity only under a strict inequality; the m=10 Reeve control has residual [1,0,1/2]. At residual degree <=2, I(q)=1 is equivalent to full reflection; at <=4 add I(q+1)=P(1). Reflection alone implies parent positivity automatically only through residual degree three. Positive average minus half a positive surplus can still have a negative coefficient, as the complete non-LR Reeve example shows.",
+      "statement": "For a nonempty rational period-one polytope with true codegree q and actual dimension d, the complete surplus I(t+q)-P(t) is ordinary-nonnegative at d-q+1<=4. At residual degree at most three its reflected average and shifted interior polynomial are strictly positive.",
+      "status": "PROVED"
+    },
+    {
+      "id": "FR025-P11-T005",
+      "provenance": "Complete Pro025 derivation with root whole-object/source assessment and the named exact checks; final acceptance is governed by ADOPTION.md and the frozen R3 dispositions.",
+      "scope": "Reflection is required, not inferred from codegree or a unique interior point. Residual degree at most three.",
+      "statement": "Period-one polytopes with full codegree-q reflection and q>=d-2 have the positive factorization in proof 037 and strictly positive ordinary coefficients.",
+      "status": "PROVED"
+    },
+    {
+      "id": "FR025-P12-T007",
+      "provenance": "Complete Pro025 derivation with root whole-object/source assessment and the named exact checks; final acceptance is governed by ADOPTION.md and the frozen R3 dispositions.",
+      "scope": "Entire integral five-polytope, not LR-realized, not a candidate, not a novelty claim.",
+      "statement": "The complete twice-pyramided Reeve T47 polynomial has c1=-1/60 and c2=-1/24 despite coefficient-positive shifted-interior surplus and positive reflected average.",
+      "status": "PROVED"
+    }
+  ],
+  "source_knowledge_sha256": "607b6966ff6e80f8f6873bc0830f97999e874ca7430b78b5cf2bbc18e0587c25"
+}

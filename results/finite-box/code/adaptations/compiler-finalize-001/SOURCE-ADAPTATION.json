@@ -1,0 +1,5 @@
+{
+  "before_sha256": "af54cda15d0d58cd5869153b74c4a8fd3d28ffda51f84adfef6f25ad4ea4086d",
+  "after_sha256": "938933c8e466a2fb055693f513e02e2d8fff4b63beb9929c353d39cbdb22c449",
+  "change": "Only composition-finalize receives the exact already-frozen compiler path. The controller can bind that single external tool when authenticating terminal evidence; no broad external directory is admitted."
+}

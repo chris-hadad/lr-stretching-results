@@ -1,0 +1,67 @@
+{
+  "schema": "recipient-batch-limit-successors-v1",
+  "source_changes": [
+    {
+      "original": {
+        "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/results/finite-box/verify.py",
+        "bytes": 11671,
+        "sha256": "29c35fe1f5a9ab0558058a1def75dbe73e4e76ec6e61db7c40d939f0205ae26c"
+      },
+      "preserved": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-F2627-EXTERNAL-WORKSPACE-20260912-001/recipient-batch-tuning/previous/verify.py",
+        "bytes": 11671,
+        "sha256": "29c35fe1f5a9ab0558058a1def75dbe73e4e76ec6e61db7c40d939f0205ae26c"
+      },
+      "successor": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-F2627-EXTERNAL-WORKSPACE-20260912-001/recipient-batch-tuning/verify.py",
+        "bytes": 11673,
+        "sha256": "c82fa4db1d48622ed4a900f3f314fda167cb21660019f2cb1a6ac8a7f9d1fef4"
+      },
+      "exact_replacements": [
+        [
+          "batch=integer(profile[\"jobs_per_call\"] if jobs is None else jobs,1,64,\"jobs-per-call\")",
+          "batch=integer(profile[\"jobs_per_call\"] if jobs is None else jobs,1,4096,\"jobs-per-call\")"
+        ]
+      ]
+    },
+    {
+      "original": {
+        "path": "/Users/chadad/Documents/codex-workbench/plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/results/finite-box/code/reproduce.py",
+        "bytes": 35082,
+        "sha256": "828dd7e30940def126d3ed0429062ae7586220ac2b54cdd9c56cde094f23630b"
+      },
+      "preserved": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-F2627-EXTERNAL-WORKSPACE-20260912-001/recipient-batch-tuning/previous/reproduce.py",
+        "bytes": 35082,
+        "sha256": "828dd7e30940def126d3ed0429062ae7586220ac2b54cdd9c56cde094f23630b"
+      },
+      "successor": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-F2627-EXTERNAL-WORKSPACE-20260912-001/recipient-batch-tuning/reproduce.py",
+        "bytes": 35088,
+        "sha256": "c102cfbcfe5e62aef240a45217c64890007d13e5550bd1b206df958dfd900cd9"
+      },
+      "exact_replacements": [
+        [
+          "need(type(value) is int and 1<=value<=64,\"Jobs per controller call must be an exact integer in 1..64\")",
+          "need(type(value) is int and 1<=value<=4096,\"Jobs per controller call must be an exact integer in 1..4096\")"
+        ],
+        [
+          "Frozen scientific jobs per controller run/finalize call, 1..64 (default 16)",
+          "Frozen scientific jobs per controller run/finalize call, 1..4096 (default 16)"
+        ]
+      ]
+    }
+  ],
+  "only_behavior_change": "The exact integer jobs_per_call upper bound is 4096 instead of 64; default16 and all other predicates/limits remain unchanged.",
+  "recommended_not_installed_profiles": {
+    "full": {
+      "jobs_per_call": 4096,
+      "max_calls": 256
+    },
+    "sample": {
+      "jobs_per_call": 64
+    }
+  },
+  "actual_configuration_edited": false,
+  "full_facade_executed": false
+}

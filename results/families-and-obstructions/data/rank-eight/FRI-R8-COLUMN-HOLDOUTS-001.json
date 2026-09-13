@@ -1,0 +1,203 @@
+{
+  "algorithm": "rank8_column_transfer_v1",
+  "binary": "/Volumes/SLR-Research/stretched-lr-research/methods/fri-2026-09-09/science/build/rank8-column-v1",
+  "binary_sha256": "036719485fb687d86a52b7b3b30dd295836e5c6459840469fd584067122bed8d",
+  "case_count": 4,
+  "cases": [
+    {
+      "binary_pgid": 88213,
+      "binary_pid": 88214,
+      "command": [
+        "/Volumes/SLR-Research/stretched-lr-research/methods/fri-2026-09-09/science/build/rank8-column-v1",
+        "--m",
+        "22",
+        "--s",
+        "44"
+      ],
+      "count": "29770172352100574100",
+      "elapsed_seconds": 0.01204637496266514,
+      "finished_at": "2026-09-09T22:37:04.406304+00:00",
+      "index": 0,
+      "m": 22,
+      "request": {
+        "m": 22,
+        "s": 44
+      },
+      "result": {
+        "algorithm": "rank8_column_transfer_v1",
+        "count": "29770172352100574100",
+        "counters": {
+          "bottom_weighted_cells": 638112,
+          "coefficient_cells_checked": 1119266,
+          "distinct_ordered_column_margins": 16215,
+          "numerator_updates": 15207811,
+          "sorted_column_tuples": 816,
+          "transfer_products": 3056,
+          "zero_top_weight_tuples": 0
+        },
+        "elapsed_seconds": 0.008456292,
+        "integer_backend": "checked_signed_int128",
+        "intermediate_absolute_bound": "2^114",
+        "m": 22,
+        "native_calls": 0,
+        "s": 44,
+        "schema_version": 1,
+        "status": "complete"
+      },
+      "returncode": 0,
+      "s": 44,
+      "started_at": "2026-09-09T22:37:04.394266+00:00",
+      "status": "complete",
+      "stderr": ""
+    },
+    {
+      "binary_pgid": 88213,
+      "binary_pid": 88215,
+      "command": [
+        "/Volumes/SLR-Research/stretched-lr-research/methods/fri-2026-09-09/science/build/rank8-column-v1",
+        "--m",
+        "23",
+        "--s",
+        "46"
+      ],
+      "count": "65809335330948932400",
+      "elapsed_seconds": 0.013241125037893653,
+      "finished_at": "2026-09-09T22:37:04.419868+00:00",
+      "index": 1,
+      "m": 23,
+      "request": {
+        "m": 23,
+        "s": 46
+      },
+      "result": {
+        "algorithm": "rank8_column_transfer_v1",
+        "count": "65809335330948932400",
+        "counters": {
+          "bottom_weighted_cells": 783840,
+          "coefficient_cells_checked": 1374243,
+          "distinct_ordered_column_margins": 18424,
+          "numerator_updates": 19485514,
+          "sorted_column_tuples": 920,
+          "transfer_products": 3455,
+          "zero_top_weight_tuples": 0
+        },
+        "elapsed_seconds": 0.010777291,
+        "integer_backend": "checked_signed_int128",
+        "intermediate_absolute_bound": "2^114",
+        "m": 23,
+        "native_calls": 0,
+        "s": 46,
+        "schema_version": 1,
+        "status": "complete"
+      },
+      "returncode": 0,
+      "s": 46,
+      "started_at": "2026-09-09T22:37:04.406634+00:00",
+      "status": "complete",
+      "stderr": ""
+    },
+    {
+      "binary_pgid": 88213,
+      "binary_pid": 88216,
+      "command": [
+        "/Volumes/SLR-Research/stretched-lr-research/methods/fri-2026-09-09/science/build/rank8-column-v1",
+        "--m",
+        "22",
+        "--s",
+        "34"
+      ],
+      "count": "2580301275339784080",
+      "elapsed_seconds": 0.004533333005383611,
+      "finished_at": "2026-09-09T22:37:04.424703+00:00",
+      "index": 2,
+      "m": 22,
+      "request": {
+        "m": 22,
+        "s": 34
+      },
+      "result": {
+        "algorithm": "rank8_column_transfer_v1",
+        "count": "2580301275339784080",
+        "counters": {
+          "bottom_weighted_cells": 226872,
+          "coefficient_cells_checked": 344622,
+          "distinct_ordered_column_margins": 7770,
+          "numerator_updates": 3661589,
+          "sorted_column_tuples": 411,
+          "transfer_products": 1511,
+          "zero_top_weight_tuples": 0
+        },
+        "elapsed_seconds": 0.0023475,
+        "integer_backend": "checked_signed_int128",
+        "intermediate_absolute_bound": "2^114",
+        "m": 22,
+        "native_calls": 0,
+        "s": 34,
+        "schema_version": 1,
+        "status": "complete"
+      },
+      "returncode": 0,
+      "s": 34,
+      "started_at": "2026-09-09T22:37:04.420178+00:00",
+      "status": "complete",
+      "stderr": ""
+    },
+    {
+      "binary_pgid": 88213,
+      "binary_pid": 88217,
+      "command": [
+        "/Volumes/SLR-Research/stretched-lr-research/methods/fri-2026-09-09/science/build/rank8-column-v1",
+        "--m",
+        "24",
+        "--s",
+        "31"
+      ],
+      "count": "1901881685329870272",
+      "elapsed_seconds": 0.003831584006547928,
+      "finished_at": "2026-09-09T22:37:04.428882+00:00",
+      "index": 3,
+      "m": 24,
+      "request": {
+        "m": 24,
+        "s": 31
+      },
+      "result": {
+        "algorithm": "rank8_column_transfer_v1",
+        "count": "1901881685329870272",
+        "counters": {
+          "bottom_weighted_cells": 160500,
+          "coefficient_cells_checked": 225776,
+          "distinct_ordered_column_margins": 5984,
+          "numerator_updates": 2195257,
+          "sorted_column_tuples": 321,
+          "transfer_products": 1171,
+          "zero_top_weight_tuples": 0
+        },
+        "elapsed_seconds": 0.001400208,
+        "integer_backend": "checked_signed_int128",
+        "intermediate_absolute_bound": "2^114",
+        "m": 24,
+        "native_calls": 0,
+        "s": 31,
+        "schema_version": 1,
+        "status": "complete"
+      },
+      "returncode": 0,
+      "s": 31,
+      "started_at": "2026-09-09T22:37:04.425056+00:00",
+      "status": "complete",
+      "stderr": ""
+    }
+  ],
+  "completed_cases": 4,
+  "elapsed_seconds": 0.035467084031552076,
+  "finished_at": "2026-09-09T22:37:04.429130+00:00",
+  "native_calls": 0,
+  "pgid": 88213,
+  "pid": 88213,
+  "roster": "/Volumes/SLR-Research/stretched-lr-research/methods/fri-2026-09-09/rank8-column-holdouts.json",
+  "roster_sha256": "15ce79b2d62510a6bfb52098c2057b26911581fdcbee171bc0394e4a66424d12",
+  "schema_version": 1,
+  "started_at": "2026-09-09T22:37:04.393671+00:00",
+  "status": "complete"
+}

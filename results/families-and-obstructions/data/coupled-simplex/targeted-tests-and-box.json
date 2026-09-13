@@ -1,0 +1,177 @@
+{
+  "status": "TARGETED_TESTS_AND_BOX_SUPPLEMENT_PASS",
+  "tests": [
+    {
+      "test": "mixed_negative_not_ordinary_witness",
+      "status": "pass",
+      "synthetic_only": true
+    },
+    {
+      "test": "actual_geometry_callback_routes_unmet_premise",
+      "status": "pass",
+      "synthetic_only": true,
+      "partial_file": "results/fixture-unmet-premise.json"
+    },
+    {
+      "test": "actual_adapter_refuses_source_mismatch_before_spawn",
+      "status": "pass",
+      "synthetic_only": true
+    }
+  ],
+  "boxed": {
+    "04b974e74c9d1358": {
+      "all17_rays_integral_primitive": true,
+      "simple_integer_boundary_forms": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "-1"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "-1",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "active_parameter_weights": [
+        "18",
+        "21",
+        "33"
+      ],
+      "outer_size_limit": 30,
+      "possible_active_parameter_tuples": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "maximum_degree_in_represented_box": 2,
+      "scope": "necessary active-coordinate classification in each proved cone; not whole-box enumeration or additive coverage"
+    },
+    "b54e0912e4e93806": {
+      "all17_rays_integral_primitive": true,
+      "simple_integer_boundary_forms": [
+        [
+          "0",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "-1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "-1",
+          "0",
+          "-1",
+          "0",
+          "0",
+          "0",
+          "-1"
+        ],
+        [
+          "1",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "-1",
+          "-1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "-1",
+          "-1",
+          "0"
+        ]
+      ],
+      "active_parameter_weights": [
+        "28",
+        "59"
+      ],
+      "outer_size_limit": 30,
+      "possible_active_parameter_tuples": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "maximum_degree_in_represented_box": 3,
+      "scope": "necessary active-coordinate classification in each proved cone; not whole-box enumeration or additive coverage"
+    }
+  },
+  "checker_sha256": "3942ef56cb5d31757b7a015c062ff9da93c1ba1e7840e9fe05e4d8492ef6a05b",
+  "expected_failure_fixture_is_not_science_partial": true
+}

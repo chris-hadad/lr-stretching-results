@@ -1,0 +1,225 @@
+{
+  "scope": "Unchanged mathematical source proof copies; reader-facing statements outside this directory are separately authored and checked.",
+  "files": [
+    {
+      "path": "pro027/001-COMPLETE-GAP3-CLUSTERS.md",
+      "bytes": 8726,
+      "sha256": "856be9a425a2128a6945fe351f2fed7a9bb4c6b0d6b3dd79046c0499ad0b2ee7"
+    },
+    {
+      "path": "pro027/002-QUOTIENT-LATTICE-AND-ZERO-GRADE.md",
+      "bytes": 2998,
+      "sha256": "2c04ae096d5cbe797687f2b0db39e434f10f73ee3d484b71d811af88a35692ea"
+    },
+    {
+      "path": "pro027/003-SHARP-AFFINE-THRESHOLD.md",
+      "bytes": 2940,
+      "sha256": "327a4aa1a7c7d2abfbd343a0bc03447f148426e926cc88bddc7da15256948e58"
+    },
+    {
+      "path": "pro027/004-UNBOUNDED-RANK6-POSITIVITY.md",
+      "bytes": 8890,
+      "sha256": "6c10cb939acd268024183863dbe42b32f958eebdcea117f4282828b376927e0f"
+    },
+    {
+      "path": "pro027/005-COMPLETE-QUADRANT-AND-DUALITY.md",
+      "bytes": 7695,
+      "sha256": "891aff98fd8cbb3be6cccf97de2ce8ea7aa8d6d91ab466645768cf96de6d0229"
+    },
+    {
+      "path": "pro027/006-QUOTIENT-MOMENTS-AND-POSITIVE-CERTIFICATE.md",
+      "bytes": 7111,
+      "sha256": "17120234ce93cf9d964e3d1b5989b99ed585a3539e5670018baa365942adfd66"
+    },
+    {
+      "path": "pro027/007-HOMOGENEOUS-CONE-AND-BOUNDARIES.md",
+      "bytes": 9370,
+      "sha256": "af4f7b8a83451772aa7fef9b592db3ffb76215231eb2b1e3ec4c7fb4cf34762c"
+    },
+    {
+      "path": "pro027/008-INITIAL-WALLS-AND-POSITIVE-DIFFERENCES.md",
+      "bytes": 4538,
+      "sha256": "cd3515889f93163447de615f13746bc94d74c579a56042483a9b52d655b79480"
+    },
+    {
+      "path": "pro027/009-RESIDUE-INVOLUTIONS-AND-ODD-REDUCTION.md",
+      "bytes": 6729,
+      "sha256": "f5fe475a01000d8314b6b94888995efcb76fd812d7b69f80d06b7de77daa75e1"
+    },
+    {
+      "path": "pro027/010-ODD-FIVE-CERTIFICATE-AND-SIX-LAYERS.md",
+      "bytes": 4086,
+      "sha256": "5ea2668e8463bae9a81b7e0767edd3fc778a677b4d105b589248d4e3f5a0b588"
+    },
+    {
+      "path": "pro027/011-COMPLETE-RANK10-CAP-RELEASE-FAMILY.md",
+      "bytes": 7062,
+      "sha256": "4b5e120e01cf7feb8529c79e002b90453140d6affd21f3d395b4b5d544999f32"
+    },
+    {
+      "path": "pro027/012-INDEPENDENT-WHOLE-MODELS-AND-CHALLENGES.md",
+      "bytes": 5608,
+      "sha256": "021f7be88ab875a6f0feb47d20c1d4fa91abf9b46d3c790b0963ed5113f8c8f5"
+    },
+    {
+      "path": "pro027/013-COMPLETE-BANK-CONTRACTION.md",
+      "bytes": 4040,
+      "sha256": "540e4c22d7ba889054f87a466401f5b92722e35138ae6d3d623f2f5782c0fce1"
+    },
+    {
+      "path": "pro027/014-ALL-RANK-BANK-POSITIVITY.md",
+      "bytes": 5599,
+      "sha256": "9d32d3d56e9097c633ac2b967ea56e8ee28d20a7c43657767f484fa1b3f5ff8c"
+    },
+    {
+      "path": "pro027/015-COMPLETE-GAP-WALLS-AND-LINEAR-TENTS.md",
+      "bytes": 5496,
+      "sha256": "b1601c835c2cd04d435bdac4378af60001597f897380594022449ada2217c379"
+    },
+    {
+      "path": "pro027/016-MARKED-LEAKAGE-AND-CAP-CHALLENGE.md",
+      "bytes": 6015,
+      "sha256": "30912b166f239f2f66d34d4bfe6292cb6233ae551495cdcc45d06e70df31b818"
+    },
+    {
+      "path": "pro027/017-COMPLETE-FLOW-INTERIOR-GENERATION.md",
+      "bytes": 8624,
+      "sha256": "617d4c8445f4a1bb6f0192c2f663f5ee5027edf90699a31773c5eb06d7617a26"
+    },
+    {
+      "path": "pro027/018-EXACT-TRANSLATED-INTERIOR-INTERSECTIONS.md",
+      "bytes": 5325,
+      "sha256": "7c7fcd94a63343f55088d3d91976d3b02c8fa9cde78fae672168afa279ef645e"
+    },
+    {
+      "path": "pro027/019-UNEQUAL-WEIGHT-NONCENTRAL-POSITIVITY.md",
+      "bytes": 7441,
+      "sha256": "115bcb153b74a7f02473095664f4cc56c993762c0b0cc17ebac71c16db8aced0"
+    },
+    {
+      "path": "pro027/020-QUANTITATIVE-SURPLUS-AND-UNCOVERED-STRATA.md",
+      "bytes": 7976,
+      "sha256": "09a5ebb2781fcd5be12f750cd44c2ef48af8ce491c53862cdfb7321d819ebbfe"
+    },
+    {
+      "path": "pro027/021-BOUNDARY-AWARE-FACET-REDUCTION.md",
+      "bytes": 10163,
+      "sha256": "8a59f4f1231e5527a48d49ee3dbcac36a96e096e0b4c66f1f55f6bb2d414e61a"
+    },
+    {
+      "path": "pro027/022-HIDDEN-STRATA-BY-DUAL-VALUATION.md",
+      "bytes": 5906,
+      "sha256": "eab9a474cb89096164847495e5325050f109d92238f1f92c85aaf675d36719c3"
+    },
+    {
+      "path": "pro027/023-ALL-SIZE-FOUR-COORDINATE-LR-POSITIVITY.md",
+      "bytes": 9659,
+      "sha256": "3f450847069d4a32f711410975a016b602b7766236746ab07accbae57d0e75cc"
+    },
+    {
+      "path": "pro027/024-CO-REALIZED-CONES-AND-BOUNDARY-CHALLENGE.md",
+      "bytes": 7188,
+      "sha256": "0b89b8a9c842c17cdad910ac2d5068ec4ed9dd0de2de55a8d2dda724bbbb45e7"
+    },
+    {
+      "path": "pro027/025-COMPLETE-REFINED-NORMAL-CYCLE.md",
+      "bytes": 8039,
+      "sha256": "8d0aff3e9d76189804b04061da32b9137892376d45d33e2c6130248f3a5f2409"
+    },
+    {
+      "path": "pro027/026-ALL-SIZE-FIVE-COORDINATE-DOMAINS.md",
+      "bytes": 9874,
+      "sha256": "92a28c772138f715a766284fdf4d540a57b3b20cba99a7e52628811863dd0629"
+    },
+    {
+      "path": "pro027/027-ACTUAL-NEGATIVE-EDGE-AND-INDEX-CHALLENGES.md",
+      "bytes": 8578,
+      "sha256": "99de3a7ae512a8dbb78526722f14a57bd69473716c336a8017f646ae04798c20"
+    },
+    {
+      "path": "pro027/028-ALL-RANK6-FIVE-COORDINATE-POSITIVITY.md",
+      "bytes": 12533,
+      "sha256": "5656cf9296d53b7caad7767f0b1ccb06eee4cbb9fe2abd9a3c15898020a075d5"
+    },
+    {
+      "path": "pro027/029-EXACT-LATTICE-ISOMETRIES-AND-FINITE-CERTIFICATE.md",
+      "bytes": 9827,
+      "sha256": "69ee3b5023fbb5b16340d8c350cf9e08bc611ccd028c711d03abbaeb16cb824f"
+    },
+    {
+      "path": "pro027/030-COMPLETE-FAN-AND-PERIODIC-BOUNDARY-CHALLENGES.md",
+      "bytes": 7855,
+      "sha256": "cf51d53264b1743d42b8abec707626ee240fbf092c13110aa94e9b5f7da7e61c"
+    },
+    {
+      "path": "pro027/031-ALL-RANK6-SIXTH-COEFFICIENT.md",
+      "bytes": 10079,
+      "sha256": "d6acd559213cd3c37d346915e23ba3a7fe2e6bdeddc4cc0d38a23947bbe7b6d5"
+    },
+    {
+      "path": "pro027/032-COMPLETE-SIX-FACE-VOLUMES-AND-BALANCES.md",
+      "bytes": 7862,
+      "sha256": "43b2d2db28a7cc9c62d838c169e1808b00b09fcf80fb7765b9e0c5d3cf2d785d"
+    },
+    {
+      "path": "pro027/033-COMPLETE-CONE-EXCLUSION-AND-PRIMITIVE-CHALLENGE.md",
+      "bytes": 6996,
+      "sha256": "ac7da568650f1f530bcf377fc473a71771fcc2b4d9cb00cf3cb46b6394c66da9"
+    },
+    {
+      "path": "pro027/034-ALL-RANK7-ELEVENTH-COEFFICIENT.md",
+      "bytes": 9821,
+      "sha256": "9eec3a1e70fd1500942e8b28b2f055450f04a10cfa346577021664e92096872a"
+    },
+    {
+      "path": "pro027/035-STABLE-FLOW-HIVE-MAP.md",
+      "bytes": 5680,
+      "sha256": "f61c555b4876d1604152a4e623e30dc8ee625120842e6bc7601abc46330f3f5f"
+    },
+    {
+      "path": "pro027/036-COMPLETE-ELEVEN-FACE-CHALLENGE.md",
+      "bytes": 8208,
+      "sha256": "796a1ca2441a7db6dd481403b3623dd8e2f07d031578104a412f6db0819e5c7a"
+    },
+    {
+      "path": "pro027/037-TWELVE-COMPONENT-AND-RELEASE-CHALLENGES.md",
+      "bytes": 7661,
+      "sha256": "1f46376554c5323a44850be9c70259be1fb52b0aa319d48d26f1a3821acf911c"
+    },
+    {
+      "path": "pro027/038-INTRINSIC-BOUNDARY-PATCH-COMPENSATION.md",
+      "bytes": 7469,
+      "sha256": "42c1a6d9795c137856d269b21b88e453d8cef52dd429a439f6bc03c9da52b776"
+    },
+    {
+      "path": "pro027/039-EXACT-ISOMETRY-OBSTRUCTION.md",
+      "bytes": 4236,
+      "sha256": "210c765c4d2194fc3e79b7153802b87efc5a1c4cb24f3883acc3da91b06c3179"
+    },
+    {
+      "path": "pro027/040-FINITE-RANK-PATCH-REDUCTION.md",
+      "bytes": 6873,
+      "sha256": "8f7074091819d1a9c50a31e7d9583efe068a15ca7b472ec37b2bd2070c64284f"
+    },
+    {
+      "path": "pro027/041-RANK8-STARS-AND-ARITHMETIC-REPAIR.md",
+      "bytes": 4479,
+      "sha256": "b46e41dc328592f4a1660b66ab55330fbd4f7f72c82524f11140c25a922c9edb"
+    },
+    {
+      "path": "pro027/042-CODIMENSION-FOUR-THROUGH-RANK-TWELVE.md",
+      "bytes": 12906,
+      "sha256": "9ff244d13b9b562b27c2a7f874b82dc71dca5ba5271f6afbf0b4be5a96d91f48"
+    },
+    {
+      "path": "root/SLOPE-THREE-PROOF.md",
+      "bytes": 5369,
+      "sha256": "7e1a810c396dd3948c3cb9b8a75cf136836f3d299f362001a6f853ac35d26b70"
+    },
+    {
+      "path": "root/TRANSPORT-CONE-LINEAR-COEFFICIENT.md",
+      "bytes": 11474,
+      "sha256": "b5bd72785e2263acb908cb0d788e385a44c34877c48fa851df7d67c5114267a9"
+    }
+  ]
+}
