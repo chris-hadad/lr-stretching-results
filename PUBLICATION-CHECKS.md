@@ -43,5 +43,5 @@ Primary citations and public recipient sources were checked. The publication
 history and selected tree received a bounded content inspection; host-path
 provenance labels and ordinary Git author metadata remain disclosed in the
 owner's release proposal. No external human endorsement or public visibility
-change is implied by this record. The independent edition review is recorded
-separately after its frozen scope is complete.
+change is implied by this record. The [independent edition review](EDITION-REVIEW.md) returned one low-severity
+provenance finding; its local correction and verification are recorded there.

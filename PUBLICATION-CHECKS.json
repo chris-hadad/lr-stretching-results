@@ -143,6 +143,16 @@
       "owned_process_group_exited": true,
       "output_sha256": "f679ed5f149e41c299a7182e3e9871a46059251b66559b6a2396afa9bb77af2c",
       "error_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "portable-recipient-fixture",
+      "command": "python3 -B verification/recipient_failures.py --module results/finite-box --data DATA --work NEW_WORK",
+      "exit_code": 0,
+      "elapsed_seconds": 2.789392917067744,
+      "timed_out": false,
+      "owned_process_group_exited": true,
+      "output_sha256": "56d592e7733daa89b7f273d51bd259cc41ac0410709a91484038c5130e534321",
+      "error_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     }
   ],
   "adverse_attempts": {
@@ -150,5 +160,6 @@
     "tooling-examples": "A newly drafted guide named a nonexistent examples.py. The guide was corrected to examples/current_apis.py and that exact command passed."
   },
   "full_convenience_facade_executed": false,
-  "external_human_review_inferred": false
+  "external_human_review_inferred": false,
+  "edition_review": "EDITION-REVIEW.md"
 }

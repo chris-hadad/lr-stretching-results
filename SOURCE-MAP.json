@@ -606,8 +606,14 @@
     {
       "path": "DOCUMENTATION-ADAPTATIONS.json",
       "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
-      "included_bytes": 4484,
-      "included_sha256": "753094c2342a4b75deb2e7d709cff9a5f18fafd95f7c123e564ff1e0bd208ba5"
+      "included_bytes": 5907,
+      "included_sha256": "3c0d3ad6eb86954ae097bbf173ac970b4541b78dbc66f949fd1cc2adeed1b132"
+    },
+    {
+      "path": "EDITION-REVIEW.md",
+      "provenance": "New edition review/finalization metadata; no new scientific acceptance inferred.",
+      "included_bytes": 1484,
+      "included_sha256": "228e4c964061a0a1740c5b5fe539410c94063e05d664a702436f435c2b3e41db"
     },
     {
       "path": "METHODS.md",
@@ -625,14 +631,14 @@
     {
       "path": "PUBLICATION-CHECKS.json",
       "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
-      "included_bytes": 7455,
-      "included_sha256": "4a67fc69e9a14bd119e6bb59ec23712afca4fb3c44a60e2b4cbd55afcd39fb6d"
+      "included_bytes": 7996,
+      "included_sha256": "e162a52535846bc4dc6175cb6df414a3f10de38bade211b1107c8452a970f364"
     },
     {
       "path": "PUBLICATION-CHECKS.md",
       "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
-      "included_bytes": 3690,
-      "included_sha256": "7ebe6a1f20c7bc1b3c4f98bcd39c4f74d5cc726827c087793966c00968484b95"
+      "included_bytes": 3756,
+      "included_sha256": "a216b7595b82f3eb5164babd01f9c34f5fceab9b52949bda389ca20d82eb7102"
     },
     {
       "included_bytes": 4559,
@@ -670,8 +676,8 @@
     {
       "path": "SHARING.md",
       "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
-      "included_bytes": 1854,
-      "included_sha256": "2c80401c5d35490b6301e38b07c97590bdcf209ff678ba12c7dc7ccc4128a5d7"
+      "included_bytes": 2031,
+      "included_sha256": "755c565d0bf58fc4fbcc6a886c0fa737f75c85152bc99fa4894e28e7b1144b6a"
     },
     {
       "path": "examples/sign_completion.py",

@@ -12,7 +12,11 @@
           "tooling/examples/current_apis.py"
         ]
       ],
-      "scope": "Documentation paths only; mathematical statements and executable code unchanged."
+      "scope": "Documentation paths only; mathematical statements and executable code unchanged.",
+      "before_origin": {
+        "kind": "unpublished_draft",
+        "description": "September 13 newly authored verification guide before correction of its example path; not present in the baseline Git tree."
+      }
     },
     {
       "path": "results/families-and-obstructions/proofs/rectangular-bridge.md",
@@ -36,7 +40,12 @@
           "rectangular-extension.md"
         ]
       ],
-      "scope": "Documentation paths only; mathematical statements and executable code unchanged."
+      "scope": "Documentation paths only; mathematical statements and executable code unchanged.",
+      "before_origin": {
+        "kind": "published_snapshot",
+        "commit": "198a9ae5a74e171c4792f2c50c1d149b5a4d1995",
+        "path": "results/families-and-obstructions/proofs/rectangular-bridge.md"
+      }
     },
     {
       "path": "results/families-and-obstructions/proofs/rectangular-canonical.md",
@@ -48,7 +57,12 @@
           "[rectangular bridge](rectangular-bridge.md)"
         ]
       ],
-      "scope": "Documentation paths only; mathematical statements and executable code unchanged."
+      "scope": "Documentation paths only; mathematical statements and executable code unchanged.",
+      "before_origin": {
+        "kind": "published_snapshot",
+        "commit": "198a9ae5a74e171c4792f2c50c1d149b5a4d1995",
+        "path": "results/families-and-obstructions/proofs/rectangular-canonical.md"
+      }
     },
     {
       "path": "tooling/history/previous-tooling/PROOFS.md",
@@ -84,7 +98,12 @@
           "](../../proofs/transport.md)"
         ]
       ],
-      "scope": "Documentation paths only; mathematical statements and executable code unchanged."
+      "scope": "Documentation paths only; mathematical statements and executable code unchanged.",
+      "before_origin": {
+        "kind": "published_snapshot",
+        "commit": "198a9ae5a74e171c4792f2c50c1d149b5a4d1995",
+        "path": "tooling/history/previous-tooling/PROOFS.md"
+      }
     },
     {
       "path": "tooling/history/previous-tooling/README.md",
@@ -100,7 +119,12 @@
           "](../../SOURCE-LICENSES.md)"
         ]
       ],
-      "scope": "Documentation paths only; mathematical statements and executable code unchanged."
+      "scope": "Documentation paths only; mathematical statements and executable code unchanged.",
+      "before_origin": {
+        "kind": "published_snapshot",
+        "commit": "198a9ae5a74e171c4792f2c50c1d149b5a4d1995",
+        "path": "tooling/history/previous-tooling/README.md"
+      }
     },
     {
       "path": "tooling/proofs/sources/rectangular-api-original.md",
@@ -112,8 +136,13 @@
           "[curated rectangular adoption and limits](rectangular-adoption.md)"
         ]
       ],
-      "scope": "Documentation paths only; mathematical statements and executable code unchanged."
+      "scope": "Documentation paths only; mathematical statements and executable code unchanged.",
+      "before_origin": {
+        "kind": "published_snapshot",
+        "commit": "198a9ae5a74e171c4792f2c50c1d149b5a4d1995",
+        "path": "tooling/proofs/sources/rectangular-api-original.md"
+      }
     }
   ],
-  "source_bodies": "Earlier complete byte versions remain in the pinned Git snapshot; current copies change only the listed link/command text."
+  "source_bodies": "For records marked published_snapshot, the earlier complete bytes remain at baseline_commit. The REPRODUCING.md preimage is an unpublished author draft, preserved in the private preparation record; no baseline Git identity is asserted for it. Current copies change only the listed link/command text."
 }

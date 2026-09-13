@@ -19,7 +19,7 @@ authenticated account tests that owner's access only. No external reviewer
 access, endorsement or invitation is implied by a successful download.
 
 No open-source or open-content license has yet been selected. Public visibility
-would not itself supply a reuse license. The owner will decide the terms for
+would not itself supply a reuse license; see [GitHub’s licensing guidance](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository). The owner will decide the terms for
 code, mathematical exposition and original data, and confirm rights for
 selected third-party-derived sources described in the source maps. Citation
 and credit for prior mathematics remain necessary regardless of that decision.
