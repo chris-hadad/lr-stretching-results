@@ -77,3 +77,11 @@ arguments; external human mathematical review is still sought. No institutional
 endorsement or historical novelty determination is implied. This collection records initial findings and provides a basis for
 further results. See [versions and citation](SHARING.md) for citing a precise
 research note, source snapshot or dataset.
+
+
+## License
+
+Software and executable examples are available under [MIT](LICENSE).
+Research notes, proofs, documentation and data are available under
+[CC BY 4.0](LICENSES/CC-BY-4.0.txt). See [licensing and attribution](LICENSING.md)
+for the scopes, release archives and credit information.

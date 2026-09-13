@@ -34,3 +34,9 @@ proof notes distinguish these premises from finite checks and open extensions.
 The standalone code uses Python's standard library. Optional Sage hooks in
 `hive.py` are not used by the examples or checks. No third-party implementation
 is bundled as an undeclared dependency.
+
+
+The program sources and executable examples are licensed under
+[MIT](../LICENSE). The explanatory notes and mathematical data use
+[CC BY 4.0](../LICENSES/CC-BY-4.0.txt), with the scopes and attribution
+requirements described in [LICENSING.md](../LICENSING.md).

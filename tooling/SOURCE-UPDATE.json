@@ -116,7 +116,7 @@
       }
     },
     {
-      "bytes": 2111,
+      "bytes": 2374,
       "origin": {
         "repository": "lr-stretching-results",
         "source": "tooling/SOURCE-LICENSES.md",
@@ -125,13 +125,14 @@
         "source_sha256": "9b0eb301078f2e70948951d3dd51343eb2a8df79a12dd4aa80715ba2ca933b2a"
       },
       "path": "SOURCE-LICENSES.md",
-      "sha256": "a6f7d7a260f47301ee3fbfbe17df8fea462ab65683aadfb408a5c53c9e2d1c91",
-      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "sha256": "411b749d8778748eec21752cf29891c2af2d2b2518368661eaf744202107bc26",
+      "transformation": "Implementation provenance preserved; explicit MIT software and CC BY 4.0 research-content notice added.",
       "editorial_baseline": {
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "bytes": 3029,
         "sha256": "9b0eb301078f2e70948951d3dd51343eb2a8df79a12dd4aa80715ba2ca933b2a"
-      }
+      },
+      "licensing_baseline_sha256": "a6f7d7a260f47301ee3fbfbe17df8fea462ab65683aadfb408a5c53c9e2d1c91"
     },
     {
       "bytes": 33526,

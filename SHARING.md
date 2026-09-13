@@ -18,3 +18,8 @@ Research contributions and AI assistance are documented in
 The [current source and offline bundles](https://github.com/chris-hadad/lr-stretching-results/releases/tag/research-edition-2026-09-13-v2)
 contain the reader-facing proof collection and identify their exact source
 commit. The numerical archives retain their original version and hashes.
+
+
+Software is licensed under MIT; research content and data are licensed under
+CC BY 4.0. [LICENSING.md](LICENSING.md) describes reuse and attribution,
+including the license companion supplied with the versioned downloads.

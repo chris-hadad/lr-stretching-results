@@ -626,6 +626,24 @@
       }
     },
     {
+      "path": "LICENSE",
+      "provenance": "Standard license text or explicit scope/attribution notice; no scientific result change.",
+      "included_bytes": 1068,
+      "included_sha256": "865dbcbac02fa4505208534f29aeda616ba22620e182c74bb5e4b7448245c254"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "provenance": "Standard license text or explicit scope/attribution notice; no scientific result change.",
+      "included_bytes": 18657,
+      "included_sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "path": "LICENSING.md",
+      "provenance": "Standard license text or explicit scope/attribution notice; no scientific result change.",
+      "included_bytes": 2774,
+      "included_sha256": "115ed45b830e7bc12d611fdcdc92fa9f301cce3be412f5e639d3c86d147e827a"
+    },
+    {
       "path": "METHODS.md",
       "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
       "included_bytes": 7042,
@@ -666,8 +684,8 @@
       }
     },
     {
-      "included_bytes": 4581,
-      "included_sha256": "2b6abf0e71abaa3319dcb2bd4fb68b09f7972c28f054809abe64a85b910860a3",
+      "included_bytes": 4871,
+      "included_sha256": "0d543514230b1f59377d2a6faaa57cea6962a02ac37d45d700e33b7ea3d5b4bd",
       "path": "README.md",
       "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted",
       "prior_included_sha256": "a92b1ae5efb9f764a082299d87044ad319459cbcc91ea155fa39dda6b0b1b326",
@@ -675,7 +693,8 @@
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "bytes": 4559,
         "sha256": "573a7f8478d2c682846366fb69e6f5c480fcd4635ae9a19f87e6bc0e261fcb05"
-      }
+      },
+      "pre_licensing_included_sha256": "2b6abf0e71abaa3319dcb2bd4fb68b09f7972c28f054809abe64a85b910860a3"
     },
     {
       "path": "REFERENCE-NOTES.md",
@@ -726,13 +745,14 @@
     {
       "path": "SHARING.md",
       "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
-      "included_bytes": 1161,
-      "included_sha256": "c0f2f58634baa28e4c7836eaabf03cbfa7aa5b98e6a6f136a14c9d1b7cc0f7fe",
+      "included_bytes": 1384,
+      "included_sha256": "43753a606a814c1b4f6df1b560ade32eb56179bef1905beec7ccc4f0f9d15eda",
       "editorial_baseline": {
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "bytes": 2031,
         "sha256": "755c565d0bf58fc4fbcc6a886c0fa737f75c85152bc99fa4894e28e7b1144b6a"
-      }
+      },
+      "pre_licensing_included_sha256": "c0f2f58634baa28e4c7836eaabf03cbfa7aa5b98e6a6f136a14c9d1b7cc0f7fe"
     },
     {
       "path": "examples/sign_completion.py",
@@ -8883,8 +8903,8 @@
       }
     },
     {
-      "included_bytes": 2111,
-      "included_sha256": "a6f7d7a260f47301ee3fbfbe17df8fea462ab65683aadfb408a5c53c9e2d1c91",
+      "included_bytes": 2374,
+      "included_sha256": "411b749d8778748eec21752cf29891c2af2d2b2518368661eaf744202107bc26",
       "path": "tooling/SOURCE-LICENSES.md",
       "prior_record_pointer": "/historical_source_map/mathematical_files/27",
       "source_map": "tooling/SOURCE-UPDATE.json",
@@ -8893,11 +8913,12 @@
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "bytes": 3029,
         "sha256": "9b0eb301078f2e70948951d3dd51343eb2a8df79a12dd4aa80715ba2ca933b2a"
-      }
+      },
+      "pre_licensing_included_sha256": "a6f7d7a260f47301ee3fbfbe17df8fea462ab65683aadfb408a5c53c9e2d1c91"
     },
     {
-      "included_bytes": 71661,
-      "included_sha256": "0617793a3cc1b4123e2a7c8795df40ea753c612e35ac8f955510dceb5e660b5b",
+      "included_bytes": 71738,
+      "included_sha256": "2913badaf0811ce41448356c045635aa361f6053bfd32e95a5c3db65e66872e4",
       "path": "tooling/SOURCE-UPDATE.json",
       "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted",
       "prior_included_sha256": "c115e205cfacbbda6184910382ef364cec4568eaa64341430675213eee7e7e1a",
@@ -8905,7 +8926,8 @@
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "bytes": 64899,
         "sha256": "1f895a27276d5acb4d88a2c373a94f47ffa4723716fec40c2f55e8ae3036499b"
-      }
+      },
+      "pre_licensing_included_sha256": "0617793a3cc1b4123e2a7c8795df40ea753c612e35ac8f955510dceb5e660b5b"
     },
     {
       "included_bytes": 33526,
@@ -9613,9 +9635,9 @@
       "sha256": "420a93baae3922b6e68f3f6efcc8e4cdccc5efae18dc98bfdceb30f414dd7d74"
     },
     "tooling": {
-      "bytes": 71661,
+      "bytes": 71738,
       "path": "tooling/SOURCE-UPDATE.json",
-      "sha256": "0617793a3cc1b4123e2a7c8795df40ea753c612e35ac8f955510dceb5e660b5b"
+      "sha256": "2913badaf0811ce41448356c045635aa361f6053bfd32e95a5c3db65e66872e4"
     },
     "results/structural-positivity/replay": {
       "path": "results/structural-positivity/replay/SOURCE-MAP.json",
