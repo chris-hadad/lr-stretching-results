@@ -1,8 +1,8 @@
-# Selected historical adoption record
+# Computational verification summary
 
-This is the exact relevant section of the dated root acceptance record.
-The source hash and selection are recorded in the tooling source update.
-It is prior verification evidence, not a new run of this publication.
+This summary describes the independently checked computational evidence.
+Source versions and exact result hashes are recorded in the tooling source
+map. These are the recorded checks, not a claim of a new execution.
 
 ## Maintained program and useful repair
 

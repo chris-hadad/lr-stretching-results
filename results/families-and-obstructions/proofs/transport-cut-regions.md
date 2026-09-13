@@ -1,8 +1,8 @@
 # A symmetric positive cut functional and an unbounded-rank whole-LR c1 cone
 
-Attempt: SLR-GPT6-PRO-FRONTIER-024-P07-A01-4820f3b5652d.
-Parent SHA-256: d7f3bef6d35d68f70cc89e1159c537a677e4de0d321035707bb41e418d4459ce.
-Status: provider hand proof; the universal remainder-vanishing statement is explicitly NOT proved.
+This is an AI-assisted symbolic proof. Source SHA-256:
+`d7f3bef6d35d68f70cc89e1159c537a677e4de0d321035707bb41e418d4459ce`.
+The universal remainder-vanishing statement is explicitly not proved.
 
 ## 1. Exact positive cut part
 
@@ -10,7 +10,7 @@ Let r and c be positive integral margins with p rows, N columns, total M, p,N>=2
 
     b_p(I)=beta(|I|,p-|I|),   b_N(S)=beta(|S|,N-|S|).
 
-The complete sum of all one-class and two-class contributions from proof 017 has linear coefficient
+The complete sum of all one-class and two-class contributions from the complete partial-fraction source proof has linear coefficient
 
     C_(p,N)(r,c)=H_(N-1)(M-r_1)
       -sum_S b_N(S) sum_(proper I containing 1) b_p(I) (c(S)-r(I))_+.    (1)
@@ -68,13 +68,13 @@ These properties are proved for the full positive cut functional. They are NOT a
 
 ## 3. The exact remainder and what would complete a general theorem
 
-Let R_(p,N)(r,c) be the complete sum of signed ordinary first jets of every class assignment in (4) of proof 017 with at least three occupied classes. Then
+Let R_(p,N)(r,c) be the complete sum of signed ordinary first jets of every class assignment in (4) of the complete partial-fraction source proof with at least three occupied classes. Then
 
     [t]P_(r,c)(t)=C_(p,N)(r,c)+R_(p,N)(r,c).             (7)
 
-This defines the remainder from a full finite count identity. It is not an unspecified error or an estimate on omitted tableaux. In four rows its exact evaluation is the A3 gradient at the affine offset given in inherited proof 009. For arbitrary p it is the corresponding type-A vector-partition chamber first jet, with the offset (5) of proof 017 and the actual eventual chamber, including ties.
+This defines the remainder from a full finite count identity. It is not an unspecified error or an estimate on omitted tableaux. In four rows its exact evaluation is the A3 gradient at the affine offset given in the four-row chamber formula. For arbitrary p it is the corresponding type-A vector-partition chamber first jet, with the offset (5) of the complete partial-fraction source proof and the actual eventual chamber, including ties.
 
-The conjecture R=0 for all positive margins is stronger than a claim justified here. The inherited three-row result and N=4 four-row certificate, together with A01's selected N=3,5,6 systems, support it. None proves arbitrary N. Another possible positive result would be R>=-C; a negative entire polynomial would require R<-C at a legal whole boundary. A negative assignment sector alone establishes neither.
+The conjecture R=0 for all positive margins is stronger than a claim justified here. The inherited three-row result and N=4 four-row certificate, together with the selected N=3,5,6 systems, support it. None proves arbitrary N. Another possible positive result would be R>=-C; a negative entire polynomial would require R<-C at a legal whole boundary. A negative assignment sector alone establishes neither.
 
 For all-one n-by-n margins, (2) reduces without an exponential subset enumeration to
 
@@ -104,7 +104,9 @@ The number of rows and columns is arbitrary. The inequality is sufficient, not n
 
 ## 5. Entire LR bridge, actual rank, degree, and lattice
 
-The complete transportation/LR construction is the inherited S13 theorem, whose exact source body is included as SOURCES/S13-TRANSPORTATION-PROOF.md. Here are the hypotheses and count map used rather than just its name.
+The complete transportation/LR construction is
+[the whole-count theorem](transport-whole-lr-bridge.md). Its hypotheses and
+count map are given explicitly below.
 
 Set row tails R_i=sum_(k=i)^p r_k and column tails C_j=sum_(k=j)^N c_k. Define
 
@@ -124,10 +126,11 @@ For the matrix lattice, the upper-left (p-1)-by-(N-1) entries are free integer c
 
 The bipartite incidence matrix is totally unimodular (orient the edges and delete one redundant conservation row); hence the margin polytope is integral. Its entire Ehrhart polynomial, and therefore (11)'s entire LR polynomial, has degree D. These facts are independent of a fit.
 
-Theorem (10) is consequently a whole-LR c1 theorem at unbounded ordinary rank, not a face/projection claim. It does not settle any whole ordinary rank or any principal endpoint.
+Theorem (10) is consequently a whole-LR c1 theorem at unbounded ordinary rank, not a face/projection claim. It does not settle any whole ordinary rank or the general KTT conjecture.
 
-## 6. Nontriviality, challenge, and reentry
+## 6. A separating example and the unresolved remainder
 
-The cone (9) is larger than the all-coefficient subcone of proof 019. Rows (11,1,2,2), columns (3,3,3,3,4) satisfy rho=5<=6, while their smallest column 3 is below rho-min(1,2,2)=4. Proof 019 derives a separate full polynomial for this challenge, and B02 verifies its c1=19/2 against both (1) and (2) and literal full-matrix counts.
+The cone (9) is larger than the all-coefficient subcone of [the near-corner proof](transport-near-corner.md). Rows (11,1,2,2), columns (3,3,3,3,4) satisfy rho=5<=6, while their smallest column 3 is below rho-min(1,2,2)=4. The near-corner proof derives a separate full polynomial for this challenge, and the independent comparison verifies its c1=19/2 against both (1) and (2) and literal full-matrix counts.
 
-The first decisive unresolved task is now precise: prove or refute the higher-class first-jet vanishing in (7), not extrapolate a normalized two-class table. A possible negative-integer Dyson/residue explanation requires a valid map from that identity to these individual chamber continuations and their shifts. An analytic continuation of a global constant term alone would not prove the needed sector statement. No such map is claimed here.
+Whether the higher-class first jets vanish in (7) remains unresolved; a
+normalized two-class table does not decide it. A possible negative-integer Dyson/residue explanation requires a valid map from that identity to these individual chamber continuations and their shifts. An analytic continuation of a global constant term alone would not prove the needed sector statement. No such map is claimed here.

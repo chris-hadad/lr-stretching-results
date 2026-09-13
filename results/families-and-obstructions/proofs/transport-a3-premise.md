@@ -1,18 +1,15 @@
-# Independent A3 verification for PUB-1
+# Independent verification of type-A3 chamber certificates
 
-C001-C005 and C013 withstand the stated mathematical and exact computational
-checks. C014 is a valid, still-uncomputed proposal. This is a lane disposition
-for root integration, not campaign acceptance. No ordinary-negative LR
-coefficient was found or inferred.
-
-The input root and exact file hashes are in `input-manifest.json`; the frozen
-scope, prior degree bounds and resource contract are in `CONTRACT.md`.
-Provider implementation files were neither read nor executed. The independent
-checker uses only standard-library integer and rational arithmetic.
+The whole-count identities, support inverse and named finite chamber
+certificates withstand the mathematical and exact computational checks below.
+The degree-53 cubic proposal remains uncomputed. No ordinary-negative LR
+coefficient was found or inferred. Source identities are recorded in the input
+manifest. The independent checker uses standard-library integer and rational
+arithmetic and does not use the original AI-derived implementation.
 
 ## 1. Whole ordinary LR realization
 
-The construction in returned `SOURCES/PROOFS.md:7-60` gives an actual equality
+The construction in the source character proof gives an actual equality
 of full counts. For factors eta_i, put each component in its own rows and in
 the column interval `(o_i,o_i+w_i]`, where `o_i=sum_{j>i} w_j`. These intervals
 are disjoint; the resulting outer and inner row lists decrease. Semistandard
@@ -57,7 +54,7 @@ c_12=v-r-x,              c_13=u+v-w-q,           c_23=u-p-x,
 c_123=1+p+q+r-u-v+x.
 ```
 
-Their sum is w+1. The three inequalities in returned `PROOFS.md:86-102`
+Their sum is w+1. The three inequalities in the source support-inverse proof
 are exactly the conditions that this integer interval for x is nonempty
 and every displayed count is nonnegative. Conversely substitution gives
 all six coverage equations. There is no claim about other possible LR
@@ -97,7 +94,7 @@ K_m(X,Y,Z) = sum_(c,a,b >= 0)
 where negative arguments contribute zero. Every term counts independent
 weak compositions in the six root groups. The checker caches the inner
 positive convolution in `(Z-c,Y-c-a)`; this changes reuse of arithmetic,
-not the count. No Weyl cancellation or returned prefix-grid implementation
+not the count. No Weyl cancellation or original prefix-grid implementation
 is used in this numerical route.
 
 For signed interpolation, let A' contain only surviving columns and put
@@ -112,13 +109,13 @@ If any coordinate of this target is negative, its count is zero. The checker
 independently counted D+1 consecutive signed sites from `-floor(D/2)` and
 expanded Newton differences over the rationals. It directly counted unused
 positive sites D+1 and D+2, then compared the entire reconstructed vector
-and every saved count with the provider records.
+and every saved count with the original AI-derived records.
 
 All 456 distinct polynomials passed: 10,677 determining sites and 912 unused
 positive holdouts. All 10,677 coefficients through their actual degrees are
 strictly positive. There are 688 record appearances because ray certificates
 repeat standalone records and the finite panels intentionally overlap.
-The 64 uniform, 128 nonuniform and 208 pair records in C013, plus all 120
+The 64 uniform, 128 nonuniform and 208 pair records in the finite comparison panel, plus all 120
 boundary-ray records, are completely covered. This is independent complete
 polynomial reconstruction through a grouped-flow counter and proof-backed
 signed interpolation; it is not a claim to have re-enumerated every saved
@@ -126,7 +123,7 @@ positive determining site or rerun a native LR/GT engine.
 
 ## 4. Seven cones and the infinite-direction claims
 
-Use the returned seven rays r0,...,r6. Explicit cone coordinates are:
+Use the seven source rays r0,...,r6. Explicit cone coordinates are:
 
 | Cone generators | Coordinates for R=(x,y,z) |
 |---|---|
@@ -148,7 +145,7 @@ interior outside that basis cone. Hence no basis-cone boundary cuts a listed
 cone's strict interior.
 
 The explicit classical premise is closed-chamber polynomiality for a
-unimodular vector partition function, as identified by the return's E5.
+unimodular vector partition function, as identified in the source references.
 Positive column repetition preserves the chamber complex. The fan check
 therefore puts one polynomial on each closed listed cone. Its degree-j
 homogeneous component is exactly `q_j(R)=[t^j]K_m(tR)`.
@@ -169,9 +166,9 @@ The exclusions concern q1 for these 24 systems and q2 for these 16 systems.
 They do not establish arbitrary-multiplicity positivity, higher-coefficient
 positivity at uncomputed directions, or new original-box coverage.
 
-## 5. The proposal and a smaller decisive cubic experiment
+## 5. An uncomputed cubic and a reduced interpolation set
 
-For C014, all seven support counts are two, giving
+For the degree-53 proposal, all seven support counts are two, giving
 `m=(7,7,7,11,11,13)`. The supplied factors have minimum positive Dynkin
 label nine, exceeding `2 max(3,4,2)=8`. Independent reconstruction gives
 rank 34, outer size 4571 and exact prior degree 53. The target is
@@ -179,7 +176,7 @@ rank 34, outer size 4571 and exact prior degree 53. The target is
 the corresponding cone. It is absent from the computed polynomial roster.
 Its full polynomial and cubic value remain uncomputed in this verification.
 
-The proposed ten-direction cubic interpolation in returned `PROOFS.md:279`
+The proposed ten-direction cubic interpolation in the source proof
 is valid, but the already saved complete pair polynomials reduce new work.
 Write the binary-edge cubic as
 
@@ -228,34 +225,21 @@ This roster is prepared, not executed. It recovers the full seven-cone
 cubic, after which an exact sign analysis is still required. A negative
 mixed monomial coefficient is only a lead. A negative evaluation at a legal
 integer R, independently checked and realized using stable buffers, creates
-an ordinary-coefficient candidate. Nonnegative cone monomial coefficients
+an ordinary-negative LR example requiring full verification. Nonnegative cone monomial coefficients
 would suffice for a cubic exclusion; more general nonnegative cubics may
 need a different exact certificate.
 
-## 6. Reproduction and limits
+## 6. Original computation and verification limits
 
-From this directory, the complete targeted reproduction is:
-
-```
-python3 bounded_run.py structural
-python3 bounded_run.py counts
-python3 bounded_run.py synthesize
-python3 bounded_run.py proposal
-```
-
-`bounded_run.py` enforces one child at a time, a 120-second per-child timeout
-and the cumulative 900-second command budget recorded in
-`resource-journal.jsonl`. Every started numerical child is waited/reaped.
-The host rejects the attempted address-space and RSS soft limits; the
-effective unlimited settings are explicitly recorded. Observed peak RSS was
+The original calculation used a 120-second limit per process and a cumulative
+900-second limit. Every recorded numerical process completed or was terminated.
+The host rejected address-space and RSS soft limits, so those memory limits
+were not enforced. Observed peak RSS was
 51,888,128 bytes, below one GiB. An initial unsupported hard-limit setup and
 one saved-roster field-name mismatch were repaired and retained as failed
-attempts in the journal. All final required phases passed.
+attempts in the journal. All final computational stages passed.
 
-No network, dependency installation, provider code, native LR engine,
-campaign-history reads, new cubic counts, git operations or writes outside
-this lane were used. Classical Weyl, Ehrhart reciprocity and unimodular
-chamber polynomiality remain explicit mathematical premises; no priority
-claim or new literature verification is made. There is no remaining
-decisive check missing for the named A3 finite certificates. Root owns
-acceptance, any further review, integration and successor authorization.
+Classical Weyl theory, Ehrhart reciprocity and unimodular chamber polynomiality
+remain explicit mathematical premises. No historical priority claim or new
+literature verification is made. The recorded checks cover the named finite
+A3 certificates and do not compute the proposed additional cubic values.

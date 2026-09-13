@@ -1,6 +1,6 @@
 # Complete positive surplus and positive average do not settle the parent
 
-FRONTIER-025 P12. Exact hand-derived challenge in the standard integer lattice. This is a classical Reeve/pyramid construction, not a newly discovered negative polytope and NOT an ordinary LR candidate. No whole-LR realization is supplied. It tests the new surplus/average operation at its complete-object scope.
+This is an exact hand derivation in the standard integer lattice. This is a classical Reeve/pyramid construction, not a newly discovered negative polytope and not an ordinary LR counterexample. No whole-LR realization is supplied. It tests the surplus/average operation at its complete-object scope.
 
 ## 1. The entire lattice polytope and its exact series
 
@@ -38,11 +38,11 @@ At m=46, c1=1/30, c2=0 and every other coefficient is positive. At m=47,
 
 Thus the first two coefficients are strictly negative even though all counts are nonnegative. The complete positive counts P_m(1)=6 and P_m(2)=m+20 are immediate from the full series. The first interior is I_m(4)=m-1.
 
-Proof 041's codegree-four conditions give U<=min(4*6+21,10*6-15)=45. They accept m=46 and reject m=47 exactly. The displayed higher coefficients are positive directly; this example is not claimed to satisfy the LR short-normal chart hypothesis.
+The source codegree-four coefficient conditions give U<=min(4*6+21,10*6-15)=45. They accept m=46 and reject m=47 exactly. The displayed higher coefficients are positive directly; this example is not claimed to satisfy the LR short-normal chart hypothesis.
 
 ## 3. The complete surplus and the average are nevertheless positive
 
-Put B_4(t)=binom(t+3,3). Direct substitution, or proof 040's complete residual-degree-two formula, gives
+Put B_4(t)=binom(t+3,3). Direct substitution, or [the surplus theorem's](interior-surplus.md) complete residual-degree-two formula, gives
 
     S_4(t)=I_m(t+4)-P_m(t)
           =(m-2)*B_4(t)*(1+t/2),
@@ -55,6 +55,6 @@ At m=46 even the quadratic RESIDUAL in (1) has a negative linear term while the 
 
 ## 4. What this rules out and what it does not
 
-The false inference 'positive reflected average plus positive shifted-interior surplus implies a positive original polynomial' is ruled out. So is replacing proof 041's combined inequality by a test of only the average or only a finite set of positive counts. The actual LR question remains the missing constraint that bounds the entire surplus relative to its positive average.
+The false inference 'positive reflected average plus positive shifted-interior surplus implies a positive original polynomial' is ruled out. So is replacing the combined coefficient inequality by a test of only the average or only a finite set of positive counts. The actual LR question remains the missing constraint that bounds the entire surplus relative to its positive average.
 
-This construction has no declared ordinary LR rank, no homogeneous full-LR inverse, and no candidate record. It is not a new negative inside the FrontierMath box. The general availability of negative lower Ehrhart coefficients is already documented in Hibi--Higashitani--Tsuchiya--Yoshida, arXiv:1506.00467; the elementary full construction above is included so no unexamined theorem from that paper is load bearing.
+This construction has no declared ordinary LR rank, no homogeneous full-LR inverse, and no ordinary-negative LR example. It is not a new negative inside the finite LR box. The general availability of negative lower Ehrhart coefficients is already documented in Hibi--Higashitani--Tsuchiya--Yoshida, arXiv: 1506.00467; the elementary full construction above is included so no unexamined theorem from that paper is load bearing.

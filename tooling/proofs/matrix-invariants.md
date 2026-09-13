@@ -49,7 +49,7 @@ For n=3 and t>=2, the five sorted profiles are
 
 Negative margins are omitted for smaller t. The implementation generates the
 permutations directly, so this displayed simplification is not a hard-coded
-special case. Native checks, independent n=2 Weyl extraction, and the A06
+special case. Direct LR checks, independent n=2 Weyl extraction, and the original
 all-t n=3,m=3 proof provide independent controls for the new counter.
 
 
@@ -137,7 +137,7 @@ extending source vertex.
 
 The primitive null root delta of Q0 has central value 3 and values 1,2 along
 each arm, from its outer endpoint toward the center. Thus delta_e=1. The
-root's proposed vector is
+dimension vector under consideration is
 
     alpha_q=q delta+e
 

@@ -1,11 +1,11 @@
-# WI-283: exact positive-R two-support experiment
+# Exact positive-R two-support constructor census
 
-This note proves the certificates used by `attempt-001`. Its scope is exactly
-two nonempty supports covering n=5 or6 cuts, positive integral R, direct outer
-size at most30, and the explicit dominance inequalities below. This finite
+This note proves the certificates for the two-support census. Its scope is exactly
+two nonempty supports covering n=5 or 6 cuts, positive integral R, direct outer
+size at most 30, and the explicit dominance inequalities below. This finite
 experiment does not cover zero-coordinate directions, three or more factors,
 higher ranks, or larger sizes. Parameter enumeration is separate from ordinary
-coefficient coverage. Independent review and root disposition govern adoption.
+coefficient coverage. The coefficient conclusion requires the complete verification described below.
 
 ## Complete finite grammar and direct ordinary LR identity
 
@@ -13,15 +13,15 @@ For each cut choose S1-only, S2-only, or both. Exclude the two assignments
 making a support empty, then quotient support exchange. Only the all-both
 assignment is fixed by exchange, giving (3^n-1)/2=121/364 pairs. The producer
 uses increasing positive bit masks with bitwise union all cuts, an equivalent
-complete enumeration; no support pairs are sampled. It verifies both adopted
+complete enumeration; no support pairs are sampled. It verifies both
 interval-hit inverses against the coverage F for every support pair.
 
 Write F_ij for the number of supports meeting [i,j] and m_ij=F_ij-1. Here
 m is binary and nonnegative. The recursion enumerates every positive integer
-R with sum_i i F_ii R_i<=30 exactly once. The planning bound replaces each
-F_ii by1: R=1+u leaves weighted budgets15/9, yielding408/90 possible vectors
-per support pair and the stated total upper bound82,128. The actual smaller
-size-bounded domain has19,013 tuples, including9,929/3,208 dominance rejects
+R with sum_i i F_ii R_i<=30 exactly once. The enumeration bound replaces each
+F_ii by 1: R=1+u leaves weighted budgets 15/9, yielding 408/90 possible vectors
+per support pair and the stated total upper bound 82,128. The actual smaller
+size-bounded domain has 19,013 tuples, including 9,929/3,208 dominance rejects
 at n5/6. A separate checker rebuilds the grammar by ternary assignments and
 the unweighted u recursion, then filters the actual weighted size.
 
@@ -33,7 +33,7 @@ inner partitions are nonempty. Telescoping gives
 
     |theta| = |eta1|+|eta2| = sum_i i F_ii R_i <=30.
 
-The adopted `source/NONNEGATIVE-M-LEMMA.md` then supplies the complete-count
+[The nonnegative-multiplicity lemma](sparse-nonnegative-parameters.md) then supplies the complete-count
 identity, for all integers t>=0,
 
     c^(t theta)_(t eta1,t eta2) = #{x>=0 integral : A_m x=tR}.
@@ -64,8 +64,8 @@ interval sums equal R exactly. No dominance inference enters this step.
 
 An infeasible record has zero LR values at every positive stretch: a real
 point in any positive dilation would scale to a feasible point at R. At t=0
-the formal count identity is1, so this case is not assigned a nonempty
-Ehrhart polynomial. The campaign's infeasible positive-stretch zero-polynomial
+the formal count identity is 1, so this case is not assigned a nonempty
+Ehrhart polynomial. The infeasible positive-stretch zero-polynomial
 convention is a separate convention, not a fit through t=0.
 
 ## Complete active-edge certificate and exact intrinsic degree
@@ -109,7 +109,7 @@ bound each variable by some R_i, so the feasible fiber is a bounded integral
 polytope. The complete-count identity therefore gives an ordinary Ehrhart
 polynomial of precisely the certified intrinsic degree, at every t>=0.
 
-## Canonicalization and proof terminals
+## Canonicalization and positivity criteria
 
 Trim trailing zeros, sort the two inner partitions lexicographically, and
 divide all three partitions by their common positive gcd. This uses only
@@ -122,63 +122,59 @@ parameter is itself inside the same positive-R grammar and the same size
 bound. Different parameterizations of one key must have the same feasibility
 and intrinsic degree; the producer refuses any disagreement.
 
-Every feasible integral polytope of intrinsic dimension0 has polynomial1;
-in dimension1 its polynomial is1+Lt with positive lattice length L; in
-dimension2 Pick's theorem in the saturated relative lattice gives
+Every feasible integral polytope of intrinsic dimension 0 has polynomial 1;
+in dimension 1 its polynomial is 1+Lt with positive lattice length L; in
+dimension 2 Pick's theorem in the saturated relative lattice gives
 A t^2+(B/2)t+1 with A,B positive. These fully justified d<=2 cases terminate.
 
-The authenticated adopted rank<=5 source package gives ordinary coefficient
+The cited rank<=5 theorem gives ordinary coefficient
 nonnegativity for all such LR triples, including degenerate ones. The Horn
-reduction uses the already adopted Ressayre formula (Theorem5, section4.1,
-equation16): for increasing equal-size proper subsets I,J,K with
+reduction uses the Ressayre formula (Theorem 5, section 4.1,
+equation 16): for increasing equal-size proper subsets I,J,K with
 c^tau(K)_(tau(I),tau(J))=1 and
 
     sum lambda[K] = sum mu[I]+sum nu[J],
 
 the stretched parent polynomial is the product of the selected and complement
 LR polynomials. Here tau(I)=(i_r-r,...,i_1-1). The producer enumerates every
-subset size1,...,N-1, retains only exact multiplicity-one index triples,
+subset size 1,..., N-1, retains only exact multiplicity-one index triples,
 and independently re-counts those small index tableaux by the separate
 row-based portable LR function. It caches only these validated index
-certificates. Each accepted parent equality rebuilds both balanced partition
-children through the frozen verifier and requires both trimmed ranks<=5.
-No dense historical edge DAG is loaded. No claim is made that failure to find
-such a terminal proves Horn irreducibility through every possible recursive
+certificates. Each verified parent equality rebuilds both balanced partition
+children through the exact verifier and requires both trimmed ranks<=5.
+The check does not depend on a previously computed reduction graph. No claim is made that failure to find
+such a reduction proves Horn irreducibility through every possible recursive
 representation.
 
-The canonical ledger has5,861 keys:1,848 infeasible,2,439 intrinsic d<=2,
-960 with verified rank<=5 Horn children, and614 residual. Rank<=5 direct
-terminals do not arise because positive R forces rank6/7. The residual is
+The canonical ledger has 5,861 keys: 1,848 infeasible,2,439 intrinsic d<=2,
+960 with verified rank<=5 Horn children, and 614 residual. Rank<=5 direct
+positivity cases do not arise because positive R forces rank 6/7. The residual is
 ordered by decreasing certified degree, increasing primitive outer size,
-then the tuple-of-tuples canonical key. The first at most32 per rank are
-selected, with at most64 overall. The selected-file SHA256 is frozen before
-any native result. The full residual remains recorded; unselected rows have
-no polynomial claim.
+then the tuple-of-tuples canonical key. The first at most 32 per rank are
+selected, with at most 64 overall. The selected-file SHA256 is frozen before
+any native result. The full residual remains recorded; this initial panel establishes no polynomial for its unselected rows.
+[The completion certificate](sparse-complete.md) supplies the subsequent full
+residual verification.
 
-## Native validation and claim ceiling
+## Native validation and verification limits
 
 Each selected row first requests a complete Normaliz hive polynomial under a
-hard60-second contained child deadline. A primary negative ordinary coefficient
-immediately stops the panel and returns only its bare triple to root for the
-existing independent candidate protocol. Period1, dimension equal to the
-proved flow degree d, full d+1 coefficient vector, constant1 and positive
-leading coefficient are required before any polynomial can be accepted.
+hard 60-second contained child deadline. A negative ordinary coefficient would require independent verification of its
+bare triple before any counterexample claim. Period 1, dimension equal to the
+proved flow degree d, full d+1 coefficient vector, constant 1 and positive
+leading coefficient are required before any polynomial can be treated as verified.
 
 An independent LR/tableau batch uses t=1,...,d+2. With the proved P(0)=1,
-sites0,...,d determine the complete degree-d polynomial; d+1,d+2 are unused
+sites 0,..., d determine the complete degree-d polynomial; d+1,d+2 are unused
 holdouts. Exact interpolation and all holdouts must match every Normaliz
-coefficient. Each scalar is charged, including the full reservation of a
-failed batch. The two models are LR tableaux and hives; the independent
+coefficient. The recorded computational cost includes unsuccessful batches. The two models are LR tableaux and hives; the independent
 complete-count proof bridges the interval-flow degree to this bare triple.
 
-The first eight scientific native commands calibrate the actual instrument;
-four or more failures stop further native work. This rule, row order,512-unit
-cap and1800-second aggregate cap were frozen before the algebra run. Two
-version units also charge the512 cap. No row is retried or exchanged for a
-cheaper one, no cap is borrowed, and complete-row unit affordability is
-checked before starting. All command sources, argv, request, stdout digest,
-exit status, elapsed time and verified process-group cleanup are retained.
-Timeouts and unaffordable rows remain explicit partials. A failed holdout,
-source mismatch or invalid output stops later commands and cannot certify
-success. Targeted fake-engine controls exercise these exact panel decisions;
-the frozen native containment supplies the process boundary.
+The original panel fixed its row order,512-unit count limit and 1800-second
+aggregate time limit in advance. The first eight count commands calibrated
+the implementation, with a stopping threshold of four failures. Two version
+queries counted toward the 512 limit. Rows were neither retried nor replaced.
+Source identities, requests, output hashes, exit statuses and elapsed times
+are recorded. Timeouts or rows exceeding the remaining resources are incomplete;
+failed unused checks, source mismatches or invalid outputs provide no verified
+polynomial. Synthetic failure controls test this distinction.

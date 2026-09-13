@@ -1,6 +1,6 @@
 # Hidden affine strata from one complete dual valuation
 
-Claim FR027-P06-T002. The following identity provides an originating repair of the hidden-cubic condition. It is deduced from the source Berline–Vergne dual solid valuation and ambient/subspace compatibility, not from the compact Astra005 low-degree assertion whose full certificate was not supplied.
+The following identity establishes the hidden-cubic condition from the Berline–Vergne dual solid valuation and its ambient/subspace compatibility. It does not rely on a separate low-degree assertion whose full certificate was unavailable.
 
 ## Identity with the actual quotient lattice
 
@@ -21,13 +21,13 @@ is the union of sigma_+=pos(u,v,w) and sigma_-=pos(-u,v,w). Their intersection p
 
 The lattice assertion is essential. A saturated kernel basis of u spans L intersect H. Since the common edge line lies inside H, first restricting to H and then quotienting that line gives the same projected lattice as the polar construction. Equivalently, restriction of integral covectors to a saturated subgroup has the expected integral image, not an arbitrary finite-index replacement. The Gram matrix on a kernel basis is retained and dualized when normal coordinates are used. Orthogonal projection of the lattice is not silently replaced by intersection with an orthogonal plane.
 
-The primary references are Berline–Vergne, Local Euler–Maclaurin formula for polytopes, arXiv:math/0507256v3 (28 July 2006), Proposition13, Definition22 and Corollary23. The relevant sections were read in the complete primary HTML. SOURCE-READING.md distinguishes this selected primary reading from a claim of studying the whole article. The source's formula for indexed two-cones supplies a separate exact numerical challenge.
+The primary references are Berline–Vergne, Local Euler–Maclaurin formula for polytopes, `arXiv:math/0507256v3` (28 July 2006), Proposition13, Definition22 and Corollary23. Only these cited sections are used here. The source's formula for indexed two-cones supplies a separate exact numerical challenge.
 
 ## Application to a genuinely hidden cubic
 
 Consider a nonempty four-coordinate whole presentation with actual affine dimension three. At a point of its relative interior, all globally tight nonzero inequality normals annihilate the whole affine hull, hence lie in one line R u. Both orientations must occur among the retained inequalities. Otherwise moving a sufficiently small distance to the permitted side preserves every tight inequality and every other strict inequality, producing a four-dimensional feasible neighborhood, a contradiction.
 
-Inside the actual affine hyperplane, an edge's complete two-dimensional normal cone has two extreme restricted normal rays. They are restrictions of retained original forms, say v,w; u,v,w are independent. If every independent triple from the retained normal list is positive in one metric, BOTH triples (u,v,w) and (-u,v,w) are included. Equation (1) therefore makes the full restricted edge weight positive. This treats the COMPLETE edge cone, not a single simplicial cell from an unrelated fan.
+Inside the actual affine hyperplane, an edge's complete two-dimensional normal cone has two extreme restricted normal rays. They are restrictions of retained original forms, say v,w; u,v,w are independent. If every independent triple from the retained normal list is positive in one metric, BOTH triples (u,v,w) and (-u,v,w) are included. Equation (1) therefore makes the full restricted edge weight positive. This treats the complete edge cone, not a single simplicial cell from an unrelated fan.
 
 An affine hyperplane need not pass through a lattice point at unit stretch. Choose a positive dilation clearing all vertices of the rational polytope, translate its integral affine hull by an integral vertex, and apply the preceding zero-vertex identity in its saturated kernel lattice. The actual face formula then gives positive c1 for this integral cubic. Period-one dilation scales c1 by the same positive integer; transfer back. No codegree, reflection or empty-interior premise is required.
 
@@ -35,7 +35,7 @@ If actual dimension is at most two, intrinsic leading/next-leading positivity an
 
 ## Complete independent challenge
 
-Before this theorem was used, CODE/hidden_strata_v1.py enumerated every u with both signs in every new retained list and every independent pair after restriction to its saturated kernel. It computes the pair directly with its gcd-of-minors index, primitive residue and induced Gram matrix. It separately adds the two independently reconstructed complete three-cone constants from J06.
+The check in CODE/hidden_strata_v1.py enumerated every u with both signs in every new retained list and every independent pair after restriction to its saturated kernel. It computes the pair directly with its gcd-of-minors index, primitive residue and induced Gram matrix. It separately adds the two independently reconstructed complete three-cone constants by the independent three-cone calculation.
 
 All 6,105 restricted-pair occurrences agree exactly with (1); their minimum is 1/18. DATA/J07-HIDDEN-PAIR-CERTIFICATE.json preserves every annihilator, integer kernel basis, restricted primitive pair, index, residue and three rational values. This finite test challenges the universal valuation argument; it is not its substitute.
 

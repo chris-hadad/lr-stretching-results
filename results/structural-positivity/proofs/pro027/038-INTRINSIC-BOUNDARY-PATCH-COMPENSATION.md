@@ -1,12 +1,12 @@
 # Intrinsic boundary-patch compensation in complete hive atlases
 
-Claims FR027-P11-T001/T002 and C001/C003. The new result is a geometric, support-local representation of the complete normal-cycle correction. It does not introduce a new coefficient index beyond the whole rank-six c6 and rank-seven c11 theorems of Units9–10. The accepted finite certificate is the exact A02 array, not the earlier floating-contaminated serialization.
+The result gives a geometric representation of the complete normal-cycle correction supported on local coordinate patches. It does not establish a new coefficient index beyond the rank-six c6 and rank-seven c11 theorems. The exact certificate uses the A02 arrays; an earlier serialization contained floating-point contamination and is not used.
 
 ## Whole objects and inherited premises
 
-Use lambda outer and balanced nonnegative integral partitions, padded to n=6 or7. In the original hive chart the coordinates are h(i,j), i,j>0, i+j<n, in lexicographic order. The three fixed boundaries are prefix mu on (i,0), prefix lambda on (0,j), and |mu| plus prefix nu on (n-j,j). Every original rhombus and its boundary-dependent constant remains:45 at n6 and63 at n7. The ambient coordinate lattices are Z10 and Z15. Actual dimension can be smaller; its affine counting lattice is the intersection with the true affine hull. The entire hive/LR identity, stretching polynomiality, and degree=actual dimension remain the original adopted premises. Empty families have the zero polynomial. No universal codegree is assumed.
+Use lambda outer and balanced nonnegative integral partitions, padded to n=6 or 7. In the original hive chart the coordinates are h(i,j), i,j>0, i+j<n, in lexicographic order. The three fixed boundaries are prefix mu on (i,0), prefix lambda on (0,j), and |mu| plus prefix nu on (n-j,j). Every original rhombus and its boundary-dependent constant remains: 45 at n6 and 63 at n7. The ambient coordinate lattices are Z10 and Z15. Actual dimension can be smaller; its affine counting lattice is the intersection with the true affine hull. The entire hive/LR identity, stretching polynomiality, and degree=actual dimension remain the prior premises. Empty families have the zero polynomial. No universal codegree is assumed.
 
-The complete refined-normal-cycle theorem, inherited as Unit7 proof025 and copied in SOURCES, applies to any fixed normal list in any ambient dimension. Correcting all independent codimension-four cones by primitive quotient facet functionals leaves the ENTIRE face-volume coefficient sum invariant, including compatible subdivisions, hidden affine strata and integral-denominator clearing under period one. This is not a correction of a selected star alone.
+The complete refined-normal-cycle theorem, given in [Complete refined normal-cycle compensation, including hidden affine strata](025-COMPLETE-REFINED-NORMAL-CYCLE.md), applies to any fixed normal list in any ambient dimension. Correcting all independent codimension-four cones by primitive quotient facet functionals leaves the entire face-volume coefficient sum invariant, including compatible subdivisions, hidden affine strata and integral-denominator clearing under period one. This is not a correction of a selected star alone.
 
 ## A basis-free local functional and its exact divisor
 
@@ -34,14 +34,14 @@ Since v_J lies in the rational span of M_J, it equals M_J h_J for a rational vec
 
 ## Initial support-local certificates
 
-On each complete original rank-six/rank-seven atlas, the381 selected triple facets of the132 negative quadruples have coordinate supports of sizes3,4,5,6 and local kernel dimensions0,1,2,3. Their local parameter spaces have567 scalar dimensions each, rather than the unrestricted2667 and4572 quotient parameters. Fresh proposals succeeded on every102297 and462468 independent quadruple, respectively, including every affected positive cone.
+On each complete original rank-six/rank-seven atlas, the 381 selected triple facets of the 132 negative quadruples have coordinate supports of sizes 3,4,5,6 and local kernel dimensions 0,1,2,3. Their local parameter spaces have 567 scalar dimensions each, rather than the unrestricted2667 and 4572 quotient parameters. Fresh proposals succeeded on every 102297 and 462468 independent quadruple, respectively, including every affected positive cone.
 
 The full rational functionals are unchanged by the exact-arithmetic repair. The corrected minima in DATA/R6-PATCH0-EXACT-A02.json.gz and R7-PATCH0-EXACT-A02.json.gz are respectively
 
     99725274317/297000000000000,
     186037499191529/554053500000000000.
 
-Those first two are originating exact re-evaluations; the stronger shared certificate below receives a separate independent complete replay.
+Those first two are exact re-evaluations; the stronger shared certificate below receives a separate independent complete replay.
 
 ## The shared boundary-aware rule
 
@@ -51,13 +51,13 @@ Normalize a support patch by subtracting its minimum i and minimum j coordinates
 
 These are the sides of the interior-coordinate triangle, not arbitrary entries of M_J. The triple's directed triangular geometry and its flags define its template. No independent sign changes or arbitrary coordinate isometries are used to identify these geometric templates.
 
-The union of the two complete selected rosters has399 templates and621 rational scalar parameters. The complete dictionary is DATA/BOUNDARY-PATCH-SYSTEM.json.gz; DATA/BOUNDARY-PATCH-FUNCTIONALS.json gives its vectors. At any rank, the proposed rule assigns the template vector to EVERY matching independent normal triple, and zero to other triples. The independent verifier enumerates every triple at ranks6 and7 and checks that exactly381 match at each rank; no additional unexamined matching support receives a hidden correction.
+The union of the two complete selected triple lists has 399 templates and 621 rational scalar parameters. The complete dictionary is DATA/BOUNDARY-PATCH-SYSTEM.json.gz; DATA/BOUNDARY-PATCH-FUNCTIONALS.json gives its vectors. At any rank, the proposed rule assigns the template vector to EVERY matching independent normal triple, and zero to other triples. The independent verifier enumerates every triple at ranks 6 and 7 and checks that exactly381 match at each rank; no additional unexamined matching support receives a hidden correction.
 
 On EVERY independent quadruple of BOTH original atlases, the resulting complete corrected value is strictly positive. The common exact minimum is
 
     epsilon=102306547/304687500000 > 1/3000.               (5)
 
-All564765 quadruple occurrences and34992 primitive incidence occurrences are retained and independently checked. The passing arrays are DATA/BOUNDARY-PATCH-R6-EXACT-A02.json.gz and its R7 analogue. Every originally negative and positive affected constraint is included. The original BV constants themselves are unchanged.
+All 564765 quadruple occurrences and 34992 primitive incidence occurrences are retained and independently checked. The passing arrays are DATA/BOUNDARY-PATCH-R6-EXACT-A02.json.gz and its R7 analogue. Every originally negative and positive affected constraint is included. The original BV constants themselves are unchanged.
 
 By the inherited complete normal-cycle theorem, this one boundary-aware rule proves
 
@@ -68,10 +68,10 @@ The volume of a saturated lattice fundamental parallelepiped is one; no factoria
 
 ## Complete aggregate check and independence
 
-J10 independently rederives template bindings, rational kernel constraints, every matching triple, all564765 corrected signs, and every34992 index-ratio/primitive-kernel agreement. It imports neither the optimizer nor the primary parameterization. The old complete BV Laurent values and their lattice verification remain explicit inherited premises, not a new replay of all historical type bodies.
+The independent verifier rederives template bindings, rational kernel constraints, every matching triple, all 564765 corrected signs, and every 34992 index-ratio/primitive-kernel agreement. It imports neither the optimizer nor the primary parameterization. The old complete BV Laurent values and their lattice verification remain explicit inherited premises, not a new replay of all historical type bodies.
 
-On the Unit10 stable n7,M=s1 whole parent, every3571 original eleven-face contribution is recomputed with the NEW boundary-patch correction. Both sums remain
+On the stable n7,M=s1 whole parent, every 3571 original eleven-face contribution is recomputed with the NEW boundary-patch correction. Both sums remain
 
     c11=22483/179625600.
 
-The original complete normalized face volumes and whole polynomial were already independently verified in Unit10; their reuse is a full aggregate challenge, not a new vector or independent recount. DATA/J10-INDEPENDENT-PATCH-FACE-SUM.json.gz saves every new weighted change. No new bare-LR scalar or entire vector is claimed this unit.
+The original complete normalized face volumes and whole polynomial were already independently verified in [Complete eleven-face volumes and a genuine rank-seven LR count](036-COMPLETE-ELEVEN-FACE-CHALLENGE.md); their reuse is a full aggregate challenge, not a new vector or independent recount. DATA/J10-INDEPENDENT-PATCH-FACE-SUM.json.gz saves every new weighted change. No new bare-LR scalar or entire vector is claimed here.

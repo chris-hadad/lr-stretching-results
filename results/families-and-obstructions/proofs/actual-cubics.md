@@ -1,7 +1,7 @@
 # One strict fiber witness over an entire boundary face
 
-Root derivation, 10 September 2026. Draft theorem and proposed application;
-mask completeness and exact population acceptance remain separate gates.
+Derivation dated 10 September 2026. The theorem below depends on complete
+boundary-mask enumeration and exact verification of the witness population.
 
 Let `C` be a rational polyhedral cone in a real vector space, defined by
 homogeneous nonnegative rows, and let `pi` be a linear boundary projection.
@@ -42,8 +42,8 @@ Source: <https://arxiv.org/pdf/math/0107011>. This source theorem must be
 matched to the complete actual index roster before computational application.
 
 A sound boundary-mask closure supplies some forced rows. It does **not**
-establish that all remaining rows can be simultaneously strict. The new exact
-PPL probe asks for a witness with gap zero on mask bits, every other boundary
+establish that all remaining rows can be simultaneously strict. The exact
+PPL feasibility test asks for a witness with gap zero on mask bits, every other boundary
 gap at least one, every closure rhombus zero and every other rhombus at least
 one. Every returned rational coordinate and slack is checked directly.
 
@@ -52,33 +52,33 @@ whose additional Horn inequalities are strict, provided the complete projection
 description is certified. A failed primal LP alone is unresolved: it may
 mean the mask is impossible, that all boundaries have a tight Horn inequality,
 that the closure missed a forced row, or an instrument failure. Those are
-different mathematical outcomes. The next repair is an explicit exact dual
-certificate and a separate Horn-strict feasibility test, not a guess at degree.
+different mathematical outcomes. Distinguishing these outcomes requires an explicit exact dual certificate and
+a separate Horn-strict feasibility test; the failed LP does not determine degree.
 
 ## Complete rank-six/seven certificate and low-degree consequence
 
-The new full orbit roster covers all `32,768 + 262,144` original gap masks.
-The existing bound-at-most-three terminal handles `28,427 + 171,165` masks.
+The full orbit roster covers all `32,768 + 262,144` original gap masks.
+The existing bound-at-most-three criterion handles `28,427 + 171,165` masks.
 The remaining `4,341 + 90,979` masks have exactly `445 + 8,075` representatives
-under the twelve accepted whole-count symmetries. Every one of those **8,520**
+under the twelve verified whole-count symmetries. Every one of those **8,520**
 representatives now has a rational witness strict on every rhombus outside its
 sound closure, with every coordinate, slack, gap and exact affine rank checked.
-The independent complete roster/witness verifier and mathematical gate remain
-acceptance requirements. The two deliberately impossible pilot controls are
+Independent verification of the complete roster and witnesses is a premise of
+the low-degree conclusion. The two deliberately impossible pilot controls are
 outside this residual roster and retain their unresolved pilot status.
 
-Assuming the complete certificate passes that gate, it proves:
+Assuming complete verification of the certificate, it proves:
 
 **Every nonempty ordinary LR polynomial of final rank at most seven and actual
 degree at most three is coefficientwise nonnegative, at every size.**
 
-Here is the full argument. Ranks at most five use the adopted theorem. At
+Here is the full argument. Ranks at most five use the cited rank-four/five theorem. At
 rank six, a feasible boundary on a proper multiplicity-one Horn facet factors
 into two source-positive lower-rank polynomials. Otherwise every regular Horn
 facet is strict. Its partition-gap mask determines its relative face in the
 complete boundary cone. The witness-transfer argument gives exactly the sound
 closure's predicted affine dimension on that face. If any equivalent mask has
-bound at most three, the existing complete short-normal terminal applies.
+bound at most three, the existing complete short-normal criterion applies.
 Otherwise its certified representative has dimension at least four, contradicting
 the actual degree at most three. The tensor permutations and duality preserve
 regular Horn strictness, gap-face identities and the whole polynomial; determinant
@@ -90,12 +90,12 @@ at most the parent's degree, since whole polynomial degrees add in the exact
 factorization. The just-proved rank-six low-degree theorem applies. Away from
 proper Horn facets the same complete mask/witness argument applies at rank seven.
 Empty parents give the zero polynomial throughout. Degree zero, one and two
-are already intrinsic positive terminals; the new substantive extension is the
+are already intrinsic positive cases; the new substantive extension is the
 entire actual cubic class.
 
-This is an all-size low-degree theorem conditional only on the named accepted
-source premises and the new complete certificate. It does not prove a whole
+This is an all-size low-degree theorem conditional only on the named
+source premises and the complete certificate. It does not prove a whole
 rank, the remaining degree-four-and-higher box, or cubic positivity at arbitrary
-larger rank. It adds no original-box census credit without an exact overlap
-join. A possible rank-six/seven ordinary-negative polynomial must therefore
-have actual degree at least four after this theorem is accepted.
+larger rank. Its overlap with the finite-box census requires a separate exact comparison.
+Under these premises, a possible rank-six/seven ordinary-negative polynomial
+must therefore have actual degree at least four.

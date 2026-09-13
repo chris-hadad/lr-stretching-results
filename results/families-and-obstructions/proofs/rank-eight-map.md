@@ -1,7 +1,6 @@
 # Nonlinear row-column interaction and an entire rank-eight positive family
 
-Root-originated Astra004 attack and repair, 9 September 2026. Independent review complete; see
-review/DISPOSITIONS.md. The first negative below is an abstract complete polytope;
+Derivation dated 9 September 2026. The first negative below is an abstract complete polytope;
 the later positive theorem has an explicit entire ordinary LR realization.
 Neither establishes a whole-rank theorem or a probability for KTT failure.
 
@@ -73,10 +72,9 @@ c1 = 11/6 + 2*g + 2*g^2/5 - g^4/105.
 ```
 
 The complete vector at `g=9` has `c1=-2153/210` and all its other
-coefficients positive. At `g=8`, `c1=929/210>0`. The root program preserves
+coefficients positive. At `g=8`, `c1=929/210>0`. The calculation records preserve
 all six complete test vectors and sixty-six literal count comparisons.
-This is a new discriminator within the session, not an asserted novel
-polytope or an ordinary LR candidate. A valid full LR map is missing.
+No historical novelty or ordinary LR realization is asserted for this polytope. A valid full LR map is missing.
 
 The construction shows why an explanation based only on zero pair covariance
 is insufficient once both sides are nonlinear. It does not prove that rank
@@ -175,7 +173,7 @@ two totals are exactly
 L_top=M+c3+c4, L_bottom=M-r3-r4.
 ```
 
-For completeness, the root certificate substitutes both child charts and
+For completeness, the complete certificate substitutes both child charts and
 all sixteen cross entries into **every** original rank-eight tableau
 inequality: thirty-six nonnegativity, twenty-eight column and twenty-eight
 ballot rows. For each of these ninety-two linear forms, minimize first over
@@ -211,7 +209,7 @@ The `M=2,S=2` control is explicitly a dilation of `M=1,S=1`; it is not
 independent discovery or a new normalized family. Bare-LR checks are recorded
 separately from this all-parameter proof.
 
-## Where to seek a failure next
+## Limits of the positive operation
 
 The abstract negative proves that nonlinear interaction can overcome endpoint
 terms. The actual LR family proves a precise opposite rule: the cubic
@@ -220,20 +218,18 @@ The simple rank-four cube-block idea is also protected whenever only one
 width per block depends on the cross margins, since the remaining factors
 are independent and the affine conditional average applies.
 
-A live negative route must change that structure: actual clipped child
-polytopes, a different nonlinear child count, or coupling that is not absorbed
-by (2). The same bare rank-eight construction remains a legitimate question
+Negativity would require a different structure, such as clipped child
+polytopes, a different nonlinear child count, or coupling not absorbed by (2). The same bare rank-eight construction remains a legitimate question
 outside `M>=S`, where its simple model is no longer proved. Applying (3)
-there without all clips would reproduce precisely the old face-versus-parent
-mistake. No claim about those whole polynomials is made by this theorem.
+there without all clips would omit part of the parent count. No claim about those whole polynomials is made by this theorem.
 
-## Material repair outside the positive region: retain exactly three cuts
+## Extending the count formula: exactly three cuts
 
-The next test uses the same entire LR construction on `M<=S<=2M`, where its
+The extended count formula uses the same entire LR construction on `M<=S<=2M`, where its
 partitions remain legal. At `M=1,S=2`, an independent exact strict hive point
 has all eighty-four rhombus slacks at least `1/12`, proving actual degree
 twenty-one before the polynomial attempt. The sixty-second Normaliz attempt
-expired without a polynomial; its partial file and cleanup receipt are retained.
+expired without a polynomial; the incomplete attempt supplies no polynomial.
 
 The full tableau map still has an exact count description. Examination of
 every one of the ninety-two original inequalities shows that all except the
@@ -281,7 +277,7 @@ The complete parent count sums their product over all sixteen cross entries
 of total `S*t`. This is an all-t count identity on the enlarged domain; it
 does not assert a positive ordinary coefficient expansion.
 
-The root implementation independently enumerates the complete three-coordinate
+The independent implementation independently enumerates the complete three-coordinate
 LR child tableaux for every relevant margin. It checks all ninety-two parent
 inequalities on every one of the 1,678 reconstructed parent tableaux at the
 first outside control. The full outside values at `M=1,S=2`, `t=0,...,4`, are
@@ -292,15 +288,15 @@ first outside control. The full outside values at `M=1,S=2`, `t=0,...,4`, are
 
 Two other parameter controls are retained, including the protected region
 as a calibration. The full twelve-site run, with 604,641 cross-matrix
-occurrences and all child checks, took about 3.13 contained algebra seconds.
+occurrences and all child checks, took about 3.13 seconds.
 Those child-tableau operations are internal to the exact count model;
-independent external bare-LR oracle requests are accounted separately.
+independent direct LR checks are recorded separately.
 The first two outside values have separately frozen bare-LR checks.
 
 The four-site necessary-positivity functional is positive on the two controls
 where it was tested. That is not a coefficient-positive certificate or an
-exclusion of negativity. The outside full polynomial remains unknown. The
-next bottleneck is exact coefficient extraction from these complete clipped
-cubic counts, avoiding enumeration of every sixteen-entry composition at
-large stretch. The three concrete cuts and the full LR bridge make this a
-specific counterexample route to develop, rather than another abstract face.
+exclusion of negativity. This count derivation alone does not determine the outside coefficient signs.
+[The column aggregation](rank-eight-aggregation.md) and
+[closed-cone polynomiality proof](rank-eight-polynomiality.md) provide the
+subsequent coefficient-extraction argument. The complete coefficient certificate
+and its verification level are documented in the collection README.

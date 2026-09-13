@@ -1,8 +1,8 @@
 # Exact next box layers, complete geometry and bounded sign certificates
 
-FRI root result, 9 September 2026. The independent certificate checker passes;
-the frozen mathematics gate and acceptance record govern final promotion.
-The whole original box remains open.
+The independent certificate checker passes at the scope described below.
+Independent review of the complete proof remains separate. This note does not
+close the whole original box.
 
 ## Original identities and exhaustive covers
 
@@ -91,7 +91,7 @@ dimension `d`, reciprocity forces roots `-1,...,-(d-1)` and gives
 P(t)=product_(j=1)^(d-1)(t+j)*(c_d*t+1/(d-1)!), c_d>0.
 ```
 
-Every ordinary coefficient is positive. This is the previously proved FRH
+Every ordinary coefficient is positive. This is the previously proved
 high-codegree terminal, now authenticated on 149 rank-six degree-nine members
 and one rank-seven degree-twelve member. It needs no numerical coefficient
 fit or new LR count. A rational threshold point is not called an integer
@@ -108,8 +108,8 @@ All thirteen rank-seven failures have independently proved degree twelve and
 interior-zero bounds eight through twelve. For a bound `c`, use the constant
 one, the `c-1` negative zero nodes and positive nodes `1,...,13-c` to determine
 the whole polynomial. This uses 48 new bare-LR determining calls across the
-thirteen members. Save every full vector and check for an ordinary negative
-before loading comparison vectors or holdouts.
+thirteen members. Each full vector is retained before comparison vectors or holdouts are
+examined, preserving the independently derived coefficient signs.
 
 All thirteen vectors agree with thirteen fresh whole-hive Normaliz vectors
 and their original source arrays. Twenty-six separately frozen positive
@@ -119,11 +119,11 @@ no blind-holdout or source-engine repair claim is made.
 
 ## Exact local sign disposition and remaining work
 
-Apply the high-codegree theorem first, then accepted Cdagger/FRC membership,
+Apply the high-codegree theorem first, then verified membership in the Cdagger or two-support certificates,
 then the fresh two-method vectors. Membership overlaps are retained explicitly.
 The resulting disjoint local disposition is:
 
-| Rank and layer | High-codegree proof | Prior FRC certificate | Fresh two-method result after overlaps | Remaining vector authentication |
+| Rank and layer | High-codegree proof | Prior two-support certificate | Fresh two-method result after overlaps | Remaining vector authentication |
 | --- | ---: | ---: | ---: | ---: |
 | Six, degree nine | 149 | 2 | 0 | 1,485 |
 | Seven, degree twelve | 1 | 1 | 11 | 193 |
@@ -131,20 +131,18 @@ The resulting disjoint local disposition is:
 Thus 164 of these 1,842 original identities have complete sign certificates
 under this disposition; 1,678 remain. Cdagger's matched members add no further
 disjoint identities after the high-codegree priority. Thirteen numerical
-repairs include one already-positive FRC member and the high-codegree member.
-This local accounting is not added to the historical additive counter 4,554.
+repairs include one member already positive by the two-support certificate and the high-codegree member.
+This local accounting records overlaps with earlier certified classes.
 
 The exact remaining triples, certified lattices, zero bounds and prospective
 determining/holdout sites are in `FRI-BOX-CERTIFICATE-003.json`. The direct
-positive-node template has 11,886 positive LR sites before any reuse, far
-beyond FRI's 120-unit allocation. A selected required rank-six stretch-nine
+positive-node template has 11,886 positive LR sites before any reuse, before accounting for computational limits. A selected required rank-six stretch-nine
 site completes in about twenty contained seconds; both selected rank-seven
-stretch-twelve sites exceed sixty seconds and return no count. All charges
-and cleanups are retained. These selected costs do not estimate every row.
+stretch-twelve sites exceed sixty seconds and return no count. All incomplete calculations
+and their timings are retained. These selected costs do not estimate every row.
 
-Reentry needs a valid cheaper complete count or relative-interior LR
-representation for the hard members, followed by a separately allocated
-exact roster. Merely raising the number of scheduled positive-node calls
-does not repair the observed per-child boundary. The lower-dimensional whole
-box residual remains uncounted, and no new whole-box coefficient conclusion
-or bounded-impossibility/publication trigger follows.
+The difficult members require a less expensive complete count or a
+relative-interior LR representation to address the observed per-call limit.
+The lower-dimensional whole-box residual remains uncounted here. These
+calculations establish neither a further whole-box coefficient result nor
+a bounded impossibility theorem.

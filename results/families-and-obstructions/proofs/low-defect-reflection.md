@@ -1,6 +1,6 @@
-# Low-defect reflection supplies a separate all-coefficient terminal
+# Low-defect reflection implies positivity of every coefficient
 
-FRONTIER-025 P11 recovery A02. Elementary proof-only derivation. Source polynomiality/reciprocity and the definition of true codegree are retained; no universal Gorenstein property or nonnegative numerator is assumed. This is not a worldwide-priority assertion.
+This is an elementary symbolic derivation. Source polynomiality/reciprocity and the definition of true codegree are retained; no universal Gorenstein property or nonnegative numerator is assumed. This is not a worldwide-priority assertion.
 
 ## 1. Precise polynomial theorem
 
@@ -22,7 +22,7 @@ After centering at -q/2, R is even for even r and odd for odd r. Its complete po
 
     P(t)=Bq(t)*(1+2*t/q)^(r mod 2)*(1+eta*t*(t+q)),        (2)
 
-where eta=0 for r=0,1, and eta>0 for r=2,3. For r=2 the quadratic is reflection-invariant and has constant one, so it is 1+eta*t*(t+q); eta is positive by the leading coefficient. For r=3 the centered odd polynomial has a factor 1+2*t/q, and its reflection-invariant quadratic quotient has constant one and positive leading coefficient. This proves (2), whose factors all have positive constant terms and nonnegative coefficients, strictly positive through their degrees. Every root has negative real part as well: the nontrivial quadratic has positive constant and linear terms and negative real part for both roots. This conclusion is confined to (1) and r<=3, not a revival of universal LR Hurwitz stability.
+where eta=0 for r=0,1, and eta>0 for r=2,3. For r=2 the quadratic is reflection-invariant and has constant one, so it is 1+eta*t*(t+q); eta is positive by the leading coefficient. For r=3 the centered odd polynomial has a factor 1+2*t/q, and its reflection-invariant quadratic quotient has constant one and positive leading coefficient. This proves (2), whose factors all have positive constant terms and nonnegative coefficients, strictly positive through their degrees. Every root has negative real part as well: the nontrivial quadratic has positive constant and linear terms and negative real part for both roots. This conclusion is confined to (1) and r<=3, without implying universal LR Hurwitz stability.
 
 For an actual quintic with q=3, (2) becomes
 
@@ -32,7 +32,7 @@ It implies
 
     I(3)=1,  eta=(P(1)-5)/20,  P(2)=7*P(1)-21.            (3)
 
-Conversely, for an actual quintic with I(1)=I(2)=0, the additional equalities I(3)=1 and P(2)=7*P(1)-21 force this factorization through the complete six-node identity (5) of proof 036. The SINGLE condition I(3)=1 does not force reflection; proof 038 is an actual boxed LR counterexample to that inference.
+Conversely, for an actual quintic with I(1)=I(2)=0, the additional equalities I(3)=1 and P(2)=7*P(1)-21 force this factorization through the complete six-node interpolation identity in the source proof. The SINGLE condition I(3)=1 does not force reflection; the recorded rank-seven finite-box example is an actual LR counterexample to that inference.
 
 ## 2. A complete geometric hypothesis proving reflection
 
@@ -68,7 +68,7 @@ This theorem retains all facets, the primitive homogenized normalization, the ac
 
 The theorem applies to an entire stretched LR count only after the complete affine-interior translation or reflection is proved for that same family. No statement is made that all codegree-three quintics or all five-coordinate hives have reflection.
 
-An already certified P08 whole-LR control has
+A previously certified whole-LR control has
 
     lambda=(5,4,3,2,1,1), mu=(2,2,1,1), nu=(4,3,2,1).
 
@@ -80,6 +80,9 @@ and factors exactly as
 
     binom(t+3,3)*(1+t*(t+4)/10).
 
-Its positive leading coefficient gives actual degree five; reciprocity gives codegree four and the factorization proves the reflection. This is an inherited illustrative positive member, not a new count, new key closure or newly constructed polytope. The recorded vector is in DATA/P08/SMALL16-VECTORS.json.
+Its positive leading coefficient gives actual degree five; reciprocity gives codegree four and the factorization proves the reflection. This is a previously computed illustrative positive member; no new count or finite-box coverage is asserted. The recorded vector is in DATA/P08/SMALL16-VECTORS.json.
 
-This reflection arm and proof 036's inequalities are different mechanisms. Proof 036 covers nonreflective members, including proof 038's unique-first-interior example. In a future application, cheap complete unit-slack recognition can precede the two-dilation test, but neither recognition cost nor whole-box membership is evaluated here.
+Reflection and the source coefficient inequalities are different mechanisms.
+The latter also cover nonreflective members, including the unique-first-interior
+example. Complete unit-slack recognition and the two-dilation test require
+separate checks; neither their cost nor whole-box membership is evaluated here.

@@ -1,9 +1,10 @@
 # An independent grouped-Schur count
 
-Root derivation, 10 September 2026. This provides a second entire count model
+Derivation dated 10 September 2026. This provides a second entire count model
 for the fixed three-matrix rectangular family. It uses positive Schur branching
 to perform the row-group projection, with no weighted-table row alternant.
-Independent mathematical and implementation review governs acceptance.
+The representation-theoretic identification and implementation checks are
+separate verification requirements.
 
 Set p = 4, q = 5, m = 3 and entry degree N = pqt. The Cauchy decomposition
 of Sym(C^p tensor (C^q tensor C^m)) gives
@@ -52,7 +53,7 @@ evaluates the integer determinants by fraction-free elimination, and caches
 only within one scalar call. The integer division in elimination is checked.
 Every positive branching and determinant count is nonnegative before the
 final column alternant. Its work ceiling gives an incomplete result, never a
-zero or a partially accepted signed sum.
+zero or a partially computed signed sum.
 
 This second model counts grouped semistandard tableaux; the first counts
 weighted nonnegative transportation tables and applies both Weyl alternants.
@@ -60,4 +61,4 @@ They share the whole representation-theoretic identification, but have distinct
 count objects and elimination algorithms. Native bare LR checks remain a
 third, more expensive route; their timeout does not invalidate either formula.
 The exact determining space and unused positive holds are those proved in
-RECTANGULAR-PREMISES.md. They are applied only after these all-grade identities.
+[the primitive-family premises](rectangular-premises.md). They are applied only after these all-grade identities.

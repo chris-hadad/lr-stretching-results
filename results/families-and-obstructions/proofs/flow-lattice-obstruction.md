@@ -1,8 +1,7 @@
 # Primitive edge relations obstruct a direct flow realization
 
-Root-originated inverse-construction discriminator, Astra004, 9 September 2026.
-Independent mathematical review complete; see review/DISPOSITIONS.md. This concerns affine lattice
-equivalence of complete objects. It does not exclude arbitrary projections,
+Derivation dated 9 September 2026. This concerns affine lattice equivalence
+of complete objects. It does not exclude arbitrary projections,
 sections, nonlinear count identities, or ordinary hives in general.
 
 ## An invariant of standard network-flow polytopes
@@ -35,7 +34,7 @@ primitive, is preserved by an affine lattice isomorphism.
 
 ## Applying it to the negative split-width join
 
-The triangular facet `x=0` of A01's `Q_ab` has primitive edge directions
+The triangular facet `x=0` of the split-width join `Q_ab` has primitive edge directions
 
 ```text
 v=(1,0,0), w=(1,0,-b), u=(0,0,1),
@@ -46,22 +45,21 @@ The other endpoint facet supplies the corresponding relation with coefficient
 `a`. All these directions are primitive in `Z^3`; the first two have first
 coordinate one. Therefore `Q_ab` with `max(a,b)>2` cannot be affine-lattice
 isomorphic to any complete standard network-flow polytope, at any graph size.
-In particular every negative member in A01 is excluded from this direct route.
+In particular every negative member of the split-width join family is excluded from this direct route.
 
 This rules out an unchanged transportation or ordinary incidence-flow model
 for the negative join, including adding redundant flow variables through an
 affine lattice isomorphism. It does not show that all transportation or flow
 polytopes are ordinary positive: other geometries can be negative, as the
-campaign's bounded-circulation examples already show. The obstruction is to
+bounded-circulation examples already show. The obstruction is to
 this amplified triangular edge configuration.
 
-## Repair and remaining whole-LR question
+## Scope of the whole-LR realization question
 
-The realization task must change something substantive: use genuine non-flow
-hive constraints, use a different negative shape whose primitive edge
-relations pass this test, or prove a complete count/projection identity with
-all its lattice and stabilization premises. A larger standard flow graph
-alone does not repair the failed affine map.
+A realization through non-flow hive constraints, a different negative shape,
+or a complete count or projection identity remains possible if its lattice
+and stabilization premises can be proved. Increasing the size of a standard
+flow graph alone does not remove this affine-lattice obstruction.
 
 This gives a bounded, reusable test for a proposed exact realization. It is
 not a no-go theorem for rank-six or rank-seven hives. Their rhombus systems

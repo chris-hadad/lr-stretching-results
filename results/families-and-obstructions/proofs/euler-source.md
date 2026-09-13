@@ -1,10 +1,9 @@
-# A07 source check: Euler preservation in the CDW embedding route
+# Euler preservation in the Chindris–Derksen–Weyman embedding construction
 
-Status: the exact published premise is verified. This note checks sources and
-hypotheses only. The root owns the negative-index arguments for the three-arm
-target and the proposed doubled-chain source. No such index was calculated
-here, and no scientific program, native call, or numerical test was run.
-Earlier files in this delegate directory were not edited for this subtask.
+This note verifies the published premise and its hypotheses. The
+negative-index calculations for the three-arm target and doubled-chain source
+are supplied separately in [the obstruction proof](euler-embedding-obstruction.md).
+No such index is calculated in this source note.
 
 ## 1. Exact theorem and numbering
 
@@ -54,7 +53,7 @@ Theorem 2.38(a) gives, for **every** beta,gamma in N^(Q'_0),
 
     <I(beta),I(gamma)>_Q = <beta,gamma>_(Q').          (1)
 
-It also preserves the generic hom and ext numbers. Importantly, (1) has no
+It also preserves the generic hom and ext numbers. Equation (1) has no
 beta-perpendicular-gamma restriction. That additional condition belongs to
 part (c), which asserts the multiplicity equality
 
@@ -68,7 +67,7 @@ after Definition 2.30 the authors explicitly observe that the matrix
 (<epsilon_i,epsilon_j>) is lower triangular with diagonal entries 1; therefore
 the epsilon_i are linearly independent. Thus I is injective.
 
-## 3. What follows for the root's proposed form obstruction
+## 3. Consequence for the Euler-form obstruction
 
 Let J have columns epsilon_i, and let E_Q,E_(Q') be the Euler matrices in
 the chosen vertex bases. Bilinearity extends (1) from nonnegative integer
@@ -77,15 +76,15 @@ vectors to the full real vector spaces. In matrix form,
     J^T E_Q J = E_(Q'),
     J^T (E_Q+E_Q^T) J = E_(Q')+E_(Q')^T.             (2)
 
-The root may therefore use an injective restriction of the symmetrized Euler
-form, not merely a count equality on two chosen vectors. Conditional on the
-root establishing that a proposed target T has negative index at most one,
+The theorem therefore gives an injective restriction of the symmetrized Euler
+form, beyond a count equality on two chosen vectors. If a target T has
+negative index at most one,
 (2) excludes any such exceptional-sequence embedding of a source Q' with
 at least two negative directions into T. A chain of these embeddings still
 has the same Euler-preserving property by composition.
 
 This is the exact implication verified here. The paper does not state the
-root's doubled-chain negative-index result, and this source check does not
+doubled-chain negative-index result, and this source check does not
 supply it.
 
 ## 4. The ordinary LR target really has three simple arms
@@ -125,7 +124,7 @@ T_(4,3,4), its specified exceptional pair, and the pairing -3; that pair
 produces the three-arrow Kronecker quiver. See CDW pp.1553-1554.
 
 Orientation choices do not change the symmetrized Euler form of the same
-underlying graph. The source identification supports applying the root's
+underlying graph. The source identification supports applying the
 target-form argument to these ordinary LR flag quivers. It does not assert
 that every possible quiver presentation of an LR count must be such a tree.
 
@@ -151,6 +150,6 @@ function, or even an independently established isomorphism of selected ray
 rings does not by itself preserve the full Euler form of the original
 representation category. Those statements cannot be substituted for (1).
 
-The source-flow inertia and the target-star inertia remain root-owned proof
-obligations. No source-flow dimension vector, boundary triple, numeric
-threshold, or scientific execution is asserted in this note. Runtime: none.
+The source-flow and target-star inertia calculations are separate proof
+obligations. This note does not assert a source-flow dimension vector, boundary
+triple or numerical threshold.

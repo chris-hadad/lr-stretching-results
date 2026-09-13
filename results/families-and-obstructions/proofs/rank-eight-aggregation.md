@@ -1,8 +1,8 @@
 # Complete column-moment contraction of the three-cut LR count
 
-Root derivation, FRI, 9 September 2026. This is a proposed exact contraction
-of the adopted complete A05 tableau map, pending computational and independent
-verification. It asserts no ordinary coefficient sign.
+Derivation dated 9 September 2026. This contracts the complete
+[rank-eight tableau map](rank-eight-map.md) to a column-moment formula.
+The contraction alone asserts no ordinary coefficient sign.
 
 Write `m=M*t`, `s=S*t`, with integers `0<=s<=2m`. Group the cross matrix's
 rows as row one, row two and the final two rows. Their totals are `p,q,r`,
@@ -50,7 +50,7 @@ E V(m+C,k) = 5(m+1)*k(k+1)/6.
 
 The second top exclusion and the intersection occur only at `z=c4>m`.
 Put `ell=z-m`. Here `c2<=s-z<s-m`, so the first cut is automatically
-active: `k=s-m-c2`. The adopted condition `s<=2m` makes the intersection
+active: `k=s-m-c2`. The hypothesis `s<=2m` makes the intersection
 formula valid. Combining it with the second excluded volume gives
 
 ```text

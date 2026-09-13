@@ -1,7 +1,7 @@
 # The first release from the highest-weight Horn vertex
 
-Root derivation, 10 September 2026. Exact reconstruction and independent
-counts are complete; mathematical review governs adoption.
+Derivation dated 10 September 2026, with complete exact reconstruction and
+independent counts.
 
 ## Whole family and complete Weyl cancellation
 
@@ -88,7 +88,7 @@ polynomials therefore agree identically on this boundary.
 All 66 determining sites and two unused positive parameter sites were counted
 independently from their bare LR triples using the pinned installed lrcalc.
 A separate rational Vandermonde elimination reconstructs all 66 coefficients
-directly from those native values and matches the root interval-root model.
+directly from those native values and matches the interval-root model.
 The unused sites `(u,w)=(11,0),(0,11)` agree in both models, with counts
 5,607,328 and 5,004,792. `A005-HORN-VERIFY-001.json` binds this complete
 reconciliation. No selected scalar agreement substitutes for reconstruction.
@@ -106,15 +106,15 @@ released endpoint, `M=1,s=2`, has lambda `(8,8,6,4,2,2)`, inner partitions
 `(5,4,3,2,1)`, outer size 30, and value 23 at stretch one. This family
 contains boundary and lower-dimensional cases; no whole-rank theorem follows.
 
-The exact ordered triples at `(u,v)=(0,1),(1,1)` are refused by both existing
-`Cdagger` and `Csplit` membership APIs: respectively domain row 341 and the
+The exact ordered triples at `(u,v)=(0,1),(1,1)` are refused by both the interior-translation and split-simplex membership tests
+(`Cdagger` and `Csplit` in the data): respectively domain row 341 and the
 split row `nonnegative_5_5` with slack `-1`. Thus the released theorem includes
 members outside both current sufficient charts. The stable `(1,0)` example
 is admitted by `Csplit`, so the stable overlap is preserved explicitly.
 These observations are retained in `A005-AUXILIARY-VERIFY-001.json`; they
 make no worldwide novelty assertion or census increment.
 
-The root dense interval-root counter supplies one counting model. All its
+The dense interval-root counter supplies one counting model. All its
 prefix coordinates are nonnegative and its complete grid is downward closed,
 so the ordinary unbounded-knapsack recurrence over every positive interval
 root gives exact whole counts. Its grid coordinate count is `n-1`; this is
@@ -148,15 +148,15 @@ ordinary sign or a reflection law.
 The new complete-flow component sums all outgoing distributions through exact
 suffix sums on simplex grids. It counts the whole graph and keeps every
 source-to-sink edge. Its separate direct-recurrence fixtures, state/work/memory
-limits and independent LR reconstruction govern use. Counts beyond a typed
-limit remain unknown; no partial vector is promoted.
+limits and independent LR reconstruction govern use. Counts exceeding a documented resource limit remain unknown; partial vectors
+are not complete polynomial evidence.
 
 At ranks 8, 9 and 10, primary vectors of degrees 21, 28 and 36 were recovered
 in their complete codegree-reduced spaces, then matched at two unused positive
 nodes. A separate complete interval-root model reconstructs the entire rank-8
 vector and both holds. Rank 8 is independently supported; ranks 9 and 10
 remain provisional one-model vectors. The rank-10 native check at stretch 14
-hit its 60-second deadline and is retained as incomplete, with verified exit.
+hit its 60-second deadline and is retained as incomplete, with no completed value.
 This timeout is neither a failed identity nor a negative coefficient.
 
 The rank-8 second model uses 4,782,969 grid cells and 76,527,504 array bytes.
@@ -164,5 +164,4 @@ The faster simplex-grid component retains all complete graph edges and reduces
 the determining-count cost substantially. Its 40 direct/failure fixtures and
 the interval-root component's 340 independent small counts, two rank-8 base
 controls and eight typed failure controls are separate from the scientific
-rank and polynomial claims. No original-box or additive coverage promotion
-is assigned to these flow diagnostics.
+rank and polynomial claims. These flow diagnostics add no finite-box coverage.

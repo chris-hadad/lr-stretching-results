@@ -1,6 +1,8 @@
-# Campaign-derived extension: nonnegative multiplicities with explicit dominance
+# Nonnegative multiplicities with explicit dominance
 
-Status: independently derived in this verification lane from the submitted character arguments. This is **not a claim contained in either return**, and it requires the root's scheduled independent mathematical review before campaign acceptance. No additional search or positive-stretch counting was performed for this extension.
+This extension was derived independently from the AI-assisted character
+arguments. It is separate from their original claims and depends on the proof
+below; no additional search or positive-stretch counting supports this extension.
 
 ## Lemma and exact hypotheses
 
@@ -72,16 +74,19 @@ The columns of A_m are nonzero and coordinatewise nonnegative, so every coordina
 
 Every coordinate outside J is identically zero. Choose one feasible point making each coordinate in J positive and average those finitely many points. The result is strictly positive on all J. Thus nonnegativity contributes no extra affine equation on those coordinates, and the affine hull is A_J x=R with dimension |J|-rank(A_J). This proves (3) and gives positive leading Ehrhart coefficient in its intrinsic degree. It gives no sign assertion for intermediate ordinary coefficients.
 
-## Why the new obligations cannot be omitted
+## Why dominance, feasibility and active rank are separate hypotheses
 
 **Dominance without nonemptiness.** In A2 use one full support {1,2}. Then F=(1,1,1), m=(0,0,0), and at R=(1,1), eta=(2,1,0), theta=(1,1,1). Condition (D) holds with equality. Nevertheless there are no root columns to carry R, and the tensor product with its single factor has zero multiplicity at theta. Both sides of (1) are zero at every positive stretch and one at t=0. They do not define one polynomial on all nonnegative integers. Thus (F), or a separate treatment of empty positive-stretch fibers, is essential before coefficient or degree claims.
 
-**Positive R without full row rank.** In A2 use the two supports {1} and {2}. Then F=(1,1,2), m=(0,0,1), and R=(1,1) again satisfies (D). The sole full-interval coordinate is forced to x=1, so P(R) is an integral point. Here E=1, n=2 and the naive expression E-n=-1 is wrong; the active matrix rank is one and (3) gives d=0. The tensor identity is the elementary occurrence of s_(1,1,1) in s_(1)s_(1,1), with multiplicity one. This control is established algebraically, without running a new count job.
+**Positive R without full row rank.** In A2 use the two supports {1} and {2}. Then F=(1,1,2), m=(0,0,1), and R=(1,1) again satisfies (D). The sole full-interval coordinate is forced to x=1, so P(R) is an integral point. Here E=1, n=2 and the naive expression E-n=-1 is wrong; the active matrix rank is one and (3) gives d=0. The tensor identity is the elementary occurrence of s_(1,1,1) in s_(1)s_(1,1), with multiplicity one. This control is established algebraically, without a numerical count.
 
 With zeros in R, deleting all intervals that meet them remains a necessary first reduction. With vanishing singleton multiplicities, it is no longer sufficient for degree: further variables may be forced zero and the surviving matrix need not have full rank. An exact feasible point and active-column certificate, or an equivalent proved graph-flow description, must precede interpolation.
 
 ## Consequence for a sharper construction question
 
-The support inverse already works for unshifted F>=0, so it can enumerate or certify the F>=1 region needed here without requiring m>=1. The extension makes it reasonable to seek a *specified* low-degree, nonempty, support-realizable fiber satisfying (D), with a complete-count ordinary LR bridge. A proposed experiment must freeze its support multiplicities and R, independently certify (F), identify all active edges, establish degree by (3), and then derive or count only the named complete coefficient.
+The support inverse already works for unshifted F>=0, so it can enumerate or certify the F>=1 region needed here without requiring m>=1. A low-degree, nonempty, support-realizable fiber satisfying (D) therefore has
+a complete-count ordinary LR bridge. Any coefficient calculation requires
+specified support multiplicities and R, feasibility (F), the active edges,
+and the degree established by (3).
 
 This does not revive the exact doubled-chain cube pyramid inside the support class. Inclusion-monotonicity of F, and therefore of m, still holds. Its singleton multiplicity two and full-interval multiplicity one violate that necessary condition. Nor does this lemma claim global rooted-coefficient curvature, any fixed-outer-boundary statement, ordinary negativity, or a search result.

@@ -1,8 +1,8 @@
 # Ordinary positivity of the entire clipped rank-eight family
 
-FRI root result, 9 September 2026. The complete computational certificate and
-independent count comparison pass. Independent mathematical review and the
-session acceptance record govern final promotion.
+The complete computational certificate and independent count comparison
+were verified on 9 September 2026. [The verification summary](rank8-adoption.md)
+records the resulting theorem scope.
 
 ## The statement
 
@@ -17,17 +17,17 @@ nu=(25M,22M,19M,14M,12M,9M,6M,M).
 For every `M>0`, every ordinary coefficient of the entire stretched LR
 polynomial is strictly positive, through degree 21. The origin gives the
 constant polynomial one. This closes the formerly unknown `M=1,S=2` member
-and the entire stated clipped parameter cone. Together with Astra004's
+and the entire stated clipped parameter cone. Together with the
 separate `M>=S>=0` proof, signs are settled on `0<=S<=2M`.
 
 This is a family theorem at ordinary rank eight, with outer area `220M`.
 It is not a theorem for all rank eight, the original box or full KTT.
 The two abstract nonlinear/affine-width negatives retain their missing LR
-realizations. No ordinary-negative candidate or additive box increment occurs.
+realizations. The negative abstract models are not counterexamples to LR positivity.
 
 ## Complete count and polynomiality
 
-The complete integer tableau map is Astra004 A05, with all 92 original
+The complete integer tableau map retains all 92 original
 nonnegativity, column and ballot inequalities and all row/content identities.
 For `M<=S<=2M`, exactly the three displayed additional cuts remain, including
 the empty bottom-simplex branch. Deleting one cross coordinate gives the
@@ -126,7 +126,7 @@ record is `science/results/FRI-R8-CERTIFICATE-001.json`.
 These first three actual LR cuts do not overcome the complete cubic-fiber
 compensation. The positive parameter certificate explains their combined
 effect at every scale; a negative contribution from one cut is insufficient.
-The next counterexample attempt must change a complete coupling or leave
-this proved domain. The algebraically legal range beyond `S=2M` has additional
-constraints and is not covered by this result. Retained FRG is a separate
-rectangular invariant-ring route and remains unexecuted here.
+This theorem excludes a negative ordinary coefficient throughout its
+stated domain. Other couplings require separate arguments. The algebraically legal range beyond `S=2M` has additional
+constraints and is not covered by this result. The rectangular invariant-ring construction is a separate family and is
+not covered by this theorem.

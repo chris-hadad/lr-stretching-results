@@ -1,8 +1,9 @@
 # Full positivity in an arbitrary-row near-corner transportation/LR cone
 
-Attempt: SLR-GPT6-PRO-FRONTIER-024-P07-A01-4820f3b5652d.
-Parent SHA-256: d7f3bef6d35d68f70cc89e1159c537a677e4de0d321035707bb41e418d4459ce.
-Status: provider hand proof with complete bounded combinatorial challenges. This is a sufficient whole family, not all transportation margins and not worldwide novelty or campaign acceptance.
+This AI-assisted symbolic proof includes bounded combinatorial checks.
+Source SHA-256: `d7f3bef6d35d68f70cc89e1159c537a677e4de0d321035707bb41e418d4459ce`.
+It proves a sufficient whole-family criterion, not positivity for all
+transportation margins. No historical novelty is claimed.
 
 ## 1. Statement and exact all-t formula
 
@@ -16,7 +17,7 @@ Take the complete (m+1)-by-N transportation polytope with row margins (r_0,a_1,.
     P(t)=product_(i=1)^m binom(a_i t+N-1,N-1)
           -sum_(j: L_j>0) binom(L_j t+D-1,D).           (1)
 
-Every ordinary coefficient through degree D is strictly positive. The entire LR rank under the complete bridge in proof 018 is m+N. All margins and exceptions are part of the hypothesis; columns with L_j=0 or L_j<0 contribute no subtraction.
+Every ordinary coefficient through degree D is strictly positive. The entire LR rank under the complete bridge in [the cut-region proof](transport-cut-regions.md) is m+N. All margins and exceptions are part of the hypothesis; columns with L_j=0 or L_j<0 contribute no subtraction.
 
 The global cut theorem also applies: because A>=m a_min and m>=3,
 
@@ -82,13 +83,13 @@ Neither a positive h-star numerator nor pointwise count domination is being used
 
 ## 4. Lattice and whole LR interpretation
 
-The positive-margin lattice, exact degree and full balanced ordinary LR triple are those in proof 018 Section 5, with p=m+1. Its tail constructor applies to all parameters in this theorem. In particular the claimed rank is m+N, not the number of minor rows or the incidence rank. This is an all-t whole count identity, not a supported face or a stabilized projection.
+The positive-margin lattice, exact degree and full balanced ordinary LR triple are those in [the cut-region proof](transport-cut-regions.md) Section 5, with p=m+1. Its tail constructor applies to all parameters in this theorem. In particular the claimed rank is m+N, not the number of minor rows or the incidence rank. This is an all-t whole count identity, not a supported face or a stabilized projection.
 
-The historical three-minor-row and other small protected families remain closed at their own scopes. This theorem may overlap them; no overlapping control is credited as an independent discovery or new box coverage. Its stated generality includes an arbitrary number of nonuniform minor rows but imposes the displayed near-corner column bounds. Arbitrary four-minor-row or general transportation positivity does not follow.
+The earlier three-minor-row and other small-family results retain their stated scopes. This theorem may overlap them; no overlapping control is credited as an independent discovery or new box coverage. Its stated generality includes an arbitrary number of nonuniform minor rows but imposes the displayed near-corner column bounds. Arbitrary four-minor-row or general transportation positivity does not follow.
 
 ## 5. A broader-cone challenge with an active deficiency bound
 
-Rows (11,1,2,2), columns (3,3,3,3,4) lie in proof 018's cone but violate the stronger hypothesis here: A=5, a_min=1, and min c_j=3<4. It would be wrong to use (1) unchanged. Single-column inclusion-exclusion is still exact, since two violated columns would require more than 6t minor entries, exceeding 5t.
+Rows (11,1,2,2), columns (3,3,3,3,4) lie in [the cut-region proof](transport-cut-regions.md)'s cone but violate the stronger hypothesis here: A=5, a_min=1, and min c_j=3<4. It would be wrong to use (1) unchanged. Single-column inclusion-exclusion is still exact, since two violated columns would require more than 6t minor entries, exceeding 5t.
 
 For a column of capacity 3, L=2. The unrestricted deficiency count is binom(2t+11,12), but the first deficiency u_1 is capped at t. In its violating part substitute u_1=t+1+v. Then v+u_2+u_3<=t-2, and expand
 
@@ -104,11 +105,11 @@ It is zero at t=0,1, as required by the empty tail. For the column of capacity 4
     P(t)=binom(t+4,4)binom(2t+4,4)^2
           -4binom(2t+11,12)+4E(t)-binom(t+11,12).        (5)
 
-The missing +4E(t) shows exactly why (1) cannot be extended merely because single-column violations are still disjoint. B02 expands (5), finds all thirteen coefficients positive and c1=19/2, and obtains literal matrix counts 1072 and 71747 at t=1,2. These sites are checks of an all-t identity, not determining sites in an interpolation.
+The missing +4E(t) shows exactly why (1) cannot be extended merely because single-column violations are still disjoint. The source calculation expands (5), finds all thirteen coefficients positive and c1=19/2, and obtains literal matrix counts 1072 and 71747 at t=1,2. These sites are checks of an all-t identity, not determining sites in an interpolation.
 
 ## 6. Exact controls and independence
 
-B02 saves complete ordinary rational vectors, full balanced LR triples, degree and direct matrix checks for:
+The source comparison records complete ordinary rational vectors, full balanced LR triples, degree and direct matrix checks for:
 
 * Minor rows (1,1,1), columns (2,2,2,2,2): rank 8, degree 12, c1=35/6; counts 120 and 3310.
 * Minor rows (1,2,3), columns (5,6,6,7): rank 7, degree 9, c1=98/9; counts 799 and 29390.
@@ -117,4 +118,4 @@ B02 saves complete ordinary rational vectors, full balanced LR triples, degree a
 
 All four vectors are positive. Literal matrix enumeration does not use the bounded-composition subtraction formula. Both implementations use CPython exact integer/Fraction arithmetic; no second arithmetic engine or fresh bare LR tableau count is claimed. The whole-LR interpretation rests on the full inherited count map, not on relabeling a proper subset.
 
-These positive results do not change additive campaign coverage 4554 and are not whole-rank classifications. General higher-class first jets, broader finite caps, and higher coefficients outside this cone remain open.
+These positive results do not change the prior finite-box coverage count 4554 and are not whole-rank classifications. General higher-class first jets, broader finite caps, and higher coefficients outside this cone remain open.

@@ -23,8 +23,8 @@ assert len(cdagger_polynomial(lam, mu, nu)) == 11
 
 ## Whole-object premise and fixed proof data
 
-The adopted whole-cone proof is Astra003 A01/WHOLE-CONE-POSITIVITY.md and its
-successful A003-STRIP-EXTENSION-003 certificate. Cdagger retains all 521
+The complete sector argument is given below and in the linked strip
+proof; its exact implication data are identified in the source map. Cdagger retains all 521
 essential Horn inequalities, 18 partition inequalities and 17 of the original
 19 source facets on the rank-six trace section. Removing exactly source facets
 0 and 6 permits the two complete strip cuts. Duplicate projected inequalities

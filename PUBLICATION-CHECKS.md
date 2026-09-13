@@ -37,11 +37,9 @@ The linked structural and quintic scripts are the reproducible positive and
 negative checks. The [portable recipient fixture](verification/recipient_failures.py)
 accepts explicit module, data and new workspace roots and exercises the same
 five refusal cases plus a positive inventory control. It retains the original
-refusal semantics, while removing this session's fixed host paths.
+refusal semantics, while removing the original fixed host paths.
 
-Primary citations and public recipient sources were checked. The publication
-history and selected tree received a bounded content inspection; host-path
-provenance labels and ordinary Git author metadata remain disclosed in the
-owner's release proposal. No external human endorsement or public visibility
-change is implied by this record. The [independent edition review](EDITION-REVIEW.md) returned one low-severity
-provenance finding; its local correction and verification are recorded there.
+Primary mathematical citations were checked against the stated source
+versions. These computational and source checks are distinct from external
+human mathematical review. The [review record](EDITION-REVIEW.md) describes the scope of the independent
+AI review and a corrected provenance attribution.

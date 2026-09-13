@@ -1,8 +1,8 @@
-# Selected historical adoption record
+# Computational verification summary
 
-This is the exact relevant section of the dated root acceptance record.
-The source hash and selection are recorded in the tooling source update.
-It is prior verification evidence, not a new run of this publication.
+This summary describes the independently checked computational evidence.
+Source versions and exact result hashes are recorded in the tooling source
+map. These are the recorded checks, not a claim of a new execution.
 
 ## Complete clipped rank-eight family
 
@@ -13,8 +13,7 @@ parameter has a full positive stretching polynomial, including all boundary
 rays. The origin has the constant polynomial one. This closes the actual
 clipped family, including the previous M=1,S=2 degree-21 uncertainty.
 
-The complete LR map and saturated-lattice/degree premises are retained from
-Astra004. RANK8-AGGREGATION.md and RANK8-POLYNOMIALITY.md derive the entire
+The complete LR map and saturated-lattice/degree premises are given in the complete tableau-map proof. RANK8-AGGREGATION.md and RANK8-POLYNOMIALITY.md derive the entire
 count and its single polynomial on the closed cone. An independent column
 transfer agrees at all 253 poised sites and four unused positive sites.
 The M=1,S=2 vector is independently reconstructed from those counts; all 22

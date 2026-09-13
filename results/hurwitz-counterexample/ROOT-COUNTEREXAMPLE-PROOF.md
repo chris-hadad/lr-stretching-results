@@ -1,11 +1,11 @@
-# Campaign verification of a stretched LR polynomial with right-half-plane roots
+# A stretched LR polynomial with right-half-plane roots
 
-The explicit example was proposed by GPT 6 Pro in the captured return. A fresh
-Astra verification lane received only the bare triple and outer-partition
-convention, independently derived its degree bound and counting algorithm,
-and sealed the full polynomial before any comparison with returned data.
-The root then independently recomputed both root certificates from that
-campaign polynomial. Returned code was not executed or imported.
+The example was proposed with GPT 6 Pro assistance. A separate Codex
+verification received only the bare triple and outer-partition convention,
+derived the degree bound and counting algorithm, and fixed the full
+polynomial before comparing it with the proposed coefficients. Both root
+certificates were then independently recomputed from that polynomial.
+The verification uses separately written implementations.
 
 ## The exact LR object and full polynomial
 
@@ -16,30 +16,29 @@ intervals. Its skew Schur function is therefore h_t^18, and
 
 `P(t)=c^(t lambda)_(t mu,t nu)=K_((7t,6t,5t),(t^18))`.
 
-The independent lane's ROOT-DEGREE-AND-METHOD.md derives the Weyl coefficient
+The independent derivation in ROOT-DEGREE-AND-METHOD.md derives the Weyl coefficient
 extraction and an exact two-dimensional triangular-convolution recurrence.
 It also supplies separate direct-convolution, positive horizontal-strip
-tableau and hook-length controls. These are campaign-owned implementations,
-not wrappers around returned code.
+tableau and hook-length controls. These are separate implementations of the counting methods.
 
 Before any count, the degree bound was justified by the GT/tableau chain.
-The nonterminal partitions at levels1 through17 have at most1,2,3,...,3
+The nonterminal partitions at levels1 through 17 have at most 1,2,3,...,3
 coordinates,48 in total. Each level has its independent fixed-size equation;
-the17 equations occupy disjoint coordinate blocks. The bounded polytope
-therefore has dimension at most31. Stretched LR polynomiality, together with
+the 17 equations occupy disjoint coordinate blocks. The bounded polytope
+therefore has dimension at most 31. Stretched LR polynomiality, together with
 the all-stretch Schur identity above, makes its count a polynomial of degree
-at most31. See Rassart, <https://arxiv.org/abs/math/0308101>; the dimension
+at most 31. See Rassart, <https://arxiv.org/abs/math/0308101>; the dimension
 bound is independently derived here rather than inferred from finite differences.
 
-All32 values at t=0,...,31 were computed exactly. Newton and Lagrange
+All 32 values at t=0,...,31 were computed exactly. Newton and Lagrange
 reconstruction agree, and held-out t=32,33,37 agree. The positive leading
-coefficient establishes actual degree31. All32 ordinary coefficients are
+coefficient establishes actual degree 31. All 32 ordinary coefficients are
 strictly positive. The complete coefficient vector and independent source
 seal are in ROOT-POLYNOMIAL.json and README.md.
-The independent polynomial matches every returned coefficient exactly.
-Checks of the37 provider-saved chain values, including t=100, are arithmetic
-comparisons against this independently determined polynomial, not claims
-that the campaign reran the provider's chain executable.
+The independently reconstructed polynomial agrees with every proposed
+coefficient. Comparisons at the 37 supplied chain values, including t=100,
+are arithmetic checks against this polynomial; the original chain program
+was not rerun.
 
 ## Exact Rouché disk
 
@@ -48,7 +47,7 @@ polynomial Q. Let
 
 `c=1370566/10^9 + i*414381092/10^9`, `r=1/10^6`.
 
-The root computed every Taylor coefficient
+Every Taylor coefficient was computed as
 `a_k=sum_(j=k)^31 Q_j binomial(j,k)c^(j-k)` using pairs of exact rationals.
 For `||z||_1=|Re z|+|Im z|`, put
 
@@ -78,10 +77,9 @@ integer column and exact disk bounds are in ROOT-CERTIFICATE.json.
 
 ## Scope and significance
 
-This is a counterexample to the campaign's global Hurwitz Conjecture R, not
-to ordinary coefficient positivity. It changes no original-box coverage,
-does not refute the local real-rooted cone formulas, and establishes no
-global minimality. It rules out universal Hurwitz stability as a sufficient
-route to the main positivity conjecture. Its novelty and publication scope
-require separate primary-source and expert assessment; a campaign conjecture
-is not automatically a named conjecture in the literature.
+This disproves universal Hurwitz stability for stretched LR polynomials.
+All ordinary coefficients in this example are positive, so it does not
+disprove KTT positivity. It leaves the local real-rooted cone formulas intact
+and establishes no minimum possible rank or size. Earlier discussions of
+Hurwitz stability and the distinction from known nonreal roots are credited
+in the repository references.

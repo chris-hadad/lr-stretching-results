@@ -1,13 +1,12 @@
 # A3 first-jet reduction and positivity of every positive 4-by-4 transportation linear coefficient
 
-Attempt: SLR-GPT6-PRO-FRONTIER-024-P04-A01-0f60b1b10c7b
-Parent archive SHA-256: `1c3da888e9972f4cd21d808fc8f0bdf1e6608cd9d665346c1e68c2bb4e7b2880`.
-Status: provider proof with an exact finite A3 chamber certificate; not independent campaign acceptance.
+Source archive SHA-256: `1c3da888e9972f4cd21d808fc8f0bdf1e6608cd9d665346c1e68c2bb4e7b2880`.
+This AI-assisted proof uses an exact finite A3 chamber certificate.
 
-This is the material H03 deepening promised after Phase 3. It derives the
-complete four-row linear-coefficient functional at four columns, rather than
-inferring a sign from the eight positive controls. The complete transportation/LR
-bridge remains the inherited S13 theorem. No additive original-box coverage is
+The argument derives the complete four-row linear-coefficient functional at
+four columns. Its sign conclusion does not follow from the eight positive
+controls. [The whole transportation/LR theorem](transport-whole-lr-bridge.md)
+supplies the complete count identity. No additive original-box coverage is
 claimed.
 
 ## 1. Four-row partial fractions and the exact A3 assignment
@@ -68,7 +67,7 @@ where `B_s(z)=binom(z+s-1,s-1)` for s>0 and nonnegative z, `B_0(0)=1`, and
 all other invalid arguments contribute zero.
 
 Formula (4) is not a selected face: summing it over all 4^N assignments is
-exactly the full coefficient of `x^(tr)` in `product_j h_(t c_j)`, and S13
+exactly the full coefficient of `x^(tr)` in `product_j h_(t c_j)`, and the transportation/LR theorem
 identifies that coefficient with the entire transportation count and with its
 whole LR polynomial. Terms whose slope cannot enter the nonnegative A3 cone are
 absent for all sufficiently large t. The remaining finite sum agrees with the
@@ -125,7 +124,7 @@ basis from the strict-interior nodes
 
     x = (1,1,1)+e,        e>=0, |e|<=9,                   (9)
 
-220 nodes per chamber. The shift by `(1,1,1)` is load-bearing: the first failed
+220 nodes per chamber. The shift by `(1,1,1)` is essential: the first failed
 implementation sampled the cone vertex and allowed lower-dimensional wall
 values of root-degenerate systems to contaminate a full-dimensional polynomial.
 That failed attempt is preserved. One additional strict-interior point
@@ -138,7 +137,7 @@ The resulting first-jet table has two decisive exact properties.
 using at least three classes. Every one of their seven chamber gradients at its
 assignment offset is zero: 91 exact zero gradient vectors. Thus every such
 assignment has zero ordinary linear contribution, including the fully
-four-class terms. The first genuinely A3-looking assignments do not survive at
+four-class terms. The first three-class A3 assignments do not survive at
 linear order.
 
 **Two-class factorization.** Every surviving two-class assignment must use
@@ -208,15 +207,15 @@ strictly ordered whenever the term survives, producing (14). The finite
 ambient-gradient table is the exact certificate for these chamber statements;
 there is no fit to transportation c1 values.
 
-As mandatory challenges, (15) gives
+As reference checks, (15) gives
 
     rows (1,1,1,1), columns (2,2):       c1=7/3,
     rows (1,1,1,1), columns (1,3):       c1=11/6,
     rows (1,1,1,1), columns (1,1,1,1):   c1=65/18.         (16)
 
-The first two reproduce the Phase-3 sign-changing correction fixtures. The
+The first two reproduce the earlier sign-changing correction examples. The
 third is the independently counted Birkhoff-4 whole polynomial. All eight
-Phase-3 4-by-4 controls agree with the jet formula; those values were not used
+earlier 4-by-4 controls agree with the jet formula; those values were not used
 to reconstruct any chamber polynomial.
 
 ## 5. Concavity and the sharp global positive lower bound
@@ -252,46 +251,39 @@ strictly positive ordinary linear coefficient**.
 
 ## 6. LR consequence and what remains open
 
-The inherited complete S13 construction sends a positive p-by-N transportation
+The complete transportation/LR construction sends a positive p-by-N transportation
 polytope to an entire ordinary LR stretch with rank `p+N-1` and degree
-`(p-1)(N-1)`. Phase 3 already protected every transportation c1 with
+`(p-1)(N-1)`. The small-side theorem establishes positivity of every transportation c1 with
 `min(p,N)<=3`. The present theorem closes the first missing case p=N=4:
 ordinary LR rank seven, degree nine.
 
 Thus a negative linear coefficient arising from a **full positive
-transportation polytope** cannot first appear at ordinary rank seven. The first
-unprotected transportation sizes are 4-by-5 and 5-by-4, whose whole-LR bridge
-has ordinary rank eight and degree twelve.
+transportation polytope** cannot first appear at ordinary rank seven. The next transportation sizes, 4-by-5 and 5-by-4, have a whole-LR bridge
+of ordinary rank eight and degree twelve. They are treated separately in
+[the four-by-five theorem](transport-four-by-five.md).
 
 This does **not** prove generic rank-seven LR c1 positivity, any other ordinary
-coefficient of 4-by-4 transportation polytopes, all transportation c1, or a
-principal campaign endpoint. The finite scan through separately sorted positive
+coefficient of 4-by-4 transportation polytopes, all transportation c1, or the general KTT conjecture. The finite scan through separately sorted positive
 4-by-4 margins of total at most 16 (3,241 cases) found no negative and observed
 minimum 65/18, but that scan is diagnostic only; theorem (18), not the scan,
 settles the entire 4-by-4 class.
 
-The natural H03 reentry is now to prove the same two-class/zero-higher-class
-first-jet pattern for arbitrary column count N. N=2 and N=4 normalized pair
-jets already coincide exactly. If that symbolic N-proof succeeds, (15) has a
-credible all-N analogue and could push transportation c1 much farther. A
-separate next attack should nevertheless move to H04 or H05 so this mission
-does not spend all remaining effort on one mechanism.
+For arbitrary column count N, the same two-class and zero-higher-class
+first-jet pattern remains an open question. The N=2 and N=4 normalized pair
+jets coincide exactly, but those cases do not prove an all-N analogue of (15).
 
 ## 7. Verification and failure accounting
 
 `CODE/P04-A3-FIRST-JET.py` uses only Python standard-library exact integer and
-Fraction arithmetic. A01 failed before producing a scientific result because
+Fraction arithmetic. The initial attempt failed before producing a mathematical result because
 closed-cone interpolation included boundary points for root-degenerate systems.
-The repaired A02 moved every determining and holdout site into strict chamber
-interiors. A02 exited 0 in 13.46 wall seconds with peak RSS 104,620 KiB. The
-failed A01 exited 1 in 0.69 seconds with peak RSS 93,868 KiB. A separate earlier
+The corrected attempt moved every determining and holdout site into strict chamber
+interiors. It exited 0 in 13.46 wall seconds with peak RSS 104,620 KiB. The
+failed attempt exited 1 in 0.69 seconds with peak RSS 93,868 KiB. A separate earlier
 exploratory notebook roster timed out at 60 seconds and is not used as evidence.
-All these resource charges are retained.
+All these resource measurements remain recorded.
 
-No dependency was installed, no historical returned program was executed, and
-no external compute service, native campaign job, public action or external
-message was used. The selected source bodies are copied inert under
-`SOURCES/PHASE4/`; their original packet hashes and the copied hashes are
-recorded separately. The exact A3 checker is independent of the Phase-3 literal
-transportation DP in combinatorial representation, while both rely on Python
-integer arithmetic rather than independent arithmetic engines.
+The source proofs have recorded original and copied hashes. The exact A3
+checker is independent of the earlier literal transportation dynamic program
+in combinatorial representation, while both rely on Python integer arithmetic
+rather than independent arithmetic engines.

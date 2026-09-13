@@ -6,17 +6,15 @@ and 266 for a 3-by-4 shape at their original primitive grade one. It also
 contains all four 1-by-2 controls at grades zero through three: 1, 3, 6, 10.
 This is a byte-preserved historical result, not a new execution receipt.
 
-## Historical execution
+## Computational provenance
 
-The source attempt `A002-RECTANGULAR-NONVANISHING-002` has a successful
-runtime exit and adapter return in the original research archive. The runtime
-receipt's SHA-256 is
+The source attempt `A002-RECTANGULAR-NONVANISHING-002` completed successfully in the original research archive. The execution
+record's SHA-256 is
 `07791831e722635214db149e6e618275b86cfede3415716466debef14db517c2`;
 the result's SHA-256 is
 `42f2acf869a670096cd21f76c6ec98e27c444d5f647bfb0195d320292b34b698`.
-Those operational files are retained there and are not required inputs for
-this repository's current counter. The relocated source proof now links here
-instead of offering a nonexistent relative path to those files.
+The original execution records are preserved separately and are not required
+inputs for this repository's current counter.
 
 ## Reproduce these scalar values
 
@@ -30,5 +28,5 @@ The [whole LR bridge](rectangular-bridge.md) and
 [canonical/codegree argument](rectangular-canonical.md) supply their own
 geometric premises. A successful scalar check verifies these values; it
 does not reprove either argument or compute a general rectangular polynomial.
-The new edition's actual execution is listed in
+The reproduction checks for this edition are listed in
 [PUBLICATION-CHECKS.md](../../../PUBLICATION-CHECKS.md).

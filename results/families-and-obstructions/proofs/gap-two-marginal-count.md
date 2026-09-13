@@ -1,7 +1,7 @@
 # Independent gap-two count by one-column marginals
 
-Root derivation for Frontier025 return verification, 10 September 2026. This
-counts the complete family of source proof 017. It replaces the source's
+Independent derivation dated 10 September 2026. This counts the complete
+family in [the branching proof](gap-two-branching.md). It replaces the source's
 three-column convolution, while retaining its full branching and every
 Jacobi–Trudi correction. The full LR character identity, saturated GT lattice,
 actual dimension ten and codegree classification are separate proof premises.
@@ -19,7 +19,7 @@ tail label, with no omitted matrices. Permuting columns preserves the matrix
 set. Conditional on that label having total `s`, each other label has mean
 `(2t-s)/2`; without conditioning each label has mean `2t/3`.
 
-Use source proof 017's notation: active labels `A`, unit-cap labels `C`, single
+Use the branching proof's notation: active labels `A`, unit-cap labels `C`, single
 hinge labels `S`, and pair-complement labels `J`; write their cardinalities
 `p,k,h,j`. Here `j` is zero or one, `C` is contained in `A`, and the sets `S`
 and `J` are disjoint from `A` and from each other. These facts follow from
@@ -80,8 +80,8 @@ separately reserved positive sites. The final certificate checks all 28,028
 coefficient entries against the source and finds 7,007 positive base entries.
 These corner occurrences are not claimed to be distinct bare triples.
 
-This closes the second-model count obligation for this gap-two family once
-the proof and parameter-classification gate is accepted. It does not repair
-historical missing provider process receipts. Extension to larger gaps must
+This gives a second count model for the gap-two family, conditional on the
+branching proof and complete parameter classification. Missing process records
+in the original derivation remain a provenance limitation. Extension to larger gaps must
 retain coincident cap violations and additional determinant corrections; the
 one-column formula above is confined to gap two.

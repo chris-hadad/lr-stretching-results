@@ -1,7 +1,7 @@
 # Uniform rank-two tensor channels: complete ordinary positivity
 
-Root derivation, 10 September 2026. Draft pending exact checks and independent
-review. This is an all-rank family result, with no claim of worldwide novelty
+Derivation dated 10 September 2026. Exact checks and independent verification
+are separate requirements. This is an all-rank family result, with no claim of worldwide novelty
 or coverage of a whole ordinary rank.
 
 ## Entire LR family and exact count
@@ -80,7 +80,7 @@ The coefficient of `u^(2k+1)` in `F_(2m)` has that same sign, since it is
 It follows that the complete polynomial in `x` has strictly positive
 coefficients at all odd powers `1,3,...,2m-3`, and zero at every even power.
 
-## Odd number of factors and the parity repair
+## Odd number of factors
 
 For `n = 2m + 1`, `m >= 1`, the integer condition forces `g` even. Now
 
@@ -132,17 +132,18 @@ unequal tensor weights: their subset-dependent shifts destroy the common
 centered-binomial factor. It also does not justify suppressing one of the
 central-weight terms or replacing a whole LR count by a synchronized face.
 
-The `n = 6, g = 1` member is in the original box and was already protected
-by the existing low-dimensional terminals. Larger even `n` and odd `n >= 7`
+The `n = 6, g = 1` member is in the original box and was already covered
+by low-dimensional positivity results. Larger even `n` and odd `n >= 7`
 in this displayed construction lie outside the box. Any overlap count must
-use exact original identities. The new value is the unbounded family mechanism,
-not an additive census increment or an ordinary-negative candidate.
+use exact original identities. The conclusion is an unbounded family theorem; it adds no finite-box count
+or ordinary-negative example.
 
-## Verification obligations
+## Verification dependencies
 
-Rebuild (1) and every centered coefficient at exact selected values of `n`,
-including both parities, degree cancellation, `P(0)`, and complete positive
-vectors. Use a different unsigned tensor-weight recurrence for scalar controls.
-Independently review the finite-difference signs, convergence and lobe argument,
-the full LR character bridge and the parity/domain exceptions. Treat numerical
-controls as checks of the derivation, never as its all-rank proof.
+The proof depends on (1), the finite-difference signs, convergence and the lobe
+argument, together with the full LR character bridge and parity/domain
+exceptions. Exact centered-coefficient checks cover both parities, degree
+cancellation, `P(0)` and complete positive vectors; a separate unsigned
+tensor-weight recurrence supplies scalar controls. The controls corroborate
+the derivation without replacing its all-rank argument. Their documented
+scope is given in the collection README.

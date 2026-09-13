@@ -23,14 +23,14 @@ Writing alpha=delta(r,c;I,J), beta=delta(s,d;I,J), universal extraction is there
     T(r+s,c+d)=T(r,c)+T(s,d)
     iff delta(r,c;I,J)delta(s,d;I,J)>=0 for all I,J.
 
-This confirms the returned realization proof, lines 9–70, including zero margins. The 2^(p+q) gate is a finite test, not a variable-rank polynomial-time claim.
+This proves the cut criterion, including zero margins. The 2^(p+q) criterion is a finite test, not a variable-rank polynomial-time claim.
 
 For segment margins e=f=(1,1,0,...,0), its delta equals the number of selected distinguished rows/columns minus two. Minimal cuts with positive segment delta select three distinguished indices. They impose exactly
 
     r1>=B, r2>=B, c1>=A, c2>=A,
     A=sum_(i>=3)r_i, B=sum_(j>=3)c_j.
 
-Extra nondistinguished indices only increase the base cut; the four-selected cut is redundant. Complement cuts cover the negative segment delta. Therefore these conditions are necessary and sufficient, and scaling the segment margins proves the real equality for every m>=0. The source's degree D=(p-1)(q-1) assertion additionally requires its strictly positive base margins; the zero-margin gate itself does not require full dimension.
+Extra nondistinguished indices only increase the base cut; the four-selected cut is redundant. Complement cuts cover the negative segment delta. Therefore these conditions are necessary and sufficient, and scaling the segment margins proves the real equality for every m>=0. The source's degree D=(p-1)(q-1) assertion additionally requires its strictly positive base margins; the zero-margin criterion itself does not require full dimension.
 
 ## 2. Entire transportation-to-LR-row map
 
@@ -94,7 +94,7 @@ Thus every off-diagonal a(i,j) is nonnegative. The diagonal ballot inequalities 
 
 Composing with section 2 gives the promised entire transportation-to-conventional-hive isomorphism. Since it and its inverse have integer coefficients, it identifies affine spans intersected with their ambient integer lattices; this is a full lattice statement, not just a count bijection.
 
-## 4. Boundary linearity transfers the real Minkowski gate
+## 4. Boundary linearity transfers the real Minkowski criterion
 
 Denote the composition by Phi_(r,c). At fixed p,q and padding, every tail, buffer entry and hive partial sum is linear. Hence
 
@@ -106,7 +106,7 @@ The inverse extracts the same fixed row-count coordinates at every boundary and 
       = H(Lambda(r,c),Mu(r,c),Nu(r,c))
         +H(Lambda(s,d),Mu(s,d),Nu(s,d))
 
-as entire real conventional hive polytopes in the same rank-n coordinates. This proves more than the returned count bridge. It applies to this explicit tail-constructed family; it does not furnish a cut test for arbitrary hive boundaries.
+as entire real conventional hive polytopes in the same rank-n coordinates. This proves more than the count identity. It applies to this explicit tail-constructed family; it does not furnish a cut test for arbitrary hive boundaries.
 
 Fixed padding is essential. `constructions.py:24–26,62–64,148–152` trims trailing partition zeros, while `hive.py:199–200` chooses rank from the lengths supplied to `hive_boundary`. The theoretical family must retain or restore rank n=p+q-1 before coordinate addition. Trimming may change the standalone rank of the segment from seven to five. Re-padding restores the forced empty rows and the common chart; silently adding two different ambient hive vectors is not meaningful. The formulas extend to real margins analytically; this does not assert that the integer-only constructor API accepts arbitrary real inputs.
 
@@ -136,13 +136,13 @@ For the base r=c=(2,2,1,1), this gives the source's b+m*a family, with b=((10,8,
 
 ## 6. Asymmetric failure and its valid chamber repair
 
-For r'=(1,3,1,1), c'=(2,2,1,1), the cut I={1}, J={1,2} has base delta=-1 and segment delta=+1. The gate fails. The supplied table
+For r'=(1,3,1,1), c'=(2,2,1,1), the cut I={1}, J={1,2} has base delta=-1 and segment delta=+1. The criterion fails. The supplied table
 
     X=((0,0,1,1),(2,2,0,0),(1,0,0,0),(0,1,0,0))
 
 belongs to T(r'+e,c'+f). Its distinguished first row contains zero main-block mass, while every segment table requires one unit there, so no segment summand lies below X. Its positive-support graph is a forest, making it a transportation vertex. The new integral affine isomorphism takes it to a conventional-hive vertex outside H(b')+H(a); its explicit interior coordinates are retained in the check output. Thus failure is transferred geometrically too, without native enumeration or a t=1 count argument.
 
-For m>=1, margins (1+m,3+m,1,1),(2+m,2+m,1,1) satisfy the four inequalities. The source's repaired branch B_m=B_1+(m-1)t*q22 follows. The m=0 branch must remain separate. At m=0, using the larger unrestricted q22 instead of the actual constrained projection is invalid. The returned low-dilation numerical cancellation does not repair that geometric failure.
+For m>=1, margins (1+m,3+m,1,1),(2+m,2+m,1,1) satisfy the four inequalities. The source's repaired branch B_m=B_1+(m-1)t*q22 follows. The m=0 branch must remain separate. At m=0, using the larger unrestricted q22 instead of the actual constrained projection is invalid. The low-dilation numerical agreement does not repair that geometric failure.
 
 The computation proof's generic 2 by 2 completion interval is correct: for balanced nonnegative remaining margins R1,R2,C1,C2 its lattice count is min(R1,C1)-max(0,R1-C2)+1. In the symmetric case it becomes Lt-max(U,V,S-U,S-V)+1, and summing threshold intervals gives its stated aggregated formula. These elementary identities have no missing configurations. The geometry and count identities do not supply any missing negative quotient coefficient or unauthenticated full polynomial.
 

@@ -1,6 +1,7 @@
 # The complete Delta3=2 branching formula, with every overlap retained
 
-FRONTIER-025 P05. Originating proof; campaign acceptance has not occurred. Ordinary coefficient positivity will use the finite certificate in proof 019, not positivity of individual summands. All parameters below are integers, and t is the stretching variable.
+Ordinary coefficient positivity depends on the finite certificate in
+[the positivity proof](gap-two-positivity.md), rather than positivity of individual summands. All parameters below are integers, and t is the stretching variable.
 
 ## 1. Entire objects, degree, lattice, and prior reconstruction
 
@@ -17,7 +18,7 @@ Then g1,g2,g3,d>=1, e>=-1,
 
 The complete fixed-weight GT chain has at most min(r,5) entries in row r, for r=1,...,6, terminal row alpha, prescribed row sums, and every weak interlacing inequality. Its 15 nonterminal coordinates have five disjoint coefficient-one sum equations. Eliminating one coordinate per row gives the saturated affine lattice Z^10. Boundedness follows from interlacing with the terminal shape.
 
-The full nonuniform staircase proof is the selected source proof 010, together with its included GENERAL-HEIGHT dependency. Its translation is delta_i^(r)=r+6-2i, terminal staircase (10,8,6,4,2), and content subtraction (5,5,5,5,5,5). It identifies strict integer chains at grade n with weak chains of top n alpha-(10,8,6,4,2), content n beta-5*1_6. Feasibility is exactly
+The full nonuniform staircase proof is [the weighted GT interior argument](gap-staircase.md), together with its uniform-height premise. Its translation is delta_i^(r)=r+6-2i, terminal staircase (10,8,6,4,2), and content subtraction (5,5,5,5,5,5). It identifies strict integer chains at grade n with weak chains of top n alpha-(10,8,6,4,2), content n beta-5*1_6. Feasibility is exactly
 
     n beta6>=5; n b>=2; n(alpha_i-alpha_(i+1))>=2;
     n Delta_k>=k(6-k), 1<=k<=4.               (2)
@@ -29,7 +30,7 @@ At Delta3=2, its own cost is ceil(9/2)=5. Every other cost is at most five excep
     q=8 iff Delta2=1 or Delta4=1;
     q=5 otherwise.                            (3)
 
-Equivalently q=8 iff e=-1 or max(v)=a+1. These statements and the prior degree were established before the first P05 scalar count. They give the full reconstruction space
+Equivalently q=8 iff e=-1 or max(v)=a+1. These statements and the prior degree were established before the scalar counts. They give the full reconstruction space
 
     P(t)=binom(t+q-1,q-1) R(t), deg R=11-q, R(0)=1.   (4)
 
@@ -82,7 +83,7 @@ The final Schur factor retains BOTH terms of its two-row determinant. In particu
 
 ## 4. Complete tail content and endpoint formula
 
-For nonnegative w of total (a+b)t, the two-row Schur identity or the same reflection involution gives K_((at,bt),w) as the difference between bounded three-composition counts of totals bt and bt-1. Its inclusion-exclusion is
+For nonnegative w of total (a+b)t, the two-row Schur identity or the same reflection involution gives K_((at, bt), w) as the difference between bounded three-composition counts of totals bt and bt-1. Its inclusion-exclusion is
 
     sum_(S subset [3]) (-1)^|S| (bt-w(S)-|S|+1)_+,
 
@@ -114,4 +115,5 @@ In the last correction, its row lengths v'=(u1,u2,u3-t-1) sum to t-1. Thus every
 
 It is used only when u3>t and g3=1. The factorial product is the total number of independent weak row words. Its rational appearance is an exact average, not a separately assumed count factor.
 
-Equations (6)-(12), together with the full partition constructors (5), are an all-parameter, all-stretch entire count formula. Proof 018 now exhausts its integer boundary types; proof 019 supplies the exact finite positive coefficient certificate. The target is EVERY ordinary coefficient, not merely a linear term.
+Equations (6)-(12), together with the full partition constructors (5), are an all-parameter, all-stretch entire count formula. [The profile classification](gap-two-profiles.md) exhausts its integer boundary types;
+[the positivity proof](gap-two-positivity.md) supplies the exact finite positive coefficient certificate. The target is EVERY ordinary coefficient, not merely a linear term.

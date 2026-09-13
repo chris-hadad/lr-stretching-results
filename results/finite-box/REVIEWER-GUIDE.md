@@ -45,9 +45,8 @@ distinguishes inventory, representative count controls and full exhaustive
 replay. Inventory or a successful sample is not the finite theorem. Complete
 source and data files are provided through the versioned manifests and assets.
 
-The source proofs are preserved under `proofs/sources/`. Some historical
-headers describe an earlier candidate or incomplete stage. The current theorem,
-dependency account and completed verification record govern the published
-claim. The [AI-assistance account](AI-ASSISTANCE.md) explains discovery and
+The source proofs are preserved under `proofs/sources/`. Their mathematical scope is stated with each proof; the complete
+dependency account and verification record identify the premises used in the
+finite theorem. The [AI-assistance account](AI-ASSISTANCE.md) explains discovery and
 verification roles without implying human review or mathematical-community
 acceptance. Specific objections to any of the five bridges above are welcome.

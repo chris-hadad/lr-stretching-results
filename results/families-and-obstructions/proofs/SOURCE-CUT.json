@@ -1,235 +1,511 @@
 {
-  "scope": "Unchanged copied mathematical sources. Authored reader presentation remains outside this directory.",
+  "scope": "Current editorial projections of the identified mathematical proof sources. Original source identities are retained; mathematical displays and executable code are preserved.",
   "files": [
     {
       "path": "actual-cubics.md",
-      "bytes": 6246,
-      "sha256": "50b773fc3dac16fec646195b823a14a5f4abd1b9e584b291c57990036ed4b410"
+      "bytes": 6286,
+      "sha256": "1b19d8a682127f259827caf3db50f5bfbf93adcf65b29fe5be2af331f07ba5df",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 6246,
+        "sha256": "50b773fc3dac16fec646195b823a14a5f4abd1b9e584b291c57990036ed4b410"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "coupled-simplex-independent-count.md",
-      "bytes": 4498,
-      "sha256": "3ee703e4d1a935c0d4b1225dce3a8a1f1e575e7d074c0ecc95a95cfcdebb6e3a"
+      "bytes": 4500,
+      "sha256": "74a468ea2f78fd856a6a4ab5cabbdb39bc80133e2952f88e6806cc5d2b505cda",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4498,
+        "sha256": "3ee703e4d1a935c0d4b1225dce3a8a1f1e575e7d074c0ecc95a95cfcdebb6e3a"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "coupled-simplex.md",
-      "bytes": 10921,
-      "sha256": "a68471f1de0914a4517cf5aed21a691d5e6734abc143da873cc88f8774c3377a"
+      "bytes": 10119,
+      "sha256": "c8772047699565de1eeba36f78fc4d6f89a4424c40e8bf747aa30f47d1bda951",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 10921,
+        "sha256": "a68471f1de0914a4517cf5aed21a691d5e6734abc143da873cc88f8774c3377a"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "euler-embedding-obstruction.md",
-      "bytes": 4921,
-      "sha256": "574ffcfd9d57e622d447e79a92492583900854641bc9a9a7c7dd11ebf3461752"
+      "bytes": 4855,
+      "sha256": "ef7bb930c204eafce12dbe9fa635d4dd6c700aaeb6f51370cecca7e0c8f7bceb",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4921,
+        "sha256": "574ffcfd9d57e622d447e79a92492583900854641bc9a9a7c7dd11ebf3461752"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "euler-source.md",
-      "bytes": 7334,
-      "sha256": "fee52d106c5e5b0af4f41998d54614c24b82217fa74902dbcff3359beee37405"
+      "bytes": 7124,
+      "sha256": "dc7873b7d7e1a0e3310067f9acc9e01dc2ddbc333a612f9bdbac8ea3f38230f3",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7334,
+        "sha256": "fee52d106c5e5b0af4f41998d54614c24b82217fa74902dbcff3359beee37405"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "flow-lattice-obstruction.md",
-      "bytes": 4035,
-      "sha256": "05e0204bb5e8aa8a111e22c6bb59d58dde5a99cfa01e8cae44a1eef2d057a877"
+      "bytes": 3904,
+      "sha256": "080f17bf87f8f36ac23c3ba28dfa549190ccbb2012a7ddba58a705bdd9124208",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4035,
+        "sha256": "05e0204bb5e8aa8a111e22c6bb59d58dde5a99cfa01e8cae44a1eef2d057a877"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "gap-one.md",
-      "bytes": 11893,
-      "sha256": "d60bd2fea435945b7218afe848e2fd49a5136c806a43579ac50a2c138720a107"
+      "bytes": 11683,
+      "sha256": "54c3074efd600bfda9ffc22ab0710fb3e7021397481c17f1ccca13366197ad1b",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 11893,
+        "sha256": "d60bd2fea435945b7218afe848e2fd49a5136c806a43579ac50a2c138720a107"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "gap-staircase.md",
-      "bytes": 8142,
-      "sha256": "37e00b27c964f006fef8ff18c004f2a32948d2d2fad5d02e3e54daea6c4985bc"
+      "bytes": 8190,
+      "sha256": "a6e4aba0e88ba82be4df31742bce7ee791b62ba2b67b910c050389547030e879",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8142,
+        "sha256": "37e00b27c964f006fef8ff18c004f2a32948d2d2fad5d02e3e54daea6c4985bc"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "gap-two-branching.md",
-      "bytes": 9261,
-      "sha256": "790be8b587c07e911b29475ce5fb553304294c7253a70533499010a0e778ab4d"
+      "bytes": 9309,
+      "sha256": "f5f6225a69d560ebee191097566d3633dc7d244f588817c43efb996130fe0dfd",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 9261,
+        "sha256": "790be8b587c07e911b29475ce5fb553304294c7253a70533499010a0e778ab4d"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "gap-two-marginal-count.md",
-      "bytes": 4141,
-      "sha256": "ffc0ede705d6e35663de2b6158d1f44ac1d1d0c9e761b84b0c49ea11a8b1ca74"
+      "bytes": 4163,
+      "sha256": "7c299659d5049a1e3ef64a158ba824ee0cba7913519be0b499499a73c3544cd1",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4141,
+        "sha256": "ffc0ede705d6e35663de2b6158d1f44ac1d1d0c9e761b84b0c49ea11a8b1ca74"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "gap-two-positivity.md",
-      "bytes": 10593,
-      "sha256": "7d4260a4e2deb34d1a0f8b1f71375ad86ac681bfcb25fd009a8b637c1b418628"
+      "bytes": 10488,
+      "sha256": "0603ec33aa80c81deb03c503e25cce9781273993a8c610f714849d07a9f3e987",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 10593,
+        "sha256": "7d4260a4e2deb34d1a0f8b1f71375ad86ac681bfcb25fd009a8b637c1b418628"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "gap-two-profiles.md",
-      "bytes": 8550,
-      "sha256": "bec135646beaf857153523cc2ae7cb350b47efe015cfe26b07e562c16131263e"
+      "bytes": 8620,
+      "sha256": "60ba1f877c87cd7cbb306b4b1c7d9ab6ba99355f415370b8d22d6c7e8ea2b044",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8550,
+        "sha256": "bec135646beaf857153523cc2ae7cb350b47efe015cfe26b07e562c16131263e"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "interior-surplus.md",
-      "bytes": 7273,
-      "sha256": "c4060c434f756d61e71ad0223ea8937d4305e0a12d1b25079fb572f8e2d4e857"
+      "bytes": 7214,
+      "sha256": "8aa6f070393fa0896a35d0b69fb2cb4ba5777e4f778d740e54b2a846ff920996",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7273,
+        "sha256": "c4060c434f756d61e71ad0223ea8937d4305e0a12d1b25079fb572f8e2d4e857"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "low-defect-reflection.md",
-      "bytes": 5662,
-      "sha256": "d6c1b5c21c1e25eeb994b56d5ed8bb450c291217c5853a325d2c0dd214b890e6"
+      "bytes": 5645,
+      "sha256": "4a8d7cc6efe8bb28a10fc917a5d3fb458bbd1ccdcc83ac50a144f1c4c6ae9076",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 5662,
+        "sha256": "d6c1b5c21c1e25eeb994b56d5ed8bb450c291217c5853a325d2c0dd214b890e6"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "matching-character-premise.md",
-      "bytes": 7273,
-      "sha256": "d29046ca851ab87938b09bbf57ded9785bcc8b097e95a6dbf08dcb770a6dd445"
+      "bytes": 7059,
+      "sha256": "aeedbe5c1c93edd6048692e811120deca0a6de5f58089d58ad8c6d8b95bf84d5",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7273,
+        "sha256": "d29046ca851ab87938b09bbf57ded9785bcc8b097e95a6dbf08dcb770a6dd445"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "matching-layers.md",
-      "bytes": 8463,
-      "sha256": "a8900dbb726d77614ece239e52da787b3de34e4eac1f886310f66b6c5578eabe"
+      "bytes": 8460,
+      "sha256": "30ac5b40ede545d8a23ee5bb639b89e80d0b9edd50fccb9f2c1d7f363bc56057",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8463,
+        "sha256": "a8900dbb726d77614ece239e52da787b3de34e4eac1f886310f66b6c5578eabe"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "matching-positive-shifts.md",
-      "bytes": 4437,
-      "sha256": "76174be685ca4aea6e435a4e9669d9b1881cb96bf3780725acfe62a205d71ef2"
+      "bytes": 4531,
+      "sha256": "35bb096fc647a96920383021f0752bc5e24bd10bddf4103753358d3d98c4458f",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4437,
+        "sha256": "76174be685ca4aea6e435a4e9669d9b1881cb96bf3780725acfe62a205d71ef2"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "matching-scope.md",
-      "bytes": 7618,
-      "sha256": "514462e79d44844ec29e4adcba8935acf8d8dc60c6b5e6202761b8f138863655"
+      "bytes": 7354,
+      "sha256": "cbbe126bcaaedc0d5c2138b1fd6e4899427e472cfe4c84fb2de4631569c9411d",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7618,
+        "sha256": "514462e79d44844ec29e4adcba8935acf8d8dc60c6b5e6202761b8f138863655"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "matching-three-layers.md",
-      "bytes": 10034,
-      "sha256": "bbe553d228238538a5ceee0a6af906a4f52b74a19b0684f708eee7ea7412d7df"
+      "bytes": 10148,
+      "sha256": "9f8db0a580d3694ad591417b8587fb872f00eb017345b303900652baf51870a8",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 10034,
+        "sha256": "bbe553d228238538a5ceee0a6af906a4f52b74a19b0684f708eee7ea7412d7df"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "matching-whole-bridge.md",
-      "bytes": 10659,
-      "sha256": "eaee296fc5f4f9385def6bfcc1baa4bdcef35854e99edfc6f482a57f06570910"
+      "bytes": 10777,
+      "sha256": "da790edf3a11a1abeb04bed5e030b66fcf4b750b2ce2311f1d3d8d4dc269c34d",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 10659,
+        "sha256": "eaee296fc5f4f9385def6bfcc1baa4bdcef35854e99edfc6f482a57f06570910"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "negative-graphs-and-lr-faces.md",
-      "bytes": 16241,
-      "sha256": "ec7cb8acea74a063b04b3116677778d51e0556003b5773422e1a6e6965711df6"
+      "bytes": 16280,
+      "sha256": "e8dfe08d357d459e5c303376a55b70a2fccd00cc39f089e2b2208f3c72514c35",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 16241,
+        "sha256": "ec7cb8acea74a063b04b3116677778d51e0556003b5773422e1a6e6965711df6"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "negative-pyramid-challenge.md",
-      "bytes": 4462,
-      "sha256": "0be9c1eabed3ce5f0347754c68a54fe4b849daf0cf23cb1ef735bfe4106ca720"
+      "bytes": 4507,
+      "sha256": "69c4a7d9f81511ee397a30558a988149228c268f95281b225c01e1f81ef6d41b",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4462,
+        "sha256": "0be9c1eabed3ce5f0347754c68a54fe4b849daf0cf23cb1ef735bfe4106ca720"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "rank-eight-aggregation.md",
-      "bytes": 3231,
-      "sha256": "c7e232625eac0ef79a2801960761395d63d19b82152294ce07b79bff8f13e56d"
+      "bytes": 3208,
+      "sha256": "f00f51f41da3887f6e72276551922f1fb456f3b1b826a816787f8b46a4d525e0",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 3231,
+        "sha256": "c7e232625eac0ef79a2801960761395d63d19b82152294ce07b79bff8f13e56d"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "rank-eight-map.md",
-      "bytes": 12556,
-      "sha256": "6312408cde17fa197650ef4a488a0342d3e19fe1e882508746f5a1b340e708ac"
+      "bytes": 12391,
+      "sha256": "ae8526ee69d09ab6636d90bb659fe994f25e785b7a41cd82dc3af0a7a3d9f5a4",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 12556,
+        "sha256": "6312408cde17fa197650ef4a488a0342d3e19fe1e882508746f5a1b340e708ac"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "rank-eight-polynomiality.md",
-      "bytes": 4860,
-      "sha256": "e15ddb7cf2294e90ba948e4b7384f6ba21d11bf645c56288f4a372e6728295fa"
+      "bytes": 4829,
+      "sha256": "f58b9326af85d7527b7c82e6463fd778cea5ab4e4a57ff69e91d59a1a762e812",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4860,
+        "sha256": "e15ddb7cf2294e90ba948e4b7384f6ba21d11bf645c56288f4a372e6728295fa"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "rank-six-horn-release.md",
-      "bytes": 8778,
-      "sha256": "c9792bd716458bc50880ef265cde888060eee451cd8636a8f5ec6b92bcc30ec1"
+      "bytes": 8790,
+      "sha256": "1dc93b5041ba98bfdf61c4cdd560bfe56cccf393ddb4db9c78b1f2e99cac7f57",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8778,
+        "sha256": "c9792bd716458bc50880ef265cde888060eee451cd8636a8f5ec6b92bcc30ec1"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "rectangular-bridge.md",
-      "bytes": 9948,
-      "sha256": "a84c4cbe74ec67433b1da0baf9736e857e443b29bdd03c37e086194c01e92940"
+      "bytes": 9514,
+      "sha256": "52d7163d60f46edefe8829dd0bd94457a60e3e0b263ff55b8b3b921bfeea27d1",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 9845,
+        "sha256": "f479a9baf764fcce1242576014f07249ea5c20f6cca2561fb376e1e6d8be5b8d"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "rectangular-canonical.md",
-      "bytes": 8529,
-      "sha256": "e15600206c999bf2153af33b84754e461db3278ca50a76946f264739d3cb6b1b"
+      "bytes": 8556,
+      "sha256": "2a9a07b86cf4442bfdaf8bb23f3b1e8fea867f55f4b949a3e71a3e4c6c36f655",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8550,
+        "sha256": "57ad343b4798dc30c9e305a5bfb90eef1ce11459958bdd6ee67189e1e790b40d"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "rectangular-extension.md",
-      "bytes": 11517,
-      "sha256": "e6ca79ca88744fa0584e9f5b4069b4e245de4a463c57d1d861c35e25b53dc0d6"
+      "bytes": 11260,
+      "sha256": "14b6b0b2e3204e4b965317aaab6ff602fbc53f5134dd9ff074bbb1ddb4adfcf3",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 11517,
+        "sha256": "e6ca79ca88744fa0584e9f5b4069b4e245de4a463c57d1d861c35e25b53dc0d6"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "rectangular-premises.md",
-      "bytes": 8813,
-      "sha256": "41b9f3b785d30b6ee45b7c47199f7d1fd4ee2ab93709bfd067245b26017a3a59"
+      "bytes": 8893,
+      "sha256": "ec6b3d3948019ca26601941e3ef9405655dbc1a94892edbb7de9112019a4cb5c",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8813,
+        "sha256": "41b9f3b785d30b6ee45b7c47199f7d1fd4ee2ab93709bfd067245b26017a3a59"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "rectangular-tableau.md",
-      "bytes": 3155,
-      "sha256": "bf7e04f716054a1aedaa56f77e8fece94fb969d9ffb6f8a13e66cd7fabe04d78"
+      "bytes": 3227,
+      "sha256": "ab87d53858e13aae2d3a0dfecc46ada46fdd464e0bb6ef2a44cf2510d3c1d8cb",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 3155,
+        "sha256": "bf7e04f716054a1aedaa56f77e8fece94fb969d9ffb6f8a13e66cd7fabe04d78"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "sparse-complete.md",
-      "bytes": 5535,
-      "sha256": "b9b38c52607ba22aab45f80e9614457cba4a95ffa00883f73e071dbd6c071786"
+      "bytes": 5465,
+      "sha256": "2a1282eb4fbc63d364246e51bd0414820c9cf14dea82c63047f6e82aef82e75c",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 5535,
+        "sha256": "b9b38c52607ba22aab45f80e9614457cba4a95ffa00883f73e071dbd6c071786"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "sparse-constructor.md",
-      "bytes": 10941,
-      "sha256": "5c61b0c7d9cc67bff70ce1d88e26b47478a828946c66f46a55b303714683569d"
+      "bytes": 10900,
+      "sha256": "8e722cdc483d9e9e7bf7e1c0c63c394e4c562a473cb53923a3c4ea2ba6ccf8f9",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 10941,
+        "sha256": "5c61b0c7d9cc67bff70ce1d88e26b47478a828946c66f46a55b303714683569d"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "sparse-nonnegative-parameters.md",
-      "bytes": 7273,
-      "sha256": "d29046ca851ab87938b09bbf57ded9785bcc8b097e95a6dbf08dcb770a6dd445"
+      "bytes": 7059,
+      "sha256": "aeedbe5c1c93edd6048692e811120deca0a6de5f58089d58ad8c6d8b95bf84d5",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7273,
+        "sha256": "d29046ca851ab87938b09bbf57ded9785bcc8b097e95a6dbf08dcb770a6dd445"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "three-local-cones-first-two.md",
-      "bytes": 16501,
-      "sha256": "830a9c5216a9fe7cf920eca7a4b30ba831c812e20b7af48e25021565acaaba8b"
+      "bytes": 15586,
+      "sha256": "cd61efb015d49cc74e3563394dc778283c03e46b5454deb2c0c41ab9c47fba3b",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 16501,
+        "sha256": "830a9c5216a9fe7cf920eca7a4b30ba831c812e20b7af48e25021565acaaba8b"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "three-local-cones-third.md",
-      "bytes": 7326,
-      "sha256": "825fe37b6655326a5ffda434db812a5d29a08673255a15b2f8717f66f125cf01"
+      "bytes": 7370,
+      "sha256": "0185ced96fc885e4572d269622050bec8b0c10a98a29688e83df112745494ce6",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7326,
+        "sha256": "825fe37b6655326a5ffda434db812a5d29a08673255a15b2f8717f66f125cf01"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "transport-a3-premise.md",
-      "bytes": 13026,
-      "sha256": "2ad9ac14066f5bcfa7a21ecb446b7e704f49a8c9198a8f0683f852bbf26ca647"
+      "bytes": 12550,
+      "sha256": "25bd326dea84464f736056ee34bb6471f22451d865afddb2c9a822bfd0065da8",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 13026,
+        "sha256": "2ad9ac14066f5bcfa7a21ecb446b7e704f49a8c9198a8f0683f852bbf26ca647"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "transport-cut-regions.md",
-      "bytes": 8810,
-      "sha256": "dcecbaf39738426be3adf88b529efb123dc6019a2b61ecbe1acc46388b2dde4d"
+      "bytes": 8864,
+      "sha256": "8cb89110c8044ae882ef0d599b7a23c4dcf4a0ff169cce185449f39ab8fe6a99",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8810,
+        "sha256": "dcecbaf39738426be3adf88b529efb123dc6019a2b61ecbe1acc46388b2dde4d"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "transport-double-cuts.md",
-      "bytes": 10969,
-      "sha256": "37656ed2a50b40bdddc97b2560cd40b36c5d704217cb6ae06eb9791fe5900f8c"
+      "bytes": 10936,
+      "sha256": "676bcfa42fa43b6371a8fa01fb15f79f2cf7d3a4420614abb73198ae3d869694",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 10969,
+        "sha256": "37656ed2a50b40bdddc97b2560cd40b36c5d704217cb6ae06eb9791fe5900f8c"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "transport-four-by-five.md",
-      "bytes": 8864,
-      "sha256": "7b4d23e5f9f9559adf0756966ff275373d6f713d712a0c62259b81f5bfac26e4"
+      "bytes": 8819,
+      "sha256": "5359fde7567c13660b32ba8b195ba6392ebcc533cbcd62f7b008bd1cf58b70c4",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8864,
+        "sha256": "7b4d23e5f9f9559adf0756966ff275373d6f713d712a0c62259b81f5bfac26e4"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "transport-four-by-four.md",
-      "bytes": 13538,
-      "sha256": "9600c5cffc95b7d26b1a556a7189db2911733e9441cbcf4652627ceabdcbc525"
+      "bytes": 13126,
+      "sha256": "556ba5d0877653f1f2cbfc861613a355b0ae6a0634663edab40b488e3a13ff83",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 13538,
+        "sha256": "9600c5cffc95b7d26b1a556a7189db2911733e9441cbcf4652627ceabdcbc525"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "transport-near-corner.md",
-      "bytes": 7616,
-      "sha256": "5e24760a8a92fbe09be82dab2ceaf32652e7e0407416bbfda92c7880b88d447a"
+      "bytes": 7719,
+      "sha256": "691530f48d3d2856a3be3427d70b418b96d6efe478ddc9bcac16825c73e5760c",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7616,
+        "sha256": "5e24760a8a92fbe09be82dab2ceaf32652e7e0407416bbfda92c7880b88d447a"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "transport-small-side.md",
-      "bytes": 6850,
-      "sha256": "fb8fb15773d407de5e6b364ad6120d452965060a6307aef25e3999c619eb7d66"
+      "bytes": 6753,
+      "sha256": "b3bd42a748da6b2b5c38874de5703b89f51f775a8ab059b41dc2091336df9291",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 6850,
+        "sha256": "fb8fb15773d407de5e6b364ad6120d452965060a6307aef25e3999c619eb7d66"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "transport-two-gates.md",
-      "bytes": 6235,
-      "sha256": "e3acda979a5e7ed17ed2fd6a53346fb790a8dc7a32877ab2cc57b2bc4d954dfb"
+      "bytes": 6139,
+      "sha256": "81d84746f0d30ecb1ffe0d3586ec38bd7c75ff1adde5c93472bba7a0fe1f329a",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 6235,
+        "sha256": "e3acda979a5e7ed17ed2fd6a53346fb790a8dc7a32877ab2cc57b2bc4d954dfb"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "transport-whole-lr-bridge.md",
-      "bytes": 16501,
-      "sha256": "fd78f5ad5696a125cc2d258f11938de21935beb413399d8b32582359bb04f625"
+      "bytes": 16250,
+      "sha256": "8cc41c77f96b0fcc1c3d5de3504545b2a8f00df92a78c760f22e0e72b496f8ee",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 16501,
+        "sha256": "fd78f5ad5696a125cc2d258f11938de21935beb413399d8b32582359bb04f625"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "uniform-two-row.md",
-      "bytes": 6646,
-      "sha256": "11345c3e0c167099624635e445a953dee71abcd4f92eecf4a2390c685be172c9"
+      "bytes": 6653,
+      "sha256": "6cf1914c9359b3c8014f9509a28804ddb0edb198bb2666e1ddbd1863b864d4f9",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 6646,
+        "sha256": "11345c3e0c167099624635e445a953dee71abcd4f92eecf4a2390c685be172c9"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     }
   ]
 }

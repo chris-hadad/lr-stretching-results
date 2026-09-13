@@ -91,9 +91,8 @@ coordinate bounds. Partial and refused results remain explicit.
 
 [PROOFS.md](PROOFS.md) collects the contracts.
 [CURRENT-SOURCES.md](CURRENT-SOURCES.md) explains the current additions and
-source projections; [SOURCE-LICENSES.md](SOURCE-LICENSES.md) preserves the prior
-source, model-assistance and owner licensing notice. No license decision is
-made by this tooling refresh.
+source projections; [SOURCE-LICENSES.md](SOURCE-LICENSES.md) explains
+implementation provenance and AI-assistance account.
 
 The old examples, 75-check driver, tests, benchmarks and source notices remain.
 [The prior README](history/previous-tooling/README.md) records their earlier

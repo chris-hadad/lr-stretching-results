@@ -1,11 +1,10 @@
-# Campaign-derived extension of the ROOTS009 interior shift
+# The interior staircase shift at arbitrary height
 
-Status: independently verified, mathematically reviewed and campaign-adopted at
-this exact scope; see ROOTS-ADOPTION.md. ROOTS009
-supplied the height-three argument; the arbitrary-height statement below is
-newly derived here, not attributed to that return. No novelty or polytope
-integrality/reflexivity is asserted. This is a proof extension and fixed witness
-check, not a new coefficient-search roster.
+This arbitrary-height extension has independent verification and mathematical
+review at the scope stated below. The earlier height-three derivation supplies
+the starting argument; the generalization is a separate contribution.
+Novelty and polytope integrality or reflexivity are not claimed. Verification
+includes a fixed constructive witness check, not a new search for coefficients.
 
 ## Statement
 
@@ -139,9 +138,9 @@ and use even/odd powers of y. Thus a unique rational R_(m,h) satisfies
 
 For positive scalar reconstruction, evaluating J at t=0..floor(D/2) determines
 R at distinct arguments t(t+1), after dividing by (2t+1)^e. Two further t values
-are genuinely unused holdouts. This halves the determining degree only for
+are genuinely unused checks. This halves the determining degree only for
 families with the proved reflection identity, not arbitrary LR polynomials.
-It is a mathematical reduction here; no new higher-height count panel ran.
+It is a mathematical reduction here; no new set of higher-height counts was computed.
 
 For each root xi=u+iv of R, its two preimages are (-1+/-sqrt(1+4xi))/2.
 Exactly one has positive real part iff u+v^2>0. This follows by solving
@@ -151,7 +150,7 @@ Counting multiplicities, J's RHP count therefore equals the number of R roots
 outside u+v^2<=0, for either parity e. The additional odd factor lies at -1/2.
 This is a root-location equivalence, not an ordinary-sign equivalence.
 
-This generalizes ROOTS009's J_m at h=3. Codegree one by itself does not imply
+This generalizes the height-three family J_m. Codegree one by itself does not imply
 reflection; the specialization alpha=delta^(m), w=h supplies it. Nor does this
 functional equation establish an integral/reflexive polytope or a uniform
 instability/positivity theorem.
@@ -159,7 +158,7 @@ instability/positivity theorem.
 ## Natural family and an explicit deflation boundary
 
 At h=3,m=3a,w=1,alpha=(a+1,a,a-1), a>=2, (G2) gives q0=4 and D=6a-5.
-The full count factors as binom(t+3,3)Q_a(t), with Q_a(0)=1 and degree6a-8.
+The full count factors as binom(t+3,3)Q_a(t), with Q_a(0)=1 and degree 6a-8.
 At q=4, the shifted shape is (a+2,a,a-2) and content (1^(3a)). The standard-
 tableau determinant gives
 
@@ -180,8 +179,9 @@ full ordinary coefficient verification.
 
 ## Sources and verification scope
 
-The height-three seed is the two captured ROOTS009 reconstructions and the
-additional rebuilt return. The arbitrary-height proof is campaign-derived.
+The starting point is the height-three interior-shift derivation and its
+independent reconstructions. The arbitrary-height proof is the extension given
+here.
 Its standard premises are Rassart, Corollary4.2 (arXiv math/0308101), and rational
 Ehrhart reciprocity (for example Beck--Ehrenborg, arXiv math/0504230). The
 standard-tableau formula is used only on the displayed explicit three-row shape.

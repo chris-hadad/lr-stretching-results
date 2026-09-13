@@ -1,20 +1,38 @@
 {
-  "scope": "Three byte-preserved mathematical source snapshots; sibling README and dependency explanations are authored prose outside this directory.",
+  "scope": "Current editorial projections of the identified mathematical proof sources. Original source identities are retained; mathematical displays and executable code are preserved.",
   "files": [
     {
       "path": "DELTA-TWO-BRANCHING.md",
-      "bytes": 9261,
-      "sha256": "790be8b587c07e911b29475ce5fb553304294c7253a70533499010a0e778ab4d"
+      "bytes": 9450,
+      "sha256": "27533720ed383df35303aa6e87f8b024327233c6fb98509273056282cd2e0016",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 9261,
+        "sha256": "790be8b587c07e911b29475ce5fb553304294c7253a70533499010a0e778ab4d"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "GENERAL-HEIGHT.md",
-      "bytes": 9790,
-      "sha256": "72be270c32030447b27dd88efacc475761fb964623f7021b221d58b32237d7e1"
+      "bytes": 9785,
+      "sha256": "d5fc32c2c85a2abfc99af88d9977ecb4935c1183f366317bab7f630f87265156",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 9790,
+        "sha256": "72be270c32030447b27dd88efacc475761fb964623f7021b221d58b32237d7e1"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "WEIGHTED-GT-INTERIORS.md",
-      "bytes": 8142,
-      "sha256": "37e00b27c964f006fef8ff18c004f2a32948d2d2fad5d02e3e54daea6c4985bc"
+      "bytes": 8023,
+      "sha256": "ce55d4c87476fa2bebdb5e8a041078143d2fa88fb101a57d863ca663772e85d5",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8142,
+        "sha256": "37e00b27c964f006fef8ff18c004f2a32948d2d2fad5d02e3e54daea6c4985bc"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     }
   ]
 }

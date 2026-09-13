@@ -4775,328 +4775,602 @@
       "transformation": "none; complete source bytes preserved"
     },
     {
-      "bytes": 6246,
+      "bytes": 6286,
       "path": "proofs/actual-cubics.md",
       "source_path": "methods/astra-wildcard-005-2026-09-10/A05-BOUNDARY-FACE-TRANSFER.md",
       "source_sha256": "50b773fc3dac16fec646195b823a14a5f4abd1b9e584b291c57990036ed4b410",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 6246,
+        "sha256": "50b773fc3dac16fec646195b823a14a5f4abd1b9e584b291c57990036ed4b410"
+      },
+      "included_sha256": "1b19d8a682127f259827caf3db50f5bfbf93adcf65b29fe5be2af331f07ba5df"
     },
     {
-      "bytes": 4498,
+      "bytes": 4500,
       "path": "proofs/coupled-simplex-independent-count.md",
       "source_path": "methods/frd-2026-09-06/root-count-check.md",
       "source_sha256": "3ee703e4d1a935c0d4b1225dce3a8a1f1e575e7d074c0ecc95a95cfcdebb6e3a",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4498,
+        "sha256": "3ee703e4d1a935c0d4b1225dce3a8a1f1e575e7d074c0ecc95a95cfcdebb6e3a"
+      },
+      "included_sha256": "74a468ea2f78fd856a6a4ab5cabbdb39bc80133e2952f88e6806cc5d2b505cda"
     },
     {
-      "bytes": 10921,
+      "bytes": 10119,
       "path": "proofs/coupled-simplex.md",
       "source_path": "methods/frd-2026-09-06/geometry/PROOF.md",
       "source_sha256": "a68471f1de0914a4517cf5aed21a691d5e6734abc143da873cc88f8774c3377a",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 10921,
+        "sha256": "a68471f1de0914a4517cf5aed21a691d5e6734abc143da873cc88f8774c3377a"
+      },
+      "included_sha256": "c8772047699565de1eeba36f78fc4d6f89a4424c40e8bf747aa30f47d1bda951"
     },
     {
-      "bytes": 4921,
+      "bytes": 4855,
       "path": "proofs/euler-embedding-obstruction.md",
       "source_path": "methods/astra-wildcard-002-2026-09-07/attacks/A07/PROOF.md",
       "source_sha256": "574ffcfd9d57e622d447e79a92492583900854641bc9a9a7c7dd11ebf3461752",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4921,
+        "sha256": "574ffcfd9d57e622d447e79a92492583900854641bc9a9a7c7dd11ebf3461752"
+      },
+      "included_sha256": "ef7bb930c204eafce12dbe9fa635d4dd6c700aaeb6f51370cecca7e0c8f7bceb"
     },
     {
-      "bytes": 7334,
+      "bytes": 7124,
       "path": "proofs/euler-source.md",
       "source_path": "methods/astra-wildcard-002-2026-09-07/delegates/actual-lr-geometry/SOURCE-EULER-EMBEDDING.md",
       "source_sha256": "fee52d106c5e5b0af4f41998d54614c24b82217fa74902dbcff3359beee37405",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7334,
+        "sha256": "fee52d106c5e5b0af4f41998d54614c24b82217fa74902dbcff3359beee37405"
+      },
+      "included_sha256": "dc7873b7d7e1a0e3310067f9acc9e01dc2ddbc333a612f9bdbac8ea3f38230f3"
     },
     {
-      "bytes": 4035,
+      "bytes": 3904,
       "path": "proofs/flow-lattice-obstruction.md",
       "source_path": "methods/astra-wildcard-004-2026-09-09/A02-FLOW-OBSTRUCTION.md",
       "source_sha256": "05e0204bb5e8aa8a111e22c6bb59d58dde5a99cfa01e8cae44a1eef2d057a877",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4035,
+        "sha256": "05e0204bb5e8aa8a111e22c6bb59d58dde5a99cfa01e8cae44a1eef2d057a877"
+      },
+      "included_sha256": "080f17bf87f8f36ac23c3ba28dfa549190ccbb2012a7ddba58a705bdd9124208"
     },
     {
-      "bytes": 11893,
+      "bytes": 11683,
       "path": "proofs/gap-one.md",
       "source_path": "methods/astra-wildcard-004-2026-09-09/A03-PAIRED-INTERIORS.md",
       "source_sha256": "d60bd2fea435945b7218afe848e2fd49a5136c806a43579ac50a2c138720a107",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 11893,
+        "sha256": "d60bd2fea435945b7218afe848e2fd49a5136c806a43579ac50a2c138720a107"
+      },
+      "included_sha256": "54c3074efd600bfda9ffc22ab0710fb3e7021397481c17f1ccca13366197ad1b"
     },
     {
-      "bytes": 8142,
+      "bytes": 8190,
       "path": "proofs/gap-staircase.md",
       "source_path": "methods/frontier-024-2026-09-09/sources/PROOFS/010-DEFECT-TWO-AND-WEIGHTED-GT-INTERIORS.md",
       "source_sha256": "37e00b27c964f006fef8ff18c004f2a32948d2d2fad5d02e3e54daea6c4985bc",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8142,
+        "sha256": "37e00b27c964f006fef8ff18c004f2a32948d2d2fad5d02e3e54daea6c4985bc"
+      },
+      "included_sha256": "a6e4aba0e88ba82be4df31742bce7ee791b62ba2b67b910c050389547030e879"
     },
     {
-      "bytes": 9261,
+      "bytes": 9309,
       "path": "proofs/gap-two-branching.md",
       "source_path": "methods/frontier-025-2026-09-10/sources/PROOFS/017-DELTA-TWO-CODEGREE-AND-BRANCHING.md",
       "source_sha256": "790be8b587c07e911b29475ce5fb553304294c7253a70533499010a0e778ab4d",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 9261,
+        "sha256": "790be8b587c07e911b29475ce5fb553304294c7253a70533499010a0e778ab4d"
+      },
+      "included_sha256": "f5f6225a69d560ebee191097566d3633dc7d244f588817c43efb996130fe0dfd"
     },
     {
-      "bytes": 4141,
+      "bytes": 4163,
       "path": "proofs/gap-two-marginal-count.md",
       "source_path": "methods/frontier-025-2026-09-10/verification/families/MARGINAL-COUNT.md",
       "source_sha256": "ffc0ede705d6e35663de2b6158d1f44ac1d1d0c9e761b84b0c49ea11a8b1ca74",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4141,
+        "sha256": "ffc0ede705d6e35663de2b6158d1f44ac1d1d0c9e761b84b0c49ea11a8b1ca74"
+      },
+      "included_sha256": "7c299659d5049a1e3ef64a158ba824ee0cba7913519be0b499499a73c3544cd1"
     },
     {
-      "bytes": 10593,
+      "bytes": 10488,
       "path": "proofs/gap-two-positivity.md",
       "source_path": "methods/frontier-025-2026-09-10/sources/PROOFS/019-POSITIVE-CERTIFICATE-BASELINE-AND-CHALLENGE.md",
       "source_sha256": "7d4260a4e2deb34d1a0f8b1f71375ad86ac681bfcb25fd009a8b637c1b418628",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 10593,
+        "sha256": "7d4260a4e2deb34d1a0f8b1f71375ad86ac681bfcb25fd009a8b637c1b418628"
+      },
+      "included_sha256": "0603ec33aa80c81deb03c503e25cce9781273993a8c610f714849d07a9f3e987"
     },
     {
-      "bytes": 8550,
+      "bytes": 8620,
       "path": "proofs/gap-two-profiles.md",
       "source_path": "methods/frontier-025-2026-09-10/sources/PROOFS/018-EXHAUSTIVE-PROFILE-COMPRESSION.md",
       "source_sha256": "bec135646beaf857153523cc2ae7cb350b47efe015cfe26b07e562c16131263e",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8550,
+        "sha256": "bec135646beaf857153523cc2ae7cb350b47efe015cfe26b07e562c16131263e"
+      },
+      "included_sha256": "60ba1f877c87cd7cbb306b4b1c7d9ab6ba99355f415370b8d22d6c7e8ea2b044"
     },
     {
-      "bytes": 7273,
+      "bytes": 7214,
       "path": "proofs/interior-surplus.md",
       "source_path": "methods/frontier-025-2026-09-10/sources/PROOFS/040-INTERIOR-SURPLUS-AND-FINITE-REFLECTION.md",
       "source_sha256": "c4060c434f756d61e71ad0223ea8937d4305e0a12d1b25079fb572f8e2d4e857",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7273,
+        "sha256": "c4060c434f756d61e71ad0223ea8937d4305e0a12d1b25079fb572f8e2d4e857"
+      },
+      "included_sha256": "8aa6f070393fa0896a35d0b69fb2cb4ba5777e4f778d740e54b2a846ff920996"
     },
     {
-      "bytes": 5662,
+      "bytes": 5645,
       "path": "proofs/low-defect-reflection.md",
       "source_path": "methods/frontier-025-2026-09-10/sources/PROOFS/037-LOW-DEFECT-REFLECTION-AND-UNIT-SLACK.md",
       "source_sha256": "d6c1b5c21c1e25eeb994b56d5ed8bb450c291217c5853a325d2c0dd214b890e6",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 5662,
+        "sha256": "d6c1b5c21c1e25eeb994b56d5ed8bb450c291217c5853a325d2c0dd214b890e6"
+      },
+      "included_sha256": "4a8d7cc6efe8bb28a10fc917a5d3fb458bbd1ccdcc83ac50a144f1c4c6ae9076"
     },
     {
-      "bytes": 7273,
+      "bytes": 7059,
       "path": "proofs/matching-character-premise.md",
       "source_path": "methods/frontier-024-2026-09-09/sources/SOURCES/PHASE6/NONNEGATIVE-M-LEMMA.md",
       "source_sha256": "d29046ca851ab87938b09bbf57ded9785bcc8b097e95a6dbf08dcb770a6dd445",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7273,
+        "sha256": "d29046ca851ab87938b09bbf57ded9785bcc8b097e95a6dbf08dcb770a6dd445"
+      },
+      "included_sha256": "aeedbe5c1c93edd6048692e811120deca0a6de5f58089d58ad8c6d8b95bf84d5"
     },
     {
-      "bytes": 8463,
+      "bytes": 8460,
       "path": "proofs/matching-layers.md",
       "source_path": "methods/astra-wildcard-005-2026-09-10/A02-SECOND-SHIFT.md",
       "source_sha256": "a8900dbb726d77614ece239e52da787b3de34e4eac1f886310f66b6c5578eabe",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8463,
+        "sha256": "a8900dbb726d77614ece239e52da787b3de34e4eac1f886310f66b6c5578eabe"
+      },
+      "included_sha256": "30ac5b40ede545d8a23ee5bb639b89e80d0b9edd50fccb9f2c1d7f363bc56057"
     },
     {
-      "bytes": 4437,
+      "bytes": 4531,
       "path": "proofs/matching-positive-shifts.md",
       "source_path": "methods/frontier-025-2026-09-10/sources/PROOFS/020-POSITIVE-SHIFT-DIFFERENCE-OPERATION.md",
       "source_sha256": "76174be685ca4aea6e435a4e9669d9b1881cb96bf3780725acfe62a205d71ef2",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4437,
+        "sha256": "76174be685ca4aea6e435a4e9669d9b1881cb96bf3780725acfe62a205d71ef2"
+      },
+      "included_sha256": "35bb096fc647a96920383021f0752bc5e24bd10bddf4103753358d3d98c4458f"
     },
     {
-      "bytes": 7618,
+      "bytes": 7354,
       "path": "proofs/matching-scope.md",
       "source_path": "methods/frontier-025-2026-09-10/sources/PROOFS/022-CERTIFICATE-FAILURES-AND-VERIFIED-SCOPE.md",
       "source_sha256": "514462e79d44844ec29e4adcba8935acf8d8dc60c6b5e6202761b8f138863655",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7618,
+        "sha256": "514462e79d44844ec29e4adcba8935acf8d8dc60c6b5e6202761b8f138863655"
+      },
+      "included_sha256": "cbbe126bcaaedc0d5c2138b1fd6e4899427e472cfe4c84fb2de4631569c9411d"
     },
     {
-      "bytes": 10034,
+      "bytes": 10148,
       "path": "proofs/matching-three-layers.md",
       "source_path": "methods/frontier-025-2026-09-10/sources/PROOFS/021-SIX-RUN-THREE-UNBOUNDED-LAYERS.md",
       "source_sha256": "bbe553d228238538a5ceee0a6af906a4f52b74a19b0684f708eee7ea7412d7df",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 10034,
+        "sha256": "bbe553d228238538a5ceee0a6af906a4f52b74a19b0684f708eee7ea7412d7df"
+      },
+      "included_sha256": "9f8db0a580d3694ad591417b8587fb872f00eb017345b303900652baf51870a8"
     },
     {
-      "bytes": 10659,
+      "bytes": 10777,
       "path": "proofs/matching-whole-bridge.md",
       "source_path": "methods/frontier-024-2026-09-09/sources/PROOFS/013-SIX-RUN-WHOLE-COUPLING-AND-BOUNDARIES.md",
       "source_sha256": "eaee296fc5f4f9385def6bfcc1baa4bdcef35854e99edfc6f482a57f06570910",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 10659,
+        "sha256": "eaee296fc5f4f9385def6bfcc1baa4bdcef35854e99edfc6f482a57f06570910"
+      },
+      "included_sha256": "da790edf3a11a1abeb04bed5e030b66fcf4b750b2ce2311f1d3d8d4dc269c34d"
     },
     {
-      "bytes": 16241,
+      "bytes": 16280,
       "path": "proofs/negative-graphs-and-lr-faces.md",
       "source_path": "methods/frontier-011-013-2026-09-06/wildcard/PROOF.md",
       "source_sha256": "ec7cb8acea74a063b04b3116677778d51e0556003b5773422e1a6e6965711df6",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 16241,
+        "sha256": "ec7cb8acea74a063b04b3116677778d51e0556003b5773422e1a6e6965711df6"
+      },
+      "included_sha256": "e8dfe08d357d459e5c303376a55b70a2fccd00cc39f089e2b2208f3c72514c35"
     },
     {
-      "bytes": 4462,
+      "bytes": 4507,
       "path": "proofs/negative-pyramid-challenge.md",
       "source_path": "methods/frontier-025-2026-09-10/sources/PROOFS/042-COMPLETE-NEGATIVE-PYRAMID-CHALLENGE.md",
       "source_sha256": "0be9c1eabed3ce5f0347754c68a54fe4b849daf0cf23cb1ef735bfe4106ca720",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4462,
+        "sha256": "0be9c1eabed3ce5f0347754c68a54fe4b849daf0cf23cb1ef735bfe4106ca720"
+      },
+      "included_sha256": "69c4a7d9f81511ee397a30558a988149228c268f95281b225c01e1f81ef6d41b"
     },
     {
-      "bytes": 3231,
+      "bytes": 3208,
       "path": "proofs/rank-eight-aggregation.md",
       "source_path": "methods/fri-2026-09-09/RANK8-AGGREGATION.md",
       "source_sha256": "c7e232625eac0ef79a2801960761395d63d19b82152294ce07b79bff8f13e56d",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 3231,
+        "sha256": "c7e232625eac0ef79a2801960761395d63d19b82152294ce07b79bff8f13e56d"
+      },
+      "included_sha256": "f00f51f41da3887f6e72276551922f1fb456f3b1b826a816787f8b46a4d525e0"
     },
     {
-      "bytes": 12556,
+      "bytes": 12391,
       "path": "proofs/rank-eight-map.md",
       "source_path": "methods/astra-wildcard-004-2026-09-09/A05-NONLINEAR-COMPENSATION.md",
       "source_sha256": "6312408cde17fa197650ef4a488a0342d3e19fe1e882508746f5a1b340e708ac",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 12556,
+        "sha256": "6312408cde17fa197650ef4a488a0342d3e19fe1e882508746f5a1b340e708ac"
+      },
+      "included_sha256": "ae8526ee69d09ab6636d90bb659fe994f25e785b7a41cd82dc3af0a7a3d9f5a4"
     },
     {
-      "bytes": 4860,
+      "bytes": 4829,
       "path": "proofs/rank-eight-polynomiality.md",
       "source_path": "methods/fri-2026-09-09/RANK8-POLYNOMIALITY.md",
       "source_sha256": "e15ddb7cf2294e90ba948e4b7384f6ba21d11bf645c56288f4a372e6728295fa",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4860,
+        "sha256": "e15ddb7cf2294e90ba948e4b7384f6ba21d11bf645c56288f4a372e6728295fa"
+      },
+      "included_sha256": "f58b9326af85d7527b7c82e6463fd778cea5ab4e4a57ff69e91d59a1a762e812"
     },
     {
-      "bytes": 8778,
+      "bytes": 8790,
       "path": "proofs/rank-six-horn-release.md",
       "source_path": "methods/astra-wildcard-005-2026-09-10/A06-HORN-RELEASE.md",
       "source_sha256": "c9792bd716458bc50880ef265cde888060eee451cd8636a8f5ec6b92bcc30ec1",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8778,
+        "sha256": "c9792bd716458bc50880ef265cde888060eee451cd8636a8f5ec6b92bcc30ec1"
+      },
+      "included_sha256": "1dc93b5041ba98bfdf61c4cdd560bfe56cccf393ddb4db9c78b1f2e99cac7f57"
     },
     {
-      "bytes": 9845,
+      "bytes": 9514,
       "path": "proofs/rectangular-bridge.md",
       "source_path": "methods/astra-wildcard-002-2026-09-07/delegates/actual-lr-geometry/rectangular/BRIDGE.md",
       "source_sha256": "a84c4cbe74ec67433b1da0baf9736e857e443b29bdd03c37e086194c01e92940",
-      "transformation": "Document link projection only; exact replacements in repository DOCUMENTATION-ADAPTATIONS.json. Earlier source hash retained.",
-      "included_sha256": "f479a9baf764fcce1242576014f07249ea5c20f6cca2561fb376e1e6d8be5b8d"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "included_sha256": "52d7163d60f46edefe8829dd0bd94457a60e3e0b263ff55b8b3b921bfeea27d1",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 9845,
+        "sha256": "f479a9baf764fcce1242576014f07249ea5c20f6cca2561fb376e1e6d8be5b8d"
+      }
     },
     {
-      "bytes": 8550,
+      "bytes": 8556,
       "path": "proofs/rectangular-canonical.md",
       "source_path": "methods/astra-wildcard-002-2026-09-07/delegates/actual-lr-geometry/rectangular/CANONICAL.md",
       "source_sha256": "e15600206c999bf2153af33b84754e461db3278ca50a76946f264739d3cb6b1b",
-      "transformation": "Document link projection only; exact replacements in repository DOCUMENTATION-ADAPTATIONS.json. Earlier source hash retained.",
-      "included_sha256": "57ad343b4798dc30c9e305a5bfb90eef1ce11459958bdd6ee67189e1e790b40d"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "included_sha256": "2a9a07b86cf4442bfdaf8bb23f3b1e8fea867f55f4b949a3e71a3e4c6c36f655",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8550,
+        "sha256": "57ad343b4798dc30c9e305a5bfb90eef1ce11459958bdd6ee67189e1e790b40d"
+      }
     },
     {
-      "bytes": 11517,
+      "bytes": 11260,
       "path": "proofs/rectangular-extension.md",
       "source_path": "methods/astra-wildcard-002-2026-09-07/delegates/actual-lr-geometry/A08-E6-EXTENSION.md",
       "source_sha256": "e6ca79ca88744fa0584e9f5b4069b4e245de4a463c57d1d861c35e25b53dc0d6",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 11517,
+        "sha256": "e6ca79ca88744fa0584e9f5b4069b4e245de4a463c57d1d861c35e25b53dc0d6"
+      },
+      "included_sha256": "14b6b0b2e3204e4b965317aaab6ff602fbc53f5134dd9ff074bbb1ddb4adfcf3"
     },
     {
-      "bytes": 8813,
+      "bytes": 8893,
       "path": "proofs/rectangular-premises.md",
       "source_path": "methods/frg-2026-09-10/RECTANGULAR-PREMISES.md",
       "source_sha256": "41b9f3b785d30b6ee45b7c47199f7d1fd4ee2ab93709bfd067245b26017a3a59",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8813,
+        "sha256": "41b9f3b785d30b6ee45b7c47199f7d1fd4ee2ab93709bfd067245b26017a3a59"
+      },
+      "included_sha256": "ec6b3d3948019ca26601941e3ef9405655dbc1a94892edbb7de9112019a4cb5c"
     },
     {
-      "bytes": 3155,
+      "bytes": 3227,
       "path": "proofs/rectangular-tableau.md",
       "source_path": "methods/frg-2026-09-10/TABLEAU-MODEL.md",
       "source_sha256": "bf7e04f716054a1aedaa56f77e8fece94fb969d9ffb6f8a13e66cd7fabe04d78",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 3155,
+        "sha256": "bf7e04f716054a1aedaa56f77e8fece94fb969d9ffb6f8a13e66cd7fabe04d78"
+      },
+      "included_sha256": "ab87d53858e13aae2d3a0dfecc46ada46fdd464e0bb6ef2a44cf2510d3c1d8cb"
     },
     {
-      "bytes": 5535,
+      "bytes": 5465,
       "path": "proofs/sparse-complete.md",
       "source_path": "methods/fre-2026-09-07/sparse/PROOF.md",
       "source_sha256": "b9b38c52607ba22aab45f80e9614457cba4a95ffa00883f73e071dbd6c071786",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 5535,
+        "sha256": "b9b38c52607ba22aab45f80e9614457cba4a95ffa00883f73e071dbd6c071786"
+      },
+      "included_sha256": "2a1282eb4fbc63d364246e51bd0414820c9cf14dea82c63047f6e82aef82e75c"
     },
     {
-      "bytes": 10941,
+      "bytes": 10900,
       "path": "proofs/sparse-constructor.md",
       "source_path": "methods/frc-2026-09-05/sparse/PROOF.md",
       "source_sha256": "5c61b0c7d9cc67bff70ce1d88e26b47478a828946c66f46a55b303714683569d",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 10941,
+        "sha256": "5c61b0c7d9cc67bff70ce1d88e26b47478a828946c66f46a55b303714683569d"
+      },
+      "included_sha256": "8e722cdc483d9e9e7bf7e1c0c63c394e4c562a473cb53923a3c4ea2ba6ccf8f9"
     },
     {
-      "bytes": 7273,
+      "bytes": 7059,
       "path": "proofs/sparse-nonnegative-parameters.md",
       "source_path": "methods/frc-2026-09-05/sparse/source/NONNEGATIVE-M-LEMMA.md",
       "source_sha256": "d29046ca851ab87938b09bbf57ded9785bcc8b097e95a6dbf08dcb770a6dd445",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7273,
+        "sha256": "d29046ca851ab87938b09bbf57ded9785bcc8b097e95a6dbf08dcb770a6dd445"
+      },
+      "included_sha256": "aeedbe5c1c93edd6048692e811120deca0a6de5f58089d58ad8c6d8b95bf84d5"
     },
     {
-      "bytes": 16501,
+      "bytes": 15586,
       "path": "proofs/three-local-cones-first-two.md",
       "source_path": "prompts/gpt/attachments/SLR-GPT6-PRO-FRONTIER-023/payload/history/022/historical/wildcard-004/artifacts/two-cone-proof.md",
       "source_sha256": "830a9c5216a9fe7cf920eca7a4b30ba831c812e20b7af48e25021565acaaba8b",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 16501,
+        "sha256": "830a9c5216a9fe7cf920eca7a4b30ba831c812e20b7af48e25021565acaaba8b"
+      },
+      "included_sha256": "cd61efb015d49cc74e3563394dc778283c03e46b5454deb2c0c41ab9c47fba3b"
     },
     {
-      "bytes": 7326,
+      "bytes": 7370,
       "path": "proofs/three-local-cones-third.md",
       "source_path": "methods/fra-2026-09-04/hard-model-proof.md",
       "source_sha256": "825fe37b6655326a5ffda434db812a5d29a08673255a15b2f8717f66f125cf01",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7326,
+        "sha256": "825fe37b6655326a5ffda434db812a5d29a08673255a15b2f8717f66f125cf01"
+      },
+      "included_sha256": "0185ced96fc885e4572d269622050bec8b0c10a98a29688e83df112745494ce6"
     },
     {
-      "bytes": 13026,
+      "bytes": 12550,
       "path": "proofs/transport-a3-premise.md",
       "source_path": "methods/frontier-024-2026-09-09/sources/SOURCES/PHASE4/A3-MATHEMATICAL-NOTE.md",
       "source_sha256": "2ad9ac14066f5bcfa7a21ecb446b7e704f49a8c9198a8f0683f852bbf26ca647",
-      "transformation": "none; complete source bytes preserved"
-    },
-    {
-      "bytes": 8810,
-      "path": "proofs/transport-cut-regions.md",
-      "source_path": "methods/frontier-024-2026-09-09/sources/PROOFS/018-POSITIVE-CUT-PART-AND-WHOLE-TRANSPORT-CONE.md",
-      "source_sha256": "dcecbaf39738426be3adf88b529efb123dc6019a2b61ecbe1acc46388b2dde4d",
-      "transformation": "none; complete source bytes preserved"
-    },
-    {
-      "bytes": 10969,
-      "path": "proofs/transport-double-cuts.md",
-      "source_path": "methods/frontier-024-2026-09-09/sources/BRANCHES/P07-9739/PROOFS/017-ARBITRARY-SIZE-POSITIVE-DOUBLE-CUT-CORE.md",
-      "source_sha256": "37656ed2a50b40bdddc97b2560cd40b36c5d704217cb6ae06eb9791fe5900f8c",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 13026,
+        "sha256": "2ad9ac14066f5bcfa7a21ecb446b7e704f49a8c9198a8f0683f852bbf26ca647"
+      },
+      "included_sha256": "25bd326dea84464f736056ee34bb6471f22451d865afddb2c9a822bfd0065da8"
     },
     {
       "bytes": 8864,
+      "path": "proofs/transport-cut-regions.md",
+      "source_path": "methods/frontier-024-2026-09-09/sources/PROOFS/018-POSITIVE-CUT-PART-AND-WHOLE-TRANSPORT-CONE.md",
+      "source_sha256": "dcecbaf39738426be3adf88b529efb123dc6019a2b61ecbe1acc46388b2dde4d",
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8810,
+        "sha256": "dcecbaf39738426be3adf88b529efb123dc6019a2b61ecbe1acc46388b2dde4d"
+      },
+      "included_sha256": "8cb89110c8044ae882ef0d599b7a23c4dcf4a0ff169cce185449f39ab8fe6a99"
+    },
+    {
+      "bytes": 10936,
+      "path": "proofs/transport-double-cuts.md",
+      "source_path": "methods/frontier-024-2026-09-09/sources/BRANCHES/P07-9739/PROOFS/017-ARBITRARY-SIZE-POSITIVE-DOUBLE-CUT-CORE.md",
+      "source_sha256": "37656ed2a50b40bdddc97b2560cd40b36c5d704217cb6ae06eb9791fe5900f8c",
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 10969,
+        "sha256": "37656ed2a50b40bdddc97b2560cd40b36c5d704217cb6ae06eb9791fe5900f8c"
+      },
+      "included_sha256": "676bcfa42fa43b6371a8fa01fb15f79f2cf7d3a4420614abb73198ae3d869694"
+    },
+    {
+      "bytes": 8819,
       "path": "proofs/transport-four-by-five.md",
       "source_path": "methods/frontier-024-2026-09-09/sources/BRANCHES/P07-9739/PROOFS/018-FOUR-BY-FIVE-LINEAR-POSITIVITY.md",
       "source_sha256": "7b4d23e5f9f9559adf0756966ff275373d6f713d712a0c62259b81f5bfac26e4",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8864,
+        "sha256": "7b4d23e5f9f9559adf0756966ff275373d6f713d712a0c62259b81f5bfac26e4"
+      },
+      "included_sha256": "5359fde7567c13660b32ba8b195ba6392ebcc533cbcd62f7b008bd1cf58b70c4"
     },
     {
-      "bytes": 13538,
+      "bytes": 13126,
       "path": "proofs/transport-four-by-four.md",
       "source_path": "methods/frontier-024-2026-09-09/sources/PROOFS/009-A3-FIRST-JET-AND-FOUR-BY-FOUR-C1.md",
       "source_sha256": "9600c5cffc95b7d26b1a556a7189db2911733e9441cbcf4652627ceabdcbc525",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 13538,
+        "sha256": "9600c5cffc95b7d26b1a556a7189db2911733e9441cbcf4652627ceabdcbc525"
+      },
+      "included_sha256": "556ba5d0877653f1f2cbfc861613a355b0ae6a0634663edab40b488e3a13ff83"
     },
     {
-      "bytes": 7616,
+      "bytes": 7719,
       "path": "proofs/transport-near-corner.md",
       "source_path": "methods/frontier-024-2026-09-09/sources/PROOFS/019-NEAR-CORNER-ALL-COEFFICIENT-POSITIVITY.md",
       "source_sha256": "5e24760a8a92fbe09be82dab2ceaf32652e7e0407416bbfda92c7880b88d447a",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7616,
+        "sha256": "5e24760a8a92fbe09be82dab2ceaf32652e7e0407416bbfda92c7880b88d447a"
+      },
+      "included_sha256": "691530f48d3d2856a3be3427d70b418b96d6efe478ddc9bcac16825c73e5760c"
     },
     {
-      "bytes": 6850,
+      "bytes": 6753,
       "path": "proofs/transport-small-side.md",
       "source_path": "methods/frontier-024-2026-09-09/sources/PROOFS/007-TWO-COLUMN-CUT-THEOREM-AND-RANK-THRESHOLD.md",
       "source_sha256": "fb8fb15773d407de5e6b364ad6120d452965060a6307aef25e3999c619eb7d66",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 6850,
+        "sha256": "fb8fb15773d407de5e6b364ad6120d452965060a6307aef25e3999c619eb7d66"
+      },
+      "included_sha256": "b3bd42a748da6b2b5c38874de5703b89f51f775a8ab059b41dc2091336df9291"
     },
     {
-      "bytes": 6235,
+      "bytes": 6139,
       "path": "proofs/transport-two-gates.md",
       "source_path": "methods/frontier-025-2026-09-10/sources/PROOFS/004-TWO-GATE-WHOLE-LR-CONE.md",
       "source_sha256": "e3acda979a5e7ed17ed2fd6a53346fb790a8dc7a32877ab2cc57b2bc4d954dfb",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 6235,
+        "sha256": "e3acda979a5e7ed17ed2fd6a53346fb790a8dc7a32877ab2cc57b2bc4d954dfb"
+      },
+      "included_sha256": "81d84746f0d30ecb1ffe0d3586ec38bd7c75ff1adde5c93472bba7a0fe1f329a"
     },
     {
-      "bytes": 16501,
+      "bytes": 16250,
       "path": "proofs/transport-whole-lr-bridge.md",
       "source_path": "methods/frontier-024-2026-09-09/sources/SOURCES/S13-TRANSPORTATION-PROOF.md",
       "source_sha256": "fd78f5ad5696a125cc2d258f11938de21935beb413399d8b32582359bb04f625",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 16501,
+        "sha256": "fd78f5ad5696a125cc2d258f11938de21935beb413399d8b32582359bb04f625"
+      },
+      "included_sha256": "8cc41c77f96b0fcc1c3d5de3504545b2a8f00df92a78c760f22e0e72b496f8ee"
     },
     {
-      "bytes": 6646,
+      "bytes": 6653,
       "path": "proofs/uniform-two-row.md",
       "source_path": "methods/astra-wildcard-005-2026-09-10/A04-UNIFORM-TENSOR-CHANNEL.md",
       "source_sha256": "11345c3e0c167099624635e445a953dee71abcd4f92eecf4a2390c685be172c9",
-      "transformation": "none; complete source bytes preserved"
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 6646,
+        "sha256": "11345c3e0c167099624635e445a953dee71abcd4f92eecf4a2390c685be172c9"
+      },
+      "included_sha256": "6cf1914c9359b3c8014f9509a28804ddb0edb198bb2666e1ddbd1863b864d4f9"
     },
     {
       "path": "data/rectangular-nonvanishing.json",
@@ -5108,11 +5382,17 @@
     },
     {
       "path": "proofs/rectangular-evidence.md",
-      "bytes": 1728,
+      "bytes": 1621,
       "sha256": "042f0b3eadcb9782ff89d5a468de624230dd6a6c1b44f9d2bcb9a3e42cc3bdee",
       "source_path": null,
       "source_sha256": null,
-      "transformation": "New reader-facing evidence explanation and current scalar command."
+      "transformation": "Public mathematical exposition; original source identity retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 1728,
+        "sha256": "042f0b3eadcb9782ff89d5a468de624230dd6a6c1b44f9d2bcb9a3e42cc3bdee"
+      },
+      "included_sha256": "85add3affc14974142e2d8d96ac67ee7f4647a865d7bd2f64944b9a699f756f7"
     }
   ],
   "historical_path_policy": "Historical source paths are provenance. No executable fallback to the original workspace is provided.",

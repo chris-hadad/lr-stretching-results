@@ -31,8 +31,8 @@ unused sites. Its 253 monomial coefficients are positive. Evaluating at
 parameter pair the degree-21 term is positive.
 
 [The source certificate](sources/rank8-certificate-original.md) and
-[later adoption scope](sources/rank8-adoption.md) distinguish the completed
-result from historical pending-review wording. The exact coefficient table
+[verification summary](sources/rank8-adoption.md) state the completed
+result and its precise computational scope. The exact coefficient table
 is in `slr_ehrhart/_rank8_clipped_data.py`. The JSON in
 [data/](data/) preserves the complete mathematical chart, three cuts, strict
 witness, coefficients, determining counts and unused counts while excluding

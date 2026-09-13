@@ -50,7 +50,7 @@ assert transport_count([1, 1, 1, 1], [1, 1, 1, 1]) == 24
 
 All counts use exact integers; polynomial coefficients are exact `Fraction`
 objects in ordinary degree order, low to high. APIs retain their documented
-strict input checks. A failed domain gate is not count zero. A specialized
+strict input checks. An input outside a supported domain is not count zero. A specialized
 constructor does not invert arbitrary LR triples, and none of these tools
 claims complete rank-six, original-box or all-rank positivity.
 
@@ -67,8 +67,7 @@ compositions. [BENCHMARKS.md](../../BENCHMARKS.md) reports same-input measuremen
 including startup costs and cases with little practical gain.
 
 [PROOFS.md](PROOFS.md) states the mathematical contracts and their limits.
-[SOURCE-LICENSES.md](../../SOURCE-LICENSES.md) explains source provenance, AI assistance
-and the existing private licensing boundary. The repository's `SOURCE-MAP.json`
+[SOURCE-LICENSES.md](../../SOURCE-LICENSES.md) explains implementation provenance and AI assistance. The repository's `SOURCE-MAP.json`
 pins this versioned projection to its maintained sources. Historical benchmark
 oracles remain frozen comparison code; the maintained algorithms have one source
 home in the research package.

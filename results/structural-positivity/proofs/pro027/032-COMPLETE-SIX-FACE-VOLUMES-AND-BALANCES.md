@@ -1,6 +1,6 @@
 # Complete six-face volumes in three actual ten-dimensional hives
 
-Claim FR027-P09-C002. These are complete geometric and whole-count challenges of the new sixth-coefficient certificate. The underlying Csplit family is source-positive already; neither its positivity nor its whole polynomial formula is claimed as a new discovery. All-stretch identities determine the displayed vectors; they are not under-degree fits to the twelve low-stretch checks.
+These complete geometric and whole-count checks test the sixth-coefficient certificate. The Csplit family and its whole polynomial formula already have proofs of positivity; they are not claimed as new discoveries. All-stretch identities determine the displayed vectors, independently of the twelve low-stretch checks.
 
 ## Entire LR parents and complete integer coordinates
 
@@ -10,9 +10,9 @@ The three bare triples, with lambda outer, are
     C1: lambda=(46,41,31,19,11,6), mu=nu=(25,20,15,10,6,1);
     C2: lambda=(74,66,50,30,18,10), mu=nu=(40,32,24,16,10,2).
 
-They are balanced, have ordinary rank six, and outer sizes124,154,248. C2 is twice C0, retained deliberately as a sixth-power normalization challenge rather than an independent boundary direction. Their actual degrees are10 and codegrees9,5,5. The source complete split parameters (S,A,B) are respectively(1,1,1),(2,1,1),(2,2,2).
+They are balanced, have ordinary rank six, and outer sizes 124,154,248. C2 is twice C0, retained deliberately as a sixth-power normalization challenge rather than an independent boundary direction. Their actual degrees are 10 and codegrees9,5,5. The source complete split parameters (S,A,B) are respectively(1,1,1),(2,1,1),(2,2,2).
 
-The fully read source A004-PRINCIPAL-SPLIT-CONE.md supplies the entire row-count construction. Here it is challenged directly against every original hive rhombus and the saturated integer lattice. Let Y=(y_ij) be a3-by3 nonnegative matrix with total S*t, row totals r_i and column totals c_j, and let
+The source proof A004-PRINCIPAL-SPLIT-CONE.md supplies the entire row-count construction. Here it is challenged directly against every original hive rhombus and the saturated integer lattice. Let Y=(y_ij) be a3-by3 nonnegative matrix with total S*t, row totals r_i and column totals c_j, and let
 
     0<=s<=A*t+c3,        0<=v<=B*t+r1.                    (1)
 
@@ -37,11 +37,11 @@ There are thirteen model inequalities: nine nonnegativities for y, two interval 
 
 ## Complete vertices, dimension and codegree
 
-For S,A,B>0, a vertex has Y concentrated at one of its nine cells and each of s,v at a chosen endpoint. These36 points exhaust the vertices: if a base point is not a simplex vertex, the endpoint graph or interval fiber leaves a nontrivial local segment. Both widths are strictly positive, so the combinatorics is a simplex times two intervals, with affine rather than constant widths. Explicit relative strict points establish dimension10 before any coefficient comparison.
+For S,A,B>0, a vertex has Y concentrated at one of its nine cells and each of s,v at a chosen endpoint. These 36 points exhaust the vertices: if a base point is not a simplex vertex, the endpoint graph or interval fiber leaves a nontrivial local segment. Both widths are strictly positive, so the combinatorics is a simplex times two intervals, with affine rather than constant widths. Explicit relative strict points establish dimension 10 before any coefficient comparison.
 
-At an integral strict point all nine y entries are at least one, so S*t>=9 is necessary. At t=ceil(9/S), choose positive integral y with the required total. Since A,B>=1, both integral intervals in(1) have a strict integer point. These conditions are sufficient because all original nonzero rhombi are implied by the complete model and are strict at the stored interior points. The resulting true codegrees are9,5,5.
+At an integral strict point all nine y entries are at least one, so S*t>=9 is necessary. At t=ceil(9/S), choose positive integral y with the required total. Since A,B>=1, both integral intervals in(1) have a strict integer point. These conditions are sufficient because all original nonzero rhombi are implied by the complete model and are strict at the stored interior points. The resulting true codegrees are 9,5,5.
 
-## Exhaustive six- and seven-face rosters
+## Exhaustive six- and seven-face lists
 
 Specify a nonempty support K of r simplex cells, and for each interval specify lower endpoint, upper endpoint or free. If f intervals are free, the face dimension is r-1+f. Positivity of the interval widths excludes additional face collapses.
 
@@ -51,9 +51,9 @@ For six-faces, the three cases are
     f=1,r=6: binom(9,6)*4=336;
     f=2,r=5: binom(9,5)=126.
 
-Thus every parent has606 actual six-faces. For seven-faces the counts are36,144,84, totaling264. The complete vertex incidences, inward normals and face labels survive in DATA/J06-CONTROLi-GEOMETRY-RAW.json.gz for i=0,1,2. All three parents share the same fixed combinatorial and normal fan; their normalized face volumes differ. They are not three unrelated fans.
+Thus every parent has 606 actual six-faces. For seven-faces the counts are 36,144,84, totaling264. The complete vertex incidences, inward normals and face labels survive in DATA/J06-CONTROLi-GEOMETRY-RAW.json.gz for i=0,1,2. All three parents share the same fixed combinatorial and normal fan; their normalized face volumes differ. They are not three unrelated fans.
 
-Let a count cells of K in column3, b count cells in row1, and o count their common cell in K. The base simplex has normalized volume
+Let a count cells of K in column 3, b count cells in row 1, and o count their common cell in K. The base simplex has normalized volume
 
     V0=S^(r-1)/(r-1)!.
 
@@ -61,19 +61,19 @@ If neither interval is free, the face volume is V0. If only s is free it is V0*(
 
     V0*[A*B+(A*b+B*a)*S/r+(a*b+o)*S^2/(r*(r+1))].      (3)
 
-The formula follows by integrating the complete affine widths. On the uniform continuous simplex, E[y_i]=S/r and E[y_i*y_j]=(1+delta_ij)S^2/(r(r+1)). In particular the overlap term o is retained. Omitting it would not be the same complete face volume. The graph/coordinate-selection maps are integral on the saturated face lattice, so these integrals use fundamental-parallelepiped volume one, not factorial-normalized volume. Multiplying six-face volumes by6! would incorrectly multiply the full coefficient sum by720.
+The formula follows by integrating the complete affine widths. On the uniform continuous simplex, E[y_i]=S/r and E[y_i*y_j]=(1+delta_ij)S^2/(r(r+1)). In particular the overlap term o is retained. Omitting it would not be the same complete face volume. The graph/coordinate-selection maps are integral on the saturated face lattice, so these integrals use fundamental-parallelepiped volume one, not factorial-normalized volume. Multiplying six-face volumes by 6! would incorrectly multiply the full coefficient sum by 720.
 
 ## Complete corrected and uncorrected sums
 
-Each six-face has four independent actual extreme normals drawn from the original42-normal atlas. Its full transverse constant is therefore one of the independently verified Unit9 entries, not a selected cell of a larger cone. All606 actual constants in each control are positive before correction, with minimum1363/71400. No negative actual local weight is claimed for these controls.
+Each six-face has four independent actual extreme normals drawn from the original42-normal atlas. Its full transverse constant is therefore one of the independently verified sixth-coefficient certificate entries, not a selected cell of a larger cone. All 606 actual constants in each control are positive before correction, with minimum 1363/71400. No negative actual local weight is claimed for these controls.
 
-For each seven-face, restrict every incident six-face conormal to its full saturated rank-seven quotient, divide the gcd of every restricted vector, and weight it by the complete volume(3). Every vector sum is exactly zero. There are264 complete balance equations per parent,792 occurrences in total. Both original and corrected six-face sums agree:
+For each seven-face, restrict every incident six-face conormal to its full saturated rank-seven quotient, divide the gcd of every restricted vector, and weight it by the complete volume(3). Every vector sum is exactly zero. There are 264 complete balance equations per parent,792 occurrences in total. Both original and corrected six-face sums agree:
 
     C0: c6=11261/8640;
     C1: c6=40621/1080;
     C2: c6=11261/135=64*c6(C0).                          (4)
 
-The respective sums of six-face volumes are199/15,5932/15,12736/15, so all three satisfy the new1/3000 bound. Every original weight, corrected weight, volume, saturated quotient and zero balance is stored. The aggregate contains1818 six-face occurrences. These are complete face rosters, not a selection of favorable contributions.
+The respective sums of six-face volumes are 199/15,5932/15,12736/15, so all three satisfy the new 1/3000 bound. Every original weight, corrected weight, volume, saturated quotient and zero balance is stored. The aggregate contains1818 six-face occurrences. These are complete face lists, not a selection of favorable contributions.
 
 ## Independent whole counting and its precise overlap
 
@@ -88,6 +88,6 @@ Its full vectors were frozen, and all three sixth entries agree with(4). Their c
     C1: 1,320,9295,108108;
     C2: 1,605,19855,243243.
 
-Every value agrees independently between literal ordinary LR reading-word enumeration and the unsigned complete nine-cell/interval sum. The12 sites are occurrence counts: all zero dilations coincide, and C2 at t=1 is C0 at t=2, leaving9 distinct dilated bare triples including the origin. The proof of(5), not a four-node fit, determines each degree-ten polynomial. No additional determining or unused-holdout claim is attached to these low-grade tests.
+Every value agrees independently between literal ordinary LR reading-word enumeration and the unsigned complete nine-cell/interval sum. The 12 sites are occurrence counts: all zero dilations coincide, and C2 at t=1 is C0 at t=2, leaving9 distinct dilated bare triples including the origin. The proof of(5), not a four-node fit, determines each degree-ten polynomial. No additional determining or unused-check claim is attached to these low-grade tests.
 
 This gives a material check of higher-face lattice normalization and the complete codimension-four aggregation beyond the earlier edge-length tests. It does not create a new sign discovery in the already proved Csplit family or classify all realized six-face local weights.

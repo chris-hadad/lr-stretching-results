@@ -103,8 +103,8 @@ max beta<=W-w. This proves the formula, including d=1 and zero endpoints.
 ## Independent verification and attribution
 
 The identity, nonconcavity construction and quadratic formula were proposed
-in GPT 6 Pro CONSTRUCTIONS-002. The present proof and standard-library code
-were checked and written independently by the campaign's Codex lane; returned
+with GPT 6 Pro assistance. The present proof and standard-library code
+were developed and checked separately with Codex; the initially proposed
 implementation files were not used. Classical Schur, Jacobi–Trudi and
 stretched-LR polynomiality are the mathematical inputs. Historical novelty
 has not been established; the elementary construction is not presented as
@@ -117,7 +117,7 @@ reproduction performs 594 family count comparisons and 241 endpoint count
 comparisons. The argument above, not these finite controls, proves the
 all-k statement.
 
-Separately, the campaign recomputed all 6,000 saved full-polynomial objects
+Separately, independent verification recomputed all 6,000 saved full-polynomial objects
 in the 3,000 balancing comparisons using all d+1 determining values and two
 holdouts, for 65,670 exact count comparisons, with 192 positive Pieri checks.
 The 5,000 quadratic-only comparisons also passed independent harmonic-formula

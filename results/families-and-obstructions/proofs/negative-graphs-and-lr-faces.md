@@ -1,12 +1,11 @@
-# W013 independent mathematical verification — WI-271
+# Negative bounded-circulation polynomials and integral LR faces
 
-Status: independently checked in this lane; root adoption and independent review
-remain pending. No ordinary-negative whole stretched LR polynomial is established.
+This account includes independent mathematical and computational checks. No ordinary-negative whole stretched LR polynomial is established.
 The full negative object is a bounded-circulation polytope; it is also an explicit
 face of an integral LR row-count triangle whose whole polynomial is uncomputed.
 Lambda denotes the outer partition throughout.
 
-## 1. Whole circulation, lattice, integrality and reflection (T01)
+## 1. Whole circulation, lattice, integrality and reflection
 
 For integers n,p>=1, orient two edges v_(i-1)->v_i for each i=1,...,n and
 p edges v_n->v_0. The incidence equations equate every bundle sum to one s.
@@ -46,7 +45,7 @@ Both original unused holdouts d+1,d+2 are checked. All 165 frozen pairs
 22 polynomials are negative somewhere, and the minimum negative degree in
 this roster is 18. This is not a universal minimum or LR coverage.
 
-## 2. The all-index p=1 sign theorem and graph realization (T02)
+## 2. The all-index p=1 sign theorem and graph realization
 
 The full count reduces by u=2t+1-|s| to
 
@@ -70,7 +69,7 @@ m(m+1)(m+2)(m+3)/(2(44/7)^4), because pi<22/7 and 1<zeta(m)<2.
 At m=20 this rational lower bound is 5798415/85184>1 and it increases.
 Since |B_20|=174611/330>20, induction proves |B_m|>m thereafter.
 The coefficient bracket is then strictly below 2-2^k<=0. Odd m>1 have zero
-Bernoulli number; m=1 and m congruent2 mod4 have positive B_m(1).
+Bernoulli number; m=1 and m congruent 2 mod 4 have positive B_m(1).
 Therefore c_k<0 exactly for m=0 mod4, m>=20; every other coefficient is
 strictly positive. There are max(0,floor(n/4)-4) negative coefficients.
 The finite 80-vector symbolic replay is corroboration of this all-n proof,
@@ -83,13 +82,13 @@ S_0,U_0,M_0,S_1,U_1,M_1,...; each added chord S_i M_i lies inside its own
 three-vertex arc, so the chords do not cross. Degrees are 3,2,3 per block.
 All connectors carry the same s in [-t,t]; each triangle then contributes
 the same double-bundle factor. Integer subdivision/contraction maps preserve
-the entire count and lattice. At n=20, c1=-168011/165 and degree21.
-The independent generic incidence counter verifies the returned 60-vertex
-80-edge realization at t=0,1,2. The six additional provider small-n bare
+the entire count and lattice. At n=20, c1=-168011/165 and degree 21.
+The independent generic incidence counter verifies the supplied 60-vertex
+80-edge realization at t=0,1,2. The six additional AI-derived small-n direct
 outerplanar controls are not separately recounted here; the general proof,
-80 symbolic vectors and these three graph controls are the adopted evidence.
+80 symbolic vectors and these three graph controls constitute the independently checked evidence.
 
-## 3. The p=3 witness and infinite subsequence (T03)
+## 3. The p=3 witness and infinite subsequence
 
 Direct bounded-composition counting gives
 f_3(s,t)=3t^2+3t+1-s^2 for 0<=s<=t, and
@@ -97,7 +96,7 @@ f_3(s,t)=binom(3t-s+2,2) for t<=s<=3t. They agree at s=t.
 Insert these into the complete common-current sum, separating s=0,
 1<=s<=t and t+1<=s<=2t. For a polynomial g(s), the linear coefficient
 of sum_(s=1)^t g(s) is the functional ell(s^j)=B_j(1).
-The range t+1,...,2t has the same linear functional (multiplier2-1).
+The range t+1,...,2t has the same linear functional (multiplier 2-1).
 Every summand with an explicit factor t contributes no linear term because
 the sum at t=0 is zero. At t=0 the two kernels times (1-s)^n reduce to
 2(1-s)^(n+1)-(1-s)^(n+2) and
@@ -115,7 +114,7 @@ At n=15 this is 33+5(-3617/510)=-251/102. The full vector is
 
 It has only one negative coefficient. Fresh complete bivariate Bernoulli
 expansion, fresh convolution/interpolation and a new generic edge-list
-counter agree. The latter receives only the 49-vertex66-edge simple
+counter agree. The latter receives only the 49-vertex 66-edge simple
 subdivision and checks t=0,1,2,3,4,18,19,20, including both unused holdouts.
 The chart s,x_1,...,x_15,y,z has inequalities
 |x_i|,|s-x_i|,|y|,|z-y|,|s-z|<=1. Its flows are
@@ -128,14 +127,14 @@ For m=n+1 divisible by four and m>=16, the Bernoulli magnitude ratio
 Since 5|B_16|>33, negativity propagates to n=15,19,23,... .
 This is a complete graph-flow theorem; no ordinary LR sign follows yet.
 
-## 4. Entire real LR triangle equals full transportation (T04)
+## 4. Entire real LR triangle equals full transportation
 
 Take r>=2,q>=1 and positive integer margins alpha,beta of common total T.
 Put kappa_i=sum_(j=i)^r alpha_j and B=(kappa_2,...,kappa_r).
 Use disconnected straight components B,(beta_1),...,(beta_q), from top
 to bottom. Offset each component horizontally by the sum of the widths
 of components below it: an outer row is h+c and its inner row is h.
-This produces partitions Lambda,Mu: across a boundary the next component's
+This produces partitions Lambda, Mu: across a boundary the next component's
 largest outer row equals or lies below the preceding inner row. Let Nu=kappa.
 The skew size is |B|+T=|kappa|. All constants scale with t.
 
@@ -177,7 +176,7 @@ only a scalar count match. Positive matrix alpha_i beta_j/T proves dimension
 TU proof. Its entire LR stretching count has this degree and P(0)=1.
 No other ordinary coefficient signs are implied by integrality.
 
-## 5. True face, explicit parent and exact scope (T05)
+## 5. True face, explicit parent and exact scope
 
 For any connected loopless graph with r>=2 vertices, q labelled edges, set
 alpha_v=deg(v), beta_e=2. Set M_(v,e)=0 only at nonincident vertex-edge pairs.
@@ -188,25 +187,25 @@ M_(u,e)=t+f_e and M_(v,e)=t-f_e. Row margins hold exactly when divergence
 is zero. Nonnegativity is exactly the box bound; inverse f_e=M_(u,e)-t is
 integral. This is a dilation-compatible affine lattice isomorphism of the
 whole bounded-flow polytope to the face. The face dimension is q-r+1.
-Transporting through Section4 makes it a face of an actual LR triangle.
+Transporting through Section 4 makes it a face of an actual LR triangle.
 
 For C_(15,3), r=16,q=33, sorted margins are alpha=(5,5,4^14), beta=(2^33).
-The explicit full triple is in portable/evidence.json. It independently
-reconstructs outer size2593, inner sizes2046 and547, rank48, whole degree
-15*32=480, face degree18, codimension462, and66 allowed matrix coordinates.
-The negative vector belongs to the face. The full degree480 vector and all
+The explicit full triple is in [the evidence record](../data/negative-graphs/evidence.json). It independently
+reconstructs outer size 2593, inner sizes 2046 and 547, rank 48, whole degree
+15*32=480, face degree 18, codimension 462, and 66 allowed matrix coordinates.
+The negative vector belongs to the face. The full degree 480 vector and all
 its ordinary signs remain UNKNOWN and were never counted here.
 
-For p=1, alpha=(4^(n-1),3,3), q=2n+1; rank3n+1, degree2n^2,
-outer size10n^2+8n+3. For p=3, alpha=(5,5,4^(n-1)), q=2n+3;
-rank3n+3, degree2n(n+1), outer size10n^2+22n+13.
+For p=1, alpha=(4^(n-1),3,3), q=2n+1; rank 3n+1, degree 2n^2,
+outer size 10n^2+8n+3. For p=3, alpha=(5,5,4^(n-1)), q=2n+3;
+rank 3n+3, degree 2n(n+1), outer size 10n^2+22n+13.
 There are n buffer rows with total outer size n(2q)+|B| and q lower rows
-with outer size q(q+1). Here |B| is 2n^2+1 for p=1 and2n^2+2n+1 for p=3,
+with outer size q(q+1). Here |B| is 2n^2+1 for p=1 and 2n^2+2n+1 for p=3,
 which proves the size formulas algebraically. Thus faces of integral LR
 triangles have unboundedly many negative ordinary Ehrhart coefficients.
 This does not establish the same statement for entire LR polynomials.
 
-## 6. Complete graph tensor repair is genuinely whole LR (T06)
+## 6. Complete graph tensor construction gives a whole LR count
 
 Let m>=2,N>=1, rho=(m-1,...,0). Factoring the alternant gives
 
@@ -221,7 +220,7 @@ count on N distinct copies of every K_m edge. Its prior degree is
 N*binom(m,2)-m+1; the zero-dimensional m=2,N=1 case is included.
 
 Set a=N(m-1), top buffer B=a rho, and N lower straight components
-Gamma=2rho. Apply the same diagonal offsets as Section4 and set
+Gamma=2rho. Apply the same diagonal offsets as Section 4 and set
 Nu=(ma,(m-1)a,...,a). The top buffer is uniquely superstandard; remaining
 content is uniform (a,...,a), with adjacent-label buffer surplus a.
 Every semistandard filling of the lower components with that content is
@@ -229,63 +228,62 @@ ballot by the same prefix bound. Distinct components have no shared columns.
 Hence the complete ordinary stretched LR coefficient equals the complete
 bounded-flow count at every integer t>=0. This uses a full tableau bijection
 and a character count identity; it does not assert an unproved flow-to-hive
-lattice isomorphism. The N=1 character mechanism is inherited campaign work.
+lattice isomorphism. The N=1 character mechanism was established in the earlier derivation.
 
 Integrality and reflection apply as before. Writing u=t+1/2 makes the
 polynomial even or odd according to d, so
-F(t)=(2t+1)^(d mod2)Q(t(t+1)), deg Q=floor(d/2).
+F(t)=(2t+1)^(d mod 2)Q(t(t+1)), deg Q=floor(d/2).
 The distinct nodes t(t+1) at t=0,...,floor(d/2) determine Q.
 The next two nodes are unused holdouts. The new replay reconstructs all
-20 frozen vectors (m=3,N1..16; m=4,N1..4),266 scalar sites and444 strictly
-positive ordinary coefficients, maximum degree46. This is exactly the finite
+20 frozen vectors (m=3,N1..16; m=4,N1..4),266 scalar sites and 444 strictly
+positive ordinary coefficients, maximum degree 46. This is exactly the finite
 roster, with no all-m,N positivity assertion. Full tableaux/character proof
 plus independent graph-model computation establishes the full polynomials;
 the bare LR checks below are implementation controls, not complete native
 reconstructions of the high-degree vectors.
 
-## 7. Bare LR controls, source premises and disposition
+## 7. Direct LR controls, source premises and verification limits
 
-The full transport control alpha=(4,3,3),beta=(2^5) has degree8 and vector
+The full transport control alpha=(4,3,3),beta=(2^5) has degree 8 and vector
 (1,95/12,15473/504,5243/72,16157/144,8135/72,647/9,473/18,4243/1008).
-A new matrix-margin DP recomputes t=0..10, including unused9,10. The exact
+A new matrix-margin DP recomputes t=0..10, including unused 9,10. The exact
 bare triple is ((16,13,10,8,6,4,2),(10,10,8,6,4,2),(10,6,3)).
 
-All12 frozen bare LR sites were independently recounted by the installed
-lrcalc2.1 native library: Weyl(3,1) at0..3 gives1,3,5,7; Weyl(3,2) at1,2
-gives45,325; Weyl(4,1) at1,2 gives15,65; transport(n,p)=(1,1) at1,2
-gives7,19; transport(2,1) at1,2 gives440,15175. Each was a hard-contained
-single scalar child with source hashes and verified cleanup. The provider's
-copied tableau counter was never executed, imported or used as a local source.
+All 12 frozen bare LR sites were independently recounted by the installed
+lrcalc 2.1 native library: Weyl(3,1) at 0..3 gives 1,3,5,7; Weyl(3,2) at 1,2
+gives 45,325; Weyl(4,1) at 1,2 gives 15,65; transport(n,p)=(1,1) at 1,2
+gives 7,19; transport(2,1) at 1,2 gives 440,15175. These were independent scalar calculations with recorded source hashes. They
+did not use the original AI-derived tableau counter.
 
 Classical Bernoulli definitions/signs are checked against
-[DLMF24.2](https://dlmf.nist.gov/24.2); difference/reflection/power sums against
-[DLMF24.4](https://dlmf.nist.gov/24.4); Euler's even-zeta formula against
-[DLMF25.6.2](https://dlmf.nist.gov/25.6#E2), all accessed6September2026.
+[DLMF 24.2](https://dlmf.nist.gov/24.2); difference/reflection/power sums against
+[DLMF 24.4](https://dlmf.nist.gov/24.4); Euler's even-zeta formula against
+[DLMF 25.6.2](https://dlmf.nist.gov/25.6#E2), all accessed 6 September 2026.
 General flow reflexivity is prior art, explicitly confirmed in
-[Breuer–Dall, §8 Proposition13/Corollary14](https://arxiv.org/html/1004.3470v1).
+[Breuer–Dall, §8 Proposition 13/Corollary 14](https://arxiv.org/html/1004.3470v1).
 The new graph and buffer implications are independently derived above.
 Integral Ehrhart polynomiality/reciprocity and the standard LR tableaux rule
 remain named classical premises. No novelty or publication-priority audit
-was performed. Provider runtime/history/422-input-file-reading statements
-remain recorded source assertions, distinct from this lane's live evidence.
+was performed. The original AI report's runtime, history and 422-input-file-reading claims
+remain source assertions, separate from the independently checked evidence.
 
-## 8. Nonsymmetry obstruction and the remaining bridge (T07/U01)
+## 8. Nonsymmetry obstruction and the remaining bridge
 
 The sparse graph generating product is product_e h_(2t)(x_u,x_v).
 Its largest possible exponent of variable x_v is 2t deg(v): all incident
-factors attain that exponent, with positive coefficient. C_(15,3) has degree5
-and degree4 vertices, so for t>0 their variable degrees are10t and8t.
+factors attain that exponent, with positive coefficient. C_(15,3) has degree 5
+and degree 4 vertices, so for t>0 their variable degrees are 10t and 8t.
 Swapping these variables cannot preserve the generating polynomial. Thus it
-cannot equal an ordinary straight/skew Schur polynomial in those same16
+cannot equal an ordinary straight/skew Schur polynomial in those same 16
 variables. This excludes exactly that full-character identity, not one
 coefficient, a larger alphabet, or extra fixed-content symbols.
 
-The promising remaining obligation is a dilation-compatible ordinary LR
-encoding of every edge's two-symbol support, including the nonadjacent
-closing pair, as an ENTIRE fiber. It must provide both integer directions,
-all ballot/column constraints and t=0, without imposed coordinate zeros,
-additional uncontrolled fillings or a sum over LR fibers. The present face
-embedding leaves462 dimensions and does not settle this obligation.
+A whole-LR realization would require a dilation-compatible encoding of every
+edge's two-symbol support, including the nonadjacent closing pair, as an entire
+fiber. Such an encoding would need both integer directions, all ballot and
+column constraints, and t=0, with no additional uncontrolled fillings or sum
+over LR fibers. The present face
+embedding leaves 462 dimensions and does not settle this obligation.
 Larger Weyl parameters, nonidentical factors, nonuniform weights, alternate
-flag/buffer encodings and signs of the degree480 parent remain uncomputed.
-No full-negative LR candidate or added original-box coverage is claimed.
+flag/buffer encodings and signs of the degree 480 parent remain uncomputed.
+No ordinary-negative whole LR example or added original-box coverage is claimed.

@@ -1,15 +1,14 @@
 # Whole families, coefficient theorems and obstructions
 
-These results explain more of the campaign than the finite box alone. They
-include unbounded positive LR families, complete low-degree classes, geometric
-count models, and examples that distinguish a negative auxiliary polytope from
-a negative entire LR polynomial. All stated scopes were accepted in the
-campaign before this presentation update. No historical novelty or human
-peer-review claim is made.
+This collection includes unbounded positive LR families, complete low-degree
+classes, geometric count models, and examples that distinguish a negative
+auxiliary polytope from a negative entire LR polynomial. The statements retain
+their documented verification limits. No historical novelty or human peer-review
+claim is made.
 
 [ACCEPTED-SCOPES.json](ACCEPTED-SCOPES.json) preserves the precise mathematical
 claims and verification levels. [SOURCE-MAP.json](SOURCE-MAP.json) binds the
-the selected proof and data files to their sources. Two rectangular proof
+selected proof and data files to their sources. Two rectangular proof
 links are relocated in this edition without changing mathematical statements;
 [the exact link projection](../../DOCUMENTATION-ADAPTATIONS.json) preserves
 the earlier and current hashes. The original nonvanishing result is included. The complete
@@ -22,7 +21,7 @@ The [finite-box module](../finite-box/README.md) has its own exhaustive replay.
 
 | Result | Exact scope and useful consequence | Proof and evidence |
 |---|---|---|
-| Actual cubics through rank seven | Every whole LR polynomial of maximum ordinary rank at most seven and actual degree at most three is coefficient-nonnegative, at every size. This includes degree drops. | [Boundary-face proof](proofs/actual-cubics.md); [complete orbit certificate](data/actual-cubics/A005-FACE-ORBITS-001.json), the rank-six witnesses and all 32 rank-seven witness shards in `data/actual-cubics/`. The accepted gate covered all 8,520 witnesses. |
+| Actual cubics through rank seven | Every whole LR polynomial of maximum ordinary rank at most seven and actual degree at most three is coefficient-nonnegative, at every size. This includes degree drops. | [Boundary-face proof](proofs/actual-cubics.md); [complete orbit certificate](data/actual-cubics/A005-FACE-ORBITS-001.json), the rank-six witnesses and all 32 rank-seven witness shards in `data/actual-cubics/`. The complete verification covered all 8,520 witnesses. |
 | Uniform central two-row tensors | For n≥3, g≥1 and even ng, λ=(ng,(n−1)g,…,g), μ=((n−1)g,…,g), ν=(ng/2,ng/2), all coefficients through actual degree n−3 are positive. Both parity cases are included. | [All-parameter proof](proofs/uniform-two-row.md); [independent finite controls](data/astra-five/A005-UNIFORM-TENSOR-001.json). Unequal weights require another argument. |
 | Six-run matching layers | The complete unit-flank family is positive for min(q,r)≤5, with arbitrary positive end runs and common positive integral dilation. A negative member of this constructor needs q,r≥6, displayed rank at least 21 and degree at least 95. | [Two new unbounded layers](proofs/matching-layers.md), [earlier layers](proofs/matching-three-layers.md), [positive-shift identity](proofs/matching-positive-shifts.md), [scope and bridge dependencies](proofs/matching-scope.md); exact rational controls in `data/astra-five/`. |
 | Complete rank-six Horn release | With ρ=(5,4,3,2,1,0), μ=ν=Mρ and λ=2Mρ−s(1,0,0,0,0,−1), all coefficients are nonnegative for integers M≥0 and 0≤s≤2M. | [Whole-family proof](proofs/rank-six-horn-release.md); [63 positive bivariate terms](data/astra-five/A005-HORN-FIT-001.json), 66 determining sites and two unused checks. Degree is ten inside, eight at s=2M>0, and zero at s=0. |
@@ -89,7 +88,7 @@ There are also unbounded margin regions where the complete linear coefficient
 equals an explicit positive weighted double-cut sum. The
 [whole-region proof](proofs/transport-cut-regions.md) covers a minor-row total
 at most the two smallest columns' sum. For four rows, the
-[enlarged two-gate region](proofs/transport-two-gates.md) needs only
+[enlarged region with two margin conditions](proofs/transport-two-gates.md) needs only
 `r4 <= c_(1)` and `r3+r4 <= c_(1)+c_(2)` after the stated row ordering.
 Outside the proved regions, the higher-class remainder remains part of c1.
 
@@ -115,13 +114,13 @@ The positive-R two-support grammar has a [complete constructor proof](proofs/spa
 and [final closure](proofs/sparse-complete.md), with the
 [nonnegative-parameter extension](proofs/sparse-nonnegative-parameters.md).
 Within its original-box census there are exactly 5,861 canonical keys:
-1,848 empty families, 3,399 proof terminals and 614 complete positive vectors.
+1,848 empty families, 3,399 cases covered by proofs and 614 complete positive vectors.
 The [canonical roster](data/sparse/canonical.json),
 [parameter grammar](data/sparse/parameters.json),
 [614-vector residual](data/sparse/residual-614.json), continuation maps and
 all 614 completed vector records are included in `data/sparse/`.
-The first 64 combine completed FRC and FRD records; the last 550 are the FRE
-continuation. Earlier incomplete attempts are not substituted for those records.
+The first 64 and the last 550 have complete vector records; earlier incomplete
+attempts supply no replacement evidence.
 This is a finite constructor census, not arbitrary-size two-support positivity.
 
 ## A primitive rectangular LR polynomial
@@ -188,8 +187,8 @@ Those qualifications matter. The
 `P(t)=binom(t+5,5)+46 binom(t+3,5)`, with ordinary coefficients
 `c1=-1/60` and `c2=-1/24`, even though its shifted-interior surplus and reflected
 average are positive. This is a complete integral five-polytope, with no LR
-realization asserted and no novelty claim. It explains why an appealing
-interior criterion needs additional structure to settle the campaign's goals.
+realization asserted and no novelty claim. It explains why an interior criterion needs additional structure to establish
+positivity for whole LR polynomials.
 
 ## Three earlier local rank-six cones, with their full domains
 
@@ -209,15 +208,15 @@ with the full integer chart and transformed inequalities. Substitute the
 scaled parameters to obtain a ray's stretching polynomial. Every ordinary
 coefficient is nonnegative, and all roots on nonconstant rays are real and
 negative. All three original-box intersections have degree at most two.
-The FRD coupled-simplex model names refer to different cones.
+The coupled-simplex models above refer to different cones.
 
 ## Reading and verification
 
 Each proof above states the full mathematical domain. The data include complete
 coefficient vectors, witness rosters or chamber certificates where the proof
-needs them. Original source headers may describe earlier pending stages;
-the accepted-scope index records the later campaign disposition. Historical
-absolute paths identify origins and prior executions, not portable fallbacks.
+needs them. The claim index records the verification level of each result.
+Source identifiers in the certificates identify earlier evidence; they are not
+portable execution paths.
 
 Some source checkers need an explicit path adaptation before their historical
 commands can be rerun from this tree. The usable tool APIs and the finite-box
@@ -228,5 +227,5 @@ priority audit and journal acceptance remain future assessments.
 The source arguments use substantial prior LR/hive, Ehrhart, quiver, character,
 reciprocity and valuation mathematics. See the repository
 [references](../../REFERENCES.md) and the citations in each source proof.
-Alper Ferudun's rank-four/five results are central prior inputs. The campaign's
+Alper Ferudun's rank-four/five results are central prior inputs. The
 [AI-assisted discovery and verification](../../PROVENANCE.md) are explicit.

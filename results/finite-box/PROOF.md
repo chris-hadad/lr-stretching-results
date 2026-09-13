@@ -1,6 +1,6 @@
 # Ordinary-coefficient nonnegativity in the length-seven, area-thirty box
 
-Accepted campaign proof, 12 September 2026. Complete numerical replication,
+Computer-assisted proof, 12 September 2026. Complete numerical replication,
 all 624,314 terminal bindings and the final exhaustive residual composition
 pass. Independent mathematical and scientific implementation review is complete.
 The separate distribution checks are recorded in
@@ -30,8 +30,8 @@ noncontained inner partition gives zero; inner exchange handles either role.
 Padding and exchange of μ and ν preserve the entire stretched polynomial.
 
 The lower-rank input is **Alper Ferudun's theorem for all partitions of length
-at most five**, not a new result of this campaign. Its current public reference
-is [arXiv 2607.22301v2](https://arxiv.org/abs/2607.22301v2); the campaign adopted
+at most five**, an external mathematical premise. Its current public reference
+is [arXiv 2607.22301v2](https://arxiv.org/abs/2607.22301v2); the source revision used here is
 the [exact GitHub manuscript at c3a0795](https://github.com/AlperTheKing/ktt-positivity/blob/c3a0795bd287dcca78fac2cc6ba4282144bb7813/paper/ktt_positivity.tex).
 The dependency account preserves which earlier certificates were replayed and
 which external theorems are cited. Ferudun's correction methods and earlier
@@ -59,7 +59,7 @@ flowchart TD
   H --> I
 ```
 
-The accepted earlier census/reduction, denoted F025 in the files, covers
+The earlier exhaustive census and reduction cover
 651,229,702 tabulated original rank-six/seven identities. Its exact remaining
 list has 3,936,015 evaluation keys representing 4,360,228 original obligations.
 Each record retains its complete triple, evaluation rank, both original-rank
@@ -235,7 +235,7 @@ refusal returns no count. Successful prefixes do not close uncomputed sites.
 
 The production recount completes all 620,370 records and 3,540,291 physical
 sites, including the final zero-grade controls and unused checks. The earlier
-terminal gate independently checks 169 U02 vectors, 3,478 U03 certificates and
+certificate verifier independently checks 169 U02 vectors, 3,478 U03 certificates and
 297 selected inherited polynomials. For U02, every original determining node
 is unchanged. A frozen deterministic amendment uses the first two positive
 integers outside each determining set as unused checks; this changes the held
@@ -258,7 +258,7 @@ The following disjoint first-cover counts are independently derived by the
 literal original-to-terminal replay. Older cumulative tables are also checked,
 so their overlap cannot conceal an omission.
 
-| First terminal unit | Original residual keys | Original obligations |
+| Certificate group | Original residual keys | Original obligations |
 |---|---:|---:|
 | U03 | 479,379 | 571,407 |
 | U04 | 1,190,913 | 1,331,498 |
@@ -276,7 +276,7 @@ rewrite steps. The singleton-Horn stage makes 98,276 strict changes and leaves
 470,223 grouped production targets after its prior-positive joins. The complete
 proof-dependency roster has 624,314 terminals: 620,370 production records,
 169 earlier U02 vectors, 3,478 earlier U03 certificates and 297 inherited
-FRE/FRI source vectors. Each now has its own exact scientific acceptance,
+previously verified source vectors. Each has its own exact verification record,
 joined to its whole triple, source record, geometry and numerical predicates.
 The accepted identity union is checked separately from its cardinality.
 
@@ -289,13 +289,13 @@ not from an empty summary file.
 
 Combining those terminal proofs with the whole-count reductions and the complete
 earlier domain bridge proves the stated finite theorem. The completed terminal
-assembly and final composition bind those dependencies. Independent campaign
-review has accepted the proof. Reproducing the exported package, external human
+assembly and final composition bind those dependencies. Independent AI-assisted
+mathematical and implementation reviews have examined the proof. Reproducing the exported package, external human
 assessment and FrontierMath's treatment of the result are separate events.
 
 ## How the proof was found and how to review it
 
-The campaign began as a counterexample search. The successful proof emerged
+The research began as a counterexample search. The successful proof emerged
 through structural compression, comparisons of complete counting methods,
 true-interior diagnostics, exact one-unknown sign completion and a switch to
 full counting for the final difficult tail. Failed bounds and failed programs
@@ -305,11 +305,11 @@ The work was substantially AI-assisted, including mathematical ideas, proof
 development, code and verification. `AI-ASSISTANCE.md` distinguishes those roles
 from the human research direction and from future independent human review.
 The result depends on substantial prior mathematics, prominently Ferudun's
-theorem and methods. It does not claim that the campaign originated the general
+theorem and methods. The proof uses the established
 LR models, factorization, reciprocity or local Euler–Maclaurin machinery.
 
 A reviewer should first examine coverage, reduction semantics and terminal
 soundness. The full raw values and proof objects then permit exhaustive checking.
 Random positive vectors are useful controls but cannot establish this theorem.
 Community or journal acceptance, and FrontierMath's own benchmark treatment,
-are separate events from the campaign's mathematical and computational checks.
+are separate events from the mathematical and computational checks reported here.

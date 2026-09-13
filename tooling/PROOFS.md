@@ -156,7 +156,7 @@ The [principal split sector](proofs/rank6-split.md) checks all 51 parent minima
 before applying its complete rank-six product formula. Its boundary faces keep
 their actual lower degrees. The [clipped rank-eight family](proofs/rank8-clipped.md)
 has a complete degree-21 bivariate certificate on its stated parameter cone,
-with full mathematical source data and later adoption scope included.
+with full mathematical source data and verification scope included.
 
 [Two-width bundles](proofs/two-widths.md) provide complete abstract lattice
 counts and vectors; a separate full map is required for an LR interpretation.

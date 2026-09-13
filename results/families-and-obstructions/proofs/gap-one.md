@@ -1,7 +1,6 @@
 # A strict rank-six gap-one family with a complete positive factorization
 
-Astra004 root derivation, 9 September 2026. Independent checks and mathematical review complete; see
-review/DISPOSITIONS.md. This is an unbounded family at ordinary rank six,
+Derivation dated 9 September 2026, with independent computational checks. This is an unbounded family at ordinary rank six,
 not a proof of all rank six or a whole-box certificate.
 
 ## Family, lattice, degree and codegree
@@ -21,10 +20,8 @@ identity gives `(lambda,mu,nu)=(kappa,(kappa2,...,kappa6),alpha)`, with
 lambda outer. It has ordinary rank six. All statements below concern this
 entire count, not a selected face or coefficient of an unrelated series.
 
-The adopted complete weighted-GT staircase argument is Pro024 proof 010,
-`methods/frontier-024-2026-09-09/sources/PROOFS/010-DEFECT-TWO-AND-WEIGHTED-GT-INTERIORS.md`
-in the canonical repository; its adoption is recorded in that method's
-`CLAIM-DISPOSITIONS.md` under the complete nonuniform GT interior identity.
+The complete weighted-GT staircase argument is supplied in
+[the nonuniform GT interior proof](gap-staircase.md).
 Its saturated row-sum lattice has dimension
 `D=(5-1)*6-5*6/2+1=10`. Strict shape and dominance give a genuine strict
 point. Its exact codegree formula has maximum nine, attained at
@@ -163,7 +160,7 @@ The smallest displayed shape control is
 `alpha=(5,4,3,2,1), beta=(4,4,3,2,1,1)`. It has `u=v=2`, so
 `P=binom(t+8,8)*(t+3)^2/9`. Its ordinary LR triple is
 `lambda=(15,11,7,4,2,1), mu=(11,7,4,2,1), nu=(5,4,3,2,1)`.
-Its outer area is forty; it is not new coverage of the original box.
+Its outer area is forty, outside the original finite box.
 
 ## A second proof: the complete count at every stretch
 
@@ -251,22 +248,22 @@ their gains are at most two. If the row gains are `a_i` and column gains
 9*sum(i,j) a_i*b_j = (sum(i,j) a_i)*(sum(i,j) b_j).
 ```
 
-The mixed linear moment in A01 is therefore zero. Their mean widths are
+The mixed linear moment for the coupled interval model is therefore zero. Their mean widths are
 exactly `p*t` and `q*t`, proving (3) directly. The inverse reconstructs the
 first-three-label subshape, the two three-label tableaux and the unique
 fillings of the detached row segments. Thus this is a complete count
 bijection at every stretch. It is not an asserted global affine isomorphism
 of the two geometric polytopes when interval lower endpoints change.
 
-The independent root checks cover eight cases realizing all top and bottom
+The independent checks cover eight cases realizing all top and bottom
 branches: forty full GT counts at `t=0,...,4`, every cross-matrix summand
 at those sites, and sixteen actual shifted-interior counts. All agree.
-Twenty-four fresh bare-LR controls, including eight new sites at five and
+Twenty-four direct LR controls, including eight additional sites at five and
 six, are independently recorded. Seven of the eight controls are outside
-both tested orientations of the previous Cdagger sufficient domain; one
+both tested orientations of the previous interior-translation sufficient domain (`Cdagger` in the data); one
 overlaps it. No disjoint census count is inferred from this panel.
 
-## Exact scope and next tests
+## Exact scope
 
 The theorem also transfers through justified common dilations and determinant
 twists, with their complete reduction words. It does not assert the same
@@ -276,6 +273,5 @@ grades and decomposition. In particular the hypothesis is an integral gap-one
 stratum, not an unrestricted homogeneous cone with arbitrary real gap.
 
 The stated literal GT/skew panel, positive-stretch bare-LR controls and
-membership challenges are complete. A future extension must repeat those
-checks on its changed domain. All determining assertions in this proof are
+membership challenges are complete. An extension to a changed domain would require corresponding verification. All determining assertions in this proof are
 symbolic; numerical agreement corroborates the whole decomposition.

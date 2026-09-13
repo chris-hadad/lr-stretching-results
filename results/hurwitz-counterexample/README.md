@@ -17,9 +17,8 @@ table and mathematical certificates are the adjacent ROOT JSON files.
 
 [ROOT-COUNTEREXAMPLE-PROOF.md](ROOT-COUNTEREXAMPLE-PROOF.md) gives the result;
 [ROOT-DEGREE-AND-METHOD.md](ROOT-DEGREE-AND-METHOD.md) records the original
-bare-triple derivation. Those files retain their original verification history;
-references to source seals or originally planned native calls are historical,
-not dependencies needed by the portable reproduction.
+bare-triple derivation. They describe the independent derivation and exact certificates used
+by the standalone reproduction.
 
 This example is the v=0 anchor of the stronger
 [two-parameter cone](../hurwitz-cone/README.md). It refutes universal Hurwitz

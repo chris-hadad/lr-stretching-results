@@ -1,7 +1,6 @@
 # Closing the highest-dimensional original-box strata
 
-Astra004 / WI-298, including the completed numerical obligation of WI-267.
-Independent review complete; see review/DISPOSITIONS.md. This is a complete certificate for the named
+The independent review of this certificate is complete; see review/DISPOSITIONS.md. This is a complete certificate for the named
 strata and a whole-box coefficient consequence, not a certificate of the whole
 box. The counted original domain still contains 651,229,702 rank-six/seven
 roots before its other theorem predicates are resolved.
@@ -26,14 +25,13 @@ source-transfer premise, explicitly recorded in
 It is not deduced merely by removing the degree-ten stratum here.
 
 All original identities, empty cases, degenerations and source dependencies
-are retained. The historical additive counter remains 4,554; this new theorem
-class is not added without resolving overlaps in that separate old accounting.
+are retained. Overlaps with previously certified classes are retained in the finite accounting.
 
 ## Boundary gaps force dimension loss
 
 For each adjacent gap on each padded boundary, two nonnegative hive rhombus
 slacks sum to that gap, modulo the trace equality. Their interior normals
-are opposite and nonzero. The root certificate lists all fifteen identities
+are opposite and nonzero. The boundary-gap certificate lists all fifteen identities
 at rank six and all eighteen at rank seven, directly in the canonical
 `hive_linear_system` convention. Therefore a zero gap forces a genuine
 affine equality. If the normals forced by zero gaps span rank `r`, then
@@ -68,8 +66,8 @@ partition has six distinct positive parts totaling thirty. Two independent
 enumerators agree: a decreasing-part recursion and the six-element subsets
 of `1..15` whose sum is thirty. There are exactly twenty-six.
 
-The exact roots match both immutable FE geometry lanes and both FN Horn
-classifier lanes. Fresh checks prove the thirteen zero terminals from valid
+The exact triples match both recorded geometry implementations and both Horn
+classification implementations. Fresh checks prove the thirteen zero terminals from valid
 negative Horn slacks and the six product terminals from multiplicity-one
 Horn equalities. Every proper rank-six Horn split has rank-at-most-five
 children, so the adopted all-size KTT5 theorem settles their coefficients.
@@ -84,9 +82,8 @@ degree label nor the current polynomial's length supplies the degree premise.
 
 All seven complete Normaliz vectors are newly computed. The original planned
 positive-node LR reconstruction stopped at FE/018, stretch ten, after its
-sixty-second cap. That failed unit remains charged. Thirty-two later requests
-were explicitly retired before launch, with their frozen configurations
-preserved; the caller refuses their execution.
+sixty-second cap. That failed calculation is retained. Thirty-two later requests
+were not executed; their specified inputs remain recorded.
 
 ## The interior repair that makes reconstruction practical
 
@@ -120,12 +117,12 @@ additional checks. The other six parents' low positive nodes and holdouts
 were completed under the new schedule.
 
 The independent LR vectors match all seventy-seven Normaliz coefficients.
-They represent seven original roots and five distinct polynomials, with seventy
+They represent seven original input triples and five distinct polynomials, with seventy
 strictly positive nonconstant coefficient occurrences. Missing, duplicated,
 misattached and altered certificate fixtures are refused. The complete record
 is `science/results/A004-STRICT-CERTIFICATE-001.json`.
 
-## Exactly two highest-degree rank-seven roots
+## Exactly two highest-degree rank-seven triples
 
 For a degree-thirteen rank-seven boxed hive, the zero-gap normals of the two
 inners can span rank at most two. The same is true after exchanging the
@@ -169,9 +166,9 @@ The intermediate twenty-one possible outer identities are also explicitly
 classified: eight Horn zeros, four Horn dimension bounds, seven additional
 outer-repeat dimension bounds, and these two actual degree-thirteen objects.
 Their complete saturated lattices and exact codegrees six/four are the
-previously adopted FRF proofs.
+previously adopted degree-thirteen proofs.
 
-## Completing the two original FRF vectors
+## Completing the two original degree-thirteen vectors
 
 The accepted affine interior translation has shifts
 
@@ -202,8 +199,8 @@ nine/eight were not retried.
 Both fresh complete Normaliz vectors agree with the independent LR fits and
 the preserved original arrays: all twenty-eight coefficients, including all
 twenty-six nonconstant coefficients, are positive. The record is
-`science/results/A004-FRF-CERTIFICATE-001.json`. WI-267's numerical obligation
-is satisfied at this exact scope, subject to this session's independent gate.
+`science/results/A004-FRF-CERTIFICATE-001.json`. The numerical reconstruction
+is complete at this exact scope, with its independent-review qualification retained.
 
 ## Whole-box consequence and remaining work
 
@@ -215,9 +212,9 @@ at most ten, so the same coefficient vanishes there.
 
 The remaining original-box problem lies at rank six, dimension at most nine,
 and rank seven, dimension at most twelve. No count of that residual population
-has been manufactured. The next useful layers include the historical 206
-rank-seven degree-twelve and 1,636 rank-six degree-nine populations, but their
-source identities, exhaustiveness and full verification must be authenticated
-before they supply a new whole-box coefficient or coverage claim. The broader
+has been manufactured. The recorded 206 rank-seven degree-twelve and 1,636 rank-six degree-nine
+populations are separate layers. Their source identities, exhaustiveness and
+full verification are additional requirements for any further whole-box
+coefficient or coverage conclusion. The broader
 35,353/4,403 source margins are not silently subtracted from the original
 651,229,702 identities.

@@ -1,6 +1,6 @@
 # A coefficient-positive shift-difference operation
 
-FRONTIER-025 P06. Originating derivation; not campaign acceptance or a worldwide priority claim. Ordinary coefficients throughout are in the variable t. The auxiliary polynomials in this note are not individually assigned an LR realization. Proof 021 supplies actual whole-LR membership.
+This is an algebraic derivation without a historical priority claim. Ordinary coefficients throughout are in the variable t. The auxiliary polynomials in this note are not individually assigned an LR realization. [The matching-layer proof](matching-three-layers.md) supplies actual whole-LR membership.
 
 ## 1. A complete algebraic base
 
@@ -79,6 +79,6 @@ Then exactly
 
 If L and C have nonnegative ordinary coefficients, P>=_coeff G. If in addition every coefficient of C through degree q is positive, every ordinary coefficient of P through its degree D+q is strictly positive. For each 1<=k<=D+q a positive term of C times a positive nonconstant coefficient of Omega supplies positivity, while P(0)=1. No sign condition on b_0,...,b_q separately is necessary.
 
-This is the material repair used here. The naive two-shift formula has negative b_0 for q=2, and negative b_0,b_1 for q=3. They cannot be dropped. The complete difference W absorbs them with an exact coefficientwise identity. Positive values of G and Omega at integer arguments alone would not justify this operation.
+This is the compensation identity used here. The naive two-shift formula has negative b_0 for q=2, and negative b_0,b_1 for q=3. They cannot be dropped. The complete difference W absorbs them with an exact coefficientwise identity. Positive values of G and Omega at integer arguments alone would not justify this operation.
 
-The criterion is sufficient and does not assert that every LR polynomial belongs to it. Proof 021 gives complete membership for three unbounded six-run layers. Proof 022 gives a legal next-layer failure of this particular certificate.
+The criterion is sufficient and does not assert that every LR polynomial belongs to it. [The matching-layer proof](matching-three-layers.md) gives complete membership for three unbounded six-run layers. [The scope analysis](matching-scope.md) gives a legal next-layer failure of this particular certificate.

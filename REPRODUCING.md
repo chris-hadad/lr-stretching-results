@@ -103,3 +103,7 @@ identity, command, result and mathematical premise in question. A short
 counterexample to a reduction or a missing terminal identity can be more useful
 than another large sample. [The reviewer guide](results/finite-box/REVIEWER-GUIDE.md)
 suggests specific audit points.
+
+The [current source and offline bundles](https://github.com/chris-hadad/lr-stretching-results/releases/tag/research-edition-2026-09-13-v2)
+contain the reader-facing proof collection and identify their exact source
+commit. The numerical archives retain their original version and hashes.

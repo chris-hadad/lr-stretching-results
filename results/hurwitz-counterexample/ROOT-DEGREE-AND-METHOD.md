@@ -1,9 +1,8 @@
 # Independent bare-triple derivation, frozen before numerical execution
 
 Input: outer lambda=(18,17,...,1), inner mu=(17,16,...,1), and
-nu=(7,6,5). No provider return, claimed result, sibling evidence, or prior
-scientific attempt was consulted. The only repository source read was the
-pre-existing native containment boundary and target AGENTS.md.
+nu=(7,6,5). This degree and counting derivation was made from the ordinary triple
+before the proposed polynomial or coefficient data were consulted.
 
 ## Reduction to a Kostka number
 
@@ -41,7 +40,7 @@ The coefficient extraction at t=0 below also gives 1. Thus 32 exact
 values at t=0,...,31 determine the entire stretching polynomial.
 
 Primary source read directly: Etienne Rassart, "A polynomiality property
-for Littlewood-Richardson coefficients", arXiv:math/0308101v2,
+for Littlewood-Richardson coefficients", arXiv: math/0308101v2,
 https://arxiv.org/pdf/math/0308101. Only the general polynomiality and
 Ehrhart statements are used; the degree bound above is specific to this
 input and derived independently. No coefficient-sign assertion is taken
@@ -82,15 +81,8 @@ as a recurrence control. Controls are bounded to t<=8.
 - Interpolation nodes: 0 through 31 inclusive; exact rational arithmetic.
 - Holdouts, not used in interpolation: 32, 33, 37.
 - Small-case controls: direct convolution and positive tableau recurrence.
-- Native calls: one serial child and one thread, at most 60 seconds each;
-  at most 1800 seconds cumulative command time, with an initial eight-call
-  calibration checkpoint and a refusal if the remaining budget is unsafe.
-- All native execution, including compiler invocation, goes through the
-  reviewed contained.run_contained boundary. Execution waits for a root
-  compute-slot grant. A source/input/config/command/output identity is
-  frozen before each result-bearing call; no output is decoded before
-  successful exit and process-group cleanup verification.
-- No installs, downloaded code/dependencies, lab edits, old scientific
-  attempt execution, or provider-return access.
+
+The [standalone reproduction](README.md) gives the public counting command
+and complete verification data.
 
 This file records a prior degree bound, not an observed interpolation degree.

@@ -1,10 +1,7 @@
-# Two-column transportation cut theorem and the first genuinely two-sided rank
+# Two-column transportation cut theorem and the first two-sided case
 
-Attempt: SLR-GPT6-PRO-FRONTIER-024-P03-A01-2a2be5630327
-Status: provider proof, not independent campaign acceptance.
-
-This proof develops H03 from the complete transportation/LR bridge in
-`SOURCES/S13-TRANSPORTATION-PROOF.md`. The inherited source proves the positive
+This AI-assisted proof uses the complete
+[transportation/LR bridge](transport-whole-lr-bridge.md). The inherited source proves the positive
 linear-coefficient formula for three positive rows and arbitrary positive
 columns. The result below is a separate two-column derivation. Together with
 matrix transposition they force a structural threshold for any negative
@@ -18,10 +15,10 @@ A,B be strictly positive integral column margins, and put
     M=sum_i r_i=A+B.
 
 Let F(t) count all nonnegative integral p-by-2 matrices whose margins are
-tr and (tA,tB). Since the full transportation constraint matrix is totally
+tr and (tA, tB). Since the full transportation constraint matrix is totally
 unimodular and the positive matrix r_i(A,B)/M is relatively interior, F is an
 Ehrhart polynomial of exact degree p-1 in the saturated solution lattice.
-The complete LR construction in S13 realizes this same F as an entire ordinary
+The complete LR construction in the transportation/LR theorem realizes this same F as an entire ordinary
 LR stretch polynomial of ordinary rank p+1.
 
 Write x_i for the entry of row i in the first column. The second entry is
@@ -109,7 +106,7 @@ This lower bound is not asserted sharp in every margin class.
 
 ## 3. Consequence for all transportation polytopes with a small side
 
-The inherited S13 theorem proves [t]F>0 for three positive rows and arbitrary
+The three-row theorem proves [t]F>0 for three positive rows and arbitrary
 positive columns. Transposition preserves the complete transportation count,
 so the same theorem protects three positive columns and arbitrary positive
 rows. Formula (5) protects two positive columns and, after transposition, two
@@ -120,7 +117,7 @@ Therefore:
 > Every full positive p-by-N transportation Ehrhart/LR polynomial with
 > min(p,N)<=3 has strictly positive ordinary linear coefficient.
 
-The complete S13 LR bridge has ordinary rank p+N-1 and exact degree
+The complete transportation/LR bridge has ordinary rank p+N-1 and exact degree
 (p-1)(N-1). Consequently every positive transportation polynomial whose bridge
 has ordinary LR rank six has c1>0: the possibilities are 2-by-5, 3-by-4,
 4-by-3 and 5-by-2, all covered above.
@@ -167,7 +164,7 @@ counter on twelve frozen p-by-2 cases with p=2,...,7. The prior degree p-1 was
 used; t=0,...,d determine each vector and t=d+1,d+2 are unused holdouts. Every
 reconstructed c1 equals (5), and all 24 holdout occurrences agree.
 
-This computation shares CPython integer/Fraction arithmetic with other mission
+This computation shares CPython integer/Fraction arithmetic with the other
 checks but is combinatorially independent of the inclusion-exclusion derivative
 proof. It is not an additive LR coverage increment and does not independently
-reprove the S13 LR bridge.
+reprove the transportation/LR bridge.

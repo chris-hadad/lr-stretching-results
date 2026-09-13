@@ -1,4 +1,4 @@
-# A finite ambient-strictness gate before genuine interior counting
+# A finite ambient-strictness criterion before genuine interior counting
 
 ## Statement and proof
 
@@ -11,9 +11,9 @@ An element of any W_t proves that P is nonempty and full-dimensional in the give
 
 Conversely, if P is full-dimensional, simultaneous strictness of every nonconstant defining inequality characterizes its interior. Redundant inequalities cause no difficulty: a nonconstant valid inequality cannot vanish at an ambient interior point. Thus W_t is precisely the interior lattice set of tP. If W_1,...,W_(D+1) were all empty, Ehrhart reciprocity for the period-one count polynomial would give D+1 distinct roots -1,...,-(D+1) of a nonzero polynomial of degree D with P(0)=1. This is impossible. Therefore a full-dimensional period-one chart has a strict integer point at one of these finitely many grades.
 
-A nonempty lower-dimensional polytope has at least one nonconstant defining inequality identically tight. Otherwise choosing a point where each separate inequality is strict and averaging the finitely many points would yield simultaneous strictness and an ambient open ball. It therefore has no point in any W_t. Consequently, with complete finite searches and the stated LR polynomiality premise, the gate distinguishes ambient-full charts from the remaining empty/hidden-dimensional charts without reconstructing the full polynomial or enumerating their facets. A work-limit refusal is NOT a completed empty search.
+A nonempty lower-dimensional polytope has at least one nonconstant defining inequality identically tight. Otherwise choosing a point where each separate inequality is strict and averaging the finitely many points would yield simultaneous strictness and an ambient open ball. It therefore has no point in any W_t. Consequently, with complete finite searches and the stated LR polynomiality premise, the criterion distinguishes ambient-full charts from the remaining empty/hidden-dimensional charts without reconstructing the full polynomial or enumerating their facets. A work-limit refusal is not a completed empty search.
 
-The period-one premise is essential. The rational half interval [0,1/2] has dimension one but first strict integer point at t=3, beyond D+1=2; its lattice count is a quasipolynomial. It is included as a control of the search implementation, not admitted to the LR gate.
+The period-one premise is essential. The rational half interval [0,1/2] has dimension one but first strict integer point at t=3, beyond D+1=2; its lattice count is a quasipolynomial. It is included as a control of the search implementation, not admitted to the LR criterion.
 
 ## Direct low-coefficient decision in dimension five
 
@@ -24,16 +24,16 @@ Together with complete closed counts A=P(1), B=P(2), put U=I(1), V=I(2). The ado
     D1 = 8(A+U)-(B+V) = 12c1-48c5,
     D2 = 16(A-U)-(B-V)-30 = 24c2.
 
-The full coordinate-identification chart has primitive normals of squared norm at most six; U01 explicitly checks this on every admitted row system. The source short-normal theorem supplies c3>0, while intrinsic top-coefficient positivity supplies c4,c5>0. Therefore D1,D2>=0 prove the whole polynomial ordinary-nonnegative. D1 alone being negative does not establish a negative c1. Negative D2 with these complete premises is a genuine c2 observation and triggers candidate preservation before any comparison.
+The full coordinate-identification chart has primitive normals of squared norm at most six; the initial chart construction explicitly checks this on every admitted row system. The source short-normal theorem supplies c3>0, while intrinsic top-coefficient positivity supplies c4,c5>0. Therefore D1,D2>=0 prove the whole polynomial ordinary-nonnegative. D1 alone being negative does not establish a negative c1. Negative D2 with these complete premises is a genuine c2 observation at the stated geometric scope.
 
-U01's 35-key test reads only the frozen chart data, not previous vectors or counts. It searches for explicit strict points at grades one through six, retaining integer points, original count-boundary hive coordinates and all original rhombus slacks. On admitted full-dimensional charts it independently counts A,B,U,V. Three charts have no ambient-strict point and are not forced into the quintic formula. Their actual quartic degree is established separately by the independent complete-vector certificate, not by assuming that a five-coordinate bound is actual dimension five.
+The initial chart construction's 35-key test reads only the frozen chart data, not previous vectors or counts. It searches for explicit strict points at grades one through six, retaining integer points, original count-boundary hive coordinates and all original rhombus slacks. On admitted full-dimensional charts it independently counts A,B,U,V. Three charts have no ambient-strict point and are not forced into the quintic formula. Their actual quartic degree is established separately by the independent complete-vector certificate, not by assuming that a five-coordinate bound is actual dimension five.
 
 If a tensor variant was used for the small chart, the explicit point belongs to the stored **count_boundary** hive. Its all-stretch LR polynomial equals that of the original bare triple by the recorded tensor word. Both hive dimensions equal that polynomial's degree, so reciprocity also identifies their true interior counts. This does not assert an unrecorded affine isomorphism between the two hives.
 
-## Evidence and method-price limits
+## Verification and computational limits
 
 `strict_witness_u01.py` uses exact real Fourier–Motzkin prefix projections followed by bounded integral prefix search. A returned point is independently checked by direct substitution in every defining row and mapped back through the recorded integer inverse. Its 25 fixtures cover cubes and simplices through dimension five, the first-interior threshold, negative coordinates, an empty interval, a hidden line and the non-period-one half interval.
 
-The direct interior counts use the same exact H-system counter as the closed-hive lane. They are corroborated after preservation against reciprocity values from the independent full LR row-model polynomials. That is valid finite corroboration, but it does **not** price an independent interior-only production method: obtaining the independent full vector costs additional work. A whole-family proof of the D1/D2 bounds or a cheaper independent direct interior model remains a different deliverable. No all-key membership or million-key runtime extrapolation follows.
+The direct interior counts use the same exact H-system counter as the closed-hive lane. They are corroborated after preservation against reciprocity values from the independent full LR row-model polynomials. That is valid finite corroboration, but it does **not** price an independent interior-only production method: obtaining the independent full vector costs additional work. A whole-family proof of the D1/D2 bounds or a cheaper independent direct interior model is not established here. No all-key membership or million-key runtime extrapolation follows.
 
-Sources: complete chart and polynomiality premises in the original packet, especially proofs 027, 029, 036–038 and the current ROOT-F025-COUNTER / FR025-QUINTIC-DECISIONS dispositions. The root argument and concrete count-blind ambient-strictness gate above are supplied here as a useful implementation derivation, not a worldwide novelty claim.
+Sources: complete chart and polynomiality premises in the source certificate collection, especially proofs 027, 029, 036–038 and the hive-count and quintic coefficient certificates (ROOT-F025-COUNTER / FR025-QUINTIC-DECISIONS). The strict-point argument above supplies the criterion independently of previously computed counts.

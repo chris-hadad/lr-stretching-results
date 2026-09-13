@@ -1,7 +1,6 @@
 # A complete positive rank-six cone from the principal Horn split
 
-Root-originated Astra004 construction, 9 September 2026. Independent review complete; see
-review/DISPOSITIONS.md. The source-defined H-domain below has dimension seventeen and includes
+A complete tableau construction, 9 September 2026. The domain `Csplit` defined below has dimension seventeen and includes
 a full-dimensional original-box hive outside Cdagger. It does not cover every
 rank-six boundary, every Horn facet, or all boxed degenerations.
 
@@ -107,7 +106,7 @@ trace hyperplane and has dimension seventeen.
 The two widths in (1) depend on one complete column and one complete row
 of a three-by-three composition matrix. Their nine-coordinate gain vectors
 have sums three each and overlap one. Their covariance term is exactly zero,
-so A01 gives the full polynomial
+so the two-width moment identity gives the full polynomial
 
 ```text
 P_b(t) = binom(S*t+8,8)
@@ -127,25 +126,25 @@ lambda=(9,8,6,4,2,1), mu=nu=(5,4,3,2,1)
 ```
 
 has `S=1,A=B=0`; its entire degree-ten polynomial is
-`binom(t+8,8)*(t+3)^2/9`. It is historical FE/024, with area thirty.
+`binom(t+8,8)*(t+3)^2/9`. It has outer area thirty.
 Both this point and the displayed domain-interior point are outside both
 tested inner orientations of Cdagger. The latter is an interior point of
 `Csplit`, so the new coverage includes an open set, not merely one new ray.
-No assertion about disjointness from every historical native cone is made.
+No disjointness from every previously studied cone is asserted.
 
-Moving one box from row four to row three gives FE/025,
+Moving one box from row four to row three gives
 `lambda=(9,8,7,3,2,1)`, with the same inners. It has `S=0,A=B=1` and
 `P=(t+1)^2`, agreeing with its two rank-three Horn factors.
 
 ## Failed extension and next route
 
-The neighboring boxed FE/018 boundary `lambda=(8,7,6,4,3,2)` with the same
+The neighboring bounded-size boundary `lambda=(8,7,6,4,3,2)` with the same
 inners has `S=3,A=B=0`, but violates the full-domain condition from
 `x_21>=0`. Applying (3) anyway predicts `P(1)=660`; its complete Normaliz
 count is seventy-six. This is an exact failure of the unrestricted chart,
 not a negative coefficient. The omitted cuts cannot be ignored.
 
 The next extension must account for those cuts or use a different complete
-chart. Other principal/nonprincipal Horn splits, their actual coverage and
-degenerate boxed populations remain live. The maintained recognizer refuses
+chart. Other principal/nonprincipal Horn splits and their degenerate boundaries
+remain possible extensions. The maintained recognizer refuses
 unsupported boundaries instead of treating them as infeasible or positive.

@@ -2,9 +2,8 @@
 
 For partitions λ, μ and ν with λ outer, `|λ| = |μ| + |ν| <= 30`, and
 maximum trimmed length at most seven, every ordinary coefficient of the
-stretched Littlewood–Richardson polynomial is nonnegative. The campaign has
-accepted the computer-assisted proof after independent mathematical and
-computational checks. The unrestricted KTT conjecture and whole-rank positivity
+stretched Littlewood–Richardson polynomial is nonnegative. The computer-assisted proof has undergone independent AI-assisted
+mathematical review and exact computational checks. The unrestricted KTT conjecture and whole-rank positivity
 for ranks six and seven remain open.
 
 Start with the [research-note draft](../../papers/finite-box.md) for a connected
@@ -14,7 +13,7 @@ states exactly which exported computations were completed. A program success
 message does not replace the named mathematical premises or external review.
 Alper Ferudun's all-size rank-at-most-five theorem is a central dependency.
 The [references](REFERENCES.bib) and [AI-assistance account](AI-ASSISTANCE.md)
-identify prior contributions and how this campaign developed the result.
+identify prior contributions and how the result was developed.
 
 ## Files and prerequisites
 
@@ -23,8 +22,8 @@ checkers, invocation adapters and exact source manifests. The ten data archives
 listed in [DATA-ASSETS.json](DATA-ASSETS.json) contain all 11,607 required data
 files: 1,761,805,311 compressed bytes and 12,349,067,632 expanded bytes. Obtain
 all ten from the same [versioned release](https://github.com/chris-hadad/lr-stretching-results/releases/tag/finite-box-2026-09-12-v1).
-The release also supplies a complete offline review kit. Private GitHub links
-require repository access; an offline copy can be reviewed without GitHub.
+Versioned source and offline review bundles identify their exact source
+commit. The complete offline kit supports verification without GitHub access.
 
 Use Python 3.11 or later on a POSIX system, with assertions enabled, and an
 installed C++17 compiler supporting checked 128-bit integer arithmetic and
@@ -40,7 +39,7 @@ Counting and individual terminal-check children run serially with 120-second
 process deadlines. Final metadata assembly has a separate 600-second internal
 allowance and a 660-second process deadline to authenticate the complete file
 and identity union. It performs no new LR counts. An incomplete result,
-overflow, deadline or work refusal supplies no count and cannot close a gate.
+overflow, deadline or work refusal supplies no count and cannot complete a certificate.
 
 ## Extract and check the inventory
 
@@ -91,8 +90,7 @@ union. It retains the explicitly cited universal theorem premises.
 
 The frozen [configuration](REPRODUCTION-CONFIG.json) supplies the measured
 local numerical and upstream allocations and acceptance slice size. These
-are finite per-workspace allocations, not permission to consume an arbitrary
-research budget. The manual exhaustive export replay and the convenience
+are finite per-workspace execution limits. The manual exhaustive export replay and the convenience
 entrypoint tests are distinguished in `REPLAY.json`; no unperformed run is
 implied by the existence of a command.
 
@@ -115,4 +113,4 @@ the claimed mathematical bridge, and the complete command/result when relevant.
 The most useful review targets are domain coverage, whole-count reductions,
 the original lattice and true interior, and the exact sign certificates.
 Human mathematical review and FrontierMath's disposition remain separate from
-the campaign's acceptance and reproducibility checks.
+the mathematical and reproducibility checks reported here.

@@ -1,7 +1,7 @@
-# Independent root check of the coupled-simplex counts
+# Independent derivation of the coupled-simplex counts
 
-Status: root derivation from the geometry lane's proposed displayed models;
-conditional on its complete hive/lattice/domain certificate until reviewed.
+This derivation uses the displayed geometric models and is conditional on
+the complete hive, lattice and domain certificate.
 No fitted arrays, LR values or native count implementation enter this argument.
 
 For a uniform weak composition `(u0,...,u7)` of a nonnegative integer `w`, let
@@ -18,9 +18,9 @@ This finite counting argument includes all zero-parameter boundary cases.
 
 ## 48-corner model
 
-The proposed model is a `Delta7(w)` base, an independent interval of length
-`a`, and a two-dimensional simplex whose total is `b+q0+q2` in the geometry
-lane's coordinates; the last two terms select two base coordinates. The parameter
+The model is a `Delta7(w)` base, an independent interval of length
+`a`, and a two-dimensional simplex whose total is `b+q0+q2` in the geometric
+coordinates; the last two terms select two base coordinates. The parameter
 identification is `a=s14,b=s15,w=s16`; all must be nonnegative integers on
 every integral boundary of the represented cone, not only integer ray sums.
 
@@ -41,8 +41,8 @@ lattice count of this model, without polynomial interpolation.
 
 ## 32-corner model
 
-The proposed model is a `Delta7(w)` base and a three-dimensional simplex of
-total `a+q0+q1+q5+q8` in the geometry lane's explicit-coordinate indexing.
+The model is a `Delta7(w)` base and a three-dimensional simplex of
+total `a+q0+q1+q5+q8` in the geometric model's explicit-coordinate indexing.
 There are still eight base composition coordinates, including the implicit
 one. Here `a=s15,w=s16`, with the same full integral-boundary obligation.
 
@@ -76,7 +76,7 @@ successively with the independent interval. It generates `8*3*2=48` and
 `8*4=32` symbolic corners, allowing collisions on parameter faces.
 
 This proves generation for the displayed models. Identifying them with the
-complete hives still requires the lane's selected-raw-row inclusion, every
+complete hives still requires the selected-raw-row inclusion, every
 raw slack at every symbolic corner/domain generator, full seed vertices and
 unimodular lattice and integral-boundary certificates. No source-reported
 vertex count alone supplies any of those premises.
@@ -93,4 +93,5 @@ identifications and represented cone verified by the geometry certificate.
 
 The two formulas have generic degree ten. No real-rootedness, full-fan
 coverage, rank-wide theorem, boxed cardinality or ordinary-negative witness
-is inferred. The root's separate acceptance follows independent review.
+is inferred. The mathematical identification with the hive models is established separately
+by the complete geometry certificate.

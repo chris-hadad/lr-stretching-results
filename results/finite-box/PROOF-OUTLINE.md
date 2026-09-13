@@ -3,8 +3,7 @@
 The theorem is stated in [PROOF.md](PROOF.md): ordinary-coefficient
 nonnegativity through length seven and outer area thirty, with the precise
 empty-family conventions and Ferudun's cited all-size length-five premise.
-The earlier pending-stage wording of this outline is superseded by the
-completed records in [REPLAY.json](REPLAY.json).
+Completed computational checks are recorded in [REPLAY.json](REPLAY.json).
 
 1. Check the LR/hive, polynomiality, lattice and relative-interior conventions.
 2. Follow the complete original census, earlier finite terminals and exact

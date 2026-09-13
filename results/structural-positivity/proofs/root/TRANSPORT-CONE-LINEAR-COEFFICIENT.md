@@ -1,7 +1,8 @@
 # The homogeneous transportation cone: a sharp linear-coefficient bound
 
-Root derivation during return processing. **Pending independent argument review
-and the seven endpoint polynomial receipts.** The all-parameter proof below
+Codex derivation. The proof uses the seven endpoint polynomials verified by
+exact reconstruction in the [public verification module](../../replay/README.md).
+The all-parameter argument below
 does not treat integer-h sampling as a proof on rational directions. The full
 ordinary-coefficient question remains open in the stated complement.
 
@@ -27,8 +28,7 @@ For v>=6u,
 
 `e_1(u,v)=u a_6`.
 
-Consequently, after independently establishing the endpoint values and their
-reported monotonicity, the sharp bound is
+Using the verified endpoint values and their monotonicity, the sharp bound is
 
 `e_1(u,v) >= (5279/360) u > 0`.
 
@@ -84,7 +84,7 @@ dimension is eighteen. Bipartite network-incidence total unimodularity gives
 integral vertices, so ordinary Ehrhart theory applies without period collapse.
 
 This full homogeneous realization extends the displayed integer-h
-specialization in Pro027's proofs 011/012 by the explicit argument above.
+specialization in the cap-release family and its two complete counting models by the explicit argument above.
 The source size-133 parent is a different bare triple with the same h=0
 transportation polynomial after row/column permutation; it is not this
 size-127 lift's literal input.
@@ -115,7 +115,7 @@ again an integer at most six.
 
 These statements use all subsets, not a selected list of trees or observed
 vertices. Therefore every basic entry has constant sign throughout each open
-sector j<v/u<j+1, j=0,...,5. The entire feasible-basis roster is constant
+sector j<v/u<j+1, j=0,...,5. The entire feasible-basis list is constant
 there, including basic entries that vanish identically on the parameter plane.
 There is no assertion that each of the possible seven wall slopes is a
 genuine change of combinatorial type; this complete refinement suffices.
@@ -188,9 +188,10 @@ The endpoint input is precisely the seven independent polynomials P_j for
 j=0,...,6 from the full transport recount, their strict first-coefficient
 increments and a0=5279/360. Their minimum is a0. The coefficients in section 3
 sum to u, proving the sharp uniform bound in every finite sector, and the
-translation proves it above slope six. The final acceptance must cite the
-actual complete endpoint receipt; a provider's reported monotonicity is not
-silently substituted for that check.
+translation proves it above slope six. All seven endpoint polynomials and
+their monotonicity are finite premises verified by the
+[public verification module](../../replay/README.md), which reconstructs them
+from retained historical counts rather than repeating the original counters.
 
 ## 6. A direct third-highest-coefficient protection
 
@@ -215,7 +216,8 @@ For rational period-one P, clear vertex denominators and divide the resulting
 coefficient and face-volume bounds by the same positive dilation factor.
 The proof does not assume that the individual undilated affine BV terms are
 nonperiodic. This uses the formula and lattice convention already proved in
-Pro025 proof 023; no source checker or local scalar table supplies the bound.
+the indexed two-cone positivity proof; a source checker or local scalar table
+does not replace that argument.
 
 For T(u,v), select the first three rows and first six columns as free
 coordinates. Nonnegativity of all twenty-eight entries has normals of four
@@ -232,5 +234,5 @@ Ehrhart problems. For k>=2, the coefficient e_k in a sector is a homogeneous
 polynomial of degree k in a,b; its mixed terms are not determined by the two
 endpoint Ehrhart polynomials. A proof of all their signs or a legal negative
 specialization still requires new mathematics or exact complete computation.
-The meaningful remaining range here is k=2,...,15. No new outside-the-box
-count or negative search has been run to obtain this argument.
+The meaningful remaining range here is k=2,...,15. No additional count or search for negative coefficients was performed for this
+argument.

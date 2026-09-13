@@ -1,6 +1,6 @@
 # Repairing the remaining sign uncertainty by a formal interior upper cover
 
-Use all the complete sextic/lattice/normal premises and the five numerical
+Assume all the complete sextic/lattice/normal premises and the five numerical
 counts in FIVE-COUNT-SEXTIC-ENCLOSURE.md. That screen can fail even when the
 whole polynomial is positive; its failures remain negative lower bounds only.
 The four pilot failures concern c1, not c2 or c3. No true I3 count or full vector
@@ -55,18 +55,17 @@ row fiber. This is a shared formal geometric premise, not a claim of two newly
 computed I3 values. The five numerical premises still have two complete counting
 models with every raw request and response independently bound to that geometry.
 
-## Scope and failure handling
+## Scope and inconclusive cases
 
 This is a direct complete sign proof from incomplete numerical information,
 not a relabelled six-site reconstruction. In particular, the first four repaired
 pilot bounds were I3<=4,8,3,4, obtained from single boxes, and none was assumed
-an equality. It implements R7's count-enclosure branch of the original plan.
-A full-vector baseline separately counts I3 and checks the original fixed unused
-positive sites4,5; its cost and any refusal remain distinct evidence.
+an equality. A full-vector baseline separately counts I3 and checks the original fixed unused
+positive sites 4,5; its cost and any refusal remain distinct evidence.
 
 A valid insufficient upper cover does not imply a negative coefficient. A
 strictly negative upper bound on an ordinary coefficient after interval
-refinement would be an actual whole-LR candidate and requires immediate export.
+refinement would establish a negative ordinary coefficient of the entire LR polynomial under the stated premises.
 The finite upper-cover proof rules are valid for arbitrary integral fixed-grade
 systems when finite boxes are actually derived; LR polynomiality, parity,
 complete normal/lattice hypotheses and the all-coefficient bridge are additional

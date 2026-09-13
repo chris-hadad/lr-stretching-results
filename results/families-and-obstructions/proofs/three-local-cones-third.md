@@ -1,14 +1,14 @@
 # An explicit lattice model for the fixed four-active-ray cone
 
-This argument is certified for the fixed chamber when `certificate.json`
+This argument is certified for the fixed chamber when [the cone certificate](../data/local-cones/third.json)
 reports `EXPLICIT_UNIMODULAR_INTERVAL_OVER_RECTANGLE_AND_SIMPLEX_VERIFIED`.
 The checker uses the frozen raw hive system and the original record's seventeen
 generators. It does not load the interpolated polynomial or use count agreement
-as a premise. Root adoption and independent mathematical review are separate.
+as a premise. Independent verification of the certificate is a separate requirement.
 
 The chamber is
 `393b7353283d7ab32e353e4fd8c1a049fcf67d64467b3d111f218b231229d31c`, from
-lab commit `4d8ab55b8e885e2bc676fa7172cd91f897f7aa26`, Session D
+source commit `4d8ab55b8e885e2bc676fa7172cd91f897f7aa26`, record
 `r6-mp200-rng34-seed-2.json`. The source roster and pre-computation manifest
 bind all executable and input bytes. Lambda is the outer partition.
 
@@ -45,7 +45,7 @@ The selected fourteen inequalities become exactly
 where the certificate specifies a subset S of J of size four. The names p and
 q may be exchanged according to the reported interval-parameter order; the
 model and formula are symmetric in b and c. The seven explicit u coordinates
-are slacks, and `u44=z-sum(first seven u_i)`. If S contains row44, this
+are slacks, and `u44=z-sum(first seven u_i)`. If S contains row 44, this
 substitution is included explicitly in the checked transformed identity.
 
 These are identities of coefficient matrices on the full boundary space,

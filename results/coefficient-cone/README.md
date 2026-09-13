@@ -218,7 +218,7 @@ classical ingredients.
 The polynomiality premise is the standard theorem on stretched LR
 coefficients; see E. Rassart, *A polynomiality property for Littlewood–Richardson
 coefficients*, J. Combin. Theory Ser. A 107 (2004), 161–179
-([arXiv:math/0308101](https://arxiv.org/abs/math/0308101)), and W. Thawinrak,
+([arXiv: math/0308101](https://arxiv.org/abs/math/0308101)), and W. Thawinrak,
 *A Short Proof for the Polynomiality of the Stretched Littlewood–Richardson
 Coefficients*, Ars Combinatoria 162 (2025), 205–212
-([arXiv:2211.06810](https://arxiv.org/abs/2211.06810)).
+([arXiv: 2211.06810](https://arxiv.org/abs/2211.06810)).

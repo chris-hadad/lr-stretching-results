@@ -1,8 +1,8 @@
 # Six-run whole-flow elimination and the positive zero-parameter strata
 
-Attempt: SLR-GPT6-PRO-FRONTIER-024-P06-A01-8694050b230b. New provider derivations, not a worldwide novelty assertion
-or campaign acceptance. All ordinary ranks below refer to the final trimmed
-ordinary LR triple, with lambda outer. Parent artifact SHA-256:
+This AI-assisted derivation establishes complete flow identities. No
+historical novelty claim is made. All ordinary ranks below refer to the final trimmed
+ordinary LR triple, with lambda outer. Source artifact SHA-256:
 `ecafc737896425606f6c6a6ece31c1f057010c781abf4253616a798811f71eee`.
 
 ## 1. Exact family and the whole LR count
@@ -35,7 +35,7 @@ mu_i+nu_i=n-i+1 for i<=n and both vanish at n+1. The source/sink adjustment
 from this sum to lambda is (-1,0,...,0,+1), of total zero. Lambda is a partition.
 
 For completeness, (1) is an application of the entire support-count character
-identity in SOURCES/PHASE6/NONNEGATIVE-M-LEMMA.md, not an identification of a
+identity in [the nonnegative-multiplicity lemma](matching-character-premise.md), not an identification of a
 coordinate face. Its hypotheses hold as follows. Every cut is covered by
 exactly one support, so m_ii=0. For unit R the dominance inequalities
 (m_ii-1)R_i+R_(i-1)+R_(i+1)>=0 are zero at the end cuts and one inside.
@@ -140,7 +140,7 @@ amount agree. This proves both real feasibility correspondence and the
 integer count bijection. There is no hidden capacity inequality.
 
 The composition series (7) is the standard two-chain shuffle identity; it is
-proved and normalized in the fully read S15 source. It also follows by taking
+proved and normalized in the source theorem on ordinal sums of pairs of chains. It also follows by taking
 the diagonal coefficients of (1-x)^(-p-1)(1-y)^(-u-1), or by the terminating
 binomial identity. Empty parameters give H_(0,c)=1, as required.
 
@@ -170,7 +170,7 @@ and applying (7) gives the third identity. Graph reversal gives the fourth.
 These derivations include intersections of the cases; their numerators agree
 there. No nonzero coupling has been discarded in obtaining p=0 or u=0.
 
-Use the inherited, independently reviewed theorem in S15: if an Ehrhart
+Use the cited theorem on ordinal sums of pairs of chains: if an Ehrhart
 series has numerator product H_(b_i,c_i) and denominator (1-z)^(D+1), and
 D-sum_i(b_i+c_i) is a nonnegative integer, its count equals the order Ehrhart
 polynomial of an ordinal sum of pairs of chains followed by that many chain
@@ -195,18 +195,18 @@ is strictly positive if at least one of p,q,r,u is zero. This is an
 unbounded-rank six-run class, including all simultaneous zero cases, arbitrary
 end-run lengths and positive constant integral directions.
 
-The entire six-run class is NOT disposed of. A negative coefficient in this
+Positivity of the entire six-run class remains unresolved. A negative coefficient in this
 class must have p,q,r,u>=1. With minimal end lengths its ordinary rank is
 therefore at least 11. This is only a six-run constraint. Seven or more runs,
 and nonconstant directions, are not excluded at smaller ordinary rank.
 
 ## 4. Evidence and premise boundary
 
-A01 derives allowed edges afresh from the word, verifies (4), and compares
+The independent check derives allowed edges directly from the word, verifies (4), and compares
 full graph counts against (5)-(8) at t=0,1,2 for all 65 parameters in
 {0,1,2}^4 with at least one zero. These are regression tests of the proved
-identities, not a census or the basis for the infinite theorem. Further graph
-and bare-LR controls are in proof 015. All arithmetic is CPython exact
-integers/rationals. The support character identity and S15 order-polynomial
-positivity are inherited source theorems; their complete local proofs were
-read, not all historical certificates replayed.
+identities, not a census or the basis for the infinite theorem. Further graph and
+direct LR controls are documented in the source verification record. All arithmetic is CPython exact
+integers/rationals. The support character identity and ordinal-sum order-polynomial
+positivity are inherited source theorems; their complete proofs are the premises used here, and not all historical
+certificates were reproduced.

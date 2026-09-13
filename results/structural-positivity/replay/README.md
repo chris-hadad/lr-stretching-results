@@ -2,7 +2,7 @@
 
 This module makes three accepted structural results reproducible at their
 stated levels. It uses Python's standard library and exact integers and
-fractions. It installs nothing and reads no private campaign archive.
+fractions. It has no network or original-research-directory dependency.
 Run from the repository root:
 
 ```sh
@@ -16,12 +16,13 @@ Each successful command prints a JSON result and exits zero. The first three
 commands can be combined with `--module all`. To keep a report, redirect stdout
 to a new file outside the source tree. A missing input, changed file, duplicate
 identity or failed mathematical check returns nonzero. There are no downloads,
-implicit caches or hidden data directories. Paths are relative to this file,
-so the commands also work from a different working directory.
+implicit caches or hidden data directories. Input paths are resolved relative to the script. From another working
+directory, invoke the script by its absolute path or by a path relative to
+that directory.
 
 The two-row command freshly expands every finite case needed by the slope-three
 proof and checks bounded complete character counts. The other two commands
-reconstruct their entire polynomials from **historical accepted root count
+reconstruct their entire polynomials from **previously verified count
 values**. They check all coefficients, unused values and displayed algebra
 again; they do not rerun the historical tableau or transportation counters.
 The names of their successful statuses explicitly retain this distinction.
@@ -30,9 +31,9 @@ A new run becomes evidence only when its actual command completes.
 The [dependency table](DEPENDENCIES.md) identifies the complete analytic chain,
 finite input populations, source credit and remaining reproduction gaps.
 [SOURCE-MAP.json](SOURCE-MAP.json) pins every required local proof, data file and
-checker. Original proofs retain their bytes, including their historical
-pending/accepted wording; the current structural [accepted scopes](../ACCEPTED-SCOPES.json)
-record their later campaign dispositions. Scientific arguments, source
+checker. The proof texts are edited for mathematical exposition; the structural
+[result scopes](../ACCEPTED-SCOPES.json) record the exact conclusions
+and verification levels. Scientific arguments, source
 verification, AI review and external human peer review remain distinct.
 
 ## 1. Unequal-weight two-row LR families
@@ -99,9 +100,9 @@ they do not constitute an independent general LR or hive implementation.
 The exact profile and site counts are reported by the command.
 
 Read the [slope-two proof](../proofs/pro027/019-UNEQUAL-WEIGHT-NONCENTRAL-POSITIVITY.md)
-and [slope-three proof](../proofs/root/SLOPE-THREE-PROOF.md). Pro027 supplied
-the count formulas and slope-two sign proof. The root supplied the stronger
-slope-three profile comparison and sign argument. Classical Schur identities
+and [slope-three proof](../proofs/root/SLOPE-THREE-PROOF.md). The count formulas and slope-two sign proof were developed with GPT 6 Pro
+assistance. The slope-three profile comparison and sign argument were
+developed with Codex; the provenance account distinguishes these contributions. Classical Schur identities
 and earlier two-row work remain credited. The result covers these suffix-sum
 families, with arbitrary positive weights; it does not settle every two-row
 LR coefficient, higher slopes or all-rank KTT.
@@ -243,7 +244,7 @@ nonconstant shell coefficients and the final shell identity. It also checks
 all seven explicit positive grade-seven table witnesses against their margins.
 It does not repeat the historical 189-group signed-assignment count.
 
-The [root cone proof](../proofs/root/TRANSPORT-CONE-LINEAR-COEFFICIENT.md)
+The [transportation cone proof](../proofs/root/TRANSPORT-CONE-LINEAR-COEFFICIENT.md)
 uses these linear endpoints with a separate complete sector and Minkowski
 argument. For integers `u>=1,v>=0`, rows `(7u+v,5u,4u,u)` and columns
 `(4u+v,3u,2u,2u,2u,2u)`, it gives

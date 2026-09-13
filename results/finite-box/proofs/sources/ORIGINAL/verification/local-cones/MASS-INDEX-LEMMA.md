@@ -1,8 +1,7 @@
 # A lattice-index bound for complete coordinate-identification hives
 
-Root derivation for Frontier025 return verification, 10 September 2026.
-This is a mathematical addition proposed for independent review, with no
-claim of worldwide novelty.
+This proposed strengthening of the short-normal bound remains subject to
+independent review.
 
 Let the entire hive have a full-dimensional saturated chart in `Z^d` obtained
 by assigning each original coordinate an integral boundary-linear offset plus
@@ -68,7 +67,7 @@ Thus even index one permits a negative local three-cone constant. Actual
 whole-hive incidence and the sum over all relevant faces remain essential;
 no entire LR negative coefficient is supplied by these three rows alone.
 
-There is a concrete obstruction to transferring the return's negative Reeve
+There is a concrete obstruction to transferring the negative Reeve
 example directly into this class. Its two-pyramid simplex has vertices
 `0,e1,e2,(1,1,m,0,0),e4,e5` in `Z^5`. Two primitive inward facet normals are
 `(m,0,-1,0,0)` and `(0,0,1,0,0)`. Their common face is

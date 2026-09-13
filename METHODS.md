@@ -17,7 +17,7 @@ computational responsibilities and the limitations of the resulting evidence.
    gaps, apply tensor/determinant symmetries and positive dilation, and use
    proper Horn factorization with its hypotheses. Tableau bijections and
    representation identities justify these operations for every stretch;
-   matching a few counts is insufficient. Keep each original preimage and scale.
+   matching a few counts is insufficient. Each reduction records its original preimages and scale.
 3. **Prove the actual geometry.** Reconstruct all hive inequalities and the
    corresponding tableau system, retain the full integer lattice, and certify
    the actual affine hull before counting relative-interior points. A chart's
@@ -43,12 +43,12 @@ exact population table and links into preserved source proofs.
 
 | Observation | Why it matters mathematically | Resolution and retained limit |
 |---|---|---|
-| A simple quintic linear-coefficient sufficient bound could be negative for a positive polynomial | A failed lower bound is not a negative coefficient | Retain the third interior term and verify the stronger exact identity |
-| Strictifying an oversized affine chart can count the wrong interior | Reciprocity requires the true relative interior and actual dimension | Verify forced equalities, a saturated integer inverse and a strict witness in the final hull |
+| A simple quintic linear-coefficient sufficient bound could be negative for a positive polynomial | A failed lower bound is not a negative coefficient | The third interior term gives the stronger exact identity |
+| Strictifying an oversized affine chart can count the wrong interior | Reciprocity requires the true relative interior and actual dimension | Forced equalities, a saturated integer inverse and a strict witness certify the final hull |
 | Fractional split syntax could skip an integer point in a supplied upper-bound tree | An incomplete partition cannot certify a global upper bound | The independent checker requires integral splits and checks both children; retained trees pass |
-| Some unused checks at large grades were unnecessarily expensive | A timeout supplies no value and cannot be counted as agreement | Keep every original determining node; use a frozen first-two-unused-positive-grades rule for 40 parents and recount all 80 replacements; original larger-grade observations remain supplemental |
-| Aggregation and metadata assembly timed out despite completed numerical work | Completed counts are not a completed identity join | Preserve the failed attempts; authenticate the permitted caching adaptations and finish the exact union under separately stated metadata limits |
-| An auxiliary gap-three polynomial has negative ordinary coefficients while its parent is positive | Auxiliary negativity need not survive the full LR count | Publish both objects at their precise scopes; no counterexample is inferred |
+| Some unused checks at large grades were unnecessarily expensive | A timeout supplies no value and cannot be counted as agreement | Every determining node was retained; a fixed first-two-unused-positive-grades rule gave 80 recounted replacements for 40 parents; original larger-grade observations remain supplemental |
+| Aggregation and metadata assembly timed out despite completed numerical work | Completed counts are not a completed identity join | The failed attempts were retained; authenticated caching adaptations completed the exact union under separately stated metadata limits |
+| An auxiliary gap-three polynomial has negative ordinary coefficients while its parent is positive | Auxiliary negativity need not survive the full LR count | Both objects are retained at their precise scopes; the auxiliary sign does not transfer to the complete LR polynomial |
 
 The unused-check change was selected from node locations, without choosing
 grades by favorable values. The 1,854 retained original numerical sites and
@@ -60,11 +60,10 @@ implementations and earlier incomplete attempts.
 
 ## Who did what, and what “independent” means here
 
-Chris Hadad chose the research objectives, supplied resources, continued
-external research sessions and steered the work. GPT 6 Pro proposed much of
+Chris Hadad directed the research and supplied computational resources. GPT 6 Pro proposed much of
 the mathematics, proof development, data and source programs. Codex developed
 and ran separate checkers, rederived consequential arguments, organized the
-evidence and integrated the results. Earlier Codex and Claude/Fable research
+evidence and integrated the results. Earlier work with Codex and Claude
 supplied specific geometric, counting and certificate prerequisites. The
 [provenance account](PROVENANCE.md) retains those result-specific attributions.
 
@@ -78,13 +77,11 @@ that independence claim does not transfer to every later module.
 
 ## What a reader can inspect
 
-The public-content proposal includes mathematical source proofs, complete
-selected certificates and numerical inputs, independently written code,
-source maps, reproduction instructions, failure explanations and attribution.
-It excludes private correspondence, operator conversations, credentials and
-unrelated account or workflow state. Source filenames and old receipt labels
-are retained where needed to make the audit trail unambiguous; a reader need
-not learn the internal session vocabulary to follow the note or run the tools.
+The repository supplies mathematical proofs, complete selected certificates
+and numerical inputs, independently written code, source maps and reproduction
+instructions. Stable record identifiers connect each input to the same
+mathematical object in its proof and verification output. The exposition uses
+mathematical names; the source maps preserve the original identifiers.
 
 The portable finite-box route regenerates its required finite premises. It
 still cites universal theorems, including Ferudun's result, rather than

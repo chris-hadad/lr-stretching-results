@@ -1,6 +1,6 @@
 # Polynomiality on the complete clipped parameter cone
 
-Root derivation, FRI. Proposed proof for independent review. Write
+Write
 `s=m+b`, where `0<=b<=m` are integers. The contraction in
 RANK8-AGGREGATION.md is one polynomial of total degree at most 21 in `m,b`
 on this entire closed cone. No extra chamber or exceptional small parameter

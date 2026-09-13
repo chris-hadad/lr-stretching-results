@@ -1,225 +1,489 @@
 {
-  "scope": "Unchanged mathematical source proof copies; reader-facing statements outside this directory are separately authored and checked.",
+  "scope": "Current editorial projections of the identified mathematical proof sources. Original source identities are retained; mathematical displays and executable code are preserved.",
   "files": [
     {
       "path": "pro027/001-COMPLETE-GAP3-CLUSTERS.md",
-      "bytes": 8726,
-      "sha256": "856be9a425a2128a6945fe351f2fed7a9bb4c6b0d6b3dd79046c0499ad0b2ee7"
+      "bytes": 8588,
+      "sha256": "1612e05242f043464cb9a32d0b2d30b9c1612c6fa8a18b5806907a2a18517c6f",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8726,
+        "sha256": "856be9a425a2128a6945fe351f2fed7a9bb4c6b0d6b3dd79046c0499ad0b2ee7"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/002-QUOTIENT-LATTICE-AND-ZERO-GRADE.md",
-      "bytes": 2998,
-      "sha256": "2c04ae096d5cbe797687f2b0db39e434f10f73ee3d484b71d811af88a35692ea"
+      "bytes": 3024,
+      "sha256": "1bf242992287e4d5a936fa8a343a0bbe13a847f009bb5cbaf63c4eac2a28a200",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 2998,
+        "sha256": "2c04ae096d5cbe797687f2b0db39e434f10f73ee3d484b71d811af88a35692ea"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/003-SHARP-AFFINE-THRESHOLD.md",
-      "bytes": 2940,
-      "sha256": "327a4aa1a7c7d2abfbd343a0bc03447f148426e926cc88bddc7da15256948e58"
+      "bytes": 2965,
+      "sha256": "b56efe0b36cecb362f7807d04c040d77d58f88010b757b06fe6193c10ad1c1e1",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 2940,
+        "sha256": "327a4aa1a7c7d2abfbd343a0bc03447f148426e926cc88bddc7da15256948e58"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/004-UNBOUNDED-RANK6-POSITIVITY.md",
-      "bytes": 8890,
-      "sha256": "6c10cb939acd268024183863dbe42b32f958eebdcea117f4282828b376927e0f"
+      "bytes": 8797,
+      "sha256": "123136f4dfff6319e202cfc281fed1e3d5c8d81896690aa94b8406dceaf67918",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8890,
+        "sha256": "6c10cb939acd268024183863dbe42b32f958eebdcea117f4282828b376927e0f"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/005-COMPLETE-QUADRANT-AND-DUALITY.md",
-      "bytes": 7695,
-      "sha256": "891aff98fd8cbb3be6cccf97de2ce8ea7aa8d6d91ab466645768cf96de6d0229"
+      "bytes": 8278,
+      "sha256": "09af03b7850f83b390f991e9b81c3353d38712dfec3ed834f9b123b03544240b",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7695,
+        "sha256": "891aff98fd8cbb3be6cccf97de2ce8ea7aa8d6d91ab466645768cf96de6d0229"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/006-QUOTIENT-MOMENTS-AND-POSITIVE-CERTIFICATE.md",
-      "bytes": 7111,
-      "sha256": "17120234ce93cf9d964e3d1b5989b99ed585a3539e5670018baa365942adfd66"
+      "bytes": 7008,
+      "sha256": "c97e41ce67c221dc34fa62dac0f3c8d64e945df79f9a6d2fa1a310c37ffa857f",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7111,
+        "sha256": "17120234ce93cf9d964e3d1b5989b99ed585a3539e5670018baa365942adfd66"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/007-HOMOGENEOUS-CONE-AND-BOUNDARIES.md",
-      "bytes": 9370,
-      "sha256": "af4f7b8a83451772aa7fef9b592db3ffb76215231eb2b1e3ec4c7fb4cf34762c"
+      "bytes": 9623,
+      "sha256": "ccbcf45c0448622efd8ea1ed724841ef8f1337380d4967f5eb8df3ce075f14a4",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 9370,
+        "sha256": "af4f7b8a83451772aa7fef9b592db3ffb76215231eb2b1e3ec4c7fb4cf34762c"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/008-INITIAL-WALLS-AND-POSITIVE-DIFFERENCES.md",
-      "bytes": 4538,
-      "sha256": "cd3515889f93163447de615f13746bc94d74c579a56042483a9b52d655b79480"
+      "bytes": 4689,
+      "sha256": "9681d0fd7c07a3279c5a7c9f2b4adaed2e9db9ba3fb6cf2d48e48fa78c0533c1",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4538,
+        "sha256": "cd3515889f93163447de615f13746bc94d74c579a56042483a9b52d655b79480"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/009-RESIDUE-INVOLUTIONS-AND-ODD-REDUCTION.md",
-      "bytes": 6729,
-      "sha256": "f5fe475a01000d8314b6b94888995efcb76fd812d7b69f80d06b7de77daa75e1"
+      "bytes": 6811,
+      "sha256": "6d970d55a4ce56088b93f9195808fafb13d99bbea5fc3fdbe8765453f684646a",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 6729,
+        "sha256": "f5fe475a01000d8314b6b94888995efcb76fd812d7b69f80d06b7de77daa75e1"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/010-ODD-FIVE-CERTIFICATE-AND-SIX-LAYERS.md",
-      "bytes": 4086,
-      "sha256": "5ea2668e8463bae9a81b7e0767edd3fc778a677b4d105b589248d4e3f5a0b588"
+      "bytes": 4454,
+      "sha256": "45bbf678fa80e0a86f1a64eef147a337e9debadf7034f0b7e79e38879066b582",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4086,
+        "sha256": "5ea2668e8463bae9a81b7e0767edd3fc778a677b4d105b589248d4e3f5a0b588"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/011-COMPLETE-RANK10-CAP-RELEASE-FAMILY.md",
-      "bytes": 7062,
-      "sha256": "4b5e120e01cf7feb8529c79e002b90453140d6affd21f3d395b4b5d544999f32"
+      "bytes": 7153,
+      "sha256": "25d86dd2ab23a370c2d76786b81254a1710906578e04bc6740d2037173bbf221",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7062,
+        "sha256": "4b5e120e01cf7feb8529c79e002b90453140d6affd21f3d395b4b5d544999f32"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/012-INDEPENDENT-WHOLE-MODELS-AND-CHALLENGES.md",
-      "bytes": 5608,
-      "sha256": "021f7be88ab875a6f0feb47d20c1d4fa91abf9b46d3c790b0963ed5113f8c8f5"
+      "bytes": 5848,
+      "sha256": "87385d75eb68aaa108e0b239754242b9d6c6ab71b9341639d828d1bb828b6f33",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 5608,
+        "sha256": "021f7be88ab875a6f0feb47d20c1d4fa91abf9b46d3c790b0963ed5113f8c8f5"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/013-COMPLETE-BANK-CONTRACTION.md",
-      "bytes": 4040,
-      "sha256": "540e4c22d7ba889054f87a466401f5b92722e35138ae6d3d623f2f5782c0fce1"
+      "bytes": 4079,
+      "sha256": "f6376ddd8c9f37c559fda8d56aabf445870672e4c07b8de702e0539f3b914a85",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4040,
+        "sha256": "540e4c22d7ba889054f87a466401f5b92722e35138ae6d3d623f2f5782c0fce1"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/014-ALL-RANK-BANK-POSITIVITY.md",
-      "bytes": 5599,
-      "sha256": "9d32d3d56e9097c633ac2b967ea56e8ee28d20a7c43657767f484fa1b3f5ff8c"
+      "bytes": 5817,
+      "sha256": "7636f3dccfc70be0232e9f2c20f77e8d9f1d2166d56f6b6161041ebac8974081",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 5599,
+        "sha256": "9d32d3d56e9097c633ac2b967ea56e8ee28d20a7c43657767f484fa1b3f5ff8c"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/015-COMPLETE-GAP-WALLS-AND-LINEAR-TENTS.md",
-      "bytes": 5496,
-      "sha256": "b1601c835c2cd04d435bdac4378af60001597f897380594022449ada2217c379"
+      "bytes": 5778,
+      "sha256": "c0fec915d5e96a52a7d9b008a256ede9bf865334045325a5348ff4da3c35fd76",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 5496,
+        "sha256": "b1601c835c2cd04d435bdac4378af60001597f897380594022449ada2217c379"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/016-MARKED-LEAKAGE-AND-CAP-CHALLENGE.md",
-      "bytes": 6015,
-      "sha256": "30912b166f239f2f66d34d4bfe6292cb6233ae551495cdcc45d06e70df31b818"
+      "bytes": 6718,
+      "sha256": "6498019ceba1c8306359c82159762be5fafa1e25d4dcbf816e22bffaaa1763f2",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 6015,
+        "sha256": "30912b166f239f2f66d34d4bfe6292cb6233ae551495cdcc45d06e70df31b818"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/017-COMPLETE-FLOW-INTERIOR-GENERATION.md",
-      "bytes": 8624,
-      "sha256": "617d4c8445f4a1bb6f0192c2f663f5ee5027edf90699a31773c5eb06d7617a26"
+      "bytes": 8646,
+      "sha256": "2c209027614151797a028843ffd1291f2effdc653a7f48e777080f0d950ba121",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8624,
+        "sha256": "617d4c8445f4a1bb6f0192c2f663f5ee5027edf90699a31773c5eb06d7617a26"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/018-EXACT-TRANSLATED-INTERIOR-INTERSECTIONS.md",
-      "bytes": 5325,
-      "sha256": "7c7fcd94a63343f55088d3d91976d3b02c8fa9cde78fae672168afa279ef645e"
+      "bytes": 5790,
+      "sha256": "8cc66a57a6c21572028a71b8fa4f3db71efe538c649ba3e217f24ade553dc6a0",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 5325,
+        "sha256": "7c7fcd94a63343f55088d3d91976d3b02c8fa9cde78fae672168afa279ef645e"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/019-UNEQUAL-WEIGHT-NONCENTRAL-POSITIVITY.md",
-      "bytes": 7441,
-      "sha256": "115bcb153b74a7f02473095664f4cc56c993762c0b0cc17ebac71c16db8aced0"
+      "bytes": 7533,
+      "sha256": "708b2c807d0e6206669ae3f7f557fba7354c28a25df66e74f9f51a9bc524b520",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7441,
+        "sha256": "115bcb153b74a7f02473095664f4cc56c993762c0b0cc17ebac71c16db8aced0"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/020-QUANTITATIVE-SURPLUS-AND-UNCOVERED-STRATA.md",
-      "bytes": 7976,
-      "sha256": "09a5ebb2781fcd5be12f750cd44c2ef48af8ce491c53862cdfb7321d819ebbfe"
+      "bytes": 8636,
+      "sha256": "9c433000cedd30e5b9a9e771a472624581ee80eb94bd372239b71f25bcc9b025",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7976,
+        "sha256": "09a5ebb2781fcd5be12f750cd44c2ef48af8ce491c53862cdfb7321d819ebbfe"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/021-BOUNDARY-AWARE-FACET-REDUCTION.md",
-      "bytes": 10163,
-      "sha256": "8a59f4f1231e5527a48d49ee3dbcac36a96e096e0b4c66f1f55f6bb2d414e61a"
+      "bytes": 10213,
+      "sha256": "b39191d06dbdb684f5e9f8dcc5a376010e9636c412589da6d41be02e67e04594",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 10163,
+        "sha256": "8a59f4f1231e5527a48d49ee3dbcac36a96e096e0b4c66f1f55f6bb2d414e61a"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/022-HIDDEN-STRATA-BY-DUAL-VALUATION.md",
-      "bytes": 5906,
-      "sha256": "eab9a474cb89096164847495e5325050f109d92238f1f92c85aaf675d36719c3"
+      "bytes": 5735,
+      "sha256": "805dfeb1d75a9ea5df59530dc7d7a7d7100919617848013407e16d3475d21ad1",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 5906,
+        "sha256": "eab9a474cb89096164847495e5325050f109d92238f1f92c85aaf675d36719c3"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/023-ALL-SIZE-FOUR-COORDINATE-LR-POSITIVITY.md",
-      "bytes": 9659,
-      "sha256": "3f450847069d4a32f711410975a016b602b7766236746ab07accbae57d0e75cc"
+      "bytes": 9823,
+      "sha256": "b6d2df6ff313a84b43511434de21e3cd6b1e698dfd4420377e8e8e15346bb4cc",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 9659,
+        "sha256": "3f450847069d4a32f711410975a016b602b7766236746ab07accbae57d0e75cc"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/024-CO-REALIZED-CONES-AND-BOUNDARY-CHALLENGE.md",
-      "bytes": 7188,
-      "sha256": "0b89b8a9c842c17cdad910ac2d5068ec4ed9dd0de2de55a8d2dda724bbbb45e7"
+      "bytes": 6896,
+      "sha256": "85671421f1bace9495ddade1b21f618e664647933f054d225612dae5498a38cc",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7188,
+        "sha256": "0b89b8a9c842c17cdad910ac2d5068ec4ed9dd0de2de55a8d2dda724bbbb45e7"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/025-COMPLETE-REFINED-NORMAL-CYCLE.md",
-      "bytes": 8039,
-      "sha256": "8d0aff3e9d76189804b04061da32b9137892376d45d33e2c6130248f3a5f2409"
+      "bytes": 7927,
+      "sha256": "cb935f1c1eef41e711c89e885ea39f1d9242c4c5017c9bc5feec05053736e935",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8039,
+        "sha256": "8d0aff3e9d76189804b04061da32b9137892376d45d33e2c6130248f3a5f2409"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/026-ALL-SIZE-FIVE-COORDINATE-DOMAINS.md",
-      "bytes": 9874,
-      "sha256": "92a28c772138f715a766284fdf4d540a57b3b20cba99a7e52628811863dd0629"
+      "bytes": 10402,
+      "sha256": "e5f16754f459ed222fae9995c2ab2d9842ff7db3dba622a9f1e30b09ff600334",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 9874,
+        "sha256": "92a28c772138f715a766284fdf4d540a57b3b20cba99a7e52628811863dd0629"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/027-ACTUAL-NEGATIVE-EDGE-AND-INDEX-CHALLENGES.md",
-      "bytes": 8578,
-      "sha256": "99de3a7ae512a8dbb78526722f14a57bd69473716c336a8017f646ae04798c20"
+      "bytes": 8420,
+      "sha256": "39741650c67694e1bed337d211e1808233bf912e1decdf4851255bcae86814eb",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8578,
+        "sha256": "99de3a7ae512a8dbb78526722f14a57bd69473716c336a8017f646ae04798c20"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/028-ALL-RANK6-FIVE-COORDINATE-POSITIVITY.md",
-      "bytes": 12533,
-      "sha256": "5656cf9296d53b7caad7767f0b1ccb06eee4cbb9fe2abd9a3c15898020a075d5"
+      "bytes": 13203,
+      "sha256": "0406c1368aaaf2919ba7e1e8f96e5eaeded321b6d1240ede27dda294e4159900",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 12533,
+        "sha256": "5656cf9296d53b7caad7767f0b1ccb06eee4cbb9fe2abd9a3c15898020a075d5"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/029-EXACT-LATTICE-ISOMETRIES-AND-FINITE-CERTIFICATE.md",
-      "bytes": 9827,
-      "sha256": "69ee3b5023fbb5b16340d8c350cf9e08bc611ccd028c711d03abbaeb16cb824f"
+      "bytes": 9668,
+      "sha256": "c1e07b00cb8614dbaa3f17d2628fad6ac0756c942299c95ba239b1e0492113c4",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 9827,
+        "sha256": "69ee3b5023fbb5b16340d8c350cf9e08bc611ccd028c711d03abbaeb16cb824f"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/030-COMPLETE-FAN-AND-PERIODIC-BOUNDARY-CHALLENGES.md",
-      "bytes": 7855,
-      "sha256": "cf51d53264b1743d42b8abec707626ee240fbf092c13110aa94e9b5f7da7e61c"
+      "bytes": 7929,
+      "sha256": "225bb9f5d175b5fa63ceb1f16479bf22486f872126a6fc15a84fcf474aebb377",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7855,
+        "sha256": "cf51d53264b1743d42b8abec707626ee240fbf092c13110aa94e9b5f7da7e61c"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/031-ALL-RANK6-SIXTH-COEFFICIENT.md",
-      "bytes": 10079,
-      "sha256": "d6acd559213cd3c37d346915e23ba3a7fe2e6bdeddc4cc0d38a23947bbe7b6d5"
+      "bytes": 10511,
+      "sha256": "6623b5ebfae367887ca883999561ce10730df022c99fb0697fa926c363832a90",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 10079,
+        "sha256": "d6acd559213cd3c37d346915e23ba3a7fe2e6bdeddc4cc0d38a23947bbe7b6d5"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/032-COMPLETE-SIX-FACE-VOLUMES-AND-BALANCES.md",
-      "bytes": 7862,
-      "sha256": "43b2d2db28a7cc9c62d838c169e1808b00b09fcf80fb7765b9e0c5d3cf2d785d"
+      "bytes": 7826,
+      "sha256": "60f8d89511b0ce6c8f9874494a7873c375cb2f4334368d6f7e9228ce8d8b72d8",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7862,
+        "sha256": "43b2d2db28a7cc9c62d838c169e1808b00b09fcf80fb7765b9e0c5d3cf2d785d"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/033-COMPLETE-CONE-EXCLUSION-AND-PRIMITIVE-CHALLENGE.md",
-      "bytes": 6996,
-      "sha256": "ac7da568650f1f530bcf377fc473a71771fcc2b4d9cb00cf3cb46b6394c66da9"
+      "bytes": 6711,
+      "sha256": "64d5b4e080f1e7283fd514dab299da61d25a5db460e06f5f5ee89cfd580d1020",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 6996,
+        "sha256": "ac7da568650f1f530bcf377fc473a71771fcc2b4d9cb00cf3cb46b6394c66da9"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/034-ALL-RANK7-ELEVENTH-COEFFICIENT.md",
-      "bytes": 9821,
-      "sha256": "9eec3a1e70fd1500942e8b28b2f055450f04a10cfa346577021664e92096872a"
+      "bytes": 10120,
+      "sha256": "f08a32c0f921b829020c5ffaf280aa9dd2de19224996f73922af7fe31c0080dd",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 9821,
+        "sha256": "9eec3a1e70fd1500942e8b28b2f055450f04a10cfa346577021664e92096872a"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/035-STABLE-FLOW-HIVE-MAP.md",
-      "bytes": 5680,
-      "sha256": "f61c555b4876d1604152a4e623e30dc8ee625120842e6bc7601abc46330f3f5f"
+      "bytes": 5608,
+      "sha256": "ff7aa87823ef41cb6aa9e9c1f59bfc050b0cbc20bcb61bc5357b5ad34f81bb4a",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 5680,
+        "sha256": "f61c555b4876d1604152a4e623e30dc8ee625120842e6bc7601abc46330f3f5f"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/036-COMPLETE-ELEVEN-FACE-CHALLENGE.md",
-      "bytes": 8208,
-      "sha256": "796a1ca2441a7db6dd481403b3623dd8e2f07d031578104a412f6db0819e5c7a"
+      "bytes": 8726,
+      "sha256": "b5d85adcdaa3c60b6864d519980f599e9288548a66e1134f9d2680acf1b13760",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8208,
+        "sha256": "796a1ca2441a7db6dd481403b3623dd8e2f07d031578104a412f6db0819e5c7a"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/037-TWELVE-COMPONENT-AND-RELEASE-CHALLENGES.md",
-      "bytes": 7661,
-      "sha256": "1f46376554c5323a44850be9c70259be1fb52b0aa319d48d26f1a3821acf911c"
+      "bytes": 7529,
+      "sha256": "d75e53fb6d87cecd3faff9dcf95b5232e88e970cdcc0457db4af7745f00ed59c",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7661,
+        "sha256": "1f46376554c5323a44850be9c70259be1fb52b0aa319d48d26f1a3821acf911c"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/038-INTRINSIC-BOUNDARY-PATCH-COMPENSATION.md",
-      "bytes": 7469,
-      "sha256": "42c1a6d9795c137856d269b21b88e453d8cef52dd429a439f6bc03c9da52b776"
+      "bytes": 7611,
+      "sha256": "5dacbec7887a4fb4d53a11537e6f3011348a9a2e331e4e3b65b1c33004ff41fd",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7469,
+        "sha256": "42c1a6d9795c137856d269b21b88e453d8cef52dd429a439f6bc03c9da52b776"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/039-EXACT-ISOMETRY-OBSTRUCTION.md",
-      "bytes": 4236,
-      "sha256": "210c765c4d2194fc3e79b7153802b87efc5a1c4cb24f3883acc3da91b06c3179"
+      "bytes": 4383,
+      "sha256": "587dd9d20945f1a2cd6cc05e53e39db3b95f9411d2ea98aff866cf73935d5495",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4236,
+        "sha256": "210c765c4d2194fc3e79b7153802b87efc5a1c4cb24f3883acc3da91b06c3179"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/040-FINITE-RANK-PATCH-REDUCTION.md",
-      "bytes": 6873,
-      "sha256": "8f7074091819d1a9c50a31e7d9583efe068a15ca7b472ec37b2bd2070c64284f"
+      "bytes": 7503,
+      "sha256": "77b9936e9d3b43cb48b9a7846245dcf168b1990d25c7d005e285061e5da07a4d",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 6873,
+        "sha256": "8f7074091819d1a9c50a31e7d9583efe068a15ca7b472ec37b2bd2070c64284f"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/041-RANK8-STARS-AND-ARITHMETIC-REPAIR.md",
-      "bytes": 4479,
-      "sha256": "b46e41dc328592f4a1660b66ab55330fbd4f7f72c82524f11140c25a922c9edb"
+      "bytes": 4652,
+      "sha256": "22adb512ecb120dada1cc0d80c48e6e20e3b99fd8ce7c91c112c74f3e6b93354",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4479,
+        "sha256": "b46e41dc328592f4a1660b66ab55330fbd4f7f72c82524f11140c25a922c9edb"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "pro027/042-CODIMENSION-FOUR-THROUGH-RANK-TWELVE.md",
-      "bytes": 12906,
-      "sha256": "9ff244d13b9b562b27c2a7f874b82dc71dca5ba5271f6afbf0b4be5a96d91f48"
+      "bytes": 13321,
+      "sha256": "f5e6f30d02d210760020b7eac087e41b88490cefa7b4c26e2df9629e1a3a5c34",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 12906,
+        "sha256": "9ff244d13b9b562b27c2a7f874b82dc71dca5ba5271f6afbf0b4be5a96d91f48"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "root/SLOPE-THREE-PROOF.md",
-      "bytes": 5369,
-      "sha256": "7e1a810c396dd3948c3cb9b8a75cf136836f3d299f362001a6f853ac35d26b70"
+      "bytes": 5427,
+      "sha256": "5f6e9f0c8e79fe5981a96f3745028712ad97aa0ae1ec92bacb3ca58669e2af17",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 5369,
+        "sha256": "7e1a810c396dd3948c3cb9b8a75cf136836f3d299f362001a6f853ac35d26b70"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     },
     {
       "path": "root/TRANSPORT-CONE-LINEAR-COEFFICIENT.md",
-      "bytes": 11474,
-      "sha256": "b5bd72785e2263acb908cb0d788e385a44c34877c48fa851df7d67c5114267a9"
+      "bytes": 11634,
+      "sha256": "cbdfaeb043af0716dba4ab9375aacc3f0db87efc063cda5a0f1d1d0c25860327",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 11474,
+        "sha256": "b5bd72785e2263acb908cb0d788e385a44c34877c48fa851df7d67c5114267a9"
+      },
+      "transformation": "Public mathematical exposition; original source version retained in provenance."
     }
   ]
 }

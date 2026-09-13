@@ -1,38 +1,35 @@
-# Assistance and prior mathematical work
+# Research contributions and AI assistance
 
-This result arose in a substantially AI-assisted research campaign directed
-by Chris Hadad. GPT 6 Pro developed the Pro026 proof over twelve substantive
-units and supplied mathematical arguments, data and programs. Earlier Pro,
-Codex and Claude/Fable work contributed the reductions and proof premises
-identified in the source map. Codex read the returned arguments and data,
-developed separate exact checker implementations, carried out fresh numerical
-recounts and integrated the proof. Independent AI review seats examined frozen
-mathematical and implementation scopes; identified defects and their repairs
-were dispositioned before acceptance.
+Chris Hadad directed this research and supplied computational resources.
+GPT 6 Pro contributed the finite-box argument, numerical data and initial
+programs. Codex examined the proposed mathematics, developed separate exact
+checker implementations, carried out numerical recounts and assembled the
+proof and its verification records. Earlier work with Codex and Claude supplied
+specific reductions, geometric models and counting prerequisites identified
+in the source maps.
 
-Chris set the research objectives, selected and continued frontier work,
-supplied resources and steered the campaign. This account does not assert that
-he independently verified every mathematical step. A future paper's authorship
-remains his decision; models are not assigned human authorship. Content-blind
-byte capture is different from blind mathematical verification. Separate model
-sessions, independent implementations and different counting representations
-are distinct evidence claims; shared mathematical premises remain shared.
+The finite-box verifiers saw the proposed proofs and data. Their work is
+therefore not described as blind verification. Separate AI contexts,
+independently written programs and different complete counting representations
+provide distinct forms of checking, with shared mathematical premises where
+stated. They do not constitute independent human peer review. The description
+of human research direction does not assert that every proof step received
+independent human verification.
 
-Alper Ferudun's theorem for partitions of length at most five and his correction
-and closed-chamber methods are explicit predecessors. The bibliography cites
-the public second version and exact GitHub revision used in the adoption.
-Earlier coefficient results and absent canonical generators retain their
-documented external-dependency status. Classical LR/hive models, saturation,
-polynomiality, reciprocity, Horn factorization and local Euler–Maclaurin theory
-receive their own citations. The campaign does not claim to have originated
-those methods.
+Alper Ferudun's theorem through partition length five and his normal-correction
+and closed-chamber methods are explicit predecessors. The bibliography names
+the public second version and precise manuscript revision used here. Earlier
+coefficient results and unavailable canonical generators retain their stated
+external-dependency status. LR/hive models, saturation, polynomiality,
+reciprocity, Horn factorization and local Euler–Maclaurin theory receive
+their own citations.
 
-The readable proof explains the mathematical progression: exact whole-count
-compression, true-interior diagnostics, one-unknown interpolation and bounds,
-followed by complete vectors for the hard tail. The verification record states
-what each independent representation and execution actually checks.
+The proof developed through exact whole-count reductions, true-interior
+diagnostics, one-unknown interpolation and bounds, followed by full vectors
+for the difficult remainder. [METHODS.md](../../METHODS.md) explains that
+development and the useful failures. The verification record identifies
+which representations and executions checked each finite premise.
 
-No private correspondence or operator chat is included here. There has been
-no independent human endorsement, journal acceptance or claim of community
-consensus. Historical novelty and licensing remain separate questions from
-the finite theorem and the verification performed here.
+External human mathematical review and the historical novelty of the
+individual contributions remain under assessment. The author list of the
+research-note draft has not been finalized.

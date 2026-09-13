@@ -1,8 +1,9 @@
 # Complete column-moment contraction of the three-cut LR count
 
-Root derivation, FRI, 9 September 2026. This is a proposed exact contraction
-of the adopted complete A05 tableau map, pending computational and independent
-verification. It asserts no ordinary coefficient sign.
+This exact contraction of the complete tableau map was derived on
+9 September 2026. Its role in the completed verification is described in
+[the verification summary](rank8-adoption.md). The contraction itself asserts
+no ordinary coefficient sign.
 
 Write `m=M*t`, `s=S*t`, with integers `0<=s<=2m`. Group the cross matrix's
 rows as row one, row two and the final two rows. Their totals are `p,q,r`,

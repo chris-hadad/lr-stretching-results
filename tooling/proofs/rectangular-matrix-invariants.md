@@ -21,7 +21,7 @@ labeled weights. The implementation keeps the complete Cartesian pairing of
 row and column Weyl profiles. It returns an integer, not a partial signed sum.
 
 The [maintained API source contract](sources/rectangular-api-original.md)
-and [adoption excerpt](sources/rectangular-adoption.md) document the
+and [verification summary](sources/rectangular-adoption.md) document the
 rectangular extension and work controls. The existing
 [square proof](matrix-invariants.md) gives the underlying weighted-table
 extraction. When p=q the rectangular API delegates to the square API. Its

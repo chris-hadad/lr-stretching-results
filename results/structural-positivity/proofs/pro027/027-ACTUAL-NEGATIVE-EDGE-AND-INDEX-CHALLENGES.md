@@ -1,6 +1,6 @@
 # A negative complete hive edge, positive whole quintics, and normalization challenges
 
-Claims FR027-P07-T003, C002, F001 and F002. Every negative observation below is a complete LOCAL cone or an explicitly scoped auxiliary control. No ordinary-negative entire LR coefficient was observed. Raw observations were saved before favorable completion/comparison.
+Every negative observation below concerns a complete local cone or an explicitly identified auxiliary example. No ordinary-negative entire LR coefficient was observed. Local observations and complete-object comparisons are recorded separately.
 
 ## The actual negative complete edge
 
@@ -10,9 +10,9 @@ With lambda outer, take the balanced bare triple
     mu=(9,9,6,4,2),
     nu=(10,8,6,4,2).
 
-Its ordinary rank is six and outer size60. The complete mask45 unit-identification chart has five selected coordinates and full saturated lattice Z^5. The integer point (31,51,36,46,39) is strict for every nonzero complete chart row; actual degree is therefore five and true codegree is one. It has 47 rational vertices and 163 edges. The full map, all original rows, strict point, vertices and every face cone are retained.
+Its ordinary rank is six and outer size 60. The complete mask45 unit-identification chart has five selected coordinates and full saturated lattice Z^5. The integer point (31,51,36,46,39) is strict for every nonzero complete chart row; actual degree is therefore five and true codegree is one. It has 47 rational vertices and 163 edges. The full map, all original rows, strict point, vertices and every face cone are retained.
 
-The edge from (30,50,35,45,39) to (31,50,35,45,39) has primitive direction e1 and normalized length one. Its COMPLETE transverse cone is simplicial, with four inward normals
+The edge from (30,50,35,45,39) to (31,50,35,45,39) has primitive direction e1 and normalized length one. Its complete transverse cone is simplicial, with four inward normals
 
     (0,-1,1,1,-1), (0,0,0,1,-1),
     (0,0,0,1,0),   (0,0,1,0,-1).
@@ -21,7 +21,7 @@ Its affine constants are respectively 9,-6,-45,4. All actual incident extreme no
 
     alpha_complete=-1/576.                               (1)
 
-Unlike the Unit6 selected negative three-cells, (1) is a genuinely negative COMPLETE local weight of a legal LR hive. Exact full boundary row deletion has already been applied and does not remove it. The negative local contribution is not a negative entire coefficient.
+In contrast with the selected negative three-cells in the four-coordinate examples, (1) is a genuinely negative complete local weight of a legal LR hive. Exact full boundary row deletion has already been applied and does not remove it. The negative local contribution is not a negative entire coefficient.
 
 The entire stretched LR polynomial is
 
@@ -31,18 +31,18 @@ Its complete counts at stretches 0,...,7 are
 
     1,69,772,3990,13788,37290,85553,174441.
 
-Nodes0,...,5 determine the prior quintic space;6 and7 are unused positive checks. Complete original hive enumeration and an independent literal LR reading-word rule agree at every node, with separate Lagrange and Newton arithmetic. The full uncorrected edge-volume sum is343/60, and the full two-face sum is355/24. Under the global normal-cycle certificate, the negative edge's corrected full weight is194352677/9000000000; the entire corrected edge sum stays EXACTLY343/60. This is simultaneous complete face-volume compensation, not another local deletion or a choice of metric at this edge alone.
+Nodes0,...,5 determine the prior quintic space; 6 and 7 are unused positive checks. Complete original hive enumeration and an independent literal LR reading-word rule agree at every node, with separate Lagrange and Newton arithmetic. The full uncorrected edge-volume sum is343/60, and the full two-face sum is355/24. Under the global normal-cycle certificate, the negative edge's corrected full weight is194352677/9000000000; the entire corrected edge sum stays EXACTLY343/60. This is simultaneous complete face-volume compensation, not another local deletion or a choice of metric at this edge alone.
 
-The first pilot, mask43, has bare triple
+The first example, mask43, has bare triple
 
     lambda=(13,13,13,8,8,5), mu=(9,9,6,4,2),
     nu=(10,8,6,4,2),
 
-also ordinary rank six, size60, saturated dimension five and codegree one, with strict point (42,51,36,46,39). It has46 vertices and159 edges, every complete local edge weight positive, and
+also ordinary rank six, size 60, saturated dimension five and codegree one, with strict point (42,51,36,46,39). It has 46 vertices and 159 edges, every complete local edge weight positive, and
 
     P_A(t)=1+28t/5+57t^2/4+21t^3+69t^4/4+69t^5/10.
 
-Its complete count sequence is1,66,734,3787,13077,35354,81094,165327. The same determining and unused nodes are retained. Both original triples return no adopted multiplicity-one proper Horn terminal in the checked source routine; that sufficient recognizer refusal is not nonmembership in every other positive model.
+Its complete count sequence is1,66,734,3787,13077,35354,81094,165327. The same determining and unused nodes are retained. Both original triples return no applicable multiplicity-one proper Horn factorization in the checked source routine; that sufficient recognizer refusal is not nonmembership in every other positive model.
 
 ## Nonhomothetic boundary tests and their exact spectrum limit
 
@@ -53,7 +53,7 @@ At s=2, the mask43 record has the SAME polynomial as s=0. No infinite distinct-p
     lambda=(16,16,9,9,9,5), mu=(9,9,6,4,2),
     nu=(12,10,6,4,2),
 
-of outer size64, and its complete polynomial is
+of outer size 64, and its complete polynomial is
 
     1+117t/20+373t^2/24+71t^3/3+479t^4/24+479t^5/60.
 
@@ -69,24 +69,24 @@ The unprimitive weighted sum is(0,1), NOT zero. Dividing the last vector by its 
 
 A separate quadrilateral in mask43 has lengths1,1/2,1,1/2 and raw restrictions(-1,0),(1,-1),(2,0),(-1,1). Its raw sum is(1,0); primitive normalization makes it zero. DATA/J08-NONPRIMITIVE-FALSIFIERS.json preserves full vertices, row IDs, bases and both sums. These are material normalization falsifiers, not merely warnings about a numerical tolerance.
 
-All complete refined edge weights were also rebuilt using one GLOBAL ambient normal-ray order for pulling. The resulting 340 and333 primitive balance equations vanish exactly. Independently sorting local quotient-coordinate rays was not assumed to define compatible subdivisions. The uncorrected and corrected full sums agree in both parents; every c2 sum agrees with the independent complete vector.
+All complete refined edge weights were also rebuilt using one GLOBAL ambient normal-ray order for pulling. The resulting 340 and 333 primitive balance equations vanish exactly. Independently sorting local quotient-coordinate rays was not assumed to define compatible subdivisions. The uncorrected and corrected full sums agree in both parents; every c2 sum agrees with the independent complete vector.
 
 ## Hidden affine strata are tested without changing the actual count
 
-A separate NON-LR control uses precisely the final22 normals of mask45. Give all affine constants one except the two opposite first-coordinate normals, whose constants are zero. The whole polytope lies in x1=0, has actual dimension four, saturated lattice Z^5 intersect{x1=0}, and21 integral vertices.
+A separate NON-LR control uses precisely the final 22 normals of mask45. Give all affine constants one except the two opposite first-coordinate normals, whose constants are zero. The whole polytope lies in x1=0, has actual dimension four, saturated lattice Z^5 intersect{x1=0}, and 21 integral vertices.
 
-Loosen row i by epsilon*10^i with epsilon=10^(-30). The resulting full-dimensional simple polytope has186 vertices. Every maximal basis has a verified limit at an actual original vertex; hence its normal fan is a compatible simplicial refinement of the original NONPOINTED fan. Its lattice counts are not used or assumed polynomial. Only its exact fan and its limit map are used.
+Loosen row i by epsilon*10^i with epsilon=10^(-30). The resulting full-dimensional simple polytope has 186 vertices. Every maximal basis has a verified limit at an actual original vertex; hence its normal fan is a compatible simplicial refinement of the original NONPOINTED fan. Its lattice counts are not used or assumed polynomial. Only its exact fan and its limit map are used.
 
-Every required refined-face weight and primitive quotient balance is retained in DATA/J09-HIDDEN-CYCLE-RAW.json. The complete normalized sums are55/12 and217/24 in degrees one and two and are invariant under the corrections. Independently counting the ORIGINAL hidden integral polytope gives
+Every required refined-face weight and primitive quotient balance is retained in DATA/J09-HIDDEN-CYCLE-RAW.json. The complete normalized sums are 55/12 and 217/24 in degrees one and two and are invariant under the corrections. Independently counting the ORIGINAL hidden integral polytope gives
 
     1+55t/12+217t^2/24+107t^3/12+107t^4/24.
 
-Two unused positive checks pass. This tests the all-strata mechanism of proof025 on an actual fan with lineality, rather than asserting continuity from perturbed Ehrhart polynomials. It is not an ordinary LR realization or an additional LR discovery.
+Two unused positive checks pass. This tests the all-strata mechanism of [Complete refined normal-cycle compensation, including hidden affine strata](025-COMPLETE-REFINED-NORMAL-CYCLE.md) on an actual fan with lineality, rather than asserting continuity from perturbed Ehrhart polynomials. It is not an ordinary LR realization or an additional LR discovery.
 
-## Preserved negative records, failures and source scopes
+## Negative records and computational limitations
 
-The full abstract local four-cone scan has103 negative occurrences at mask43 and71 at mask45; all174 are in the append-only raw negative file, before correction. The actual negative edge above overlaps this cone population and is not an additional independent discovery. The inherited mass-admissible negative three-cone times an orthogonal half-line gives the complete auxiliary control-55/2016. It is credited to that product/source mechanism, not called an entire LR candidate.
+The full abstract local four-cone scan has 103 negative occurrences at mask43 and 71 at mask45; all 174 are in the append-only raw negative file, before correction. The actual negative edge above overlaps this cone population and is not an additional independent discovery. The inherited mass-admissible negative three-cone times an orthogonal half-line gives the complete auxiliary control-55/2016. It is credited to that product/source mechanism, not called an entire LR counterexample.
 
-J05 successfully built the exact allowlisted C++ counter, passed all25 supplied fixtures and produced all32 complete original-chart counts. Its post-count driver then compared an integer roster ID with a string counter ID and failed before producing a coefficient vector. The complete source, all counts, stderr and failed wait survive. J06 repairs that exact identity typing under fresh source/output identities; no recount is invented for J05 and no failed scalar is called zero. J06 freezes all complete primary vectors before the independent literal counts and preserves every determining/unused value.
+The C++ counter passed all 25 supplied fixtures and produced all 32 complete original-chart counts. A subsequent data-type mismatch between integer and string identifiers prevented coefficient reconstruction in the initial attempt. Correcting that mismatch produced the complete primary vectors from the same counts. Every determining and unused value is retained, and the independent literal LR counts provide a separate comparison.
 
-All current scientific attempts have observed exact-worker-PID waits. The incoming240-second quarantine is carried unchanged. These data establish independent implementations, rational engines and complete counting models inside one originating mission. External campaign acceptance, global priority, whole-rank/full-KTT positivity and additive original-box coverage are not asserted.
+The evidence establishes independent implementations, rational arithmetic, and complete counting models within this study. External independent verification, global priority, whole-rank/full-KTT positivity, and additional original-box coverage are not claimed.

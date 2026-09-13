@@ -1,10 +1,9 @@
-# C011 independent proof and acceptance proposal
+# Whole transportation/LR counts and three-row coefficient positivity
 
-Status: worker-proposed mathematical verification; root and the independent
-mathematical review decide campaign adoption. This document proves the scoped
-statements rather than inferring them from the positive panel. Source identity
-and complete fifteen-claim inventory are in source-verification.json and
-claim-inventory.json. No returned code was executed or imported.
+This independent derivation proves the stated results rather than inferring
+them from a finite positive panel. Source identities and the complete
+fifteen-claim inventory are recorded separately. The independent calculation
+does not use the original AI-derived implementation.
 
 ## 1. Full transportation lattice and the complete LR bridge
 
@@ -84,7 +83,7 @@ where K_(a,b,c) extracts q_1^u q_2^v from
 
 The all-1 assignment contributes
 binom(r_2 t+N-1,N-1) binom(r_3 t+N-1,N-1). Every other eventual survivor
-has n_1>0, S_1>r_1, S_3<r_3 and a,b,c>0. Equality in either slope gate is
+has n_1>0, S_1>r_1, S_3<r_3 and a,b,c>0. Equality in either slope condition is
 excluded by its negative offset. For such a survivor,
 
     K_(a,b,c)(u,v)
@@ -112,8 +111,8 @@ the product denominators k! l! divide (k+l)!=d!.
 
 The independent evaluator uses scalar contractions only at t>=2N, then an
 integer finite-difference/Newton conversion to recover every coefficient.
-The implementation differs from the returned coefficient accumulator and
-uses no returned executable. Literal transportation DP and bare lrcalc
+The implementation differs from the original coefficient accumulator and
+uses an independent implementation. Literal transportation DP and bare lrcalc
 controls are separate count models; scalar contraction and Newton interpolation
 share the just-proved mathematical identity.
 
@@ -312,9 +311,9 @@ gives binom(2t+3,3)-4binom(t+2,3), or
 
 The naive four-row replacement in the three-row subset formula gives 2,
 so that proposed formula is falsified. This positive full polynomial is
-not an ordinary-negative candidate; an A3 correction remains possible.
+not an ordinary-negative example; an A3 correction remains possible.
 
-## 7. Evidence ceiling, source overlap and strongest next tests
+## 7. Verification limits, source overlap and open questions
 
 Independent arithmetic verifies all 39 main vectors and all 1,679 rational
 coefficients, degrees 2 through 126, using 1,679 determining stabilized scalar
@@ -331,22 +330,19 @@ These finite checks corroborate the proof; they do not replace its premises
 or enlarge the original-box coverage. The 16 absorber records remain a
 finite higher-coefficient positive panel.
 
-The returned C07 character note and nonnegative-m lemma match the supplied
-packet byte for byte. The scalar partial-fraction setup is inherited. The
+The source character note and nonnegative-multiplicity lemma match their
+recorded source bytes. The scalar partial-fraction setup is inherited. The
 transportation LR embedding and its 3-by-8 example already appear in
-[Ferudun, arXiv:2607.22301v1, section 7](https://arxiv.org/html/2607.22301v1),
+[Ferudun, arXiv: 2607.22301v1, section 7](https://arxiv.org/html/2607.22301v1),
 checked on 6 September 2026. This overlap establishes attribution only;
-the public version does not replace the campaign's separate rank-five pin.
+this version does not replace the separately specified rank-five source.
 No worldwide novelty, expert endorsement or publication priority is claimed.
 
 The proof excludes a negative linear coefficient in the entire stated
 three-row transportation family. It does not exclude higher ordinary
 negativity there, all LR linear negativity, or negativity with four rows.
-The strongest next discriminator is c2 of the complete A2 contraction,
-retaining the three-way terms whose c1 cancellation no longer suffices.
-A distinct surviving route is a four-row A3 correction passing the exact
-7/3 fixture before any larger search. Six-run constant-direction flow,
-bounded complete-graph constructions and a one-exceptional-column chamber
-roster were uncomputed here; none is retired by this result. No original-box
-coverage increment, broad search, successor execution or external dispatch
-is authorized by this proof proposal.
+The complete A2 contraction's c2 retains three-way terms whose c1
+cancellation no longer suffices. Four-row A3 corrections require the exact
+7/3 reference value. Six-run constant-direction flows, bounded complete-graph
+constructions and a one-exceptional-column chamber roster are not computed in
+this note. The result does not exclude them or add finite-box coverage.

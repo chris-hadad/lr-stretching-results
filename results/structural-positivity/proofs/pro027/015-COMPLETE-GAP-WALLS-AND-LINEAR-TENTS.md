@@ -1,6 +1,6 @@
 # Every zero-h cap wall and a positive whole-parent first jet
 
-Claims FR027-P04-T004,T005. This retains the complete family m=k+1>=2, h=0, integer0<=g<=2k, p=2k-g. The broader all-ordinary signs are not assumed. The g1 theorem is proof014; endpoints have separate full formulas.
+This proof retains the complete family m=k+1>=2, h=0, integer0<=g<=2k, p=2k-g. Positivity of all ordinary coefficients is not assumed. The g1 theorem is [Whole-bank ordinary positivity at unbounded rank](014-ALL-RANK-BANK-POSITIVITY.md); the endpoints have separate full formulas.
 
 ## Entire family and all-stretch contraction
 
@@ -8,13 +8,13 @@ The balanced partitions are
 lambda=(8m-2,(6m-2i)_(i=1..m),4m,2m),
 mu=(6m-2,(6m-2-2i)_(i=1..m-1),2m+g,2m),
 nu=(6m-2-g,2m,2m).
-Outer size5m^2+13m-2, ordinary rankm+3. For g>0 the entire source chart has saturated lattice Z^(2m-1), actual degree2m-1 and true codegree max(2,ceil(m/g)). Necessity follows from strict internal y,z, u>Z and u<gt. At that claimed dilation, z2..z_(m-1)=1, y1..y_(m-1)=2, y_m=1,u=m-1 supplies a strict point. At m2, the strict bank bound u<y1<2t separately forces t>=2. At g0, z=u=0, dimensionm, lattice Z^m, codegree1; no positive-gap degree is assigned there.
+Outer size5m^2+13m-2, ordinary rankm+3. For g>0 the entire source chart has saturated lattice Z^(2m-1), actual degree 2m-1 and true codegree max(2,ceil(m/g)). Necessity follows from strict internal y,z, u>Z and u<gt. At that claimed dilation, z2..z_(m-1)=1, y1..y_(m-1)=2, y_m=1,u=m-1 supplies a strict point. At m2, the strict bank bound u<y1<2t separately forces t>=2. At g0, z=u=0, dimensionm, lattice Z^m, codegree 1; no positive-gap degree is assigned there.
 
-Proof013's unsigned prefix N(A,B)=M(A,B)-M(A+1,B-1) remains complete. Its final weight is
+[Complete positive-gap two-bank contraction](013-COMPLETE-BANK-CONTRACTION.md)'s unsigned prefix N(A,B)=M(A,B)-M(A+1,B-1) remains complete. Its final weight is
 (min(gt,A)-B+1)_+*(2mt-max(gt,A)+1).
 The identical reindexing, square symmetry and conditional first moment now give
 P_(m,g)(t)=sum_(B=0)^(gt) ((m+1-g)t+1+3B/2) S_B,
-S_B=[y^B](sum_(z=0)^(2t)(2t+1-z)y^z)^k.                  (1)
+`S_B=[y^B](sum_(z=0)^(2t)(2t+1-z)y^z)^k.                  (1)`
 This does NOT drop the individual z caps when g>2. The marked count before symmetrization is the complete
 P_(m,g)(t;q)=sum_(A>=B>=0) q^B N(A,B) W_g(A,B).
 Here B is the actual sum of internal label3 entries. Setting q=1 yields(1); arbitrary fixed q is not asserted to have polynomial dependence on t.
@@ -45,22 +45,22 @@ For a0, the elementary identities sum_(j=1)^k [k!^2/((k-j)!(k+j)!)]/j=H_k/2 and 
 
 At g0 the full polynomial is(2t+1)^k((k+2)t+1). At g=2k all prefix B are included, and the exact triangular-distribution mean B=2kt/3 gives
 P_(m,2k)(t)=(t+1)^k(2t+1)^(k+1).
-Both have c1=3k+2. Thus (3) at2k proves 2k*S_k=sum_a W_(k,a)(2k-2a). Substitution yields the fully positive formula
+Both have c1=3k+2. Thus (3) at 2k proves 2k*S_k=sum_a W_(k,a)(2k-2a). Substitution yields the fully positive formula
 c1(g)=3k+2+sum_(a=1)^(k-1) W_(k,a)
  *[g(1-a/k)-(g-2a)_+].                                  (4)
-Each bracket is g(1-a/k) for0<=g<=2a and a(2-g/k) for2a<=g<=2k. It is nonnegative throughout the legal interval. Therefore the ENTIRE LR coefficient satisfies
+Each bracket is g(1-a/k) for0<=g<=2a and a(2-g/k) for2a<=g<=2k. It is nonnegative throughout the legal interval. Therefore the entire LR coefficient satisfies
 c1(P_(m,g))>=3m-1,
-with equality at both endpoints; for k>=2 it is strict at0<g<2k. For k1 the sum is empty and c1=5 throughout. This is a uniform all-m theorem, not a finite table or a sign assertion for individual assignments.
+with equality at both endpoints; for k>=2 it is strict at 0<g<2k. For k1 the sum is empty and c1=5 throughout. This is a uniform all-m theorem, not a finite table or a sign assertion for individual assignments.
 
 In particular g1 has
 c1(P_m)=3k+5/2+H_k/2-(3/2)C_k.
-The beta-integral interpretation C_k=int_0^1(1-x^2)^k dx shows0<C_k<1 for k>=1 and supplies an immediate weaker positive bound. Full proof014 protects all higher coefficients on g1 independently.
+The beta-integral interpretation C_k=int_0^1(1-x^2)^k dx shows0<C_k<1 for k>=1 and supplies an immediate weaker positive bound. [Whole-bank ordinary positivity at unbounded rank](014-ALL-RANK-BANK-POSITIVITY.md) establishes all higher coefficients on g1 independently.
 
-## Scope and decisive falsifier
+## Scope and failure of cap-free extrapolation
 
-The cap-free g1 expression cannot be extrapolated to arbitrary g: as soon as g>=3, the y^(2t+2) term contributes at actual stretches. Omitting it produces a different polynomial, even when several early counts agree. The full binomial terms at a>=1 have strictly NEGATIVE ordinary linear contribution -W_(k,a)(g-2a); this is auxiliary cap-correction scope, not a negative entire LR observation. All such observations are retained before comparison.
+The cap-free g1 expression cannot be extrapolated to arbitrary g: as soon as g>=3, the y^(2t+2) term contributes at actual stretches. Omitting it produces a different polynomial, even when several early counts agree. The full binomial terms at a>=1 have strictly NEGATIVE ordinary linear contribution -W_(k,a)(g-2a); this is auxiliary cap-correction scope, not a negative entire LR observation. All such observations are retained in the exact coefficient data.
 
-The positive tents control the whole first jet only. Higher ordinary coefficients for arbitrary g>=2 remain a distinct question except the explicit endpoint g2k, any finite fully checked members, or a later genuine theorem. The changed h>0 region and global synchronization of separate Q19 modules remain outside this proof.
+The positive tents control the whole first jet only. Higher ordinary coefficients for arbitrary g>=2 remain a distinct question except the explicit endpoint g2k, any finite fully checked members, or a later genuine theorem. The changed h>0 region and global synchronization of the separate factors in the synchronized product construction remain outside this proof.
 
 ### Elementary normalization details
 

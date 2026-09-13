@@ -1,6 +1,6 @@
 # Two affine intervals: the compensation term and its failure
 
-Root derivation, Astra004, 9 September 2026. Independent review complete; see review/DISPOSITIONS.md.
+An exact two-width moment identity, 9 September 2026.
 The statements concern complete polytopes in the explicitly specified lattice.
 An application to LR requires a complete hive map; no such map is asserted for
 the negative example. No claim of worldwide novelty is made.
@@ -146,22 +146,20 @@ into `a*b` lattice tetrahedra of determinant one. Thus IDP and a unimodular
 triangulation do not prevent this particular ordinary negative. Neither
 property was assumed to be universal or sufficient for LR positivity here.
 
-## Native inputs and scientific limits
+## Examples and verification limits
 
-The native F2 examples identified by the source helper explain why this is
-relevant. For rng33, `n=9,A=B=3,C=1`; for rng24 seed 2,
+Two previously studied chamber examples illustrate the identity. For rng33, `n=9,A=B=3,C=1`; for rng24 seed 2,
 `n=9,A=6,B=9,C=6`. In both cases `n*C=A*B`, so the quadratic residual factors
-into the product of the two mean interval counts. These arithmetic parameters
-must be rebound to each actual chart before campaign adoption. The native
-nineteen stored towers already have individual source proofs on their stored
+into the product of the two mean interval counts. These arithmetic parameters describe those particular charts. The
+nineteen previously studied towers have individual proofs on their own
 cones; the present result is a general operation and explanation, with no new
 whole-rank coverage inferred.
 
-The root program's first exact check compares the moment formula with 88,560
+The independent implementation check compares the moment formula with 88,560
 literal composition counts over its explicitly bounded controls, and retains
 seven split-width examples. This supports the implementation; the all-parameter
 argument above supplies the theorem. The maintained API and its own bounded
-tests are separately reviewed. A02 addresses the missing negative realization.
+tests are separately reviewed. A whole-LR realization of the negative example remains open.
 
 The independent literature check found Liu, Tao and Xin's
 [2026 paper on joins](https://arxiv.org/html/2606.18794v1), which discusses

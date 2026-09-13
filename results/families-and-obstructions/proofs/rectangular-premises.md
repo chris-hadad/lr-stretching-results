@@ -1,8 +1,7 @@
 # The primitive p4q5 entire LR family
 
-Root derivation, 10 September 2026. This specializes and checks every varying
-premise of the retained Astra002 exceptional-pair construction. Independent
-review governs acceptance. There is no claim of worldwide novelty.
+Derivation dated 10 September 2026. This specializes and checks every varying
+premise of the exceptional-pair construction. No historical novelty is claimed.
 
 Let V be three 4-by-5 complex matrices, H = GL4 times GL5 acting by
 A -> g A h^(-1), and G = SL4 times SL5. Functions carry inverse pullback.
@@ -14,12 +13,13 @@ Put chi(g,h) = det(g)^(-5) det(h)^4 and R = C[V]^G, with R_t the entry-degree
     P(t) = c^(t lambda)_(t mu, t nu).
 
 The final ordinary rank is 24 and outer area 672 = 336 + 336. These are well
-outside the original box and the adopted rank-at-most-five terminal.
+outside the original box and the rank-at-most-five positivity theorem.
 
 ## Whole LR bridge and nonvanishing
 
 Use precisely the exceptional pair E1 = 2 delta + e, E2 = simple(v) on the
-inward star T_(3,3,4) from Astra002 A08-E6-EXTENSION.md and rectangular/BRIDGE.md.
+inward star T_(3,3,4) from [the exceptional-pair construction](rectangular-extension.md) and
+[rectangular bridge](rectangular-bridge.md).
 Its three-arrow embedding is fixed, independent of p. Rigidity is established
 there by the two-arrow exceptional (2,3) representation, not merely an Euler
 quadratic calculation. The Hom spaces both vanish and Ext(E2,E1) has dimension
@@ -31,14 +31,14 @@ alpha = (4,5), beta = (7,4), and
     <beta, .> = (-5,4),     <beta, alpha> = 0.
 
 The weighted transportation Weyl extraction retains both complete alternants
-and gives dim SI(alpha)_chi = 6798 at grade one in FRG-P4Q5-T1-001. Its exact
+and gives dim SI(alpha)_chi = 6798 at grade one in the source count record `FRG-P4Q5-T1-001`. Its exact
 definition is a count of the entire invariant component, not a selected LR
 summand. The separately frozen bare-triple check has no predicted count input.
 The positive count makes the semistable locus nonempty. Powers of a nonzero
 semi-invariant prove nonvanishing at each t beta, so the perpendicularity
 hypothesis in Derksen-Weyman's embedding theorem holds for every t >= 1.
 The original theorem application and sign conventions are in the retained
-BRIDGE.md, sections 2 and 3. Thus every weight t chi has exactly the same
+[rectangular bridge](rectangular-bridge.md), sections 2 and 3. Thus every weight t chi has exactly the same
 multiplicity after embedding. At t = 0, acyclicity gives the constants.
 
 The embedded dimensions and character, toward the center, are now:
@@ -64,7 +64,7 @@ Scaling the character by t scales all partitions by exactly t. Consequently
     dim R_t = P(t)  for every integer t >= 0.                  (1)
 
 This uses the same fixed exceptional pair and flag multiplicity theorem as
-the accepted p2/p3 proofs, with every p-dependent dimension, weight, complement,
+the p2/p3 proofs, with every p-dependent dimension, weight, complement,
 codimension and nonvanishing premise checked here.
 
 ## Primitive grade and quotient dimension
@@ -126,8 +126,8 @@ is the principal G_m bundle for L^(-1), and homogeneous functions identify
     R_t = H^0(Q,L^t)  for every integer t.                     (2)
 
 This is the original line, even without generation in degree one. The same
-punctured-cone argument and its detailed references are in retained
-rectangular/CANONICAL.md sections 3 and 4; its dimension condition is stronger
+punctured-cone argument and its detailed references are in the
+[canonical argument](rectangular-canonical.md), sections 3 and 4; its dimension condition is stronger
 here, not weaker.
 
 The tangent sequence of the smooth principal quotient is
@@ -163,8 +163,8 @@ Equation (3) implies
 
 The ten grades t = 0,...,9 have distinct y values and nonzero prefactors,
 so they uniquely determine Q. Grades 10 and 11 remain separately unused
-positive holdouts. No value at either holdout may enter the fit. A complete
-second count model or reviewed all-t argument remains required to promote
-the entire numerical vector. Partial nodes do not settle any missing
-coefficient sign. A negative ordinary coefficient is preserved immediately
-before secondary comparisons and enters the standing candidate protocol.
+positive holdouts. No value at either holdout may enter the fit. A complete second count model or verified all-t argument is required to
+establish the entire numerical vector. The
+[grouped-Schur model](rectangular-tableau.md) supplies the second count formula;
+its documented comparison scope is given in the collection README. Partial
+nodes do not settle a missing coefficient sign.

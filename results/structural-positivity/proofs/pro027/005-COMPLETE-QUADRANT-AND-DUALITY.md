@@ -1,6 +1,6 @@
 # Complete two-parameter LR compensation and determinant duality
 
-Claims FR027-P02-T001/T002. This is an originating continuation of the P01-I001 proposal. The general eight-term law and the y=0 family are inherited from Unit1. The identities below count entire LR fibers. A coefficient vector, a formal determinant summand and an entire LR object are kept distinct throughout.
+This two-parameter construction extends the one-parameter family using the general eight-term branching law. The identities below count entire LR fibers. Coefficient vectors, formal determinant summands, and entire LR objects have distinct mathematical roles.
 
 ## 1. Bare family, lattice, degree and codegree
 
@@ -15,9 +15,9 @@ Let P_xy(t)=c^(t lambda_xy)_(t mu_xy,t nu_xy), with lambda outer. The shapes are
 
 Lambda is the tail-sum partition of beta and mu its one-position shift. Every row of lambda/mu is column-disjoint from the others, with lengths beta_i. Therefore s_(t lambda/t mu)=product_i h_(t beta_i), and its s_(t alpha) coefficient is exactly K_(t alpha,t beta). The equality includes every tableau at every integer t>=0; it is not a face or an asserted affine equivalence with a conventional hive chart.
 
-Alpha has five strictly decreasing positive parts and beta has six sorted positive parts. The four relevant dominance gaps are(x+2,x+3,3,y+3). The full weighted-GT theorem gives actual degree10 and its saturated Z^10 counting lattice: the fifteen nonterminal GT entries have five coefficient-one row-sum equations, eliminated integrally. Source proof010 supplies a strict-point argument and exact relative-interior staircase; these premises were read in Phase0 and reread here. The codegree is exactly3, since the middle dominance cost is9/3 and every other staircase cost is at most3. Thus P_xy(0)=1 and P_xy(-1)=P_xy(-2)=0, without a reflection assumption.
+Alpha has five strictly decreasing positive parts and beta has six sorted positive parts. The four relevant dominance gaps are(x+2,x+3,3,y+3). The full weighted-GT theorem gives actual degree 10 and its saturated Z^10 counting lattice: the fifteen nonterminal GT entries have five coefficient-one row-sum equations, eliminated integrally. The weighted-GT interior theorem supplies a strict-point argument and exact relative-interior staircase. The codegree is exactly3, since the middle dominance cost is9/3 and every other staircase cost is at most 3. Thus P_xy(0)=1 and P_xy(-1)=P_xy(-2)=0, without a reflection assumption.
 
-The source is original packet methods/frontier-024-2026-09-09/sources/PROOFS/010-DEFECT-TWO-AND-WEIGHTED-GT-INTERIORS.md, sections2–3. Unit1's complete general branching law is HISTORY/P01-A01/PROOFS/001-COMPLETE-GAP3-CLUSTERS.md. Neither a source label nor this return asserts external campaign acceptance of the new mathematics.
+The weighted-GT interior argument is given in [Defect two and weighted straight-GT interiors](../../replay/proofs/WEIGHTED-GT-INTERIORS.md), sections 2–3; the complete branching law is given in [Complete gap-three branching with all overlap clusters](001-COMPLETE-GAP3-CLUSTERS.md). External independent verification of the present extension is not claimed.
 
 ## 2. An exact involution of whole counts
 
@@ -32,7 +32,7 @@ The new shape, after trimming, is
 
     (2x+5+2y,2x+4+y,2x+3,2x+2,x+1)=alpha_yx.
 
-The complementary weight c*1-beta consists of three x+2 entries and three2x+y+3 entries. Schur symmetry permits exchanging these two equal blocks, giving beta_yx. Scaling the boundaries scales c by t, so
+The complementary weight c*1-beta consists of three x+2 entries and three 2x+y+3 entries. Schur symmetry permits exchanging these two equal blocks, giving beta_yx. Scaling the boundaries scales c by t, so
 
     P_xy(t)=P_yx(t) for every integer x,y,t>=0.              (1)
 
@@ -49,15 +49,15 @@ with content((y+2)t)^3. It includes every cap and lower overlap. Put
     m0(u)=min(t-u1+u2,t-u2+u3,2t-u1,u3),
     Q_y(t)=sum_(|u|=3t) F_y,t(u).
 
-For x>=2, the first two upper gaps are at least3t and the full state set is admitted. The complete count is sum_(u)(xt+m0(u)+1)F_y,t(u), so it is affine in x. At x=1 the two exact Unit1 involutions still apply. The first leaves u3, hence the entire lower skew factor, unchanged. In the second, both third deficits are<t, so both corresponding lower upper-overlaps are absent and the common lower factor is s_((2+2y)t,(1+y)t). Their weights and all other factors pair exactly. The two negative extended-state regions are disjoint; their zero-weight first layers contribute zero. The complete determinant corrections, not a truncated diagonal sum, therefore give
+For x>=2, the first two upper gaps are at least 3t and the full state set is admitted. The complete count is sum_(u)(xt+m0(u)+1)F_y,t(u), so it is affine in x. At x=1 the two exact involutions for the one-parameter family still apply. The first leaves u3, hence the entire lower skew factor, unchanged. In the second, both third deficits are<t, so both corresponding lower upper-overlaps are absent and the common lower factor is s_((2+2y)t,(1+y)t). Their weights and all other factors pair exactly. The two negative extended-state regions are disjoint; their zero-weight first layers contribute zero. The complete determinant corrections, not a truncated diagonal sum, therefore give
 
     P_xy=P_1y+(x-1)t Q_y,  x>=1,y>=0.                     (2)
 
-The general-width version in proof007 proves this without assuming x-1 is an integer multiple of the base gap. At x=0 a separate wall is necessary; proof008 gives its complete correction. Thus no conclusion is drawn from extending(2) to x=0.
+The general-width version in [A complete homogeneous rank-six cone with forty positive joint coefficients](007-HOMOGENEOUS-CONE-AND-BOUNDARIES.md) proves this without assuming x-1 is an integer multiple of the base gap. At x=0 a separate wall is necessary; [Negative initial walls and an explicit positive finite-difference basis](008-INITIAL-WALLS-AND-POSITIVE-DIFFERENCES.md) gives its complete correction. Thus no conclusion is drawn from extending(2) to x=0.
 
 ## 4. Complete affine dependence in y
 
-Take y>=1. In every active block of the eight-term determinant, the detached three-row total S is at most3t, and the remaining two-row shape has smaller row D=(y+1)t. For a three-by-three detached matrix with column sums gamma, the residual weight is
+Take y>=1. In every active block of the eight-term determinant, the detached three-row total S is at most 3t, and the remaining two-row shape has smaller row D=(y+1)t. For a three-by-three detached matrix with column sums gamma, the residual weight is
 
     w_i=(y+2)t-gamma_i >=0.
 
@@ -75,7 +75,7 @@ The triple-subset term also vanishes. The singleton terms are(gamma_i-t)_+. Ther
     K_((C,D),w)=1+(y+1)t-sum_i(gamma_i-t)_+.              (3)
 
 The bottom second-subdiagonal determinant entry has index
-u3-(y+2)t-2<0 and vanishes for every state. The other seven terms, including all upper cycles and intersecting overlaps on x=0, are retained. Their indices and top multiplicities are independent of y. Hence the COMPLETE P_xy is affine in y for every x>=0 and y>=1. This assertion is stronger than detachment of the first two rows and does not omit the x=0 interactions.
+u3-(y+2)t-2<0 and vanishes for every state. The other seven terms, including all upper cycles and intersecting overlaps on x=0, are retained. Their indices and top multiplicities are independent of y. Hence the complete P_xy is affine in y for every x>=0 and y>=1. This assertion is stronger than detachment of the first two rows and does not omit the x=0 interactions.
 
 In the detached tail, its y-slope is tG(u), where
 
@@ -97,12 +97,12 @@ By(1), P_12=P_21; by(2), P_21-P_11=tQ_1. Thus the y-slope at x=1 equals the x-sl
     P_xy=P_11+(x+y-2)tQ_1+(x-1)(y-1)t^2R,
                                x,y>=1.                  (5)
 
-Write P00,P10,Q0 for Unit1's P0,P1,Q. The entire remaining boundary is
+Write P00,P10,Q0 for the one-parameter family's P0,P1,Q. The entire remaining boundary is
 
     P_x0=P10+(x-1)tQ0, x>=1;
     P_0y=P10+(y-1)tQ0, y>=1;
     P_00=P00.                                           (6)
 
-Proof006 supplies positive P11,Q1,R certificates; Unit1 supplies positive P00,P10,Q0. Hence ALL eleven ordinary coefficients of EVERY integer-quadrant member are strictly positive, including both initial axes and the corner. Proof008 further gives coefficientwise monotonicity and supermodularity. Proof007 gives a genuinely homogeneous three-parameter cone with all its dimension-drop boundaries.
+[Complete quotient, exact hinge moments and positive certificates](006-QUOTIENT-MOMENTS-AND-POSITIVE-CERTIFICATE.md) supplies positive P11,Q1,R certificates; the one-parameter family supplies positive P00,P10,Q0. Hence ALL eleven ordinary coefficients of EVERY integer-quadrant member are strictly positive, including both initial axes and the corner. [Negative initial walls and an explicit positive finite-difference basis](008-INITIAL-WALLS-AND-POSITIVE-DIFFERENCES.md) further gives coefficientwise monotonicity and supermodularity. [A complete homogeneous rank-six cone with forty positive joint coefficients](007-HOMOGENEOUS-CONE-AND-BOUNDARIES.md) gives a genuinely homogeneous three-parameter cone with all its dimension-drop boundaries.
 
-The theorem does not establish positivity of all strict gap-three profiles, all rank six, or full KTT. All members in(5) have outer size at least81, and the original displayed quadrant has size at least48. No original-area-thirty increment follows.
+The theorem does not establish positivity of all strict gap-three profiles, all rank six, or full KTT. All members in(5) have outer size at least 81, and the original displayed quadrant has size at least 48. This yields no additional cases in the original area-thirty domain.

@@ -45,7 +45,7 @@ In the GT chain, nonterminal level k has at most min(k,3) nonzero entries.
 There are \(1+2+15\cdot3=48\) such coordinates and 17 independent fixed
 level-sum equations, each involving its own level. All entries are O(t), so
 the count is O(t^31). The standard stretched-LR polynomiality theorem
-(Rassart, arXiv:math/0308101, Corollary 4.2) therefore
+(Rassart, arXiv: math/0308101, Corollary 4.2) therefore
 gives a degree bound of 31 before any reconstruction. The exact-degree
 conclusion below follows from our positive leading coefficients, so it does
 not additionally depend on the cited McAllister degree formula.

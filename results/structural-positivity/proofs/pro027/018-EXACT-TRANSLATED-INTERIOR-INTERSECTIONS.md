@@ -1,15 +1,15 @@
 # A complete overlap operator for first-interior translates
 
-Originating claim FR027-P05-T002, building on proof017. Its scope is exact whole-count intersections and a finite geometric Euler operator, not an ordinary-positive basis or a complexity guarantee.
+Building on [Complete source-sink LR interiors are generated at their first grade](017-COMPLETE-FLOW-INTERIOR-GENERATION.md), this proof establishes exact whole-count intersections and a finite geometric Euler operator. It does not give an ordinary-positive basis or a complexity bound.
 
 ## 1. Every intersection retains its true affine netflow
 
-Use the complete flow family, q and U=C_q cap Z^E of proof017. For a nonempty finite J subset U put
+Use the complete flow family, q and U=C_q cap Z^E of [Complete source-sink LR interiors are generated at their first grade](017-COMPLETE-FLOW-INTERIOR-GENERATION.md). For a nonempty finite J subset U put
 
     ell_J(e)=max_(u in J)u(e),
     Delta_J(k)=sum_(i<=k<j)ell_J(i,j)-q, 1<=k<n.
 
-A coordinatewise maximum is NOT declared to be a flow. Its divergence is retained exactly. An integer x belongs to every u+F_n(t), u in J, precisely when div x=(q+t)(e1-en) and x>=ell_J. Subtracting ell_J is an integral bijection with the COMPLETE nonnegative-flow count
+A coordinatewise maximum is NOT declared to be a flow. Its divergence is retained exactly. An integer x belongs to every u+F_n(t), u in J, precisely when div x=(q+t)(e1-en) and x>=ell_J. Subtracting ell_J is an integral bijection with the complete nonnegative-flow count
 
     K_n(t*1-Delta_J).                                (1)
 
@@ -24,7 +24,7 @@ In particular the half-sum is integral. Full inclusion-exclusion gives, at EVERY
     I_n(q+t)=sum_(empty!=J subset U) (-1)^(|J|+1)
                 K_n(t*1-Delta_J).                   (2)
 
-All translates cover by proof017. No selected intersection, moving endpoint or netflow correction is missing. An individual shifted count in (1) is not asserted to be a single all-grade polynomial; any coefficient extraction from it needs its own chamber and endpoint argument.
+All translates cover by [Complete source-sink LR interiors are generated at their first grade](017-COMPLETE-FLOW-INTERIOR-GENERATION.md). No selected intersection, moving endpoint or netflow correction is missing. An individual shifted count in (1) is not asserted to be a single all-grade polynomial; any coefficient extraction from it needs its own chamber and endpoint argument.
 
 ## 2. A smaller exact Euler operator
 
@@ -43,7 +43,7 @@ This replaces arbitrary subsets by faces of one fixed compatible complex. It doe
 
 ## 3. Two fully explicit rectangular cases
 
-For n6 and n7 the left half in proof017 has dimension one. Set h=n-5, so h=1 or2. Its sink demand at its third vertex is h. If a is the direct first-to-third residual flow, then 0<=a<=h, with the other two residual edges equal to fixed constants minus a. The right half has independent parameter b in the same interval. Thus U is the full grid {0,...,h}^2.
+For n6 and n7 the left half in [Complete source-sink LR interiors are generated at their first grade](017-COMPLETE-FLOW-INTERIOR-GENERATION.md) has dimension one. Set h=n-5, so h=1 or 2. Its sink demand at its third vertex is h. If a is the direct first-to-third residual flow, then 0<=a<=h, with the other two residual edges equal to fixed constants minus a. The right half has independent parameter b in the same interval. Thus U is the full grid {0,...,h}^2.
 
 For fixed x, membership u_(a,b)<=x cuts each of a,b to an integer interval, so the admitted grid is a rectangle or empty. Its vertex-edge-square Euler sum is one precisely when nonempty. Adjacent horizontal intersections all have the same prefix deficit (1,1,0,...,0); adjacent vertical intersections are their reversals. Every elementary square has deficit one in the first two and last two prefix positions, zero otherwise. Define
 
@@ -56,8 +56,8 @@ with overlapping notation interpreted by the first/last-two position rule. The w
 
 This is proved for all stretches, not fitted. The n6 checks at t1,2,3 give (P,I,F,G)=(16,49,4,1),(125,320,50,20),(660,1485,330,165). At n7, t1,2 give (32,200,8,2),(450,2178,180,72).
 
-## 4. Falsifiers and limitations
+## 4. Necessary overlap terms and limitations
 
-Dropping all intersections would count64 rather than49 at n6,t1. Dropping the final positive square correction after subtracting edges would count48 instead of49. At n7,t1 the corresponding square correction is8. Thus both the negative and positive overlap layers are mathematically necessary.
+Dropping all intersections would count 64 rather than 49 at n6,t1. Dropping the final positive square correction after subtracting edges would count 48 instead of 49. At n7,t1 the corresponding square correction is 8. Thus both the negative and positive overlap layers are mathematically necessary.
 
-The complete flow coverage proof does not transfer solely from a matching Ehrhart polynomial, a coordinate face, or a first-interior count. Proofs019–020 give complete LR counting models with unique first interiors but genuinely uncovered points in every later positive grade. The original rank7 control A is one instance. Such uncovered strata must be retained in a general LR interior approach.
+The complete flow coverage proof does not transfer solely from a matching Ehrhart polynomial, a coordinate face, or a first-interior count. The two-row positivity and quantitative-surplus proofs give complete LR counting models with unique first interiors but genuinely uncovered points in every later positive grade. The rank 7 example in those proofs is one instance. Such uncovered strata must be retained in a general LR interior approach.

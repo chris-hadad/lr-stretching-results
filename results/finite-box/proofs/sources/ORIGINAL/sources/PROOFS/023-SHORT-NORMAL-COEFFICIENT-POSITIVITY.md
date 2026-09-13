@@ -1,6 +1,6 @@
 # Short primitive normals protect the third-highest coefficient
 
-FRONTIER-025 P07. Originating derivation, subject to campaign verification; no worldwide-priority claim. The local Euler–Maclaurin/Berline–Vergne (BV) face formula and its quotient-lattice convention are source premises, not new theorems here. See P07-SOURCE-DEPENDENCIES.md. All inequalities below are proved symbolically; the finite controls are not their logical basis.
+This proposed derivation remains subject to independent verification. The local Euler–Maclaurin/Berline–Vergne (BV) face formula and its quotient-lattice convention are source premises, not new theorems here. See P07-SOURCE-DEPENDENCIES.md. All inequalities below are proved symbolically; the finite controls are not their logical basis.
 
 ## 1. Statement and lattice convention
 
@@ -12,7 +12,7 @@ More quantitatively, in this metric every codimension-two BV weight is at least 
 
     [t^(d-2)] L_P(t) >= (1/100) sum_(dim F=d-2) vol_Z(F) > 0.   (2)
 
-The volumes are normalized in the face lattices. This does not assert the signs of lower coefficients, primitive generators of an arbitrary normal atlas, or arbitrary rational quasipolynomial constituents. An affine lattice change need not preserve BV weights: the metric is deliberately chosen AFTER choosing the lattice basis. Ehrhart coefficients themselves are unchanged by the coordinate identification.
+The volumes are normalized in the face lattices. This does not assert the signs of lower coefficients, primitive generators of an arbitrary normal atlas, or arbitrary rational quasipolynomial constituents. An affine lattice change need not preserve BV weights: the metric is deliberately chosen after choosing the lattice basis. Ehrhart coefficients themselves are unchanged by the coordinate identification.
 
 ## 2. The complete two-dimensional local constant, with its index
 
@@ -21,7 +21,7 @@ Let u,v be the two extreme primitive inward normals at a codimension-two face. P
     a=||u||^2, b=||v||^2, c=<u,v>,
     q=[(span_R(u,v) intersect Z^d) : Zu+Zv].
 
-Equivalently q is the positive gcd of the 2-by-2 minors of the two-row matrix (u;v). Since u is primitive, choose an integer vector w with <u,w>=1 and put p=<v,w> modulo q. This is independent of that choice modulo q, and gcd(p,q)=1; use p=0 when q=1. In a basis of the saturated dual plane, u=(1,0), v=(p,q). One way to see this is to complete primitive u to a basis (u,e), write v=p*u+q*e, and use the definition of the lattice index. Primitivity of v makes p coprime to q. This also proves the Bezout-vector description of p.
+Equivalently q is the positive gcd of the 2-by-2 minors of the two-row matrix (u; v). Since u is primitive, choose an integer vector w with <u,w>=1 and put p=<v,w> modulo q. This is independent of that choice modulo q, and gcd(p,q)=1; use p=0 when q=1. In a basis of the saturated dual plane, u=(1,0), v=(p,q). One way to see this is to complete primitive u to a basis (u,e), write v=p*u+q*e, and use the definition of the lattice index. Primitivity of v makes p coprime to q. This also proves the Bezout-vector description of p.
 
 Define the finite sum
 
@@ -41,7 +41,7 @@ Their fundamental half-open parallelogram contains q lattice points. In coordina
 
     beta_k=k/q, alpha_k=(p*k mod q)/q, 0<=k<q.
 
-Let A=<xi,e>, B=<xi,f>, nonzero for the formal calculation. Expanding the ENTIRE parallelogram numerator divided by (1-exp(A))*(1-exp(B)), its degree-zero part is
+Let A=<xi,e>, B=<xi,f>, nonzero for the formal calculation. Expanding the entire parallelogram numerator divided by (1-exp(A))*(1-exp(B)), its degree-zero part is
 
     S0=sum_k [1/4+A/(12B)+B/(12A)
               -(alpha_k*A+beta_k*B)*(1/A+1/B)/2
@@ -100,12 +100,12 @@ Every summand has a positive relative volume and a weight bounded below as above
 
     L_(mP)(t)=L_P(mt).
 
-Thus its coefficient scales by the SAME positive factor m^(d-2); dividing proves both assertions for P. This step does not assume that the individual affine BV terms of an undilated rational polytope are nonperiodic, or that the original vertices are integral.
+Thus its coefficient scales by the same positive factor m^(d-2); dividing proves both assertions for P. This step does not assume that the individual affine BV terms of an undilated rational polytope are nonperiodic, or that the original vertices are integral.
 
 ## 5. A usable sufficient whole-hive chart
 
-Suppose every original hive interior coordinate is an integer constant plus one selected free coordinate, or an integer constant alone. Suppose also that the selected free coordinates give an integer inverse and that ALL original rhombus inequalities are retained. Then the whole affine lattice is Z^d in those selected coordinates. Each rhombus has at most two positive and two negative unit entries. After coordinate identification its positive coordinate mass and negative coordinate mass are each at most two.
+Suppose every original hive interior coordinate is an integer constant plus one selected free coordinate, or an integer constant alone. Suppose also that the selected free coordinates give an integer inverse and that all original rhombus inequalities are retained. Then the whole affine lattice is Z^d in those selected coordinates. Each rhombus has at most two positive and two negative unit entries. After coordinate identification its positive coordinate mass and negative coordinate mass are each at most two.
 
 Every nonzero primitive integer vector with these two mass bounds has squared norm at most six. Before primitive reduction the only way to attain a squared norm exceeding six is the pattern (2,-2), which reduces to (1,-1). The largest remaining pattern is (2,-1,-1), of squared norm six. Therefore every actual facet normal of this whole chart satisfies the theorem. Redundant inequalities can be retained; a facet is supported by one of the original nonconstant inequalities.
 
-This is a genuine lattice-membership condition, not an assertion about arbitrary affine elimination. Substitutions involving sums, negative copies, fractions, or a nonsaturated inverse require a new check. In P07 every one of the 206 actual degree-twelve boxed hives passes the full condition with its explicit chart and strict point.
+This is a genuine lattice-membership condition, not an assertion about arbitrary affine elimination. Substitutions involving sums, negative copies, fractions, or a nonsaturated inverse require a new check. In the finite certificate every one of the 206 actual degree-twelve boxed hives passes the full condition with its explicit chart and strict point.

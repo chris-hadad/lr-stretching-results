@@ -1,11 +1,10 @@
 # Structural positivity and complete whole-family counts
 
-This section collects accepted results from Pro027 and subsequent root
-arguments. The finite numerical premises and mathematical arguments were
-independently checked within the campaign. The included source proofs retain
-their original bytes; [ACCEPTED-SCOPES.json](ACCEPTED-SCOPES.json) gives the
-precise scope of the 60 accepted mathematical claim records. Historical pilot or runtime
-assertions in those documents are not promoted merely by copying them.
+This section collects normal-correction theorems and complete positive LR
+families. Their arguments and finite numerical premises have independent
+AI-assisted and computational verification. The source proofs have been
+edited for mathematical exposition; [ACCEPTED-SCOPES.json](ACCEPTED-SCOPES.json) gives the
+precise scope of the 60 accepted mathematical claim records. Illustrative numerical controls retain their stated finite scope.
 
 The [standalone family replay](replay/README.md) provides exact two-row proof
 checks, gap-three algebra and transportation endpoint reconstruction, with
@@ -42,7 +41,7 @@ Read the [complete refined normal cycle](proofs/pro027/025-COMPLETE-REFINED-NORM
 the [rank-six coefficient argument](proofs/pro027/031-ALL-RANK6-SIXTH-COEFFICIENT.md),
 and the [rank-seven extension](proofs/pro027/034-ALL-RANK7-ELEVENTH-COEFFICIENT.md),
 followed by the later rank-extension proofs in the source index. The finite
-gate checked 34 complete rosters, 1,508,387 independent occurrences, 34,761
+verification checked 34 complete rosters, 1,508,387 independent occurrences, 34,761
 dependent occurrences, 127,467 incidences and 5,480 referenced complete types.
 Those are certificate populations, not numbers of LR triples.
 
@@ -55,8 +54,8 @@ Coordinate bounds need not equal actual dimension. These results do not
 establish positivity for every actual quartic or quintic with a looser chart.
 
 The remaining untouched connected quadruple certificates at ranks thirteen
-and fourteen form a concrete finite gate toward the all-rank ambient
-codimension-four theorem. That gate has not been executed. Negative local
+and fourteen form a concrete finite calculation toward the all-rank ambient
+codimension-four theorem. That calculation has not been performed. Negative local
 weights are retained as structural information, with no claim that they alone
 produce a negative entire LR coefficient.
 
@@ -72,17 +71,17 @@ produce a negative entire LR coefficient.
   [all-rank sign argument](proofs/pro027/014-ALL-RANK-BANK-POSITIVITY.md)
   and [complete walls](proofs/pro027/015-COMPLETE-GAP-WALLS-AND-LINEAR-TENTS.md).
 - **Unequal-weight two rows:** the suffix-sum LR lift with positive weights
-  and ν=(W−2,2) is positive for n≥5. Pro027 supplied the
+  and ν=(W−2,2) is positive for n≥5. See the
   [complete formula and proof](proofs/pro027/019-UNEQUAL-WEIGHT-NONCENTRAL-POSITIVITY.md).
-  The root's [slope-three extension](proofs/root/SLOPE-THREE-PROOF.md)
+  The [slope-three extension](proofs/root/SLOPE-THREE-PROOF.md)
   proves positivity for ν=(W−3,3), n≥6. Its all-unit n=6 case has actual
-  degree three. The stronger slope-three sign proof is a root contribution;
-  the underlying count formula came from Pro027.
+  degree three. The count formula and the later slope-three sign proof have separate
+  contributions described in the provenance account.
 - **Transportation/LR:** all integer-h polynomials for rows (7+h,5,4,1)
   and columns (4+h,3,2,2,2,2,2) are positive; they stabilize after h=6.
   See the [complete family](proofs/pro027/011-COMPLETE-RANK10-CAP-RELEASE-FAMILY.md).
   On rows (7u+v,5u,4u,u), columns (4u+v,3u,2u,2u,2u,2u,2u), u≥1,v≥0,
-  the root's [closed-sector proof](proofs/root/TRANSPORT-CONE-LINEAR-COEFFICIENT.md)
+  the [closed-sector proof](proofs/root/TRANSPORT-CONE-LINEAR-COEFFICIENT.md)
   gives c1≥5279u/360 and positive c16,c17,c18. Coefficients c2,...,c15
   at noninteger v/u are not settled by the seven endpoints.
 - **Stable source–sink flows:** the complete hive/flow map holds for
@@ -99,9 +98,8 @@ its entire P0 parent is positive. This distinction illustrates why local or
 auxiliary negativity must be joined to the complete parent before a
 counterexample claim.
 
-The [source map](SOURCE-MAP.json) binds all 42 Pro027 proof documents and two
-root proofs. Their use of classical LR models, reciprocity, Berline–Vergne
+The [source map](SOURCE-MAP.json) binds all 44 principal proof documents. Their use of classical LR models, reciprocity, Berline–Vergne
 theory and Minkowski valuation results is credited in the repository
 [references](../../REFERENCES.md). Alper Ferudun's rank-four/five positivity
 and correction work are central antecedents. No human endorsement or worldwide
-novelty claim is implied by campaign acceptance.
+novelty claim is implied by these verification records.

@@ -33,7 +33,7 @@
   "file_roster_scope": "Every regular tooling member except SOURCE-UPDATE.json itself; generated __pycache__ files are not distributable sources.",
   "files": [
     {
-      "bytes": 6420,
+      "bytes": 6450,
       "origin": {
         "repository": "lr-stretching-results",
         "source": "tooling/BENCHMARKS.md",
@@ -42,11 +42,16 @@
         "source_sha256": "292864ac6875273cca4b35a51da2e7fb8f3e7b0f20f077e24ab0bf7ec8881c44"
       },
       "path": "BENCHMARKS.md",
-      "sha256": "292864ac6875273cca4b35a51da2e7fb8f3e7b0f20f077e24ab0bf7ec8881c44",
-      "transformation": "Byte-preserving published baseline copy."
+      "sha256": "a54cd06b37760bf3b85849888dcd71d1620de625ab42c702aad26930d27c0f9d",
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 6420,
+        "sha256": "292864ac6875273cca4b35a51da2e7fb8f3e7b0f20f077e24ab0bf7ec8881c44"
+      }
     },
     {
-      "bytes": 2906,
+      "bytes": 2977,
       "origin": {
         "repository": "codex-workbench",
         "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/tooling/CURRENT-SOURCES.md",
@@ -55,12 +60,17 @@
         "source_sha256": "6ad9349fea88b0ce73ca818ccb8543d2824a1c8ad383d7be010c49711c3c7154"
       },
       "path": "CURRENT-SOURCES.md",
-      "sha256": "773374711fd25f95dd55eca3354e6ad8c6be3b5388d5e7ec9bd8025c1e1c548f",
-      "transformation": "Documentation navigation/provenance update only; mathematics and executable source unchanged.",
-      "prior_included_sha256": "6ad9349fea88b0ce73ca818ccb8543d2824a1c8ad383d7be010c49711c3c7154"
+      "sha256": "6b13e686b507cd3546243c80bcb97387d9c911cfc17169f5760726d39d6828db",
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "prior_included_sha256": "6ad9349fea88b0ce73ca818ccb8543d2824a1c8ad383d7be010c49711c3c7154",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 2906,
+        "sha256": "773374711fd25f95dd55eca3354e6ad8c6be3b5388d5e7ec9bd8025c1e1c548f"
+      }
     },
     {
-      "bytes": 8835,
+      "bytes": 8833,
       "origin": {
         "repository": "codex-workbench",
         "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/tooling/PROOFS.md",
@@ -74,11 +84,16 @@
         "path": "history/previous-tooling/PROOFS.md",
         "sha256": "400d70b272a50ae2ba1f72684d7dbafdf31666570c78874354e4d2742e629acd"
       },
-      "sha256": "c7f34ad8f1becdeb535456eb4ba5074594e882d866a759efa8f77d63e04b9adf",
-      "transformation": "Authored standalone packaging, API documentation, example or bounded verification interface; no mathematical kernel edits."
+      "sha256": "cbf73b5bafc26e222247c00b29cd2d74ae27d8180dcd2507519c3e64bd6e0ec3",
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8835,
+        "sha256": "c7f34ad8f1becdeb535456eb4ba5074594e882d866a759efa8f77d63e04b9adf"
+      }
     },
     {
-      "bytes": 7737,
+      "bytes": 7673,
       "origin": {
         "repository": "codex-workbench",
         "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/tooling/README.md",
@@ -92,11 +107,16 @@
         "path": "history/previous-tooling/README.md",
         "sha256": "cae532d5e552a7daaeab76c582816042c9d57e2c5393d946abea8d6a82035578"
       },
-      "sha256": "97cf619867bf03e948eb601b217d8de337dd95c61d3914c01f69b2c960cab0c1",
-      "transformation": "Authored standalone packaging, API documentation, example or bounded verification interface; no mathematical kernel edits."
+      "sha256": "061d0392f719d88689ab52fbed4ac162d37d5af9552655d08155c5aa09618bd9",
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7737,
+        "sha256": "97cf619867bf03e948eb601b217d8de337dd95c61d3914c01f69b2c960cab0c1"
+      }
     },
     {
-      "bytes": 3029,
+      "bytes": 2111,
       "origin": {
         "repository": "lr-stretching-results",
         "source": "tooling/SOURCE-LICENSES.md",
@@ -105,8 +125,13 @@
         "source_sha256": "9b0eb301078f2e70948951d3dd51343eb2a8df79a12dd4aa80715ba2ca933b2a"
       },
       "path": "SOURCE-LICENSES.md",
-      "sha256": "9b0eb301078f2e70948951d3dd51343eb2a8df79a12dd4aa80715ba2ca933b2a",
-      "transformation": "Byte-preserving published baseline copy."
+      "sha256": "a6f7d7a260f47301ee3fbfbe17df8fea462ab65683aadfb408a5c53c9e2d1c91",
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 3029,
+        "sha256": "9b0eb301078f2e70948951d3dd51343eb2a8df79a12dd4aa80715ba2ca933b2a"
+      }
     },
     {
       "bytes": 33526,
@@ -309,7 +334,7 @@
       "prior_included_sha256": "400d70b272a50ae2ba1f72684d7dbafdf31666570c78874354e4d2742e629acd"
     },
     {
-      "bytes": 5767,
+      "bytes": 5749,
       "origin": {
         "repository": "lr-stretching-results",
         "source": "tooling/README.md",
@@ -318,9 +343,14 @@
         "source_sha256": "cae532d5e552a7daaeab76c582816042c9d57e2c5393d946abea8d6a82035578"
       },
       "path": "history/previous-tooling/README.md",
-      "sha256": "11f0e185bed07d4d98e4ff3ebd81af60a3e3287fe7c32fc39ca56b2daba87a94",
-      "transformation": "Documentation navigation/provenance update only; mathematics and executable source unchanged.",
-      "prior_included_sha256": "cae532d5e552a7daaeab76c582816042c9d57e2c5393d946abea8d6a82035578"
+      "sha256": "17cdd9c1a47bcfc7ad6836cedf79ccd1137add3e0d9ad36cc9ab8f88e0df4904",
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "prior_included_sha256": "cae532d5e552a7daaeab76c582816042c9d57e2c5393d946abea8d6a82035578",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 5767,
+        "sha256": "11f0e185bed07d4d98e4ff3ebd81af60a3e3287fe7c32fc39ca56b2daba87a94"
+      }
     },
     {
       "bytes": 874,
@@ -362,7 +392,7 @@
       "transformation": "Byte-preserving published baseline copy."
     },
     {
-      "bytes": 4259,
+      "bytes": 4268,
       "origin": {
         "repository": "lr-stretching-results",
         "source": "tooling/proofs/cdagger.md",
@@ -371,8 +401,13 @@
         "source_sha256": "b1bf90ccd52f04ea4c96014f168d04132741d120ccce4c9c3830f3ff995fc0b7"
       },
       "path": "proofs/cdagger.md",
-      "sha256": "b1bf90ccd52f04ea4c96014f168d04132741d120ccce4c9c3830f3ff995fc0b7",
-      "transformation": "Byte-preserving published baseline copy."
+      "sha256": "d24bb1f8c53f74b972bf83be3910478c77a7c32d18dde91fea684abb7c0c6f16",
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4259,
+        "sha256": "b1bf90ccd52f04ea4c96014f168d04132741d120ccce4c9c3830f3ff995fc0b7"
+      }
     },
     {
       "bytes": 61864,
@@ -613,7 +648,7 @@
       }
     },
     {
-      "bytes": 8148,
+      "bytes": 8157,
       "origin": {
         "repository": "lr-stretching-results",
         "source": "tooling/proofs/flow-support.md",
@@ -622,11 +657,16 @@
         "source_sha256": "dbd1021be3ee32805d1502251117e12c6584fd75fb234a8ab9b56481a5cb891f"
       },
       "path": "proofs/flow-support.md",
-      "sha256": "dbd1021be3ee32805d1502251117e12c6584fd75fb234a8ab9b56481a5cb891f",
-      "transformation": "Byte-preserving published baseline copy."
+      "sha256": "70ab394c7024040bcca361f051c4b72e5063e5d93ddee75d48320f265bee1698",
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8148,
+        "sha256": "dbd1021be3ee32805d1502251117e12c6584fd75fb234a8ab9b56481a5cb891f"
+      }
     },
     {
-      "bytes": 13390,
+      "bytes": 13412,
       "origin": {
         "repository": "lr-stretching-results",
         "source": "tooling/proofs/matrix-invariants.md",
@@ -635,11 +675,16 @@
         "source_sha256": "5caadc8aba7e895b64022d607c307a1bf1d7d8ade929fd850118ebf3cc79bf5b"
       },
       "path": "proofs/matrix-invariants.md",
-      "sha256": "5caadc8aba7e895b64022d607c307a1bf1d7d8ade929fd850118ebf3cc79bf5b",
-      "transformation": "Byte-preserving published baseline copy."
+      "sha256": "a5997c007a058d8a8e91c4a5d99d67601acb813f45cb1169f252684bcb608694",
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 13390,
+        "sha256": "5caadc8aba7e895b64022d607c307a1bf1d7d8ade929fd850118ebf3cc79bf5b"
+      }
     },
     {
-      "bytes": 7503,
+      "bytes": 7644,
       "origin": {
         "repository": "lr-stretching-results",
         "source": "tooling/proofs/positive-strip.md",
@@ -648,11 +693,16 @@
         "source_sha256": "2ab54b1e166c958cd12e98c84c5e5f40b4c5e737a73115b6a388476ce4b082a5"
       },
       "path": "proofs/positive-strip.md",
-      "sha256": "2ab54b1e166c958cd12e98c84c5e5f40b4c5e737a73115b6a388476ce4b082a5",
-      "transformation": "Byte-preserving published baseline copy."
+      "sha256": "9882c2ca589a34056331b8bc875188f36300c9b6d32540a8e346def57f0b8d38",
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7503,
+        "sha256": "2ab54b1e166c958cd12e98c84c5e5f40b4c5e737a73115b6a388476ce4b082a5"
+      }
     },
     {
-      "bytes": 1883,
+      "bytes": 1923,
       "origin": {
         "repository": "codex-workbench",
         "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/tooling/proofs/rank6-split.md",
@@ -661,11 +711,16 @@
         "source_sha256": "c51f79c4a086b4dd876f711c85a3289f93667ba3cb44bb177a5e5793a8bc12c6"
       },
       "path": "proofs/rank6-split.md",
-      "sha256": "c51f79c4a086b4dd876f711c85a3289f93667ba3cb44bb177a5e5793a8bc12c6",
-      "transformation": "Authored standalone packaging, API documentation, example or bounded verification interface; no mathematical kernel edits."
+      "sha256": "56ce43a9a7a34992e7819f951de887b7a8511aa336cc0a8db8aec3a4e3597ba4",
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 1883,
+        "sha256": "c51f79c4a086b4dd876f711c85a3289f93667ba3cb44bb177a5e5793a8bc12c6"
+      }
     },
     {
-      "bytes": 2457,
+      "bytes": 2448,
       "origin": {
         "repository": "codex-workbench",
         "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/tooling/proofs/rank8-clipped.md",
@@ -674,11 +729,16 @@
         "source_sha256": "3900e369fbacaa486e714ac687053a694fc2eb4fdab42068ca2f18d73b526954"
       },
       "path": "proofs/rank8-clipped.md",
-      "sha256": "3900e369fbacaa486e714ac687053a694fc2eb4fdab42068ca2f18d73b526954",
-      "transformation": "Authored standalone packaging, API documentation, example or bounded verification interface; no mathematical kernel edits."
+      "sha256": "916f1191ddfd15085dadaf15f8ea4fb3b595869efc8cecfcf97da4cf0d2a497e",
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 2457,
+        "sha256": "3900e369fbacaa486e714ac687053a694fc2eb4fdab42068ca2f18d73b526954"
+      }
     },
     {
-      "bytes": 2101,
+      "bytes": 2105,
       "origin": {
         "repository": "codex-workbench",
         "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/tooling/proofs/rectangular-matrix-invariants.md",
@@ -687,8 +747,13 @@
         "source_sha256": "545a6bd91ab64c9b65ad26045c3f4bb49b510766c8a19e83623a9983421bb74f"
       },
       "path": "proofs/rectangular-matrix-invariants.md",
-      "sha256": "545a6bd91ab64c9b65ad26045c3f4bb49b510766c8a19e83623a9983421bb74f",
-      "transformation": "Authored standalone packaging, API documentation, example or bounded verification interface; no mathematical kernel edits."
+      "sha256": "dbbf98b5270fcbb30e24466cceb8811aa0f20d9472d5bc313cfba7a6f38a994b",
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 2101,
+        "sha256": "545a6bd91ab64c9b65ad26045c3f4bb49b510766c8a19e83623a9983421bb74f"
+      }
     },
     {
       "bytes": 5976,
@@ -717,7 +782,7 @@
       "transformation": "Byte-preserving published baseline copy."
     },
     {
-      "bytes": 6165,
+      "bytes": 6083,
       "origin": {
         "repository": "stretched-lr-research",
         "source": "methods/astra-wildcard-004-2026-09-09/A04-PRINCIPAL-SPLIT-CONE.md",
@@ -726,11 +791,16 @@
         "source_sha256": "0e4a777772334bdea89195870077aad158ecb1b49eb2fd035424ef746d895dab"
       },
       "path": "proofs/sources/rank6-split-original.md",
-      "sha256": "0e4a777772334bdea89195870077aad158ecb1b49eb2fd035424ef746d895dab",
-      "transformation": "Byte-preserving copy."
+      "sha256": "98333502b37efc095dbf9a55ab5ae7ae0f7437aaee30f0d172235f723857bf43",
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 6165,
+        "sha256": "0e4a777772334bdea89195870077aad158ecb1b49eb2fd035424ef746d895dab"
+      }
     },
     {
-      "bytes": 1372,
+      "bytes": 1389,
       "origin": {
         "repository": "stretched-lr-research",
         "source": "methods/fri-2026-09-09/ACCEPTANCE.md",
@@ -739,15 +809,16 @@
         "source_sha256": "42d3deaccf79f1c47e0881663803559253a850d4ff200e4b5054692489cbc4d8"
       },
       "path": "proofs/sources/rank8-adoption.md",
-      "sha256": "1da8ad10277ed9b39166d4af18ca66b457339aa984a33a7791000df74e4cde6c",
-      "transformation": {
-        "exclusive_end_marker": "## Exact next original-box layers",
-        "kind": "exact_relevant_section_with_context_header",
-        "start_marker": "## Complete clipped rank-eight family"
+      "sha256": "e09ef434dc170fee4d77a11333cb2810e5a0cb4c53fb192b349148c177f0a22b",
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 1372,
+        "sha256": "1da8ad10277ed9b39166d4af18ca66b457339aa984a33a7791000df74e4cde6c"
       }
     },
     {
-      "bytes": 3231,
+      "bytes": 3267,
       "origin": {
         "repository": "stretched-lr-research",
         "source": "methods/fri-2026-09-09/RANK8-AGGREGATION.md",
@@ -756,11 +827,16 @@
         "source_sha256": "c7e232625eac0ef79a2801960761395d63d19b82152294ce07b79bff8f13e56d"
       },
       "path": "proofs/sources/rank8-aggregation-original.md",
-      "sha256": "c7e232625eac0ef79a2801960761395d63d19b82152294ce07b79bff8f13e56d",
-      "transformation": "Byte-preserving copy."
+      "sha256": "ac6f7bbabf48dca27a879c855f31259211c5a7bec7d6bc279bbffe97fee03c4d",
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 3231,
+        "sha256": "c7e232625eac0ef79a2801960761395d63d19b82152294ce07b79bff8f13e56d"
+      }
     },
     {
-      "bytes": 5941,
+      "bytes": 5960,
       "origin": {
         "repository": "stretched-lr-research",
         "source": "methods/fri-2026-09-09/RANK8-CERTIFICATE.md",
@@ -769,11 +845,16 @@
         "source_sha256": "d0cdb0420a14247f5873c9439f7b519002feb8847b2023170702924a00727b50"
       },
       "path": "proofs/sources/rank8-certificate-original.md",
-      "sha256": "d0cdb0420a14247f5873c9439f7b519002feb8847b2023170702924a00727b50",
-      "transformation": "Byte-preserving copy."
+      "sha256": "3aecbaf0880bd62ebf2f116dcd6b8637e7a3794d2983bbd1cb78c446b414f726",
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 5941,
+        "sha256": "d0cdb0420a14247f5873c9439f7b519002feb8847b2023170702924a00727b50"
+      }
     },
     {
-      "bytes": 4860,
+      "bytes": 4799,
       "origin": {
         "repository": "stretched-lr-research",
         "source": "methods/fri-2026-09-09/RANK8-POLYNOMIALITY.md",
@@ -782,11 +863,16 @@
         "source_sha256": "e15ddb7cf2294e90ba948e4b7384f6ba21d11bf645c56288f4a372e6728295fa"
       },
       "path": "proofs/sources/rank8-polynomiality-original.md",
-      "sha256": "e15ddb7cf2294e90ba948e4b7384f6ba21d11bf645c56288f4a372e6728295fa",
-      "transformation": "Byte-preserving copy."
+      "sha256": "f0783f5f416cba40c104faf8c76397e3e54ec7be32c7242744b0ae66c9143965",
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4860,
+        "sha256": "e15ddb7cf2294e90ba948e4b7384f6ba21d11bf645c56288f4a372e6728295fa"
+      }
     },
     {
-      "bytes": 12556,
+      "bytes": 12345,
       "origin": {
         "repository": "stretched-lr-research",
         "source": "methods/astra-wildcard-004-2026-09-09/A05-NONLINEAR-COMPENSATION.md",
@@ -795,8 +881,13 @@
         "source_sha256": "6312408cde17fa197650ef4a488a0342d3e19fe1e882508746f5a1b340e708ac"
       },
       "path": "proofs/sources/rank8-tableau-map-original.md",
-      "sha256": "6312408cde17fa197650ef4a488a0342d3e19fe1e882508746f5a1b340e708ac",
-      "transformation": "Byte-preserving copy."
+      "sha256": "d2483dad86aeacdb34507e702b4787925c58f146f89ea12e768b45fd960d5035",
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 12556,
+        "sha256": "6312408cde17fa197650ef4a488a0342d3e19fe1e882508746f5a1b340e708ac"
+      }
     },
     {
       "bytes": 1121,
@@ -808,15 +899,16 @@
         "source_sha256": "19c6ab02309702fdc904f89bcd1f148a67d0e1e4a74c326ed658ead63377e076"
       },
       "path": "proofs/sources/rectangular-adoption.md",
-      "sha256": "5612414404ee44e526136b7137450ef816b01b629717b1055ab2c7aec21bbd6d",
-      "transformation": {
-        "exclusive_end_marker": "Python grade-five attempts",
-        "kind": "exact_relevant_section_with_context_header",
-        "start_marker": "## Maintained program and useful repair"
+      "sha256": "9591bb9d05b8dad95c8f4369c7ed183eea962152e285f36821f2a54f184e6e9c",
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 1121,
+        "sha256": "5612414404ee44e526136b7137450ef816b01b629717b1055ab2c7aec21bbd6d"
       }
     },
     {
-      "bytes": 1812,
+      "bytes": 1909,
       "origin": {
         "repository": "stretched-lr-research",
         "source": "methods/frg-2026-09-10/PUBLIC-API.md",
@@ -825,12 +917,17 @@
         "source_sha256": "50497d9225c808f7d2460da6c7405b01c9217617c2640c3999d4405007af4032"
       },
       "path": "proofs/sources/rectangular-api-original.md",
-      "sha256": "44766b05b845de881f37024e950a6cda354bbb3c47931064e8d9262fdf4b112c",
-      "transformation": "Documentation navigation/provenance update only; mathematics and executable source unchanged.",
-      "prior_included_sha256": "50497d9225c808f7d2460da6c7405b01c9217617c2640c3999d4405007af4032"
+      "sha256": "002f6e879471c2d4b21cb13f91b09ca44524e7ee1b6156fdab95d83806034ebd",
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "prior_included_sha256": "50497d9225c808f7d2460da6c7405b01c9217617c2640c3999d4405007af4032",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 1812,
+        "sha256": "44766b05b845de881f37024e950a6cda354bbb3c47931064e8d9262fdf4b112c"
+      }
     },
     {
-      "bytes": 6945,
+      "bytes": 6845,
       "origin": {
         "repository": "stretched-lr-research",
         "source": "methods/astra-wildcard-004-2026-09-09/A01-TWO-WIDTHS.md",
@@ -839,11 +936,16 @@
         "source_sha256": "ca3603b8d3ea28417bb52ef105c9497690c492d4c0ddec53c7dc1e7858ba8a9e"
       },
       "path": "proofs/sources/two-widths-original.md",
-      "sha256": "ca3603b8d3ea28417bb52ef105c9497690c492d4c0ddec53c7dc1e7858ba8a9e",
-      "transformation": "Byte-preserving copy."
+      "sha256": "0a2b9e81009dedfc4ced42c9bdff327272330b58098fc5cb59bf4f7a40660a8b",
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 6945,
+        "sha256": "ca3603b8d3ea28417bb52ef105c9497690c492d4c0ddec53c7dc1e7858ba8a9e"
+      }
     },
     {
-      "bytes": 12576,
+      "bytes": 12548,
       "origin": {
         "repository": "lr-stretching-results",
         "source": "tooling/proofs/transport.md",
@@ -852,8 +954,13 @@
         "source_sha256": "06084c6c6814b270b7af1aa0a7cd27665aa52a8f9c581efccf8089862a3eb240"
       },
       "path": "proofs/transport.md",
-      "sha256": "06084c6c6814b270b7af1aa0a7cd27665aa52a8f9c581efccf8089862a3eb240",
-      "transformation": "Byte-preserving published baseline copy."
+      "sha256": "6be881b8ab7ec7b1804bceecc4e0f5f0404e194d083713ff81ec65c174d4ea09",
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 12576,
+        "sha256": "06084c6c6814b270b7af1aa0a7cd27665aa52a8f9c581efccf8089862a3eb240"
+      }
     },
     {
       "bytes": 1554,
@@ -1307,6 +1414,18 @@
       "path": "tests/test_two_widths.py",
       "sha256": "1c1407cc8e4eb9a53885ad661924a9f6aa93f3e99b020938b41a2bdfc83946d6",
       "transformation": "Byte-preserving copy."
+    },
+    {
+      "path": "proofs/positive-capped-fiber.md",
+      "bytes": 4194,
+      "sha256": "b0b8520125b6de31900554c514eaf6f37553d4b75611d4a96ff2f125d29ad664",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra-wildcard-003-2026-09-08/A06/POSITIVE-CAPPED-FIBER.md",
+        "source_commit": "ba17527fff6510d625d5b4fe3b48ca2df78c3438",
+        "source_sha256": "57ca63e898328b425fe18c2dd132ccab521bf6d7ec197e159473ddf7f0b39ce5"
+      },
+      "transformation": "Selected complete capped-interval argument, editorial introduction and explicit subtraction yielding the capped moment; private application/routing prose omitted."
     }
   ],
   "omitted_machinery": [

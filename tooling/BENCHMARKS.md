@@ -69,43 +69,43 @@ python3 -B tooling/benchmarks/compare.py --case native-chart-m3-t4
 The bundled command reproduces the transport/quotient comparisons against the
 frozen previous implementation. Each child has a timeout and each failure is
 reported without a count. It measures its own subprocess overhead, which is
-not identical to the original contained-observer overhead. The native chart
-names identify prior native research inputs; this benchmark executes Python
-algorithms and is not a fresh native LR or Barvinok run.
+not identical to the original contained-observer overhead. The chart names identify the original benchmark inputs. This command
+compares Python implementations; it does not execute the separately timed
+LR or Barvinok engines.
 
 Algorithm choices, unsuccessful comparisons and remaining limits are explicit:
 equal-cap orbit aggregation, bounded-composition prefix sums versus grouped
 inclusion-exclusion, and mixed-star prefix moments versus numerator expansion.
 No schedule cache was added: the measured improvements did not require one.
-These tools do not accelerate every arbitrary LR or high-degree native cohort.
+These measurements do not establish a speedup for arbitrary LR inputs or
+high-degree families.
 
-## Late native skew-count extension
+## Skew-tableau counting
 
 The new scalar counter counts complete horizontal-strip chains while merging
 partial row states. Eighteen additional cold measurements compare three exact
 implementations on identical inputs. All outputs agree.
 
-| Input | Native-source forward | Native-source row sweep | Maintained | Forward / maintained |
+| Input | Earlier forward method | Earlier row-sweep method | Maintained | Forward / maintained |
 | --- | ---: | ---: | ---: | ---: |
 | `R11-T2` | 0.563921 s | 0.157430 s | 0.054033 s | 10.44x |
 | `R11-T3` | 6.537534 s | 1.312514 s | 0.332216 s | 19.68x |
 
 The two formerly unrecounted whole-LR scalar values are R11(3)=9648083027500
-and R12(3)=10566115584448; the maintained code and independent native-source
-row sweep agree. All six R11/R12 values at t=1,2,3 agree with the recorded
+and R12(3)=10566115584448; the maintained code and independent earlier row-sweep implementation agree. All six R11/R12 values at t=1,2,3 agree with the recorded
 values. On one next-dilation pricing point, R11(4)=2035308347631957, the row
 sweep takes 6.8854 seconds and maintained counting 1.3560 seconds. The full
 degree-29 polynomials remain uncomputed, and a power-law extrapolation from a
 few scalar timings is not a certified cost floor.
 
-On the actual native skew input (5,4,3,2,1)/(2,1,1), content
+On the skew input (5,4,3,2,1)/(2,1,1), content
 (2,2,2,1,1,1,1,1), all three methods give 4576 at t=1. The maintained method
 is slower on this tiny case (about 0.00053 seconds versus 0.00024 seconds for
 forward enumeration). It offers the same general interface, explicit validation
 and work limits. The stored legacy field `kostka_t1` is an h-star sum, not the
 true value at one; it is not used as the control here.
 
-The native source reports 1491.138 seconds for its earlier LR-engine R11(2)
+The earlier execution record reports 1491.138 seconds for its earlier LR-engine R11(2)
 call. Our fast Python count agrees with that value, but this is a historical
 route-price comparison, not a fresh paired LR timing. The measured same-input
 comparisons above and [their raw samples](benchmarks/SKEW-MEASUREMENTS.json)

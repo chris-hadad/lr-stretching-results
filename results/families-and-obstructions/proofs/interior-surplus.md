@@ -1,6 +1,7 @@
 # The complete shifted-interior surplus at low codegree defect
 
-FRONTIER-025 P12. Originating proof-only derivation; no scientific computation or independent campaign verification in this unit. No worldwide-priority claim. The Ehrhart polynomial, its true reciprocity interiors, and the elementary interior-translation inclusion are the only mathematical premises. No nonnegative h-star assumption is made.
+This is a symbolic derivation, without an independent computational check in
+this note. No historical priority claim is made. The Ehrhart polynomial, its true reciprocity interiors, and the elementary interior-translation inclusion are the only mathematical premises. No nonnegative h-star assumption is made.
 
 ## 1. Complete objects and hypotheses
 
@@ -74,9 +75,9 @@ These are exact finite rigidity tests, not an inference from several favorable s
     q>=d-1 and I(q)=1  ==> complete ordinary positivity;
     q>=d-2, I(q)=1, I(q+1)=P(1) ==> complete ordinary positivity.
 
-At r=4 the same finite test proves reflection, but reflection alone is not promoted here to positivity. Proof 041 gives a separate quintic codegree-two coefficient test.
+At r=4 the same finite test proves reflection, but reflection alone is not promoted here to positivity. A separate source proof gives a quintic codegree-two coefficient test.
 
-The inherited boxed rank-seven control A in proof 038 has d=5,q=3,I(3)=1 but I(4)=21>P(1)=14. It is exactly the first residual degree where the single-count test is inadequate. Its surplus is
+The previously recorded rank-seven finite-box control A has d=5,q=3,I(3)=1 but I(4)=21>P(1)=14. It is exactly the first residual degree where the single-count test is inadequate. Its surplus is
 
     S_3(t)=(7/12)*binom(t+2,2)*t(t+3),
 
@@ -105,8 +106,9 @@ Then P=A-(lambda/2)H. The coefficients of H are strictly positive in degrees 1 t
 
     lambda <= min_(1<=k<=d-1) 2*[t^k]A/[t^k]H.             (4)
 
-This finite symbolic coefficient threshold includes every completion term. It is not asserted satisfied by every LR family. Proof 042 gives an entire integral polytope with positive M_q and S_q but negative P, showing why that missing bound matters.
+This finite symbolic coefficient threshold includes every completion term. It is not asserted satisfied by every LR family. [The twice-pyramided Reeve example](negative-pyramid-challenge.md) gives an entire integral polytope with positive M_q and S_q but negative P, showing why that missing bound matters.
 
-## 6. Scientific and endpoint scope
+## 6. Scope
 
-This is an all-dimension theorem about low codegree defect, with conditional entire-LR applicability. It does not prove that all 1,279,898 bound-five evaluation keys have such codegree or satisfy the rigidity/compensation conditions. No key was evaluated, no original-root map was newly traversed, and no new closure is subtracted. The remaining whole-box obligation is actual membership or a complete alternative certificate, not the formal operation alone.
+This is an all-dimension theorem about low codegree defect, with conditional entire-LR applicability. It does not prove that all 1,279,898 bound-five evaluation keys have such codegree or satisfy the rigidity/compensation conditions. No new finite-box entries are verified here. A whole-box conclusion would
+require actual membership in these hypotheses or a complete alternative certificate.

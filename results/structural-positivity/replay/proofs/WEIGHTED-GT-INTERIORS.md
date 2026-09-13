@@ -1,10 +1,9 @@
 # Defect two and weighted straight-GT interiors
 
-FRONTIER-024 Phase 5. Attempt P05-A01-16ee6e9c8d2f. Provider derivations;
-not campaign acceptance or a worldwide priority claim. The full uniform-content
-staircase proof is inherited from SOURCES/PHASE5/GENERAL-HEIGHT.md. This note
-extends its applicability to nonuniform positive contents and uses the resulting
-dominance costs to locate a new whole-LR family. No historical code is executed.
+This derivation extends [The interior staircase shift at arbitrary height](GENERAL-HEIGHT.md)
+to nonuniform positive contents and uses the resulting dominance costs to locate
+a whole-LR family. Independent verification of this source derivation and
+worldwide priority are not claimed here.
 
 ## 1. Two genuine interior counts, with no numerator-positivity assumption
 
@@ -93,9 +92,8 @@ lambda_j-beta_m+lambda_(j+1),lambda_(j+2),...). It is a partition. For k<j
 its prefix is unchanged; for k>=j its prefix is the old (k+1)-prefix minus
 beta_m, which dominates the new content k-prefix because beta_(k+1)>=beta_m.
 Repeat. Necessity follows because labels 1,...,k occupy the first k rows.
-This is the classical dominance construction, not a new theorem; the complete
-original Fayers argument and Wildon's account were read as public primary
-mathematical exposition and are recorded in the source note.
+This is the classical dominance construction, not a new theorem; the original
+argument of Fayers and Wildon's account supply the primary exposition.
 
 Applying this criterion to (5) gives exactly
 
@@ -146,8 +144,8 @@ At h=4,m=6, D=9, the dominance costs are 5,8,9. Thus the exact conditions
     Delta_1>=1, Delta_2=1, Delta_3>=2               (9)
 
 give q0=8. Every other term in (7) is at most five. This is a genuine rank-six
-quadratic-residual stratum and is the subject of proof 011. It is not disposed
-of by the rank-at-most-five theorem or the q0>=D terminal.
+quadratic-residual stratum and is studied in the associated quadratic-residual family proof. It is not disposed
+of by the rank-at-most-five theorem or the q0>=D positivity criterion.
 
 ## 5. Verification and boundaries
 
@@ -160,5 +158,5 @@ here are those of this full saturated GT model. Their count equals the
 ordinary-LR relative-interior count by equality of full polynomials and the
 common actual degree, not by an unproved affine identification.
 
-Fresh exact tests, their independence and failure records belong in
-DATA/PHASE5/ and proof 012. No finite test substitutes for (5)-(7).
+The associated exact tests and their independence and failure records are
+retained in DATA/PHASE5/. No finite test substitutes for (5)-(7).

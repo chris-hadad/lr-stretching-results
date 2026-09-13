@@ -1,10 +1,7 @@
-# A08: the root's affine-E6 construction gives every arrow count at least two
+# An affine-E6 construction for every arrow count at least two
 
-Status: the proposed construction is verified for integers q,n>=1, with the
-q=1 equal-dimension edge treated explicitly below. This is a check and
-development of the root-originated A08 hypothesis. No program, scientific
-count, native call, or external-model call was run. Earlier frozen files
-were left unchanged.
+The construction is verified for integers q,n>=1, with the q=1
+equal-dimension edge treated explicitly below. The argument is symbolic.
 
 ## 1. Result
 
@@ -42,7 +39,7 @@ extending source vertex.
 
 The primitive null root delta of Q0 has central value 3 and values 1,2 along
 each arm, from its outer endpoint toward the center. Thus delta_e=1. The
-root's proposed vector is
+proposed vector is
 
     alpha_q=q delta+e
 
@@ -75,7 +72,7 @@ Kronecker quiver, with the sink simple mapped to P and the source simple
 mapped to I. Derksen-Weyman's embedding theorem preserves generic Hom,
 Ext, the Euler form, and the Schur-root property.
 
-For clarity, the two-Kronecker vector (q,q+1) is genuinely exceptional. It
+For clarity, the two-Kronecker vector (q,q+1) is exceptional. It
 has the standard pencil
 
     A=[I_q  0],    B=[0  I_q],    A,B:C^(q+1)->C^q.
@@ -226,8 +223,8 @@ proof case, not an obstruction to the proposed construction.
 ## 7. Multiplication can also be preserved here
 
 For this new-leaf construction the same rigid-slice proof as in
-SPECTRAL-FIBRE.md applies. E1^direct_sum_n has an open orbit on the quiver
-with v deleted. Freeze it there, and let the new arrow be an arbitrary map
+the source spectral-fibre argument applies. E1^direct_sum_n has an open orbit on the quiver
+with v deleted. Fix it there, and let the new arrow be an arbitrary map
 
     C^n -> E1(e) tensor C^n = C^(q+1) tensor C^n.
 
@@ -241,7 +238,7 @@ ring is isomorphic to R(n,q+1) with stretch grade t=entry degree/n.
 This is a concrete map argument plus the source theorem. It is not an
 inference of ring structure from isolated coefficient coincidences.
 
-## 8. The root's explicit q=2,n=1 discriminator
+## 8. An explicit q=2,n=1 example
 
 Substitution gives
 
@@ -271,6 +268,5 @@ rigid-root argument.
 
 This verifies an arbitrary-arrow-count **two-vertex Kronecker** construction.
 It does not embed every flow quiver into a flag quiver and does not bypass
-the root's Euler-index obstruction to whole-quiver embeddings with multiple
-negative directions. No ordinary-negative polynomial, scientific execution,
-or original-box coverage increment is claimed. Runtime: none.
+the Euler-index obstruction to whole-quiver embeddings with multiple
+negative directions. No ordinary-negative polynomial or additional finite-box coverage is claimed.

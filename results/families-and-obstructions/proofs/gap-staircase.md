@@ -1,10 +1,10 @@
 # Defect two and weighted straight-GT interiors
 
-FRONTIER-024 Phase 5. Attempt P05-A01-16ee6e9c8d2f. Provider derivations;
-not campaign acceptance or a worldwide priority claim. The full uniform-content
-staircase proof is inherited from SOURCES/PHASE5/GENERAL-HEIGHT.md. This note
-extends its applicability to nonuniform positive contents and uses the resulting
-dominance costs to locate a new whole-LR family. No historical code is executed.
+This AI-assisted derivation extends the uniform-content staircase proof to
+nonuniform positive contents and uses the resulting dominance costs to identify
+a whole-LR family. The original derivation is recorded under the source identifier
+`P05-A01-16ee6e9c8d2f`; its uniform-content premise is
+`SOURCES/PHASE5/GENERAL-HEIGHT.md`. No historical priority claim is made.
 
 ## 1. Two genuine interior counts, with no numerator-positivity assumption
 
@@ -146,12 +146,12 @@ At h=4,m=6, D=9, the dominance costs are 5,8,9. Thus the exact conditions
     Delta_1>=1, Delta_2=1, Delta_3>=2               (9)
 
 give q0=8. Every other term in (7) is at most five. This is a genuine rank-six
-quadratic-residual stratum and is the subject of proof 011. It is not disposed
-of by the rank-at-most-five theorem or the q0>=D terminal.
+quadratic-residual stratum and is treated in the corresponding quadratic-residual proof. It is not covered
+by the rank-at-most-five theorem or the q0>=D positivity criterion.
 
 ## 5. Verification and boundaries
 
-The proof is an extension of the read uniform staircase source, plus the
+The proof extends the uniform staircase source, plus the
 explicit dominance calculation. It does not assert hive vertex integrality,
 affine hive/GT isomorphism, a Gorenstein shift on the original ray, or equality
 of arbitrary polytope interiors under a mere scalar-count coincidence.
@@ -160,5 +160,6 @@ here are those of this full saturated GT model. Their count equals the
 ordinary-LR relative-interior count by equality of full polynomials and the
 common actual degree, not by an unproved affine identification.
 
-Fresh exact tests, their independence and failure records belong in
-DATA/PHASE5/ and proof 012. No finite test substitutes for (5)-(7).
+The original exact tests and their independence and failure records are
+identified by `DATA/PHASE5/` and the verification note in the source archive.
+No finite test substitutes for (5)-(7).

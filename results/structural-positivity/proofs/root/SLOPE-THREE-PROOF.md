@@ -1,8 +1,9 @@
 # Positive weights with lower row of slope three
 
-Root-originated processing result, 12 September 2026 UTC. This develops the
-open lower-row-slope-three formula in Pro027. It is a proof candidate until
-the exact finite check and independent mathematical review are complete.
+Codex derivation, 12 September 2026 UTC. This develops the lower-row-slope-three
+formula from the preceding two-row work. The argument combines the inequalities
+below with the exact finite expansion described in the
+[public verification module](../../replay/README.md).
 
 ## Statement and whole-LR count
 
@@ -99,11 +100,11 @@ For k=2, let `H=sum a`. Since `sum a_i^2<=H`,
 For `d>=5`, `H>=H_4=25/12`, so this is at least
 `3d/8-1-3/(d-1)>0` (already `1/8` at d=5, and increasing).
 
-Only `4<=d<=20` remains. The accompanying independent exact-rational
-expansion script checks all coefficients, with no numerical fitting or
-floating point. The expected result is positivity for `5<=d<=20` and
-`P*_4(t)=1+2t+3t^2/2+t^3/2`. Its execution receipt is a required proof
-dependency; this draft does not assert that the check has already run.
+For `4<=d<=20`, the accompanying independent exact-rational expansion checks
+all coefficients, with no numerical fitting or floating point. The verified
+finite result is positivity for `5<=d<=20` and
+`P*_4(t)=1+2t+3t^2/2+t^3/2`. The [public verification module](../../replay/README.md)
+provides these finite expansions, which are required premises of the proof.
 
 These finite cases and the inequalities prove the statement. In the single
 uniform d=4 exception the leading coefficient vanishes; every non-unit
@@ -113,10 +114,10 @@ face count or negative summand is substituted for the whole polynomial.
 ## Credit and next question
 
 The disjoint-row two-variable setup and the slope-three inclusion-exclusion
-formula come from Pro027; the coefficientwise profile comparison and uniform
-positivity proof are new root work in this processing session. The campaign
-also relies on Alper Ferudun's rank-at-most-five positivity and high-coefficient
-methods; those results are not claimed here as ours.
+formula come from the preceding GPT-6 Pro derivation. The coefficientwise
+profile comparison and uniform positivity proof are Codex contributions.
+Alper Ferudun's rank-at-most-five positivity and high-coefficient methods
+remain prior results and are not claimed here as new contributions.
 
 The next open question is whether analogous profile comparisons and uniform
 positivity can handle general fixed lower-row slope. It remains open here;

@@ -28,7 +28,8 @@ coordinates and q others, at total Z+W:
 
     M_pq(Z,W)=sum_(v=0)^(Z+W) min(W,v) B_p(v) B_q(Z+W-v).
 
-The preceding single-fiber proof gives the explicit positive polynomial
+The [single-capped-interval proof](positive-capped-fiber.md#the-capped-first-moment)
+gives the explicit positive polynomial
 
     M_pq(Z,W)=sum_(k=0)^(p+q-1)
        R_k(Z) B_(p+q-k)(W) alpha_k W,
@@ -94,7 +95,8 @@ If B>=T and C<=T, the lower cut is inactive. The whole count is
 
     F_(h+q1,q2)(D,T-C,C),
 
-the positive single-capped-interval polynomial already proved. Its three
+the [positive single-capped-interval polynomial](positive-capped-fiber.md)
+defined and proved by its complete composition sum. Its three
 arguments are nonnegative and homogeneous in the physical parameters.
 
 If C>=T and B<=T, the upper cutoff is inactive. The interval length is
@@ -135,11 +137,11 @@ in its full first-moment identity; terms involving both W and Z have degree
 at least two. Clamp B and C to T, which leaves the polytope unchanged, and
 apply the two-tail formula. All displayed weights are positive. Thus c1
 is concave on the convex admissible physical domain. This local structural
-fact is consistent with A02's failure of global c1 concavity for general LR.
+fact is consistent with the known failure of global c1 concavity for general LR.
 
 ## Application and exact limit
 
-The original FRH rank-six cone has h=q1=q2=3, plus one independent interval
+The rank-six cone has h=q1=q2=3, plus one independent interval
 of length x. Its six formal active ray parameters are x,a,b,c,d,e, with
 the exact relation a+b+c=d+e at the level of boundary generators. The count
 depends only on the physical combinations in (2); the computed polynomial
@@ -148,7 +150,7 @@ is a relation among generators, not an equation restricting nonnegative
 coefficient tuples.
 
 The complete source geometry, unimodular slack map and all omitted-inequality
-checks belong to A01. Formula (3) supplies the sign proof; the independently
+checks are described in the [sector proof](cdagger.md). Formula (3) supplies the sign proof; the independently
 expanded 2,418 positive nonzero monomials are corroborating arithmetic. For
 an integral boundary represented by rational nonnegative ray coefficients,
 clear denominators, use the integer whole-model identity, then compare

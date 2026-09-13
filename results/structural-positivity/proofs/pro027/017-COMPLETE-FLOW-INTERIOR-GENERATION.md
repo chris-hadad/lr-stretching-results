@@ -1,6 +1,6 @@
 # Complete source-sink LR interiors are generated at their first grade
 
-Originating claim FR027-P05-T001; the codegree and stable LR count are shared/inherited controls, rederived below. The new claim here is exact closed-polytope Minkowski equality and integral first-interior generation, not worldwide novelty, ordinary-coefficient positivity at every rank, or an affine identification with conventional hive coordinates.
+The codegree and stable LR count are rederived below. The principal result is exact closed-polytope Minkowski equality and integral first-interior generation. Worldwide novelty, ordinary-coefficient positivity at every rank, and an affine identification with conventional hive coordinates are not claimed.
 
 ## 1. Entire LR count and the actual lattice
 
@@ -10,16 +10,16 @@ Let n>=3 and let rho=(n-1,n-2,...,0), theta=(1,0,...,0,-1). For integers M>=s>=1
 
 These are nonnegative partitions: the first and last adjacent gaps of lambda are 2M-s>=M, and its other gaps are 2M. Lambda has n positive parts, the inners have n-1 after trimming. Their sizes are M n(n-1), M n(n-1)/2, M n(n-1)/2. Thus ordinary rank is n, and balance holds. The displayed rank/size need not be minimal. The s=0 case is the multiplicity-one highest component and is excluded from the positive-dimensional statements.
 
-Write K_n(R) for all nonnegative flows on edges i<j of the complete acyclic graph on n vertices, with prefix netflow R=(R1,...,R_(n-1)). This subscript denotes the vertex count, unlike UPDATE.md's K_(n-1). The entire all-stretch identity is
+Write K_n(R) for all nonnegative flows on edges i<j of the complete acyclic graph on n vertices, with prefix netflow R=(R1,...,R_(n-1)). The subscript denotes the vertex count. The entire all-stretch identity is
 
     c^(t lambda)_(t mu,t nu)=K_n(st,...,st).             (1)
 
-Here is a derivation independent of the omitted Astra005 certificate. Multiplying the Schur product by the Weyl alternant A_rho, the coefficient of the strictly dominant monomial x^(t lambda+rho) is exactly the desired LR coefficient. Expanding both numerator alternants and the denominator product over positive roots gives the complete double-Weyl sum
+The following direct derivation establishes the count identity. Multiplying the Schur product by the Weyl alternant A_rho, the coefficient of the strictly dominant monomial x^(t lambda+rho) is exactly the desired LR coefficient. Expanding both numerator alternants and the denominator product over positive roots gives the complete double-Weyl sum
 
     sum_(w,v in S_n) sign(w) sign(v)
       K[st theta-(Mt+1)(2rho-wrho-vrho)].
 
-Every proper prefix sum of rho-wrho is a nonnegative integer, and at least one is positive for w!=id: the first k entries of rho have the largest possible k-entry sum, and equality at every k forces the identity. Thus any nonidentity pair makes some target prefix at most st-(Mt+1)<0. A nonnegative acyclic flow cannot have a negative prefix. Only the identity pair survives. At t=0 the same argument gives one. No numerator term is dropped without this support proof. This also establishes the equality case M=s of the stable region, without importing the missing Horn-release certificate.
+Every proper prefix sum of rho-wrho is a nonnegative integer, and at least one is positive for w!=id: the first k entries of rho have the largest possible k-entry sum, and equality at every k forces the identity. Thus any nonidentity pair makes some target prefix at most st-(Mt+1)<0. A nonnegative acyclic flow cannot have a negative prefix. Only the identity pair survives. At t=0 the same argument gives one. No numerator term is dropped without this support proof. This also establishes the equality case M=s of the stable region, without assuming a separate Horn-release identity.
 
 Let F_n(t)={x_ij>=0: div x=t(e1-en)}. It is bounded because every coordinate is at most the value across any prefix it crosses, namely t. Its affine lattice is saturated: freely choose the nonadjacent-edge coordinates, then recover
 
@@ -67,13 +67,13 @@ For completeness, the integral max-flow argument used here needs no unprovided o
 
 Taking N=q, every later true interior lattice point belongs to at least one translate u+F_n(t) with u a first-interior lattice point. This is the exact generating-at-first-grade property often called levelness for this integral Ehrhart model. It does NOT say the translates are disjoint or that the surplus is coefficient-positive.
 
-All integer dilations are covered too. For F_n(s), s>=1, the true codegree is ceil(q/s). Use N=s ceil(q/s)>=q and t replaced by st in (2)-(3). Nothing about the budget or unit count is reset by this mathematical dilation.
+All integer dilations are covered too. For F_n(s), s>=1, the true codegree is ceil(q/s). Use N=s ceil(q/s)>=q and t replaced by st in (2)-(3). This dilation changes the lattice-point scale, with the codegree adjusted as stated.
 
 ## 4. First-interior type is a square
 
 Put m=floor(n/2). In C_q subtract the all-one flow. Every residual edge crossing a maximum middle cut is zero. At even n=2m this separates the left and right m-vertex graphs. At odd n=2m+1 both middle cuts are maximum, so the central vertex is isolated in the residual. The right half is the reversal of the left half.
 
-The left half is the COMPLETE nonnegative K_m flow with netflow
+The left half is the complete nonnegative K_m flow with netflow
 
     ((m-1)^2, -(2m-3), -(2m-5), ..., -1), n=2m;
     (m(m-1), -(2m-2), -(2m-4), ..., -2), n=2m+1.
@@ -92,4 +92,4 @@ Let N0=I_n(q). Equations (2)-(3) give the complete, all-integer-grade inequaliti
 
     P_n(t)<=I_n(q+t)<=N0 P_n(t).
 
-Thus 0<=S_n(t)<= (N0-1)P_n(t) pointwise. There is no inference that either inequality holds coefficientwise. Overlaps are indispensable: at n6,t1 the 4 translates contain64 incidences but only49 distinct points; at n8,t1 the169 translates contain10816 incidences but only4900 distinct points. Proof018 supplies their exact complete intersection operator. A general bound on each subtracted ordinary coefficient for all n remains open here.
+Thus 0<=S_n(t)<= (N0-1)P_n(t) pointwise. There is no inference that either inequality holds coefficientwise. Overlaps are indispensable: at n6,t1 the 4 translates contain64 incidences but only 49 distinct points; at n8,t1 the 169 translates contain10816 incidences but only 4900 distinct points. [A complete overlap operator for first-interior translates](018-EXACT-TRANSLATED-INTERIOR-INTERSECTIONS.md) supplies their exact complete intersection operator. A general bound on each subtracted ordinary coefficient for all n remains open here.

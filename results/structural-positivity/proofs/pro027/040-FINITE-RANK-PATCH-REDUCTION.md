@@ -1,8 +1,8 @@
 # A finite rank horizon for the proposed all-rank patch rule
 
-Claim FR027-P11-T004. This is a proved reduction to a finite certificate task, NOT a completed all-rank sign theorem. The necessary finite task below remains unfinished in this checkpoint.
+The following argument reduces the proposed all-rank patch rule to a finite certificate problem. It does not complete an all-rank sign theorem; the finite checks listed below remain incomplete in this proof.
 
-Use the original triangular-grid hive directions N_n in the ordinary interior-coordinate lattice, with one standard coordinate metric. Assign the399 boundary-tagged template vectors from proof038 to every matching independent triple at every n, and zero to all other triples. The largest interior-coordinate triangular span of any template is THREE, independently checked in J10.
+Use the original triangular-grid hive directions N_n in the ordinary interior-coordinate lattice, with one standard coordinate metric. Assign the 399 boundary-tagged template vectors from [Intrinsic boundary-patch compensation in complete hive atlases](038-INTRINSIC-BOUNDARY-PATCH-COMPENSATION.md) to every matching independent triple at every n, and zero to all other triples. The largest interior-coordinate triangular span of any template is THREE, independently checked by the independent verifier.
 
 For a finite set A of lattice positions define
 
@@ -22,17 +22,17 @@ All three are nonnegative. Translate the whole configuration and change the encl
 
 Every full vertex is on the boundary before the operation exactly when its corresponding vertex is on the boundary afterward. Thus deletion of boundary coordinates leaves precisely the same signed normal matrix up to a permutation of active coordinates and insertion/removal of identically zero ambient columns. Independence, saturated normal lattices, projected counting lattices, metrics and complete zero-vertex BV values are preserved. Different generators remain different. Duplicate original rhombi cause no difficulty: choose any original representative and preserve all of its vertices in this construction.
 
-In particular, RAW connected normal cones of dimensions1,2,3 can all be checked by ranks at most5,7,9 respectively. A coordinate-disconnected normal tuple is an orthogonal direct sum in disjoint coordinate sublattices, so its complete BV value is the product of the connected-component values. This uses a genuine integer lattice direct sum, not merely a disconnected Gram graph. The multiplicativity premise is Berline--Vergne Proposition14(c), at its full lattice scope.
+In particular, RAW connected normal cones of dimensions 1,2,3 can all be checked by ranks at most 5,7,9 respectively. A coordinate-disconnected normal tuple is an orthogonal direct sum in disjoint coordinate sublattices, so its complete BV value is the product of the connected-component values. This uses a genuine integer lattice direct sum, not merely a disconnected Gram graph. The multiplicativity premise is Berline--Vergne Proposition14(c), at its full lattice scope.
 
 ## Corrected connected quadruples: rank at most fourteen
 
-The previous compression need not preserve the flags i=1,j=1,i+j=n-1 used by the patch rule. Instead cap each of the THREE FULL-RHOMBUS boundary gaps at TWO. Boundary membership and membership in the first interior coordinate layer are both preserved for every vertex, hence for every triple facet's support. All normalized directed patch shapes, flags, template matches and ambient dot products remain identical. Formula038(1) preserves every primitive quotient divisor as well.
+The previous compression need not preserve the flags i=1,j=1,i+j=n-1 used by the patch rule. Instead cap each of the THREE FULL-RHOMBUS boundary gaps at TWO. Boundary membership and membership in the first interior coordinate layer are both preserved for every vertex, hence for every triple facet's support. All normalized directed patch shapes, flags, template matches and ambient dot products remain identical. Formula(1) in [Intrinsic boundary-patch compensation in complete hive atlases](038-INTRINSIC-BOUNDARY-PATCH-COMPENSATION.md) preserves every primitive quotient divisor as well.
 
 For connected quadruples r(A)<=8, so the corrected configuration has
 
     n'<=8+6=14.                                         (1)
 
-The entire corrected constant, including every affected facet, is preserved. Capping at one is NOT adequate for this corrected statement. In J11,57 of120 concrete controls preserve the raw cone embedding but change at least one facet tag when cap one is used; cap two preserves them all.
+The entire corrected constant, including every affected facet, is preserved. Capping at one is NOT adequate for this corrected statement. In the finite comparison,57 of 120 concrete controls preserve the raw cone embedding but change at least one facet tag when cap one is used; cap two preserves them all.
 
 ## Possibly disconnected affected quadruples: rank at most fifteen
 
@@ -53,7 +53,7 @@ even if the interior-support graph is disconnected. If all corrections vanish, a
 
 The following finite tests suffice for strict all-rank codimension-four compensation:
 
-A. Every connected independent tuple of q=1,2,3 hive directions has positive RAW value in every feasible atlas up to rank2q+3.
+A. Every connected independent tuple of q=1,2,3 hive directions has positive RAW value in every feasible atlas up to rank 2q+3.
 
 B. Every connected independent quadruple has positive FULL CORRECTED value in each atlas with5<=n<=14.
 
@@ -66,8 +66,10 @@ If A--C hold, every independent quadruple at every n>=5 has a positive corrected
 
 for every nonempty period-one whole hive of sufficient actual degree; smaller degrees give zero. This is the CONDITIONAL all-rank consequence, not a theorem already certified here.
 
-Current verified coverage: both complete atlases at ranks6 and7 pass the patch rule; every affected rank8 star passes. This does not complete A--C. In particular the untouched rank8 connected quadruples and larger-rank configurations remain to be checked. A mere repeated count of132 negatives, the22 abstract isometry types, or a passing affected subset cannot replace this finite task.
+The coverage established here is: both complete atlases at ranks 6 and 7 pass the patch rule; every affected rank 8 star passes. This does not complete A--C. In particular the untouched rank 8 connected quadruples and larger-rank configurations remain to be checked. A mere repeated count of 132 negatives, the 22 abstract isometry types, or a passing affected subset cannot replace this finite task.
 
-J11 challenges the compression on120 exact full-rhombus configurations, expanded to ranks as large as27 by changing only noncritical boundary distances. All cap-two normal embeddings and all facet tags agree, while57 cap-one tag tests fail. These bounded controls challenge the general proof but do not supply its missing finite positivity certificates.
+The finite comparison tests the compression on 120 exact full-rhombus configurations, expanded to ranks as large as 27 by changing only noncritical boundary distances. All cap-two normal embeddings and all facet tags agree, while 57 cap-one tag tests fail. These bounded controls challenge the general proof but do not supply its missing finite positivity certificates.
 
-Primary analytic source: Berline and Vergne, Local Euler--Maclaurin formula for polytopes, arXiv:math/0507256v3, Proposition14(b),(c). The lattice-isometry and orthogonal-product hypotheses are retained. The finite geometry reduction above is an originating derivation.
+The subsequent [certificate through rank twelve](042-CODIMENSION-FOUR-THROUGH-RANK-TWELVE.md) completes the smaller-component and affected-extension checks and the connected checks through rank twelve. It treats the rank-five exceptions separately; the connected rank-thirteen and rank-fourteen signs remain open.
+
+Primary analytic source: Berline and Vergne, Local Euler--Maclaurin formula for polytopes, `arXiv:math/0507256v3`, Proposition14(b),(c). The lattice-isometry and orthogonal-product hypotheses are retained. The finite geometry reduction above is the geometric argument given here.

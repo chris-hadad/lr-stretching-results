@@ -131,7 +131,7 @@ coefficient signs. Using its degree for an LR family requires an independent
 argument identifying the entire polytope and its lattice, or another fully
 proved count-transfer argument with the same consequence. A face embedding,
 selected subset of tableaux, or agreement of finitely many counts is
-insufficient. The original FRC support-construction premises remain separate.
+insufficient. The support-construction premises remain separate from this certificate.
 
 ## Focused verification
 

@@ -163,7 +163,7 @@ cuts a listed cone's strict interior.
 
 The classical premise used here is polynomiality of a unimodular vector
 partition function on closed chamber cones: see J. A. De Loera and
-B. Sturmfels, *Algebraic Unimodular Counting*, arXiv:math/0104286, Theorem
+B. Sturmfels, *Algebraic Unimodular Counting*, arXiv: math/0104286, Theorem
 1.1 and the chamber-complex characterization. Positive column repetitions
 do not change the chamber complex. The verified fan is a common refinement,
 so q_j is homogeneous of degree j on each closed listed cone.

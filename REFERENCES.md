@@ -1,7 +1,7 @@
 # Mathematical antecedents and selected references
 
 **Alper Ferudun's recent rank-four/five positivity work is a central
-contribution to the conjecture and an indispensable input to this campaign.**
+contribution to the conjecture and an indispensable input to the finite-box proof.**
 The finite-box theorem uses his all-size length-at-most-five theorem as an
 explicit external premise. See [arXiv: 2607.22301v2](https://arxiv.org/abs/2607.22301v2)
 and the [pinned manuscript](https://github.com/AlperTheKing/ktt-positivity/blob/c3a0795bd287dcca78fac2cc6ba4282144bb7813/paper/ktt_positivity.tex).
@@ -46,8 +46,8 @@ third-party source archive is redistributed in this repository.
    for partitions of length at most five*, manuscript at GitHub commit
    c3a0795bd287dcca78fac2cc6ba4282144bb7813, 5 September 2026.
    [Pinned manuscript](https://github.com/AlperTheKing/ktt-positivity/blob/c3a0795bd287dcca78fac2cc6ba4282144bb7813/paper/ktt_positivity.tex).
-   Cite this revision for the length-five extension. The research program
-   independently checked its new linear certificate, cone completeness and
+   This revision supplies the length-five extension. Independent verification
+   checked its new linear certificate, cone completeness and
    transfer argument; earlier coefficient results remain source dependencies.
 7. Ferudun, *General KTT proof status*, Hurwitz discussion at lines 172–177.
    [Pinned note](https://github.com/AlperTheKing/ktt-positivity/blob/c3a0795bd287dcca78fac2cc6ba4282144bb7813/proof/GENERAL_KTT_PROOF_STATUS.md).
@@ -64,8 +64,8 @@ third-party source archive is redistributed in this repository.
 Weyl's character formula, Schur/Pieri/Jacobi–Trudi identities, Ehrhart–Macdonald
 reciprocity, Routh root counting and Rouché's theorem are classical tools.
 The proofs specify where they enter and verify the instance-specific hypotheses.
-The isolated R18 result and the three subsequent research returns originated
-in GPT 6 Pro explorations; independent implementation and verification were
+The rank-eighteen example, root-cone and coefficient-geometry results were
+proposed with GPT 6 Pro assistance; independent implementation and verification were
 performed with Codex. [PROVENANCE.md](PROVENANCE.md) explains the distinction
 between mathematical independence and human peer review.
 
@@ -89,8 +89,8 @@ The [posted FrontierMath problem](https://epoch.ai/frontiermath/open-problems/st
 defines the finite bounds addressed by the box theorem. Epoch's
 [FAQ](https://epoch.ai/frontiermath/open-problems/about/faq) says that it cannot
 adjudicate nonexistence claims and relies on the mathematical community.
-Campaign verification does not establish that community or institutional
-acceptance has occurred.
+The computational verification recorded here is separate from mathematical
+community acceptance or an institutional determination.
 
 ## Exact source locations and flow antecedents
 

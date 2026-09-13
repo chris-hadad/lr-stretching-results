@@ -1,10 +1,10 @@
 # Exhaustive compression to 637 inhabited coefficient profiles
 
-FRONTIER-025 P05. Originating proof. All definitions are those of proof 017. This is a count-preserving reduction, not an affine-hive classification or a bounded parameter search.
+All definitions are those of [the branching proof](gap-two-branching.md). This is a count-preserving reduction, not an affine-hive classification or a bounded parameter search.
 
 ## 1. Ten and only ten first-block types
 
-The constraints (1) of proof 017 reduce the minimum (6) as follows. Here u=(x,y,z), x+y+z=2t. A type is identified by the displayed exact integer conditions; its width M is not the stretch variable.
+The constraints (1) of the branching proof reduce the minimum (6) as follows. Here u=(x,y,z), x+y+z=2t. A type is identified by the displayed exact integer conditions; its width M is not the stretch variable.
 
 | Type | Conditions | M | m(u) |
 |---|---|---|---|
@@ -32,7 +32,7 @@ The admissible widths have one core and one unbounded branch:
 
 These are 20 top profiles. On every unbounded branch m>=0 on the entire u-simplex, and its slope in M is exactly t. Neither upper overlap remains active there. Hence the entire count is affine in M on that branch; it is not claimed affine across its exceptional core.
 
-## 2. Exact top representatives and the overlap gates
+## 2. Exact top representatives and the overlap conditions
 
 Each type can be represented by the following (g1,g2,d,e), preserving m(u) for every t,u:
 
@@ -73,7 +73,7 @@ There are 4+3+3+1+1+3+1=16 rows after expanding the finite choices.
 
 Proof: at p=0, B=b>=1. At p=1, B equals the sole active vi; it is one precisely at a unit-cap label. No pair can survive, because its complementary pair then has sum greater than b+1. At p=2, B is the sum of the two active contents minus b. Since the remaining content is at most a+1, B>=1, and B=1 holds exactly when that remaining content equals a+1. It is then at least b+2, not a single hinge. If any active content is one, the other is <=b, forcing B<=1; so that case is necessarily this pair profile. If neither is one and B>=2, the remaining content can be b+1 or >=b+2, giving P2-S1/S0. At p=3, B=a-b+2>=3. A content one would force sum(v)<=2b+1, contradicting sum(v)=a+b+2>=2b+3. Thus there are no cap labels. At most one content can equal a+1: two such contents would force sum(v)>=2a+3>a+b+2. This exhausts all sorted positive tails, including equalities.
 
-On each tail profile the kernel and the correction (12) are affine in B, with flags fixed. Its unbounded branch starts at B0=1,2 or3 in the table; otherwise B=1 is fixed.
+On each tail profile the kernel and the correction (12) are affine in B, with flags fixed. Its unbounded branch starts at B0=1,2 or 3 in the table; otherwise B=1 is fixed.
 
 ## 4. Every profile is a whole LR family, not just a sufficient formal cone
 
@@ -87,7 +87,7 @@ For each allowed B construct (a,b,v) as follows. Sort v decreasing after making 
 
 In each case set a=sum(v)-b-2. The displayed B range gives a>b>=1 and max(v)<=a+1, and substitution verifies every profile flag and the specified B. These formulas realize ALL values on each unbounded branch, not merely its starting point.
 
-Choose a top representative (13) and g=1 or2. Set
+Choose a top representative (13) and g=1 or 2. Set
 
     A3=a+g, A2=A3+g2, A1=A2+g1,
     alpha=(A1,A2,A3,a,b),
@@ -101,7 +101,7 @@ There are therefore exactly
 
 inhabited profiles in THIS count classification. It is not 637 distinct polynomials or 637 affine-equivalence classes of hives. Some profiles yield identical polynomials.
 
-Conversely, every strict five-row/six-label boundary with Delta3=2 has one top-table type and width, one tail-table profile and width, and one third-gap flag. Its full count is preserved by (13)-(14), using the proof of overlap-gate preservation and the exact kernels, at every t. This is the exhaustion bridge that turns the finite certificate into an all-parameter theorem.
+Conversely, every strict five-row/six-label boundary with Delta3=2 has one top-table type and width, one tail-table profile and width, and one third-gap flag. Its full count is preserved by (13)-(14), using the proof of preservation of overlap conditions and the exact kernels, at every t. This is the exhaustion bridge that turns the finite certificate into an all-parameter theorem.
 
 ## 5. Bilinear ordinary-positive membership: the remaining finite test
 
@@ -109,6 +109,6 @@ Let a profile have top M=M0+x if unbounded, otherwise x=0, and tail B=B0+y if un
 
     P_(x,y)(t)=P00(t)+x V(t)+y W(t)+xy Z(t).    (16)
 
-There is no x^2 or y^2 term: on the top branch all u are admitted, the multiplicity increases by xt, and the overlap gates are fixed; the complete tail is affine in B. Inhomogeneous endpoint corrections remain in P00,V,W,Z. Each of these polynomials lies in the prior space (4), because it is an exact difference of actual whole LR counts of the same degree and codegree profile. For example V=P10-P00 and Z=P11-P10-P01+P00; it is their ORDINARY coefficients that need checking. Positivity of the four corner counts alone would not suffice.
+There is no x^2 or y^2 term: on the top branch all u are admitted, the multiplicity increases by xt, and the overlap conditions are fixed; the complete tail is affine in B. Inhomogeneous endpoint corrections remain in P00,V,W,Z. Each of these polynomials lies in the prior space (4), because it is an exact difference of actual whole LR counts of the same degree and codegree profile. For example V=P10-P00 and Z=P11-P10-P01+P00; it is their ORDINARY coefficients that need checking. Positivity of the four corner counts alone would not suffice.
 
-Proof 019 verifies P00>=_coeff Pmin>0 and V,W,Z>=_coeff0 in all 637 profiles, using every determining site of the prior space. This proves actual membership, not a hypothetical positive cone without a coverage or realization argument. It also proves coefficientwise monotonicity in these two profile widths only, not in arbitrary LR boundary coordinates.
+[The positivity certificate](gap-two-positivity.md) verifies P00>=_coeff Pmin>0 and V,W,Z>=_coeff0 in all 637 profiles, using every determining site of the prior space. This proves actual membership, not a hypothetical positive cone without a coverage or realization argument. It also proves coefficientwise monotonicity in these two profile widths only, not in arbitrary LR boundary coordinates.

@@ -7,15 +7,16 @@ rectangular scalar counts. The public initializer adds nine entry points and
 retains every previous export.
 
 Only the split module's import changes: two exact `partition` and `triple`
-helper bodies are placed in private `_partitions.py`. The complete Horn
+helper bodies are placed in the internal module `_partitions.py`. The complete Horn
 module, census/process orchestration, engine installation, native interfaces
 and broad research CLI are not dependencies of these APIs and are omitted.
 Historical absolute strings in source comments, result metadata and proof
 notes remain provenance, with no runtime lookup of the research checkout.
 
 The previous initializer, matrix module, README and proof overview are kept
-under `history/previous-tooling/`. All earlier examples, checks, benchmark
-artifacts and source notices are preserved byte for byte. Selected maintained
+under `history/previous-tooling/`. Earlier executable examples, checks and benchmark data preserve their
+source bytes. Documentation is edited for readability and its transformations
+are recorded in the source maps. Selected maintained
 tests retain their mathematical bodies; the square and rectangular test
 projections remove only research CLI test classes and the CLI import.
 
@@ -33,9 +34,9 @@ count work. The small Python control driver only exposes its protocol and
 refusal semantics. Python APIs need the standard library; the optional kernel
 needs a compatible C++17 compiler and no Boost/GMP.
 
-[The original notice](SOURCE-LICENSES.md) remains in force. This update makes
-no new licensing, worldwide novelty or human-peer-review assertion. Returned
-research programs are not imported into the runtime package. The current
+[The implementation-source account](SOURCE-LICENSES.md) describes
+attribution and verification. The runtime package uses the separately
+developed verification implementations. The current
 examples and check commands are reproducible routes; their actual execution
 evidence belongs in the review records, with fresh results distinguished from
 the preserved research observations.
@@ -44,7 +45,7 @@ the preserved research observations.
 ## September 13 documentation projection
 
 Three relocated historical documentation files have corrected relative links
-to current proof, benchmark, licensing and rectangular-adoption notes. Their
+to current proof, benchmark, implementation-source and rectangular-verification notes. Their
 mathematical statements and all executable tooling code are unchanged.
 [DOCUMENTATION-ADAPTATIONS.json](../DOCUMENTATION-ADAPTATIONS.json) records every
 replacement and before/after hash; the earlier exact bytes remain at the

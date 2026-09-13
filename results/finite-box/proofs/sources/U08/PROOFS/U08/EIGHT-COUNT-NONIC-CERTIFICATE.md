@@ -1,6 +1,6 @@
 # Whole degree-nine LR signs from eight counts and a fifth-interior enclosure
 
-Let P(t)=sum(c_k t^k,k=0..9) be the entire nonempty LR stretching polynomial in the original physical stretch. Require a complete saturated integer hive chart, independently verified actual dimension nine and primitive inward normals of squared norm at most six in that chart. The adopted complete two-cone theorem protects c7>0; intrinsic leading and second-leading positivity protect c9,c8>0. These are separate geometric hypotheses, not observed fitted signs. Nonemptiness gives c0=1. Actual odd dimension and reciprocity give P(-j)=-I(j) for TRUE relative interiors in that lattice.
+Let P(t)=sum(c_k t^k,k=0..9) be the entire nonempty LR stretching polynomial in the original physical stretch. Require a complete saturated integer hive chart, independently verified actual dimension nine and primitive inward normals of squared norm at most six in that chart. The adopted complete two-cone theorem protects c7>0; intrinsic leading and second-leading positivity protect c9,c8>0. These are separate geometric hypotheses, not observed fitted signs. Nonemptiness gives c0=1. Actual odd dimension and reciprocity give P(-j)=-I(j) for true relative interiors in that lattice.
 
 Write A=P(1), B=P(2), C=P(3), D=P(4), U=I(1), V=I(2), W=I(3), X=I(4), and Z=I(5). The first eight quantities are genuinely counted; Z remains unknown. Define integer forms
 
@@ -14,7 +14,7 @@ Write A=P(1), B=P(2), C=P(3), D=P(4), U=I(1), V=I(2), W=I(3), X=I(4), and Z=I(5)
     N8 = 70 -56(A-U) +28(B-V) -8(C-W) +(D-X),
     N9 = 126 -84A +36B -9C +D +126U -84V +36W -9X.
 
-On the ENTIRE prior degree-at-most-nine polynomial space, the exact identities are
+On the entire prior degree-at-most-nine polynomial space, the exact identities are
 
     2520 c1   = N1 +4Z,
     10080 c2  = N2,
@@ -33,7 +33,7 @@ The coefficient kernel of Z is
     K9(t) = t(t^2-1)(t^2-4)(t^2-9)(t^2-16)/362880
           = (t^9 -30t^7 +273t^5 -820t^3 +576t)/362880.
 
-Thus the even coefficients are completely determined by the eight counts, whereas the odd coefficients move with alternating signs. Dropping Z, setting I(5)=0, or claiming an entire coefficient vector from these eight counts is invalid. This specializes U07's general balanced one-unknown kernel, which is an inherited mission derivation, not a new worldwide interpolation result.
+Thus the even coefficients are completely determined by the eight counts, whereas the odd coefficients move with alternating signs. Dropping Z, setting I(5)=0, or claiming an entire coefficient vector from these eight counts is invalid. This specializes the degree-eight analysis's general balanced one-unknown kernel, which is the preceding interpolation derivation.
 
 All N_j and Z are integers. The protected strict signs imply
 
@@ -43,7 +43,7 @@ The unit decrement uses integrality of a strictly positive numerator. Intersect 
 
     N1+4l>0, N2>0, N3-205h>0, N4>0, N5+13l>0, N6>0.
 
-The necessary target bounds for this sufficient strict-sign certificate are l>=ceil((1-N1)/4), l>=ceil((1-N5)/13), and h<=floor((N3-1)/205), in addition to the protected interval and fixed-even positivity. Weak inequalities give nonnegativity. A failed lower bound does NOT imply a negative coefficient. A strictly negative exact even coefficient, or a strictly negative coefficient upper bound over a consistent interval, is an entire-coefficient observation and triggers immediate candidate preservation before comparison.
+The necessary target bounds for this sufficient strict-sign certificate are l>=ceil((1-N1)/4), l>=ceil((1-N5)/13), and h<=floor((N3-1)/205), in addition to the protected interval and fixed-even positivity. Weak inequalities give nonnegativity. A failed lower bound does not imply a negative coefficient. A strictly negative exact even coefficient, or a strictly negative coefficient upper bound over a consistent interval, establishes a negative ordinary coefficient of the entire polynomial under the stated premises.
 
 The fifth-interior fixed-grade system keeps every original spatial row and its saturated lattice: 5c_r+a_r.x>=1 for nonconstant rows and 5c_r>=0 for constant rows. Every forced equality has already been absorbed into the proved full affine chart. The enclosure proof covers all remaining integer points using necessary bound propagation, exhaustive disjoint interval splits, and leaf cardinality upper bounds; wholly feasible boxes give lower bounds. The search-free independent checker validates rounding by multiplication/comparison, every split and every leaf. A separately checked union of distinct-prefix feasible intervals can strengthen the lower bound without claiming any unvisited fiber empty. These are direct complete-set cardinality proofs, not a mislabeled independent numerical evaluation of I(5).
 

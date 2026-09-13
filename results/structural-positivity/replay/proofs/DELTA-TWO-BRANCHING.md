@@ -1,6 +1,6 @@
 # The complete Delta3=2 branching formula, with every overlap retained
 
-FRONTIER-025 P05. Originating proof; campaign acceptance has not occurred. Ordinary coefficient positivity will use the finite certificate in proof 019, not positivity of individual summands. All parameters below are integers, and t is the stretching variable.
+The following derivation gives the complete branching formula. Independent verification is not claimed in this source proof. Ordinary coefficient positivity additionally requires the associated finite coefficient certificate; it does not follow from positivity of individual summands. All parameters below are integers, and t is the stretching variable.
 
 ## 1. Entire objects, degree, lattice, and prior reconstruction
 
@@ -17,7 +17,7 @@ Then g1,g2,g3,d>=1, e>=-1,
 
 The complete fixed-weight GT chain has at most min(r,5) entries in row r, for r=1,...,6, terminal row alpha, prescribed row sums, and every weak interlacing inequality. Its 15 nonterminal coordinates have five disjoint coefficient-one sum equations. Eliminating one coordinate per row gives the saturated affine lattice Z^10. Boundedness follows from interlacing with the terminal shape.
 
-The full nonuniform staircase proof is the selected source proof 010, together with its included GENERAL-HEIGHT dependency. Its translation is delta_i^(r)=r+6-2i, terminal staircase (10,8,6,4,2), and content subtraction (5,5,5,5,5,5). It identifies strict integer chains at grade n with weak chains of top n alpha-(10,8,6,4,2), content n beta-5*1_6. Feasibility is exactly
+The full nonuniform staircase proof is [Defect two and weighted straight-GT interiors](WEIGHTED-GT-INTERIORS.md), together with [The interior staircase shift at arbitrary height](GENERAL-HEIGHT.md). Its translation is delta_i^(r)=r+6-2i, terminal staircase (10,8,6,4,2), and content subtraction (5,5,5,5,5,5). It identifies strict integer chains at grade n with weak chains of top n alpha-(10,8,6,4,2), content n beta-5*1_6. Feasibility is exactly
 
     n beta6>=5; n b>=2; n(alpha_i-alpha_(i+1))>=2;
     n Delta_k>=k(6-k), 1<=k<=4.               (2)
@@ -29,11 +29,11 @@ At Delta3=2, its own cost is ceil(9/2)=5. Every other cost is at most five excep
     q=8 iff Delta2=1 or Delta4=1;
     q=5 otherwise.                            (3)
 
-Equivalently q=8 iff e=-1 or max(v)=a+1. These statements and the prior degree were established before the first P05 scalar count. They give the full reconstruction space
+Equivalently q=8 iff e=-1 or max(v)=a+1. These statements and the prior degree were established before the first scalar count. They give the full reconstruction space
 
     P(t)=binom(t+q-1,q-1) R(t), deg R=11-q, R(0)=1.   (4)
 
-Sites 0,...,11-q determine it; 12-q and 13-q are two separate positive holdouts. A negative coefficient of R alone is not an ordinary-negative P.
+Sites 0,...,11-q determine it; 12-q and 13-q are two separate positive checks. A negative coefficient of R alone is not an ordinary-negative P.
 
 The entire ordinary LR constructor is
 
@@ -58,7 +58,7 @@ For a three-row shape eta and sorted three-letter weight w, eliminate the second
 max(eta2,w1+w2-eta2,w1,w2) to min(eta1,w1+w2-eta3).
 Taking upper-minus-lower differences gives K_(eta,w)=1+min(eta1-eta2,eta2-eta3,eta1-w1,w3-eta3) whenever eta is a partition and dominance holds. Therefore the exact top multiplicity is m(u)+1 on m(u)>=0, and zero otherwise. It must not be replaced by one or an averaged constant before the rest of the count.
 
-For each admitted eta, the remainder is the ENTIRE skew tableau of shape t alpha/eta with tail contents t v. Restriction to the two label sets and union are inverse: labels in the first shape are <=3, and every remaining label is >=4. This is a full bijection, including all column comparisons inside the remainder. Hence
+For each admitted eta, the remainder is the entire skew tableau of shape t alpha/eta with tail contents t v. Restriction to the two label sets and union are inverse: labels in the first shape are <=3, and every remaining label is >=4. This is a full bijection, including all column comparisons inside the remainder. Hence
 
     P(t)=sum_(u>=0, |u|=2t, m(u)>=0)
                (m(u)+1) [x^(t v)] s_(t alpha/eta)(x1,x2,x3).    (7)
@@ -82,7 +82,7 @@ The final Schur factor retains BOTH terms of its two-row determinant. In particu
 
 ## 4. Complete tail content and endpoint formula
 
-For nonnegative w of total (a+b)t, the two-row Schur identity or the same reflection involution gives K_((at,bt),w) as the difference between bounded three-composition counts of totals bt and bt-1. Its inclusion-exclusion is
+For nonnegative w of total (a+b)t, the two-row Schur identity or the same reflection involution gives K_((at, bt), w) as the difference between bounded three-composition counts of totals bt and bt-1. Its inclusion-exclusion is
 
     sum_(S subset [3]) (-1)^|S| (bt-w(S)-|S|+1)_+,
 
@@ -92,7 +92,7 @@ where z_+=max(z,0). Now put w=t v-gamma with |gamma|=2t. Define
     J={i:vi=a+1}, p=|A|,
     B=b-sum_(i in A)(b-vi).                     (9)
 
-If any gamma_i>t vi the content is invalid and its count is zero. Otherwise the COMPLETE formula reduces to
+If any gamma_i>t vi the content is invalid and its count is zero. Otherwise the complete formula reduces to
 
     K=1+B*t-sum_(i in A) gamma_i
         -sum_(i in S)(gamma_i-t)_+
@@ -114,4 +114,4 @@ In the last correction, its row lengths v'=(u1,u2,u3-t-1) sum to t-1. Thus every
 
 It is used only when u3>t and g3=1. The factorial product is the total number of independent weak row words. Its rational appearance is an exact average, not a separately assumed count factor.
 
-Equations (6)-(12), together with the full partition constructors (5), are an all-parameter, all-stretch entire count formula. Proof 018 now exhausts its integer boundary types; proof 019 supplies the exact finite positive coefficient certificate. The target is EVERY ordinary coefficient, not merely a linear term.
+Equations (6)-(12), together with the full partition constructors (5), are an all-parameter, all-stretch entire count formula. A separate exhaustive classification of integer boundary types and exact finite coefficient certificate are needed for the positivity conclusion. The target is EVERY ordinary coefficient, not merely a linear term.

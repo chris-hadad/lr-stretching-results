@@ -7,7 +7,7 @@ this chart the adopted complete two-cone theorem gives c4>0, while intrinsic
 leading and second-leading positivity give c6,c5>0. These are genuine whole
 geometric premises, not a fitted degree or a chart of a selected face.
 
-Write A=P(1), B=P(2), C=P(3), U=I(1), V=I(2), W=I(3), with TRUE relative
+Write A=P(1), B=P(2), C=P(3), U=I(1), V=I(2), W=I(3), with true relative
 interiors in that lattice. Actual dimension six makes reciprocity I(j)=P(-j).
 Nonemptiness gives c0=1. All six counts are nonnegative integers, but only the
 first five will be numerically counted. Put E1=A+U, E2=B+V, O1=A-U, O2=B-V.
@@ -62,7 +62,7 @@ a positive bound is not assumed sharp.
 
 ## Complete finite application
 
-The frozen U05 roster contains exactly 154,408 normalized target groups. Every
+The frozen degree-six roster contains exactly 154,408 normalized target groups. Every
 one has a complete whole-hive chart, integer inverse, full forced affine-space
 check, explicit strict integer point and the required norm bound. Both complete
 counting models independently evaluate A,B,C,U,V. Every request and response
@@ -101,7 +101,7 @@ stated normal/lattice premises. It is not all-size sextic positivity or an
 all-rank theorem. The original five-count leading-coefficient enclosure,
 failed universal-simplex test, integer-grid refinement and formal-cover repair
 remain preserved as substantive intermediate arguments. Elementary finite
-differences and reciprocity are inherited; this unit's concrete contribution is
+differences and reciprocity are inherited; the concrete application here is
 the complete checked geometry/count application and the adaptive upper-bound
-certificate. The original packet's accepted short-normal, polynomiality and
+certificate. The source certificate collection's accepted short-normal, polynomiality and
 intrinsic-sign source premises remain mandatory.

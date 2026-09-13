@@ -77,13 +77,18 @@
   "records": [
     {
       "code_source_mappings": [],
-      "included_bytes": 2371,
-      "included_sha256": "2c71cabb20b5792b389168a35e6b7e142e7c259c18ce7d4ccde70c5116219b7f",
+      "included_bytes": 2027,
+      "included_sha256": "0ef8749aff8b7ded75a556fc33758c45b534f41eda06350c4f4835a887c96571",
       "origin_labels": [],
       "role": "curated_document_or_evidence",
       "source_records": [],
       "target": "AI-ASSISTANCE.md",
-      "transformation": "actual curated bytes; no unrecorded equivalence to a prior body asserted"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 2371,
+        "sha256": "2c71cabb20b5792b389168a35e6b7e142e7c259c18ce7d4ccde70c5116219b7f"
+      }
     },
     {
       "code_source_mappings": [],
@@ -97,45 +102,65 @@
     },
     {
       "code_source_mappings": [],
-      "included_bytes": 5610,
-      "included_sha256": "ca0c3ee886f89165b2b5fad1d42b0883732d786dc7868656aad32a79d0992935",
+      "included_bytes": 5597,
+      "included_sha256": "5098aa36094dbe77f26f859e31ad1ea21cf9e6f8891c67b31399c5c78c8586a4",
       "origin_labels": [],
       "role": "curated_document_or_evidence",
       "source_records": [],
       "target": "DEPENDENCIES.md",
-      "transformation": "actual curated bytes; no unrecorded equivalence to a prior body asserted"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 5610,
+        "sha256": "ca0c3ee886f89165b2b5fad1d42b0883732d786dc7868656aad32a79d0992935"
+      }
     },
     {
       "code_source_mappings": [],
-      "included_bytes": 1423,
-      "included_sha256": "483dc8b2e89e2831c3f6319f9051fa8d256939241723e062e8ba0715f62c7b4d",
+      "included_bytes": 1378,
+      "included_sha256": "db1d5933f552bf279269831a9b4b4ddda97de0581b7bc4f460c7f09e231390d5",
       "origin_labels": [],
       "role": "curated_document_or_evidence",
       "source_records": [],
       "target": "PROOF-OUTLINE.md",
-      "transformation": "Reader-facing September 13 exposition update; no executable core or data change.",
-      "previous_edition_included_sha256": "e0bd85eaa423e2a74cd71edeae2833c003e6c68c0b8fb2218c8bff09ca45829b"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "previous_edition_included_sha256": "e0bd85eaa423e2a74cd71edeae2833c003e6c68c0b8fb2218c8bff09ca45829b",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 1423,
+        "sha256": "483dc8b2e89e2831c3f6319f9051fa8d256939241723e062e8ba0715f62c7b4d"
+      }
     },
     {
       "code_source_mappings": [],
-      "included_bytes": 17460,
-      "included_sha256": "1de5bb993ec8dc2ed4d99b53928e42264e17c09787bc888e142a5b2a0052173f",
+      "included_bytes": 17471,
+      "included_sha256": "077ef03100ba9c317daac512237428d9787d44da9fe4204cde4b8335e03d0ae4",
       "origin_labels": [],
       "role": "curated_document_or_evidence",
       "source_records": [],
       "target": "PROOF.md",
-      "transformation": "actual curated bytes; no unrecorded equivalence to a prior body asserted"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 17460,
+        "sha256": "1de5bb993ec8dc2ed4d99b53928e42264e17c09787bc888e142a5b2a0052173f"
+      }
     },
     {
       "code_source_mappings": [],
-      "included_bytes": 6730,
-      "included_sha256": "b9ee5efcf6c915d150e884570921ebc1d53af6a945c13bd4daf875cce39ccb0e",
+      "included_bytes": 6688,
+      "included_sha256": "ae3240563170318586b8e9c0e588d3ffbc209704caefa0254ae67bb2c164e6b3",
       "origin_labels": [],
       "role": "curated_document_or_evidence",
       "source_records": [],
       "target": "README.md",
-      "transformation": "Reader-facing September 13 exposition update; no executable core or data change.",
-      "previous_edition_included_sha256": "e21075fdd88ef81b15f40f73029a0f421dbd4c34f0353745deda0b2fe3e4c99a"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "previous_edition_included_sha256": "e21075fdd88ef81b15f40f73029a0f421dbd4c34f0353745deda0b2fe3e4c99a",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 6730,
+        "sha256": "b9ee5efcf6c915d150e884570921ebc1d53af6a945c13bd4daf875cce39ccb0e"
+      }
     },
     {
       "code_source_mappings": [],
@@ -169,13 +194,18 @@
     },
     {
       "code_source_mappings": [],
-      "included_bytes": 3404,
-      "included_sha256": "ec3b9b5dc350e6e3d9c408a991f9ce8011d76f3ac85bbbbcba275899ad245c36",
+      "included_bytes": 3385,
+      "included_sha256": "475cd076a441f96b41337294f3361c3909bbf6ffcd23028564e9b96f4de9431b",
       "origin_labels": [],
       "role": "curated_document_or_evidence",
       "source_records": [],
       "target": "REVIEWER-GUIDE.md",
-      "transformation": "actual curated bytes; no unrecorded equivalence to a prior body asserted"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 3404,
+        "sha256": "ec3b9b5dc350e6e3d9c408a991f9ce8011d76f3ac85bbbbcba275899ad245c36"
+      }
     },
     {
       "code_source_mappings": [],
@@ -290090,17 +290120,22 @@
     },
     {
       "code_source_mappings": [],
-      "included_bytes": 9118,
-      "included_sha256": "cf7c35ef0c0083d2539ce97fba9f52ad6c4b319f29fc7de1c3e75668403715e6",
+      "included_bytes": 24333,
+      "included_sha256": "f09fad6b55bdbbdc84a21751ed1ff545605fc45d37942dd92e037a15520b0d20",
       "origin_labels": [],
       "role": "curated_document_or_evidence",
       "source_records": [],
       "target": "proofs/SOURCE-CUT.json",
-      "transformation": "actual curated bytes; no unrecorded equivalence to a prior body asserted"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 9118,
+        "sha256": "cf7c35ef0c0083d2539ce97fba9f52ad6c4b319f29fc7de1c3e75668403715e6"
+      }
     },
     {
-      "included_bytes": 8218,
-      "included_sha256": "4aa04c1cc72f160838af6a8f7a803bda39fb457f35e4fdb7f0def4962844115c",
+      "included_bytes": 8203,
+      "included_sha256": "9b51d03e68dcdfb50a95a6f8c40bc2cbcd48a0f2ac73affda27f383070d22f89",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/ORIGINAL/sources/PROOFS/023-SHORT-NORMAL-COEFFICIENT-POSITIVITY.md"
       ],
@@ -290117,11 +290152,16 @@
         }
       ],
       "target": "proofs/sources/ORIGINAL/sources/PROOFS/023-SHORT-NORMAL-COEFFICIENT-POSITIVITY.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8218,
+        "sha256": "4aa04c1cc72f160838af6a8f7a803bda39fb457f35e4fdb7f0def4962844115c"
+      }
     },
     {
-      "included_bytes": 7125,
-      "included_sha256": "dce329b788fff554f98767f9dfc6e167620b28ae43c9efbb092473d6c1b158cb",
+      "included_bytes": 7112,
+      "included_sha256": "7ec6b53a093a71990c56b68909a0e5930eacf92c766f4dd3883e065859e39789",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/ORIGINAL/sources/PROOFS/027-BOUNDARY-MASK-POSITIVE-TERMINAL.md"
       ],
@@ -290138,11 +290178,16 @@
         }
       ],
       "target": "proofs/sources/ORIGINAL/sources/PROOFS/027-BOUNDARY-MASK-POSITIVE-TERMINAL.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7125,
+        "sha256": "dce329b788fff554f98767f9dfc6e167620b28ae43c9efbb092473d6c1b158cb"
+      }
     },
     {
-      "included_bytes": 8086,
-      "included_sha256": "c8bafbd576a9104b75960796babb3bea8eed290bb337361cb19c85f6d3dee803",
+      "included_bytes": 8049,
+      "included_sha256": "e8ce1ae7ab440c7f4de3fc9daafbf16d362e98398aeffcd65c50c8626d1bff8d",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/ORIGINAL/sources/PROOFS/028-EXHAUSTIVE-ORIGINAL-BOX-REDUCTION.md"
       ],
@@ -290159,11 +290204,16 @@
         }
       ],
       "target": "proofs/sources/ORIGINAL/sources/PROOFS/028-EXHAUSTIVE-ORIGINAL-BOX-REDUCTION.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8086,
+        "sha256": "c8bafbd576a9104b75960796babb3bea8eed290bb337361cb19c85f6d3dee803"
+      }
     },
     {
-      "included_bytes": 8217,
-      "included_sha256": "a486dfa48d844153a223286a6b107f73e1f80f59dfe7283d18d97f3f92b2af36",
+      "included_bytes": 8191,
+      "included_sha256": "6e3262f9c0495a0f7ae48954f15fa13a7ce8baa737fda0a4ebae231a3ed63307",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/ORIGINAL/sources/PROOFS/029-EVALUATION-KEYS-AND-AREA-SIXTEEN.md"
       ],
@@ -290180,11 +290230,16 @@
         }
       ],
       "target": "proofs/sources/ORIGINAL/sources/PROOFS/029-EVALUATION-KEYS-AND-AREA-SIXTEEN.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8217,
+        "sha256": "a486dfa48d844153a223286a6b107f73e1f80f59dfe7283d18d97f3f92b2af36"
+      }
     },
     {
-      "included_bytes": 4439,
-      "included_sha256": "63e69b8eaf024ddd9d5f504200de0b988472d3121378beee9335f78337b193b2",
+      "included_bytes": 4350,
+      "included_sha256": "c317f067e92fe93b2a8225575ecfe3c2459d30f2a8cd3de12ec43e0e5e6f252e",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/ORIGINAL/verification/local-cones/MASS-INDEX-LEMMA.md"
       ],
@@ -290201,11 +290256,16 @@
         }
       ],
       "target": "proofs/sources/ORIGINAL/verification/local-cones/MASS-INDEX-LEMMA.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4439,
+        "sha256": "63e69b8eaf024ddd9d5f504200de0b988472d3121378beee9335f78337b193b2"
+      }
     },
     {
-      "included_bytes": 6054,
-      "included_sha256": "4261e4042e57a839c5fac1131552c13c6daf29c15cd887f8ebc086d03766f942",
+      "included_bytes": 6074,
+      "included_sha256": "fb5c7573593791d4196253639b3f80abe630f3e06aa1d57b86587f3febdb5e8c",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U01/PROOFS/U01-AMBIENT-STRICTNESS-GATE.md",
         "restored-pro026:u12/SOURCES/U02/PROOFS/U01-AMBIENT-STRICTNESS-GATE.md"
@@ -290230,11 +290290,16 @@
         }
       ],
       "target": "proofs/sources/U01/PROOFS/U01-AMBIENT-STRICTNESS-GATE.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 6054,
+        "sha256": "4261e4042e57a839c5fac1131552c13c6daf29c15cd887f8ebc086d03766f942"
+      }
     },
     {
-      "included_bytes": 9198,
-      "included_sha256": "4445a05619e505127dfe6c6db424b3d065be0a9d914043c26e08483342cb0210",
+      "included_bytes": 9165,
+      "included_sha256": "0e6e2f8ea3f7733235614c0a038752751ffcb380b39e1b3ba314432a7c965fe1",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U01/PROOFS/U01-COMPLETE-ROW-RECURRENCE.md",
         "restored-pro026:u12/SOURCES/U02/PROOFS/U01-COMPLETE-ROW-RECURRENCE.md"
@@ -290259,11 +290324,16 @@
         }
       ],
       "target": "proofs/sources/U01/PROOFS/U01-COMPLETE-ROW-RECURRENCE.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 9198,
+        "sha256": "4445a05619e505127dfe6c6db424b3d065be0a9d914043c26e08483342cb0210"
+      }
     },
     {
-      "included_bytes": 4791,
-      "included_sha256": "11f1ad59bdbcd81b9c4460ecaeeaec2a1fb4366a10c763f43a9e6b181695012e",
+      "included_bytes": 4707,
+      "included_sha256": "3ce977451f78e41c621b8104dd4f1d1fd5a252736ded8171e3076fabf5c8505b",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U02/PROOFS/U02/COMPLETE-COMPONENT-COUNTER.md"
       ],
@@ -290280,11 +290350,16 @@
         }
       ],
       "target": "proofs/sources/U02/PROOFS/U02/COMPLETE-COMPONENT-COUNTER.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4791,
+        "sha256": "11f1ad59bdbcd81b9c4460ecaeeaec2a1fb4366a10c763f43a9e6b181695012e"
+      }
     },
     {
-      "included_bytes": 1944,
-      "included_sha256": "dbd9a519504b65f32cc7eb5497b9dd68c0bfa26f4fc0cedce495ceecb8820c32",
+      "included_bytes": 1954,
+      "included_sha256": "e8b91f902259bf432c713a377f522e5b8f388e63828a79f2c8a0aaa648dc36b0",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U02/PROOFS/U02/HOLDOUT-CACHE-REPAIR.md"
       ],
@@ -290301,11 +290376,16 @@
         }
       ],
       "target": "proofs/sources/U02/PROOFS/U02/HOLDOUT-CACHE-REPAIR.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 1944,
+        "sha256": "dbd9a519504b65f32cc7eb5497b9dd68c0bfa26f4fc0cedce495ceecb8820c32"
+      }
     },
     {
-      "included_bytes": 6788,
-      "included_sha256": "d06be2ca16c94a374ac04779838655e427e6afdd65448bed8f93cf0f3c904f13",
+      "included_bytes": 6803,
+      "included_sha256": "aa7ada43e6e0f12a9c49de051b6d43267fd6ea4789e67f1cdbed7d6f2ece9c9a",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U02/PROOFS/U02/PROVED-ROOT-RECONSTRUCTION.md"
       ],
@@ -290322,11 +290402,16 @@
         }
       ],
       "target": "proofs/sources/U02/PROOFS/U02/PROVED-ROOT-RECONSTRUCTION.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 6788,
+        "sha256": "d06be2ca16c94a374ac04779838655e427e6afdd65448bed8f93cf0f3c904f13"
+      }
     },
     {
-      "included_bytes": 5956,
-      "included_sha256": "7d440348b0355955b8a2fbfd3441311c4e993a9971746084ffbe10af255e41ca",
+      "included_bytes": 5940,
+      "included_sha256": "a39539ad8671816b16cf952fd6a34d7ea7b20d8476309c56e4de13ac86460267",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U02/PROOFS/U02/ROW-HIVE-INTERIOR-MAP.md"
       ],
@@ -290343,11 +290428,16 @@
         }
       ],
       "target": "proofs/sources/U02/PROOFS/U02/ROW-HIVE-INTERIOR-MAP.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 5956,
+        "sha256": "7d440348b0355955b8a2fbfd3441311c4e993a9971746084ffbe10af255e41ca"
+      }
     },
     {
-      "included_bytes": 2945,
-      "included_sha256": "5683b8a6312dabebbc19958341b4586c00004eb9366724b9455e512026e0f28c",
+      "included_bytes": 2977,
+      "included_sha256": "a1e0408b7b04cf50f42bc11ff3b7406d5a82bb64308434a2f5ab680dba019596",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U02/PROOFS/U02/TWO-ROW-TAIL.md"
       ],
@@ -290364,11 +290454,16 @@
         }
       ],
       "target": "proofs/sources/U02/PROOFS/U02/TWO-ROW-TAIL.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 2945,
+        "sha256": "5683b8a6312dabebbc19958341b4586c00004eb9366724b9455e512026e0f28c"
+      }
     },
     {
-      "included_bytes": 5710,
-      "included_sha256": "e26bebdd568f8b5f47f66fc00c9857888f20b9284fcb115be2702eda313b4cfb",
+      "included_bytes": 5585,
+      "included_sha256": "c7b230047b423f313528278d0af4308dc116c9e0c098f459a930b2203a2d43c8",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U03/PROOFS/U03/COMPLETE-SCALAR-REUSE.md"
       ],
@@ -290385,11 +290480,16 @@
         }
       ],
       "target": "proofs/sources/U03/PROOFS/U03/COMPLETE-SCALAR-REUSE.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 5710,
+        "sha256": "e26bebdd568f8b5f47f66fc00c9857888f20b9284fcb115be2702eda313b4cfb"
+      }
     },
     {
-      "included_bytes": 8059,
-      "included_sha256": "78652cae36bcad99c21589a73c16c99e5879a3514e2d05649840e3c9845f05cf",
+      "included_bytes": 7999,
+      "included_sha256": "ac7b0f734daadef8c1f087907e41de3c0212c80cc494740263080eee60e87acb",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U03/PROOFS/U03/INACTIVE-GAP-DIRECT-LR.md"
       ],
@@ -290406,11 +290506,16 @@
         }
       ],
       "target": "proofs/sources/U03/PROOFS/U03/INACTIVE-GAP-DIRECT-LR.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8059,
+        "sha256": "78652cae36bcad99c21589a73c16c99e5879a3514e2d05649840e3c9845f05cf"
+      }
     },
     {
-      "included_bytes": 6436,
-      "included_sha256": "91bf0f4ee2fb520d46d2c135b9a98ce5119639da6baeecfe3d4e88f69994b927",
+      "included_bytes": 6566,
+      "included_sha256": "a9ee6cdec756cf5c50dedd5d61d3fd118aeffaa5b46ec858e0e3fd645ee0c0cb",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U04/PROOFS/U04/COMPLETE-BOUND-FIVE-LAYER.md"
       ],
@@ -290427,11 +290532,16 @@
         }
       ],
       "target": "proofs/sources/U04/PROOFS/U04/COMPLETE-BOUND-FIVE-LAYER.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 6436,
+        "sha256": "91bf0f4ee2fb520d46d2c135b9a98ce5119639da6baeecfe3d4e88f69994b927"
+      }
     },
     {
-      "included_bytes": 4942,
-      "included_sha256": "27c6b6b508d36e271c351d61d30a318e9337b9eba1c15a0781770f3f225b8184",
+      "included_bytes": 4995,
+      "included_sha256": "f2d5a43897cbb9ee5f5cc14543bf7e37cd2bf4f2a11cc2fb7e311eb9d3d7c4dc",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U04/PROOFS/U04/FORCED-EQUALITY-REPAIR.md"
       ],
@@ -290448,11 +290558,16 @@
         }
       ],
       "target": "proofs/sources/U04/PROOFS/U04/FORCED-EQUALITY-REPAIR.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4942,
+        "sha256": "27c6b6b508d36e271c351d61d30a318e9337b9eba1c15a0781770f3f225b8184"
+      }
     },
     {
-      "included_bytes": 3149,
-      "included_sha256": "4538506feb6d1db53845b5d604d6fda7a2d95994b0e2ca64b70c6be9e75f9c62",
+      "included_bytes": 3044,
+      "included_sha256": "e5720344427754f4c5199ffe00c696b01733f908f1763d47cc53422ac54b4a2f",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U04/PROOFS/U04/INTERIOR-LOWER-BOUND-DUAL.md"
       ],
@@ -290469,11 +290584,16 @@
         }
       ],
       "target": "proofs/sources/U04/PROOFS/U04/INTERIOR-LOWER-BOUND-DUAL.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 3149,
+        "sha256": "4538506feb6d1db53845b5d604d6fda7a2d95994b0e2ca64b70c6be9e75f9c62"
+      }
     },
     {
-      "included_bytes": 5234,
-      "included_sha256": "e4c1d84b30084c4782baa0f1933c5e5a749dcea5ec976b091ed892ae2deb0d69",
+      "included_bytes": 5210,
+      "included_sha256": "04b9a96a9aec972f75c7da20a64c792cf47dd14b117740bacdfa46479b61cba8",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U05/PROOFS/U05/ADAPTIVE-INTERIOR-UPPER-COVER.md"
       ],
@@ -290490,11 +290610,16 @@
         }
       ],
       "target": "proofs/sources/U05/PROOFS/U05/ADAPTIVE-INTERIOR-UPPER-COVER.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 5234,
+        "sha256": "e4c1d84b30084c4782baa0f1933c5e5a749dcea5ec976b091ed892ae2deb0d69"
+      }
     },
     {
-      "included_bytes": 3567,
-      "included_sha256": "84ca926e387fc4e1dc95e691e16e357aa563895359a9c4d2b2f30177944c63b6",
+      "included_bytes": 3653,
+      "included_sha256": "b1299086c1db16bb93cbb7b6161bf46b45a3baf6711272a23c577c82dd16fdc0",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U05/PROOFS/U05/COMPLETE-BOUND-SIX-LAYER.md"
       ],
@@ -290511,11 +290636,16 @@
         }
       ],
       "target": "proofs/sources/U05/PROOFS/U05/COMPLETE-BOUND-SIX-LAYER.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 3567,
+        "sha256": "84ca926e387fc4e1dc95e691e16e357aa563895359a9c4d2b2f30177944c63b6"
+      }
     },
     {
-      "included_bytes": 3626,
-      "included_sha256": "69016fada4df87f089a848651633d47b2734abf937d2cb58cb9aa14ac81a448d",
+      "included_bytes": 3575,
+      "included_sha256": "77163e4a54e8f330dd98784f27fa0fe6ff4326e2ccedb8b2ad4966d3e3ce521d",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U05/PROOFS/U05/FIVE-COUNT-SEXTIC-ENCLOSURE.md"
       ],
@@ -290532,11 +290662,16 @@
         }
       ],
       "target": "proofs/sources/U05/PROOFS/U05/FIVE-COUNT-SEXTIC-ENCLOSURE.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 3626,
+        "sha256": "69016fada4df87f089a848651633d47b2734abf937d2cb58cb9aa14ac81a448d"
+      }
     },
     {
-      "included_bytes": 2295,
-      "included_sha256": "77638698782696756a79124954209f81d7e999e68ab4a8e3c9a380e4e215af6c",
+      "included_bytes": 2442,
+      "included_sha256": "1e48aa6ebbe768618f5785d58e2a9893304313a954a70a33730b0b513cb12d67",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U05/PROOFS/U05/NONTERMINAL-HORN-REDUCTION.md"
       ],
@@ -290553,11 +290688,16 @@
         }
       ],
       "target": "proofs/sources/U05/PROOFS/U05/NONTERMINAL-HORN-REDUCTION.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 2295,
+        "sha256": "77638698782696756a79124954209f81d7e999e68ab4a8e3c9a380e4e215af6c"
+      }
     },
     {
-      "included_bytes": 2960,
-      "included_sha256": "9650baa7351e66b440681dbbfb9fdd9aa06239405cd552331b31745a89218340",
+      "included_bytes": 2958,
+      "included_sha256": "ff702af80b9ba5d51ef534b3f8b659576fb1b87b326045dddb88cb5220e94ea4",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U05/PROOFS/U05/RELEASE-GRAMMAR-TESTS.md"
       ],
@@ -290574,11 +290714,16 @@
         }
       ],
       "target": "proofs/sources/U05/PROOFS/U05/RELEASE-GRAMMAR-TESTS.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 2960,
+        "sha256": "9650baa7351e66b440681dbbfb9fdd9aa06239405cd552331b31745a89218340"
+      }
     },
     {
-      "included_bytes": 5475,
-      "included_sha256": "5356a0665d4bc382b102b1a625c32febf9a512868c8fe4a75b5b121934d666a2",
+      "included_bytes": 5492,
+      "included_sha256": "3d2e050b806932781f9a32b2e390a5515177051f282fbb7d28413e45075d32f4",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U05/PROOFS/U05/THIRD-INTERIOR-SEXTIC-CERTIFICATE.md"
       ],
@@ -290595,11 +290740,16 @@
         }
       ],
       "target": "proofs/sources/U05/PROOFS/U05/THIRD-INTERIOR-SEXTIC-CERTIFICATE.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 5475,
+        "sha256": "5356a0665d4bc382b102b1a625c32febf9a512868c8fe4a75b5b121934d666a2"
+      }
     },
     {
-      "included_bytes": 5704,
-      "included_sha256": "95b95d73b659e5ec50610d71b18a5baa6b41273c6a2a0cc23ddab67fd6b7425b",
+      "included_bytes": 5769,
+      "included_sha256": "58ab5ddcc002ffa0d13c175a80d8a65042d6f4014d8da8129c960c381fe0d042",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U06/PROOFS/U06/COMPLETE-BOUND-SEVEN-LAYER.md"
       ],
@@ -290616,11 +290766,16 @@
         }
       ],
       "target": "proofs/sources/U06/PROOFS/U06/COMPLETE-BOUND-SEVEN-LAYER.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 5704,
+        "sha256": "95b95d73b659e5ec50610d71b18a5baa6b41273c6a2a0cc23ddab67fd6b7425b"
+      }
     },
     {
-      "included_bytes": 2387,
-      "included_sha256": "5814fdd8055a0e9787cafe961d6501cf2ce8ae48fffe37b77f39b93c6b05997a",
+      "included_bytes": 2301,
+      "included_sha256": "39497e22ebb338a402d28e91850f9226b101a3efc387a286782f003bb9897884",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U06/PROOFS/U06/PROOF-DEPENDENCIES.md"
       ],
@@ -290637,11 +290792,16 @@
         }
       ],
       "target": "proofs/sources/U06/PROOFS/U06/PROOF-DEPENDENCIES.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 2387,
+        "sha256": "5814fdd8055a0e9787cafe961d6501cf2ce8ae48fffe37b77f39b93c6b05997a"
+      }
     },
     {
-      "included_bytes": 8222,
-      "included_sha256": "6667b05167e08da21fdadf93b0530681bcf4373831926e4c29423e6692a0f920",
+      "included_bytes": 8379,
+      "included_sha256": "af1f361f012e5ba0f422ea73aeb7cf216a07311009fb9907ba99c82364fd738f",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U06/PROOFS/U06/SIX-COUNT-SEPTIC-CERTIFICATE.md"
       ],
@@ -290658,11 +290818,16 @@
         }
       ],
       "target": "proofs/sources/U06/PROOFS/U06/SIX-COUNT-SEPTIC-CERTIFICATE.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8222,
+        "sha256": "6667b05167e08da21fdadf93b0530681bcf4373831926e4c29423e6692a0f920"
+      }
     },
     {
-      "included_bytes": 3654,
-      "included_sha256": "907a0495cecd07142196adc4cef18197d3d1621f72f3eafaa1fa7165c36abb3e",
+      "included_bytes": 3657,
+      "included_sha256": "9a91bb75ef3bdde1824ccae8c458509f10ffe3cb7a756802ba66b6804729fa29",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U07/PROOFS/U07/BALANCED-ONE-UNKNOWN-KERNEL.md"
       ],
@@ -290679,11 +290844,16 @@
         }
       ],
       "target": "proofs/sources/U07/PROOFS/U07/BALANCED-ONE-UNKNOWN-KERNEL.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 3654,
+        "sha256": "907a0495cecd07142196adc4cef18197d3d1621f72f3eafaa1fa7165c36abb3e"
+      }
     },
     {
-      "included_bytes": 6459,
-      "included_sha256": "298662bbfa927057d377aeb33132c776bcc1bf52a584f8ab9717f9b56095002b",
+      "included_bytes": 6516,
+      "included_sha256": "28eef2e2449607c01bdc2dfffc57c5d1520338b54699938b965fdf349449cc56",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U07/PROOFS/U07/COMPLETE-BOUND-EIGHT-LAYER.md"
       ],
@@ -290700,11 +290870,16 @@
         }
       ],
       "target": "proofs/sources/U07/PROOFS/U07/COMPLETE-BOUND-EIGHT-LAYER.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 6459,
+        "sha256": "298662bbfa927057d377aeb33132c776bcc1bf52a584f8ab9717f9b56095002b"
+      }
     },
     {
-      "included_bytes": 2623,
-      "included_sha256": "ebaba50c60f4c9f0fa261edeec8b95dc2e04fd92f8b661dc48eee949f061df2a",
+      "included_bytes": 2625,
+      "included_sha256": "257fb6dafde180c838c0bc5702ce7fdcfcc160118051135e4848e71ce839806c",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U07/PROOFS/U07/DISJOINT-LOWER-SLICES.md"
       ],
@@ -290721,11 +290896,16 @@
         }
       ],
       "target": "proofs/sources/U07/PROOFS/U07/DISJOINT-LOWER-SLICES.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 2623,
+        "sha256": "ebaba50c60f4c9f0fa261edeec8b95dc2e04fd92f8b661dc48eee949f061df2a"
+      }
     },
     {
-      "included_bytes": 5065,
-      "included_sha256": "c80133120b1f972afa5156800d8abbc10cd0e77779fa796413e662e7b085c0af",
+      "included_bytes": 5077,
+      "included_sha256": "56e827b5cf1a4f8a01d5d953e7aa35b184bf50a6ad728a4cea5b64d1e6111fcd",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U07/PROOFS/U07/SEVEN-COUNT-OCTIC-CERTIFICATE.md"
       ],
@@ -290742,11 +290922,16 @@
         }
       ],
       "target": "proofs/sources/U07/PROOFS/U07/SEVEN-COUNT-OCTIC-CERTIFICATE.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 5065,
+        "sha256": "c80133120b1f972afa5156800d8abbc10cd0e77779fa796413e662e7b085c0af"
+      }
     },
     {
-      "included_bytes": 6034,
-      "included_sha256": "da313f01f85574f0cf2baadbe267e917fd44dd42459c4c2112e52972234c7677",
+      "included_bytes": 6169,
+      "included_sha256": "df3c170db6e32e2698e7240b5663d67ac4fceeea2c2bee856a9fea1888e5474a",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U08/PROOFS/U08/COMPLETE-BOUND-NINE-LAYER.md"
       ],
@@ -290763,11 +290948,16 @@
         }
       ],
       "target": "proofs/sources/U08/PROOFS/U08/COMPLETE-BOUND-NINE-LAYER.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 6034,
+        "sha256": "da313f01f85574f0cf2baadbe267e917fd44dd42459c4c2112e52972234c7677"
+      }
     },
     {
-      "included_bytes": 5790,
-      "included_sha256": "aa520607a4cc53cf03bd97d385bf44c68ad2861f49ed306882a0cc76fab9c33f",
+      "included_bytes": 5771,
+      "included_sha256": "7ffe86b78a577070c1694a9e27dd9f2756bb9965ebe52494a589ff0e4c28afc8",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U08/PROOFS/U08/EIGHT-COUNT-NONIC-CERTIFICATE.md"
       ],
@@ -290784,11 +290974,16 @@
         }
       ],
       "target": "proofs/sources/U08/PROOFS/U08/EIGHT-COUNT-NONIC-CERTIFICATE.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 5790,
+        "sha256": "aa520607a4cc53cf03bd97d385bf44c68ad2861f49ed306882a0cc76fab9c33f"
+      }
     },
     {
-      "included_bytes": 3646,
-      "included_sha256": "229f662cc8b3290b9ecce463e41a6d14af4c9510d2c9fb6bd2acd0cafe85698f",
+      "included_bytes": 3643,
+      "included_sha256": "b22dd1cbc9bec2b68d2b0d99f2f68b943bf56e25d329b2f0d12bbbe52c5e61db",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U08/PROOFS/U08/INTERIOR-BIASED-NODE-GRIDS.md"
       ],
@@ -290805,11 +291000,16 @@
         }
       ],
       "target": "proofs/sources/U08/PROOFS/U08/INTERIOR-BIASED-NODE-GRIDS.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 3646,
+        "sha256": "229f662cc8b3290b9ecce463e41a6d14af4c9510d2c9fb6bd2acd0cafe85698f"
+      }
     },
     {
-      "included_bytes": 4388,
-      "included_sha256": "87f5258738c14da744c7483fc476a8fe8e21ace4ded60d8dc6d67fa9f51c769d",
+      "included_bytes": 4417,
+      "included_sha256": "d7090c95728693ab36083b2c75836e866d48ecb88e4cc68cf3fbd35e7753f95b",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U08/PROOFS/U08/PARTIAL-JOINT-SEPARATOR-FIBERS.md"
       ],
@@ -290826,11 +291026,16 @@
         }
       ],
       "target": "proofs/sources/U08/PROOFS/U08/PARTIAL-JOINT-SEPARATOR-FIBERS.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4388,
+        "sha256": "87f5258738c14da744c7483fc476a8fe8e21ace4ded60d8dc6d67fa9f51c769d"
+      }
     },
     {
-      "included_bytes": 1799,
-      "included_sha256": "8223960a7e31e3cc62e8e3d1e15cf6fb19f4826066477c3bb218a1c53022dc54",
+      "included_bytes": 1832,
+      "included_sha256": "f29fb67864071237f1d539f2a78db972d858cc7f3c88912cb5ccb5457ca05626",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U08/PROOFS/U08/STRICT-POINT-SEARCH-REPAIR.md"
       ],
@@ -290847,11 +291052,16 @@
         }
       ],
       "target": "proofs/sources/U08/PROOFS/U08/STRICT-POINT-SEARCH-REPAIR.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 1799,
+        "sha256": "8223960a7e31e3cc62e8e3d1e15cf6fb19f4826066477c3bb218a1c53022dc54"
+      }
     },
     {
-      "included_bytes": 5102,
-      "included_sha256": "cb45752c8ad4da1149998fb68f8ec9ee7153e76b57b0a7e7d1ab73c5e2b68e59",
+      "included_bytes": 5155,
+      "included_sha256": "a0169d32d4dda61c4717f5179dea3ee13e2358ea77dba67d8a62b170933703f5",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U09/PROOFS/U09/COMPLETE-BOUND-TEN-LAYER.md"
       ],
@@ -290868,11 +291078,16 @@
         }
       ],
       "target": "proofs/sources/U09/PROOFS/U09/COMPLETE-BOUND-TEN-LAYER.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 5102,
+        "sha256": "cb45752c8ad4da1149998fb68f8ec9ee7153e76b57b0a7e7d1ab73c5e2b68e59"
+      }
     },
     {
-      "included_bytes": 5411,
-      "included_sha256": "000f6b928d30e34077c45d54d9e69180e561d6a11681dabcc60235c22f34ff91",
+      "included_bytes": 5424,
+      "included_sha256": "097eac22e6ff1ac95e1a6fea1d770854480ae38acd7e4e68e5a48d48c33c9077",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U09/PROOFS/U09/GRID-COMPARISON-AND-ENDPOINT-COMPLETION.md"
       ],
@@ -290889,11 +291104,16 @@
         }
       ],
       "target": "proofs/sources/U09/PROOFS/U09/GRID-COMPARISON-AND-ENDPOINT-COMPLETION.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 5411,
+        "sha256": "000f6b928d30e34077c45d54d9e69180e561d6a11681dabcc60235c22f34ff91"
+      }
     },
     {
-      "included_bytes": 7947,
-      "included_sha256": "95e0b0174aca3042d775ba9c5d1fa591545d2e37bdc3917db9625192171817ae",
+      "included_bytes": 8077,
+      "included_sha256": "c80d7f375ef6a05fa0674fd867c6b4f9f135ea0c155ee0555047ff5438374812",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U09/PROOFS/U09/NINE-COUNT-DEGREE-TEN-CERTIFICATE.md"
       ],
@@ -290910,11 +291130,16 @@
         }
       ],
       "target": "proofs/sources/U09/PROOFS/U09/NINE-COUNT-DEGREE-TEN-CERTIFICATE.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7947,
+        "sha256": "95e0b0174aca3042d775ba9c5d1fa591545d2e37bdc3917db9625192171817ae"
+      }
     },
     {
-      "included_bytes": 2171,
-      "included_sha256": "cd07b651f650422733fad6e31dde3f10716c081d8be9488fa95e358fd8184244",
+      "included_bytes": 2274,
+      "included_sha256": "5be68a70e8570cb826faaab1c1be1d5f1ee2155c190703802fc9f51dfbada898",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U10/PROOFS/U10/PARTIAL-ORIGINAL-BOX-COVER.md"
       ],
@@ -290931,11 +291156,16 @@
         }
       ],
       "target": "proofs/sources/U10/PROOFS/U10/PARTIAL-ORIGINAL-BOX-COVER.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 2171,
+        "sha256": "cd07b651f650422733fad6e31dde3f10716c081d8be9488fa95e358fd8184244"
+      }
     },
     {
-      "included_bytes": 4103,
-      "included_sha256": "57cb01d25861210d86a95bc83b976c0e0d404adc223c13c2e7d042f5c7f0db59",
+      "included_bytes": 4106,
+      "included_sha256": "b394839cc6de3168ccf19161659ce1b4ea432d7cc4d8aa6c807daf0d72f2cb05",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U10/PROOFS/U10/TEN-COUNT-DEGREE-ELEVEN.md"
       ],
@@ -290952,11 +291182,16 @@
         }
       ],
       "target": "proofs/sources/U10/PROOFS/U10/TEN-COUNT-DEGREE-ELEVEN.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4103,
+        "sha256": "57cb01d25861210d86a95bc83b976c0e0d404adc223c13c2e7d042f5c7f0db59"
+      }
     },
     {
-      "included_bytes": 9786,
-      "included_sha256": "84a83238b777a11e7817a224496d523f47e28d60e4ca0dbd1efc78f62b73901f",
+      "included_bytes": 9819,
+      "included_sha256": "6d84dde38ce2f86802a5b934a0420562e009de66d07c1132ddd7801f58383cba",
       "origin_labels": [
         "restored-pro026:u11/PROOFS/U11/COMPLETE-ORIGINAL-BOX.md",
         "restored-pro026:u12/SOURCES/U11/PROOFS/U11/COMPLETE-ORIGINAL-BOX.md"
@@ -290981,11 +291216,16 @@
         }
       ],
       "target": "proofs/sources/u11/PROOFS/U11/COMPLETE-ORIGINAL-BOX.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 9786,
+        "sha256": "84a83238b777a11e7817a224496d523f47e28d60e4ca0dbd1efc78f62b73901f"
+      }
     },
     {
-      "included_bytes": 2857,
-      "included_sha256": "748ef3ec3c37e67317904b356629bb4b05eb973281aa497ec3534d781570a7b9",
+      "included_bytes": 2922,
+      "included_sha256": "741b103f8e8fc60169020e7ba8c45755b232735b0677ac71aee977826def7483",
       "origin_labels": [
         "restored-pro026:u12/SOURCES/U11/PROOFS/U11/EXACT-COMPLETION.md"
       ],
@@ -291002,11 +291242,16 @@
         }
       ],
       "target": "proofs/sources/u11/PROOFS/U11/EXACT-COMPLETION.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 2857,
+        "sha256": "748ef3ec3c37e67317904b356629bb4b05eb973281aa497ec3534d781570a7b9"
+      }
     },
     {
-      "included_bytes": 11114,
-      "included_sha256": "24f56124d9b119876dbffa21867836242cbbb0cea933079dabfcc72f0f23f127",
+      "included_bytes": 11000,
+      "included_sha256": "74e0a6e12b46ce01020c4d267acbb6059f61f098ca6a56daadd73b9385eaf537",
       "origin_labels": [
         "research:methods/astra-wildcard-004-2026-09-09/A06-BOX-CERTIFICATE.md"
       ],
@@ -291023,11 +291268,16 @@
         }
       ],
       "target": "proofs/sources/upstream/A004-BOX-CERTIFICATE.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 11114,
+        "sha256": "24f56124d9b119876dbffa21867836242cbbb0cea933079dabfcc72f0f23f127"
+      }
     },
     {
-      "included_bytes": 10941,
-      "included_sha256": "5c61b0c7d9cc67bff70ce1d88e26b47478a828946c66f46a55b303714683569d",
+      "included_bytes": 10477,
+      "included_sha256": "ea4f79dc00850710b67000dfdfa169ac01add10340a57aef596915387e351148",
       "origin_labels": [
         "restored-pro026:base/prompts/gpt/attachments/SLR-GPT6-PRO-FRONTIER-023/payload/history/022/artifacts/current/frontier-011-013/frc/sparse/PROOF.md"
       ],
@@ -291044,11 +291294,16 @@
         }
       ],
       "target": "proofs/sources/upstream/FRC-COMPLETE-COUNT-IDENTITY.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 10941,
+        "sha256": "5c61b0c7d9cc67bff70ce1d88e26b47478a828946c66f46a55b303714683569d"
+      }
     },
     {
-      "included_bytes": 4381,
-      "included_sha256": "6ece1b806501c355f8d52fff4eaeb8f90a3a8499b50be60ecc111d5c5d9f0070",
+      "included_bytes": 4003,
+      "included_sha256": "bb8fa09b83c3312bdaa4d94654952c132a497838f40ea4a9130f4e91e60dc719",
       "origin_labels": [
         "restored-pro026:base/prompts/gpt/attachments/SLR-GPT6-PRO-FRONTIER-023/payload/history/022/artifacts/current/frontier-014-016/frd/sparse/PROOF.md"
       ],
@@ -291065,11 +291320,16 @@
         }
       ],
       "target": "proofs/sources/upstream/FRD-TAIL-COMPLETION.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4381,
+        "sha256": "6ece1b806501c355f8d52fff4eaeb8f90a3a8499b50be60ecc111d5c5d9f0070"
+      }
     },
     {
-      "included_bytes": 5535,
-      "included_sha256": "b9b38c52607ba22aab45f80e9614457cba4a95ffa00883f73e071dbd6c071786",
+      "included_bytes": 5391,
+      "included_sha256": "b2ace9355ac92896c31aa540348b605e1356f3912bbb95d6841878f54c1b9a14",
       "origin_labels": [
         "research:methods/fre-2026-09-07/sparse/PROOF.md"
       ],
@@ -291086,11 +291346,16 @@
         }
       ],
       "target": "proofs/sources/upstream/FRE-COMPLETE-GRAMMAR.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 5535,
+        "sha256": "b9b38c52607ba22aab45f80e9614457cba4a95ffa00883f73e071dbd6c071786"
+      }
     },
     {
-      "included_bytes": 8390,
-      "included_sha256": "544042339eb57acd586a7d59dcaf5e6efa89953415362316d02f1c1dd8ef7ff7",
+      "included_bytes": 8396,
+      "included_sha256": "41eade22c8b87aa7284b7f52aec06b0b081355090cbb6f835079fe0505a685d2",
       "origin_labels": [
         "restored-pro026:base/methods/fri-2026-09-09/BOX-CERTIFICATE.md"
       ],
@@ -291107,11 +291372,16 @@
         }
       ],
       "target": "proofs/sources/upstream/FRI-BOX-CERTIFICATE.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8390,
+        "sha256": "544042339eb57acd586a7d59dcaf5e6efa89953415362316d02f1c1dd8ef7ff7"
+      }
     },
     {
-      "included_bytes": 7273,
-      "included_sha256": "d29046ca851ab87938b09bbf57ded9785bcc8b097e95a6dbf08dcb770a6dd445",
+      "included_bytes": 7144,
+      "included_sha256": "8ea4202a3edc87d622c7a829414f5aa73fde270207c8e8d8ebec1de2ca13c03e",
       "origin_labels": [
         "restored-pro026:base/prompts/gpt/attachments/SLR-GPT6-PRO-FRONTIER-023/payload/history/022/artifacts/current/frontier-011-013/frc/sparse/source/NONNEGATIVE-M-LEMMA.md"
       ],
@@ -291128,7 +291398,12 @@
         }
       ],
       "target": "proofs/sources/upstream/NONNEGATIVE-M-LEMMA.md",
-      "transformation": "unchanged proof bytes; complete source-cut binding checked"
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7273,
+        "sha256": "d29046ca851ab87938b09bbf57ded9785bcc8b097e95a6dbf08dcb770a6dd445"
+      }
     },
     {
       "code_source_mappings": [],

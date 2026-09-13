@@ -1,6 +1,6 @@
 # All ordinary coefficients for three unbounded matching layers
 
-FRONTIER-025 P06. Originating proof with exact symbolic polynomial certificates, awaiting campaign verification. This is not all matching parameters, all six-run flows, a whole ordinary rank, or a worldwide novelty assertion.
+This proof uses exact symbolic polynomial certificates. This is not all matching parameters, all six-run flows, a whole ordinary rank, or a worldwide novelty assertion.
 
 ## 1. Whole object and the prior count, lattice, and degree
 
@@ -20,22 +20,24 @@ Trailing zeros are trimmed only after this construction. The final ordinary rank
 
 The ENTIRE LR count is the integral source-sink flow count on vertices 0,...,n with an edge i->j exactly when w_(i+1),...,w_j contains both labels. The source is t and the sink is -t; all internal netflows are zero. The direct source-sink edge proves feasibility, including all parameter boundaries. At t=0 there is one zero flow.
 
-For clarity, the source character bridge is an adopted premise, with its complete proof included at SOURCES/SELECTED/methods/frontier-024-2026-09-09/sources/SOURCES/PHASE6/NONNEGATIVE-M-LEMMA.md and re-specialized in source proof 013. Each cut belongs to exactly one of the A/B supports. A nonparabolic Weyl numerator loses at least t+1 on a selected cut, whereas the target exponent there is only t, so it cannot contribute. The remaining two character numerators and the extraction denominator leave precisely one reciprocal root on every mixed interval, and none on monochromatic intervals. The target is lambda in (12). This is an entire all-stretch character identity, not a proper face, selected term, or assertion of a conventional-hive affine isomorphism.
+For clarity, the source character bridge is a premise, with its complete proof in
+[the nonnegative-multiplicity lemma](matching-character-premise.md) and its
+specialization in [the whole-flow construction](matching-whole-bridge.md). Each cut belongs to exactly one of the A/B supports. A nonparabolic Weyl numerator loses at least t+1 on a selected cut, whereas the target exponent there is only t, so it cannot contribute. The remaining two character numerators and the extraction denominator leave precisely one reciprocal root on every mixed interval, and none on monochromatic intervals. The target is lambda in (12). This is an entire all-stretch character identity, not a proper face, selected term, or assertion of a conventional-hive affine isomorphism.
 
-After inactive vertices are removed, the graph has q+r+7 vertices and qr+5q+5r+17 active edges. Source/sink edges occur at every active internal vertex, and ALL internal edges of the read source proof 013 are retained, including each Y_i->Z_j. Every edge lies on a source-sink path; averaging these paths gives a point positive on all active edges. An incidence forest basis is unimodular, so its full affine flow lattice is saturated, and the integral vertices follow by leaf elimination. Cut sums bound every edge by t. Its actual degree is therefore
+After inactive vertices are removed, the graph has q+r+7 vertices and qr+5q+5r+17 active edges. Source/sink edges occur at every active internal vertex, and ALL internal edges of the whole-flow construction are retained, including each Y_i->Z_j. Every edge lies on a source-sink path; averaging these paths gives a point positive on all active edges. An incidence forest basis is unimodular, so its full affine flow lattice is saturated, and the integral vertices follow by leaf elimination. Cut sums bound every edge by t. Its actual degree is therefore
 
     d=E-v+1=qr+4q+4r+11.                                  (13)
 
 Inactive end-run vertices change n but not the polynomial. These degree/lattice facts precede all new evaluations.
 
-The exact complete matching numerator from the read source proof 014 is
+The exact complete matching numerator from the matching-numerator source proof is
 
     h_(q,r)(z)=(1+z) sum_(k=0)^min(q,r)
          binom(q,k)binom(r,k)k! z^k
          [1+(r+2)z]^(q-k)[1+(q+2)z]^(r-k),                (14)
     sum_(t>=0)P_(q,r)(t)z^t=h_(q,r)(z)/(1-z)^(d+1).
 
-It follows from complete row/column composition elimination: centering independent geometric matrix entries leaves exactly partial matchings, not a deletion of the central matrix. Both full source proofs 013 and 014 are included unchanged. Formula (14) is symmetric in q,r. Its numerator degree is q+r+1 and its actual codegree is d-q-r=qr+3q+3r+11. This last assertion uses the integral flow model and reciprocity; it is not needed to fit a vector here.
+It follows from complete row/column composition elimination: centering independent geometric matrix entries leaves exactly partial matchings, not a deletion of the central matrix. The full whole-flow and matching-numerator source arguments supply these premises. Formula (14) is symmetric in q,r. Its numerator degree is q+r+1 and its actual codegree is d-q-r=qr+3q+3r+11. This last assertion uses the integral flow model and reciprocity; it is not needed to fit a vector here.
 
 ## 2. New theorem and its parameter normalization
 
@@ -48,7 +50,7 @@ By symmetry put 1<=q<=3 and r>=q. Set
     m=D-r=(q+3)r+3q+11,
     N=D+1=(q+4)r+3q+12.
 
-Use the auxiliary G,Omega,W of proof 020 with these B,r,m. Its hypothesis holds because
+Use the auxiliary G, Omega, W of [the shift-difference proof](matching-positive-shifts.md) with these B,r,m. Its hypothesis holds because
 
     m-(B-1)r-1=2r+3q+10>0.
 
@@ -85,14 +87,14 @@ For the multipliers A(t)=sum_(k=0)^q a_k t^k and Bop(t)=sum b_k t^k below, the c
 
 The common prefactor is (1+Bz)^(r-q)/(1-z)^(d+1), so (16) proves P=A G+Bop Omega at every t>=0, including zero. Every term of (14) survives this identity. No extra count, asymptotic limit, or omitted residue is involved.
 
-The complete coefficients a_k,b_k and the compensated coefficients c_k are in DATA/P06/OPERATOR-CERTIFICATE.json as exact numerator/denominator arrays in ascending powers of r. Its convention is
+The complete coefficients a_k,b_k and the compensated coefficients c_k are in [the operator certificate](../data/astra-five/matching-operator-certificate.json) as exact numerator/denominator arrays in ascending powers of r. Its convention is
 
     a_0=1;
     c_0=b_0+m a_1;
     c_k=b_k+a_k+m a_(k+1)  (1<=k<q);
     c_q=b_q+a_q.
 
-The printed tables below give a_1,...,a_q (the coefficients of L) and c_0,...,c_q (the coefficients of C). All their numerator and denominator coefficients in r are positive at r>=q; the separate certificate also expands in y=r-q and records the exact positive arrays. Thus L,C satisfy proof 020.
+The printed tables below give a_1,...,a_q (the coefficients of L) and c_0,...,c_q (the coefficients of C). All their numerator and denominator coefficients in r are positive at r>=q; the separate certificate also expands in y=r-q and records the exact positive arrays. Thus L,C satisfy [the shift-difference proof](matching-positive-shifts.md).
 
 Identity (16) for q=1,2,3 was derived by exact rational-function linear algebra and then verified independently by clearing all denominators with standard-library Fraction polynomial arrays. The latter implementation generates V,U,T independently and finds zero in EVERY coefficient of z and r. It separately verifies the c_k relations and sign arrays. It also verifies the exact q=4 challenge identity without declaring that case positive. These are symbolic all-r checks, not evaluations on a finite r grid. The six entire vectors used as diagnostics are derived directly from (14), not fitted.
 
@@ -131,9 +133,9 @@ c_3 = (343*r**3 + 2625*r**2 + 6752*r + 5832)/(756*(r + 3)*(7*r + 22)*(7*r + 23))
 
 The theorem keeps p=u=1 and constant unit direction. A common positive integral direction g replaces P(t) by P(gt), preserving every ordinary sign and multiplying coefficient k by g^k. Direction g=0 is separately the point polynomial one. End-run lengths a,f>=1 affect only inactive vertices. Cases q=0 or r=0 use the already-proved complete zero-run formula, not the r>=q>=1 multiplier tables. Neither this proof nor an individual G/Omega/W is a generic LR positive operation without membership (16).
 
-For unit ends the final ordinary rank is q+r+9, not q+r+6, the active incidence rank. G has degree D=d-q and is only an auxiliary count/basis polynomial here; it is not substituted for the parent degree d. Arbitrary larger flanks p/u, nonconstant directions, general q,r>=4, and seven-plus runs remain open. The q=r=1 anchor was already closed in the source; it is not claimed newly discovered.
+For unit ends the final ordinary rank is q+r+9, not q+r+6, the active incidence rank. G has degree D=d-q and is only an auxiliary count/basis polynomial here; it is not substituted for the parent degree d. Arbitrary larger flanks p/u, nonconstant directions, general q,r>=4, and seven-plus runs remain open. The q=r=1 case was already established in the source; it is not claimed newly discovered.
 
-The smallest displayed unit-end matching constructor has n=8, outer size 36. Every genuinely coupled member q,r>=1 has n>=10 and size >=55. Larger ends and positive common dilation cannot enter the original outer-size<=30 box. This is a bound on this displayed construction, not a minimum over all other LR realizations of the same polynomial. No whole-rank theorem, box census, or additive increment follows.
+The smallest displayed unit-end matching constructor has n=8, outer size 36. Every coupled member q,r>=1 has n>=10 and size >=55. Larger ends and positive common dilation cannot enter the original outer-size<=30 box. This is a bound on this displayed construction, not a minimum over all other LR realizations of the same polynomial. No whole-rank theorem, box census, or additive increment follows.
 
 A concrete positive member q=1,r=2 has rank 12, size 66, degree 25 and bare partitions
 

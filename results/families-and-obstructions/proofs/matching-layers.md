@@ -1,19 +1,21 @@
-# A second-shift repair for the fourth and fifth matching layers
+# A second-shift identity for the fourth and fifth matching layers
 
-Root derivation, 10 September 2026. Exact symbolic checks are complete;
-independent mathematical review governs adoption. No worldwide novelty claim.
+Derivation dated 10 September 2026, with complete exact symbolic checks.
+No historical novelty claim is made.
 
 ## Complete inherited object
 
 Use the entire unit-flank matching LR family and saturated flow lattice in
-Frontier025 proofs 020–022, with the full character/count bridge and numerator
-retained. Put `q = 4`, `r >= 4`, `B = 6`, `d = 8r + 27`,
+[the shift-difference proof](matching-positive-shifts.md),
+[the earlier layers](matching-three-layers.md), and
+[their scope analysis](matching-scope.md), retaining the full character/count
+bridge and numerator. Put `q = 4`, `r >= 4`, `B = 6`, `d = 8r + 27`,
 `D = d - 4 = 8r + 23`, and `m = D - r = 7r + 23`.
 The whole parent has ordinary rank `a + f + r + 11` for positive end runs
 `a, f`; at unit ends its rank is `r + 13`, at least seventeen.
 The parent degree is `d`, not the auxiliary degree `D`.
 
-The accepted exact rational identity is
+The exact rational identity is
 
     P(t) = A(t) G(t) + Bop(t) Omega(t),
     sum G(t) z^t = (1 + B z)^r / (1 - z)^(D + 1),
@@ -22,11 +24,11 @@ The accepted exact rational identity is
     C(t) = Bop(t) + A(t) - 1 + m (A(t) - 1) / t.
 
 Here `A(0) = 1`, and the exact `A`, `Bop`, `C` coefficient arrays are the
-accepted `sources/DATA/P06/OPERATOR-CERTIFICATE.json`, row `q = 4`.
+[operator certificate](../data/astra-five/matching-operator-certificate.json), row `q = 4`.
 All coefficients of `A - 1` and `C` except `C(0)` are positive. The negative
 leading parameter term of `C(0)` is the old sufficient-certificate failure.
 
-## A genuinely positive two-shift combination
+## A positive two-shift combination
 
 For general integers `B, r >= 1` and
 `m >= (B - 1)r + B + 3`, set
@@ -97,12 +99,12 @@ parent count. That failure is preserved; the repaired fixture uses `s >= 0`.
 The complete arrays and exact identities are retained in
 `A005-MATCHING-SHIFT-002.json` and `A005-MATCHING-INDEPENDENT-001.json`.
 
-It follows, subject to independent mathematical review, that
+The complete symbolic identities and sign checks imply that
 `P >=_coeff G >=_coeff binom(t + m,m)`, and every ordinary coefficient of
 every complete fourth-layer member is strictly positive. The fifth-layer
 extension below further enlarges the symmetric domain.
 
-## General retained-multiplier repair and the fifth layer
+## General retained-multiplier identity and the fifth layer
 
 The same derivation allows a polynomial removal, not only the constant `a1`.
 Write `Q(t)=(A(t)-1)/t`. Choose a polynomial `U` with both `U` and `Q-U`
@@ -121,7 +123,7 @@ the positive leading term of the known degree-`D+q` parent supplies a top
 multiplier whose product with `Omega` or `Phi` covers every remaining degree.
 There is no omitted negative shifted factor.
 
-The root derived the **full symbolic** matching identity for `q=5` by
+The **full symbolic** matching identity was derived for `q=5` by
 rational-function linear algebra in `r,z`, with no parameter interpolation.
 Removing `U=a1+a2 t` passes every exact numerator/denominator coefficient
 check after `r=5+y`. The zero-removal and other prefix removals are separately
@@ -132,16 +134,16 @@ multiplier relations and sign arrays. `A005-MATCHING-INDEPENDENT-001.json`
 records both successful all-parameter certificates.
 
 For general `q`, the base hypotheses continue to hold because
-`m-(B-1)r-B-2 = 2r+2q+7 > 0`. The next discriminator is whether this precise
-nonnegative multiplier cone continues to contain the entire symbolic parent.
+`m-(B-1)r-B-2 = 2r+2q+7 > 0`. For larger layers, membership of the entire symbolic parent in this precise
+nonnegative multiplier cone remains to be established.
 A failure concerns that sufficient representation, not an ordinary
 coefficient of the whole LR family.
 
-## Adoptable scope and a substantive sixth-layer obstruction
+## Scope and a sixth-layer obstruction
 
 The complete unit-flank matching family is ordinary-coefficient positive
 whenever `min(q,r) <= 5`, at all positive end-run lengths and common integral
-dilations. Zero direction is separately the point polynomial. The adopted
+dilations. Zero direction is separately the point polynomial. The proved
 zero-run cases cover `q=0` or `r=0`; the tables here use `r >= q >= 4`.
 The final ordinary rank is `a+f+q+r+7`; inactive end runs do not change the
 polynomial. The actual parent degree is `qr+4q+4r+11`. Consequently a negative
@@ -160,7 +162,7 @@ It is therefore negative for all sufficiently large `r`. This rules out the
 entire stated nonnegative-removal cone as an all-parameter certificate,
 not the matching polynomial or another compensation mechanism.
 
-A material repair changed the auxiliary power from `r` to `r-1`, its degree
+A modified construction changed the auxiliary power from `r` to `r-1`, its degree
 from `D` to `D-1`, and the complete operator order from `q` to `q+1`, with
 `r >= 8`. The full changed numerator identity was independently verified,
 but none of the tested prefix removals furnished a positive certificate.
@@ -168,12 +170,11 @@ Only that finite prefix search is closed for the changed baseline. A further
 attempt needs a different positive basis or a non-prefix compensation;
 larger flanks, nonconstant directions and different couplings remain open.
 
-## Independent challenge obligations
+## Verification dependencies
 
-Check the sequence recurrence and both complete re-expressions independently;
-test `G(t - 2)`'s negative linear term so it is never silently treated as a
-positive basis element. Rebuild the entire matching numerator at selected
-`r >= 4` and compare every ordinary coefficient. Verify the exact rational
-parameter arrays without extrapolation from those examples. Recheck the
-parent rank, degree, lattice and whole character bridge. The scope is this
-all-size family; it supplies no original-box coverage or candidate.
+The argument requires the sequence recurrence, both complete re-expressions,
+the exact rational parameter arrays, and the parent rank, degree, lattice and
+whole character bridge. The negative linear term of `G(t - 2)` is retained
+inside its compensating combination. Finite numerator comparisons alone would
+not establish the parameter identities. This all-size family theorem supplies
+no additional finite-box coverage or ordinary-negative example.

@@ -31,7 +31,7 @@
     },
     {
       "id": "A004-GAPONE",
-      "provenance": "Campaign-root Astra004 result with independent review; source-only native/owner statements explicitly distinguished.",
+      "provenance": "Independently reviewed mathematical result; illustrative observations and computational verification retain their explicitly stated scopes.",
       "scope": "Entire ordinary rank-six LR realization; degree ten and codegree nine. Complete paired-interior and all-stretch tableau proofs; no repeated-shape, zero-content or arbitrary-gap extension.",
       "statement": "The strict five-row, six-positive-label Kostka family with strict dominance gaps and Delta_3=1 has complete positive factorization binom(t+8,8)*(1+p*t)*(1+q*t), with p,q specified by exact minima.",
       "status": "PROVED"
@@ -52,14 +52,14 @@
     },
     {
       "id": "A004-RANK8-POSITIVE",
-      "provenance": "Campaign-root Astra004 result with independent review; source-only native/owner statements explicitly distinguished.",
+      "provenance": "Independently reviewed mathematical result; illustrative observations and computational verification retain their explicitly stated scopes.",
       "scope": "Outer area 220M; actual degree 21 for S>0, six for S=0<M, zero at the origin. Complete row/column lattice map and every parameter wall retained.",
       "statement": "The explicit entire rank-eight family in A05 is coefficientwise positive for integral M>=S>=0 by a complete 92-row integer tableau map and exact cubic simplex compensation.",
       "status": "PROVED"
     },
     {
       "id": "FRI-RANK8-CONE",
-      "provenance": "FRI campaign-root result with independent mathematics and impacted correctness/simplicity review; native and owner status explicitly source-only.",
+      "provenance": "Independently reviewed mathematical result; illustrative observations and computational verification retain their explicitly stated scopes.",
       "scope": "Complete original LR map and saturated-lattice premises from Astra004, full aggregation and polynomiality proof on the closed parameter cone; independent transfer agrees at all 253 poised sites and four unused sites. No whole-rank or S>2M claim.",
       "statement": "The entire clipped rank-eight LR count on 0<=M<=S<=2M is a single bivariate polynomial of degree at most 21 in u=2M-S,v=S-M, with all 253 ordinary coefficients strictly positive. Every nonzero supported stretching polynomial is positive; the origin is constant one.",
       "status": "PROVED"
@@ -157,7 +157,7 @@
     },
     {
       "id": "A004-FLOW",
-      "provenance": "Campaign-root Astra004 result with independent review; source-only native/owner statements explicitly distinguished.",
+      "provenance": "Independently reviewed mathematical result; illustrative observations and computational verification retain their explicitly stated scopes.",
       "scope": "Complete standard single-commodity network-flow polytopes at any graph size. Not arbitrary projections, sections, equal-count identities or general hives.",
       "statement": "Every standard bounded incidence-flow polytope has primitive edge coordinates in {-1,0,1}; a primitive relation v-w=m*u forces abs(m)<=2. Q_ab with max(a,b)>2 therefore has no direct affine-lattice flow realization.",
       "status": "PROVED"

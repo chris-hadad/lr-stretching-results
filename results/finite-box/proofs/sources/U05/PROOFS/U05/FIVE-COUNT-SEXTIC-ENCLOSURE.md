@@ -29,7 +29,7 @@ Thus P(t)=P0(t)+x N(t), with
 
 This identity is checked at every affine coefficient-space coordinate, not
 inferred by fitting a sample of LR polynomials. N vanishes at the five observed
-grades -2,-1,1,2,3 and at0. The remaining one-dimensional uncertainty is explicit.
+grades -2,-1,1,2,3 and at 0. The remaining one-dimensional uncertainty is explicit.
 
 Every genuine relative-interior count is nonnegative. For each chosen integer
 q>=3, N(-q)=q(q^2-1)(q^2-4)(q+3)>0. Consequently
@@ -41,7 +41,7 @@ using q=3,...,7 (any fixed finite such set is sound), let
 
     lo=max(0, max_q -P0(-q)/N(-q)),    hi=min(f/5,h/3).
 
-The true x lies in [lo,hi]. No I(q) for q>=3 is computed, or asserted zero, in
+The true x lies in [lo, hi]. No I(q) for q>=3 is computed, or asserted zero, in
 this screen. The resulting rigorous coefficient lower bounds are
 
     c1 >= a+4h-12hi,   c2 >= e+4lo,   c3 >= b-5h+15lo.
@@ -51,8 +51,7 @@ c0=1 and its independently protected c4,c5,c6. Positive lower bounds give strict
 positivity through degree six. This does not reconstruct a coefficient vector.
 A negative lower bound is only an inconclusive sufficient test. Conversely,
 a strictly negative maximum over this same interval for one coefficient would
-be an actual negative whole-LR observation under all these premises, and must
-be preserved/exported before comparison.
+be an actual negative whole-LR observation under all these premises, under the stated complete-object hypotheses.
 
 The simplex polynomial binomial(3t+6,6) challenges universality: this particular
 five-count enclosure is inconclusive even though its complete product formula
@@ -61,13 +60,13 @@ that all scaled simplex controls pass; the failed test and corrected, unchanged
 algebraic method are retained. This failure does not refute soundness or imply
 an LR negative. The simplex is auxiliary unless an entire LR bridge is supplied.
 
-If the screen fails on a valid sextic, genuinely count I(3), preserve the complete
-D+1-node reconstruction on -3,...,3, and use the separately frozen positive
-holdouts4,5 in both models. Do not relabel such a full reconstruction as an
-incomplete-count screen. Hidden-dimensional or unresolved-affine charts retain
-an explicit actual-dimension gate or the full prior positive-node fallback.
+For a valid sextic on which this criterion is inconclusive, a complete
+D+1-node reconstruction on -3,...,3 additionally evaluates I(3), with positive
+holdouts 4,5 in both models. That procedure reconstructs the full polynomial.
+Hidden-dimensional or unresolved-affine charts require an actual-dimension
+certificate or reconstruction in the full prior positive-node space.
 
-Provenance: U04's incomplete-count sign-dual design and the original accepted
+Provenance: the degree-five analysis's incomplete-count sign-dual design and the original accepted
 LR polynomiality/reciprocity, intrinsic top signs and short-normal theorem.
-The five-count, one-free-coefficient enclosure above is this unit's concrete
-R7 development, not a worldwide novelty claim for linear algebra or reciprocity.
+The construction combines a five-count, one-free-coefficient enclosure with
+these geometric sign premises.

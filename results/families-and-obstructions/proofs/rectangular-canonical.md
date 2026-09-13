@@ -1,11 +1,10 @@
 # Rectangular p=2,3: independent canonical shift and codegree three
 
-This verifies the root's additional canonical argument for three p-by-(p+1)
-matrices, p=2,3, over C. The independently frozen nonvanishing gates are
-P_2(1)=20 and P_3(1)=266 in A002-RECTANGULAR-NONVANISHING-002, as linked
-and inspected in [rectangular bridge](rectangular-bridge.md). It uses no square-matrix canonical
-formula. No count or scientific execution was performed by this delegate.
-The root's degree-plus-holdout panels remain independent of these conclusions.
+This gives the canonical argument for three p-by-(p+1) matrices, p=2,3,
+over C. The independently computed nonvanishing values are P_2(1)=20 and
+P_3(1)=266, as documented in [the rectangular bridge](rectangular-bridge.md).
+No square-matrix canonical formula is used. The degree-based reconstruction
+and unused checks remain separate from these geometric conclusions.
 
 ## 1. Precise statement
 
@@ -21,7 +20,7 @@ corresponds to an ample line bundle L with
     R_t=H^0(Q,L^t) for every t>=0,
     K_Q=L^(-3).                                                   (1)
 
-Consequently the actual LR polynomial from BRIDGE.md satisfies
+Consequently the actual LR polynomial from [the rectangular bridge](rectangular-bridge.md) satisfies
 
     P_p(-t-3)=P_p(t),
     P_p(-1)=P_p(-2)=0,  P_p(-3)=1.                               (2)
@@ -90,7 +89,7 @@ Set X=Spec R and let o be its homogeneous vertex. The algebra R is a
 finitely generated normal domain. Normality follows directly: an
 element of Frac R integral over R is also integral over C[V], hence is
 in C[V]; since it is G-invariant it lies in R. Finite generation uses
-reductivity in characteristic zero. The dimension from BRIDGE.md is
+reductivity in characteristic zero. The dimension from [the rectangular bridge](rectangular-bridge.md) is
 D+1, namely 7 or 13, so o has codimension at least 2. Normality gives
 the S2 depth condition and therefore
 
@@ -171,7 +170,7 @@ H^0(Q,O_Q)=C; Kodaira gives its higher cohomology zero. Thus
 
     P_p(-3)=chi(Q,K_Q)=(-1)^D chi(Q,O_Q)=1.
 
-Finally (1) of BRIDGE.md is the full ordinary LR coefficient, hence
+Finally (1) of [the rectangular bridge](rectangular-bridge.md) is the full ordinary LR coefficient, hence
 the Ehrhart function of its nonempty rational hive polytope. Its
 dimension is D because its Ehrhart polynomial has degree D. Ehrhart
 reciprocity, valid for rational polytopes in their affine lattice,
@@ -180,6 +179,6 @@ identifies the relative-interior counts at integer dilation k with
 No assertion of integral hive vertices is needed for reciprocity.
 
 The bridge, coprimality, descent, and determinant calculations therefore
-validate the root's independent low-codegree premise for p=2,3 with
-the stated P_p(1)>0 gate met. This is not a bound or classification
+establish the independent low-codegree premise for p=2,3 with
+the stated P_p(1)>0 established. This is not a bound or classification
 for arbitrary rectangular dimensions or other arrow counts.

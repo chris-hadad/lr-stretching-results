@@ -1,8 +1,8 @@
 {
-  "execution_status": "This manifest authenticates source bytes, not a successful scientific run. Reproduce with the exact advertised command.",
+  "execution_status": "Execution scope is recorded in PUBLICATION-CHECKS.md at the repository root; source-file authentication is distinct from numerical replay.",
   "files": [
     {
-      "bytes": 10988,
+      "bytes": 10674,
       "modules": [
         "two-row",
         "gap-three",
@@ -12,10 +12,16 @@
         "kind": "new packaging adapter or reader document"
       },
       "path": "DEPENDENCIES.md",
-      "sha256": "d2c9eaad923bae6deb1ca1eb84bff064852695db354f4c775b6027cd806a8ae1"
+      "sha256": "6bc2a0a618bbaca8b0043b12323400a43dc9137f75286930d7dff95e68cec864",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 10988,
+        "sha256": "d2c9eaad923bae6deb1ca1eb84bff064852695db354f4c775b6027cd806a8ae1"
+      },
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained."
     },
     {
-      "bytes": 11998,
+      "bytes": 12122,
       "modules": [
         "two-row",
         "gap-three",
@@ -25,7 +31,13 @@
         "kind": "new packaging adapter or reader document"
       },
       "path": "README.md",
-      "sha256": "41d6214f889371ec0ae946e3c44e76f27c6fac67dbf62d03040fbc16aab4f2ed"
+      "sha256": "83ac2a2a442f720bf179309cfabd838674b6a54d2406d74794a6fa4d0f8e54ef",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 11998,
+        "sha256": "41d6214f889371ec0ae946e3c44e76f27c6fac67dbf62d03040fbc16aab4f2ed"
+      },
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained."
     },
     {
       "bytes": 7264,
@@ -99,7 +111,7 @@
       "sha256": "e8d1702b0b73002e8fd83aa73056c109ef56803d655ccfef80ef3b64b9d79567"
     },
     {
-      "bytes": 9261,
+      "bytes": 9450,
       "modules": [
         "gap-three"
       ],
@@ -109,10 +121,16 @@
         "transformation": "none"
       },
       "path": "proofs/DELTA-TWO-BRANCHING.md",
-      "sha256": "790be8b587c07e911b29475ce5fb553304294c7253a70533499010a0e778ab4d"
+      "sha256": "27533720ed383df35303aa6e87f8b024327233c6fb98509273056282cd2e0016",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 9261,
+        "sha256": "790be8b587c07e911b29475ce5fb553304294c7253a70533499010a0e778ab4d"
+      },
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained."
     },
     {
-      "bytes": 9790,
+      "bytes": 9785,
       "modules": [
         "gap-three"
       ],
@@ -122,10 +140,16 @@
         "transformation": "none"
       },
       "path": "proofs/GENERAL-HEIGHT.md",
-      "sha256": "72be270c32030447b27dd88efacc475761fb964623f7021b221d58b32237d7e1"
+      "sha256": "d5fc32c2c85a2abfc99af88d9977ecb4935c1183f366317bab7f630f87265156",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 9790,
+        "sha256": "72be270c32030447b27dd88efacc475761fb964623f7021b221d58b32237d7e1"
+      },
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained."
     },
     {
-      "bytes": 8142,
+      "bytes": 8023,
       "modules": [
         "gap-three"
       ],
@@ -135,7 +159,13 @@
         "transformation": "none"
       },
       "path": "proofs/WEIGHTED-GT-INTERIORS.md",
-      "sha256": "37e00b27c964f006fef8ff18c004f2a32948d2d2fad5d02e3e54daea6c4985bc"
+      "sha256": "ce55d4c87476fa2bebdb5e8a041078143d2fa88fb101a57d863ca663772e85d5",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8142,
+        "sha256": "37e00b27c964f006fef8ff18c004f2a32948d2d2fad5d02e3e54daea6c4985bc"
+      },
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained."
     },
     {
       "bytes": 12746,
@@ -151,7 +181,7 @@
       "sha256": "c635a931582410f986e9f19914a9ff3a3923cf5340c72b538ad2847b18d1957a"
     },
     {
-      "bytes": 8726,
+      "bytes": 8588,
       "modules": [
         "gap-three"
       ],
@@ -161,10 +191,16 @@
         "transformation": "none"
       },
       "path": "../proofs/pro027/001-COMPLETE-GAP3-CLUSTERS.md",
-      "sha256": "856be9a425a2128a6945fe351f2fed7a9bb4c6b0d6b3dd79046c0499ad0b2ee7"
+      "sha256": "1612e05242f043464cb9a32d0b2d30b9c1612c6fa8a18b5806907a2a18517c6f",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8726,
+        "sha256": "856be9a425a2128a6945fe351f2fed7a9bb4c6b0d6b3dd79046c0499ad0b2ee7"
+      },
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained."
     },
     {
-      "bytes": 2998,
+      "bytes": 3024,
       "modules": [
         "gap-three"
       ],
@@ -174,10 +210,16 @@
         "transformation": "none"
       },
       "path": "../proofs/pro027/002-QUOTIENT-LATTICE-AND-ZERO-GRADE.md",
-      "sha256": "2c04ae096d5cbe797687f2b0db39e434f10f73ee3d484b71d811af88a35692ea"
+      "sha256": "1bf242992287e4d5a936fa8a343a0bbe13a847f009bb5cbaf63c4eac2a28a200",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 2998,
+        "sha256": "2c04ae096d5cbe797687f2b0db39e434f10f73ee3d484b71d811af88a35692ea"
+      },
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained."
     },
     {
-      "bytes": 2940,
+      "bytes": 2965,
       "modules": [
         "gap-three"
       ],
@@ -187,10 +229,16 @@
         "transformation": "none"
       },
       "path": "../proofs/pro027/003-SHARP-AFFINE-THRESHOLD.md",
-      "sha256": "327a4aa1a7c7d2abfbd343a0bc03447f148426e926cc88bddc7da15256948e58"
+      "sha256": "b56efe0b36cecb362f7807d04c040d77d58f88010b757b06fe6193c10ad1c1e1",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 2940,
+        "sha256": "327a4aa1a7c7d2abfbd343a0bc03447f148426e926cc88bddc7da15256948e58"
+      },
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained."
     },
     {
-      "bytes": 8890,
+      "bytes": 8797,
       "modules": [
         "gap-three"
       ],
@@ -200,10 +248,16 @@
         "transformation": "none"
       },
       "path": "../proofs/pro027/004-UNBOUNDED-RANK6-POSITIVITY.md",
-      "sha256": "6c10cb939acd268024183863dbe42b32f958eebdcea117f4282828b376927e0f"
+      "sha256": "123136f4dfff6319e202cfc281fed1e3d5c8d81896690aa94b8406dceaf67918",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 8890,
+        "sha256": "6c10cb939acd268024183863dbe42b32f958eebdcea117f4282828b376927e0f"
+      },
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained."
     },
     {
-      "bytes": 7695,
+      "bytes": 8278,
       "modules": [
         "gap-three"
       ],
@@ -213,10 +267,16 @@
         "transformation": "none"
       },
       "path": "../proofs/pro027/005-COMPLETE-QUADRANT-AND-DUALITY.md",
-      "sha256": "891aff98fd8cbb3be6cccf97de2ce8ea7aa8d6d91ab466645768cf96de6d0229"
+      "sha256": "09af03b7850f83b390f991e9b81c3353d38712dfec3ed834f9b123b03544240b",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7695,
+        "sha256": "891aff98fd8cbb3be6cccf97de2ce8ea7aa8d6d91ab466645768cf96de6d0229"
+      },
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained."
     },
     {
-      "bytes": 7111,
+      "bytes": 7008,
       "modules": [
         "gap-three"
       ],
@@ -226,10 +286,16 @@
         "transformation": "none"
       },
       "path": "../proofs/pro027/006-QUOTIENT-MOMENTS-AND-POSITIVE-CERTIFICATE.md",
-      "sha256": "17120234ce93cf9d964e3d1b5989b99ed585a3539e5670018baa365942adfd66"
+      "sha256": "c97e41ce67c221dc34fa62dac0f3c8d64e945df79f9a6d2fa1a310c37ffa857f",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7111,
+        "sha256": "17120234ce93cf9d964e3d1b5989b99ed585a3539e5670018baa365942adfd66"
+      },
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained."
     },
     {
-      "bytes": 9370,
+      "bytes": 9623,
       "modules": [
         "gap-three"
       ],
@@ -239,10 +305,16 @@
         "transformation": "none"
       },
       "path": "../proofs/pro027/007-HOMOGENEOUS-CONE-AND-BOUNDARIES.md",
-      "sha256": "af4f7b8a83451772aa7fef9b592db3ffb76215231eb2b1e3ec4c7fb4cf34762c"
+      "sha256": "ccbcf45c0448622efd8ea1ed724841ef8f1337380d4967f5eb8df3ce075f14a4",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 9370,
+        "sha256": "af4f7b8a83451772aa7fef9b592db3ffb76215231eb2b1e3ec4c7fb4cf34762c"
+      },
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained."
     },
     {
-      "bytes": 4538,
+      "bytes": 4689,
       "modules": [
         "gap-three"
       ],
@@ -252,10 +324,16 @@
         "transformation": "none"
       },
       "path": "../proofs/pro027/008-INITIAL-WALLS-AND-POSITIVE-DIFFERENCES.md",
-      "sha256": "cd3515889f93163447de615f13746bc94d74c579a56042483a9b52d655b79480"
+      "sha256": "9681d0fd7c07a3279c5a7c9f2b4adaed2e9db9ba3fb6cf2d48e48fa78c0533c1",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 4538,
+        "sha256": "cd3515889f93163447de615f13746bc94d74c579a56042483a9b52d655b79480"
+      },
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained."
     },
     {
-      "bytes": 7062,
+      "bytes": 7153,
       "modules": [
         "transport"
       ],
@@ -265,10 +343,16 @@
         "transformation": "none"
       },
       "path": "../proofs/pro027/011-COMPLETE-RANK10-CAP-RELEASE-FAMILY.md",
-      "sha256": "4b5e120e01cf7feb8529c79e002b90453140d6affd21f3d395b4b5d544999f32"
+      "sha256": "25d86dd2ab23a370c2d76786b81254a1710906578e04bc6740d2037173bbf221",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7062,
+        "sha256": "4b5e120e01cf7feb8529c79e002b90453140d6affd21f3d395b4b5d544999f32"
+      },
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained."
     },
     {
-      "bytes": 5608,
+      "bytes": 5848,
       "modules": [
         "transport"
       ],
@@ -278,10 +362,16 @@
         "transformation": "none"
       },
       "path": "../proofs/pro027/012-INDEPENDENT-WHOLE-MODELS-AND-CHALLENGES.md",
-      "sha256": "021f7be88ab875a6f0feb47d20c1d4fa91abf9b46d3c790b0963ed5113f8c8f5"
+      "sha256": "87385d75eb68aaa108e0b239754242b9d6c6ab71b9341639d828d1bb828b6f33",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 5608,
+        "sha256": "021f7be88ab875a6f0feb47d20c1d4fa91abf9b46d3c790b0963ed5113f8c8f5"
+      },
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained."
     },
     {
-      "bytes": 7441,
+      "bytes": 7533,
       "modules": [
         "two-row"
       ],
@@ -291,10 +381,16 @@
         "transformation": "none"
       },
       "path": "../proofs/pro027/019-UNEQUAL-WEIGHT-NONCENTRAL-POSITIVITY.md",
-      "sha256": "115bcb153b74a7f02473095664f4cc56c993762c0b0cc17ebac71c16db8aced0"
+      "sha256": "708b2c807d0e6206669ae3f7f557fba7354c28a25df66e74f9f51a9bc524b520",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 7441,
+        "sha256": "115bcb153b74a7f02473095664f4cc56c993762c0b0cc17ebac71c16db8aced0"
+      },
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained."
     },
     {
-      "bytes": 5369,
+      "bytes": 5427,
       "modules": [
         "two-row"
       ],
@@ -304,10 +400,16 @@
         "transformation": "none"
       },
       "path": "../proofs/root/SLOPE-THREE-PROOF.md",
-      "sha256": "7e1a810c396dd3948c3cb9b8a75cf136836f3d299f362001a6f853ac35d26b70"
+      "sha256": "5f6e9f0c8e79fe5981a96f3745028712ad97aa0ae1ec92bacb3ca58669e2af17",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 5369,
+        "sha256": "7e1a810c396dd3948c3cb9b8a75cf136836f3d299f362001a6f853ac35d26b70"
+      },
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained."
     },
     {
-      "bytes": 11474,
+      "bytes": 11634,
       "modules": [
         "transport"
       ],
@@ -317,7 +419,13 @@
         "transformation": "none"
       },
       "path": "../proofs/root/TRANSPORT-CONE-LINEAR-COEFFICIENT.md",
-      "sha256": "b5bd72785e2263acb908cb0d788e385a44c34877c48fa851df7d67c5114267a9"
+      "sha256": "cbdfaeb043af0716dba4ab9375aacc3f0db87efc063cda5a0f1d1d0c25860327",
+      "editorial_baseline": {
+        "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+        "bytes": 11474,
+        "sha256": "b5bd72785e2263acb908cb0d788e385a44c34877c48fa851df7d67c5114267a9"
+      },
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained."
     },
     {
       "bytes": 51180,

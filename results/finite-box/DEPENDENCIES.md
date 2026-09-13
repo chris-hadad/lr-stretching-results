@@ -10,7 +10,7 @@ original sources in [SOURCE-MAP.json](SOURCE-MAP.json).
 | LR tableaux and the hive model | Identify the complete original counting problem and its integer lattice. The independent counter rebuilds every original inequality; it does not prove the classical LR–hive theorem anew. |
 | Derksen–Weyman polynomiality; Rassart's chamber theory | Justify a single stretching polynomial. Rational hive vertices are permitted. Finite count agreement alone would not establish polynomiality. |
 | Saturation, feasibility and Ehrhart reciprocity | Distinguish empty families and relate closed counts to the true relative interior with the actual dimension and parity. |
-| Alper Ferudun's rank-at-most-five theorem | Closes every lower-rank input at arbitrary size. This is explicitly cited prior mathematics, not campaign computation or a new rank-five proof. |
+| Alper Ferudun's rank-at-most-five theorem | Closes every lower-rank input at arbitrary size. This is explicitly cited prior mathematics, not a new rank-five computation or theorem. |
 | Inactive-gap clipping, tensor/determinant symmetries and dilation | Preserve the entire positive-stretch count. Exact finite rewrite words retain outer roles, scales and original preimages. |
 | Multiplicity-one Horn factorization | Reduces a feasible tight parent to complete factors. Infeasible parents have the zero positive-stretch polynomial. Index sets and every use of the reduction are checked. |
 | Leading coefficients and short-normal/local Euler–Maclaurin formulas | Protect specified high coefficients under the proved lattice, metric, normal and dimension hypotheses. A local favorable number alone is insufficient. |
@@ -28,8 +28,8 @@ The earlier predecessor replay regenerates the original rank-six/seven census,
 primitive boundary forcing masks, symmetry/domain tables, literal maps, finite
 local correction certificates, metric atlases, complete small/quartic counts,
 and the exact 16-shard residual. It ends at 3,936,015 keys representing 4,360,228
-original obligations. The associated all-size A004 family and cited universal
-theorems retain their separate accepted mathematical premises.
+original obligations. The associated all-size family theorems and cited universal results
+retain their separately stated mathematical premises.
 
 The downstream component checks cover saturated charts and raw-source bindings,
 all coefficient arithmetic and bound trees, and the earlier and final full
@@ -47,7 +47,7 @@ requires the exact acceptance union and an empty unresolved residual.
 ## Source separation and adaptations
 
 The original provider programs are preserved as source evidence where required;
-the portable route runs the independently written campaign checkers and their
+the portable route runs the independently written verification programs and their
 explicit invocation adapters. Preserved checker bodies live under `originals/`
 and are hash-bound. Adaptations that relocate inputs or expose a callable entry
 point keep the mathematical bodies fixed and record their source/AST identities.
@@ -68,5 +68,5 @@ A malformed or incomplete stream is a typed refusal, never a successful count.
 
 Historical receipt agreement, source inventory, a representative sample and
 fresh exhaustive replay are reported separately in [REPLAY.json](REPLAY.json).
-Campaign acceptance is not an assertion of independent human review, journal
-acceptance or mathematical-community consensus.
+The reported verification is distinct from independent human peer review
+and mathematical-community acceptance.

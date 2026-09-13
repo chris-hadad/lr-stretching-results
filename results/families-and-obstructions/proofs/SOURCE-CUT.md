@@ -1,4 +1,6 @@
 # Preserved mathematical sources
 
-These copied proof documents retain their exact source bytes and historical wording.
-The current README and accepted-scope index state the adopted mathematical claims.
+These proof documents are public prose editions of the cited mathematical sources.
+The source map records their origins; the README and accepted-scope index state
+the mathematical claims and verification limits. The original source bytes are
+preserved separately.

@@ -1,10 +1,10 @@
 # Complete refined normal-cycle compensation, including hidden affine strata
 
-Claim FR027-P07-T001. This is an originating sufficient coefficient theorem. It does not identify the cone of realizable face volumes with every abstract balanced nonnegative weight, and it does not turn a failed sufficient correction into an LR counterexample.
+The following sufficient coefficient theorem uses complete normal-cycle compensation. It does not identify the cone of realizable face volumes with every abstract balanced nonnegative weight, and a failed sufficient correction does not establish an LR counterexample.
 
 ## Lattices and the finite certificate
 
-Let L=Z^m carry one fixed rational positive-definite scalar product. Let N be a finite set of primitive integral covectors. For an integer k>=1, put q=m-k. For each independent q-subset I of N, let sigma_I=pos(I), and let alpha_I be its COMPLETE transverse Berline–Vergne constant in the saturated normal lattice L* intersect span(sigma_I), equivalently the projected primal quotient lattice. In particular the normal generators are not substituted for tangent generators. Normal-plane indices, fundamental numerators and the induced dual metric are retained.
+Let L=Z^m carry one fixed rational positive-definite scalar product. Let N be a finite set of primitive integral covectors. For an integer k>=1, put q=m-k. For each independent q-subset I of N, let sigma_I=pos(I), and let alpha_I be its complete transverse Berline–Vergne constant in the saturated normal lattice L* intersect span(sigma_I), equivalently the projected primal quotient lattice. In particular the normal generators are not substituted for tangent generators. Normal-plane indices, fundamental numerators and the induced dual metric are retained.
 
 For each selected independent (q-1)-subset J, choose an arbitrary rational linear functional h_J on the quotient L*/(L* intersect span(J)). In coordinates, choose an integral basis matrix M_J for the saturated kernel of J in L; its columns have rank k+1. If I=J union {n}, the primitive quotient conormal is
 
@@ -47,7 +47,7 @@ There are three complete cases. If relint(tau) lies in a coarse normal cone of d
 
 The Euclidean boundary-balance identity for G therefore becomes precisely sum vol_L(F)u_(F/G)=0. No extra normal index remains after primitive normalization. Restriction L* -> M_G* is surjective because M_G is saturated, with kernel L* intersect span(tau).
 
-If relint(tau) lies inside a coarse q-cone C_F, the two adjacent q-dimensional subdivision cells inside span(C_F) have the same weight vol_L(F) and opposite primitive quotient directions. Their contributions cancel; any other adjacent cells have zero weight. If relint(tau) lies in a coarse cone of dimension larger than q, all adjacent q-cell weights vanish. These cases exhaust all tau, including normal fans with lineality. Thus (3) holds for the COMPLETE refinement, not merely for a selected star.
+If relint(tau) lies inside a coarse q-cone C_F, the two adjacent q-dimensional subdivision cells inside span(C_F) have the same weight vol_L(F) and opposite primitive quotient directions. Their contributions cancel; any other adjacent cells have zero weight. If relint(tau) lies in a coarse cone of dimension larger than q, all adjacent q-cell weights vanish. These cases exhaust all tau, including normal fans with lineality. Thus (3) holds for the complete refinement, not merely for a selected star.
 
 ## Invariance of the complete coefficient sum
 
@@ -55,7 +55,7 @@ The BV dual SOLID valuation adds the alpha_I over the top-dimensional simplicial
 
     c_k(P)=sum_(sigma in Gamma, dim sigma=q) w_sigma alpha_sigma.
 
-Insert (1), interchange the finite sums, and apply (3). Every correction vanishes after the COMPLETE weighted aggregation. Consequently
+Insert (1), interchange the finite sums, and apply (3). Every correction vanishes after the complete weighted aggregation. Consequently
 
     c_k(P)=sum_sigma w_sigma alpha'_sigma.
 
@@ -63,8 +63,8 @@ Every weight is nonnegative. Each actual k-face has at least one top-dimensional
 
 ## Source premises and scope
 
-The complete lattice-normalized facet balance and its quotient-rank requirement are inherited from the fully read original FRB normal-pilot DERIVATION.md, copied in SOURCES/FRB-NORMAL-PILOT-DERIVATION.md. Its original correction required actual closed cones and all affected incidences. The originating contribution here is the compatible-refinement construction and complete balanced-weight argument allowing one sufficient certificate over every independent subset, including hidden-dimensional parents.
+The complete lattice-normalized facet balance and its quotient-rank requirement come from the earlier normal-cycle derivation, retained in SOURCES/FRB-NORMAL-PILOT-DERIVATION.md. That correction required actual closed cones and all affected incidences. The extension here constructs a compatible refinement and proves complete balance, allowing one sufficient certificate over every independent subset, including hidden-dimensional parents.
 
-The analytic premises are Berline–Vergne, Local Euler–Maclaurin formula for polytopes, arXiv:math/0507256v3, Proposition12, Proposition13, Definition22, Corollary23 and Theorem26. The selected primary HTML sections and their projected-lattice conventions were read in this unit. This does not assert new analytic results or full reading of every section of the paper.
+The analytic premises are Berline–Vergne, Local Euler–Maclaurin formula for polytopes, `arXiv:math/0507256v3`, Proposition12, Proposition13, Definition22, Corollary23 and Theorem26. The argument uses these selected primary sections and their projected-lattice conventions; it does not assert a new analytic result.
 
 A solution of (1) is sufficient for every actually realized weight system. No necessity over realizable LR weights follows from the abstract Farkas alternative. A failed bounded/support-restricted numerical proposal remains a certificate failure, not an ordinary-negative polynomial.

@@ -1,6 +1,6 @@
 # All ordinary coefficients in a complete unequal-weight two-row LR channel
 
-Originating claim FR027-P05-T003. All formulas apply to the entire LR count. The shared Astra005 theorem concerns the uniform CENTRAL shape (W/2,W/2); the present shape is (W-2,2) with n>=5, so W>=5 and it is a different channel. The original rank7 uniform (5,2) control is an inherited overlap. No worldwide novelty assertion is made.
+All formulas apply to the entire LR count. The earlier central two-row theorem concerns the uniform shape (W/2,W/2); the present shape is (W-2,2) with n>=5, so W>=5 and it is a different component. The previously established rank 7 uniform (5,2) example is included as an overlap. Worldwide novelty is not claimed.
 
 ## 1. Bare triple, complete character and actual lattice
 
@@ -49,7 +49,7 @@ The second binomial vanishes at t=0, so the zero grade is one. This is not a lar
 
 For fixed n, the polynomial depends only on u, not on the magnitudes or positions of weights >=2. All n+1 values u=0,...,n are realized and are distinct already at t=1. Consequently this is an unbounded-rank family with exactly n+1 polynomial values at each fixed n; arbitrarily large weights at fixed n do not create infinitely many new polynomials.
 
-The full negative cap block is -u*C_d(t), C_d=binom(t+d-1,d). For u>0 every ordinary coefficient of that auxiliary block in degrees1..d is negative. It is retained in (4), with zero constant, and is not an entire LR candidate.
+The full negative cap block is -u*C_d(t), C_d=binom(t+d-1,d). For u>0 every ordinary coefficient of that auxiliary block in degrees 1..d is negative. It is retained in (4), with zero constant, and is not an entire LR counterexample.
 
 ## 4. A coefficientwise lower bound, not positive-sample inference
 
@@ -85,10 +85,10 @@ Here 2d-u>=2n-4-n=n-4>0. Hence every coefficient through actual degree d is stri
 
     c1=2H_d-u/d.
 
-The proof controls the whole negative cap block by an explicit inhabited coefficient-positive remainder. It does not invoke root stability, nonnegative h-star for general hives, or a positive-summation principle.
+The proof controls the whole negative cap block by an explicit coefficient-positive remainder. It does not invoke root stability, nonnegative h-star for general hives, or a positive-summation principle.
 
 ## 5. Exact evidence and applicability
 
-J03 saves91 complete raw coefficient vectors before the independent comparisons: every u at n5..12 and three u values at each of n16,25,40,65,101. All1338 ordinary entries are positive. J04 obtains all1520 full GT scalar values in their prior degree spaces, including182 unused positive holdouts. Integer Newton reconstruction from the determining sites reproduces every coefficient;874 direct strict-interior sites verify reciprocity, codegree and first-interior type. The largest saved rank is101, actual degree99; the largest saved outer size is25549. The all-parameter theorem is the proof above, not extrapolation from this roster.
+The formula calculation records 91 complete raw coefficient vectors before the independent comparisons: every u at n5..12 and three u values at each of n16,25,40,65,101. All 1338 ordinary entries are positive. The GT calculation obtains all 1520 full GT scalar values in their prior degree spaces, including 182 unused positive checks. Integer Newton reconstruction from the determining sites reproduces every coefficient; 874 direct strict-interior sites verify reciprocity, codegree and first-interior type. The largest saved rank is101, actual degree 99; the largest saved outer size is 25549. The all-parameter theorem is the proof above, not extrapolation from this finite set.
 
-J06 adds20 literal bare LR counts for five unequal-weight triples, in addition to its17 separate source-sink checks. Its implementation uses full row reading-word ballot and column inequalities, not the specialized GT count. Source n7,(5,2) and rank<=5 controls retain their protected status. No additive box increment or whole-rank/full-KTT theorem follows.
+Literal LR enumeration adds20 literal bare LR counts for five unequal-weight triples, in addition to its 17 separate source-sink checks. Its implementation uses full row reading-word ballot and column inequalities, not the specialized GT count. The n7,(5,2) example and the rank<=5 cases retain their previously established positivity. No additional coverage of the original bounded domain or whole-rank/full-KTT theorem follows.

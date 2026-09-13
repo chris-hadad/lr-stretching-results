@@ -57,7 +57,7 @@ exact finite scopes and are not extrapolated to all-size claims.
 
 ## What remains open and why it is worth pursuing
 
-The campaign has three central remaining endpoints: a whole ordinary rank
+Three central mathematical questions remain: a whole ordinary rank
 above five, unrestricted KTT positivity, and an ordinary-negative entire LR
 polynomial outside the proved box. Ferudun's all-size result through rank five
 makes rank six the first unresolved ordinary rank under that theorem.

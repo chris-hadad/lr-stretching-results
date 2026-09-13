@@ -1,19 +1,20 @@
-# Exact lattice geometry of two fixed Session C cones
+# Exact lattice geometry of two fixed rank-six cones
 
-Date: 2026-09-04. This is a mathematical certificate from the frozen raw hive system and two fixed sets of recorded rays. It proves the two proposed full count identities on those two closed cones. It uses neither fitted coefficient forms nor any LR count as a premise. Independent root replay and mathematical review remain pending at delivery; this report does not itself adopt lab evidence into the campaign.
+Date: 2026-09-04. This is a mathematical certificate from the frozen raw hive system and two fixed sets of recorded rays. It proves the two proposed full count identities on those two closed cones. It uses neither fitted coefficient forms nor any LR count as a premise. The independent reproduction and review record is summarized at the end.
 
 ## 1. Domain and source identities
 
-For each `rng` in `{32,33}`, let `C_rng` be the nonnegative real span of the seventeen rays in the corresponding frozen JSON record. All seventeen vectors are reproduced in `two-cone-certificate.json`, together with the seed boundary and source hash.
+For each `rng` in `{32,33}`, let `C_rng` be the nonnegative real span of the seventeen rays in the corresponding frozen JSON record. All seventeen vectors are reproduced in [the two-cone certificate](../data/local-cones/first-two.json), together with the seed boundary and source hash.
 
-- Lab commit: `4d8ab55b8e885e2bc676fa7172cd91f897f7aa26`.
+- Source commit: `4d8ab55b8e885e2bc676fa7172cd91f897f7aa26`.
 - Record directory: `sessions/2026-09-03-S1959-phase1-c/computations/`.
 - `r6-mp200-rng32-seed-0.json`: SHA-256 `5924494e568c3eac72e183eda048ebee6cd971041d8ce841131cadd16bdab644`; chamber identifier `3103fe3d0905e0a2aff0f4548e1eae8272d87ff901888888837353ddf29eed39`.
 - `r6-mp200-rng33-seed-0.json`: SHA-256 `7ed6eec15e2d2aa3d442d50be985cfd76b783d3ec48df805788dc9fb385495cc`; chamber identifier `e696628ff86a1ce2048f731e90fd6ab8120385a81fe395d56f3c56fa70c900a7`.
 - Target commit: `719311618110024e72c2a3f0000b06e7367381f5`.
 - Target constructor: `code/ehrhart/src/slr_ehrhart/hive.py`, SHA-256 `8797f8e2662fd9ba9b4f7e0b9e29d7831e96f4a0d15e86841b348278e588392a`.
 
-The script obtains the constructor bytes through `git show` at this exact target commit, checks the fixed expected hash, and loads those bytes into a temporary in-memory module. It has no replay dependency on a scratch checkout. The complete source was read before use. Only its pure `hive_linear_system`, `hive_system`, and interior-coordinate construction execute; Sage functions, random generators, evaluator code, and lab code do not execute. The two pure hive constructions agree row by row on each exact fixed seed.
+The original checker obtains the constructor bytes through `git show` at the
+specified commit, checks their hash, and loads them into an in-memory module. The source was inspected before use. Only its pure `hive_linear_system`, `hive_system`, and interior-coordinate construction execute; Sage functions, random generators, evaluator code, and lab code do not execute. The two pure hive constructions agree row by row on each exact fixed seed.
 
 All row and ray indices below are **zero-based**. Boundary components `lambda_i, mu_i, nu_i` use the usual **one-based** partition indices and length-six padding. Let
 
@@ -251,31 +252,25 @@ Both segments have lattice length one. The gcd of all two-by-two minors of their
 
 Under stretching `b -> t*b`, the integer-linear parameters become `(t*x,t*y,t*z)`. Each full formula is a product of affine factors in `t` with nonnegative slopes and positive constants. Hence every coefficient is nonnegative; every nonconstant stretched specialization has only negative real roots. Zero slopes remove factors and reduce degree on boundary faces, so no fixed-degree stability claim is being made there. The same formulas explicitly provide nonnegative mixed coefficients in the active ray parameters.
 
-These conclusions cover exactly `C_32` and `C_33`. They prove no maximality, no classification of the other cheap cones, no full rank-six fan coverage, and no universal KTT or Conjecture M/R statement. Extending to another cone requires a new certificate. The connection between the standard integer hive model and LR coefficients is the established hive correspondence; no additional empirical evaluator result is used.
+These conclusions cover exactly `C_32` and `C_33`. They prove no maximality, no classification of other cones, no full rank-six fan coverage, and no universal KTT or Conjecture M/R statement. Extending to another cone requires a new certificate. The connection between the standard integer hive model and LR coefficients is the established hive correspondence; no additional empirical evaluator result is used.
 
-## 8. Verification and remaining work
+## 8. Verification record
 
-Run from the Workbench root:
+The independent reproduction compared its complete output bytes with the
+retained certificate.
 
-```text
-/usr/bin/time -p env PYTHONDONTWRITEBYTECODE=1 python3 plans/active/stretched-lr-counterexample-campaign/audit/astra-2026-09-04/geometry-certificate.py --out /private/tmp/slr-astra-two-cones-review-replay.json
-```
+The script rejects optimized Python immediately because assertions are part of its checker. The invocation has a 120-second SIGALRM hard limit and 15-second subprocess limits for each fixed `git show`. It produces `TWO_EXPLICIT_UNIMODULAR_MODELS_VERIFIED_ON_FIXED_CLOSED_CONES` at exit zero. There are zero LR calls, zero Sage calls, zero new triples enumerated, and no lattice-point enumeration. Only the two named source JSON records and fixed target constructor are read.
 
-Compare the fresh output byte-for-byte with the retained certificate before accepting the replay; never overwrite the reference being verified.
+Final replay of the recorded checker: **6.20 seconds wall time**, 6.09 seconds user CPU, 0.07 seconds system CPU, exit zero. The explicit `python3 -O` negative control exited one with the assertion-required message and created no output. A separate read verified that the JSON's recorded script hash equals the recorded script bytes. All recorded commands completed.
 
-The script rejects optimized Python immediately because assertions are part of its checker. The invocation has a 120-second SIGALRM hard limit and 15-second subprocess limits for each fixed `git show`. It produces `TWO_EXPLICIT_UNIMODULAR_MODELS_VERIFIED_ON_FIXED_CLOSED_CONES` at exit zero. There are zero LR calls, zero Sage calls, zero new triples enumerated, and no lattice-point enumeration. Only the two named committed lab JSON blobs and fixed target constructor are read. All scratch and outputs are local to the authorized Workbench paths.
-
-Final replay of the frozen delivered script: **6.20 seconds wall time**, 6.09 seconds user CPU, 0.07 seconds system CPU, exit zero. The explicit `python3 -O` negative control exited one with the assertion-required message and created no output. A separate read verified that the JSON's recorded script hash equals the delivered script bytes. All session-owned command processes exited; no runtime is left running.
-
-The remaining proof-assurance work is independent replay, review of the two canonical-model arguments and finite certificate implementation, and explicit campaign adoption. New 64/40 scalar-count grids are no longer prerequisites for these two identities; selected counts can still validate an independent evaluator or future generalized instrument. Work on unexamined cones and fan coverage remains entirely open.
+The direct identities do not require the earlier 64/40 scalar-count grids;
+selected counts can still test an independent evaluator. Unexamined cones and
+full fan coverage remain open.
 
 
-## Root verification addendum
+## Independent verification
 
-The root independently replayed the frozen checker into a separate scratch
-output: exit0, identical certificate bytes,70,380 nonnegative raw checks and
-both unimodular maps reproduced. The independent mathematical M2 review of
-this complete proof, checker, data and underlying hive constructor returned
-**No findings**. The general rectangle-bundle argument in mathematical-audit.md
-§9 was included in that review. This closes the audit's argument-review gate;
-operational campaign adoption and wider cone coverage remain WI277 work.
+An independent calculation reproduced the checker with a separate output: exit 0, identical certificate bytes, 70,380 nonnegative raw checks and
+both unimodular maps reproduced. An independent mathematical review of this complete proof, checker, data and
+underlying hive constructor reported no findings. It included the general
+rectangle-bundle argument. This review does not establish wider cone coverage.

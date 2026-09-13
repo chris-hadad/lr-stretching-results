@@ -144,5 +144,8 @@
       }
     }
   ],
-  "source_bodies": "For records marked published_snapshot, the earlier complete bytes remain at baseline_commit. The REPRODUCING.md preimage is an unpublished author draft, preserved in the private preparation record; no baseline Git identity is asserted for it. Current copies change only the listed link/command text."
+  "source_bodies": "Published preimages remain at the named baseline commit. The first REPRODUCING.md preimage was an unpublished draft; no baseline Git identity is asserted for it. Current prose hashes and editorial transformations are recorded in SOURCE-MAP.json and its module maps.",
+  "records_scope": "The records describe earlier link corrections at their stated versions. Their after hashes identify that historical projection, not every later prose edition.",
+  "editorial_baseline_commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
+  "editorial_scope": "Reader-facing prose, precise local references and a restored existing capped-interval proof; no executable or numerical-data changes."
 }

@@ -1,8 +1,8 @@
-# A07 — an Euler-signature obstruction to the naive quiver bridge
+# An Euler-signature obstruction to an exceptional-sequence quiver bridge
 
-Root-originated route and proof, 7 September 2026. Independent mathematics
-review is pending. The exact source premise is preserved in
-../../delegates/actual-lr-geometry/SOURCE-EULER-EMBEDDING.md.
+Derivation dated 7 September 2026. The exact published premise is documented
+in [the Euler-preservation source note](euler-source.md). The matrix arguments
+below are separate from that source check.
 
 ## 1. The ordinary LR target has at most one negative Euler direction
 
@@ -26,7 +26,7 @@ matrix argument; no classification of all quiver representations is needed.
 
 ## 2. The familiar negative-flow sources have several negative directions
 
-Let Q_(ell,m,k) have vertices 0,...,ell, m parallel arrows from i-1 to i
+Let Q_(ell,m,k) have vertices 0,..., ell, m parallel arrows from i-1 to i
 on each chain link, and k additional arrows from 0 directly to ell. Use
 dimension one at every vertex and netflow t at 0, -t at ell, zero elsewhere.
 If s is the flow through the chain, every link independently splits s among
@@ -36,7 +36,7 @@ m arrows, while the direct arcs split t-s among k arrows. Its entire count is
                                      binom(t-s+k-1,k-1).     (2)
 
 This is a full acyclic-flow count, not an LR realization. The doubled-chain
-cube pyramid is m=2,k=1. The accepted abstract ell=17,k=2 negative window is
+cube pyramid is m=2,k=1. The abstract ell=17,k=2 negative example is
 m=2 with two direct arcs: (2) has degree 19 and c1=-30301/798. The usual
 ell=20,m=2,k=1 example has degree 21 and c1=-168011/330.
 
@@ -69,15 +69,15 @@ with sections 1–2 proves:
 
 The source theorem's multiplicity assertion has additional hypotheses; they
 cannot rescue an embedding already excluded by its Euler-isometry assertion.
-The three-arrow Kronecker quiver used in A04 has only one negative Euler
+The three-arrow Kronecker quiver used in the rectangular LR construction has only one negative Euler
 direction, so that successful LR bridge does not conflict with (3).
 
 [Derksen–Weyman, Theorem 2.38 and section 7.1](https://www.numdam.org/item/10.5802/aif.2636.pdf)
 
 ## 4. What this explains, and what it does not
 
-Wild representation type is not permission to transport any negative flow
-polytope into an ordinary LR fiber. This specific whole-quiver route is
+Wild representation type alone does not imply that a negative flow polytope
+can be transported into an ordinary LR fiber. This specific whole-quiver route is
 blocked for the familiar long doubled chains before one attempts a large
 flag construction. The obstruction connects the successful three-arrow
 bridge with an explicit failure of a tempting negative-flow generalization.
@@ -86,11 +86,9 @@ It does not prove that these flow polytopes lack another full LR realization.
 An equality of one stretched Hilbert function, a direct tableau map or a
 different representation-theoretic construction need not preserve the whole
 Euler pairing. Negative-index-at-most-one is neither a sufficient LR
-realization criterion nor a positivity theorem. It must not become a filter
-on the campaign's arbitrary LR search.
+realization criterion nor a positivity theorem. It therefore gives no exclusion criterion for arbitrary LR polytopes.
 
-The next discriminators are a negative acyclic-flow family with negative
-Euler index at most one, an explicit non-isometric whole-tableau bridge, or
-a proof that a proposed new embedding falls outside the isometric contract.
-Do not repeat the universal-wildness shortcut or silently retire the broader
-negative-flow mechanism. All original graph/face evidence remains valid.
+A negative acyclic-flow family with negative Euler index at most one, a
+non-isometric tableau construction, or an embedding outside the Euler-isometric
+hypotheses would require a separate argument. The graph and LR-face examples
+are unaffected by this obstruction.

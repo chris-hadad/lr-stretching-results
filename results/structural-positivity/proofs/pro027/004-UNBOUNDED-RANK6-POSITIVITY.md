@@ -1,6 +1,6 @@
 # An unbounded rank-six LR family with exact complete compensation
 
-Claim FR027-P01-T004. Every ordinary coefficient through degree ten is strictly positive for every integer x>=0 in the following entire LR family. This is a new originating mission theorem supported by two complete counting models and exact arithmetic. It is not a claim of independent campaign acceptance, worldwide novelty, all rank-six positivity, or closure of every gap-three family.
+Every ordinary coefficient through degree ten is strictly positive for every integer x>=0 in the following entire LR family. Two complete counting models and exact arithmetic support the theorem. The result does not establish positivity for all rank-six triples or every gap-three family; worldwide novelty and external verification are not claimed.
 
 ## Bare partitions and whole-object premises
 
@@ -11,11 +11,11 @@ mu_x=(2x+12,x+9,6,4,2),
 nu_x=(2x+5,x+4,3,2,1),
 P_x(t)=c^(t lambda_x)_(t mu_x,t nu_x), lambda outer.
 
-All parts are nonnegative integral partitions; lambda and nu are strictly decreasing after zero padding. The sizes are6x+48,3x+33,3x+15, respectively. Thus the bare triple is balanced, has ordinary rank six, and lies outside the original area-thirty box for every x>=0. No lower-rank realization or size minimality is claimed.
+All parts are nonnegative integral partitions; lambda and nu are strictly decreasing after zero padding. The sizes are 6x+48,3x+33,3x+15, respectively. Thus the bare triple is balanced, has ordinary rank six, and lies outside the original area-thirty box for every x>=0. No lower-rank realization or size minimality is claimed.
 
 Let alpha_x=nu_x and beta_x=(x+3,x+3,x+3,2,2,2). Lambda and mu are its complete tail lift. The column-disjoint-row Schur identity proves P_x(t)=K_(t alpha_x,t beta_x) for every t>=0. The strict weighted-GT theorem gives a saturated Z^10 counting lattice and actual degree ten; its dominance gaps are(x+2,x+3,3,3), and its shape gaps are(x+1,x+1,1,1). The exact staircase formula gives true codegree three. In particular P_x(-1)=P_x(-2)=0 and P_x(0)=1. No reflection or unique-interior assumption is used.
 
-For direct source references, see proof001 and the fully retained Phase0 source application HISTORY/P00-A02/NOTES/GAP3-ANCHOR-PREMISES.md. Every source/input digest is in SOURCES/INDEX.json and the individual job launch records. The actual GT lattice, not an unproved ordinary-hive coordinate map, is the counted model.
+The branching and geometric premises are described in the complete gap-three branching proof. The counted model uses the GT lattice; it does not assume an unproved coordinate map to an ordinary hive.
 
 ## The complete affine completion
 
@@ -28,9 +28,9 @@ For x>=2, m0>=-2t, so the complete top multiplicity is xt+m0+1 on the entire def
 
 P_x(t)=P_2(t)+(x-2)t Q(t), x>=2.
 
-The complete nine-dimensional homogeneous saturated lattice model for Q, including Q(0)=1 and its period collapse, is given in proof002. This premise was established before using its zero grade in interpolation. A positive-grade identity alone would not justify that step. Q is not assigned an ordinary LR rank: its role here is the complete quotient count in the actual parent formula.
+The complete nine-dimensional homogeneous saturated lattice model for Q, including Q(0)=1 and its period collapse, is given in [Complete quotient polytope and its zero-grade premise](002-QUOTIENT-LATTICE-AND-ZERO-GRADE.md). This premise was established before using its zero grade in interpolation. A positive-grade identity alone would not justify that step. Q is not assigned an ordinary LR rank: its role here is the complete quotient count in the actual parent formula.
 
-The threshold improves to x>=1 by exact cancellation, not by extrapolation. Proof003 supplies two explicit involutions pairing negative weights in the formal extended first-block sum with the two subtracted upper-overlap determinant terms. The excluded zero-weight first layers contribute zero; deeper excluded weights are the negatives of their paired admitted overlap weights. All lower-tail factors agree. Consequently
+The threshold improves to x>=1 by exact cancellation, not by extrapolation. [Exact affine completion starts at x=1, not merely the geometric threshold x=2](003-SHARP-AFFINE-THRESHOLD.md) supplies two explicit involutions pairing negative weights in the formal extended first-block sum with the two subtracted upper-overlap determinant terms. The excluded zero-weight first layers contribute zero; deeper excluded weights are the negatives of their paired admitted overlap weights. All lower-tail factors agree. Consequently
 
 P_1=P_2-tQ,
 P_x=P_1+(x-1)tQ for EVERY integer x>=1.                 (1)
@@ -57,19 +57,19 @@ In particular c1(P0)=1543/280, c1(P1)=1863/280, and c1(P_x)=1863/280+(x-1) for x
 
 ## Determination, unused checks and independent models
 
-The degree-ten parent space was fixed in advance by the strict GT theorem. Known values at-2,-1,0 are0,0,1. Positive stretches1,...,8 determine the remaining eight parameters;9 and10 are unused checks. P0 determining counts are
+The degree-ten parent space was fixed in advance by the strict GT theorem. Known values at-2,-1,0 are 0,0,1. Positive stretches1,...,8 determine the remaining eight parameters; 9 and 10 are unused checks. P0 determining counts are
 
 132,4464,62416,507129,2873484,12611191,45762804,143364852.
 
-Its unused checks are P0(9)=399564748 and P0(10)=1012438977. P1's checks are1245276208 and3169029237; P2's are2100846088 and5350111107; P3's are2956415968 and7531192977.
+Its unused checks are P0(9)=399564748 and P0(10)=1012438977. P1's checks are 1245276208 and 3169029237; P2's are 2100846088 and 5350111107; P3's are 2956415968 and 7531192977.
 
 For Q, actual degree nine, Q(0)=1 and roots-1,-2 were proved before fitting. Values at-2,-1,0,...,7 determine it. Q(8)=38071053 and Q(9)=95063320 are unused checks; Q(10)=218108187 is extra. Its complete sequence at0,...,10 is
 
 1,144,3591,38224,247980,1164294,4352992,13742064,38071053,95063320,218108187.
 
-Two complete models agree at all44 parent sites x=0,1,2,3 and t=0,...,10: (a) full signed Jacobi–Trudi/three-column matrix counts in fresh C++ exact integers, and (b) the allowlisted canonical unsigned horizontal-strip tableau count in Python integers. Independent direct enumeration of the nine-dimensional row lattice agrees at all11 Q sites. Exact Fraction Lagrange and separately implemented Newton reconstruction agree. Sixteen additional literal ordinary-LR reading-word counts at x=0,...,3, t=0,...,3 agree; they are low-stretch bridge checks, not separately computed bare-LR full vectors. All determining and reserved counts, roster identities and complete source versions survive in the checkpoint.
+Two complete models agree at all 44 parent sites x=0,1,2,3 and t=0,...,10: (a) full signed Jacobi–Trudi/three-column matrix counts in fresh C++ exact integers, and (b) an unsigned horizontal-strip tableau count in Python integers. Independent direct enumeration of the nine-dimensional row lattice agrees at all 11 Q sites. Exact Fraction Lagrange and separately implemented Newton reconstruction agree. Sixteen additional literal ordinary-LR reading-word counts at x=0,...,3, t=0,...,3 agree; they are low-stretch bridge checks, not separately computed bare-LR full vectors. The determining counts, independent checks, input lists, and source versions are retained with the data.
 
-The symbolic eight-term proof was challenged against all120 determinant permutations, and the sharp-threshold involutions were checked on1378 paired states in each of the two regions through t=25, including338 excluded zero-weight states. No original source vector was used as a favorable comparison before preserving a new raw vector. Scientific independence here means different complete counting representations and implementations within this originating unit; independent external campaign review remains unclaimed.
+The symbolic eight-term proof was challenged against all 120 determinant permutations, and the sharp-threshold involutions were checked on 1378 paired states in each of the two regions through t=25, including 338 excluded zero-weight states. The comparison used separately recorded vectors. Independence here means different complete counting representations and implementations within this study; external independent review is not claimed.
 
 ## The initial boundary is different, and its correction is ordinary-negative
 
@@ -77,16 +77,16 @@ The affine formula does not extend to x=0. Define the complete auxiliary polynom
 
 W0=t(t-1)(t+1)^2(t+2)(t+3)(t+4)(t+5)(11t^2+26t+24)/20160. (3)
 
-Its ordinary coefficients in degrees1,2,3,4 are respectively
+Its ordinary coefficients in degrees 1,2,3,4 are respectively
 
 -1/7, -101/210, -2741/5040, -151/2520.
 
-Every observation was saved at auxiliary scope in NEGATIVE-AUXILIARIES.jsonl and DATA/wall-vector-raw.json before subsequent favorable reconciliation. W0 is not an entire LR polynomial and is not a candidate. It vanishes at t=0,1 and is positive at every integer t>=2. Thus positive count differences themselves do not establish ordinary positivity.
+The auxiliary coefficients are recorded in NEGATIVE-AUXILIARIES.jsonl and DATA/wall-vector-raw.json. W0 is not an entire LR polynomial and is not an LR counterexample. It vanishes at t=0,1 and is positive at every integer t>=2. Thus positive count differences themselves do not establish ordinary positivity.
 
-At t=2 the putative extension gives P1(2)-2Q(2)=11556-7182=4374, whereas the complete P0(2)=4464; W0(2)=90. Threshold1 in(1) is therefore sharp among allowed integer x. The actual complete initial parent P0 remains strictly ordinary-positive by(2). This challenge preserves a negative auxiliary mechanism while showing exactly why it does not become a negative entire parent in this family.
+At t=2 the putative extension gives P1(2)-2Q(2)=11556-7182=4374, whereas the complete P0(2)=4464; W0(2)=90. Threshold 1 in(1) is therefore sharp among allowed integer x. The actual complete initial parent P0 remains strictly ordinary-positive by(2). This challenge preserves a negative auxiliary mechanism while showing exactly why it does not become a negative entire parent in this family.
 
-## Protected terminals and limits
+## Applicability of known positivity criteria
 
-For x=0,1,2,3,4,10 the checked Cdagger and Csplit sufficient recognizers refuse both inner orders, and the checked multiplicity-one proper Horn factorization routine finds no terminal equality. These exact finite domain results are recorded, not promoted to nonmembership in every positive model. Actual dimension ten and codegree three independently exclude lower-dimensional and high-codegree terminals. Rank-at-most-five positivity and the original area-thirty closures do not cover these displayed triples. The gap-one/gap-two theorems do not apply because Delta3=3.
+For x=0,1,2,3,4,10 the checked Cdagger and Csplit sufficient recognizers refuse both inner orders, and the checked multiplicity-one proper Horn factorization routine finds no factorization equality. These exact finite domain results are recorded, not promoted to nonmembership in every positive model. Actual dimension ten and codegree three independently exclude lower-dimensional and high-codegree positivity criteria. Rank-at-most-five positivity and the original area-thirty closures do not cover these displayed triples. The gap-one/gap-two theorems do not apply because Delta3=3.
 
-The result does not classify all strict gap-three profiles, all rank six, arbitrary higher rank, or full KTT. Candidate count is zero and frozen additive original-box coverage remains4554. The next useful extension varies genuine tail margins while retaining every cap and initial wall, as proposed in NOTES/TWO-PARAMETER-NEXT.md; its new coefficient signs are not supplied here.
+The result does not classify all strict gap-three profiles, all rank six, arbitrary higher rank, or full KTT. No counterexample is produced, and the previously established coverage of 4554 original-box cases is unchanged. Varying genuine tail margins while retaining every cap and initial wall is a further problem; its new coefficient signs are not supplied here.

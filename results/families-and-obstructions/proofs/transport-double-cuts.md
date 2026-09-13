@@ -1,7 +1,6 @@
 # Positive double-cut core of transportation c1 at arbitrary size
 
-Phase 7, branch SLR-GPT6-PRO-FRONTIER-024-P07-A01-9739f13c17c5. Status: PROVED by provider derivation with exact
-challenges, not independent campaign acceptance. This theorem concerns the
+This AI-assisted derivation includes exact computational checks. This theorem concerns the
 complete sum of assignments occupying at most two partial-fraction classes.
 It does NOT discard the assignments occupying three or more classes.
 
@@ -56,15 +55,15 @@ multiplicity n_i+n_j, and its vertex netflow target is
     a_i=t(C_i-r_i)+(i-1)n_i-sum_{j>i}n_j.                  (5)
 
 The sum of these targets is zero. This agrees with the full A3 convention in
-inherited proof 009. For positive r_1, an assignment without class1 has negative
-first netflow eventually and contributes zero. The one-class1 assignment is
+the four-row chamber formula. For positive r_1, an assignment without class 1 has negative
+first netflow eventually and contributes zero. The one-class 1 assignment is
 
     prod_{i=2}^p binom(r_i t+N-1,N-1),
 
 whose linear coefficient is H_{N-1}(M-r_1).
 
 For two occupied classes 1,j, write a=n_1>0,b=n_j>0,N=a+b and let C=c(J)
-be the total of the nonempty proper column subset assigned to class1. Let
+be the total of the nonempty proper column subset assigned to class 1. Let
 l=j-2, d=p-2. The l empty rows BEFORE j are intermediate vertices; the other
 d-l empty rows are terminal vertices. Set B_s(x)=binom(x+s-1,s-1).
 An intermediate row k has flow x+r_k t+b from 1 and flow x into j, with weight
@@ -115,8 +114,8 @@ For (9), take the coefficient of z^{a-1} in
 For (10), expand (1+z)^{rt+N-1}(1+z)^{-x-a}.
 Multiplication by B_b(x), respectively B_a(x), then proves the displayed
 composition identities. At t=0 the coefficient binomial in (9) equals ONE,
-not binom(a-1,k). That distinction was caught by the fresh exact challenge;
-the failed code and error disposition are retained. The selected proof uses
+not binom(a-1,k). An exact check detected the earlier incorrect prefactor;
+the failed calculation remains recorded. The selected proof uses
 (9), and every subsequent finite beta check passes.
 
 Let K be the sum of the chosen expansion indices. Summing all independent
@@ -155,8 +154,8 @@ Expanding (12) using its beta integral, the absolute normalized first jet is
  = B(a,b) integral_0^1 u^{d-h}(1-u)^h du
  = B(a,b) h!(d-h)!/(d+1)!.                               (14)
 
-The substitution is legitimate since I_x increases continuously from 0 to1.
-This is the sought ALL-a,b identity, not extrapolation from N=2 or4.
+The substitution is legitimate since I_x increases continuously from 0 to 1.
+This is the sought ALL-a,b identity, not extrapolation from N=2 or 4.
 The complete reflected term's linear contribution is thus
 
     -U_+ B(a,b) h!(d-h)!/(d+1)!.                         (15)
@@ -165,7 +164,7 @@ It holds on the walls U=0 as well as both strict sides.
 
 ## 5. Sum assignments, then symmetrize
 
-Each proper row subset I containing1 corresponds uniquely to j=min([p]\I)
+Each proper row subset I containing 1 corresponds uniquely to j=min([p]\I)
 and S=I intersect {j+1,...,p}. In (15), h=|I|-1 and U=c(J)-r(I).
 Since B(a,b)=2w_N(J), the entire one/two-class sum is
 
@@ -179,11 +178,11 @@ F(s)=sum_J w_N(J)(c(J)-s)_+. Complementation gives
  sum_J w_N(J)c(J)=M H_{N-1}/2,
  F(M-s)=F(s)+(s-M/2)H_{N-1}.                              (17)
 
-Also sum_{I:1 in I} w_p(I)=H_{p-1}/2 and, for i!=1,
-sum_{I:1,i in I}w_p(I)=(H_{p-1}-1)/2. These follow by grouping subsets by size,
+Also sum_{I: 1 in I} w_p(I)=H_{p-1}/2 and, for i!=1,
+sum_{I: 1, i in I}w_p(I)=(H_{p-1}-1)/2. These follow by grouping subsets by size,
 or by integrating their binomial sums in (1). Therefore
 
- sum_{I:1 in I}w_p(I)(r(I)-M/2)
+ sum_{I: 1 in I}w_p(I)(r(I)-M/2)
        =M H_{p-1}/4-M/2+r_1/2.                           (18)
 
 For 0<=s,C<=M,
@@ -211,7 +210,7 @@ with R_i=sum_{k>=i}r_k and C_j=sum_{k>=j}c_k,
 
 These are partitions, balanced, and have maximum trimmed length p+N-1.
 Its complete all-t character/count bridge is reproduced in
-SOURCES/S13-TRANSPORTATION-PROOF.md, section2: the skew shape is a disjoint
+[the whole transportation/LR proof](transport-whole-lr-bridge.md), section 2: the skew shape is a disjoint
 component alpha plus horizontal rows; the Hall inner product removes the
 full p-row rectangle and gives the coefficient of x^{tr} in product h_{tc_j}.
 It is an entire count identity, not an asserted affine hive isomorphism.
@@ -224,8 +223,8 @@ before applying this positive-margin statement.
 For general p,N, E_{>=3} remains a finite, precisely specified sum of first jets
 from (5). The general full double-cut equality is CONJECTURED, not proved here.
 The nonzero degree shift and saturated lattice do not remove this remainder.
-For p=4,N=5, proof 018 checks ALL of the necessary higher-class gradients and
-therefore obtains a whole-family theorem. Larger N and p remain distinct gates.
+For p=4,N=5, [the four-by-five proof](transport-four-by-five.md) checks ALL of the necessary higher-class gradients and
+therefore obtains a whole-family theorem. Larger N and p require separate arguments.
 
 ## 7. Verification and limitations
 
@@ -233,7 +232,7 @@ BETA-OUTPUT-V02.json contains 336 exact beta-integral checks (p=2..7,a,b=1..4,
 all h) and 72 exact comparisons between (2) and (16). The binomial identities
 were checked as exact polynomials, including parameters a>=3 that falsified
 the earlier incorrect prefactor. The finite checks supplement the all-parameter
-hand proof; they do not replace it. Mandatory 7/3,11/6,65/18 controls pass.
+hand proof; they do not replace it. The 7/3,11/6,65/18 reference checks pass.
 
 For the n-by-n unit-margin case the core reduces algebraically to
 
@@ -244,4 +243,4 @@ The predictions agree with Pixton's published complete-polynomial linear
 coefficients for n=2..9. This is a source comparison only. It does NOT prove
 (19) is the full Birkhoff coefficient for arbitrary n, or that individual
 higher-class terms vanish there. The general remainder may vanish only after
-aggregation. No global novelty assertion or campaign acceptance is made.
+aggregation. No global novelty assertion is made.

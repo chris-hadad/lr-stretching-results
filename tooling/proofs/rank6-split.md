@@ -15,7 +15,7 @@ B = mu[3] + nu[3] - lambda[3].
 
 The implementation requires S,A,B nonnegative and checks all 51 original
 parent minima: 21 nonnegativity, 15 column and 15 ballot inequalities. This
-is the complete sufficient gate for the displayed chart. Requiring just
+is the complete sufficient domain check for the displayed chart. Requiring just
 S,A,B nonnegative would be unsound.
 
 The [whole tableau argument](sources/rank6-split-original.md) supplies nine
@@ -31,7 +31,7 @@ d + min(e,0)*A + min(f,0)*B
   + S*min_ij(w_ij + min(e,0)*[j=3] + min(f,0)*[i=1]).
 ```
 
-The runtime constructs and evaluates every such gate before count shortcuts,
+The runtime constructs and evaluates every such domain check before count shortcuts,
 including t=0. On the accepted domain, the entire LR polynomial is
 
 ```text
@@ -40,10 +40,10 @@ P(t) = binom(S*t+8,8) * (1+(A+S/3)*t) * (1+(B+S/3)*t).
 
 For S>0 its actual degree is 10 and every coefficient is positive. For S=0
 it is the product `(1+A*t)*(1+B*t)`, with its actual degree 0, 1 or 2.
-A rejected gate raises `ValueError`; it asserts neither infeasibility nor a
+A rejected domain check raises `ValueError`; it asserts neither infeasibility nor a
 negative count. The domain is not the whole rank-six space or a full fan.
 
 The sole packaging adaptation changes the partition-validation import to
-two exact private helper bodies. The chart, inequalities and all mathematical
+two exact internal partition-validation helpers. The chart, inequalities and all mathematical
 function bodies are unchanged.
 

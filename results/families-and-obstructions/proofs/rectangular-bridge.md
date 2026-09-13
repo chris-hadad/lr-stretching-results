@@ -1,16 +1,11 @@
-# A08 rectangular reentry: whole-LR bridge and exact degree
+# Rectangular matrix invariants: whole-LR bridge and exact degree
 
-This verifies the root-originated three-matrix construction for p=2 and p=3.
-The nonvanishing gate is established by the root's independently frozen
-weighted Weyl count: P_2(1)=20 and P_3(1)=266 in attempt
-A002-RECTANGULAR-NONVANISHING-002. I read its completed result, runtime
-receipt, and successful adapter return after the root supplied the result.
-The result file also records the four (1,2) controls 1,3,6,10 at t=0,...,3.
-[Frozen count result](../data/rectangular-nonvanishing.json)
-[Runtime receipt](rectangular-evidence.md#historical-execution)
-[Adapter return](rectangular-evidence.md#historical-execution)
-No scientific program, count, native call, or external-model call was run by
-this delegate. Prior delegate files remain frozen.
+This verifies the three-matrix construction for p=2 and p=3. Independent
+weighted Weyl counts establish nonvanishing: P_2(1)=20 and P_3(1)=266.
+The [complete count record](../data/rectangular-nonvanishing.json) also contains
+the four (1,2) controls 1,3,6,10 at t=0,...,3.
+[The evidence note](rectangular-evidence.md) documents these computations and
+their provenance. This proof uses those recorded counts.
 
 ## 1. Result and grade
 
@@ -28,7 +23,7 @@ Repetition exponents count rows. Their rank is 6p and
 
     |lambda|=24p(2p-1)=|mu|+|nu|.
 
-With the stated nonvanishing gate met, the exact identity at every integer t>=0 is
+With the stated nonvanishing established, the exact identity at every integer t>=0 is
 
     P_p(t):=c^(t lambda)_(t mu,t nu)=dim (R_p)_t.               (1)
 
@@ -44,7 +39,7 @@ These are constructor calculations, not evaluations of LR coefficients.
 ## 2. Exceptional pair and source character
 
 Use the inward-oriented Q=T_(3,3,4) from
-[the frozen A08 derivation](rectangular-extension.md), with new outer source
+[the exceptional-pair construction](rectangular-extension.md), with new outer source
 v on the long arm. The old affine-E6 subquiver Q0 has null root delta with
 outer/inner arm values 1,2 and central value 3. Let e be the old extending
 endpoint adjacent to v. The exceptional representation E1 has dimension
@@ -153,7 +148,7 @@ condition gives descent of the original polarization to an ample Cartier
 line bundle, by Theorem 2.3; no multiplicity-two hypothesis is part of
 that theorem. [Sherman](https://arxiv.org/pdf/1505.06551#page=7)
 
-One can also verify a graded-ring map here. Freeze E1^direct_sum_p on Q0;
+One can also verify a graded-ring map here. Fix E1^direct_sum_p on Q0;
 its orbit is open by rigidity. The remaining arrow is arbitrary from
 C^q to E1(e) tensor C^p=C^3 tensor C^p, precisely three p-by-q matrices.
 The target-group saturation of this slice is dense. Restriction is
@@ -209,7 +204,7 @@ degree d has pole order d+1. Applying (1) therefore gives d=pq, exactly.
 
 ## 6. Reconstruction boundary
 
-The root's degree-based reconstruction is justified: p=2 uses nodes
+The degree-based reconstruction is justified: p=2 uses nodes
 0,...,6 and holds 7,8; p=3 uses nodes 0,...,12 and holds 13,14. The
 positive-node panel is exact once those independent counts pass. This
 bridge does not use a canonical shift, reflection, square-family

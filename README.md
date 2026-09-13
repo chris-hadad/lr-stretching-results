@@ -74,6 +74,6 @@ the catalog states that limitation.
 This is substantially AI-assisted research directed by Chris Hadad. Separate
 implementations and AI reviews have checked the stated finite premises and
 arguments; external human mathematical review is still sought. No institutional
-endorsement or historical novelty determination is implied. The repository
-remains private pending its owner's release decision. See [sharing and citation](SHARING.md)
-for versioning, access and the current licensing status.
+endorsement or historical novelty determination is implied. This collection records initial findings and provides a basis for
+further results. See [versions and citation](SHARING.md) for citing a precise
+research note, source snapshot or dataset.
