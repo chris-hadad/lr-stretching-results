@@ -77,8 +77,8 @@
   "records": [
     {
       "code_source_mappings": [],
-      "included_bytes": 2027,
-      "included_sha256": "0ef8749aff8b7ded75a556fc33758c45b534f41eda06350c4f4835a887c96571",
+      "included_bytes": 2251,
+      "included_sha256": "627ce3908f951c5f764eb17f11ab9970cc9b527e5ea3d7284b919a13622309d5",
       "origin_labels": [],
       "role": "curated_document_or_evidence",
       "source_records": [],

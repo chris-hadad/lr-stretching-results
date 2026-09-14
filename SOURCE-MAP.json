@@ -604,6 +604,12 @@
       "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted"
     },
     {
+      "included_bytes": 25112,
+      "included_sha256": "e4d3ce74c3d5fa4f7f9df9f0ed144018a398f4bf07a36bdfc5e2c3f1da0f5561",
+      "path": "AI-ASSISTANCE.md",
+      "provenance": "Authored September 14, 2026 retrospective of AI assistance and research process, grounded in project records and the research director's stated model history. No new mathematical result or execution is asserted."
+    },
+    {
       "editorial_baseline": {
         "bytes": 5907,
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
@@ -649,8 +655,8 @@
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "sha256": "25d735d14795cbf40689dae20fb00c1e75220eede1d9cff361b1a4a7378f24a0"
       },
-      "included_bytes": 7042,
-      "included_sha256": "5bfd380330d4f7f19d93e4ec59f4411361c9e01a46538b35dcf3ed92ad621088",
+      "included_bytes": 7196,
+      "included_sha256": "b1dc6ae5d10894e7a661ca9ed670498dcfd1405be3e8c1843e67168743d1af7c",
       "path": "METHODS.md",
       "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies."
     },
@@ -660,8 +666,8 @@
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "sha256": "70158ea43e387e5e316b39caeb25436f3e05c7f72f070690498fa59371a2cd60"
       },
-      "included_bytes": 7741,
-      "included_sha256": "a3b37022ab38355cc40940af9eeb8127fb3cedc54aeff2b5df60b36dce777899",
+      "included_bytes": 8036,
+      "included_sha256": "2df2cb82174271f8c0e84170d5d134372b10a95f99a076c4ea88605499d6178e",
       "path": "PROVENANCE.md",
       "prior_included_sha256": "20b2ffcc4b075acb9d191248b128633b52b693f056cab61e8a7e90c415a72ff3",
       "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted"
@@ -689,8 +695,8 @@
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "sha256": "573a7f8478d2c682846366fb69e6f5c480fcd4635ae9a19f87e6bc0e261fcb05"
       },
-      "included_bytes": 5338,
-      "included_sha256": "5c3b0675af98c8388d303e726578b53da5ebd5488f26e7a3985f262bdb73debd",
+      "included_bytes": 5589,
+      "included_sha256": "bce5fdaab5a6ae5fbb3a7ef9ed76c7a546eaaa594f918ce941ca4890f2e4dddb",
       "path": "README.md",
       "pre_licensing_included_sha256": "2b6abf0e71abaa3319dcb2bd4fb68b09f7972c28f054809abe64a85b910860a3",
       "prior_included_sha256": "0d543514230b1f59377d2a6faaa57cea6962a02ac37d45d700e33b7ea3d5b4bd",
@@ -6291,8 +6297,8 @@
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "sha256": "2c71cabb20b5792b389168a35e6b7e142e7c259c18ce7d4ccde70c5116219b7f"
       },
-      "included_bytes": 2027,
-      "included_sha256": "0ef8749aff8b7ded75a556fc33758c45b534f41eda06350c4f4835a887c96571",
+      "included_bytes": 2251,
+      "included_sha256": "627ce3908f951c5f764eb17f11ab9970cc9b527e5ea3d7284b919a13622309d5",
       "path": "results/finite-box/AI-ASSISTANCE.md",
       "source_map": "results/finite-box/SOURCE-MAP.json",
       "source_pointer": "/records/0"
@@ -6323,7 +6329,7 @@
         "sha256": "1788c98f3437cb3af78308ef38cf1f6815ea07dd56193b84b8d63f402c4ca5be"
       },
       "included_bytes": 33966,
-      "included_sha256": "6f4532bc9ba297d5b16985af5d294bec90ea4a4c313d512369f91c6c2b4dbe20",
+      "included_sha256": "47925674d10136778a57d9ce46bd6a8036014cc558b13954b5ffc0ed9f7848e5",
       "path": "results/finite-box/FILE-MANIFEST.json",
       "prior_included_sha256": "477ee7bc238516ca70768b9ac565131ca12822b8e8e33b17c9a29e49ffc1797e",
       "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted"
@@ -6406,7 +6412,7 @@
         "sha256": "1e263731bd1f129fb9d22f0f49acd20a25bc690863b057bec064fb91b7065afb"
       },
       "included_bytes": 12191721,
-      "included_sha256": "4cbd934d0ef7bd68ce5fccf40e31ffb4578912ab7ef03145c1aa27f54c48e15b",
+      "included_sha256": "858800600fee60d3ad5b3ee9c20b5ad33fa4d7ca50476fcde82a92b2b24b633d",
       "path": "results/finite-box/SOURCE-MAP.json",
       "prior_included_sha256": "7a2946b74d9937209930da224fbde24c8fe1f4b62f5f1f74e97c48625ad2145f",
       "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted"
@@ -9812,7 +9818,7 @@
     "results/finite-box": {
       "bytes": 12191721,
       "path": "results/finite-box/SOURCE-MAP.json",
-      "sha256": "4cbd934d0ef7bd68ce5fccf40e31ffb4578912ab7ef03145c1aa27f54c48e15b"
+      "sha256": "858800600fee60d3ad5b3ee9c20b5ad33fa4d7ca50476fcde82a92b2b24b633d"
     },
     "results/rank-six-coefficients": {
       "bytes": 2358,

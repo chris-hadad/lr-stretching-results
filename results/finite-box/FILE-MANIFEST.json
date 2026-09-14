@@ -5,8 +5,8 @@
   "files": [
     {
       "path": "AI-ASSISTANCE.md",
-      "bytes": 2027,
-      "sha256": "0ef8749aff8b7ded75a556fc33758c45b534f41eda06350c4f4835a887c96571"
+      "bytes": 2251,
+      "sha256": "627ce3908f951c5f764eb17f11ab9970cc9b527e5ea3d7284b919a13622309d5"
     },
     {
       "path": "DATA-ASSETS.json",
@@ -56,7 +56,7 @@
     {
       "path": "SOURCE-MAP.json",
       "bytes": 12191721,
-      "sha256": "4cbd934d0ef7bd68ce5fccf40e31ffb4578912ab7ef03145c1aa27f54c48e15b"
+      "sha256": "858800600fee60d3ad5b3ee9c20b5ad33fa4d7ca50476fcde82a92b2b24b633d"
     },
     {
       "path": "code/ADAPTATIONS.md",
