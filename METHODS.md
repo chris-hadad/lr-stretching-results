@@ -6,6 +6,9 @@ to make the original bounded domain explicit and attach a sufficient proof
 to every input. This account explains the mathematical development, the
 computational responsibilities and the limitations of the resulting evidence.
 
+For the broader July-to-September collaboration across models and research
+environments, see [AI assistance and the research process](AI-ASSISTANCE.md).
+
 ## From search to a finite proof
 
 1. **Fix the original question.** Use λ as the outer partition, remove trailing

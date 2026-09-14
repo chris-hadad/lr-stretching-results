@@ -1,5 +1,9 @@
 # Research contributions and AI assistance
 
+This note records contributions to the finite-box result. The program-wide
+[AI-assistance page](../../AI-ASSISTANCE.md) describes the models, research
+environments, persistent plans and shared process used since July 2026.
+
 Chris Hadad directed this research and supplied computational resources.
 GPT 6 Pro contributed the finite-box argument, numerical data and initial
 programs. Codex examined the proposed mathematics, developed separate exact

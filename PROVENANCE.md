@@ -8,6 +8,11 @@ the exact evidence. Earlier work with Claude supplied additional geometric
 and counting methods. [METHODS.md](METHODS.md) explains the mathematical
 development and the checks that changed the approach.
 
+The program-wide [AI-assistance account](AI-ASSISTANCE.md) describes the
+July-to-September history, model roster, Chris's research direction, persistent
+plans, shared ledger and mathematical tooling. This page retains the
+result-specific contributions, source versions and verification scopes.
+
 Alper Ferudun's all-size positivity theorem through length five is a central
 prior result used in the finite-box proof. His correction methods, Per
 Alexandersson's counting and reciprocity methods, Thawinrak's flow/LR

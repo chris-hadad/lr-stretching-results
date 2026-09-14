@@ -39,7 +39,8 @@ question. This is a partial advance alongside the completed finite-box theorem.
 | Try a small exact calculation | [Sign-completion example](examples/sign_completion.py) or the five established standalone modules below |
 | Explore the wider mathematics | [Results and open questions](RESULTS.md), [structural families](results/structural-positivity/README.md), and [companion outline](papers/families-and-compensation.md) |
 | Use the counting code | [Tools organized by mathematical object](tooling/README.md) |
-| Understand how the work was done | [Discovery and verification process](METHODS.md), [AI assistance and attribution](PROVENANCE.md) |
+| Understand how the work was done | [AI assistance and research process](AI-ASSISTANCE.md), [finite-box methodology](METHODS.md) |
+| Trace contributions and sources | [Result-specific attribution and verification scope](PROVENANCE.md) |
 
 ## Small reproducible checks
 
@@ -78,7 +79,9 @@ certificates, reproduction level and open complement. Some large historical
 certificates still have source-proof documentation without a standalone replay;
 the catalog states that limitation.
 
-This is substantially AI-assisted research directed by Chris Hadad. Separate
+This is substantially AI-assisted research directed by Chris Hadad. The
+[AI-assistance account](AI-ASSISTANCE.md) describes the models, research
+environments, persistent plans and shared process used since July 2026. Separate
 implementations and AI reviews have checked the stated finite premises and
 arguments; external human mathematical review is still sought. No institutional
 endorsement or historical novelty determination is implied. This collection records initial findings and provides a basis for
