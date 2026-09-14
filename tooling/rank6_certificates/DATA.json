@@ -1,0 +1,132 @@
+{
+  "schema": "rank6-c4-c5-data-v1",
+  "archive": {
+    "bytes": 44846862,
+    "sha256": "8e040f357c4b507375f6c5ff572a9358ee063dd0300a61cfe2074ebc9e7ff730"
+  },
+  "files": {
+    "atlas.txt": {
+      "bytes": 1592,
+      "sha256": "c6d641f664b89441bb1c548006dc50860bebae7bc1c9ab7530f69bb5eb93b9ce",
+      "schema": "10 42 6 header; 42 rows of 10 signed normal coordinates; six normal permutations"
+    },
+    "q5-alpha.txt": {
+      "bytes": 649263,
+      "sha256": "c0a54a9873d7a7f548a4ee77727c5d13b33c9f859b857a6681bf15d4833db07b",
+      "schema": "One exact rational per type, ordered by the complete zero-based type ID"
+    },
+    "q5-certificate.json": {
+      "bytes": 32530,
+      "sha256": "351a4202141633ae00926225fb78b10fe0668a21202e15ae85b7de7f93c29915",
+      "schema": "Rows, columns, exact common denominator and strictly ordered nonzero integer coordinate numerators"
+    },
+    "q5-data.bin": {
+      "bytes": 5229032,
+      "sha256": "702d9e813a64c2195084cf044263d6a5d24b785455f21a96207975e8ae60c73f",
+      "schema": "int32 little-endian complete matrix array"
+    },
+    "q5-indices.bin": {
+      "bytes": 5229032,
+      "sha256": "dfed1f6c0cacdc8fd05ea0ae07a69f43bccc114c158e52979fcf7cb18c7c8bf3",
+      "schema": "uint32 little-endian complete matrix array"
+    },
+    "q5-indptr.bin": {
+      "bytes": 484968,
+      "sha256": "4d738572cdddffcb724d7b4de0a60ed3231679627624596d72a166c1259f324f",
+      "schema": "uint32 little-endian complete matrix array"
+    },
+    "q5-kernels.bin": {
+      "bytes": 8342190,
+      "sha256": "9c78e752da74284b480c09ee7f044f7616e36b1ef0373d9b7cae65c0d57e4c3b",
+      "schema": "17165 records: 4 uint8 support IDs, uint16LE index, 60 int32LE M entries (10x6), 60 int32LE L entries (6x10); 486 bytes"
+    },
+    "q5-orbits.bin": {
+      "bytes": 2303579,
+      "sha256": "9c83598c296095516ae1b412e4ab069c23d300361c6acd23d1c9e2d0da7dbf31",
+      "schema": "121241 records: 5 uint8 IDs, uint16LE index, uint32LE type/count/original ordinal; 19 bytes"
+    },
+    "q5-tuple-orbit.bin": {
+      "bytes": 3402672,
+      "sha256": "f3e7064e03e54b8cff6eb3ad48557172ed2bd6a2febbf5f5d5afde9b093cad9d",
+      "schema": "850668 uint32LE orbit IDs; dependent sentinel 0xffffffff"
+    },
+    "q5-tuples.bin": {
+      "bytes": 9357348,
+      "sha256": "ee89b6e265a868a91c4f656496e2983db65210de1aa6f24154a7b00fc7586bf0",
+      "schema": "850668 records: 5 uint8 IDs, uint16LE index, uint32LE type; dependent type 0xffffffff"
+    },
+    "q5-type_ids.bin": {
+      "bytes": 484964,
+      "sha256": "63112b5b696aa267ba63cc63e741c5b4ad244221cbecde7eff4c670b320b6273",
+      "schema": "uint32 little-endian complete matrix array"
+    },
+    "q5-types.bin": {
+      "bytes": 2678258,
+      "sha256": "856ea89d8a29074674c94b3b5dc1d92e3d5b002cb621d466b9f1b86dfbcdc522",
+      "schema": "39974 records: uint16 index, 5 uint8 representative IDs, uint8 kind, 50 int8 key entries, 5 uint8 permutation, uint32 count; 67 bytes"
+    },
+    "q6-ORBIT-TYPE.bin": {
+      "bytes": 2702884,
+      "sha256": "3975d4815950e10831a878a313a6425de2860ce1b0d4b707c80bc809152e02a3",
+      "schema": "Exact preserved Unit7 complete array; TYPES=71-byte records, counts/map/CSR=uint32LE or int32LE data"
+    },
+    "q6-TYPE-COUNTS.bin": {
+      "bytes": 1175180,
+      "sha256": "636fceb31b57b432b4acdee1ef8b5bee39d66dbefb3adec5df34100a4782814c",
+      "schema": "Exact preserved Unit7 complete array; TYPES=71-byte records, counts/map/CSR=uint32LE or int32LE data"
+    },
+    "q6-TYPES.bin": {
+      "bytes": 20859445,
+      "sha256": "b6ec7358359b2d16a40aaf890eef56d28f12fa6c0e8f79a79a96b2156815945a",
+      "schema": "Exact preserved Unit7 complete array; TYPES=71-byte records, counts/map/CSR=uint32LE or int32LE data"
+    },
+    "q6-alpha.txt": {
+      "bytes": 7459151,
+      "sha256": "299eafa8c10960765f82d7377c10e77ac52ba5b30a5f50a83e8e89379582c6fb",
+      "schema": "One exact rational per type, ordered by the complete zero-based type ID"
+    },
+    "q6-certificate.json": {
+      "bytes": 2432334,
+      "sha256": "ef17201728012c73554c9339c392e28f695538af95de2e47fef65c487b0aea26",
+      "schema": "Rows, columns, exact common denominator and strictly ordered nonzero integer coordinate numerators"
+    },
+    "q6-data.bin": {
+      "bytes": 32559864,
+      "sha256": "ef870f15045d6aae6aa69292efe8ce8f21ba450ba45f248b94ee4e4ea1329ee4",
+      "schema": "Exact preserved Unit7 complete array; TYPES=71-byte records, counts/map/CSR=uint32LE or int32LE data"
+    },
+    "q6-indices-full.bin": {
+      "bytes": 10491572,
+      "sha256": "2c8208b6f51ae54059e26d25722aff146cb9b7c59db569db8a206ac1475180ab",
+      "schema": "5245786 uint16LE indices in complete lexicographic six-subset order"
+    },
+    "q6-indices.bin": {
+      "bytes": 32559864,
+      "sha256": "8ccb30669caeb97606fdcf7dfa98b38db59f554ea8f5ea9da9f9f784d6975da6",
+      "schema": "Exact preserved Unit7 complete array; TYPES=71-byte records, counts/map/CSR=uint32LE or int32LE data"
+    },
+    "q6-indptr.bin": {
+      "bytes": 2702888,
+      "sha256": "5ab9bae34dc37543384ef20978e38c181d2215b73b758003b629bfc1da0a877d",
+      "schema": "Exact preserved Unit7 complete array; TYPES=71-byte records, counts/map/CSR=uint32LE or int32LE data"
+    },
+    "q6-kernels.bin": {
+      "bytes": 25096887,
+      "sha256": "74abd6b7df37400ee1dbeafbf415de4f42120159ff232c5dc7fc6f9589246bcb",
+      "schema": "121241 records: 5 uint8 support IDs, uint16LE index, 50 int16LE M entries (10x5), 50 int16LE L entries (5x10); 207 bytes"
+    },
+    "q6-keys.bin": {
+      "bytes": 45273307,
+      "sha256": "cfe8722fcae5cb24c92230dff2f968d5b9e6c0b44d3af0c9fe551d773159012c",
+      "schema": "675721 records: 61-byte safe key and 6 uint8 generator permutation; 67 bytes"
+    },
+    "q6-orbits.bin": {
+      "bytes": 8108652,
+      "sha256": "65130eed0f7f34bb341bbee68986898755600443a18b9af4f113a04e1a8378b8",
+      "schema": "675721 records: 6 uint8 IDs, uint16LE index, uint32LE original ordinal; 12 bytes"
+    }
+  },
+  "provenance": "Finite mathematical certificates from SLR-GPT6-PRO-FRONTIER-028, independently reconstructed and checked in the campaign. This curated dataset contains no programs or private operating history.",
+  "full_scope": "Every required rank-six q5/q6 tuple, type, kernel and matrix; full rational fields and all local values. Analytic whole-hive implication is in PROOF.md.",
+  "software_data_boundary": "Binary members are schema-defined integer arrays, never executables."
+}

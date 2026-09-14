@@ -13,7 +13,7 @@ precise boundaries of their known validity.
 | Two-row formulas | Suffix-sum LR lifts with arbitrary positive weights at slopes two and three, for n≥5 and n≥6 respectively; the all-unit n=6 slope-three case has its stated degree exception | General higher slopes. The formula and subsequent sign extension have separate contributions recorded in the provenance account. |
 | Gaps and bank parameters | Complete gap-three integer quadrant and homogeneous three-ray cone, including axes; two-bank g=1,h=0 positivity for every m≥2 and the full capped linear bound | General gap-three wings, other bank gaps and h>0. The proved formulas retain their exact walls and lattices. |
 | Transportation chambers | Seven positive integer-h endpoint polynomials, stabilization at h=6, and homogeneous-cone c1≥5279u/360 with positive c16,c17,c18 | Middle coefficients c2 through c15 at noninteger v/u; a negative-v extension requires additional cap terms. |
-| Refined normal cycles | Primitive quotient lattices, complete incidence balance and ambient c_(D_n−4) protection for n=6,…,12 | Untouched connected-normal calculations at ranks thirteen and fourteen. These indices are ambient, not the top five actual coefficients of every degenerate hive. |
+| Refined normal cycles | Primitive quotient lattices, complete incidence balance and ambient c_(D_n−4) protection for n=6,…,12 | Broader ambient extensions are outside this note's distributed certificate scope. The separate new rank-six c4/c5 fields have a complete standalone verifier. These indices are ambient, not the top five actual coefficients of every degenerate hive. |
 | Stable flow and interiors | Full integer affine hive/flow map for M≥s≥0, with its exact codegree and interior-generation law | The uncut map does not extend automatically to M<s≤2M; interior generation alone does not imply coefficient positivity. Thawinrak's M=s=1 specialization and the CRY literature are antecedents. |
 | Obstacles to generalization | Positive LR polynomials with right-half-plane roots, raw concavity failures, and negative graph/LR faces and auxiliary quotients | These objects do not supply a negative ordinary coefficient of an entire LR polynomial. |
 
@@ -26,12 +26,14 @@ checks and the larger normal-atlas reproduction still to be packaged.
 
 ## Questions suggested by the examples
 
-The normal-correction argument reduces a possible all-rank ambient coefficient
-theorem to specific remaining classes at ranks thirteen and fourteen. Their
-complete primitive lattices and correction incidences are necessary. If the
-new minima are positive but smaller than 1/3000, the uniform constant would
-decrease. A negative local value would refute that sufficient criterion,
-not KTT by itself. These calculations have not yet been completed.
+The normal-correction approach requires complete primitive lattices and every
+affected incidence at each extension. The source collection summarized above
+covers its explicit n<=12 ambient theorem. The newer
+[rank-six c4/c5 certificates](../results/rank-six-coefficients/README.md) provide
+a complete further coefficient advance and a practical independent verifier.
+Their remaining rank-six target is c1,c2,c3 at actual degrees six through ten.
+A negative local weight or failed sufficient correction still does not by
+itself give a negative entire LR polynomial.
 
 Whole-rank-six positivity might instead follow from uniform interior bounds
 or a complete chamber description. The finite-box proof provides concrete

@@ -15,7 +15,7 @@ The research note is a working draft and its author list has not been finalized.
 Research contributions and AI assistance are documented in
 [PROVENANCE.md](PROVENANCE.md) and [METHODS.md](METHODS.md).
 
-The [current source and offline bundles](https://github.com/chris-hadad/lr-stretching-results/releases/tag/research-edition-2026-09-13-v2)
+The [September 13 source and offline bundles](https://github.com/chris-hadad/lr-stretching-results/releases/tag/research-edition-2026-09-13-v2)
 contain the reader-facing proof collection and identify their exact source
 commit. The numerical archives retain their original version and hashes.
 
@@ -23,3 +23,8 @@ commit. The numerical archives retain their original version and hashes.
 Software is licensed under MIT; research content and data are licensed under
 CC BY 4.0. [LICENSING.md](LICENSING.md) describes reuse and attribution,
 including the license companion supplied with the versioned downloads.
+
+The September 13 archives remain dated editions. The later rank-six coefficient
+module is included in the current Git source and is not added retroactively to
+those archives. Results are shared incrementally at their verified scopes;
+subsequent corrections and extensions retain identifiable prior versions.

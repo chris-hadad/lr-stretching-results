@@ -23,6 +23,13 @@ inputs using whole-count reductions, relative-interior counts and rigorous
 coefficient bounds. [Prior work and precise dependencies](REFERENCES.md) are
 part of the proof, including the limits of our independent reproduction.
 
+**Rank-six progress:** the fourth and fifth ordinary coefficients are now
+nonnegative at every area and boundary. A [new result page](results/rank-six-coefficients/README.md)
+gives the full scope and low-degree consequences, with a
+[complete standalone verifier](tooling/rank6_certificates/README.md) and compact
+certificate data. The first three coefficients remain the whole-rank-six
+question. This is a partial advance alongside the completed finite-box theorem.
+
 ## Start here
 
 | Your purpose | Suggested route |

@@ -1,0 +1,55 @@
+{
+  "schema": "rank-six-result-source-map-v1",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3373,
+      "sha256": "3b4f97f9ad4818c9ba8e8e0209e1893efcba6e27d19f96e437a638dfd34c5518",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+        "source": "methods/frontier028-2026-09-14/publication-docs/README.md",
+        "source_bytes": 3205,
+        "source_sha256": "6a71a783e15425088a74b4a8bcb5219fd6f4d4bb9d92c508abd4d829fd264f83",
+        "transformation": "Public navigation links completed; mathematical statement unchanged"
+      }
+    },
+    {
+      "path": "LOW-DEGREE.md",
+      "bytes": 2920,
+      "sha256": "14c347b47d978866ed63905f9b897ac4d60572c56ee12b289b034f0125586042",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+        "source": "methods/frontier028-2026-09-14/publication-docs/LOW-DEGREE.md",
+        "source_bytes": 2920,
+        "source_sha256": "14c347b47d978866ed63905f9b897ac4d60572c56ee12b289b034f0125586042",
+        "transformation": "Public navigation links completed; mathematical statement unchanged"
+      }
+    },
+    {
+      "path": "NOVELTY.md",
+      "bytes": 1579,
+      "sha256": "236f4f47d8857d7c3d7f815f7be23c9c8bdbfe005bfc96afda7ba9ba8a6827b1",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+        "source": "methods/frontier028-2026-09-14/publication-docs/NOVELTY.md",
+        "source_bytes": 1579,
+        "source_sha256": "236f4f47d8857d7c3d7f815f7be23c9c8bdbfe005bfc96afda7ba9ba8a6827b1",
+        "transformation": "Public navigation links completed; mathematical statement unchanged"
+      }
+    },
+    {
+      "path": "VERIFICATION.json",
+      "bytes": 4213,
+      "sha256": "3ab36309d67a4885df8aad08b7c748fa21be01fa1a61fde34b363038d9360abf",
+      "origin": {
+        "type": "Public mathematical projection of exact clean-export evidence"
+      }
+    }
+  ],
+  "complete_tool_subtree": "tooling/rank6_certificates",
+  "tool_source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+  "scope": "Result exposition and exact finite-verification projection; executable proof/data source is mapped by tooling/SOURCE-UPDATE.json."
+}

@@ -51,11 +51,16 @@ four, and rank at most six with bound at most five after exact tensor symmetry.
 See the [four-coordinate theorem](proofs/pro027/023-ALL-SIZE-FOUR-COORDINATE-LR-POSITIVITY.md)
 and [five-coordinate rank-six theorem](proofs/pro027/028-ALL-RANK6-FIVE-COORDINATE-POSITIVITY.md).
 Coordinate bounds need not equal actual dimension. These results do not
-establish positivity for every actual quartic or quintic with a looser chart.
+establish positivity for every actual quartic or quintic with a looser chart. The
+[new actual-degree argument](../rank-six-coefficients/LOW-DEGREE.md) supplies the
+additional Horn/strict-witness bridge: rank-six degree at most five and
+rank-seven degree at most four are now nonnegative.
 
-The remaining untouched connected quadruple certificates at ranks thirteen
-and fourteen form a concrete finite calculation toward the all-rank ambient
-codimension-four theorem. That calculation has not been performed. Negative local
+The normal-certificate collection distributed in this section covers ranks
+six through twelve. Extensions beyond that scope require their corresponding
+proof, source and verification package. The newer
+[rank-six c4/c5 fields](../rank-six-coefficients/README.md) have a separate
+complete standalone verifier. Negative local
 weights are retained as structural information, with no claim that they alone
 produce a negative entire LR coefficient.
 

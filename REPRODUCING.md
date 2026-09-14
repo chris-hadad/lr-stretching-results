@@ -38,6 +38,24 @@ The [structural module guide](results/structural-positivity/README.md) gives
 the commands for its individual families. Each distinguishes newly performed
 algebra from retained historical count observations.
 
+## Complete rank-six c4/c5 certificates
+
+The [rank-six module](tooling/rank6_certificates/README.md) includes the full
+44.8 MB compressed mathematical dataset and a complete fresh-reconstruction
+command. It needs Python 3.11+, a C++17 compiler and GMP development libraries:
+
+```sh
+python3 -B tooling/rank6_certificates/verify.py --full --out /path/to/new-rank6-run
+```
+
+The full command was executed from an exact clean source export and returned
+`PASS_COMPLETE_C4_C5_FINITE_CERTIFICATES`, including all original subsets,
+lattice/type/kernel/matrix predicates, all local values and all rational
+inequalities. [The record](results/rank-six-coefficients/VERIFICATION.json)
+gives its exact counts and measured cost. `--quick` is a diagnostic prefix,
+with an explicitly incomplete theorem verdict. This command does not rerun
+the finite-box computation or prove the remaining rank-six coefficients.
+
 ## The finite-box proof
 
 The [module instructions](results/finite-box/README.md) are the complete command
@@ -104,6 +122,11 @@ counterexample to a reduction or a missing terminal identity can be more useful
 than another large sample. [The reviewer guide](results/finite-box/REVIEWER-GUIDE.md)
 suggests specific audit points.
 
-The [current source and offline bundles](https://github.com/chris-hadad/lr-stretching-results/releases/tag/research-edition-2026-09-13-v2)
+The [September 13 source and offline bundles](https://github.com/chris-hadad/lr-stretching-results/releases/tag/research-edition-2026-09-13-v2)
 contain the reader-facing proof collection and identify their exact source
 commit. The numerical archives retain their original version and hashes.
+
+The September 13 archives remain dated editions. The later rank-six coefficient
+module is included in the current Git source and is not added retroactively to
+those archives. Results are shared incrementally at their verified scopes;
+subsequent corrections and extensions retain identifiable prior versions.

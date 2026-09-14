@@ -111,3 +111,13 @@ proofs; the CRY connection itself is prior work.
 Thawinrak’s short polynomiality proof also appeared in *Ars Combinatoria*
 162 (2025), 205–212, [DOI: 10.61091/ars162-15](https://doi.org/10.61091/ars162-15).
 This metadata update does not replace Derksen–Weyman’s earlier theorem.
+
+## Rank-six coefficient update
+
+Ferudun's length-five theorem is available in
+[version 2 of the preprint](https://arxiv.org/abs/2607.22301v2), dated
+5 September 2026, and at the pinned source revision
+[c3a0795](https://github.com/AlperTheKing/ktt-positivity/tree/c3a0795bd287dcca78fac2cc6ba4282144bb7813).
+The new [rank-six entry](results/rank-six-coefficients/README.md) states its
+additional c4/c5 scope, the exact use of prior results, and a
+[bounded novelty assessment](results/rank-six-coefficients/NOVELTY.md).

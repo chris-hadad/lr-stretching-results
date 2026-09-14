@@ -1,0 +1,129 @@
+{
+  "status": "PASS_COMPLETE_C4_C5_FINITE_CERTIFICATES",
+  "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+  "reviewed_module_commit": "e7cc320f3c78d765c4a6c7a2e007acb3bbe94a06",
+  "scope": "Rank-six c4/c5 finite certificate predicates; analytic whole-hive bridge is stated separately in PROOF.md. Whole rank-six positivity is not claimed.",
+  "complete": true,
+  "local_values": {
+    "q5": {
+      "checked": 39974,
+      "complete": true,
+      "total_types": 39974
+    },
+    "q6": {
+      "checked": 293795,
+      "complete": true,
+      "total_types": 293795
+    }
+  },
+  "rational": {
+    "q5": {
+      "columns": 102990,
+      "margin": "1/2000000",
+      "minimum": "25239007/25245000000000",
+      "minimum_row": 291,
+      "nonzero_entries": 1307258,
+      "rows": 121241
+    },
+    "q6": {
+      "columns": 606205,
+      "margin": "1/2000000",
+      "minimum": "3412401888539617/3407104701000000000000",
+      "minimum_row": 192,
+      "nonzero_entries": 8139966,
+      "rows": 675721
+    }
+  },
+  "topology": {
+    "matrix5": {
+      "columns": 102990,
+      "complete": 1,
+      "entries_checked": 1307258,
+      "incidences_checked": 606205,
+      "integer_scale": 6,
+      "primitive_divisor_1": 600026,
+      "primitive_divisor_2": 10272,
+      "primitive_divisor_3": 346,
+      "rebuilt_integer_orthogonal_actions": 6,
+      "rebuilt_oriented_rhombi": 45,
+      "rebuilt_primitive_normals": 42,
+      "rows_checked": 121241,
+      "saturated_kernels_checked": 17165,
+      "stabilizer_1": 601766,
+      "stabilizer_2": 4439
+    },
+    "matrix6": {
+      "columns": 606205,
+      "complete": 1,
+      "entries_checked": 8139966,
+      "incidences_checked": 4054326,
+      "integer_scale": 6,
+      "primitive_divisor_1": 3950874,
+      "primitive_divisor_2": 107815,
+      "primitive_divisor_3": 5991,
+      "primitive_divisor_4": 102,
+      "rebuilt_integer_orthogonal_actions": 6,
+      "rebuilt_oriented_rhombi": 45,
+      "rebuilt_primitive_normals": 42,
+      "rows_checked": 675721,
+      "saturated_kernels_checked": 121241,
+      "stabilizer_1": 4043870,
+      "stabilizer_2": 10456
+    },
+    "q5": {
+      "complete": 1,
+      "dependent": 124971,
+      "four_subsets_checked": 111930,
+      "four_support_orbits": 17165,
+      "independent": 725697,
+      "independent_four_supports": 102297,
+      "index_1": 698358,
+      "index_2": 26715,
+      "index_3": 504,
+      "index_4": 120,
+      "matrix_type_map_rows": 121241,
+      "q5_type_representatives": 39974,
+      "rebuilt_integer_orthogonal_actions": 6,
+      "rebuilt_oriented_rhombi": 45,
+      "rebuilt_primitive_normals": 42,
+      "tuples_checked": 850668
+    },
+    "q6": {
+      "canonical_orbits_checked": 675721,
+      "complete": 1,
+      "dependent": 1195589,
+      "five_support_kernels": 121241,
+      "independent": 4050197,
+      "index_0": 1195589,
+      "index_1": 3791806,
+      "index_2": 247095,
+      "index_3": 8504,
+      "index_4": 2758,
+      "index_6": 30,
+      "index_8": 4,
+      "rebuilt_integer_orthogonal_actions": 6,
+      "rebuilt_oriented_rhombi": 45,
+      "rebuilt_primitive_normals": 42,
+      "tuples_checked": 5245786
+    },
+    "types6": {
+      "complete": 1,
+      "higher_index_orbits": 43181,
+      "index_one_orbits": 632540,
+      "orbit_witnesses_checked": 675721,
+      "rebuilt_integer_orthogonal_actions": 6,
+      "rebuilt_oriented_rhombi": 45,
+      "rebuilt_primitive_normals": 42,
+      "type_representatives_checked": 293795
+    }
+  },
+  "elapsed_seconds": 624.1327411670009,
+  "child_wall_seconds": 616.0160620860115,
+  "data_archive_sha256": "8e040f357c4b507375f6c5ff572a9358ee063dd0300a61cfe2074ebc9e7ff730",
+  "all_children_waited": true,
+  "parser_controls": 5,
+  "real_signal_and_cleanup_race_controls": 6,
+  "tooling_review": "Three completed rounds; all five findings implemented; final confirmation No findings.",
+  "mathematical_review": "Complete argument review and source-premise checking; finite scope limitation discharged by complete independent reconstruction.",
+  "interpretation": "Computer-assisted verification, not human peer review or worldwide novelty determination. Local/source operating paths and process identities are omitted."
+}

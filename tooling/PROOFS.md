@@ -5,6 +5,14 @@ Throughout, lambda is the outer partition and
 zero upward. A negative face, quotient or formal signed kernel alone is not a
 negative ordinary coefficient of an entire LR polynomial.
 
+## Universal rank-six c4/c5 fields
+
+The [complete certificate argument](rank6_certificates/PROOF.md) proves
+nonnegativity at every area and boundary, with a quantitative full-face-volume
+bound and strictness through actual degree. The standalone module reconstructs
+all finite hypotheses, including negative raw local constants and every affected
+positive cone. It does not prove whole rank-six positivity.
+
 ## Admissible strips and the whole rank-six sector
 
 Split an N-part composition into groups of sizes `h,q1,q2`, with totals

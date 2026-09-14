@@ -19,6 +19,12 @@ The [finite-box module](../finite-box/README.md) has its own exhaustive replay.
 
 ## Positivity at arbitrary size
 
+The earlier cubic result below is retained with its full evidence. The
+[later actual-degree consequence](../rank-six-coefficients/LOW-DEGREE.md) extends
+whole nonnegativity to degree at most five at rank six and degree at most four
+at rank seven. The [new c4/c5 fields](../rank-six-coefficients/README.md) apply at
+every rank-six degree, with the remaining low coefficients explicitly open.
+
 | Result | Exact scope and useful consequence | Proof and evidence |
 |---|---|---|
 | Actual cubics through rank seven | Every whole LR polynomial of maximum ordinary rank at most seven and actual degree at most three is coefficient-nonnegative, at every size. This includes degree drops. | [Boundary-face proof](proofs/actual-cubics.md); [complete orbit certificate](data/actual-cubics/A005-FACE-ORBITS-001.json), the rank-six witnesses and all 32 rank-seven witness shards in `data/actual-cubics/`. The complete verification covered all 8,520 witnesses. |

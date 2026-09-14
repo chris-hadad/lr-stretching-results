@@ -6,8 +6,9 @@ models. The current additions are the complete principal rank-six split sector,
 the clipped rank-eight family, abstract two-width bundles and general rectangular
 matrix invariant counts. Every API keeps its mathematical domain explicit.
 
-Use Python 3.11+ and its standard library. No installation, network or original
-research checkout is needed. From the repository root:
+The Python API and the following commands use Python 3.11+ and its standard
+library, with no network or original research checkout. The separate native
+modules below state their compiler/library requirements. From the repository root:
 
 ```sh
 python3 -B tooling/examples/current_apis.py
@@ -77,6 +78,16 @@ limits raise typed exceptions with statistics and no partial count. Those limits
 do not promise a wall-clock or memory bound. No general speedup is claimed.
 The optional `slr_ehrhart.hive` module builds inequalities with the standard
 library; its polyhedron/dimension hooks require separately installed Sage.
+
+## Complete rank-six coefficient certificates
+
+[rank6_certificates/README.md](rank6_certificates/README.md) supplies a standalone
+complete verifier for the universal rank-six c4/c5 fields. It reconstructs
+every local value and the complete geometry, lattice, type and incidence
+structure, then checks all rational inequalities. Its 44.8 MB dataset contains
+all required finite inputs. The full fresh-export replay took about 10.4 minutes
+on the recorded host. This optional module requires a C++17 compiler and GMP;
+its exact scope, failure controls and open c1/c2/c3 complement are explicit.
 
 ## Optional complete H-system counter
 

@@ -51,7 +51,7 @@
       }
     },
     {
-      "bytes": 2977,
+      "bytes": 3545,
       "origin": {
         "repository": "codex-workbench",
         "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/tooling/CURRENT-SOURCES.md",
@@ -60,17 +60,18 @@
         "source_sha256": "6ad9349fea88b0ce73ca818ccb8543d2824a1c8ad383d7be010c49711c3c7154"
       },
       "path": "CURRENT-SOURCES.md",
-      "sha256": "6b13e686b507cd3546243c80bcb97387d9c911cfc17169f5760726d39d6828db",
-      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "sha256": "519160c397accdc4009cb664708e9243b0849e82356e9bb59e7e8793a46558d5",
+      "transformation": "Current navigation/source explanation for the rank-six addition; prior mathematical/executable bytes retained elsewhere at their original identities.",
       "prior_included_sha256": "6ad9349fea88b0ce73ca818ccb8543d2824a1c8ad383d7be010c49711c3c7154",
       "editorial_baseline": {
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "bytes": 2906,
         "sha256": "773374711fd25f95dd55eca3354e6ad8c6be3b5388d5e7ec9bd8025c1e1c548f"
-      }
+      },
+      "previous_included_sha256": "6b13e686b507cd3546243c80bcb97387d9c911cfc17169f5760726d39d6828db"
     },
     {
-      "bytes": 8833,
+      "bytes": 9241,
       "origin": {
         "repository": "codex-workbench",
         "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/tooling/PROOFS.md",
@@ -84,16 +85,17 @@
         "path": "history/previous-tooling/PROOFS.md",
         "sha256": "400d70b272a50ae2ba1f72684d7dbafdf31666570c78874354e4d2742e629acd"
       },
-      "sha256": "cbf73b5bafc26e222247c00b29cd2d74ae27d8180dcd2507519c3e64bd6e0ec3",
-      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "sha256": "92c47cd0ae7da6bc87d0c6ad729faa501e016f4e0fd68e366558e623362f2b06",
+      "transformation": "Current navigation/source explanation for the rank-six addition; prior mathematical/executable bytes retained elsewhere at their original identities.",
       "editorial_baseline": {
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "bytes": 8835,
         "sha256": "c7f34ad8f1becdeb535456eb4ba5074594e882d866a759efa8f77d63e04b9adf"
-      }
+      },
+      "previous_included_sha256": "cbf73b5bafc26e222247c00b29cd2d74ae27d8180dcd2507519c3e64bd6e0ec3"
     },
     {
-      "bytes": 7673,
+      "bytes": 8367,
       "origin": {
         "repository": "codex-workbench",
         "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/tooling/README.md",
@@ -107,13 +109,14 @@
         "path": "history/previous-tooling/README.md",
         "sha256": "cae532d5e552a7daaeab76c582816042c9d57e2c5393d946abea8d6a82035578"
       },
-      "sha256": "061d0392f719d88689ab52fbed4ac162d37d5af9552655d08155c5aa09618bd9",
-      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "sha256": "3d874ab4bafc9df52d8ec2875bf3d67ac889638b8e79dfee5a87e87a125f538e",
+      "transformation": "Current navigation/source explanation for the rank-six addition; prior mathematical/executable bytes retained elsewhere at their original identities.",
       "editorial_baseline": {
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "bytes": 7737,
         "sha256": "97cf619867bf03e948eb601b217d8de337dd95c61d3914c01f69b2c960cab0c1"
-      }
+      },
+      "previous_included_sha256": "061d0392f719d88689ab52fbed4ac162d37d5af9552655d08155c5aa09618bd9"
     },
     {
       "bytes": 2374,
@@ -685,6 +688,18 @@
       }
     },
     {
+      "path": "proofs/positive-capped-fiber.md",
+      "bytes": 4194,
+      "sha256": "b0b8520125b6de31900554c514eaf6f37553d4b75611d4a96ff2f125d29ad664",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra-wildcard-003-2026-09-08/A06/POSITIVE-CAPPED-FIBER.md",
+        "source_commit": "ba17527fff6510d625d5b4fe3b48ca2df78c3438",
+        "source_sha256": "57ca63e898328b425fe18c2dd132ccab521bf6d7ec197e159473ddf7f0b39ce5"
+      },
+      "transformation": "Selected complete capped-interval argument, editorial introduction and explicit subtraction yielding the capped moment; private application/routing prose omitted."
+    },
+    {
       "bytes": 7644,
       "origin": {
         "repository": "lr-stretching-results",
@@ -975,6 +990,132 @@
       "path": "proofs/two-widths.md",
       "sha256": "264fd5d5498c051134c160ae6a1d66fc503bf1485adaa6fc26c5481de565e668",
       "transformation": "Authored standalone packaging, API documentation, example or bounded verification interface; no mathematical kernel edits."
+    },
+    {
+      "path": "rank6_certificates/.gitignore",
+      "bytes": 74,
+      "sha256": "771f21890bad435f4852dce660cc96e434a65db43cd34d4bddf073c319ad7c95",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+        "source": "code/rank6_certificates/.gitignore",
+        "source_bytes": 74,
+        "source_sha256": "771f21890bad435f4852dce660cc96e434a65db43cd34d4bddf073c319ad7c95",
+        "transformation": "Exact reviewed and clean-export-reproduced module"
+      },
+      "transformation": "Exact reviewed standalone rank-six source copy"
+    },
+    {
+      "path": "rank6_certificates/DATA.json",
+      "bytes": 6466,
+      "sha256": "e1e0676b36eb9e55f2e6cb0dd8e3b17801392899ef268e6091398ba4107d9039",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+        "source": "code/rank6_certificates/DATA.json",
+        "source_bytes": 6466,
+        "source_sha256": "e1e0676b36eb9e55f2e6cb0dd8e3b17801392899ef268e6091398ba4107d9039",
+        "transformation": "Exact reviewed and clean-export-reproduced module"
+      },
+      "transformation": "Exact reviewed standalone rank-six source copy"
+    },
+    {
+      "path": "rank6_certificates/PROOF.md",
+      "bytes": 8868,
+      "sha256": "cfe567198b7f3ef3c497a34e937baa3b40ee1056ef8b1aaf7d904b5058bba857",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+        "source": "code/rank6_certificates/PROOF.md",
+        "source_bytes": 8868,
+        "source_sha256": "cfe567198b7f3ef3c497a34e937baa3b40ee1056ef8b1aaf7d904b5058bba857",
+        "transformation": "Exact reviewed and clean-export-reproduced module"
+      },
+      "transformation": "Exact reviewed standalone rank-six source copy"
+    },
+    {
+      "path": "rank6_certificates/README.md",
+      "bytes": 5716,
+      "sha256": "abbd19372f56562e5fbd91a3c484f6c60c4d854b8b98e2d488aa9b8b99d0ac9b",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+        "source": "code/rank6_certificates/README.md",
+        "source_bytes": 5716,
+        "source_sha256": "abbd19372f56562e5fbd91a3c484f6c60c4d854b8b98e2d488aa9b8b99d0ac9b",
+        "transformation": "Exact reviewed and clean-export-reproduced module"
+      },
+      "transformation": "Exact reviewed standalone rank-six source copy"
+    },
+    {
+      "path": "rank6_certificates/data.zip",
+      "bytes": 44846862,
+      "sha256": "8e040f357c4b507375f6c5ff572a9358ee063dd0300a61cfe2074ebc9e7ff730",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+        "source": "code/rank6_certificates/data.zip",
+        "source_bytes": 44846862,
+        "source_sha256": "8e040f357c4b507375f6c5ff572a9358ee063dd0300a61cfe2074ebc9e7ff730",
+        "transformation": "Exact reviewed and clean-export-reproduced module"
+      },
+      "transformation": "Exact reviewed standalone rank-six source copy"
+    },
+    {
+      "path": "rank6_certificates/local_values.cpp",
+      "bytes": 9571,
+      "sha256": "213cca303fc2d9cb46d85e075ead332e3221577185923795d963e9049e78549b",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+        "source": "code/rank6_certificates/local_values.cpp",
+        "source_bytes": 9571,
+        "source_sha256": "213cca303fc2d9cb46d85e075ead332e3221577185923795d963e9049e78549b",
+        "transformation": "Exact reviewed and clean-export-reproduced module"
+      },
+      "transformation": "Exact reviewed standalone rank-six source copy"
+    },
+    {
+      "path": "rank6_certificates/test_controls.py",
+      "bytes": 7375,
+      "sha256": "aebb1df16e0e1e6e94cf0600ac0990bbbb6b40727f6c02e4174a9ccd7f9e2449",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+        "source": "code/rank6_certificates/test_controls.py",
+        "source_bytes": 7375,
+        "source_sha256": "aebb1df16e0e1e6e94cf0600ac0990bbbb6b40727f6c02e4174a9ccd7f9e2449",
+        "transformation": "Exact reviewed and clean-export-reproduced module"
+      },
+      "transformation": "Exact reviewed standalone rank-six source copy"
+    },
+    {
+      "path": "rank6_certificates/topology.cpp",
+      "bytes": 34115,
+      "sha256": "8a20dec05cc11f380f0ed5ec307e8bc6c9ee78939d5a4dedca8e473e9adc8e96",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+        "source": "code/rank6_certificates/topology.cpp",
+        "source_bytes": 34115,
+        "source_sha256": "8a20dec05cc11f380f0ed5ec307e8bc6c9ee78939d5a4dedca8e473e9adc8e96",
+        "transformation": "Exact reviewed and clean-export-reproduced module"
+      },
+      "transformation": "Exact reviewed standalone rank-six source copy"
+    },
+    {
+      "path": "rank6_certificates/verify.py",
+      "bytes": 22385,
+      "sha256": "ac34951ad7a0ee25aee3075ab4798ebfabbe6c05bbf7a6e603002d468ea2da9f",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+        "source": "code/rank6_certificates/verify.py",
+        "source_bytes": 22385,
+        "source_sha256": "ac34951ad7a0ee25aee3075ab4798ebfabbe6c05bbf7a6e603002d468ea2da9f",
+        "transformation": "Exact reviewed and clean-export-reproduced module"
+      },
+      "transformation": "Exact reviewed standalone rank-six source copy"
     },
     {
       "bytes": 2038,
@@ -1415,18 +1556,6 @@
       "path": "tests/test_two_widths.py",
       "sha256": "1c1407cc8e4eb9a53885ad661924a9f6aa93f3e99b020938b41a2bdfc83946d6",
       "transformation": "Byte-preserving copy."
-    },
-    {
-      "path": "proofs/positive-capped-fiber.md",
-      "bytes": 4194,
-      "sha256": "b0b8520125b6de31900554c514eaf6f37553d4b75611d4a96ff2f125d29ad664",
-      "origin": {
-        "repository": "stretched-lr-research",
-        "source": "methods/astra-wildcard-003-2026-09-08/A06/POSITIVE-CAPPED-FIBER.md",
-        "source_commit": "ba17527fff6510d625d5b4fe3b48ca2df78c3438",
-        "source_sha256": "57ca63e898328b425fe18c2dd132ccab521bf6d7ec197e159473ddf7f0b39ce5"
-      },
-      "transformation": "Selected complete capped-interval argument, editorial introduction and explicit subtraction yielding the capped moment; private application/routing prose omitted."
     }
   ],
   "omitted_machinery": [
@@ -1596,12 +1725,13 @@
   "runtime_requirements": {
     "default": "Python 3.11+ standard library; no installation or original checkout",
     "optional_cpp": "C++17 GCC/Clang-compatible __int128 and checked-overflow builtins; no Boost/GMP",
-    "optional_hive_geometry": "Sage only for explicitly invoked existing polyhedron/dimension hooks"
+    "optional_hive_geometry": "Sage only for explicitly invoked existing polyhedron/dimension hooks",
+    "rank6_certificate_module": "Python3.11+, POSIX C++17 and GMP C++ development libraries; no original research checkout"
   },
   "schema": "tooling-source-update-v1",
   "scope": "Standalone API and source evidence update; byte binding and recorded-data consistency are not fresh scientific acceptance.",
   "source_commit_note": "Imported original bytes were checked directly against the listed exact repository commits. Newly authored packaging/interface bytes retain their explicit source hashes; no earlier commit is claimed for them.",
-  "version": "tooling-2026-09-12",
+  "version": "tooling-2026-09-14-rank6",
   "worker_validation": [
     {
       "command": "python3 -B tooling/check_current.py",
@@ -1638,5 +1768,12 @@
       "authored_markdown_findings": 0,
       "check": "Prose spacing"
     }
-  ]
+  ],
+  "rank6_certificate_update": {
+    "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+    "reviewed_core_commit": "e7cc320f3",
+    "full_clean_export_status": "PASS_COMPLETE_C4_C5_FINITE_CERTIFICATES",
+    "verification": "results/rank-six-coefficients/VERIFICATION.json",
+    "scope": "Universal rank-six c4/c5 finite certificates only; remaining low coefficients open."
+  }
 }

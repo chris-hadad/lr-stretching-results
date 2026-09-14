@@ -50,3 +50,13 @@ mathematical statements and all executable tooling code are unchanged.
 [DOCUMENTATION-ADAPTATIONS.json](../DOCUMENTATION-ADAPTATIONS.json) records every
 replacement and before/after hash; the earlier exact bytes remain at the
 pinned source commit. This changes navigation, not the earlier test scope.
+
+## Rank-six certificate module
+
+The new rank6_certificates subtree copies the exact reviewed canonical module,
+including both independently authored C++ cores, the bounded Python wrapper,
+regression controls and complete mathematical dataset. Its full clean-export
+reproduction and current source commit are recorded in the
+[rank-six verification record](../results/rank-six-coefficients/VERIFICATION.json).
+It needs no provider program, private return archive or original research path.
+Earlier tool exports and their source/verification histories remain unchanged.

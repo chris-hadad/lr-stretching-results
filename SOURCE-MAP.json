@@ -684,11 +684,11 @@
       }
     },
     {
-      "included_bytes": 4871,
-      "included_sha256": "0d543514230b1f59377d2a6faaa57cea6962a02ac37d45d700e33b7ea3d5b4bd",
+      "included_bytes": 5338,
+      "included_sha256": "5c3b0675af98c8388d303e726578b53da5ebd5488f26e7a3985f262bdb73debd",
       "path": "README.md",
       "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted",
-      "prior_included_sha256": "a92b1ae5efb9f764a082299d87044ad319459cbcc91ea155fa39dda6b0b1b326",
+      "prior_included_sha256": "0d543514230b1f59377d2a6faaa57cea6962a02ac37d45d700e33b7ea3d5b4bd",
       "editorial_baseline": {
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "bytes": 4559,
@@ -708,11 +708,11 @@
       }
     },
     {
-      "included_bytes": 7519,
-      "included_sha256": "70b6ddf5615877548dd352fbef56554343ec4cf626e4281e27a4cce65e2b2890",
+      "included_bytes": 8037,
+      "included_sha256": "ca5c468bc5022824b9a79fcdc618f41e2e946cce8aa3df2bde97e44940dec857",
       "path": "REFERENCES.md",
       "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted",
-      "prior_included_sha256": "5108eef157c57565bbda20e014540b0373a4f36383dfaf02b5bc8ec5176d6ad8",
+      "prior_included_sha256": "70b6ddf5615877548dd352fbef56554343ec4cf626e4281e27a4cce65e2b2890",
       "editorial_baseline": {
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "bytes": 7482,
@@ -722,20 +722,21 @@
     {
       "path": "REPRODUCING.md",
       "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
-      "included_bytes": 6136,
-      "included_sha256": "dc4babcf73d54a99dc588d41ce55717c139166077dedca7dd40341a68cfef99e",
+      "included_bytes": 7347,
+      "included_sha256": "ab910a1bab75032579554de2eef154efb037edcbeeb4567f01c9f9e6dde95411",
       "editorial_baseline": {
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "bytes": 5848,
         "sha256": "d96f1a8806bd468fd81739bba9b46be8be24dc37092c1c9fcc6a1b62afe7f92d"
-      }
+      },
+      "prior_included_sha256": "dc4babcf73d54a99dc588d41ce55717c139166077dedca7dd40341a68cfef99e"
     },
     {
-      "included_bytes": 10589,
-      "included_sha256": "e153b88b3010587b9b5df1decff7c944e73055eabd29c33eaab351d937d33cc4",
+      "included_bytes": 11061,
+      "included_sha256": "a4c3b209096472639c86f6204335d166a4b4e038a6845cf9d14162553cec8cd0",
       "path": "RESULTS.md",
       "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted",
-      "prior_included_sha256": "6a6061f595bbe633552823a3976125366a286062ae357534ff7be5228902b127",
+      "prior_included_sha256": "e153b88b3010587b9b5df1decff7c944e73055eabd29c33eaab351d937d33cc4",
       "editorial_baseline": {
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "bytes": 10596,
@@ -745,14 +746,15 @@
     {
       "path": "SHARING.md",
       "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
-      "included_bytes": 1384,
-      "included_sha256": "43753a606a814c1b4f6df1b560ade32eb56179bef1905beec7ccc4f0f9d15eda",
+      "included_bytes": 1698,
+      "included_sha256": "3aa05db44671eaedb6873c921a1f5377a8861954683980cfd87737020ff5bc17",
       "editorial_baseline": {
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "bytes": 2031,
         "sha256": "755c565d0bf58fc4fbcc6a886c0fa737f75c85152bc99fa4894e28e7b1144b6a"
       },
-      "pre_licensing_included_sha256": "c0f2f58634baa28e4c7836eaabf03cbfa7aa5b98e6a6f136a14c9d1b7cc0f7fe"
+      "pre_licensing_included_sha256": "c0f2f58634baa28e4c7836eaabf03cbfa7aa5b98e6a6f136a14c9d1b7cc0f7fe",
+      "prior_included_sha256": "43753a606a814c1b4f6df1b560ade32eb56179bef1905beec7ccc4f0f9d15eda"
     },
     {
       "path": "examples/sign_completion.py",
@@ -763,13 +765,14 @@
     {
       "path": "papers/families-and-compensation.md",
       "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
-      "included_bytes": 3882,
-      "included_sha256": "891a207b92fd74eee4128dcdb49e21012b654296842436b3dda7fd7f26132331",
+      "included_bytes": 4086,
+      "included_sha256": "c0518568932803bf3d39621f1c3f628dabf623b0c50c013a2c6d1a816efd51f4",
       "editorial_baseline": {
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "bytes": 4498,
         "sha256": "7729b13d06663899dedb7a271576ce0b2f74bb37c8f096085bb2d9c3e2200364"
-      }
+      },
+      "prior_included_sha256": "891a207b92fd74eee4128dcdb49e21012b654296842436b3dda7fd7f26132331"
     },
     {
       "path": "papers/finite-box.md",
@@ -880,11 +883,11 @@
       }
     },
     {
-      "included_bytes": 15977,
-      "included_sha256": "695803bfcdb68eabd3860dd76d23bd572a7472f9350e0d25c91aaa868e4a52f8",
+      "included_bytes": 16369,
+      "included_sha256": "afb15618eb69f56893e456c2f8e3db02b84653fafa186c2d2cb7027285e1e8ac",
       "path": "results/families-and-obstructions/README.md",
       "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted",
-      "prior_included_sha256": "8c279b3a5ae1fcf87be345f48dd32accd60f0b3dd7075f034e5759b71d3339a4",
+      "prior_included_sha256": "695803bfcdb68eabd3860dd76d23bd572a7472f9350e0d25c91aaa868e4a52f8",
       "editorial_baseline": {
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "bytes": 16117,
@@ -8126,17 +8129,71 @@
       }
     },
     {
+      "path": "results/rank-six-coefficients/LOW-DEGREE.md",
+      "included_bytes": 2920,
+      "included_sha256": "14c347b47d978866ed63905f9b897ac4d60572c56ee12b289b034f0125586042",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+        "source": "methods/frontier028-2026-09-14/publication-docs/LOW-DEGREE.md",
+        "source_bytes": 2920,
+        "source_sha256": "14c347b47d978866ed63905f9b897ac4d60572c56ee12b289b034f0125586042",
+        "transformation": "Public navigation links completed; mathematical statement unchanged"
+      },
+      "provenance": "New reviewed rank-six result/tooling addition; exact mathematical sources and reproduction scope are stated in module maps."
+    },
+    {
+      "path": "results/rank-six-coefficients/NOVELTY.md",
+      "included_bytes": 1579,
+      "included_sha256": "236f4f47d8857d7c3d7f815f7be23c9c8bdbfe005bfc96afda7ba9ba8a6827b1",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+        "source": "methods/frontier028-2026-09-14/publication-docs/NOVELTY.md",
+        "source_bytes": 1579,
+        "source_sha256": "236f4f47d8857d7c3d7f815f7be23c9c8bdbfe005bfc96afda7ba9ba8a6827b1",
+        "transformation": "Public navigation links completed; mathematical statement unchanged"
+      },
+      "provenance": "New reviewed rank-six result/tooling addition; exact mathematical sources and reproduction scope are stated in module maps."
+    },
+    {
+      "path": "results/rank-six-coefficients/README.md",
+      "included_bytes": 3373,
+      "included_sha256": "3b4f97f9ad4818c9ba8e8e0209e1893efcba6e27d19f96e437a638dfd34c5518",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+        "source": "methods/frontier028-2026-09-14/publication-docs/README.md",
+        "source_bytes": 3205,
+        "source_sha256": "6a71a783e15425088a74b4a8bcb5219fd6f4d4bb9d92c508abd4d829fd264f83",
+        "transformation": "Public navigation links completed; mathematical statement unchanged"
+      },
+      "provenance": "New reviewed rank-six result/tooling addition; exact mathematical sources and reproduction scope are stated in module maps."
+    },
+    {
+      "path": "results/rank-six-coefficients/SOURCE-MAP.json",
+      "included_bytes": 2358,
+      "included_sha256": "a8131539690ba6a6f0307e2034f8957bd3fffd82abc589ccb9b2f1ccdead570e",
+      "provenance": "New reviewed rank-six result/tooling addition; exact mathematical sources and reproduction scope are stated in module maps."
+    },
+    {
+      "path": "results/rank-six-coefficients/VERIFICATION.json",
+      "included_bytes": 4213,
+      "included_sha256": "3ab36309d67a4885df8aad08b7c748fa21be01fa1a61fde34b363038d9360abf",
+      "provenance": "New reviewed rank-six result/tooling addition; exact mathematical sources and reproduction scope are stated in module maps."
+    },
+    {
       "included_bytes": 51180,
       "included_sha256": "7147d90932cfd43f278207f963ed1d968b60ea82e80344e18832c855fdc59e8c",
       "path": "results/structural-positivity/ACCEPTED-SCOPES.json",
       "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted"
     },
     {
-      "included_bytes": 6551,
-      "included_sha256": "4dcf1d654d1ea0018569da7f59bb4e0f80e53f42fe1798d7ef09c09647d54cd2",
+      "included_bytes": 6851,
+      "included_sha256": "25d554212ff71772b5bdc0daafd18cacb698390f13d880e89016ac57943a1567",
       "path": "results/structural-positivity/README.md",
       "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted",
-      "prior_included_sha256": "43ffdf75527ec257c59c44a8f082f48e4a135d72812b47d5e1ec3b57791cf691",
+      "prior_included_sha256": "4dcf1d654d1ea0018569da7f59bb4e0f80e53f42fe1798d7ef09c09647d54cd2",
       "editorial_baseline": {
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "bytes": 6572,
@@ -8864,12 +8921,12 @@
       }
     },
     {
-      "included_bytes": 2977,
-      "included_sha256": "6b13e686b507cd3546243c80bcb97387d9c911cfc17169f5760726d39d6828db",
+      "included_bytes": 3545,
+      "included_sha256": "519160c397accdc4009cb664708e9243b0849e82356e9bb59e7e8793a46558d5",
       "path": "tooling/CURRENT-SOURCES.md",
       "source_map": "tooling/SOURCE-UPDATE.json",
       "source_pointer": "/files/1",
-      "prior_included_sha256": "6ad9349fea88b0ce73ca818ccb8543d2824a1c8ad383d7be010c49711c3c7154",
+      "prior_included_sha256": "6b13e686b507cd3546243c80bcb97387d9c911cfc17169f5760726d39d6828db",
       "editorial_baseline": {
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "bytes": 2906,
@@ -8877,8 +8934,8 @@
       }
     },
     {
-      "included_bytes": 8833,
-      "included_sha256": "cbf73b5bafc26e222247c00b29cd2d74ae27d8180dcd2507519c3e64bd6e0ec3",
+      "included_bytes": 9241,
+      "included_sha256": "92c47cd0ae7da6bc87d0c6ad729faa501e016f4e0fd68e366558e623362f2b06",
       "path": "tooling/PROOFS.md",
       "prior_record_pointer": "/historical_source_map/mathematical_files/25",
       "source_map": "tooling/SOURCE-UPDATE.json",
@@ -8887,11 +8944,12 @@
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "bytes": 8835,
         "sha256": "c7f34ad8f1becdeb535456eb4ba5074594e882d866a759efa8f77d63e04b9adf"
-      }
+      },
+      "prior_included_sha256": "cbf73b5bafc26e222247c00b29cd2d74ae27d8180dcd2507519c3e64bd6e0ec3"
     },
     {
-      "included_bytes": 7673,
-      "included_sha256": "061d0392f719d88689ab52fbed4ac162d37d5af9552655d08155c5aa09618bd9",
+      "included_bytes": 8367,
+      "included_sha256": "3d874ab4bafc9df52d8ec2875bf3d67ac889638b8e79dfee5a87e87a125f538e",
       "path": "tooling/README.md",
       "prior_record_pointer": "/historical_source_map/mathematical_files/26",
       "source_map": "tooling/SOURCE-UPDATE.json",
@@ -8900,7 +8958,8 @@
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "bytes": 7737,
         "sha256": "97cf619867bf03e948eb601b217d8de337dd95c61d3914c01f69b2c960cab0c1"
-      }
+      },
+      "prior_included_sha256": "061d0392f719d88689ab52fbed4ac162d37d5af9552655d08155c5aa09618bd9"
     },
     {
       "included_bytes": 2374,
@@ -8917,11 +8976,11 @@
       "pre_licensing_included_sha256": "a6f7d7a260f47301ee3fbfbe17df8fea462ab65683aadfb408a5c53c9e2d1c91"
     },
     {
-      "included_bytes": 71738,
-      "included_sha256": "2913badaf0811ce41448356c045635aa361f6053bfd32e95a5c3db65e66872e4",
+      "included_bytes": 78387,
+      "included_sha256": "3713ec1f16ea81cda3afacf12ac6b41ec6009511a0c3be4931826e60ba648134",
       "path": "tooling/SOURCE-UPDATE.json",
       "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted",
-      "prior_included_sha256": "c115e205cfacbbda6184910382ef364cec4568eaa64341430675213eee7e7e1a",
+      "prior_included_sha256": "2913badaf0811ce41448356c045635aa361f6053bfd32e95a5c3db65e66872e4",
       "editorial_baseline": {
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "bytes": 64899,
@@ -9367,6 +9426,132 @@
       "source_pointer": "/files/50"
     },
     {
+      "path": "tooling/rank6_certificates/.gitignore",
+      "included_bytes": 74,
+      "included_sha256": "771f21890bad435f4852dce660cc96e434a65db43cd34d4bddf073c319ad7c95",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+        "source": "code/rank6_certificates/.gitignore",
+        "source_bytes": 74,
+        "source_sha256": "771f21890bad435f4852dce660cc96e434a65db43cd34d4bddf073c319ad7c95",
+        "transformation": "Exact reviewed and clean-export-reproduced module"
+      },
+      "provenance": "New reviewed rank-six result/tooling addition; exact mathematical sources and reproduction scope are stated in module maps."
+    },
+    {
+      "path": "tooling/rank6_certificates/DATA.json",
+      "included_bytes": 6466,
+      "included_sha256": "e1e0676b36eb9e55f2e6cb0dd8e3b17801392899ef268e6091398ba4107d9039",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+        "source": "code/rank6_certificates/DATA.json",
+        "source_bytes": 6466,
+        "source_sha256": "e1e0676b36eb9e55f2e6cb0dd8e3b17801392899ef268e6091398ba4107d9039",
+        "transformation": "Exact reviewed and clean-export-reproduced module"
+      },
+      "provenance": "New reviewed rank-six result/tooling addition; exact mathematical sources and reproduction scope are stated in module maps."
+    },
+    {
+      "path": "tooling/rank6_certificates/PROOF.md",
+      "included_bytes": 8868,
+      "included_sha256": "cfe567198b7f3ef3c497a34e937baa3b40ee1056ef8b1aaf7d904b5058bba857",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+        "source": "code/rank6_certificates/PROOF.md",
+        "source_bytes": 8868,
+        "source_sha256": "cfe567198b7f3ef3c497a34e937baa3b40ee1056ef8b1aaf7d904b5058bba857",
+        "transformation": "Exact reviewed and clean-export-reproduced module"
+      },
+      "provenance": "New reviewed rank-six result/tooling addition; exact mathematical sources and reproduction scope are stated in module maps."
+    },
+    {
+      "path": "tooling/rank6_certificates/README.md",
+      "included_bytes": 5716,
+      "included_sha256": "abbd19372f56562e5fbd91a3c484f6c60c4d854b8b98e2d488aa9b8b99d0ac9b",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+        "source": "code/rank6_certificates/README.md",
+        "source_bytes": 5716,
+        "source_sha256": "abbd19372f56562e5fbd91a3c484f6c60c4d854b8b98e2d488aa9b8b99d0ac9b",
+        "transformation": "Exact reviewed and clean-export-reproduced module"
+      },
+      "provenance": "New reviewed rank-six result/tooling addition; exact mathematical sources and reproduction scope are stated in module maps."
+    },
+    {
+      "path": "tooling/rank6_certificates/data.zip",
+      "included_bytes": 44846862,
+      "included_sha256": "8e040f357c4b507375f6c5ff572a9358ee063dd0300a61cfe2074ebc9e7ff730",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+        "source": "code/rank6_certificates/data.zip",
+        "source_bytes": 44846862,
+        "source_sha256": "8e040f357c4b507375f6c5ff572a9358ee063dd0300a61cfe2074ebc9e7ff730",
+        "transformation": "Exact reviewed and clean-export-reproduced module"
+      },
+      "provenance": "New reviewed rank-six result/tooling addition; exact mathematical sources and reproduction scope are stated in module maps."
+    },
+    {
+      "path": "tooling/rank6_certificates/local_values.cpp",
+      "included_bytes": 9571,
+      "included_sha256": "213cca303fc2d9cb46d85e075ead332e3221577185923795d963e9049e78549b",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+        "source": "code/rank6_certificates/local_values.cpp",
+        "source_bytes": 9571,
+        "source_sha256": "213cca303fc2d9cb46d85e075ead332e3221577185923795d963e9049e78549b",
+        "transformation": "Exact reviewed and clean-export-reproduced module"
+      },
+      "provenance": "New reviewed rank-six result/tooling addition; exact mathematical sources and reproduction scope are stated in module maps."
+    },
+    {
+      "path": "tooling/rank6_certificates/test_controls.py",
+      "included_bytes": 7375,
+      "included_sha256": "aebb1df16e0e1e6e94cf0600ac0990bbbb6b40727f6c02e4174a9ccd7f9e2449",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+        "source": "code/rank6_certificates/test_controls.py",
+        "source_bytes": 7375,
+        "source_sha256": "aebb1df16e0e1e6e94cf0600ac0990bbbb6b40727f6c02e4174a9ccd7f9e2449",
+        "transformation": "Exact reviewed and clean-export-reproduced module"
+      },
+      "provenance": "New reviewed rank-six result/tooling addition; exact mathematical sources and reproduction scope are stated in module maps."
+    },
+    {
+      "path": "tooling/rank6_certificates/topology.cpp",
+      "included_bytes": 34115,
+      "included_sha256": "8a20dec05cc11f380f0ed5ec307e8bc6c9ee78939d5a4dedca8e473e9adc8e96",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+        "source": "code/rank6_certificates/topology.cpp",
+        "source_bytes": 34115,
+        "source_sha256": "8a20dec05cc11f380f0ed5ec307e8bc6c9ee78939d5a4dedca8e473e9adc8e96",
+        "transformation": "Exact reviewed and clean-export-reproduced module"
+      },
+      "provenance": "New reviewed rank-six result/tooling addition; exact mathematical sources and reproduction scope are stated in module maps."
+    },
+    {
+      "path": "tooling/rank6_certificates/verify.py",
+      "included_bytes": 22385,
+      "included_sha256": "ac34951ad7a0ee25aee3075ab4798ebfabbe6c05bbf7a6e603002d468ea2da9f",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
+        "source": "code/rank6_certificates/verify.py",
+        "source_bytes": 22385,
+        "source_sha256": "ac34951ad7a0ee25aee3075ab4798ebfabbe6c05bbf7a6e603002d468ea2da9f",
+        "transformation": "Exact reviewed and clean-export-reproduced module"
+      },
+      "provenance": "New reviewed rank-six result/tooling addition; exact mathematical sources and reproduction scope are stated in module maps."
+    },
+    {
       "included_bytes": 2038,
       "included_sha256": "75a69472606e41730337a9a7fbe4e66f3eedcc2feefd4eacfc16120347ee0ce0",
       "path": "tooling/slr_ehrhart/__init__.py",
@@ -9635,14 +9820,19 @@
       "sha256": "420a93baae3922b6e68f3f6efcc8e4cdccc5efae18dc98bfdceb30f414dd7d74"
     },
     "tooling": {
-      "bytes": 71738,
       "path": "tooling/SOURCE-UPDATE.json",
-      "sha256": "2913badaf0811ce41448356c045635aa361f6053bfd32e95a5c3db65e66872e4"
+      "bytes": 78387,
+      "sha256": "3713ec1f16ea81cda3afacf12ac6b41ec6009511a0c3be4931826e60ba648134"
     },
     "results/structural-positivity/replay": {
       "path": "results/structural-positivity/replay/SOURCE-MAP.json",
       "bytes": 20398,
       "sha256": "f38362dc7b06c7a7398463659dee6cd9b75216840e3bc8a7aee41cd58246d6d6"
+    },
+    "results/rank-six-coefficients": {
+      "path": "results/rank-six-coefficients/SOURCE-MAP.json",
+      "bytes": 2358,
+      "sha256": "a8131539690ba6a6f0307e2034f8957bd3fffd82abc589ccb9b2f1ccdead570e"
     }
   },
   "schema": "curated-repository-source-map-v2",
