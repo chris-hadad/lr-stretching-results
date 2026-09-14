@@ -1,0 +1,69 @@
+{
+  "schema": "transport-capped-verification-v1",
+  "status": "COMPLETE_INDEPENDENT_VERIFICATION_AND_REVIEW",
+  "original_subsets": 22063,
+  "independent_local_constants": 16848,
+  "dependent_subsets": 5215,
+  "safe_metric_types": 763,
+  "complete_field_rows": 10320,
+  "python_source_run_seconds": 7.811558083998534,
+  "independent_implementations": [
+    "Python Fraction Laurent recurrence and independent complete original-subset reconstruction",
+    "C++ GMP image-lattice recurrence"
+  ],
+  "whole_controls": {
+    "families": 11,
+    "direction_parent_vectors": 9,
+    "independent_direction_count_sites": 99,
+    "literal_LR_sites": 48
+  },
+  "review": {
+    "mathematics": "R1 No findings; closed clean-first",
+    "tooling": "R2 No findings; closed clean-confirmation",
+    "findings": [
+      {
+        "severity": "Medium",
+        "topic": "outer-command child cleanup",
+        "disposition": "IMPLEMENTED"
+      },
+      {
+        "severity": "Medium",
+        "topic": "complete example roster and grades",
+        "disposition": "IMPLEMENTED"
+      }
+    ]
+  },
+  "claim_limits": [
+    "No whole ordinary rank-six/seven result",
+    "No negative entire LR coefficient",
+    "No external human acceptance or worldwide priority claim"
+  ],
+  "fresh_export": {
+    "status": "PASS_COMPLETE_SELECTED_EXECUTABLE_AND_CERTIFICATE_CLOSURE",
+    "python_seconds": 7.816945416001545,
+    "cpp_child_seconds": 33.90199708599539,
+    "cpp_children_waited": 19,
+    "local_constants": 16848,
+    "control_groups": 14,
+    "real_interruption": "Python and C++ supervisor terminated; no complete child verdict or surviving owned process group",
+    "example_record_delta": {
+      "status": "PASS_CURRENT_EXAMPLE_DELTA_AND_UNCHANGED_COMPLETE_RUNTIME_CLOSURE",
+      "independent_parent_counts": 99,
+      "unchanged_runtime_dependencies": 12
+    }
+  },
+  "independent_matrix_verification": {
+    "saturated_kernels": 7845,
+    "primitive_quotients": 63030,
+    "field_inequalities": 10320,
+    "scope": "A separate checker rebuilt every nonzero and omitted zero of all three original coordinate matrices before comparison."
+  },
+  "post_review_delta": {
+    "arithmetic_corruption_groups": 14,
+    "outer_command_signal_cases": 8,
+    "example_test_methods": 4,
+    "example_negative_cases": 17,
+    "status": "PASS_FINAL_R2_SOURCE",
+    "complete_arithmetic_runtime_unchanged": true
+  }
+}

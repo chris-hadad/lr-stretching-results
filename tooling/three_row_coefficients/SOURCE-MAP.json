@@ -1,0 +1,97 @@
+{
+  "files": [
+    {
+      "bytes": 6736,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_row_coefficients/PROOF.md",
+        "source_bytes": 6736,
+        "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
+        "source_sha256": "627d98c5248fb03e4a7700c1e0756a9e14266d0be5c6fdaacc969291a4802305",
+        "transformation": "none; exact current curated source bytes"
+      },
+      "path": "PROOF.md",
+      "sha256": "627d98c5248fb03e4a7700c1e0756a9e14266d0be5c6fdaacc969291a4802305"
+    },
+    {
+      "bytes": 3014,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_row_coefficients/README.md",
+        "source_bytes": 3014,
+        "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
+        "source_sha256": "96d1816bb9b237def35575febffa7cbc5ac1f54882d22ff0b9835f2e5a141458",
+        "transformation": "none; exact current curated source bytes"
+      },
+      "path": "README.md",
+      "sha256": "96d1816bb9b237def35575febffa7cbc5ac1f54882d22ff0b9835f2e5a141458"
+    },
+    {
+      "bytes": 517,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_row_coefficients/__init__.py",
+        "source_bytes": 517,
+        "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
+        "source_sha256": "9d8f7880a21434fb481f9c1b4ddf939a4a46bd72f73dd17ca02fc63c4c61d55e",
+        "transformation": "none; exact current curated source bytes"
+      },
+      "path": "__init__.py",
+      "sha256": "9d8f7880a21434fb481f9c1b4ddf939a4a46bd72f73dd17ca02fc63c4c61d55e"
+    },
+    {
+      "bytes": 16814,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_row_coefficients/affine.py",
+        "source_bytes": 16814,
+        "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
+        "source_sha256": "e72499417f5a248c5a6b78ba697a432d7df0ef9e58c744ef6eca1b5135f69e71",
+        "transformation": "none; exact current curated source bytes"
+      },
+      "path": "affine.py",
+      "sha256": "e72499417f5a248c5a6b78ba697a432d7df0ef9e58c744ef6eca1b5135f69e71"
+    },
+    {
+      "bytes": 6954,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_row_coefficients/literal.py",
+        "source_bytes": 6954,
+        "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
+        "source_sha256": "7c86c496bec466958b28e7322d7769d238d16a3d98b0a4e1c688d89414fd1788",
+        "transformation": "none; exact current curated source bytes"
+      },
+      "path": "literal.py",
+      "sha256": "7c86c496bec466958b28e7322d7769d238d16a3d98b0a4e1c688d89414fd1788"
+    },
+    {
+      "bytes": 6537,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_row_coefficients/test_coefficients.py",
+        "source_bytes": 6537,
+        "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
+        "source_sha256": "0d48a5ecdfb1aa0be293ec66870101ec5a2d1dbbbe6c3f02a6cab9fd5be14a5e",
+        "transformation": "none; exact current curated source bytes"
+      },
+      "path": "test_coefficients.py",
+      "sha256": "0d48a5ecdfb1aa0be293ec66870101ec5a2d1dbbbe6c3f02a6cab9fd5be14a5e"
+    },
+    {
+      "bytes": 3275,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_row_coefficients/transport.py",
+        "source_bytes": 3275,
+        "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
+        "source_sha256": "9f565d31e9d6e2f844a7e846a44a3eef8145e8677cf9b0b4e936bbd3d0bdbff0",
+        "transformation": "none; exact current curated source bytes"
+      },
+      "path": "transport.py",
+      "sha256": "9f565d31e9d6e2f844a7e846a44a3eef8145e8677cf9b0b4e936bbd3d0bdbff0"
+    }
+  ],
+  "schema": "astra010-curated-module-source-map-v1",
+  "scope": "Complete current module files except this map; original source hashes are exact."
+}

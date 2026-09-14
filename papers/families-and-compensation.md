@@ -46,3 +46,7 @@ questions. A negative coefficient would need to survive the full LR lift and
 its independently established degree and count model. The positive families
 and failed sufficient criteria above delimit those questions without deciding
 them in advance.
+
+## Whole-family certificate extension, 14 September 2026
+
+The [transportation and capped-family note](../results/transport-capped/README.md) adds complete all-margin 3-by-5 transportation positivity and the full four-capacity LR family, with three small correction fields and complete portable replay. It also closes the low-dimensional stabilized-quotient sign question inside those precise families. These are candidate components of a broader compensation paper; external novelty, contribution and journal assessment remain separate. The whole-rank and unrestricted goals are still open.

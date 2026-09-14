@@ -1,0 +1,110 @@
+{
+  "files": [
+    {
+      "bytes": 2197,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra010-2026-09-14/publication-docs/NOVELTY.md",
+        "source_bytes": 2197,
+        "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
+        "source_sha256": "b3725d0a9d8a86ecb0f99d51a7b52ac44d40b0af922d5a426cc520f1f58d2f43",
+        "transformation": "none; exact current curated source bytes"
+      },
+      "path": "NOVELTY.md",
+      "sha256": "b3725d0a9d8a86ecb0f99d51a7b52ac44d40b0af922d5a426cc520f1f58d2f43"
+    },
+    {
+      "bytes": 5059,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra010-2026-09-14/publication-docs/POINT-RAYS.md",
+        "source_bytes": 5059,
+        "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
+        "source_sha256": "3247de2c6e34bb449d715f2be2f69b347972c7b77a13541bc81185794900b001",
+        "transformation": "none; exact current curated source bytes"
+      },
+      "path": "POINT-RAYS.md",
+      "sha256": "3247de2c6e34bb449d715f2be2f69b347972c7b77a13541bc81185794900b001"
+    },
+    {
+      "bytes": 6367,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra010-2026-09-14/publication-docs/QUOTIENTS.md",
+        "source_bytes": 6367,
+        "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
+        "source_sha256": "439e8096f0774ad98e2a46abd3687b27e0f653c082c0c5afcda2eafba6dce563",
+        "transformation": "none; exact current curated source bytes"
+      },
+      "path": "QUOTIENTS.md",
+      "sha256": "439e8096f0774ad98e2a46abd3687b27e0f653c082c0c5afcda2eafba6dce563"
+    },
+    {
+      "bytes": 4781,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra010-2026-09-14/publication-docs/README.md",
+        "source_bytes": 4781,
+        "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
+        "source_sha256": "d398a3da4b90f50ad0bd6ffe1272fb2de93976192f834ac2c5c64065ee71787c",
+        "transformation": "none; exact current curated source bytes"
+      },
+      "path": "README.md",
+      "sha256": "d398a3da4b90f50ad0bd6ffe1272fb2de93976192f834ac2c5c64065ee71787c"
+    },
+    {
+      "bytes": 2392,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra010-2026-09-14/publication-docs/VERIFICATION.json",
+        "source_bytes": 2392,
+        "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
+        "source_sha256": "40bb884f0b100444e9221d0b74e094d24bb77b03306be708c46af4f39b5f85d4",
+        "transformation": "none; exact current curated source bytes"
+      },
+      "path": "VERIFICATION.json",
+      "sha256": "40bb884f0b100444e9221d0b74e094d24bb77b03306be708c46af4f39b5f85d4"
+    },
+    {
+      "bytes": 28587,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra010-2026-09-14/publication-docs/examples.json",
+        "source_bytes": 28587,
+        "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
+        "source_sha256": "d5eefd65629b502bd82cdec4791d66395cfcfbe1393bf57e4070b6ccea7479b8",
+        "transformation": "none; exact current curated source bytes"
+      },
+      "path": "examples.json",
+      "sha256": "d5eefd65629b502bd82cdec4791d66395cfcfbe1393bf57e4070b6ccea7479b8"
+    },
+    {
+      "bytes": 10380,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra010-2026-09-14/publication-docs/reproduce_examples.py",
+        "source_bytes": 10380,
+        "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
+        "source_sha256": "cc759241baf434740f5227776e567dd7ef415d4d1e77e1d1b8c394c8e4c61150",
+        "transformation": "none; exact current curated source bytes"
+      },
+      "path": "reproduce_examples.py",
+      "sha256": "cc759241baf434740f5227776e567dd7ef415d4d1e77e1d1b8c394c8e4c61150"
+    },
+    {
+      "bytes": 2596,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra010-2026-09-14/publication-docs/test_examples.py",
+        "source_bytes": 2596,
+        "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
+        "source_sha256": "7e736565f825fa8b4fa8e5a5c129705e3010d58a33642ee70f25027861e06f8f",
+        "transformation": "none; exact current curated source bytes"
+      },
+      "path": "test_examples.py",
+      "sha256": "7e736565f825fa8b4fa8e5a5c129705e3010d58a33642ee70f25027861e06f8f"
+    }
+  ],
+  "schema": "astra010-curated-module-source-map-v1",
+  "scope": "Complete current module files except this map; original source hashes are exact."
+}

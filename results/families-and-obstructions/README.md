@@ -74,6 +74,9 @@ included. There is no S>2M or whole-rank-eight assertion. The maintained
 
 ## Transportation coefficient theorems
 
+A later [complete all-margin result](../transport-capped/README.md) proves the whole polynomial for 3-by-5 transportation and the displayed four-capacity LR family. The earlier source statements and finite records below retain their original scopes; their open higher-coefficient clauses are superseded only inside these newly proved families.
+
+
 The [whole transportation/LR bridge](proofs/transport-whole-lr-bridge.md)
 retains the entire polytope and its integer lattice. For positive balanced
 p-by-N margins, the complete linear coefficient is positive when

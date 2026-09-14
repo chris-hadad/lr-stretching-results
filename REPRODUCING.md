@@ -38,6 +38,18 @@ The [structural module guide](results/structural-positivity/README.md) gives
 the commands for its individual families. Each distinguishes newly performed
 algebra from retained historical count observations.
 
+## Complete transportation and capped-family certificates
+
+The [small whole-family module](tooling/transport_certificates/README.md) requires only Python 3.11+ for its complete proof replay:
+
+```sh
+python3 -B tooling/transport_certificates/verify.py --out /path/to/new-transport-check
+PYTHONPATH=tooling python3 -B -m unittest three_row_coefficients.test_coefficients
+python3 -B results/transport-capped/reproduce_examples.py
+```
+
+The first command rebuilds every original normal subset and local constant, and checks every complete rational inequality. The other commands independently test the full coefficient interfaces and reproduce the exact example vectors. The result page's [verification record](results/transport-capped/VERIFICATION.json) distinguishes source and fresh-export executions. Optional C++ comparison and corruption/interruption checks have their exact commands in the module guide. These checks do not rerun the finite box or imply a whole-rank theorem.
+
 ## Complete rank-six c4/c5 certificates
 
 The [rank-six module](tooling/rank6_certificates/README.md) includes the full

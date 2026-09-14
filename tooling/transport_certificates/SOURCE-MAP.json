@@ -1,0 +1,123 @@
+{
+  "files": [
+    {
+      "bytes": 19099,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/transport_certificates/PROOF.md",
+        "source_bytes": 19099,
+        "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
+        "source_sha256": "1e6569af942d34288378ef6a97de1caefba7adea02cebb791d4e6cd25c6d73fa",
+        "transformation": "none; exact current curated source bytes"
+      },
+      "path": "PROOF.md",
+      "sha256": "1e6569af942d34288378ef6a97de1caefba7adea02cebb791d4e6cd25c6d73fa"
+    },
+    {
+      "bytes": 3868,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/transport_certificates/README.md",
+        "source_bytes": 3868,
+        "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
+        "source_sha256": "cc43b591bb11724e0ef464016543315507821ed9567c0b2f94465f50dc7ac7ef",
+        "transformation": "none; exact current curated source bytes"
+      },
+      "path": "README.md",
+      "sha256": "cc43b591bb11724e0ef464016543315507821ed9567c0b2f94465f50dc7ac7ef"
+    },
+    {
+      "bytes": 11050,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/transport_certificates/arithmetic.py",
+        "source_bytes": 11050,
+        "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
+        "source_sha256": "fc23495645417b3fcdec7cefcba9660a137607b9d00f52ad1f10361485a8c356",
+        "transformation": "none; exact current curated source bytes"
+      },
+      "path": "arithmetic.py",
+      "sha256": "fc23495645417b3fcdec7cefcba9660a137607b9d00f52ad1f10361485a8c356"
+    },
+    {
+      "bytes": 58168,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/transport_certificates/certificate.json",
+        "source_bytes": 58168,
+        "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
+        "source_sha256": "23c920924ea2641fc6143ce973fde26844c1639e28491769984b3b4a28650ced",
+        "transformation": "none; exact current curated source bytes"
+      },
+      "path": "certificate.json",
+      "sha256": "23c920924ea2641fc6143ce973fde26844c1639e28491769984b3b4a28650ced"
+    },
+    {
+      "bytes": 4916,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/transport_certificates/compare_cpp.py",
+        "source_bytes": 4916,
+        "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
+        "source_sha256": "4d729ab3d06d5700bd99f37e4eb8e48b1d9c6a7f4f941f8212fad7ce0f28b964",
+        "transformation": "none; exact current curated source bytes"
+      },
+      "path": "compare_cpp.py",
+      "sha256": "4d729ab3d06d5700bd99f37e4eb8e48b1d9c6a7f4f941f8212fad7ce0f28b964"
+    },
+    {
+      "bytes": 9696,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/transport_certificates/local_values.cpp",
+        "source_bytes": 9696,
+        "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
+        "source_sha256": "bf0159c9c48a818de37451a6a115aab432ef75746eaa18e168d7e8a5412ca3e0",
+        "transformation": "none; exact current curated source bytes"
+      },
+      "path": "local_values.cpp",
+      "sha256": "bf0159c9c48a818de37451a6a115aab432ef75746eaa18e168d7e8a5412ca3e0"
+    },
+    {
+      "bytes": 5996,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/transport_certificates/process.py",
+        "source_bytes": 5996,
+        "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
+        "source_sha256": "e58e9a6ad3b0722c13f577171e860ce9de6f6e835c07d74952809e869d2bc2d7",
+        "transformation": "none; exact current curated source bytes"
+      },
+      "path": "process.py",
+      "sha256": "e58e9a6ad3b0722c13f577171e860ce9de6f6e835c07d74952809e869d2bc2d7"
+    },
+    {
+      "bytes": 17357,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/transport_certificates/test_controls.py",
+        "source_bytes": 17357,
+        "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
+        "source_sha256": "0559d1c613b338632abd5b51640a69ebe056b846ebe16b25e1d7452db040a696",
+        "transformation": "none; exact current curated source bytes"
+      },
+      "path": "test_controls.py",
+      "sha256": "0559d1c613b338632abd5b51640a69ebe056b846ebe16b25e1d7452db040a696"
+    },
+    {
+      "bytes": 10616,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/transport_certificates/verify.py",
+        "source_bytes": 10616,
+        "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
+        "source_sha256": "9a927ca5061ce76bcd5f5f9eed9fd4b449471c1e8a9885b43cab596d458f820d",
+        "transformation": "none; exact current curated source bytes"
+      },
+      "path": "verify.py",
+      "sha256": "9a927ca5061ce76bcd5f5f9eed9fd4b449471c1e8a9885b43cab596d458f820d"
+    }
+  ],
+  "schema": "astra010-curated-module-source-map-v1",
+  "scope": "Complete current module files except this map; original source hashes are exact."
+}

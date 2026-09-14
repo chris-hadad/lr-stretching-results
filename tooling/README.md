@@ -79,6 +79,12 @@ do not promise a wall-clock or memory bound. No general speedup is claimed.
 The optional `slr_ehrhart.hive` module builds inequalities with the standard
 library; its polyhedron/dimension hooks require separately installed Sage.
 
+## Complete transportation and three-row coefficients
+
+[transport_certificates/README.md](transport_certificates/README.md) reconstructs the entire all-margin 3-by-5 transportation and four-capacity LR positivity proof with Python's standard library. Its three exact fields occupy about 58 KB. An optional C++/GMP command independently checks every local constant; complete rosters, original lattices and failure limits are explicit.
+
+[three_row_coefficients/README.md](three_row_coefficients/README.md) computes full exact coefficient vectors for three-row transportation, coupled capacities and complete affine Schur/Jacobi-Trudi families. It retains original offsets and signed terms. The APIs have explicit assignment/permutation/degree refusals and independent unsigned count controls; their existence does not prove positivity outside the stated theorem domains.
+
 ## Complete rank-six coefficient certificates
 
 [rank6_certificates/README.md](rank6_certificates/README.md) supplies a standalone

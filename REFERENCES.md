@@ -121,3 +121,11 @@ Ferudun's length-five theorem is available in
 The new [rank-six entry](results/rank-six-coefficients/README.md) states its
 additional c4/c5 scope, the exact use of prior results, and a
 [bounded novelty assessment](results/rank-six-coefficients/NOVELTY.md).
+
+## Sources used in the new whole-family note
+
+- Nicole Berline and Michele Vergne, [Local Euler-Maclaurin formula for polytopes](https://arxiv.org/abs/math/0507256): the local valuation and analytic recurrence.
+- Christian Haase, Martina Juhnke-Kubitzke, Raman Sanyal and Thorsten Theobald, [Mixed Ehrhart polynomials](https://arxiv.org/abs/1509.02254): the classical Bernstein-McMullen multivariate polynomiality statement used in the complete quotient proof.
+- Stefan Trandafir, [External Columns and Chambers of Vector Partition Functions](https://link.springer.com/article/10.1007/s00454-025-00762-1): precise matrix/chamber/saturation hypotheses and the separate LR example/future-work scope.
+
+These references support the named premises and comparison. The new finite normal fields are supplied with their own complete verification, and the [novelty note](results/transport-capped/NOVELTY.md) keeps the literature check bounded.

@@ -30,6 +30,8 @@ gives the full scope and low-degree consequences, with a
 certificate data. The first three coefficients remain the whole-rank-six
 question. This is a partial advance alongside the completed finite-box theorem.
 
+**Whole positive families:** the [new transportation and capped-family result](results/transport-capped/README.md) proves every coefficient for all 3-by-5 transportation margins and the displayed four-capacity LR family. These include complete rank-six degree-six/seven and rank-seven degree-eight families, with a [small standalone certificate](tooling/transport_certificates/README.md) and [full coefficient tools](tooling/three_row_coefficients/README.md). They complement the universal partial rank-six theorem above.
+
 ## Start here
 
 | Your purpose | Suggested route |

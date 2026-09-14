@@ -108,3 +108,7 @@ the paired Python measurements.
 
 The research-note author list has not been finalized. Human and AI
 contributions are described here without assigning authorship to AI systems.
+
+## Transportation and capped-family certificates, 14 September 2026
+
+The new [whole-family result](results/transport-capped/README.md) uses root-derived original normal systems and exact correction fields. Separate Python Fraction and C++ GMP implementations reconstruct all local constants; a second complete verification independently rebuilds kernels, primitive quotients, every matrix entry and rational inequality. The full coefficient interfaces are checked against unsigned LR and table/cap counts. Both implementations use the same classical BV recurrence, so their agreement is not an independent analytic theorem. Berline-Vergne, Ferudun's correction method, earlier normal-cycle work and the complete classical character identities retain credit. Exact counts, current review scope and source maps accompany the result; no external human acceptance or worldwide priority is implied.
