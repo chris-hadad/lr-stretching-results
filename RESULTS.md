@@ -7,7 +7,8 @@ root-location property is not, by itself, a counterexample to KTT positivity.
 | Result | Established scope | Verification and limit |
 |---|---|---|
 | [Original finite box](results/finite-box/README.md) | Every legal balanced triple with maximum trimmed length seven and outer area at most 30 is coefficient-nonnegative | Complete original cover, whole-count reductions and 624,314 accepted terminal identities; explicit external rank-five theorem premise. Whole ranks six and seven remain open. |
-| [Rank-six c4/c5 and actual-degree consequences](results/rank-six-coefficients/README.md) | Universal nonnegative c4/c5 at every rank-six area and boundary; whole nonnegativity through actual degree five at rank six and degree four at rank seven | Complete independent reconstruction of both finite fields, all 333,769 local types and every incidence; standalone replay about 10.4 minutes on the recorded host. Rank-six c1,c2,c3 at degrees six through ten remain open. |
+| [Whole three-letter LR families through rank six](results/three-letter-rank-six/README.md) | Every coefficient through actual degree for every feasible rank<=6 triple with one inner partition of length<=3, all areas and walls; full stabilized quotients inside the family | Complete original lattice/model, 1,149,016 normal subsets, 395,657 independently reproduced local values and four exact fields; standalone reproduction. Whole rank six outside this slice remains open. |
+| [Rank-six c4/c5 and actual-degree consequences](results/rank-six-coefficients/README.md) | Universal nonnegative c4/c5 at every rank-six area and boundary; whole nonnegativity through actual degree five at rank six and degree four at rank seven | Complete independent reconstruction of both finite fields, all 333,769 local types and every incidence; standalone replay about 10.4 minutes on the recorded host. Rank-six c1,c2,c3 at degrees six through ten remain open outside all accepted whole-family terminals. |
 | [Whole transportation and capped LR families](results/transport-capped/README.md) | Every ordinary coefficient for all balanced nonnegative 3-by-5 transportation margins and the stated family with at most four coupled capacities; all walls and degree drops | Complete 22,063-subset / 16,848-local-value proof, three rational fields and independent whole counts; includes positive whole stabilized quotients along every actual direction dimension r>=1 in these exact families. Whole ordinary ranks remain open. |
 | [Ambient coefficient protection](results/structural-positivity/README.md#normal-corrections-and-boundary-classes) | With D_n=(n−1)(n−2)/2 and n=6,...,12, c_(D_n−4) has a positive complete face-volume lower bound whenever its actual degree reaches that index | All 34 normal-certificate rosters independently checked. Together with prior results this protects the top five ambient indices, not the top five actual coefficients of every degenerate hive. |
 | [Boundary-coordinate classes](results/structural-positivity/README.md#normal-corrections-and-boundary-classes) | At arbitrary size: rank at most seven with the specified coordinate bound at most four, and rank at most six with bound at most five after tensor symmetry | Complete boundary-aware finite certificates. These sufficient classes do not exhaust whole rank six or every actual quartic/quintic. |
@@ -63,6 +64,11 @@ Three central mathematical questions remain: a whole ordinary rank
 above five, unrestricted KTT positivity, and an ordinary-negative entire LR
 polynomial outside the proved box. Ferudun's all-size result through rank five
 makes rank six the first unresolved ordinary rank under that theorem.
+
+The next direct rank-six question is the complete four-letter family, after
+its original model and lattice have been proved. The three-letter family is
+a whole-positive terminal. Higher-rank three-letter and larger transportation
+or capped families retain their separate open coefficient questions.
 
 The strongest current proof directions are complete normal compensation,
 uniform versions of the finite box's sign-completion bounds, and whole-count

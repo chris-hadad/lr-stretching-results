@@ -1,0 +1,34 @@
+{
+  "schema": "three-letter-reproduction-contract/v1",
+  "inputs": "Deterministic gzip files containing only original normals, subset/type data, exact comparison constants and ambient rational fields.",
+  "full_entrypoint": "verify.py full --output NEW_DIRECTORY",
+  "controls_entrypoint": "controls.py --verified-output COMPLETED_DIRECTORY --output NEW_DIRECTORY",
+  "original_subsets": 1149016,
+  "complete_types": 395657,
+  "field_orders": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "field_rows": 664539,
+  "epsilon": "1/100000000",
+  "index_method": "Gcd of every maximal minor, with exact dependent rank and full image inclusion under an explicit admissible Gram permutation.",
+  "recurrence_method": "Reverse subset adjoint elimination with integer-scaled Todd polynomials, complete finite numerators, every proper face, and all Bernoulli terms through degree six.",
+  "field_method": "Exact ambient kernel equations and every original row using index(I)/index(J), including all omitted zero supports.",
+  "native_child_seconds": 60,
+  "program_child_seconds": 120,
+  "default_native_seconds": 600,
+  "default_program_seconds": 900,
+  "ordinary_outer_signals": [
+    "SIGINT",
+    "SIGTERM",
+    "SIGHUP",
+    "SIGQUIT"
+  ],
+  "completion_marker": "Only a valid atomically published COMPLETE.json record certifies successful full verification; malformed marker bytes in hostile fixtures do not count as publication.",
+  "binary_cache": "Built freshly from checked mathematical data; local to the compiler ABI and verification run.",
+  "bare_LR_values": 0,
+  "completion_publication": "Serialize first; write an exclusive same-directory temporary; flush and close; atomically rename only the complete record. Failed staging is retained and cannot suppress abort evidence.",
+  "finalization_controls": "Serialization, partial-write and rename failures; malformed existing markers; normal publication; INT/TERM/HUP/QUIT after partial temporary writing."
+}

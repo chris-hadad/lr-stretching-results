@@ -129,3 +129,13 @@ additional c4/c5 scope, the exact use of prior results, and a
 - Stefan Trandafir, [External Columns and Chambers of Vector Partition Functions](https://link.springer.com/article/10.1007/s00454-025-00762-1): precise matrix/chamber/saturation hypotheses and the separate LR example/future-work scope.
 
 These references support the named premises and comparison. The new finite normal fields are supplied with their own complete verification, and the [novelty note](results/transport-capped/NOVELTY.md) keeps the literature check bounded.
+
+## Three-letter model and whole-family certificate
+
+Igor Pak and Ernesto Vallejo, [Combinatorics and geometry of Littlewood-Richardson cones](https://www.math.ucla.edu/~pak/papers/liri91.pdf),
+Section 3 and Lemma 3.1, give the classical LR-triangle encoding. The new
+[three-letter result](results/three-letter-rank-six/README.md) uses its complete
+specialization, the previously cited polynomiality and BV valuation results,
+and four independently checked fields. Its [source comparison](results/three-letter-rank-six/NOVELTY.md)
+separates the new finite certificate and explicit count methods from those
+antecedents and keeps the novelty assessment bounded.

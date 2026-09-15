@@ -28,15 +28,25 @@ nonnegative at every area and boundary. A [new result page](results/rank-six-coe
 gives the full scope and low-degree consequences, with a
 [complete standalone verifier](tooling/rank6_certificates/README.md) and compact
 certificate data. The first three coefficients remain the whole-rank-six
-question. This is a partial advance alongside the completed finite-box theorem.
+question outside the complete families below. This is a partial advance alongside the completed finite-box theorem.
 
 **Whole positive families:** the [new transportation and capped-family result](results/transport-capped/README.md) proves every coefficient for all 3-by-5 transportation margins and the displayed four-capacity LR family. These include complete rank-six degree-six/seven and rank-seven degree-eight families, with a [small standalone certificate](tooling/transport_certificates/README.md) and [full coefficient tools](tooling/three_row_coefficients/README.md). They complement the universal partial rank-six theorem above.
+
+**Whole three-letter families through rank six:** every coefficient is now
+positive through actual degree for every feasible triple with at most six
+parts and one inner partition with at most three parts, at every area and
+boundary. The [complete result](results/three-letter-rank-six/README.md) includes
+a uniform original-lattice bound, whole stabilized quotients, an interior
+translation and full multiple-overlap formulas. Its [portable verifier](tooling/three_letter_certificates/README.md)
+reconstructs all 1,149,016 original normal subsets and 395,657 exact local
+constants. Whole rank six outside this family remains open.
 
 ## Start here
 
 | Your purpose | Suggested route |
 |---|---|
 | Understand the finite result | [Research-note draft](papers/finite-box.md), then the [detailed proof](results/finite-box/PROOF.md) |
+| Check the complete three-letter family | [Statement and examples](results/three-letter-rank-six/README.md), [full proof](tooling/three_letter_certificates/PROOF.md), and [standalone verification](tooling/three_letter_certificates/README.md) |
 | Check the argument | [Guide for mathematical review](results/finite-box/REVIEWER-GUIDE.md), [dependencies](results/finite-box/DEPENDENCIES.md), and [verification guide](REPRODUCING.md) |
 | Try a small exact calculation | [Sign-completion example](examples/sign_completion.py) or the five established standalone modules below |
 | Explore the wider mathematics | [Results and open questions](RESULTS.md), [structural families](results/structural-positivity/README.md), and [companion outline](papers/families-and-compensation.md) |

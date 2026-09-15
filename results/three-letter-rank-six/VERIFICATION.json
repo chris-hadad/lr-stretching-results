@@ -1,0 +1,56 @@
+{
+  "complete_types": 395657,
+  "dependent_subsets": 483959,
+  "fields": [
+    {
+      "active_supports": 10,
+      "epsilon": "1/100000000",
+      "exact_minimum": "308046214505/3080462145121419264",
+      "original_rows": 4622,
+      "q": 3
+    },
+    {
+      "active_supports": 611,
+      "epsilon": "1/100000000",
+      "exact_minimum": "661488712426253/6614887132681784524800",
+      "original_rows": 30495,
+      "q": 4
+    },
+    {
+      "active_supports": 14360,
+      "epsilon": "1/100000000",
+      "exact_minimum": "365861955650706081679/523316950840721337325977600",
+      "original_rows": 144914,
+      "q": 5
+    },
+    {
+      "active_supports": 97273,
+      "epsilon": "1/100000000",
+      "exact_minimum": "11277462656866192459/112843045612143000000000000",
+      "original_rows": 484508,
+      "q": 6
+    }
+  ],
+  "independent_local_values": "All 395657 values reproduced by a separately authored reverse-subset adjoint implementation frozen before primary values were read; complete numerators and proper-face terms retained.",
+  "independent_subsets": 665057,
+  "independent_type_checks": "Every original maximal-minor index, representative and full image-lattice inclusion with an explicit metric-preserving permutation.",
+  "limits": "Finite normal populations are auxiliary and nonadditive. Whole rank six, higher-rank short-inner-three and unrestricted KTT remain open. Automated checking is not external human acceptance or worldwide priority.",
+  "mathematics": "Independent model/interior R1 and whole theorem R1 returned No findings on their complete frozen scopes. Portable replay and control evidence is linked separately; exact publication review status is maintained in the campaign record.",
+  "original_subsets": 1149016,
+  "portable_tooling": {
+    "final_complete_sha256": "bcadd261a415ee590c270ba049705d95a1df0437d4082fe1f6885a7b853ad339",
+    "record": "TOOLING-VERIFICATION.json",
+    "sha256": "788107f5ee4d41ea2542af95404b3518351f74270fe7511c095be703d4c30df8",
+    "status": "PASS_FINAL_SOURCE_REPLAY_AND_CONTROLS"
+  },
+  "schema": "three-letter-verification-v1",
+  "whole_object_checks": {
+    "independent_whole_hive_polynomials": 3,
+    "initial_model_roster": 15,
+    "interior_controls": 5,
+    "literal_positive_sites": 17,
+    "lrcalc_positive_sites": 17,
+    "prior_determining_space": "Odd-center degree 2n-5 space has dimension n-2 on delta_n, with two unused positive sites.",
+    "shifted_bare_LR_calls": 4
+  }
+}

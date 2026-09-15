@@ -1,0 +1,292 @@
+{
+  "schema": "three-letter-whole-examples-v1",
+  "coefficient_order": "increasing ordinary powers",
+  "wrong_offset_vectors": "Auxiliary deliberately incorrect expressions, never LR witnesses",
+  "examples": [
+    {
+      "id": "delta4",
+      "outer": [
+        9,
+        7,
+        5,
+        3
+      ],
+      "inner": [
+        6,
+        4,
+        2,
+        0
+      ],
+      "content": [
+        6,
+        4,
+        2
+      ],
+      "coefficients": [
+        "1",
+        "7/2",
+        "9/2",
+        "3"
+      ],
+      "assignment_cost": 243,
+      "direct_assignment_cost": 648,
+      "stretches": [
+        1,
+        2,
+        3
+      ],
+      "symmetry": true,
+      "wrong_offset_auxiliary_vector": [
+        "-1",
+        "-5/2",
+        "3/2",
+        "3"
+      ],
+      "wrong_offsets_differ": true
+    },
+    {
+      "id": "delta5",
+      "outer": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "inner": [
+        8,
+        6,
+        4,
+        2,
+        0
+      ],
+      "content": [
+        7,
+        5,
+        3
+      ],
+      "coefficients": [
+        "1",
+        "26/5",
+        "25/2",
+        "18",
+        "29/2",
+        "29/5"
+      ],
+      "assignment_cost": 729,
+      "direct_assignment_cost": 3888,
+      "stretches": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "symmetry": true,
+      "wrong_offset_auxiliary_vector": [
+        "1",
+        "16/5",
+        "-13/2",
+        "-7",
+        "9/2",
+        "29/5"
+      ],
+      "wrong_offsets_differ": true
+    },
+    {
+      "id": "delta6",
+      "outer": [
+        13,
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "inner": [
+        10,
+        8,
+        6,
+        4,
+        2,
+        0
+      ],
+      "content": [
+        8,
+        6,
+        4
+      ],
+      "coefficients": [
+        "1",
+        "236/35",
+        "4061/180",
+        "17447/360",
+        "5033/72",
+        "24299/360",
+        "14233/360",
+        "14233/1260"
+      ],
+      "assignment_cost": 5103,
+      "direct_assignment_cost": 23328,
+      "stretches": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "symmetry": true,
+      "wrong_offset_auxiliary_vector": [
+        "0",
+        "176/105",
+        "443/45",
+        "1097/360",
+        "-1495/72",
+        "-5587/360",
+        "4111/360",
+        "14233/1260"
+      ],
+      "wrong_offsets_differ": true
+    },
+    {
+      "id": "overlap6",
+      "outer": [
+        19,
+        16,
+        13,
+        10,
+        7,
+        4
+      ],
+      "inner": [
+        15,
+        12,
+        9,
+        6,
+        3,
+        0
+      ],
+      "content": [
+        12,
+        8,
+        4
+      ],
+      "coefficients": [
+        "1",
+        "1048/105",
+        "4493/90",
+        "56699/360",
+        "11933/36",
+        "41051/90",
+        "67969/180",
+        "366407/2520"
+      ],
+      "assignment_cost": 5103,
+      "direct_assignment_cost": 23328,
+      "stretches": [
+        1,
+        2
+      ],
+      "symmetry": false,
+      "wrong_offset_auxiliary_vector": [
+        "0",
+        "773/210",
+        "4387/180",
+        "487/180",
+        "-7763/72",
+        "-27103/360",
+        "54701/360",
+        "366407/2520"
+      ],
+      "wrong_offsets_differ": true
+    },
+    {
+      "id": "diagonal6",
+      "outer": [
+        12,
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "inner": [
+        10,
+        8,
+        6,
+        4,
+        2,
+        0
+      ],
+      "content": [
+        6,
+        4,
+        2
+      ],
+      "coefficients": [
+        "1",
+        "44/7",
+        "325/18",
+        "575/18",
+        "332/9",
+        "244/9",
+        "104/9",
+        "136/63"
+      ],
+      "assignment_cost": 729,
+      "direct_assignment_cost": 729,
+      "stretches": [
+        1,
+        2
+      ],
+      "symmetry": false,
+      "wrong_offset_auxiliary_vector": [
+        "-1",
+        "188/21",
+        "-173/18",
+        "-301/18",
+        "32/9",
+        "172/9",
+        "104/9",
+        "136/63"
+      ],
+      "wrong_offsets_differ": true
+    },
+    {
+      "id": "empty6",
+      "outer": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "inner": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "content": [
+        0,
+        0,
+        0
+      ],
+      "coefficients": [
+        "1"
+      ],
+      "assignment_cost": 1,
+      "direct_assignment_cost": 1,
+      "stretches": [
+        1
+      ],
+      "symmetry": false,
+      "wrong_offset_auxiliary_vector": [
+        "0"
+      ],
+      "wrong_offsets_differ": true
+    }
+  ]
+}

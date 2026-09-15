@@ -1,0 +1,66 @@
+{
+  "files": [
+    {
+      "bytes": 4656,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra011-2026-09-14/publication-docs/EXAMPLES.json",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "fc37a7ae2489eed1968eaea16d18b40e9efb5d96d494ecc7f586ec699a77301f",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "EXAMPLES.json",
+      "sha256": "fc37a7ae2489eed1968eaea16d18b40e9efb5d96d494ecc7f586ec699a77301f"
+    },
+    {
+      "bytes": 2906,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra011-2026-09-14/publication-docs/NOVELTY.md",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "ce0ee17d4910974656d923e7abf2ef7176d22b7f6a2de5c0a176e8f80be0efb3",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "NOVELTY.md",
+      "sha256": "ce0ee17d4910974656d923e7abf2ef7176d22b7f6a2de5c0a176e8f80be0efb3"
+    },
+    {
+      "bytes": 4531,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra011-2026-09-14/publication-docs/README-FINAL.md",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "9f3e714a3dddade84e2582034dfba492122c9d93e124ad276d830cdb4744bf37",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "README.md",
+      "sha256": "9f3e714a3dddade84e2582034dfba492122c9d93e124ad276d830cdb4744bf37"
+    },
+    {
+      "bytes": 14722,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra011-2026-09-14/publication-docs/TOOLING-VERIFICATION.json",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "788107f5ee4d41ea2542af95404b3518351f74270fe7511c095be703d4c30df8",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "TOOLING-VERIFICATION.json",
+      "sha256": "788107f5ee4d41ea2542af95404b3518351f74270fe7511c095be703d4c30df8"
+    },
+    {
+      "bytes": 2466,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra011-2026-09-14/publication-docs/VERIFICATION-FINAL.json",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "1afe6ee6c41974ac993074563bb6d58db460a3bdbb33eed1526a61a8dcb9e6a6",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "VERIFICATION.json",
+      "sha256": "1afe6ee6c41974ac993074563bb6d58db460a3bdbb33eed1526a61a8dcb9e6a6"
+    }
+  ],
+  "schema": "three-letter-module-source-map-v1",
+  "scope": "Every current module member except this map, with exact committed curated source bytes. Public execution requires no private checkout."
+}

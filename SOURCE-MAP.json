@@ -650,27 +650,29 @@
       "provenance": "Standard license text or explicit scope/attribution notice; no scientific result change."
     },
     {
+      "current_update": "Three-letter family update, 14 September 2026; older evidence remains unchanged.",
       "editorial_baseline": {
         "bytes": 7225,
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "sha256": "25d735d14795cbf40689dae20fb00c1e75220eede1d9cff361b1a4a7378f24a0"
       },
-      "included_bytes": 7196,
-      "included_sha256": "b1dc6ae5d10894e7a661ca9ed670498dcfd1405be3e8c1843e67168743d1af7c",
+      "included_bytes": 8195,
+      "included_sha256": "a0bc7586cd66f2bbb8243b10dc64d42cf6e14128c299a9341461d8c226f2e58e",
       "path": "METHODS.md",
+      "previous_included_sha256": "b1dc6ae5d10894e7a661ca9ed670498dcfd1405be3e8c1843e67168743d1af7c",
       "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies."
     },
     {
-      "current_update": "14 September whole-family update, with unchanged older numerical evidence retained.",
+      "current_update": "Three-letter family update, 14 September 2026; older evidence remains unchanged.",
       "editorial_baseline": {
         "bytes": 10450,
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "sha256": "70158ea43e387e5e316b39caeb25436f3e05c7f72f070690498fa59371a2cd60"
       },
-      "included_bytes": 8931,
-      "included_sha256": "e818d2b962e2f3b80b88d1e1f25b110837d4e75c2e07244c16730ca0894e3809",
+      "included_bytes": 10119,
+      "included_sha256": "58dec2544ebd3745608fc9efcd0ed4e84e87b14f7c150cc3c1d4434d637266c8",
       "path": "PROVENANCE.md",
-      "previous_included_sha256": "2df2cb82174271f8c0e84170d5d134372b10a95f99a076c4ea88605499d6178e",
+      "previous_included_sha256": "e818d2b962e2f3b80b88d1e1f25b110837d4e75c2e07244c16730ca0894e3809",
       "prior_included_sha256": "20b2ffcc4b075acb9d191248b128633b52b693f056cab61e8a7e90c415a72ff3",
       "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted"
     },
@@ -692,17 +694,17 @@
       "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies."
     },
     {
-      "current_update": "14 September whole-family update, with unchanged older numerical evidence retained.",
+      "current_update": "Three-letter family update, 14 September 2026; older evidence remains unchanged.",
       "editorial_baseline": {
         "bytes": 4559,
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "sha256": "573a7f8478d2c682846366fb69e6f5c480fcd4635ae9a19f87e6bc0e261fcb05"
       },
-      "included_bytes": 6112,
-      "included_sha256": "257794436e1fb28353355ee13f9766825c50fde5e4bf9c8f6971150043259a4a",
+      "included_bytes": 7025,
+      "included_sha256": "ce58578f8f5b078d145c714e421699523f5ca8af033ad3ad7eebfede0cf2f0b3",
       "path": "README.md",
       "pre_licensing_included_sha256": "2b6abf0e71abaa3319dcb2bd4fb68b09f7972c28f054809abe64a85b910860a3",
-      "previous_included_sha256": "bce5fdaab5a6ae5fbb3a7ef9ed76c7a546eaaa594f918ce941ca4890f2e4dddb",
+      "previous_included_sha256": "257794436e1fb28353355ee13f9766825c50fde5e4bf9c8f6971150043259a4a",
       "prior_included_sha256": "0d543514230b1f59377d2a6faaa57cea6962a02ac37d45d700e33b7ea3d5b4bd",
       "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted"
     },
@@ -718,57 +720,59 @@
       "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies."
     },
     {
-      "current_update": "14 September whole-family update, with unchanged older numerical evidence retained.",
+      "current_update": "Three-letter family update, 14 September 2026; older evidence remains unchanged.",
       "editorial_baseline": {
         "bytes": 7482,
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "sha256": "9891dce9095020eab945d8490414b9bc37f2318f38153fffa7fc66ca502ab77e"
       },
-      "included_bytes": 8973,
-      "included_sha256": "c353b2b7a5d26bc96c15a1946f16afcdd5b2f0ad4b807183591d1571511b12c3",
+      "included_bytes": 9633,
+      "included_sha256": "c0f9e02734f500be06b9fc541ca12b78e1dd4c8b8d9875df17946ed5c2822485",
       "path": "REFERENCES.md",
-      "previous_included_sha256": "ca5c468bc5022824b9a79fcdc618f41e2e946cce8aa3df2bde97e44940dec857",
+      "previous_included_sha256": "c353b2b7a5d26bc96c15a1946f16afcdd5b2f0ad4b807183591d1571511b12c3",
       "prior_included_sha256": "70b6ddf5615877548dd352fbef56554343ec4cf626e4281e27a4cce65e2b2890",
       "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted"
     },
     {
-      "current_update": "14 September whole-family update, with unchanged older numerical evidence retained.",
+      "current_update": "Three-letter family update, 14 September 2026; older evidence remains unchanged.",
       "editorial_baseline": {
         "bytes": 5848,
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "sha256": "d96f1a8806bd468fd81739bba9b46be8be24dc37092c1c9fcc6a1b62afe7f92d"
       },
-      "included_bytes": 8325,
-      "included_sha256": "fba0d28df26ad2d318c252b17e7f3222b4c474d432015867e04bdd158472653b",
+      "included_bytes": 9492,
+      "included_sha256": "78df67fda559a1ff0e2c613b1886edf5b9a806c7bbc4d62984e5b01c9fd3043c",
       "path": "REPRODUCING.md",
-      "previous_included_sha256": "ab910a1bab75032579554de2eef154efb037edcbeeb4567f01c9f9e6dde95411",
+      "previous_included_sha256": "fba0d28df26ad2d318c252b17e7f3222b4c474d432015867e04bdd158472653b",
       "prior_included_sha256": "dc4babcf73d54a99dc588d41ce55717c139166077dedca7dd40341a68cfef99e",
       "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies."
     },
     {
-      "current_update": "14 September whole-family update, with unchanged older numerical evidence retained.",
+      "current_update": "Three-letter family update, 14 September 2026; older evidence remains unchanged.",
       "editorial_baseline": {
         "bytes": 10596,
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "sha256": "b0bf3ed847a6ffff27add8b39cf706a9f77d73e60ce58bdd2d108fe8e1af56aa"
       },
-      "included_bytes": 11575,
-      "included_sha256": "0929e2a93b3cac77cecf1e8024f16d7ef2f0bee65e91eba9aaec92e9b69754ab",
+      "included_bytes": 12397,
+      "included_sha256": "f72be0af3cc188491fa22abff842c6a072f9e348679fb6529be20749ace857eb",
       "path": "RESULTS.md",
-      "previous_included_sha256": "a4c3b209096472639c86f6204335d166a4b4e038a6845cf9d14162553cec8cd0",
+      "previous_included_sha256": "0929e2a93b3cac77cecf1e8024f16d7ef2f0bee65e91eba9aaec92e9b69754ab",
       "prior_included_sha256": "e153b88b3010587b9b5df1decff7c944e73055eabd29c33eaab351d937d33cc4",
       "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted"
     },
     {
+      "current_update": "Three-letter family update, 14 September 2026; older evidence remains unchanged.",
       "editorial_baseline": {
         "bytes": 2031,
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "sha256": "755c565d0bf58fc4fbcc6a886c0fa737f75c85152bc99fa4894e28e7b1144b6a"
       },
-      "included_bytes": 1698,
-      "included_sha256": "3aa05db44671eaedb6873c921a1f5377a8861954683980cfd87737020ff5bc17",
+      "included_bytes": 2093,
+      "included_sha256": "54e6e3b24ad3ee48285287090fdcbae419b842711f906b94c2435222c5a0c719",
       "path": "SHARING.md",
       "pre_licensing_included_sha256": "c0f2f58634baa28e4c7836eaabf03cbfa7aa5b98e6a6f136a14c9d1b7cc0f7fe",
+      "previous_included_sha256": "3aa05db44671eaedb6873c921a1f5377a8861954683980cfd87737020ff5bc17",
       "prior_included_sha256": "43753a606a814c1b4f6df1b560ade32eb56179bef1905beec7ccc4f0f9d15eda",
       "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies."
     },
@@ -8885,6 +8889,67 @@
       "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies."
     },
     {
+      "included_bytes": 4656,
+      "included_sha256": "fc37a7ae2489eed1968eaea16d18b40e9efb5d96d494ecc7f586ec699a77301f",
+      "path": "results/three-letter-rank-six/EXAMPLES.json",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "methods/astra011-2026-09-14/publication-docs/EXAMPLES.json",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "fc37a7ae2489eed1968eaea16d18b40e9efb5d96d494ecc7f586ec699a77301f",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 2906,
+      "included_sha256": "ce0ee17d4910974656d923e7abf2ef7176d22b7f6a2de5c0a176e8f80be0efb3",
+      "path": "results/three-letter-rank-six/NOVELTY.md",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "methods/astra011-2026-09-14/publication-docs/NOVELTY.md",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "ce0ee17d4910974656d923e7abf2ef7176d22b7f6a2de5c0a176e8f80be0efb3",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 4531,
+      "included_sha256": "9f3e714a3dddade84e2582034dfba492122c9d93e124ad276d830cdb4744bf37",
+      "path": "results/three-letter-rank-six/README.md",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "methods/astra011-2026-09-14/publication-docs/README-FINAL.md",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "9f3e714a3dddade84e2582034dfba492122c9d93e124ad276d830cdb4744bf37",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 2874,
+      "included_sha256": "1e0b8898a29aa143ab6454decf69e501a768b3eaff66127d9279fcdf6cd1f112",
+      "path": "results/three-letter-rank-six/SOURCE-MAP.json",
+      "provenance": "Curated three-letter mathematical source or exact module source map."
+    },
+    {
+      "included_bytes": 14722,
+      "included_sha256": "788107f5ee4d41ea2542af95404b3518351f74270fe7511c095be703d4c30df8",
+      "path": "results/three-letter-rank-six/TOOLING-VERIFICATION.json",
+      "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "methods/astra011-2026-09-14/publication-docs/TOOLING-VERIFICATION.json",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "788107f5ee4d41ea2542af95404b3518351f74270fe7511c095be703d4c30df8",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 2466,
+      "included_sha256": "1afe6ee6c41974ac993074563bb6d58db460a3bdbb33eed1526a61a8dcb9e6a6",
+      "path": "results/three-letter-rank-six/VERIFICATION.json",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "methods/astra011-2026-09-14/publication-docs/VERIFICATION-FINAL.json",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "1afe6ee6c41974ac993074563bb6d58db460a3bdbb33eed1526a61a8dcb9e6a6",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
       "included_bytes": 2197,
       "included_sha256": "b3725d0a9d8a86ecb0f99d51a7b52ac44d40b0af922d5a426cc520f1f58d2f43",
       "path": "results/transport-capped/NOVELTY.md",
@@ -9034,16 +9099,16 @@
       "source_pointer": "/files/2"
     },
     {
-      "current_update": "14 September whole-family update, with unchanged older numerical evidence retained.",
+      "current_update": "Three-letter family update, 14 September 2026; older evidence remains unchanged.",
       "editorial_baseline": {
         "bytes": 7737,
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "sha256": "97cf619867bf03e948eb601b217d8de337dd95c61d3914c01f69b2c960cab0c1"
       },
-      "included_bytes": 9237,
-      "included_sha256": "68693448598608f9f3cd63ff3e1558de5bca89f70e25b14a27b6aaf083bd195d",
+      "included_bytes": 9835,
+      "included_sha256": "45c8e865eb154c7a044bd3d306529dbc1ee5ea269c74129759356b4b2daa060c",
       "path": "tooling/README.md",
-      "previous_included_sha256": "3d874ab4bafc9df52d8ec2875bf3d67ac889638b8e79dfee5a87e87a125f538e",
+      "previous_included_sha256": "68693448598608f9f3cd63ff3e1558de5bca89f70e25b14a27b6aaf083bd195d",
       "prior_included_sha256": "061d0392f719d88689ab52fbed4ac162d37d5af9552655d08155c5aa09618bd9",
       "prior_record_pointer": "/historical_source_map/mathematical_files/26",
       "source_map": "tooling/SOURCE-UPDATE.json",
@@ -9064,17 +9129,17 @@
       "source_pointer": "/files/4"
     },
     {
-      "current_update": "14 September whole-family update, with unchanged older numerical evidence retained.",
+      "current_update": "Three-letter family update, 14 September 2026; older evidence remains unchanged.",
       "editorial_baseline": {
         "bytes": 64899,
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "sha256": "1f895a27276d5acb4d88a2c373a94f47ffa4723716fec40c2f55e8ae3036499b"
       },
-      "included_bytes": 85937,
-      "included_sha256": "86f2f85c35b098751ff977c479d199e9298bf898c864378fba54b90d1ac2386d",
+      "included_bytes": 119244,
+      "included_sha256": "ae4b49a6ebcdbcea8d43041adfdb9d1371fb956bc8d68a4ec57b804415ff088a",
       "path": "tooling/SOURCE-UPDATE.json",
       "pre_licensing_included_sha256": "0617793a3cc1b4123e2a7c8795df40ea753c612e35ac8f955510dceb5e660b5b",
-      "previous_included_sha256": "e911022b5fc9cc13b35da090bb3e03c99edaee9175ba5b3630c155efecbde632",
+      "previous_included_sha256": "86f2f85c35b098751ff977c479d199e9298bf898c864378fba54b90d1ac2386d",
       "prior_included_sha256": "2913badaf0811ce41448356c045635aa361f6053bfd32e95a5c3db65e66872e4",
       "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted"
     },
@@ -9887,6 +9952,551 @@
       "source_pointer": "/files/92"
     },
     {
+      "included_bytes": 4017,
+      "included_sha256": "45e9856b322de409893a03e0ab0e9e3c7dc29c28efb10ccdc804ed36f801a0a3",
+      "path": "tooling/three_letter_certificates/HESSENBERG.md",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/HESSENBERG.md",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "45e9856b322de409893a03e0ab0e9e3c7dc29c28efb10ccdc804ed36f801a0a3",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 8161,
+      "included_sha256": "ed326b46da583a43aa6cb3954d43ae6abab49e54057f276286b7c92fe7148890",
+      "path": "tooling/three_letter_certificates/INTERIOR.md",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/INTERIOR.md",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "ed326b46da583a43aa6cb3954d43ae6abab49e54057f276286b7c92fe7148890",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 6463,
+      "included_sha256": "529d249e2c288ceedc5cbc4f5a90c56715cd19caa7d4de297b81921627186f20",
+      "path": "tooling/three_letter_certificates/MODEL.md",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/MODEL.md",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "529d249e2c288ceedc5cbc4f5a90c56715cd19caa7d4de297b81921627186f20",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 13780,
+      "included_sha256": "b6802299ba7ba19e401ba1e9aa3dcd03ab70516920fd749b88c3bb47f0294148",
+      "path": "tooling/three_letter_certificates/PROOF.md",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/PROOF.md",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "b6802299ba7ba19e401ba1e9aa3dcd03ab70516920fd749b88c3bb47f0294148",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 3919,
+      "included_sha256": "945b0a528bbb97ab2e7fffc7cdee3b182f16cc19b1d1b6bb149081083c1deb44",
+      "path": "tooling/three_letter_certificates/README.md",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/README.md",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "945b0a528bbb97ab2e7fffc7cdee3b182f16cc19b1d1b6bb149081083c1deb44",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 1952,
+      "included_sha256": "9b54a0035fe8b9da8d19116c3f976777aeb1753bb7f96c71734826b87c4ae7c0",
+      "path": "tooling/three_letter_certificates/SOURCE-CONTRACT.json",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/SOURCE-CONTRACT.json",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "9b54a0035fe8b9da8d19116c3f976777aeb1753bb7f96c71734826b87c4ae7c0",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 25696,
+      "included_sha256": "0708316e27d9a84792575523aaeaff5fc32636f4ca6d5b5c9dbdcadd434744d2",
+      "path": "tooling/three_letter_certificates/SOURCE-MAP.json",
+      "provenance": "Curated three-letter mathematical source or exact module source map."
+    },
+    {
+      "included_bytes": 73,
+      "included_sha256": "633f3dd74ac91e3ed15683580fd7680d4cd761926f61b2c6a06b752236a5adec",
+      "path": "tooling/three_letter_certificates/__init__.py",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/__init__.py",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "633f3dd74ac91e3ed15683580fd7680d4cd761926f61b2c6a06b752236a5adec",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 17012,
+      "included_sha256": "8fc3d37151a086a196aabe6aa819770dbd2ebc74cd0766ef270f07d79255d03a",
+      "path": "tooling/three_letter_certificates/_runtime.py",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/_runtime.py",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "8fc3d37151a086a196aabe6aa819770dbd2ebc74cd0766ef270f07d79255d03a",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 16391,
+      "included_sha256": "8a561ed466536e372eda6a7468f7baad63ffba170b2f630bff03c2cf612c24ba",
+      "path": "tooling/three_letter_certificates/affine.py",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/affine.py",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "8a561ed466536e372eda6a7468f7baad63ffba170b2f630bff03c2cf612c24ba",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 15065,
+      "included_sha256": "e06d311a6f82f162ad5488cf42aabdefc083a9d85f7126a475cba00a86cf15f2",
+      "path": "tooling/three_letter_certificates/controls.py",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/controls.py",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "e06d311a6f82f162ad5488cf42aabdefc083a9d85f7126a475cba00a86cf15f2",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 413,
+      "included_sha256": "a1deb2a2dd220dbf78b0743274780f0a23edd5e94a014d3cc04936d663f03b12",
+      "path": "tooling/three_letter_certificates/data/field-q3.json.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/field-q3.json.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "a1deb2a2dd220dbf78b0743274780f0a23edd5e94a014d3cc04936d663f03b12",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 16217,
+      "included_sha256": "96596cade6439753db4a481517db8bceae0bee5ecb075c458b40198731ee76cb",
+      "path": "tooling/three_letter_certificates/data/field-q4.json.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/field-q4.json.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "96596cade6439753db4a481517db8bceae0bee5ecb075c458b40198731ee76cb",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 539187,
+      "included_sha256": "c5fc1c71a449f35f5cc3a8f47ac83d88da553be466b7bf48e1c40f7924a9795e",
+      "path": "tooling/three_letter_certificates/data/field-q5.json.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/field-q5.json.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "c5fc1c71a449f35f5cc3a8f47ac83d88da553be466b7bf48e1c40f7924a9795e",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 2372784,
+      "included_sha256": "d10438ff800c040c116237c6164f9e1958982bfd4d9b7019757c7d1ac42036b4",
+      "path": "tooling/three_letter_certificates/data/field-q6.json.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/field-q6.json.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "d10438ff800c040c116237c6164f9e1958982bfd4d9b7019757c7d1ac42036b4",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 9139,
+      "included_sha256": "1ede3b1e32667c19e9fa1bfe1231be877c99847979b4f018a38a104fd171f5ce",
+      "path": "tooling/three_letter_certificates/data/manifest.json",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/manifest.json",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "1ede3b1e32667c19e9fa1bfe1231be877c99847979b4f018a38a104fd171f5ce",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 126,
+      "included_sha256": "cd1c37f1f7f5495a0caaca41a1afe0fb9e280ebbd0afd55e2eea5eb0fc89015f",
+      "path": "tooling/three_letter_certificates/data/normals.txt.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/normals.txt.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "cd1c37f1f7f5495a0caaca41a1afe0fb9e280ebbd0afd55e2eea5eb0fc89015f",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 61,
+      "included_sha256": "2980b59960ec73b63a548675c74cc2e7d7f173f0ccc83c5b1d9332a728980be4",
+      "path": "tooling/three_letter_certificates/data/q1.expected.tsv.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/q1.expected.tsv.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "2980b59960ec73b63a548675c74cc2e7d7f173f0ccc83c5b1d9332a728980be4",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 69,
+      "included_sha256": "a953d73a3dad539e72b68ac553068be4e3104d8aebd0745b83cf9f67e3293e6b",
+      "path": "tooling/three_letter_certificates/data/q1.keys.tsv.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/q1.keys.tsv.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "a953d73a3dad539e72b68ac553068be4e3104d8aebd0745b83cf9f67e3293e6b",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 165,
+      "included_sha256": "57bd19ca2ac171fb079f56a1faad34d504c08ac2fb117670a3b7db7ef6cdf279",
+      "path": "tooling/three_letter_certificates/data/q1.roster.tsv.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/q1.roster.tsv.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "57bd19ca2ac171fb079f56a1faad34d504c08ac2fb117670a3b7db7ef6cdf279",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 92,
+      "included_sha256": "884aa40b0bc7b65f83c86950f3e410c88ef32fc020db9edc272782598f62c0db",
+      "path": "tooling/three_letter_certificates/data/q1.types.txt.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/q1.types.txt.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "884aa40b0bc7b65f83c86950f3e410c88ef32fc020db9edc272782598f62c0db",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 530,
+      "included_sha256": "a87c2e05dffc5d140616f1cfcf3c169492e42b247fb32af2dd1975400c058db9",
+      "path": "tooling/three_letter_certificates/data/q2.expected.tsv.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/q2.expected.tsv.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "a87c2e05dffc5d140616f1cfcf3c169492e42b247fb32af2dd1975400c058db9",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 623,
+      "included_sha256": "314aeb99ce62d0da36102a8d0650d932a77613298f28663d0c380e1a07382850",
+      "path": "tooling/three_letter_certificates/data/q2.keys.tsv.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/q2.keys.tsv.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "314aeb99ce62d0da36102a8d0650d932a77613298f28663d0c380e1a07382850",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 2382,
+      "included_sha256": "581a761064ce6476d8e9b0c900253ead5fd7e852c934cd02a2841032113642f3",
+      "path": "tooling/three_letter_certificates/data/q2.roster.tsv.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/q2.roster.tsv.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "581a761064ce6476d8e9b0c900253ead5fd7e852c934cd02a2841032113642f3",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 714,
+      "included_sha256": "15d87a9542bdf562893b6f82628227f823fbc7822ae15899f556e045b60e2ddb",
+      "path": "tooling/three_letter_certificates/data/q2.types.txt.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/q2.types.txt.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "15d87a9542bdf562893b6f82628227f823fbc7822ae15899f556e045b60e2ddb",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 7689,
+      "included_sha256": "03d51eec071f3e3df21eaf6422f2a35f9dae3b81856d9bb903b3f8bbc1a22dc2",
+      "path": "tooling/three_letter_certificates/data/q3.expected.tsv.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/q3.expected.tsv.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "03d51eec071f3e3df21eaf6422f2a35f9dae3b81856d9bb903b3f8bbc1a22dc2",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 7910,
+      "included_sha256": "7dca08b72a9a0fffa28da1f42a07c5a65c30c9a673677703c6f8e3141abce64d",
+      "path": "tooling/three_letter_certificates/data/q3.keys.tsv.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/q3.keys.tsv.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "7dca08b72a9a0fffa28da1f42a07c5a65c30c9a673677703c6f8e3141abce64d",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 25519,
+      "included_sha256": "bf752456a035b18808e3ced40359ab5f07a50722b457e5bf380e43f4028f2f24",
+      "path": "tooling/three_letter_certificates/data/q3.roster.tsv.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/q3.roster.tsv.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "bf752456a035b18808e3ced40359ab5f07a50722b457e5bf380e43f4028f2f24",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 7997,
+      "included_sha256": "f7a3d7a4ad814f22bc9ee72dc656c99b13f02fb01144efbb086850bca0225eab",
+      "path": "tooling/three_letter_certificates/data/q3.types.txt.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/q3.types.txt.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "f7a3d7a4ad814f22bc9ee72dc656c99b13f02fb01144efbb086850bca0225eab",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 104633,
+      "included_sha256": "c8f7f16f42601bab69a4a9fb77691fd8c763fca89e26ca292633952481a0915a",
+      "path": "tooling/three_letter_certificates/data/q4.expected.tsv.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/q4.expected.tsv.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "c8f7f16f42601bab69a4a9fb77691fd8c763fca89e26ca292633952481a0915a",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 77538,
+      "included_sha256": "eeef5dcb339f36cb6fa3c9f9770fd196b376789d07537459e8de47cc51234f73",
+      "path": "tooling/three_letter_certificates/data/q4.keys.tsv.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/q4.keys.tsv.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "eeef5dcb339f36cb6fa3c9f9770fd196b376789d07537459e8de47cc51234f73",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 204280,
+      "included_sha256": "94df2032c5a0174700bb4bf3252a9c93d749edc1886bafa073cad32a8f5afa01",
+      "path": "tooling/three_letter_certificates/data/q4.roster.tsv.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/q4.roster.tsv.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "94df2032c5a0174700bb4bf3252a9c93d749edc1886bafa073cad32a8f5afa01",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 70217,
+      "included_sha256": "a16439ea1a5ffb88671d82570f51c5bd8d2229b74d5718310797cf91022fc4d4",
+      "path": "tooling/three_letter_certificates/data/q4.types.txt.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/q4.types.txt.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "a16439ea1a5ffb88671d82570f51c5bd8d2229b74d5718310797cf91022fc4d4",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 855688,
+      "included_sha256": "9ecfcdc9cb1dbe90c688a6d868409404a131cbe99baa294fb4c129a96934bb6a",
+      "path": "tooling/three_letter_certificates/data/q5.expected.tsv.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/q5.expected.tsv.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "9ecfcdc9cb1dbe90c688a6d868409404a131cbe99baa294fb4c129a96934bb6a",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 545267,
+      "included_sha256": "bd7142723003e2a9b6ca5c4d8fa5ba110d5d617170fe3bc65d84209275f734e2",
+      "path": "tooling/three_letter_certificates/data/q5.keys.tsv.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/q5.keys.tsv.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "bd7142723003e2a9b6ca5c4d8fa5ba110d5d617170fe3bc65d84209275f734e2",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 1211766,
+      "included_sha256": "345fd3c52ffb14eea97aa25a0d3f3d377fbd31845e6a87b99ad090aecad3ff2b",
+      "path": "tooling/three_letter_certificates/data/q5.roster.tsv.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/q5.roster.tsv.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "345fd3c52ffb14eea97aa25a0d3f3d377fbd31845e6a87b99ad090aecad3ff2b",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 441446,
+      "included_sha256": "5094603512ff912d0b3d61f2b92c4953dc6a8358e0032d045fde2b78f2de007d",
+      "path": "tooling/three_letter_certificates/data/q5.types.txt.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/q5.types.txt.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "5094603512ff912d0b3d61f2b92c4953dc6a8358e0032d045fde2b78f2de007d",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 5068504,
+      "included_sha256": "a8307aaa2a6f44eaefd6c40d56a652f7f55aee00f539531a8f4ee811622b47e3",
+      "path": "tooling/three_letter_certificates/data/q6.expected.tsv.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/q6.expected.tsv.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "a8307aaa2a6f44eaefd6c40d56a652f7f55aee00f539531a8f4ee811622b47e3",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 2729103,
+      "included_sha256": "667285890bb62576a0338f372313de7f0f0db0405c8fd7cd7c6316fb583c8104",
+      "path": "tooling/three_letter_certificates/data/q6.keys.tsv.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/q6.keys.tsv.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "667285890bb62576a0338f372313de7f0f0db0405c8fd7cd7c6316fb583c8104",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 5431737,
+      "included_sha256": "03cf5c197ec0957772e33bac2c619ff11da64aa0b3a962ee819f8fa3c9ea2d53",
+      "path": "tooling/three_letter_certificates/data/q6.roster.tsv.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/q6.roster.tsv.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "03cf5c197ec0957772e33bac2c619ff11da64aa0b3a962ee819f8fa3c9ea2d53",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 1887191,
+      "included_sha256": "3c0f30c3864abe337c28e75565065e3461ce9c7a246c9a7bdada9badf04d36f8",
+      "path": "tooling/three_letter_certificates/data/q6.types.txt.gz",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/data/q6.types.txt.gz",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "3c0f30c3864abe337c28e75565065e3461ce9c7a246c9a7bdada9badf04d36f8",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 5389,
+      "included_sha256": "8fa5ec3180f8b7c9d2612eedc9adaa9d3d1bcd42c1853d17cde5d9c7315b6254",
+      "path": "tooling/three_letter_certificates/field_check.py",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/field_check.py",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "8fa5ec3180f8b7c9d2612eedc9adaa9d3d1bcd42c1853d17cde5d9c7315b6254",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 12289,
+      "included_sha256": "07e2cb11736ea8c63ab5566bb7d086bbe12fd9d7855121e76e1ca81708482ab8",
+      "path": "tooling/three_letter_certificates/finalization_controls.py",
+      "provenance": "Current authored reader, metadata or packaging file; no earlier mathematical source equivalence is asserted",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/finalization_controls.py",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "07e2cb11736ea8c63ab5566bb7d086bbe12fd9d7855121e76e1ca81708482ab8",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 3192,
+      "included_sha256": "14fa9d4c1946eb086ab374064c58c9f4e9e60974e6d7b33b6c54b212023d2377",
+      "path": "tooling/three_letter_certificates/hessenberg.py",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/hessenberg.py",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "14fa9d4c1946eb086ab374064c58c9f4e9e60974e6d7b33b6c54b212023d2377",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 5528,
+      "included_sha256": "161c6fa3556970d193bff5ae29317a514e6bdc7ae80b6e724990b76c92eb7306",
+      "path": "tooling/three_letter_certificates/model.py",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/model.py",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "161c6fa3556970d193bff5ae29317a514e6bdc7ae80b6e724990b76c92eb7306",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 458,
+      "included_sha256": "35f7cfbb6a29fcfa12bd1de5d3185d9e7dae8da5a5fc1e0c690e04a39e251362",
+      "path": "tooling/three_letter_certificates/probe.py",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/probe.py",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "35f7cfbb6a29fcfa12bd1de5d3185d9e7dae8da5a5fc1e0c690e04a39e251362",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 7157,
+      "included_sha256": "ddb6e897d2e0e3a71834095e448355edf8b54ad59fc706f013f718ada66cdbf7",
+      "path": "tooling/three_letter_certificates/runner.py",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/runner.py",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "ddb6e897d2e0e3a71834095e448355edf8b54ad59fc706f013f718ada66cdbf7",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 19840,
+      "included_sha256": "00cf25aa753ff837d4135a4361717b6e6e1e1c89608b79f4aa1c36627bf6c1bf",
+      "path": "tooling/three_letter_certificates/src/bv.cpp",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/src/bv.cpp",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "00cf25aa753ff837d4135a4361717b6e6e1e1c89608b79f4aa1c36627bf6c1bf",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 16032,
+      "included_sha256": "83c058a6cad8d2efb7f8d7169ab33adce3d99d094c6ab322114881ea5130caa1",
+      "path": "tooling/three_letter_certificates/src/type_check.cpp",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/src/type_check.cpp",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "83c058a6cad8d2efb7f8d7169ab33adce3d99d094c6ab322114881ea5130caa1",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
+      "included_bytes": 15588,
+      "included_sha256": "49493839c8bc9152ee1d0696b157e4ae5e790492a2cefb9b1bdb5eff50d13e9c",
+      "path": "tooling/three_letter_certificates/verify.py",
+      "provenance": "Curated three-letter mathematical source or exact module source map.",
+      "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+      "source_path": "code/three_letter_certificates/verify.py",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "49493839c8bc9152ee1d0696b157e4ae5e790492a2cefb9b1bdb5eff50d13e9c",
+      "transformation": "none; exact curated source bytes"
+    },
+    {
       "included_bytes": 6736,
       "included_sha256": "627d98c5248fb03e4a7700c1e0756a9e14266d0be5c6fdaacc969291a4802305",
       "path": "tooling/three_row_coefficients/PROOF.md",
@@ -10037,15 +10647,25 @@
       "path": "results/structural-positivity/replay/SOURCE-MAP.json",
       "sha256": "f38362dc7b06c7a7398463659dee6cd9b75216840e3bc8a7aee41cd58246d6d6"
     },
+    "results/three-letter-rank-six": {
+      "bytes": 2874,
+      "path": "results/three-letter-rank-six/SOURCE-MAP.json",
+      "sha256": "1e0b8898a29aa143ab6454decf69e501a768b3eaff66127d9279fcdf6cd1f112"
+    },
     "results/transport-capped": {
       "bytes": 4690,
       "path": "results/transport-capped/SOURCE-MAP.json",
       "sha256": "82fb53a883d87262bc75bd0608adb4ddf709b61805e055c8107ebd4987b59975"
     },
     "tooling": {
-      "bytes": 85937,
+      "bytes": 119244,
       "path": "tooling/SOURCE-UPDATE.json",
-      "sha256": "86f2f85c35b098751ff977c479d199e9298bf898c864378fba54b90d1ac2386d"
+      "sha256": "ae4b49a6ebcdbcea8d43041adfdb9d1371fb956bc8d68a4ec57b804415ff088a"
+    },
+    "tooling/three_letter_certificates": {
+      "bytes": 25696,
+      "path": "tooling/three_letter_certificates/SOURCE-MAP.json",
+      "sha256": "0708316e27d9a84792575523aaeaff5fc32636f4ca6d5b5c9dbdcadd434744d2"
     },
     "tooling/three_row_coefficients": {
       "bytes": 3966,

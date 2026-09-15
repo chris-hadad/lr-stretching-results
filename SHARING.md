@@ -24,7 +24,13 @@ Software is licensed under MIT; research content and data are licensed under
 CC BY 4.0. [LICENSING.md](LICENSING.md) describes reuse and attribution,
 including the license companion supplied with the versioned downloads.
 
-The September 13 archives remain dated editions. The later rank-six coefficient
-module is included in the current Git source and is not added retroactively to
+The September 13 archives remain dated editions. The later rank-six coefficient and three-letter family
+modules are included in the current Git source and is not added retroactively to
 those archives. Results are shared incrementally at their verified scopes;
 subsequent corrections and extensions retain identifiable prior versions.
+
+For the complete three-letter result, cite the exact source commit together
+with the [theorem](tooling/three_letter_certificates/PROOF.md), mathematical
+data manifest and verification record. The source maps preserve the original
+research evidence and the curated portable files separately. Earlier release
+archives are not relabeled as containing this later theorem.

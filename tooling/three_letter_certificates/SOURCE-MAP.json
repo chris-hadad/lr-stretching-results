@@ -1,0 +1,594 @@
+{
+  "files": [
+    {
+      "bytes": 4017,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/HESSENBERG.md",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "45e9856b322de409893a03e0ab0e9e3c7dc29c28efb10ccdc804ed36f801a0a3",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "HESSENBERG.md",
+      "sha256": "45e9856b322de409893a03e0ab0e9e3c7dc29c28efb10ccdc804ed36f801a0a3"
+    },
+    {
+      "bytes": 8161,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/INTERIOR.md",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "ed326b46da583a43aa6cb3954d43ae6abab49e54057f276286b7c92fe7148890",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "INTERIOR.md",
+      "sha256": "ed326b46da583a43aa6cb3954d43ae6abab49e54057f276286b7c92fe7148890"
+    },
+    {
+      "bytes": 6463,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/MODEL.md",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "529d249e2c288ceedc5cbc4f5a90c56715cd19caa7d4de297b81921627186f20",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "MODEL.md",
+      "sha256": "529d249e2c288ceedc5cbc4f5a90c56715cd19caa7d4de297b81921627186f20"
+    },
+    {
+      "bytes": 13780,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/PROOF.md",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "b6802299ba7ba19e401ba1e9aa3dcd03ab70516920fd749b88c3bb47f0294148",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "PROOF.md",
+      "sha256": "b6802299ba7ba19e401ba1e9aa3dcd03ab70516920fd749b88c3bb47f0294148"
+    },
+    {
+      "bytes": 3919,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/README.md",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "945b0a528bbb97ab2e7fffc7cdee3b182f16cc19b1d1b6bb149081083c1deb44",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "README.md",
+      "sha256": "945b0a528bbb97ab2e7fffc7cdee3b182f16cc19b1d1b6bb149081083c1deb44"
+    },
+    {
+      "bytes": 1952,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/SOURCE-CONTRACT.json",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "9b54a0035fe8b9da8d19116c3f976777aeb1753bb7f96c71734826b87c4ae7c0",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "SOURCE-CONTRACT.json",
+      "sha256": "9b54a0035fe8b9da8d19116c3f976777aeb1753bb7f96c71734826b87c4ae7c0"
+    },
+    {
+      "bytes": 73,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/__init__.py",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "633f3dd74ac91e3ed15683580fd7680d4cd761926f61b2c6a06b752236a5adec",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "__init__.py",
+      "sha256": "633f3dd74ac91e3ed15683580fd7680d4cd761926f61b2c6a06b752236a5adec"
+    },
+    {
+      "bytes": 17012,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/_runtime.py",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "8fc3d37151a086a196aabe6aa819770dbd2ebc74cd0766ef270f07d79255d03a",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "_runtime.py",
+      "sha256": "8fc3d37151a086a196aabe6aa819770dbd2ebc74cd0766ef270f07d79255d03a"
+    },
+    {
+      "bytes": 16391,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/affine.py",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "8a561ed466536e372eda6a7468f7baad63ffba170b2f630bff03c2cf612c24ba",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "affine.py",
+      "sha256": "8a561ed466536e372eda6a7468f7baad63ffba170b2f630bff03c2cf612c24ba"
+    },
+    {
+      "bytes": 15065,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/controls.py",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "e06d311a6f82f162ad5488cf42aabdefc083a9d85f7126a475cba00a86cf15f2",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "controls.py",
+      "sha256": "e06d311a6f82f162ad5488cf42aabdefc083a9d85f7126a475cba00a86cf15f2"
+    },
+    {
+      "bytes": 413,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/field-q3.json.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "a1deb2a2dd220dbf78b0743274780f0a23edd5e94a014d3cc04936d663f03b12",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/field-q3.json.gz",
+      "sha256": "a1deb2a2dd220dbf78b0743274780f0a23edd5e94a014d3cc04936d663f03b12"
+    },
+    {
+      "bytes": 16217,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/field-q4.json.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "96596cade6439753db4a481517db8bceae0bee5ecb075c458b40198731ee76cb",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/field-q4.json.gz",
+      "sha256": "96596cade6439753db4a481517db8bceae0bee5ecb075c458b40198731ee76cb"
+    },
+    {
+      "bytes": 539187,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/field-q5.json.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "c5fc1c71a449f35f5cc3a8f47ac83d88da553be466b7bf48e1c40f7924a9795e",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/field-q5.json.gz",
+      "sha256": "c5fc1c71a449f35f5cc3a8f47ac83d88da553be466b7bf48e1c40f7924a9795e"
+    },
+    {
+      "bytes": 2372784,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/field-q6.json.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "d10438ff800c040c116237c6164f9e1958982bfd4d9b7019757c7d1ac42036b4",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/field-q6.json.gz",
+      "sha256": "d10438ff800c040c116237c6164f9e1958982bfd4d9b7019757c7d1ac42036b4"
+    },
+    {
+      "bytes": 9139,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/manifest.json",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "1ede3b1e32667c19e9fa1bfe1231be877c99847979b4f018a38a104fd171f5ce",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/manifest.json",
+      "sha256": "1ede3b1e32667c19e9fa1bfe1231be877c99847979b4f018a38a104fd171f5ce"
+    },
+    {
+      "bytes": 126,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/normals.txt.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "cd1c37f1f7f5495a0caaca41a1afe0fb9e280ebbd0afd55e2eea5eb0fc89015f",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/normals.txt.gz",
+      "sha256": "cd1c37f1f7f5495a0caaca41a1afe0fb9e280ebbd0afd55e2eea5eb0fc89015f"
+    },
+    {
+      "bytes": 61,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/q1.expected.tsv.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "2980b59960ec73b63a548675c74cc2e7d7f173f0ccc83c5b1d9332a728980be4",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/q1.expected.tsv.gz",
+      "sha256": "2980b59960ec73b63a548675c74cc2e7d7f173f0ccc83c5b1d9332a728980be4"
+    },
+    {
+      "bytes": 69,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/q1.keys.tsv.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "a953d73a3dad539e72b68ac553068be4e3104d8aebd0745b83cf9f67e3293e6b",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/q1.keys.tsv.gz",
+      "sha256": "a953d73a3dad539e72b68ac553068be4e3104d8aebd0745b83cf9f67e3293e6b"
+    },
+    {
+      "bytes": 165,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/q1.roster.tsv.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "57bd19ca2ac171fb079f56a1faad34d504c08ac2fb117670a3b7db7ef6cdf279",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/q1.roster.tsv.gz",
+      "sha256": "57bd19ca2ac171fb079f56a1faad34d504c08ac2fb117670a3b7db7ef6cdf279"
+    },
+    {
+      "bytes": 92,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/q1.types.txt.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "884aa40b0bc7b65f83c86950f3e410c88ef32fc020db9edc272782598f62c0db",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/q1.types.txt.gz",
+      "sha256": "884aa40b0bc7b65f83c86950f3e410c88ef32fc020db9edc272782598f62c0db"
+    },
+    {
+      "bytes": 530,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/q2.expected.tsv.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "a87c2e05dffc5d140616f1cfcf3c169492e42b247fb32af2dd1975400c058db9",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/q2.expected.tsv.gz",
+      "sha256": "a87c2e05dffc5d140616f1cfcf3c169492e42b247fb32af2dd1975400c058db9"
+    },
+    {
+      "bytes": 623,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/q2.keys.tsv.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "314aeb99ce62d0da36102a8d0650d932a77613298f28663d0c380e1a07382850",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/q2.keys.tsv.gz",
+      "sha256": "314aeb99ce62d0da36102a8d0650d932a77613298f28663d0c380e1a07382850"
+    },
+    {
+      "bytes": 2382,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/q2.roster.tsv.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "581a761064ce6476d8e9b0c900253ead5fd7e852c934cd02a2841032113642f3",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/q2.roster.tsv.gz",
+      "sha256": "581a761064ce6476d8e9b0c900253ead5fd7e852c934cd02a2841032113642f3"
+    },
+    {
+      "bytes": 714,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/q2.types.txt.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "15d87a9542bdf562893b6f82628227f823fbc7822ae15899f556e045b60e2ddb",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/q2.types.txt.gz",
+      "sha256": "15d87a9542bdf562893b6f82628227f823fbc7822ae15899f556e045b60e2ddb"
+    },
+    {
+      "bytes": 7689,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/q3.expected.tsv.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "03d51eec071f3e3df21eaf6422f2a35f9dae3b81856d9bb903b3f8bbc1a22dc2",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/q3.expected.tsv.gz",
+      "sha256": "03d51eec071f3e3df21eaf6422f2a35f9dae3b81856d9bb903b3f8bbc1a22dc2"
+    },
+    {
+      "bytes": 7910,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/q3.keys.tsv.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "7dca08b72a9a0fffa28da1f42a07c5a65c30c9a673677703c6f8e3141abce64d",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/q3.keys.tsv.gz",
+      "sha256": "7dca08b72a9a0fffa28da1f42a07c5a65c30c9a673677703c6f8e3141abce64d"
+    },
+    {
+      "bytes": 25519,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/q3.roster.tsv.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "bf752456a035b18808e3ced40359ab5f07a50722b457e5bf380e43f4028f2f24",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/q3.roster.tsv.gz",
+      "sha256": "bf752456a035b18808e3ced40359ab5f07a50722b457e5bf380e43f4028f2f24"
+    },
+    {
+      "bytes": 7997,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/q3.types.txt.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "f7a3d7a4ad814f22bc9ee72dc656c99b13f02fb01144efbb086850bca0225eab",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/q3.types.txt.gz",
+      "sha256": "f7a3d7a4ad814f22bc9ee72dc656c99b13f02fb01144efbb086850bca0225eab"
+    },
+    {
+      "bytes": 104633,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/q4.expected.tsv.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "c8f7f16f42601bab69a4a9fb77691fd8c763fca89e26ca292633952481a0915a",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/q4.expected.tsv.gz",
+      "sha256": "c8f7f16f42601bab69a4a9fb77691fd8c763fca89e26ca292633952481a0915a"
+    },
+    {
+      "bytes": 77538,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/q4.keys.tsv.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "eeef5dcb339f36cb6fa3c9f9770fd196b376789d07537459e8de47cc51234f73",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/q4.keys.tsv.gz",
+      "sha256": "eeef5dcb339f36cb6fa3c9f9770fd196b376789d07537459e8de47cc51234f73"
+    },
+    {
+      "bytes": 204280,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/q4.roster.tsv.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "94df2032c5a0174700bb4bf3252a9c93d749edc1886bafa073cad32a8f5afa01",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/q4.roster.tsv.gz",
+      "sha256": "94df2032c5a0174700bb4bf3252a9c93d749edc1886bafa073cad32a8f5afa01"
+    },
+    {
+      "bytes": 70217,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/q4.types.txt.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "a16439ea1a5ffb88671d82570f51c5bd8d2229b74d5718310797cf91022fc4d4",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/q4.types.txt.gz",
+      "sha256": "a16439ea1a5ffb88671d82570f51c5bd8d2229b74d5718310797cf91022fc4d4"
+    },
+    {
+      "bytes": 855688,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/q5.expected.tsv.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "9ecfcdc9cb1dbe90c688a6d868409404a131cbe99baa294fb4c129a96934bb6a",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/q5.expected.tsv.gz",
+      "sha256": "9ecfcdc9cb1dbe90c688a6d868409404a131cbe99baa294fb4c129a96934bb6a"
+    },
+    {
+      "bytes": 545267,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/q5.keys.tsv.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "bd7142723003e2a9b6ca5c4d8fa5ba110d5d617170fe3bc65d84209275f734e2",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/q5.keys.tsv.gz",
+      "sha256": "bd7142723003e2a9b6ca5c4d8fa5ba110d5d617170fe3bc65d84209275f734e2"
+    },
+    {
+      "bytes": 1211766,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/q5.roster.tsv.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "345fd3c52ffb14eea97aa25a0d3f3d377fbd31845e6a87b99ad090aecad3ff2b",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/q5.roster.tsv.gz",
+      "sha256": "345fd3c52ffb14eea97aa25a0d3f3d377fbd31845e6a87b99ad090aecad3ff2b"
+    },
+    {
+      "bytes": 441446,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/q5.types.txt.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "5094603512ff912d0b3d61f2b92c4953dc6a8358e0032d045fde2b78f2de007d",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/q5.types.txt.gz",
+      "sha256": "5094603512ff912d0b3d61f2b92c4953dc6a8358e0032d045fde2b78f2de007d"
+    },
+    {
+      "bytes": 5068504,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/q6.expected.tsv.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "a8307aaa2a6f44eaefd6c40d56a652f7f55aee00f539531a8f4ee811622b47e3",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/q6.expected.tsv.gz",
+      "sha256": "a8307aaa2a6f44eaefd6c40d56a652f7f55aee00f539531a8f4ee811622b47e3"
+    },
+    {
+      "bytes": 2729103,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/q6.keys.tsv.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "667285890bb62576a0338f372313de7f0f0db0405c8fd7cd7c6316fb583c8104",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/q6.keys.tsv.gz",
+      "sha256": "667285890bb62576a0338f372313de7f0f0db0405c8fd7cd7c6316fb583c8104"
+    },
+    {
+      "bytes": 5431737,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/q6.roster.tsv.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "03cf5c197ec0957772e33bac2c619ff11da64aa0b3a962ee819f8fa3c9ea2d53",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/q6.roster.tsv.gz",
+      "sha256": "03cf5c197ec0957772e33bac2c619ff11da64aa0b3a962ee819f8fa3c9ea2d53"
+    },
+    {
+      "bytes": 1887191,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/data/q6.types.txt.gz",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "3c0f30c3864abe337c28e75565065e3461ce9c7a246c9a7bdada9badf04d36f8",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "data/q6.types.txt.gz",
+      "sha256": "3c0f30c3864abe337c28e75565065e3461ce9c7a246c9a7bdada9badf04d36f8"
+    },
+    {
+      "bytes": 5389,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/field_check.py",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "8fa5ec3180f8b7c9d2612eedc9adaa9d3d1bcd42c1853d17cde5d9c7315b6254",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "field_check.py",
+      "sha256": "8fa5ec3180f8b7c9d2612eedc9adaa9d3d1bcd42c1853d17cde5d9c7315b6254"
+    },
+    {
+      "bytes": 12289,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/finalization_controls.py",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "07e2cb11736ea8c63ab5566bb7d086bbe12fd9d7855121e76e1ca81708482ab8",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "finalization_controls.py",
+      "sha256": "07e2cb11736ea8c63ab5566bb7d086bbe12fd9d7855121e76e1ca81708482ab8"
+    },
+    {
+      "bytes": 3192,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/hessenberg.py",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "14fa9d4c1946eb086ab374064c58c9f4e9e60974e6d7b33b6c54b212023d2377",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "hessenberg.py",
+      "sha256": "14fa9d4c1946eb086ab374064c58c9f4e9e60974e6d7b33b6c54b212023d2377"
+    },
+    {
+      "bytes": 5528,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/model.py",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "161c6fa3556970d193bff5ae29317a514e6bdc7ae80b6e724990b76c92eb7306",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "model.py",
+      "sha256": "161c6fa3556970d193bff5ae29317a514e6bdc7ae80b6e724990b76c92eb7306"
+    },
+    {
+      "bytes": 458,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/probe.py",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "35f7cfbb6a29fcfa12bd1de5d3185d9e7dae8da5a5fc1e0c690e04a39e251362",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "probe.py",
+      "sha256": "35f7cfbb6a29fcfa12bd1de5d3185d9e7dae8da5a5fc1e0c690e04a39e251362"
+    },
+    {
+      "bytes": 7157,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/runner.py",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "ddb6e897d2e0e3a71834095e448355edf8b54ad59fc706f013f718ada66cdbf7",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "runner.py",
+      "sha256": "ddb6e897d2e0e3a71834095e448355edf8b54ad59fc706f013f718ada66cdbf7"
+    },
+    {
+      "bytes": 19840,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/src/bv.cpp",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "00cf25aa753ff837d4135a4361717b6e6e1e1c89608b79f4aa1c36627bf6c1bf",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "src/bv.cpp",
+      "sha256": "00cf25aa753ff837d4135a4361717b6e6e1e1c89608b79f4aa1c36627bf6c1bf"
+    },
+    {
+      "bytes": 16032,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/src/type_check.cpp",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "83c058a6cad8d2efb7f8d7169ab33adce3d99d094c6ab322114881ea5130caa1",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "src/type_check.cpp",
+      "sha256": "83c058a6cad8d2efb7f8d7169ab33adce3d99d094c6ab322114881ea5130caa1"
+    },
+    {
+      "bytes": 15588,
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "code/three_letter_certificates/verify.py",
+        "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
+        "source_sha256": "49493839c8bc9152ee1d0696b157e4ae5e790492a2cefb9b1bdb5eff50d13e9c",
+        "transformation": "none; exact curated source bytes"
+      },
+      "path": "verify.py",
+      "sha256": "49493839c8bc9152ee1d0696b157e4ae5e790492a2cefb9b1bdb5eff50d13e9c"
+    }
+  ],
+  "schema": "three-letter-module-source-map-v1",
+  "scope": "Every current module member except this map, with exact committed curated source bytes. Public execution requires no private checkout."
+}

@@ -79,6 +79,17 @@ do not promise a wall-clock or memory bound. No general speedup is claimed.
 The optional `slr_ehrhart.hive` module builds inequalities with the standard
 library; its polyhedron/dimension hooks require separately installed Sage.
 
+## Complete three-letter LR families
+
+[three_letter_certificates/README.md](three_letter_certificates/README.md)
+reconstructs every original normal subset, full image lattice, exact BV
+constant and rational field for the entire rank<=6 family with one inner
+partition of length<=3. The four q3–q6 fields give a common face-volume
+margin of 1/100000000. Python, C++17 and GMP are required; all inputs are
+included and no private checkout or LP solver is needed. The companion
+model, interior and complete successive-overlap formulas retain their full
+original-domain and zero-boundary contracts.
+
 ## Complete transportation and three-row coefficients
 
 [transport_certificates/README.md](transport_certificates/README.md) reconstructs the entire all-margin 3-by-5 transportation and four-capacity LR positivity proof with Python's standard library. Its three exact fields occupy about 58 KB. An optional C++/GMP command independently checks every local constant; complete rosters, original lattices and failure limits are explicit.

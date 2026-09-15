@@ -38,6 +38,26 @@ The [structural module guide](results/structural-positivity/README.md) gives
 the commands for its individual families. Each distinguishes newly performed
 algebra from retained historical count observations.
 
+## Complete three-letter rank-six certificate
+
+The [three-letter module](tooling/three_letter_certificates/README.md) includes
+all mathematical inputs and a full original-lattice reconstruction. It needs
+Python 3.11+, C++17, GMP and the POSIX facilities named in its guide:
+
+```sh
+python3 -B tooling/three_letter_certificates/verify.py full --output /path/to/new-three-letter-run
+python3 -B tooling/three_letter_certificates/controls.py --verified-output /path/to/new-three-letter-run --output /path/to/new-three-letter-controls
+```
+
+Use the module's `--gmp-prefix` option if headers and libraries are outside
+the compiler's standard search path. A fresh relocated export has executed
+the complete 1,149,016-subset / 395,657-value / 664,539-field-row check. The
+[verification record](results/three-letter-rank-six/VERIFICATION.json) separates
+that reproduction from the underlying theorem and independent count controls.
+The controls exercise missing/corrupted input, the full image lattice,
+Bernoulli and field omissions, and interruption of the actual outer CLI.
+Neither command runs the finite box or an old rank-six coefficient census.
+
 ## Complete transportation and capped-family certificates
 
 The [small whole-family module](tooling/transport_certificates/README.md) requires only Python 3.11+ for its complete proof replay:
@@ -138,7 +158,7 @@ The [September 13 source and offline bundles](https://github.com/chris-hadad/lr-
 contain the reader-facing proof collection and identify their exact source
 commit. The numerical archives retain their original version and hashes.
 
-The September 13 archives remain dated editions. The later rank-six coefficient
-module is included in the current Git source and is not added retroactively to
+The September 13 archives remain dated editions. The later rank-six coefficient and three-letter family
+modules are included in the current Git source and is not added retroactively to
 those archives. Results are shared incrementally at their verified scopes;
 subsequent corrections and extensions retain identifiable prior versions.

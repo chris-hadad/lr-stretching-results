@@ -97,3 +97,21 @@ because a program prints success.
 External mathematical review, novelty assessment and FrontierMath's treatment
 of the result remain open. The strongest immediate contribution is a specific,
 checkable result with methods other researchers can scrutinize and extend.
+
+## From a smaller full model to an unbounded family
+
+For the three-letter rank-six result, the useful reduction was a complete
+seven-coordinate model with an integer inverse. Its local weights included
+negative values, so pointwise positivity failed. Full rational correction
+fields redistributed those weights through the original primitive lattice
+relations. Every original row was then checked exactly. Solver timeouts
+changed the computational method; they were not interpreted as mathematical
+obstructions.
+
+The interior translation and full affine compensation were developed as
+distinct whole-object explanations. Deliberately dropping the affine offsets
+produced false negative controls. Exact whole-hive and tableau comparisons
+checked the correct formulas, including zero interiors and unused positive
+grades. The [full argument](tooling/three_letter_certificates/PROOF.md) explains
+why a finite original-normal certificate covers every parameter boundary in
+the stated unbounded family.

@@ -27,7 +27,7 @@ It derived the degree bound and counting method and fixed the reconstructed
 polynomial before comparison with the proposed coefficients. The resulting
 root certificates were recomputed separately using exact rational arithmetic.
 
-The later verifications examined proposed proofs and data before rederiving
+The earlier family and finite-box verifications examined proposed proofs and data before rederiving
 formulas, reconstructing certificates or applying other counting models.
 They are not blind verifications. Independently written programs, different
 counting representations and separate AI reasoning contexts provide distinct
@@ -112,3 +112,22 @@ contributions are described here without assigning authorship to AI systems.
 ## Transportation and capped-family certificates, 14 September 2026
 
 The new [whole-family result](results/transport-capped/README.md) uses root-derived original normal systems and exact correction fields. Separate Python Fraction and C++ GMP implementations reconstruct all local constants; a second complete verification independently rebuilds kernels, primitive quotients, every matrix entry and rational inequality. The full coefficient interfaces are checked against unsigned LR and table/cap counts. Both implementations use the same classical BV recurrence, so their agreement is not an independent analytic theorem. Berline-Vergne, Ferudun's correction method, earlier normal-cycle work and the complete classical character identities retain credit. Exact counts, current review scope and source maps accompany the result; no external human acceptance or worldwide priority is implied.
+
+## Complete three-letter families, 14 September 2026
+
+Codex/Astra originated the full row-letter specialization, four rational
+fields, interior translation and successive-overlap compensation developments.
+The first local-value implementation and a separately authored reverse-subset
+adjoint implementation agree on all 395,657 constants. The second numerical
+source was frozen before primary values or evaluator code were read; this
+specific data-blind implementation boundary does not make every part of the
+mathematical program blind. A further complete check reconstructed original
+lattices, indices, field matrices and every corrected row. Whole counts were
+checked by tableaux, lrcalc and whole-hive polynomials.
+
+The [result](results/three-letter-rank-six/README.md) credits classical LR
+triangles, polynomiality, saturation and BV valuation, Ferudun's correction
+approach and the preceding normal-cycle work. The common mathematical
+recurrence remains a shared analytic premise. The complete portable replay
+is deployment evidence for those programs, not a third independent analytic
+proof. Human expert assessment and worldwide priority remain separate.
