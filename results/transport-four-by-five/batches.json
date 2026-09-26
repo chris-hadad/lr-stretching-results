@@ -1,0 +1,600 @@
+[
+  {
+    "kind": "cover",
+    "part": "F",
+    "lo": 0,
+    "hi": 25000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT04/DATA/COVER-F-COMPLETE.cells.txt",
+      "source/UNIT04/DATA/COVER-F-COMPLETE.simplices.txt",
+      "source/UNIT04/DATA/COVER-F-COMPLETE.signs.txt"
+    ]
+  },
+  {
+    "kind": "cover",
+    "part": "F",
+    "lo": 25000,
+    "hi": 41482,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT04/DATA/COVER-F-COMPLETE.cells.txt",
+      "source/UNIT04/DATA/COVER-F-COMPLETE.simplices.txt",
+      "source/UNIT04/DATA/COVER-F-COMPLETE.signs.txt"
+    ]
+  },
+  {
+    "kind": "cover",
+    "part": "U",
+    "lo": 0,
+    "hi": 25000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT04/DATA/COVER-U-B000.cells.txt",
+      "source/UNIT04/DATA/COVER-U-B000.simplices.txt",
+      "source/UNIT04/DATA/COVER-U-B000.signs.txt"
+    ]
+  },
+  {
+    "kind": "cover",
+    "part": "U",
+    "lo": 25000,
+    "hi": 50000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT04/DATA/COVER-U-B000.cells.txt",
+      "source/UNIT04/DATA/COVER-U-B000.simplices.txt",
+      "source/UNIT04/DATA/COVER-U-B000.signs.txt"
+    ]
+  },
+  {
+    "kind": "cover",
+    "part": "U",
+    "lo": 50000,
+    "hi": 75000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT04/DATA/COVER-U-B000.cells.txt",
+      "source/UNIT04/DATA/COVER-U-B000.simplices.txt",
+      "source/UNIT04/DATA/COVER-U-B000.signs.txt"
+    ]
+  },
+  {
+    "kind": "cover",
+    "part": "U",
+    "lo": 75000,
+    "hi": 100000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT04/DATA/COVER-U-B000.cells.txt",
+      "source/UNIT04/DATA/COVER-U-B000.simplices.txt",
+      "source/UNIT04/DATA/COVER-U-B000.signs.txt"
+    ]
+  },
+  {
+    "kind": "cover",
+    "part": "U",
+    "lo": 100000,
+    "hi": 125000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT04/DATA/COVER-U-B001.cells.txt",
+      "source/UNIT04/DATA/COVER-U-B001.simplices.txt",
+      "source/UNIT04/DATA/COVER-U-B001.signs.txt"
+    ]
+  },
+  {
+    "kind": "cover",
+    "part": "U",
+    "lo": 125000,
+    "hi": 150000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT04/DATA/COVER-U-B001.cells.txt",
+      "source/UNIT04/DATA/COVER-U-B001.simplices.txt",
+      "source/UNIT04/DATA/COVER-U-B001.signs.txt"
+    ]
+  },
+  {
+    "kind": "cover",
+    "part": "U",
+    "lo": 150000,
+    "hi": 175000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT04/DATA/COVER-U-B001.cells.txt",
+      "source/UNIT04/DATA/COVER-U-B001.simplices.txt",
+      "source/UNIT04/DATA/COVER-U-B001.signs.txt"
+    ]
+  },
+  {
+    "kind": "cover",
+    "part": "U",
+    "lo": 175000,
+    "hi": 200000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT04/DATA/COVER-U-B001.cells.txt",
+      "source/UNIT04/DATA/COVER-U-B001.simplices.txt",
+      "source/UNIT04/DATA/COVER-U-B001.signs.txt"
+    ]
+  },
+  {
+    "kind": "cover",
+    "part": "U",
+    "lo": 200000,
+    "hi": 225000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT04/DATA/COVER-U-B002.cells.txt",
+      "source/UNIT04/DATA/COVER-U-B002.simplices.txt",
+      "source/UNIT04/DATA/COVER-U-B002.signs.txt"
+    ]
+  },
+  {
+    "kind": "cover",
+    "part": "U",
+    "lo": 225000,
+    "hi": 250000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT04/DATA/COVER-U-B002.cells.txt",
+      "source/UNIT04/DATA/COVER-U-B002.simplices.txt",
+      "source/UNIT04/DATA/COVER-U-B002.signs.txt"
+    ]
+  },
+  {
+    "kind": "cover",
+    "part": "U",
+    "lo": 250000,
+    "hi": 275000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT04/DATA/COVER-U-B002.cells.txt",
+      "source/UNIT04/DATA/COVER-U-B002.simplices.txt",
+      "source/UNIT04/DATA/COVER-U-B002.signs.txt"
+    ]
+  },
+  {
+    "kind": "cover",
+    "part": "U",
+    "lo": 275000,
+    "hi": 300000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT04/DATA/COVER-U-B002.cells.txt",
+      "source/UNIT04/DATA/COVER-U-B002.simplices.txt",
+      "source/UNIT04/DATA/COVER-U-B002.signs.txt"
+    ]
+  },
+  {
+    "kind": "cover",
+    "part": "U",
+    "lo": 300000,
+    "hi": 325000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT04/DATA/COVER-U-B003.cells.txt",
+      "source/UNIT04/DATA/COVER-U-B003.simplices.txt",
+      "source/UNIT04/DATA/COVER-U-B003.signs.txt"
+    ]
+  },
+  {
+    "kind": "cover",
+    "part": "U",
+    "lo": 325000,
+    "hi": 350000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT04/DATA/COVER-U-B003.cells.txt",
+      "source/UNIT04/DATA/COVER-U-B003.simplices.txt",
+      "source/UNIT04/DATA/COVER-U-B003.signs.txt"
+    ]
+  },
+  {
+    "kind": "cover",
+    "part": "U",
+    "lo": 350000,
+    "hi": 375000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT04/DATA/COVER-U-B003.cells.txt",
+      "source/UNIT04/DATA/COVER-U-B003.simplices.txt",
+      "source/UNIT04/DATA/COVER-U-B003.signs.txt"
+    ]
+  },
+  {
+    "kind": "cover",
+    "part": "U",
+    "lo": 375000,
+    "hi": 400000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT04/DATA/COVER-U-B003.cells.txt",
+      "source/UNIT04/DATA/COVER-U-B003.simplices.txt",
+      "source/UNIT04/DATA/COVER-U-B003.signs.txt"
+    ]
+  },
+  {
+    "kind": "cover",
+    "part": "U",
+    "lo": 400000,
+    "hi": 425000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT04/DATA/COVER-U-B004.cells.txt",
+      "source/UNIT04/DATA/COVER-U-B004.simplices.txt",
+      "source/UNIT04/DATA/COVER-U-B004.signs.txt"
+    ]
+  },
+  {
+    "kind": "cover",
+    "part": "U",
+    "lo": 425000,
+    "hi": 450000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT04/DATA/COVER-U-B004.cells.txt",
+      "source/UNIT04/DATA/COVER-U-B004.simplices.txt",
+      "source/UNIT04/DATA/COVER-U-B004.signs.txt"
+    ]
+  },
+  {
+    "kind": "cover",
+    "part": "U",
+    "lo": 450000,
+    "hi": 475000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT04/DATA/COVER-U-B004.cells.txt",
+      "source/UNIT04/DATA/COVER-U-B004.simplices.txt",
+      "source/UNIT04/DATA/COVER-U-B004.signs.txt"
+    ]
+  },
+  {
+    "kind": "cover",
+    "part": "U",
+    "lo": 475000,
+    "hi": 500000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT04/DATA/COVER-U-B004.cells.txt",
+      "source/UNIT04/DATA/COVER-U-B004.simplices.txt",
+      "source/UNIT04/DATA/COVER-U-B004.signs.txt"
+    ]
+  },
+  {
+    "kind": "cover",
+    "part": "U",
+    "lo": 500000,
+    "hi": 525000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT04/DATA/COVER-U-B005-R01.cells.txt",
+      "source/UNIT04/DATA/COVER-U-B005-R01.simplices.txt",
+      "source/UNIT04/DATA/COVER-U-B005-R01.signs.txt"
+    ]
+  },
+  {
+    "kind": "cover",
+    "part": "U",
+    "lo": 525000,
+    "hi": 550000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT04/DATA/COVER-U-B005-R01.cells.txt",
+      "source/UNIT04/DATA/COVER-U-B005-R01.simplices.txt",
+      "source/UNIT04/DATA/COVER-U-B005-R01.signs.txt"
+    ]
+  },
+  {
+    "kind": "cover",
+    "part": "U",
+    "lo": 550000,
+    "hi": 575000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT04/DATA/COVER-U-B005-R01.cells.txt",
+      "source/UNIT04/DATA/COVER-U-B005-R01.simplices.txt",
+      "source/UNIT04/DATA/COVER-U-B005-R01.signs.txt"
+    ]
+  },
+  {
+    "kind": "cover",
+    "part": "U",
+    "lo": 575000,
+    "hi": 591214,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT04/DATA/COVER-U-B005-R01.cells.txt",
+      "source/UNIT04/DATA/COVER-U-B005-R01.simplices.txt",
+      "source/UNIT04/DATA/COVER-U-B005-R01.signs.txt"
+    ]
+  },
+  {
+    "kind": "fields",
+    "part": "F",
+    "lo": 0,
+    "hi": 25000,
+    "inputs": [
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT05/DATA/C3-P-F-000000.fields.bin"
+    ]
+  },
+  {
+    "kind": "fields",
+    "part": "F",
+    "lo": 25000,
+    "hi": 41482,
+    "inputs": [
+      "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt",
+      "source/UNIT05/DATA/C3-P-F-000000.fields.bin"
+    ]
+  },
+  {
+    "kind": "fields",
+    "part": "U",
+    "lo": 0,
+    "hi": 25000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT05/DATA/C3-P-U-000000.fields.bin"
+    ]
+  },
+  {
+    "kind": "fields",
+    "part": "U",
+    "lo": 25000,
+    "hi": 50000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT05/DATA/C3-P-U-000000.fields.bin"
+    ]
+  },
+  {
+    "kind": "fields",
+    "part": "U",
+    "lo": 50000,
+    "hi": 75000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT05/DATA/C3-P-U-050000.fields.bin"
+    ]
+  },
+  {
+    "kind": "fields",
+    "part": "U",
+    "lo": 75000,
+    "hi": 100000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT05/DATA/C3-P-U-050000.fields.bin"
+    ]
+  },
+  {
+    "kind": "fields",
+    "part": "U",
+    "lo": 100000,
+    "hi": 125000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT05/DATA/C3-P-U-100000.fields.bin"
+    ]
+  },
+  {
+    "kind": "fields",
+    "part": "U",
+    "lo": 125000,
+    "hi": 150000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT05/DATA/C3-P-U-100000.fields.bin"
+    ]
+  },
+  {
+    "kind": "fields",
+    "part": "U",
+    "lo": 150000,
+    "hi": 175000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT05/DATA/C3-P-U-150000.fields.bin"
+    ]
+  },
+  {
+    "kind": "fields",
+    "part": "U",
+    "lo": 175000,
+    "hi": 200000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT05/DATA/C3-P-U-150000.fields.bin"
+    ]
+  },
+  {
+    "kind": "fields",
+    "part": "U",
+    "lo": 200000,
+    "hi": 225000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT05/DATA/C3-P-U-200000.fields.bin"
+    ]
+  },
+  {
+    "kind": "fields",
+    "part": "U",
+    "lo": 225000,
+    "hi": 250000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT05/DATA/C3-P-U-200000.fields.bin"
+    ]
+  },
+  {
+    "kind": "fields",
+    "part": "U",
+    "lo": 250000,
+    "hi": 275000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT05/DATA/C3-P-U-250000.fields.bin"
+    ]
+  },
+  {
+    "kind": "fields",
+    "part": "U",
+    "lo": 275000,
+    "hi": 300000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT05/DATA/C3-P-U-250000.fields.bin"
+    ]
+  },
+  {
+    "kind": "fields",
+    "part": "U",
+    "lo": 300000,
+    "hi": 325000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT05/DATA/C3-P-U-300000.fields.bin"
+    ]
+  },
+  {
+    "kind": "fields",
+    "part": "U",
+    "lo": 325000,
+    "hi": 350000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT05/DATA/C3-P-U-300000.fields.bin"
+    ]
+  },
+  {
+    "kind": "fields",
+    "part": "U",
+    "lo": 350000,
+    "hi": 375000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT05/DATA/C3-P-U-350000.fields.bin"
+    ]
+  },
+  {
+    "kind": "fields",
+    "part": "U",
+    "lo": 375000,
+    "hi": 400000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT05/DATA/C3-P-U-350000.fields.bin"
+    ]
+  },
+  {
+    "kind": "fields",
+    "part": "U",
+    "lo": 400000,
+    "hi": 425000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT05/DATA/C3-P-U-400000.fields.bin"
+    ]
+  },
+  {
+    "kind": "fields",
+    "part": "U",
+    "lo": 425000,
+    "hi": 450000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT05/DATA/C3-P-U-400000.fields.bin"
+    ]
+  },
+  {
+    "kind": "fields",
+    "part": "U",
+    "lo": 450000,
+    "hi": 475000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT05/DATA/C3-P-U-450000.fields.bin"
+    ]
+  },
+  {
+    "kind": "fields",
+    "part": "U",
+    "lo": 475000,
+    "hi": 500000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT05/DATA/C3-P-U-450000.fields.bin"
+    ]
+  },
+  {
+    "kind": "fields",
+    "part": "U",
+    "lo": 500000,
+    "hi": 525000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT05/DATA/C3-P-U-500000.fields.bin"
+    ]
+  },
+  {
+    "kind": "fields",
+    "part": "U",
+    "lo": 525000,
+    "hi": 550000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT05/DATA/C3-P-U-500000.fields.bin"
+    ]
+  },
+  {
+    "kind": "fields",
+    "part": "U",
+    "lo": 550000,
+    "hi": 575000,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT05/DATA/C3-P-U-550000.fields.bin"
+    ]
+  },
+  {
+    "kind": "fields",
+    "part": "U",
+    "lo": 575000,
+    "hi": 591214,
+    "inputs": [
+      "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt",
+      "source/UNIT05/DATA/C3-P-U-550000.fields.bin"
+    ]
+  }
+]

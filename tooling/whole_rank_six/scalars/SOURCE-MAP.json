@@ -1,0 +1,48 @@
+{
+  "files": {
+    "runtime.py": {
+      "bytes": 3625,
+      "origin": "lr-stretching-results/tooling/whole_rank_six/runtime.py",
+      "sha256": "528ca90f1840c373662b06f5fcd8e18030db6a0bad89f0e039503c320b2fb0c6",
+      "transformation": "none",
+      "publication_update_note": "Repaired launch-time, repeated-signal and handler-restoration cancellation in the shared main-thread child supervisor; group_exists and stop_group retain their prior exact AST bodies. All four current runtime copies are byte-identical.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "280055b94bf0c59ce0fbb6ad58c96de8130379c8c300e7556eadb5d562e7f089",
+          "current_included_sha256": "528ca90f1840c373662b06f5fcd8e18030db6a0bad89f0e039503c320b2fb0c6"
+        }
+      ]
+    },
+    "src/cache_prepare_v2.cpp": {
+      "bytes": 9816,
+      "origin_repository_relative": "methods/astra019-2026-09-18/scalar/cache_prepare_v2.cpp",
+      "sha256": "d0b75b02e7b7a481758766c3f4118989fa69501c2c05e85b142639f2b51ba170",
+      "transformation": "none"
+    },
+    "src/production_cache_v2.cpp": {
+      "bytes": 6783,
+      "origin_repository_relative": "results/runs/SLR-PUB-RANK-SIX-20260925-001/distribution-v2/src/astra019-2026-09-18/scalar/production_cache_v2.cpp",
+      "sha256": "121ef15d95f7ed16a038d79aa6a47c4f6616b93bcb813df6e20f4843773782bb",
+      "transformation": "none"
+    },
+    "src/production_characters_v1.hpp": {
+      "bytes": 12903,
+      "origin_repository_relative": "results/runs/SLR-PUB-RANK-SIX-20260925-001/distribution-v2/src/astra019-2026-09-18/scalar/production_characters_v1.hpp",
+      "sha256": "736fbbd5885eaf1f517b9bf3eb674ba453a84905cec470ae9f66365a5a578efa",
+      "transformation": "none"
+    },
+    "src/production_core_v1.hpp": {
+      "bytes": 18135,
+      "origin_repository_relative": "results/runs/SLR-PUB-RANK-SIX-20260925-001/distribution-v2/src/astra019-2026-09-18/scalar/production_core_v1.hpp",
+      "sha256": "71c0caf6646a5a5147ee63b969bc0bfb291f181cfc4ddd7dbbbdd934264a0e2e",
+      "transformation": "none"
+    },
+    "src/production_range_v2.cpp": {
+      "bytes": 4849,
+      "origin_repository_relative": "results/runs/SLR-PUB-RANK-SIX-20260925-001/distribution-v2/src/astra019-2026-09-18/scalar/production_range_v2.cpp",
+      "sha256": "4701d6fc7e52f4a8d36de72e7077b5138d5ef3e15f35d8a28ee391d1c863e123",
+      "transformation": "none"
+    }
+  },
+  "schema": "pub-rank-six-c1-scalar-source-map-v1"
+}

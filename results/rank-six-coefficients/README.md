@@ -1,7 +1,9 @@
 # Fourth and fifth coefficients at ordinary rank six
 
-Research record: 14 September 2026. This is a computer-assisted partial result
-toward whole rank-six coefficient positivity.
+Research record: 14 September 2026. This is a computer-assisted standalone
+c4/c5 result. A later [whole-rank-six theorem](../rank-six-positivity/README.md)
+closes the complete ordinary coefficient sign question at every size. The
+certificate and quantitative c4/c5 bounds here retain their independent scope.
 
 For every balanced ordinary Littlewood-Richardson triple with lambda outer
 and maximum trimmed length at most six, write
@@ -30,9 +32,10 @@ supply the accompanying tooling and all finite inputs.
 The earlier ambient bounds protect c6 through c10 at rank six. These two fields
 extend that protection to c4 and c5 without an area cutoff or a restriction to
 selected hives. The [actual-degree consequences](LOW-DEGREE.md) close degree at most five
-at rank six and degree at most four at rank seven. The remaining rank-six
-coefficients c1,c2,c3 at actual degrees six through ten require further arguments;
-whole rank-six positivity and unrestricted KTT remain open.
+at rank six and degree at most four at rank seven. At the time of this
+certificate, c1,c2,c3 at actual degrees six through ten required further
+arguments. The later whole theorem supplies them; unrestricted KTT and
+rank seven remain open.
 
 The proof uses complete normal-cycle compensation. It retains raw negative
 local constants and modifies them by a field whose entire weighted correction

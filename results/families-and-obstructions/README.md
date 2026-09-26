@@ -6,6 +6,12 @@ auxiliary polytope from a negative entire LR polynomial. The statements retain
 their documented verification limits. No historical novelty or human peer-review
 claim is made.
 
+The [whole-rank-six theorem](../rank-six-positivity/README.md), accepted on
+25 September 2026, gives ordinary coefficient nonnegativity at every size
+through rank six. The family and obstruction records below remain useful for
+their explicit formulas, higher-rank scope and warnings about auxiliary
+negativity. Rank seven and unrestricted KTT remain open.
+
 [ACCEPTED-SCOPES.json](ACCEPTED-SCOPES.json) preserves the precise mathematical
 claims and verification levels. [SOURCE-MAP.json](SOURCE-MAP.json) binds the
 selected proof and data files to their sources. Two rectangular proof
@@ -22,8 +28,10 @@ The [finite-box module](../finite-box/README.md) has its own exhaustive replay.
 The earlier cubic result below is retained with its full evidence. The
 [later actual-degree consequence](../rank-six-coefficients/LOW-DEGREE.md) extends
 whole nonnegativity to degree at most five at rank six and degree at most four
-at rank seven. The [new c4/c5 fields](../rank-six-coefficients/README.md) apply at
-every rank-six degree, with the remaining low coefficients explicitly open.
+at rank seven. The [c4/c5 fields](../rank-six-coefficients/README.md) apply at
+every rank-six degree as a standalone certificate; the later
+[whole theorem](../rank-six-positivity/README.md) closes the remaining
+ordinary rank-six signs.
 
 | Result | Exact scope and useful consequence | Proof and evidence |
 |---|---|---|

@@ -1,0 +1,337 @@
+{
+  "schema": "curated-mathematical-module/v1",
+  "research_commit": "259d8018466872628709e36c94e7c40d3944a3ed",
+  "verification": "Fresh finite private-candidate replay passed where a verifier is supplied; inherited analytic proofs and combined publication review remain separate.",
+  "files": [
+    {
+      "path": "NONCONCAVITY.md",
+      "bytes": 4996,
+      "sha256": "77b588520b46c1f7e7705e526e0593392bcfa332cdea2ecf6c9b82b97373a5ed",
+      "origin": {
+        "transformation": "New reader-facing curation and portable adapter.",
+        "sources": [
+          {
+            "label": "NONCONCAVITY.md",
+            "sha256": "2fcfd1bd9fe849a828344c8beb91506e1847f83eae754140430e7fc9bd637f92"
+          }
+        ]
+      }
+    },
+    {
+      "path": "README.md",
+      "bytes": 2263,
+      "sha256": "2b54f2e5dee6dbe86e449d4ea79c5b9dc2e0374fa9458c67e2ee1e41b8519e34",
+      "origin": {
+        "transformation": "New reader-facing curation and portable adapter. Correct prose spacing and distinguish fresh candidate replay from pending publication review. Credit the earlier accepted A14/Pro031 addition defect without claiming a fresh replay of its complete vectors.",
+        "sources": [
+          {
+            "label": "ACCEPTANCE.md",
+            "sha256": "0d0049e748bac1321dc3e8f1e82146a96800774d65dc0732e36ecaba91f6fe8e"
+          },
+          {
+            "label": "MATHEMATICAL-ACCEPTANCE.md",
+            "sha256": "b033174039f812e106db62d29b66dab1c129a11587f8b3ed5267011342e6826f"
+          },
+          {
+            "label": "PRO030-AND-A14-ACCEPTANCE.md",
+            "sha256": "0da91f6c08dc6a1daaa7a8f4e09a1128de2b3af14df79f01d7391d81b50d1eb0"
+          }
+        ]
+      },
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "c755ab7ea0a6fd691e64a7ca40fcdc67096901c24e86289744c8ddd0e4bdd325",
+          "current_included_sha256": "2b54f2e5dee6dbe86e449d4ea79c5b9dc2e0374fa9458c67e2ee1e41b8519e34"
+        }
+      ]
+    },
+    {
+      "path": "TWO-ROW-ADDITION.md",
+      "bytes": 4794,
+      "sha256": "851abf5881709cfd683ff46cf268e56ad2b257e676720c583d1f88559565fc65",
+      "origin": {
+        "transformation": "New reader-facing curation and portable adapter. Reader-facing dependency, status or display correction; mathematical claims unchanged. Reader-facing dependency, status or display correction; mathematical claims unchanged.",
+        "sources": [
+          {
+            "label": "SOURCE-ADOPTION.md",
+            "sha256": "640734a2b0632b4d10ffdd61de03363d544505fe61989b8ae7dcffb6ce13c8a1"
+          }
+        ]
+      }
+    },
+    {
+      "path": "VERIFICATION.json",
+      "bytes": 681,
+      "sha256": "306e14ee19d87649a716c9ceb0a40dfb9d59ac86567d9e8a89df782587881db5",
+      "origin": {
+        "transformation": "New mathematical projection of fresh exact candidate verification.",
+        "sources": []
+      }
+    },
+    {
+      "path": "check_witness.py",
+      "bytes": 3602,
+      "sha256": "18ea01793240938ee064867652b99a8a57866b372b14473fefba4e8493727e53",
+      "origin": {
+        "transformation": "Added early refusal when Python assertions are disabled; mathematical function bodies are unchanged from the prior verified edition. Original source hash remains historical provenance; current byte equality is not asserted.",
+        "sources": [
+          {
+            "label": "check_witness_v2.py",
+            "sha256": "6b1614befb5ca03d85c3bdb1b1e37a221e18818434e5312606592176fb3ba50d"
+          },
+          {
+            "label": "check_walls_v3.py",
+            "sha256": "6846bb405b65e67cd62c991f2b9ff7a79fe9cf9b77f957484928ae7d396fa2d0"
+          }
+        ],
+        "transformation_history": [
+          {
+            "included_sha256": "702c425d9ca353eab19348765fac7afd9d0a85554feb29187c8ffd38464c1bc0",
+            "transformation": "Portable exact consumer using recomputed jets and literal original rows; no LP or historical process receipt required."
+          }
+        ]
+      },
+      "publication_update_note": "Added early refusal when Python assertions are disabled; mathematical function bodies are unchanged from the prior verified edition.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "702c425d9ca353eab19348765fac7afd9d0a85554feb29187c8ffd38464c1bc0",
+          "current_included_sha256": "18ea01793240938ee064867652b99a8a57866b372b14473fefba4e8493727e53"
+        }
+      ]
+    },
+    {
+      "path": "data/witness.json",
+      "bytes": 6393,
+      "sha256": "6a8a0e0533c86de01fa338dd425fb6b07c9de250803eae582df6dd073809ff07",
+      "origin": {
+        "transformation": "Select original boundaries/hives, exact first jets, wall factors and complete dual weights; omit process/discovery records and regenerate cuts.",
+        "sources": [
+          {
+            "label": "RESULT.json",
+            "sha256": "19fc9b5e373aa9ed6f96e925c5dd36d4c9aa92600b91e806cbfb2a3888f2eca2"
+          }
+        ]
+      }
+    },
+    {
+      "path": "math_support.py",
+      "bytes": 3770,
+      "sha256": "ebf8bfc80a8287852e6967ee74c661b8d45bd4472567e76d491b926302540ba1",
+      "origin": {
+        "transformation": "Remove only extra final blank lines after the complete staged whitespace check; mathematical content and Python AST unchanged. Earlier source identities remain historical. Original source hash remains historical provenance; current byte equality is not asserted.",
+        "sources": [
+          {
+            "label": "independent_readback_v1.py",
+            "sha256": "4054140d73feccb52ade531f4fb58083d550e63488979188fd93a5b954a852f1"
+          },
+          {
+            "label": "check_walls_v3.py",
+            "sha256": "6846bb405b65e67cd62c991f2b9ff7a79fe9cf9b77f957484928ae7d396fa2d0"
+          }
+        ],
+        "transformation_history": [
+          {
+            "included_sha256": "fb17a3a53320ffab43c9c7315fd46f8356cb6b42b738216da99ad1e236e77dfd",
+            "transformation": "Extract exact pure mathematical functions; omit campaign I/O and lifecycle code."
+          }
+        ]
+      },
+      "publication_update_note": "Remove only extra final blank lines after the complete staged whitespace check; mathematical content and Python AST unchanged. Earlier source identities remain historical.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "fb17a3a53320ffab43c9c7315fd46f8356cb6b42b738216da99ad1e236e77dfd",
+          "current_included_sha256": "ebf8bfc80a8287852e6967ee74c661b8d45bd4472567e76d491b926302540ba1"
+        }
+      ]
+    },
+    {
+      "path": "proofs/cells.md",
+      "bytes": 2343,
+      "sha256": "7f551f5a98dabe57b19494051072e6b8b82c48f0e8aace3236e4c76dcb949fa7",
+      "origin": {
+        "transformation": "New reader-facing curation and portable adapter.",
+        "sources": [
+          {
+            "label": "WHOLE-CELL-FIRST-JET.md",
+            "sha256": "4e35ff69b066a8ee59840223de6ae3acd159e7e4d48ec90f01da0417cba92197"
+          }
+        ]
+      },
+      "publication_update_note": "Remove only extra final blank lines after the complete staged whitespace check; mathematical content and Python AST unchanged. Earlier source identities remain historical.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "f912aa9bbbfe21e0d6dfaa9a7591b50d136937dc78a0ce3d9a677ba5de336e11",
+          "current_included_sha256": "7f551f5a98dabe57b19494051072e6b8b82c48f0e8aace3236e4c76dcb949fa7"
+        }
+      ]
+    },
+    {
+      "path": "proofs/closed-cells.md",
+      "bytes": 5070,
+      "sha256": "17ee9e24735c259b97eb62b8af4d9d5c02c47da11776c62c17b07ba13182b74f",
+      "origin": {
+        "transformation": "New reader-facing curation and portable adapter.",
+        "sources": [
+          {
+            "label": "CLOSED-COEFFICIENTS.md",
+            "sha256": "ee4c072c3173db743e016e0112e3219f6b7abc5655b935217fe059c0f554cafc"
+          }
+        ]
+      },
+      "publication_update_note": "Remove only extra final blank lines after the complete staged whitespace check; mathematical content and Python AST unchanged. Earlier source identities remain historical.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "1149f14e7e7fe2d8667f3730cf9b16b57e5c792710c18be5166241caf9a96af3",
+          "current_included_sha256": "17ee9e24735c259b97eb62b8af4d9d5c02c47da11776c62c17b07ba13182b74f"
+        }
+      ]
+    },
+    {
+      "path": "proofs/first-jet.md",
+      "bytes": 8075,
+      "sha256": "400e6cb0ade2cf5fd351063f3f706920bce0a963558af22d83d6820a7452aba9",
+      "origin": {
+        "transformation": "New reader-facing curation and portable adapter. Restore the explicit classical Brion and C-Z extension references omitted from the initial excerpt.",
+        "sources": [
+          {
+            "label": "GENERIC-A5-FIRST-JET.md",
+            "sha256": "9067f4ac4adc21783b5c90861eff53d24f4c25435d0cb0ca3549e6f739860529"
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/two-row-linear.md",
+      "bytes": 7676,
+      "sha256": "6aa13b6af29a717f5e4c3951771c36f6a5290eb27a2a59af416fbdb8f736dd03",
+      "origin": {
+        "transformation": "Complete inherited mathematical proof; omit unrelated higher-slope transfer.",
+        "sources": [
+          {
+            "label": "TWO-ROW-LINEAR-PROOF.md",
+            "sha256": "6aa13b6af29a717f5e4c3951771c36f6a5290eb27a2a59af416fbdb8f736dd03"
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/two-row-reduction.md",
+      "bytes": 3807,
+      "sha256": "56e9bc89a845c62db01621cfd3bda64317198d59b9d8f5251566430751e66203",
+      "origin": {
+        "transformation": "Complete inherited mathematical proof; omit unrelated higher-slope transfer.",
+        "sources": [
+          {
+            "label": "TWO-ROW-INNER-REDUCTION.md",
+            "sha256": "e7e602986e0195f149c5199efb17aa11cb41b87412c694ded2972679fc6a61f0"
+          }
+        ]
+      },
+      "publication_update_note": "Remove only extra final blank lines after the complete staged whitespace check; mathematical content and Python AST unchanged. Earlier source identities remain historical.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "bae32d63f561a5102091eb3c36931faa3cb262621c69aedc1cc4d05c40ad3633",
+          "current_included_sha256": "56e9bc89a845c62db01621cfd3bda64317198d59b9d8f5251566430751e66203"
+        }
+      ]
+    },
+    {
+      "path": "proofs/wall-3-plus-3.md",
+      "bytes": 8093,
+      "sha256": "a5b7362f093e1234e8887267e05d7b987c53ef118942b2d21ce2d93b90da7d97",
+      "origin": {
+        "transformation": "New reader-facing curation and portable adapter.",
+        "sources": [
+          {
+            "label": "THREE-PLUS-THREE-WALL.md",
+            "sha256": "2e09e6e736d036a6ec55de555a72fe24e44be556ac5d7714166eeb627a09f270"
+          }
+        ]
+      }
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 2086,
+      "sha256": "8eeed7ea336c6c141423a7e9a7215606fc0a5f869dbfa8a3e44ab01f9cd9f3bc",
+      "origin": {
+        "transformation": "New reader-facing curation and portable adapter.",
+        "sources": [
+          {
+            "label": "tree_jet_v1.py",
+            "sha256": "9b1d29d91ce7a54736b08dce46feed0914e014706a077cabc206d1006c364b65"
+          },
+          {
+            "label": "tree_gradient_v1.cpp",
+            "sha256": "3e0f231535d599103b008d4cdabf9f9c2fd48102a025740663f4b91eb50236f5"
+          },
+          {
+            "label": "adopt_final_v1.py",
+            "sha256": "d5fd935bc616c9841e9eb9088b394340be3d070b667aba4beda1580a26148766"
+          }
+        ]
+      }
+    },
+    {
+      "path": "tree_data.py",
+      "bytes": 5232,
+      "sha256": "707361748978f79d4e076eaa2bd1178c2b0d259b323e0631d81ceff5a4e49c88",
+      "origin": {
+        "transformation": "Added early refusal when Python assertions are disabled; mathematical function bodies are unchanged from the prior verified edition. Original source hash remains historical provenance; current byte equality is not asserted.",
+        "sources": [
+          {
+            "label": "tree_jet_v1.py",
+            "sha256": "9b1d29d91ce7a54736b08dce46feed0914e014706a077cabc206d1006c364b65"
+          }
+        ],
+        "transformation_history": [
+          {
+            "included_sha256": "9b1d29d91ce7a54736b08dce46feed0914e014706a077cabc206d1006c364b65",
+            "transformation": "Exact campaign-authored scientific source; no private path dependencies."
+          }
+        ]
+      },
+      "publication_update_note": "Added early refusal when Python assertions are disabled; mathematical function bodies are unchanged from the prior verified edition.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "9b1d29d91ce7a54736b08dce46feed0914e014706a077cabc206d1006c364b65",
+          "current_included_sha256": "707361748978f79d4e076eaa2bd1178c2b0d259b323e0631d81ceff5a4e49c88"
+        }
+      ]
+    },
+    {
+      "path": "tree_gradient.cpp",
+      "bytes": 5635,
+      "sha256": "3e0f231535d599103b008d4cdabf9f9c2fd48102a025740663f4b91eb50236f5",
+      "origin": {
+        "transformation": "Exact campaign-authored scientific source; no private path dependencies.",
+        "sources": [
+          {
+            "label": "tree_gradient_v1.cpp",
+            "sha256": "3e0f231535d599103b008d4cdabf9f9c2fd48102a025740663f4b91eb50236f5"
+          }
+        ]
+      }
+    },
+    {
+      "path": "two_row_controls.py",
+      "bytes": 3301,
+      "sha256": "5cea1ac1f55caeddedf620f4179459c40a44031df2261f439d7281f7f8dfc99c",
+      "origin": {
+        "transformation": "Extract complete Pro039 literal counts, paired-interface identities and sharp examples; omit unrelated Pro040 science and private imports.",
+        "sources": [
+          {
+            "label": "adopt_final_v1.py",
+            "sha256": "d5fd935bc616c9841e9eb9088b394340be3d070b667aba4beda1580a26148766"
+          }
+        ]
+      },
+      "publication_update_note": "Added early refusal when Python assertions are disabled; mathematical function bodies are unchanged from the prior verified edition.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "3fc33130128e04941a058be9cbf29fdada97df3370e35f0bfabe0aec44ca6c8d",
+          "current_included_sha256": "5cea1ac1f55caeddedf620f4179459c40a44031df2261f439d7281f7f8dfc99c"
+        }
+      ]
+    }
+  ]
+}

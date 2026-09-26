@@ -1,0 +1,83 @@
+{
+  "schema": "public-structural-verification-v1",
+  "status": "PASS_COMPLETE_PUBLIC_READER_AND_FORCING",
+  "public_reader": {
+    "aggregate_status": {
+      "normal": "COMPLETE_FINITE_CERTIFICATE_PASS",
+      "p06": "FINITE_CERTIFICATES_VERIFIED",
+      "p07": "FINITE_CERTIFICATES_VERIFIED",
+      "p08": "FINITE_CERTIFICATES_VERIFIED"
+    },
+    "children_run": 664,
+    "data_rehash_seconds": 1.225,
+    "mode": "all",
+    "schema": "structural-certificates-reader-invocation-v1",
+    "status": "COMPLETE_FINITE_REPLAY"
+  },
+  "public_reader_wall_seconds": 467.74850074993446,
+  "child_elapsed_sum_seconds": 462.955,
+  "all_664_children_waited_and_owned_groups_exited": true,
+  "outer_reader_waited_and_group_exited": true,
+  "source_binding": {
+    "schema": "structural-certificates-reader-identity-v1",
+    "source_sha256": {
+      "DATA-ASSET.json": "b4c705e887ea5493b178932bae4b88774bb1ba1601a9128ef2995725f4f1ac18",
+      "JOBS.json": "fbf97cd23e7325f3775bf837731667ad1eabe938adbe38b0f9b245ac26337276",
+      "reader_replay.py": "48acb5149cd902a36a0f4a9310cd7a11a4330031331447d30c6b1f1442ba9ad3",
+      "restore.py": "43ffbaa512cbb5eb9fe8de96cf8422f552ce9be56822c32cd1f7da8e41093b3f",
+      "runtime.py": "528ca90f1840c373662b06f5fcd8e18030db6a0bad89f0e039503c320b2fb0c6",
+      "verify_normal_certificates.py": "580de0e067be93d0d0c96b2d85acb4c11ef5b7996647552f3717a452c0c40420",
+      "verify_pro027_masks.py": "bca0fefb46a54edba559278b0e1ca4f34722686b1b2fbc49cad7771801f32efe"
+    }
+  },
+  "full_domain_source_record": {
+    "repository": "stretched-lr-research",
+    "path": "results/runs/SLR-PUB-RANK-SIX-20260925-001/public-structural-export-004/run/INVOCATION-0001.json",
+    "sha256": "af7fb5b46b8f68ad36bfc0ce5d8f6d831e6e7dceaaa143b8ec6d0d4d188faf59"
+  },
+  "forcing": {
+    "masks": 294912,
+    "rank_6": 32768,
+    "rank_7": 262144,
+    "wall_seconds": 14.778,
+    "positive_controls": 10,
+    "refusal_controls": 21,
+    "record": "f025/FORCING-VERIFICATION.json",
+    "sha256": "85917dc53a2df23b5756a4ba2f43e67bb4376e73074756ecbcbe0c07f9882be6",
+    "scope": "Sound dimension upper bounds and exact original row correspondence, not actual dimension or universal closure.",
+    "final_wrapper_wall_seconds": 14.582753667025827
+  },
+  "additional_controls": {
+    "accepted_checker_tests": 54,
+    "public_refusal_cleanup_controls": 15,
+    "exact_resume_new_children": 0
+  },
+  "preserved_failure": {
+    "attempt": "public-structural-export-001",
+    "status": "ROOT_DRIVER_REFUSED_BEFORE_CHILD",
+    "reason": "Outer root supervisor omitted required env argument; no reader or scientific child ran."
+  },
+  "scope": "Complete finite prerequisites at their stated domains; analytic proofs, cited classical results and external human review are separate.",
+  "prior_public_reader_runs": [
+    {
+      "attempt": "public-structural-export-002",
+      "seconds": 485.1786840420682,
+      "children": 664,
+      "scope": "Complete pre-review source version"
+    },
+    {
+      "attempt": "public-structural-export-003",
+      "seconds": 468.1747657089727,
+      "children": 664,
+      "scope": "Repaired reader; unchanged cleanup helpers before shared run_owned correction"
+    }
+  ],
+  "post_review_controls": {
+    "entrypoint_methods": 6,
+    "shared_runtime_methods": 8,
+    "other_signal_methods": 5,
+    "existing_public_controls": 15,
+    "accepted_engine_tests": 54,
+    "scope": "Includes outer TERM/HUP, launch, repeated cleanup and handler-restoration signals; mathematical engines and data unchanged."
+  }
+}

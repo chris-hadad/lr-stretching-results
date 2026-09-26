@@ -1,30 +1,54 @@
 {
   "files": [
     {
-      "bytes": 19099,
+      "bytes": 19637,
       "origin": {
         "repository": "stretched-lr-research",
         "source": "code/transport_certificates/PROOF.md",
         "source_bytes": 19099,
         "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
         "source_sha256": "1e6569af942d34288378ef6a97de1caefba7adea02cebb791d4e6cd25c6d73fa",
-        "transformation": "none; exact current curated source bytes"
+        "transformation": "Current public editorial update; original-source hash remains historical provenance and no current byte equality is asserted.",
+        "transformation_history": [
+          {
+            "included_sha256": "1e6569af942d34288378ef6a97de1caefba7adea02cebb791d4e6cd25c6d73fa",
+            "transformation": "none; exact current curated source bytes"
+          }
+        ]
       },
       "path": "PROOF.md",
-      "sha256": "1e6569af942d34288378ef6a97de1caefba7adea02cebb791d4e6cd25c6d73fa"
+      "sha256": "873e8c9cedc6f17441caf99845ca89267a85ab6376e1c57cac40d9ddc7112931",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "1e6569af942d34288378ef6a97de1caefba7adea02cebb791d4e6cd25c6d73fa",
+          "current_included_sha256": "873e8c9cedc6f17441caf99845ca89267a85ab6376e1c57cac40d9ddc7112931"
+        }
+      ]
     },
     {
-      "bytes": 3868,
+      "bytes": 4052,
       "origin": {
         "repository": "stretched-lr-research",
         "source": "code/transport_certificates/README.md",
         "source_bytes": 3868,
         "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
         "source_sha256": "cc43b591bb11724e0ef464016543315507821ed9567c0b2f94465f50dc7ac7ef",
-        "transformation": "none; exact current curated source bytes"
+        "transformation": "Current public editorial update; original-source hash remains historical provenance and no current byte equality is asserted.",
+        "transformation_history": [
+          {
+            "included_sha256": "cc43b591bb11724e0ef464016543315507821ed9567c0b2f94465f50dc7ac7ef",
+            "transformation": "none; exact current curated source bytes"
+          }
+        ]
       },
       "path": "README.md",
-      "sha256": "cc43b591bb11724e0ef464016543315507821ed9567c0b2f94465f50dc7ac7ef"
+      "sha256": "2e89742ef42047b3b2cb638672ebb9a447506363268fc6e0edb3bc024b56e35f",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "cc43b591bb11724e0ef464016543315507821ed9567c0b2f94465f50dc7ac7ef",
+          "current_included_sha256": "2e89742ef42047b3b2cb638672ebb9a447506363268fc6e0edb3bc024b56e35f"
+        }
+      ]
     },
     {
       "bytes": 11050,

@@ -1,5 +1,17 @@
 # Versions and citation
 
+The 25 September 2026 whole-rank-six research note is in
+[the rank-six paper directory](papers/rank-six/README.md), with its theorem and
+verification scope in [the result module](results/rank-six-positivity/README.md).
+The [16-page independent-verification preprint](papers/rank-six/rank-six.pdf),
+[editable source archive](papers/rank-six/rank-six-preprint-source.tar.gz) and
+[build record](papers/rank-six/BUILD.json) belong to version
+`rank-six-2026-09-25-v1`. Use the corresponding version tag together with
+the exact source commit and the specific
+paper, proof or certificate version used. No arXiv submission, external human
+endorsement or institutional acceptance is claimed. Earlier dated archives
+remain tied to their own source commits and do not contain this later result.
+
 This collection contains research notes, mathematical proofs, exact data and
 verification programs. Individual results have different verification and
 reproduction scopes, described in their module documentation.
@@ -11,7 +23,9 @@ also uses data release `finite-box-2026-09-12-v1` and its
 are unchanged. Source and offline bundles identify the source commit they
 contain; later prose editions need the corresponding source snapshot.
 
-The research note is a working draft and its author list has not been finalized.
+The rank-six preprint is authored by Chris Hadad and prepared for independent
+mathematical verification. A later revised edition may incorporate further
+contributions, with authorship based on those contributions and mutual agreement.
 Research contributions and AI assistance are documented in
 [PROVENANCE.md](PROVENANCE.md) and [METHODS.md](METHODS.md).
 
@@ -25,7 +39,7 @@ CC BY 4.0. [LICENSING.md](LICENSING.md) describes reuse and attribution,
 including the license companion supplied with the versioned downloads.
 
 The September 13 archives remain dated editions. The later rank-six coefficient and three-letter family
-modules are included in the current Git source and is not added retroactively to
+modules are included in the current Git source and are not added retroactively to
 those archives. Results are shared incrementally at their verified scopes;
 subsequent corrections and extensions retain identifiable prior versions.
 

@@ -2,7 +2,7 @@
   "execution_status": "Execution scope is recorded in PUBLICATION-CHECKS.md at the repository root; source-file authentication is distinct from numerical replay.",
   "files": [
     {
-      "bytes": 10674,
+      "bytes": 11748,
       "modules": [
         "two-row",
         "gap-three",
@@ -12,16 +12,27 @@
         "kind": "new packaging adapter or reader document"
       },
       "path": "DEPENDENCIES.md",
-      "sha256": "6bc2a0a618bbaca8b0043b12323400a43dc9137f75286930d7dff95e68cec864",
+      "sha256": "1275470c467d3e4cacbc21efd74cc02d77788175e00e9c987c0cf36fe0d4c0d7",
       "editorial_baseline": {
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "bytes": 10988,
         "sha256": "d2c9eaad923bae6deb1ca1eb84bff064852695db354f4c775b6027cd806a8ae1"
       },
-      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained."
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "publication_update_note": "Updated public analytic dependency guidance after the exact accepted dependency copy; accepted source bytes remain historical provenance.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "6bc2a0a618bbaca8b0043b12323400a43dc9137f75286930d7dff95e68cec864",
+          "current_included_sha256": "21d75d925deb139f8bef866a94d3d73aa5e13673ddb2da5b4083326a34cac879"
+        },
+        {
+          "previous_included_sha256": "21d75d925deb139f8bef866a94d3d73aa5e13673ddb2da5b4083326a34cac879",
+          "current_included_sha256": "1275470c467d3e4cacbc21efd74cc02d77788175e00e9c987c0cf36fe0d4c0d7"
+        }
+      ]
     },
     {
-      "bytes": 12122,
+      "bytes": 13523,
       "modules": [
         "two-row",
         "gap-three",
@@ -31,13 +42,19 @@
         "kind": "new packaging adapter or reader document"
       },
       "path": "README.md",
-      "sha256": "83ac2a2a442f720bf179309cfabd838674b6a54d2406d74794a6fa4d0f8e54ef",
+      "sha256": "cee37b9f8ade8b376d91a1427266a0b145bc00d08bcc53b2bcc672d4df06af09",
       "editorial_baseline": {
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "bytes": 11998,
         "sha256": "41d6214f889371ec0ae946e3c44e76f27c6fac67dbf62d03040fbc16aab4f2ed"
       },
-      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained."
+      "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "83ac2a2a442f720bf179309cfabd838674b6a54d2406d74794a6fa4d0f8e54ef",
+          "current_included_sha256": "cee37b9f8ade8b376d91a1427266a0b145bc00d08bcc53b2bcc672d4df06af09"
+        }
+      ]
     },
     {
       "bytes": 7264,

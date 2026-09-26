@@ -6,9 +6,15 @@ AI-assisted and computational verification. The source proofs have been
 edited for mathematical exposition; [ACCEPTED-SCOPES.json](ACCEPTED-SCOPES.json) gives the
 precise scope of the 60 accepted mathematical claim records. Illustrative numerical controls retain their stated finite scope.
 
+For the current all-size whole-rank-six conclusion, see the separate
+[rank-six result](../rank-six-positivity/README.md). Its first-coefficient
+argument uses the complete original normal cycle, saturated lattices and
+realizability pruning. The structural sources below retain their own domains
+and verification scopes; rank seven and unrestricted KTT remain open.
+
 The [standalone family replay](replay/README.md) provides exact two-row proof
-checks, gap-three algebra and transportation endpoint reconstruction, with
-their [complete dependency map](replay/DEPENDENCIES.md). Run:
+checks and the original gap-three and transportation algebra from historical
+accepted count values, with its [dependency map](replay/DEPENDENCIES.md). Run:
 
 ```sh
 python3 -B results/structural-positivity/replay/reproduce.py --module all
@@ -18,15 +24,28 @@ python3 -B results/structural-positivity/replay/failure_cases.py
 Two-row checks freshly expand the finite proof cases and compare complete
 character formulas on a bounded roster. Gap-three and transportation modes
 recompute exact algebra from explicitly historical accepted count values;
-they do not freshly enumerate those underlying counts. All parameter domains,
-whole-LR constructions and open complements are stated in the module guide.
+they do not freshly enumerate those underlying counts. The separate
+[fresh-count route](replay/FRESH-COUNTS.md) now regenerates all 40 gap-three and
+98 rank-ten transportation positive nodes and compares the complete vectors,
+unused grades and exact algebra. Its [verification record](replay/FRESH-COUNTS-VERIFICATION.json)
+distinguishes fresh finite counts from the unchanged all-parameter proofs.
+All parameter domains, whole-LR constructions and open complements remain in
+the module guide.
 
-A standalone replay of every normal
-certificate and family count is a separate packaging task; the repository's
-quick reproduction command does not perform that replay. Source proofs that
-refer to numbered data files should be read with this limitation. The
-[finite-box package](../finite-box/README.md) has its own complete data and
-reproduction contract.
+The separate [structural certificate module](../../tooling/structural_certificates/README.md)
+provides the source-identical normal atlas and P06/P07/P08 mask checkers with
+a manifested companion data archive. Its accepted campaign replay ran 664
+owned children across a 572.497-second report span. The final public reader separately completed all 656 slices and four joins
+through 664 children in 467.749 seconds; every child and owned group exited. The F025 forcing tables are a separate
+finite premise: an independent campaign recheck has now passed all 32,768
+rank-six and 262,144 rank-seven records, with 10 positive controls and 21
+refusals. Its
+[public sibling guide](../../tooling/structural_certificates/f025/README.md)
+documents the exact original row-order check; the normal/mask adapter does not
+rerun it. The forcing checks supply sound dimension upper bounds; they do not create a
+new universal closure theorem. The repository's quick reproduction command
+does not run either large route. The [finite-box package](../finite-box/README.md)
+has its own complete data and reproduction contract.
 
 ## Normal corrections and boundary classes
 

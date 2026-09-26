@@ -1,0 +1,191 @@
+\subsection{Exact legal realization of retained branches}\label{sec:realization}
+The support criterion has a constructive geometric converse, valid beyond
+the rank-six certificate. Put \(m=(n-1)(n-2)/2\) and
+\(T_n=\{(i,j)\in\Z_{\geq0}^2:i+j\leq n\}\), retaining every physical
+rhombus on \(T_n\).
+
+\begin{theorem}[Legal realization]\label{thm:realization}
+Let \(n\geq3\), and let \(S\) contain \(q\) physical rows with independent
+interior normals, where \(1\leq q\leq m\). Then \(\rank_x\cl(S)=q\) if
+and only if there are a legal integral LR boundary and a compatible positive
+generic original-row relaxation in which the selected physical branch \(S\)
+defines a \(q\)-dimensional normal cell of positive actual
+\((m-q)\)-face weight. The parent may be lower-dimensional or nonsimple.
+The face uses the original saturated integer lattice.
+\end{theorem}
+
+\begin{proof}
+Use the boundary convention of Section~\ref{sec:model}. For arbitrary \(n\),
+the three types of rhombi, where all four points exist, are
+\begin{align*}
+A_{i,j}&=-h(i,j)+h(i+1,j)+h(i,j+1)-h(i+1,j+1),\\
+B_{i,j}&=-h(i,j)+h(i,j+1)+h(i-1,j+1)-h(i-1,j+2),\\
+C_{i,j}&=-h(i,j)+h(i-1,j+1)+h(i-1,j)-h(i-2,j+1).
+\end{align*}
+Define the three boundary words by successive differences along the same
+horizontal, vertical and diagonal edges. Their trace is
+\(|\lambda|=|\mu|+|\nu|\). Direct cancellation gives
+\begin{align*}
+\mu_i-\mu_{i+1}&=A_{i-1,0}+C_{i+1,0},\\
+\lambda_j-\lambda_{j+1}&=A_{0,j-1}+B_{1,j-1},\\
+\nu_j-\nu_{j+1}&=B_{n-j,j-1}+C_{n-j+1,j-1}.
+\end{align*}
+All words are therefore weakly decreasing. For integral heights set
+\[
+u=\max(0,-\mu_n),\qquad v=\max(0,-\lambda_n,u-\nu_n).
+\]
+Adding \(ui+vj-h(0,0)\) to \(h(i,j)\) changes the words to
+\((\lambda+v,\mu+u,\nu+v-u)\), which are nonnegative integral partitions.
+Every rhombus slack and the trace are unchanged. The fixed-boundary interior
+lattice is translated by an integer vector.
+
+Choose a rational relative-interior point of the universal face defined by
+\(S\), clear its denominators by a positive integer scaling, and apply this
+legalization. Write it as \((b,x_*)\), and set \(T=\cl(S)\).
+Exactly the rows \(T\) are tight. In the fixed-boundary hive, the face cut
+out by \(S\) has direction space \(\ker_{\R}N_T\): every \(T\)-row
+vanishes on it, while sufficiently small displacements in either direction
+of that kernel preserve every other strict inequality. Its dimension is
+\(m-q\), with affine lattice \(x_*+\ker_{\Z}N_T\). This kernel is
+saturated, directly from the integer matrix equations.
+
+The hive is bounded. A recession direction \(d\) has zero boundary.
+Summing \(A_{a,b}(d)\) over \(0\leq a<i,\ 0\leq b<j\) gives
+\(-d(i,j)\), hence \(d(i,j)\leq0\). Also
+\[
+A_{i,j-1}(d)+B_{i+1,j-1}(d)
+=2d(i,j)-d(i,j-1)-d(i,j+1)\geq0.
+\]
+Each vertical sequence is discretely concave with zero endpoints, so
+\(d(i,j)\geq0\). The recession cone is therefore zero.
+
+Take a rational right inverse \(Y\) of \(N_S\), put \(y_0=-Y\mathbf1\),
+and initially let \(a_s=1\) on \(S\) and
+\(a_r=\max(1,1-n_ry_0)\) otherwise. Multiply \(y_0\) and all \(a_r\)
+by a common positive denominator, leaving \(Y\) unchanged. They are now
+integral, with selected margins zero and off-\(S\) margins at least one.
+Choose an integer \(M_0\) and define
+\[
+B=2^m,\quad C_* =\max_r\sum_{s\in S}|(n_rY)_s|,\quad
+M_0>\max\{4B+4,2(C_*+1)\},\quad \tau=M_0^{-1}.
+\]
+In the fixed zero-based physical row order put
+\[
+d_r=a_r+\tau^{r+1},\qquad y=y_0-Y(\tau^{s+1})_{s\in S}.
+\]
+Every \(d_r>0\); on \(S\), \(n_sy+d_s=0\), and off \(S\),
+\(n_ry+d_r>1/2\). Thus \(x_*+\eta y\) has exactly \(S\) tight in
+\(P_b(\eta)=\{x:\rho_r(b,x)+\eta d_r\geq0\}\).
+
+Each primitive integral circuit of the interior normals has coefficients
+of magnitude at most \(B\): use signed maximal minors and Hadamard's
+inequality, since every normal has Euclidean norm at most two. For such a
+circuit \(c\), \(c\cdot a\) is an integer. If nonzero, the perturbation
+has magnitude at most \(B\tau/(1-\tau)<1/2\) and cannot cancel it.
+If zero, the first nonzero power of \(\tau\) dominates all later terms by
+the same geometric-series estimate. Hence \(c\cdot d\ne0\), including
+circuits of parallel physical rows.
+
+An explicit compatible amplitude is any rational
+\[
+0<\eta<\frac{1}{8mB^2A_*},\qquad A_* =\max_r a_r+1.
+\]
+The relaxed polytope is nonempty, full-dimensional and bounded. For an
+independent \(m\)-row basis, an originally negative slack has magnitude
+at least \(1/B\), since its denominator divides the basis determinant.
+Cofactors have magnitude at most \(2^{m-1}\); a normal has at most four
+nonzero entries. The change in any slack is at most
+\(\eta(2mB+1)A_*<1/(2B)\). Thus no infeasible limiting basis becomes
+feasible. A dependent active set would contain a circuit satisfying
+\(c\cdot\ell(b)+\eta c\cdot d=0\). The first term is integral;
+genericity handles zero, and \(\eta|c\cdot d|<1\) handles a nonzero value.
+The relaxation is simple, and every vertex cone lies in the normal cone
+of its original limiting vertex. Its entire fan is compatible.
+
+For \(\xi=\sum_{s\in S}t_sn_s\), with every \(t_s>0\), the original
+minimizers are exactly the face defined by \(S\): a positive sum of its
+nonnegative slacks vanishes precisely there. The selected normal cell thus
+has the positive saturated volume of that actual face as its weight, with
+zero-dimensional volume one. Necessity is the tight-row rank argument of
+Lemma~\ref{lem:support}, which also applies to zero-dimensional faces.
+\end{proof}
+
+This identifies the existential geometric support of the criterion.
+It does not make every retained field inequality individually necessary for
+positivity: different fields, compatible refinements and cancellations remain
+available.
+
+\subsection{A short calculus for every rank-six closure}\label{sec:closure-calculus}
+There is a compact certificate for the closure computation itself. Its
+zero-based physical row order agrees with the original atlas.
+
+\begin{theorem}[Positive closure calculus]\label{thm:closure-calculus}
+Among the 45 rank-six rhombi, take all disjoint unit-coefficient identities
+with two rows on each side and with three rows on each side. There are 30
+and 72, respectively, counting reversal as the same identity. Add
+\begin{align*}
+C_{2,1}+B_{1,2}+A_{1,3}+A_{2,0}+C_{4,2}+B_{4,0}
+={}&A_{0,2}+C_{2,3}+B_{2,0}\\
+&+C_{4,0}+A_{3,1}+B_{3,2}.
+\end{align*}
+These 103 positive identities generate exact physical-row closure for every
+subset of the 45 rows. The original 102-identity calculus first fails at
+generating-set cardinality six.
+\end{theorem}
+
+An identity gives two implications: if all rows on one positive side vanish,
+every row on the other side vanishes. The 206 set implications produce 564
+distinct single-conclusion Horn clauses. Iteration adds at most 45 rows.
+The displayed identity is a direct equality of all 28 height coefficients;
+the individual equality is not asserted new in the literature.
+
+\begin{proof}[Proof from the small exact certificate]
+Let \(R(S)\) be rule closure, \(C(S)\) actual cone closure, and \(V(S)\)
+closure on the 166 supplied feasible integral heights. Sound positive
+identities and feasible heights give
+\[
+R(S)\subseteq C(S)\subseteq V(S).
+\]
+For each target \(r\), introduce Boolean variables for membership in a set
+\(M\). Include \(\neg x_r\), all Horn implications, and for every supplied
+height where \(\rho_r>0\), the clause
+\(\bigvee_{i:\rho_i>0}x_i\). A satisfying assignment is exactly a
+rule-closed \(M\) with \(r\in V(M)\setminus M\).
+
+The certificate supplies nine representative reverse-unit-propagation
+refutations, with 6,488 additions, and 45 exact variable transports of their
+complete input clause sets. For an added clause, negate every literal and
+unit-propagate the existing database; a contradiction proves that clause
+is a consequence. Every representative ends in a checked empty clause.
+Exact clause-set equality under a variable bijection transports
+unsatisfiability. Hence \(V(M)=M\) for every rule-closed set. With
+\(M=R(S)\), monotonicity gives \(C(S)\subseteq C(M)=M\), proving
+\(C(S)=R(S)\).
+
+The independent checker reconstructs every literal rhombus and enumerates
+every short identity. It checks 2,884 identity coordinates and
+7,470 feasibility slacks, regenerates each input formula, checks every proof
+addition and verifies every target transport. It uses no SAT solver or
+extreme-ray completeness oracle. The 254,843-byte certificate takes about
+five seconds to check with the independent Python standard-library program.
+
+For minimality, the old-rule-closed set
+\(S=\{4,17,18,23,31,41\}\) has actual closure
+\[
+\{2,3,4,7,8,9,11,17,18,23,24,26,31,35,39,40,41,44\}.
+\]
+Its interior rank rises from six to eight. The new identity and old rules
+force these rows; the sum of the feasible heights tight on \(S\) has exactly
+this zero set, proving equality. Separately, all seeds of size zero through
+five are checked. Their populations are
+\(1,45,990,14190,148995,1221759\), totaling 1,385,980; each has equal
+old-rule and feasible-witness closures, which now equal actual closure.
+This proves minimum cardinality six, without uniqueness or a minimum-size
+presentation claim.
+\end{proof}
+
+The sandwich argument also shows that summing feasible heights tight on
+any seed gives an integral relative-interior witness for its exact closure.
+Together with Theorem~\ref{thm:realization}, this gives a constructive
+physical-branch interface. The large rational positivity field and its
+local-scalar obligations remain separate.

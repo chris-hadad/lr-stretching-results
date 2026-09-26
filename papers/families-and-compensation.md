@@ -50,3 +50,14 @@ them in advance.
 ## Whole-family certificate extension, 14 September 2026
 
 The [transportation and capped-family note](../results/transport-capped/README.md) adds complete all-margin 3-by-5 transportation positivity and the full four-capacity LR family, with three small correction fields and complete portable replay. It also closes the low-dimensional stabilized-quotient sign question inside those precise families. These are candidate components of a broader compensation paper; external novelty, contribution and journal assessment remain separate. The whole-rank and unrestricted goals are still open.
+
+## Current context, 25 September 2026
+
+The [whole-rank-six theorem](../results/rank-six-positivity/README.md) now
+answers the ordinary rank-at-most-six sign question at every size. The local
+realizability pruning in its [proof](../results/rank-six-positivity/PROOF.md)
+is another compensation mechanism: the exact field needs a positive sign on
+supports carrying actual edge weight, while excluded negative supports have
+zero weight. The family results above retain their standalone certificates;
+rank seven and unrestricted KTT remain open. Earlier descriptions of the
+then-open rank-six target are preserved as dated context.

@@ -1,0 +1,510 @@
+{
+  "schema": "curated-mathematical-module/v1",
+  "research_commit": "259d8018466872628709e36c94e7c40d3944a3ed",
+  "files": [
+    {
+      "path": "DATA-MANIFEST.json",
+      "bytes": 8055,
+      "sha256": "06133ae7c50c8e2bcb0e3a342fe8b99db6712ac3c0083b23372cec7e6445d582",
+      "origin": {
+        "transformation": "Reader-facing curation or independently adapted portable replay.",
+        "sources": [
+          {
+            "label": "LOW-FIELD-FINALIZER-CONTRACT.json",
+            "sha256": "a394576eec4e20d8e02fbb17883238d5a3a152534c25b0d32853bdf2b44896a7"
+          }
+        ]
+      }
+    },
+    {
+      "path": "README.md",
+      "bytes": 6322,
+      "sha256": "9705ebd8049b555173727fa0cd33c3cd1a6e2426b0eff8edc6ddf0dad7df835c",
+      "origin": {
+        "transformation": "Reader-facing curation or independently adapted portable replay. Clarify existing three-row and positive-column computation APIs separately from the complete all-margin theorem.",
+        "sources": [
+          {
+            "label": "PRO030-AND-A14-ACCEPTANCE.md",
+            "sha256": "0da91f6c08dc6a1daaa7a8f4e09a1128de2b3af14df79f01d7391d81b50d1eb0"
+          }
+        ]
+      },
+      "publication_update_note": "Updated theorem navigation and dependency to the repaired complete 4x5 boundary c1 argument.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "20d850257e00537e8d7149cf8ea5e82fca496b25f546f53c18e974332a943c15",
+          "current_included_sha256": "749f8b6ad68502fcc2aa33781fafa3858772d6244dee7f6dd186b6148994a8f9"
+        },
+        {
+          "previous_included_sha256": "749f8b6ad68502fcc2aa33781fafa3858772d6244dee7f6dd186b6148994a8f9",
+          "current_included_sha256": "9705ebd8049b555173727fa0cd33c3cd1a6e2426b0eff8edc6ddf0dad7df835c"
+        }
+      ]
+    },
+    {
+      "path": "VERIFICATION.json",
+      "bytes": 3119,
+      "sha256": "53e3293c2e8706772b374df336db290a9abbab38b32f2bc08dbd1aa18eefc900",
+      "origin": {
+        "transformation": "Mathematical projection of the fresh source-bound complete replay; no operator log.",
+        "sources": []
+      },
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "9a6c16ff193a13675b8ee65053ed1784ee2faadc59db5d642390fc0055d547eb",
+          "current_included_sha256": "53e3293c2e8706772b374df336db290a9abbab38b32f2bc08dbd1aa18eefc900"
+        }
+      ]
+    },
+    {
+      "path": "batches.json",
+      "bytes": 15589,
+      "sha256": "855b3b80c36a017c56764e5ee40967781b8425ff3f29422468cbe3e0ebbeea5f",
+      "origin": {
+        "transformation": "Select complete disjoint intervals and literal mathematical inputs; omit historical processes and outputs.",
+        "sources": [
+          {
+            "label": "LOW-FIELD-FINALIZER-CONTRACT.json",
+            "sha256": "a394576eec4e20d8e02fbb17883238d5a3a152534c25b0d32853bdf2b44896a7"
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/closed-boundaries.md",
+      "bytes": 3373,
+      "sha256": "f476fe1dd8958fc027c0ecc6b24000c3cb88bc5164544e57329346af92d51db2",
+      "origin": {
+        "transformation": "Select complete fixed-whole-model Minkowski and denominator-cleared coefficient-extension proof.",
+        "sources": [
+          {
+            "label": "CLOSED-COEFFICIENTS.md",
+            "sha256": "ee4c072c3173db743e016e0112e3219f6b7abc5655b935217fe059c0f554cafc"
+          }
+        ]
+      },
+      "publication_update_note": "Remove only extra final blank lines after the complete staged whitespace check; mathematical content and Python AST unchanged. Earlier source identities remain historical.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "5433e68cb932859fb12b13aa0d38f4a0cfa0c0349594cebc163e424bfa4cd9fe",
+          "current_included_sha256": "f476fe1dd8958fc027c0ecc6b24000c3cb88bc5164544e57329346af92d51db2"
+        }
+      ]
+    },
+    {
+      "path": "proofs/cubic.md",
+      "bytes": 20280,
+      "sha256": "45302f5e8bcb6c4d383f483facc42e6f322a2e2b005f83daf15f052474481dd6",
+      "origin": {
+        "transformation": "Retain complete theorem-relevant analytic sections; omit unrelated extrema, administration and optional historical control rosters. Define bibliographic/reference tags and local prerequisites; remove operator-history paragraph and normalize formula display indentation.",
+        "sources": [
+          {
+            "label": "001-GLOBAL-CUBIC-POSITIVITY.md",
+            "sha256": "aaf557889b631a345540c2a7c0d4ac65aeb315913f77f54a175a65da224a3496"
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/higher.md",
+      "bytes": 24893,
+      "sha256": "e14a913a2b419ce12532a4547d5763a34f84610bb77f6a17ce692c7436464635",
+      "origin": {
+        "transformation": "Retain complete theorem-relevant analytic sections; omit unrelated extrema, administration and optional historical control rosters. Define bibliographic/reference tags and local prerequisites; remove operator-history paragraph and normalize formula display indentation.",
+        "sources": [
+          {
+            "label": "001-WHOLE-FOUR-BY-FIVE-POSITIVITY.md",
+            "sha256": "107f053705225a76ddf852b92bccaf0c6f7bcb7a15bb38a4a24d193ecd6c4d3b"
+          }
+        ]
+      },
+      "publication_update_note": "Updated the analytic proof dependency to use the repaired complete 4x5 boundary c1 argument.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "2c14674f405878a9122ba90ac19422e1af2198c6238436256a839e7839497076",
+          "current_included_sha256": "e14a913a2b419ce12532a4547d5763a34f84610bb77f6a17ce692c7436464635"
+        }
+      ]
+    },
+    {
+      "path": "proofs/linear-double-cuts.md",
+      "bytes": 10922,
+      "sha256": "9f0053f98d257b9d7a6bf430bf5f60c5b0fe4bf4631f21aeb54c8630d5a01199",
+      "origin": {
+        "transformation": "Exact existing public mathematical prerequisite; source byte identity recorded below.",
+        "sources": [],
+        "existing_public_source": {
+          "path": "results/families-and-obstructions/proofs/transport-double-cuts.md",
+          "sha256": "676bcfa42fa43b6371a8fa01fb15f79f2cf7d3a4420614abb73198ae3d869694",
+          "bytes": 10936
+        }
+      }
+    },
+    {
+      "path": "proofs/linear-four-by-five.md",
+      "bytes": 11040,
+      "sha256": "11b51f4c5bab2d28318aaad7760780dcb8e922884cc3f8e446ff74e668f36f1e",
+      "origin": {
+        "transformation": "Added complete closed-boundary continuity and positive double-cut analytic proof, repairing the inherited unavailable N=4 finite premise. Original source hash remains historical provenance; current byte equality is not asserted.",
+        "sources": [],
+        "existing_public_source": {
+          "path": "results/families-and-obstructions/proofs/transport-four-by-five.md",
+          "sha256": "5359fde7567c13660b32ba8b195ba6392ebcc533cbcd62f7b008bd1cf58b70c4",
+          "bytes": 8819
+        },
+        "transformation_history": [
+          {
+            "included_sha256": "511dc0949bdc4ee5b6bd511ad9f946f8e2c981b1046ca605e053aa8ce8235a9e",
+            "transformation": "Exact existing public mathematical prerequisite; source byte identity recorded below."
+          }
+        ]
+      },
+      "publication_update_note": "Added complete closed-boundary continuity and positive double-cut analytic proof, repairing the inherited unavailable N=4 finite premise.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "511dc0949bdc4ee5b6bd511ad9f946f8e2c981b1046ca605e053aa8ce8235a9e",
+          "current_included_sha256": "11b51f4c5bab2d28318aaad7760780dcb8e922884cc3f8e446ff74e668f36f1e"
+        }
+      ]
+    },
+    {
+      "path": "proofs/original-offset-functional.md",
+      "bytes": 5617,
+      "sha256": "038c40aa67a3a2d751739256a4c0c71b4bfd165cff04d89b6c8b2c61b9285e47",
+      "origin": {
+        "transformation": "Exact accepted analytic original-offset whole functional; its positive-column interface limit remains explicit. The new full-dimensional cut-cell proof handles all boundaries via closed-cell transfer.",
+        "sources": [
+          {
+            "label": "PROOF-FUNCTIONAL.md",
+            "sha256": "038c40aa67a3a2d751739256a4c0c71b4bfd165cff04d89b6c8b2c61b9285e47"
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/quadratic.md",
+      "bytes": 19027,
+      "sha256": "e80e03aa50fc107805e8e8efabe7b98057e644d3de38c1ba6de4d43c087b5f48",
+      "origin": {
+        "transformation": "Retain complete theorem-relevant analytic sections; omit unrelated extrema, administration and optional historical control rosters. Define bibliographic/reference tags and local prerequisites; remove operator-history paragraph and normalize formula display indentation.",
+        "sources": [
+          {
+            "label": "002-GLOBAL-QUADRATIC-POSITIVITY.md",
+            "sha256": "31916e99b0983904372016954d581f55b4779eaa05aa0738a63e20275c61d90e"
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/whole-table-lr.md",
+      "bytes": 12547,
+      "sha256": "e4461453339b351bbd3252f4b8a29f40115a26e13ba3def1c6f6d55304c6c2c8",
+      "origin": {
+        "transformation": "Remove only extra final blank lines after the complete staged whitespace check; mathematical content and Python AST unchanged. Earlier source identities remain historical. Original source hash remains historical provenance; current byte equality is not asserted.",
+        "sources": [],
+        "existing_public_source": {
+          "path": "tooling/proofs/transport.md",
+          "sha256": "6be881b8ab7ec7b1804bceecc4e0f5f0404e194d083713ff81ec65c174d4ea09",
+          "bytes": 12548
+        },
+        "transformation_history": [
+          {
+            "included_sha256": "6be881b8ab7ec7b1804bceecc4e0f5f0404e194d083713ff81ec65c174d4ea09",
+            "transformation": "Exact existing public mathematical prerequisite; source byte identity recorded below."
+          }
+        ]
+      },
+      "publication_update_note": "Remove only extra final blank lines after the complete staged whitespace check; mathematical content and Python AST unchanged. Earlier source identities remain historical.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "6be881b8ab7ec7b1804bceecc4e0f5f0404e194d083713ff81ec65c174d4ea09",
+          "current_included_sha256": "e4461453339b351bbd3252f4b8a29f40115a26e13ba3def1c6f6d55304c6c2c8"
+        }
+      ]
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 13257,
+      "sha256": "f60f4539a8e0e18e2eb414f0cd29ce2aae95da5053335e6abd6bd3ec887813ac",
+      "origin": {
+        "transformation": "Repaired bounded child launch, cancellation and process-group cleanup; preserved mathematical bodies and exact data. Optimization refusal remains explicit where assertions are used. Original source hash remains historical provenance; current byte equality is not asserted.",
+        "sources": [
+          {
+            "label": "prepare_refusals.py",
+            "sha256": "3e89ed7c2cbeb25f81e16f7cbf54c9d5a8dcca6f56c8ab238797286bd4207623"
+          },
+          {
+            "label": "README.md",
+            "sha256": "1070e6dd39bc98d8217d33d5a8808c7c0bc0b21036fbb0b742b392272ce8a3ad"
+          }
+        ],
+        "transformation_history": [
+          {
+            "included_sha256": "4b2f8d374bc497375b8b8633ea6979be669b2f62e297cdb58bfe7a57e099c821",
+            "transformation": "New portable adapter retaining the complete accepted mathematical operation; campaign host/process adapters omitted. Fresh exact execution passed."
+          }
+        ]
+      },
+      "publication_update_note": "Repaired bounded child launch, cancellation and process-group cleanup; preserved mathematical bodies and exact data. Optimization refusal remains explicit where assertions are used.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "4b2f8d374bc497375b8b8633ea6979be669b2f62e297cdb58bfe7a57e099c821",
+          "current_included_sha256": "f60f4539a8e0e18e2eb414f0cd29ce2aae95da5053335e6abd6bd3ec887813ac"
+        }
+      ]
+    },
+    {
+      "path": "src/CONTROL-EXPECTATIONS.json",
+      "bytes": 644,
+      "sha256": "7e4352a6b89895cdc921f08a7a6c34c11e2e40beb2398d542c3fa1bb1e1104e3",
+      "origin": {
+        "transformation": "Exact small mathematical BV controls.",
+        "sources": [
+          {
+            "label": "CONTROL-EXPECTATIONS.json",
+            "sha256": "7e4352a6b89895cdc921f08a7a6c34c11e2e40beb2398d542c3fa1bb1e1104e3"
+          }
+        ]
+      }
+    },
+    {
+      "path": "src/CONTROLS.txt",
+      "bytes": 1118,
+      "sha256": "54fa17f567f53708600fcb7079b950a076e18aa64b62e529c2f9810d8ecc6a19",
+      "origin": {
+        "transformation": "Exact small mathematical BV controls.",
+        "sources": [
+          {
+            "label": "CONTROLS.txt",
+            "sha256": "54fa17f567f53708600fcb7079b950a076e18aa64b62e529c2f9810d8ecc6a19"
+          }
+        ]
+      }
+    },
+    {
+      "path": "src/atlas_replay.py",
+      "bytes": 2060,
+      "sha256": "72203dd8628e51b9578307b99688857a773c66738591c9f61988c0cf2f462640",
+      "origin": {
+        "transformation": "Added early refusal when Python assertions are disabled; mathematical function bodies are unchanged from the prior verified edition. Original source hash remains historical provenance; current byte equality is not asserted.",
+        "sources": [
+          {
+            "label": "verify_transport.py",
+            "sha256": "7bf0b9f31aff054897e7db9b4a69c591887400b23b8238751a5cebacad06ceb7"
+          },
+          {
+            "label": "transport_math.py",
+            "sha256": "a2235306334dd594eab7246fe397d9715ebaab113d6f27dc9f879e63cb7f280e"
+          }
+        ],
+        "transformation_history": [
+          {
+            "included_sha256": "91df2d62184ec7e84f1433d7eaaac36aad6afa5d4851b09b61882aaea2ebd675",
+            "transformation": "New portable adapter retaining the complete accepted mathematical operation; campaign host/process adapters omitted. Fresh exact execution passed."
+          }
+        ]
+      },
+      "publication_update_note": "Added early refusal when Python assertions are disabled; mathematical function bodies are unchanged from the prior verified edition.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "91df2d62184ec7e84f1433d7eaaac36aad6afa5d4851b09b61882aaea2ebd675",
+          "current_included_sha256": "72203dd8628e51b9578307b99688857a773c66738591c9f61988c0cf2f462640"
+        }
+      ]
+    },
+    {
+      "path": "src/build_templates.py",
+      "bytes": 11514,
+      "sha256": "059d684e119371746f3753deab1cd72460446ba707a1693599954db4ca2649e0",
+      "origin": {
+        "transformation": "Keep every original-offset Newton term, identity and template loop; consume the freshly regenerated complete local atlas through portable file arguments. Freshly verify the inherited 154 zero linear gradients in all required chambers.",
+        "sources": [
+          {
+            "label": "build_templates.py",
+            "sha256": "9a30459f8feadaa88fe895b7bec7dad1e6bc965899dd985e26fbf7670a75fab0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "src/check_cover.cpp",
+      "bytes": 12489,
+      "sha256": "23070aea3f4e6a0538fe76b88a0ade542566fc7c5aa5c273f5dbfa7f69bef4c5",
+      "origin": {
+        "transformation": "Exact campaign-owned mathematical checker source; provider programs are not included.",
+        "sources": [
+          {
+            "label": "check_cover.cpp",
+            "sha256": "23070aea3f4e6a0538fe76b88a0ade542566fc7c5aa5c273f5dbfa7f69bef4c5"
+          }
+        ]
+      }
+    },
+    {
+      "path": "src/check_fields.cpp",
+      "bytes": 19502,
+      "sha256": "f3de5b824d3291fd1f242c74eab7f943ec8f9d0d7ac7d09cc8e2502bd1acca01",
+      "origin": {
+        "transformation": "Exact campaign-owned mathematical checker source; provider programs are not included.",
+        "sources": [
+          {
+            "label": "check_fields.cpp",
+            "sha256": "f3de5b824d3291fd1f242c74eab7f943ec8f9d0d7ac7d09cc8e2502bd1acca01"
+          }
+        ]
+      }
+    },
+    {
+      "path": "src/common.hpp",
+      "bytes": 12049,
+      "sha256": "7dff8c89811ae50ba11989a7ef661fc5e82d2f8e1dc6c9578699f22136e42888",
+      "origin": {
+        "transformation": "Exact campaign-owned mathematical checker source; provider programs are not included.",
+        "sources": [
+          {
+            "label": "common.hpp",
+            "sha256": "7dff8c89811ae50ba11989a7ef661fc5e82d2f8e1dc6c9578699f22136e42888"
+          }
+        ]
+      }
+    },
+    {
+      "path": "src/count_tables.cpp",
+      "bytes": 3402,
+      "sha256": "34b82dd74c8048a86d44768c61b922fa0330f2bf360f588b4cc2b2c9af68bdd9",
+      "origin": {
+        "transformation": "Exact campaign-owned mathematical checker source; provider programs are not included.",
+        "sources": [
+          {
+            "label": "count_tables.cpp",
+            "sha256": "34b82dd74c8048a86d44768c61b922fa0330f2bf360f588b4cc2b2c9af68bdd9"
+          }
+        ]
+      }
+    },
+    {
+      "path": "src/encode_quadratic.py",
+      "bytes": 899,
+      "sha256": "593e072e25b950a988d4f844fb2629741efd880a15862fda9ca8a9478049cf0b",
+      "origin": {
+        "transformation": "Added early refusal when Python assertions are disabled; mathematical function bodies are unchanged from the prior verified edition. Original source hash remains historical provenance; current byte equality is not asserted.",
+        "sources": [
+          {
+            "label": "prepare_inputs.py",
+            "sha256": "7391fb915da2e7e5eb98a0fe67b4a48f364da36f437b8a2b261534c25c8e22aa"
+          }
+        ],
+        "transformation_history": [
+          {
+            "included_sha256": "264e11f7798d388e0fd4ec964d2276d15eeb00b32706d74fe3e2396ef7b2b239",
+            "transformation": "New portable adapter retaining the complete accepted mathematical operation; campaign host/process adapters omitted. Fresh exact execution passed."
+          }
+        ]
+      },
+      "publication_update_note": "Added early refusal when Python assertions are disabled; mathematical function bodies are unchanged from the prior verified edition.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "264e11f7798d388e0fd4ec964d2276d15eeb00b32706d74fe3e2396ef7b2b239",
+          "current_included_sha256": "593e072e25b950a988d4f844fb2629741efd880a15862fda9ca8a9478049cf0b"
+        }
+      ]
+    },
+    {
+      "path": "src/join.py",
+      "bytes": 11015,
+      "sha256": "625973df4eaf127c5fb69cd65efb69376f754e0861932e271ce8d13e7eeebc60",
+      "origin": {
+        "transformation": "Added early refusal when Python assertions are disabled; mathematical function bodies are unchanged from the prior verified edition. Original source hash remains historical provenance; current byte equality is not asserted.",
+        "sources": [
+          {
+            "label": "finalize.py",
+            "sha256": "5597afec47a98af5a648dfbc806e7b03ceed6d756c834f99778f7bb0e93b5572"
+          }
+        ],
+        "transformation_history": [
+          {
+            "included_sha256": "36bf83fa1e9b221b6c93d74dbda572c26b319406d7215f0aac3ce86fc53c8edd",
+            "transformation": "New portable adapter retaining the complete accepted mathematical operation; campaign host/process adapters omitted. Fresh exact execution passed."
+          }
+        ]
+      },
+      "publication_update_note": "Added early refusal when Python assertions are disabled; mathematical function bodies are unchanged from the prior verified edition.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "36bf83fa1e9b221b6c93d74dbda572c26b319406d7215f0aac3ce86fc53c8edd",
+          "current_included_sha256": "625973df4eaf127c5fb69cd65efb69376f754e0861932e271ce8d13e7eeebc60"
+        }
+      ]
+    },
+    {
+      "path": "src/portable_io.py",
+      "bytes": 959,
+      "sha256": "40145d9270d1047c6430ab2de4d28a94a9540f88a019339b11e5fc51a032642f",
+      "origin": {
+        "transformation": "New portable adapter retaining the complete accepted mathematical operation; campaign host/process adapters omitted. Fresh exact execution passed.",
+        "sources": [
+          {
+            "label": "prepare_inputs.py",
+            "sha256": "7391fb915da2e7e5eb98a0fe67b4a48f364da36f437b8a2b261534c25c8e22aa"
+          }
+        ]
+      }
+    },
+    {
+      "path": "src/table_bv.cpp",
+      "bytes": 12233,
+      "sha256": "697a46985ab5aac1cef110c2090559a9ea66ae7f84524d515071383c21981956",
+      "origin": {
+        "transformation": "Exact campaign-owned mathematical checker source; provider programs are not included.",
+        "sources": [
+          {
+            "label": "table_bv_v1.cpp",
+            "sha256": "697a46985ab5aac1cef110c2090559a9ea66ae7f84524d515071383c21981956"
+          }
+        ]
+      }
+    },
+    {
+      "path": "src/transport_math.py",
+      "bytes": 20577,
+      "sha256": "a2235306334dd594eab7246fe397d9715ebaab113d6f27dc9f879e63cb7f280e",
+      "origin": {
+        "transformation": "Exact campaign-owned mathematical checker source; provider programs are not included.",
+        "sources": [
+          {
+            "label": "transport_math.py",
+            "sha256": "a2235306334dd594eab7246fe397d9715ebaab113d6f27dc9f879e63cb7f280e"
+          }
+        ]
+      }
+    },
+    {
+      "path": "src/verify_topology.py",
+      "bytes": 6863,
+      "sha256": "90be48201cb69a306430554e0584faed560d0e169dbef35883aad531c550c642",
+      "origin": {
+        "transformation": "Added early refusal when Python assertions are disabled; mathematical function bodies are unchanged from the prior verified edition. Original source hash remains historical provenance; current byte equality is not asserted.",
+        "sources": [
+          {
+            "label": "verify_topology.py",
+            "sha256": "601f2d3f34c55b6ab88d3e24facb14b06975c762699b17d68318cfb81b627fce"
+          }
+        ],
+        "transformation_history": [
+          {
+            "included_sha256": "601f2d3f34c55b6ab88d3e24facb14b06975c762699b17d68318cfb81b627fce",
+            "transformation": "Exact campaign-owned mathematical checker source; provider programs are not included."
+          }
+        ]
+      },
+      "publication_update_note": "Added early refusal when Python assertions are disabled; mathematical function bodies are unchanged from the prior verified edition.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "601f2d3f34c55b6ab88d3e24facb14b06975c762699b17d68318cfb81b627fce",
+          "current_included_sha256": "90be48201cb69a306430554e0584faed560d0e169dbef35883aad531c550c642"
+        }
+      ]
+    }
+  ],
+  "verification": "Fresh finite private-candidate replay passed where a verifier is supplied; inherited analytic proofs and combined publication review remain separate."
+}

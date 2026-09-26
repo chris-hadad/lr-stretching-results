@@ -1,0 +1,226 @@
+{
+  "clean_reader_layout_tested": true,
+  "controls": {
+    "elapsed_seconds": 0.21784270799253136,
+    "negative_cases": 21,
+    "positive_cases": 10
+  },
+  "controls_source": {
+    "bytes": 5838,
+    "sha256": "61dbe9e5323b9c4474eb3f4eee4a9f7f4009c2a63526fb9bc5ed44ab60414d27"
+  },
+  "full_elapsed_seconds": 14.778176874970086,
+  "owned_runtime_quiescent": true,
+  "rank_results": [
+    {
+      "accepted_record_sha256": "d6ece8e3968a4ee2849ef955da4c7a3d5949b0ce6f6bc2970f2cc414641b68d4",
+      "computation_seconds": 1.0757866670610383,
+      "coordinate_binding": {
+        "all_boundary_linear_rows_sha256": "e520f7a796eecbd70d6fe2686051207ad41a2c06561029a35edd0e915b1eae14",
+        "all_full_vertex_rows_sha256": "cc2a6d6a523ac333ac739a6fbf851a2113c01323feb8ce168b48f83c19c4cfe5",
+        "boundary_gap_balance_multiples": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "boundary_gap_row_masks": [
+          5,
+          18,
+          72,
+          288,
+          640,
+          2049,
+          16778240,
+          17188257792,
+          2207613190144,
+          18691697672192,
+          21990232555520,
+          9070970929152,
+          551903297536,
+          4297064448,
+          4194816
+        ],
+        "coordinate_order": "(lambda[0:n], mu[0:n], nu[0:n], lexicographic interior (i,j))",
+        "interior_coordinates": 10,
+        "positive_equal_sum_rules": 60,
+        "rhombus_rows": 45,
+        "soundness_scope": "Unit identifications in forced equations give an affine dimension upper bound; feasibility, actual dimension and universal forcing completeness are not claimed."
+      },
+      "dimension_upper_bound_histogram": {
+        "0": 17828,
+        "1": 4745,
+        "10": 1,
+        "2": 3316,
+        "3": 2538,
+        "4": 1911,
+        "5": 1275,
+        "6": 726,
+        "7": 320,
+        "8": 93,
+        "9": 15
+      },
+      "distinct_closures_checked": 24709,
+      "domain_size": 32768,
+      "fresh_record_sha256": "d6ece8e3968a4ee2849ef955da4c7a3d5949b0ce6f6bc2970f2cc414641b68d4",
+      "linear_full_domain_forecast_seconds": 1.0757866670610383,
+      "masks_compared": 32768,
+      "rank": 6,
+      "scope": "Sound dimension upper bounds only; no actual dimension or universal closure claim.",
+      "status": "COMPLETE_FULL_FORCING_DOMAIN",
+      "table": {
+        "bytes": 3355507,
+        "path": "f025/F025-MASK-R6-001.json",
+        "sha256": "6476e879783b219411d69ccb015d1cbfdec7540834575d4ab593f5b3ad1701c0"
+      }
+    },
+    {
+      "accepted_record_sha256": "ee9d6b121cbe04370bd1d34355f8b393e1cd63c54970d687d00d972fe6d74d23",
+      "computation_seconds": 13.29143241699785,
+      "coordinate_binding": {
+        "all_boundary_linear_rows_sha256": "234dc89d179193edd564af0d16a3e1c10edd3d21f8fddacd098878d66788ed19",
+        "all_full_vertex_rows_sha256": "83bf37f9ad88be05a1f1c8176c82fc0dd3f9c81aadea16a31bdd264d5b902a03",
+        "boundary_gap_balance_multiples": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        "boundary_gap_row_masks": [
+          5,
+          18,
+          72,
+          288,
+          1152,
+          2560,
+          8193,
+          536875008,
+          4398314946560,
+          4505798650626048,
+          578712552117108736,
+          4899916394579099648,
+          5764607523034234880,
+          2377900603251621888,
+          144678138029277184,
+          1126449662656512,
+          1099578736640,
+          134219776
+        ],
+        "coordinate_order": "(lambda[0:n], mu[0:n], nu[0:n], lexicographic interior (i,j))",
+        "interior_coordinates": 15,
+        "positive_equal_sum_rules": 90,
+        "rhombus_rows": 63,
+        "soundness_scope": "Unit identifications in forced equations give an affine dimension upper bound; feasibility, actual dimension and universal forcing completeness are not claimed."
+      },
+      "dimension_upper_bound_histogram": {
+        "0": 91728,
+        "1": 31351,
+        "10": 3753,
+        "11": 1740,
+        "12": 603,
+        "13": 138,
+        "14": 18,
+        "15": 1,
+        "2": 25378,
+        "3": 22708,
+        "4": 20606,
+        "5": 18567,
+        "6": 16022,
+        "7": 13003,
+        "8": 9900,
+        "9": 6628
+      },
+      "distinct_closures_checked": 215867,
+      "domain_size": 262144,
+      "fresh_record_sha256": "ee9d6b121cbe04370bd1d34355f8b393e1cd63c54970d687d00d972fe6d74d23",
+      "linear_full_domain_forecast_seconds": 13.29143241699785,
+      "masks_compared": 262144,
+      "rank": 7,
+      "scope": "Sound dimension upper bounds only; no actual dimension or universal closure claim.",
+      "status": "COMPLETE_FULL_FORCING_DOMAIN",
+      "table": {
+        "bytes": 28416986,
+        "path": "f025/F025-MASK-R7-001.json",
+        "sha256": "bb595b3914ce05105743e9386f2cc64a4d2ae2d59df0d340c3221b8b74d7cd9c"
+      }
+    }
+  ],
+  "schema": "f025-forcing-verification-v1",
+  "scope": "Sound original-rhombus forcing and dimension upper bounds only; not actual dimension, feasibility or universal forcing completeness.",
+  "source_binding": {
+    "code": {
+      "forcing_hive.py": {
+        "bytes": 4407,
+        "sha256": "cbe690a304b67fcc3c7049d3619e01e9813c91186b3315a59c999f953ac1d265"
+      },
+      "forcing_model.py": {
+        "bytes": 7653,
+        "sha256": "d8c242904f12dce24623b48cd0e0fe53740aa4f424431a8ea471c391d3079557"
+      },
+      "forcing_rows.py": {
+        "bytes": 1774,
+        "sha256": "3ea1c575c102ed1d4afe04eb82217c1835b4864ec996a086eee3719384a80633"
+      },
+      "verify_forcing.py": {
+        "bytes": 15047,
+        "sha256": "f81f390e5804a7138521bba242edb57ee62d2458fb81fadcfe707bf12ac620e3"
+      }
+    },
+    "shared_data_manifest": {
+      "bytes": 6667223,
+      "sha256": "b4c705e887ea5493b178932bae4b88774bb1ba1601a9128ef2995725f4f1ac18"
+    },
+    "structural_row_checker": {
+      "bytes": 93085,
+      "sha256": "bca0fefb46a54edba559278b0e1ca4f34722686b1b2fbc49cad7771801f32efe"
+    },
+    "tables": {
+      "6": {
+        "bytes": 3355507,
+        "path": "f025/F025-MASK-R6-001.json",
+        "sha256": "6476e879783b219411d69ccb015d1cbfdec7540834575d4ab593f5b3ad1701c0"
+      },
+      "7": {
+        "bytes": 28416986,
+        "path": "f025/F025-MASK-R7-001.json",
+        "sha256": "bb595b3914ce05105743e9386f2cc64a4d2ae2d59df0d340c3221b8b74d7cd9c"
+      }
+    }
+  },
+  "status": "PASS",
+  "total_masks": 294912,
+  "post_review_wrapper": {
+    "status": "PASS_COMPLETE_F025_FORCING_RECHECK",
+    "total_masks": 294912,
+    "seconds": 14.582753667025827,
+    "controller_sha256": "722e6f9e3c04ba25e0f4b0c44272039892dfb4f4e953eb77963f796890c6f99f",
+    "positive_controls": 10,
+    "negative_controls": 21,
+    "scope": "Repaired launch/cancellation boundary; full fixed mathematical model and accepted data bytes are unchanged."
+  }
+}

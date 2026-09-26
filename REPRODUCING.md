@@ -4,6 +4,28 @@ Choose a check by the mathematical question it answers. A file inventory,
 an exact scalar count and a proof of every coefficient sign provide different
 kinds of evidence.
 
+## Main rank-six theorem
+
+Begin with the [proof and verification guide](results/rank-six-positivity/VERIFYING.md).
+It separates source integrity, complete supplied-scalar field checks, and full
+regeneration of every analytic scalar premise. A small useful first command is:
+
+```sh
+python3 -B tooling/whole_rank_six/verify.py small --out /path/to/new-small-run
+```
+
+This checks the complete small c6–c9 components, with c10 given by volume; it
+does not certify c1–c5. The [tool guide](tooling/whole_rank_six/README.md) states
+its C++17/GMP requirements and precise scope. The complete c1/c2/c3 distribution
+and full scientific scalar replays are now supplied in the
+[versioned verification package](tooling/whole_rank_six/README.md). Its guide
+separates the seconds-long geometry checks, complete coefficient-field checks
+and expensive scalar regeneration, with exact commands and measured costs.
+
+The established standalone commands below retain their own scopes and can be
+used independently. An older module's statement that it did not close rank six
+records its original contribution, not the current overall mathematical frontier.
+
 ## A first local run
 
 Obtain a source snapshot at a specific Git commit. From its root, use Python
@@ -38,6 +60,41 @@ The [structural module guide](results/structural-positivity/README.md) gives
 the commands for its individual families. Each distinguishes newly performed
 algebra from retained historical count observations.
 
+## Structural counts and normal certificates
+
+The original `replay/reproduce.py` gap-three and transport commands still use
+historical accepted count values. To regenerate all 40 gap-three and 98
+rank-ten transportation positive nodes, follow the separate
+[fresh-count guide](results/structural-positivity/replay/FRESH-COUNTS.md).
+From the repository root, use fresh directories under an existing writable
+scratch root:
+
+```sh
+SCRATCH=/path/to/external/scratch
+python3 -B results/structural-positivity/replay/fresh_counts.py gap --output "$SCRATCH/lr-gap-fresh" --deadline 300
+python3 -B results/structural-positivity/replay/fresh_counts.py transport --output "$SCRATCH/lr-transport-fresh" --deadline 300
+python3 -B results/structural-positivity/replay/controls.py --gap-run "$SCRATCH/lr-gap-fresh" --transport-run "$SCRATCH/lr-transport-fresh" --output "$SCRATCH/lr-fresh-controls"
+```
+
+The recorded run completed both full counts and its controls; the
+[verification receipt](results/structural-positivity/replay/FRESH-COUNTS-VERIFICATION.json)
+states the actual nodes and refusals. The family identities, dimensions and
+stabilization use their separately linked analytic proofs.
+
+The [structural certificate module](tooling/structural_certificates/README.md)
+has a separately versioned 273,273,064-byte data ZIP and complete
+normal/P06/P07/P08 checker sources. Its guide gives the archive inspection,
+fresh restore, finite unit tests and calibrated reader commands. The accepted
+source-identical campaign run completed 664 children in a 572.497-second
+report span. The final portable reader separately completed all 664 children and four
+finite joins in 467.749 seconds; every owned process group exited. F025 forcing tables are a separate finite
+prerequisite. An independent campaign check has passed all 294,912 rank-six
+and rank-seven records with 10 positive controls and 21 refusals; the
+[public F025 sibling guide](tooling/structural_certificates/f025/README.md)
+documents its completed full original-row check. Normal/mask replay does not
+regenerate that table proof. The forcing tables supply sound dimension upper
+bounds, not actual dimension or a universal closure theorem.
+
 ## Complete three-letter rank-six certificate
 
 The [three-letter module](tooling/three_letter_certificates/README.md) includes
@@ -59,6 +116,14 @@ Bernoulli and field omissions, and interruption of the actual outer CLI.
 Neither command runs the finite box or an old rank-six coefficient census.
 
 ## Complete transportation and capped-family certificates
+
+The strongest current family results have their own complete modules:
+[all 4×5 transportation margins](results/transport-four-by-five/README.md)
+(including transpose and active subrectangles) and
+[at most five coupled capacities](results/five-capacity/README.md).
+The former uses a separate manifested companion dataset; the latter is small
+and uses the Python standard library. Their guides give full proof and replay
+routes. The older fixed certificate below retains its original input schema.
 
 The [small whole-family module](tooling/transport_certificates/README.md) requires only Python 3.11+ for its complete proof replay:
 
@@ -86,7 +151,8 @@ lattice/type/kernel/matrix predicates, all local values and all rational
 inequalities. [The record](results/rank-six-coefficients/VERIFICATION.json)
 gives its exact counts and measured cost. `--quick` is a diagnostic prefix,
 with an explicitly incomplete theorem verdict. This command does not rerun
-the finite-box computation or prove the remaining rank-six coefficients.
+the finite-box computation or by itself establish the separate c1/c2/c3
+premises of the whole-rank-six theorem linked above.
 
 ## The finite-box proof
 
@@ -159,6 +225,13 @@ contain the reader-facing proof collection and identify their exact source
 commit. The numerical archives retain their original version and hashes.
 
 The September 13 archives remain dated editions. The later rank-six coefficient and three-letter family
-modules are included in the current Git source and is not added retroactively to
+modules are included in the current Git source and are not added retroactively to
 those archives. Results are shared incrementally at their verified scopes;
 subsequent corrections and extensions retain identifiable prior versions.
+
+## Verification software failure controls
+
+The [small publication failure-path tests](tests/README.md) exercise optimization
+refusals, continuation corruption and owned process cleanup, including signals
+during launch and handler restoration. They are separate from the mathematical
+certificate replays and install no dependencies or proof data.

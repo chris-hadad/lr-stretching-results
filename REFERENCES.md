@@ -139,3 +139,43 @@ specialization, the previously cited polynomiality and BV valuation results,
 and four independently checked fields. Its [source comparison](results/three-letter-rank-six/NOVELTY.md)
 separates the new finite certificate and explicit count methods from those
 antecedents and keeps the novelty assessment bounded.
+
+## Whole-rank-six result and nearby work, 25 September 2026
+
+The [whole-rank-six theorem](results/rank-six-positivity/README.md) uses the
+original hive/LR correspondence, stretched polynomiality, Berline–Vergne's
+local valuation and previously accepted normal-cycle and coefficient results.
+Its retained-support lemma and exact field are stated in the new proof. The
+following primary sources identify antecedents and a distinct bounded result;
+they are not represented as independent verification of the new theorem.
+
+- Alper Ferudun, [*Positivity of stretched Littlewood–Richardson coefficients
+  for partitions of length at most five*, arXiv:2607.22301v2](https://arxiv.org/abs/2607.22301v2),
+  revised 5 September 2026. This proves all-size length-at-most-five positivity
+  and gives a global two-face correction for the rank-five linear coefficient.
+  The rank-six result has a different scope and credits that correction method.
+- Maseeh Ghodsi, [*A finite cover for coefficient positivity of stretched
+  Littlewood–Richardson polynomials in the seven-row, size-thirty box*,
+  arXiv:2609.14357v1](https://arxiv.org/abs/2609.14357v1), submitted
+  13 September 2026. This covers a finite box through seven rows and outer
+  size thirty, with 358,952 residual triples. Its finite-domain architecture
+  differs from an all-size rank-six theorem. The collection's earlier
+  [finite-box note](papers/finite-box.md) retains its own source and scope.
+- Nicole Berline and Michèle Vergne,
+  [*Local Euler–Maclaurin formula for polytopes*, arXiv:math/0507256v3](https://arxiv.org/abs/math/0507256v3).
+  The local face formula and quotient/normal-cone framework are analytic
+  antecedents; the rank-six finite field and realizability check are separate.
+- Nicole Berline and Michèle Vergne,
+  [*Local asymptotic Euler–Maclaurin expansion for Riemann sums over a
+  semi-rational polyhedron*, arXiv:1502.01671v2](https://arxiv.org/abs/1502.01671v2).
+  This gives broader local asymptotic and normal-derivative context, including
+  step-polynomial coefficients; it is not used here as a sign theorem.
+- Li Guo, Sylvie Paycha and Bin Zhang,
+  [*A conical approach to Laurent expansions for multivariate meromorphic
+  germs with linear poles*, arXiv:1501.00426v2](https://arxiv.org/abs/1501.00426v2).
+  Its cone and Laurent-decomposition theory is related analytic context, not
+  a rank-six LR positivity premise.
+
+The [new novelty discussion](results/rank-six-positivity/NOVELTY.md) keeps
+the comparison bounded. No worldwide-priority or external-review conclusion
+follows from this bibliography.

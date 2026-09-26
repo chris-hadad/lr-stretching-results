@@ -1,0 +1,176 @@
+{
+  "schema": "curated-mathematical-module/v1",
+  "source_repository": "stretched-lr-research",
+  "source_commit": "259d8018466872628709e36c94e7c40d3944a3ed",
+  "scope": "Exact public bytes and selected accepted sources; a source hash is not a mathematical verification.",
+  "files": [
+    {
+      "path": "PROOF.md",
+      "bytes": 18668,
+      "sha256": "68d76ff338c8548330e7e128b515799b9e0f6c800861ca0366c083b9a76356b9",
+      "origin": {
+        "transformation": "New reader-facing synthesis of the identified accepted mathematical sources.",
+        "sources": [
+          {
+            "label": "PROOF-MEMO.md",
+            "sha256": "8219019b0a0b785415f65686bbd3223c80c31b689a81783009531f9b22c942ac"
+          },
+          {
+            "label": "PROJECTED-SUPPORT.md",
+            "sha256": "6fae4a44f99af1594b77471f74cb628d3696923f0491adaa984840a4c4367cf4"
+          },
+          {
+            "label": "generation_check_v2.py",
+            "sha256": "6867a4cca61a149adcf3a06ea8a4d31afec751bcd581fabdf5fa1d82d348260c"
+          }
+        ]
+      }
+    },
+    {
+      "path": "README.md",
+      "bytes": 1977,
+      "sha256": "512d2a8c8ee391416eb7d03875a7ce537f77051ddddfb2a11adec804677656e6",
+      "origin": {
+        "transformation": "New reader-facing synthesis of the identified accepted mathematical sources.",
+        "sources": [
+          {
+            "label": "PROOF-MEMO.md",
+            "sha256": "8219019b0a0b785415f65686bbd3223c80c31b689a81783009531f9b22c942ac"
+          },
+          {
+            "label": "PROJECTED-SUPPORT.md",
+            "sha256": "6fae4a44f99af1594b77471f74cb628d3696923f0491adaa984840a4c4367cf4"
+          }
+        ]
+      },
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "e98135104a5401d0511ed52e3a786fe3d9651d958283277e36fe3860f98912e4",
+          "current_included_sha256": "512d2a8c8ee391416eb7d03875a7ce537f77051ddddfb2a11adec804677656e6"
+        }
+      ]
+    },
+    {
+      "path": "data/delta-rows.json",
+      "bytes": 13503,
+      "sha256": "ffaeac4b80a3009f1d51e46577409f8c2a089148970d11d471ccb8ec55ffc827",
+      "origin": {
+        "transformation": "Select only the original boundary, anchor, box and complete 45 literal rows.",
+        "sources": [
+          {
+            "label": "RESULT.json",
+            "sha256": "c701be359b4aae4818ae43ea3b479ed3c97c2e029b0944c86aad9c2b823deaa5"
+          }
+        ]
+      }
+    },
+    {
+      "path": "interface_checker.py",
+      "bytes": 7696,
+      "sha256": "41247aa1ab583cf1266fd78de86307438da9462828f03e06e66f3424075f3134",
+      "origin": {
+        "transformation": "Default source made relative; arithmetic and controls unchanged.",
+        "sources": [
+          {
+            "label": "interface_checker.py",
+            "sha256": "54a2b426b7f6c7df066f09af84a55ca22aed9ea505767d7c3ae0366771e785e2"
+          }
+        ]
+      },
+      "publication_update_note": "Added early refusal when Python assertions are disabled; mathematical function bodies are unchanged from the prior verified edition.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "ff1bf1015fe765066043d91f470e27a8773eecaf04719d4eaaf6f80b2df2e110",
+          "current_included_sha256": "41247aa1ab583cf1266fd78de86307438da9462828f03e06e66f3424075f3134"
+        }
+      ]
+    },
+    {
+      "path": "projection_controls.py",
+      "bytes": 2338,
+      "sha256": "e9cd7ff71133bdfee6237d3dadbb2c29cbb22190f8e74f1847e952d91c8f8e3c",
+      "origin": {
+        "transformation": "Added early refusal when Python assertions are disabled; mathematical function bodies are unchanged from the prior verified edition. Original source hash remains historical provenance; current byte equality is not asserted.",
+        "sources": [
+          {
+            "label": "projection_controls_v1.py",
+            "sha256": "156bb8200c18d7efe637ee600f7edca80f792b4b24053f198e51a266ec2c7151"
+          }
+        ],
+        "transformation_history": [
+          {
+            "included_sha256": "af88f0a2c14544a9ae3a67fa2cfbf7306100532b881435552d8ef85dcd6b8e05",
+            "transformation": "Replace output-file parameter with stdout; exact fixtures and arithmetic unchanged."
+          }
+        ]
+      },
+      "publication_update_note": "Added early refusal when Python assertions are disabled; mathematical function bodies are unchanged from the prior verified edition.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "af88f0a2c14544a9ae3a67fa2cfbf7306100532b881435552d8ef85dcd6b8e05",
+          "current_included_sha256": "e9cd7ff71133bdfee6237d3dadbb2c29cbb22190f8e74f1847e952d91c8f8e3c"
+        }
+      ]
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 502,
+      "sha256": "a7c0ccd1488c6784e40956ffbbb3c5b13305aedeb617806b15b138a05f9e99c9",
+      "origin": {
+        "transformation": "New reader-facing synthesis of the identified accepted mathematical sources.",
+        "sources": [
+          {
+            "label": "interface_checker.py",
+            "sha256": "54a2b426b7f6c7df066f09af84a55ca22aed9ea505767d7c3ae0366771e785e2"
+          },
+          {
+            "label": "sector_fields.py",
+            "sha256": "ac75b32925c2ef1f762638a0050f480486cdc15b9308e9d51022bb7f4c382ecb"
+          }
+        ]
+      },
+      "publication_update_note": "Added early optimized-Python refusal; mathematical replay inputs and operations remain separately source-bound.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "3c199ec24fede3055b5b9e2946e689b2541f6c03e3c9f7325337c54c4861552d",
+          "current_included_sha256": "a7c0ccd1488c6784e40956ffbbb3c5b13305aedeb617806b15b138a05f9e99c9"
+        }
+      ]
+    },
+    {
+      "path": "sector_fields.py",
+      "bytes": 4839,
+      "sha256": "b001856cf933bcc4d2191736db2c175864217ecbbbb95802eb7b3c2b74a3fcb0",
+      "origin": {
+        "transformation": "Docstring updated; mathematical code unchanged.",
+        "sources": [
+          {
+            "label": "sector_fields.py",
+            "sha256": "ac75b32925c2ef1f762638a0050f480486cdc15b9308e9d51022bb7f4c382ecb"
+          }
+        ]
+      },
+      "publication_update_note": "Added early refusal when Python assertions are disabled; mathematical function bodies are unchanged from the prior verified edition.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "72caa8cd59f856dc20581cfafc83a23a22c173409e9021747293a3291de7ea0f",
+          "current_included_sha256": "b001856cf933bcc4d2191736db2c175864217ecbbbb95802eb7b3c2b74a3fcb0"
+        }
+      ]
+    },
+    {
+      "path": "NO-ADDITIVE-SECTION.md",
+      "bytes": 1788,
+      "sha256": "6849869f62095c5ccbfbbec75cfd3c4f095645c879845a465789d7b6ff9a9568",
+      "origin": {
+        "transformation": "New reader-facing curation and portable adapter.",
+        "sources": [
+          {
+            "label": "PROOF-MEMO.md",
+            "sha256": "0de9f51bfb667c066c913c892dd073c850fd3fe55a85d87fb99d37bc3c805188"
+          }
+        ]
+      }
+    }
+  ]
+}

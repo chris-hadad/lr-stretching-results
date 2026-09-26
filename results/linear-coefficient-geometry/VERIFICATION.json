@@ -1,0 +1,34 @@
+{
+  "status": "PASS_FRESH_PRIVATE_CANDIDATE_REPLAY",
+  "seconds": 14.182001832989044,
+  "complete_first_jets": 6,
+  "whole_polynomial_vectors_claimed_for_A21": false,
+  "original_cut_checks": 22773,
+  "original_rows": 63,
+  "exact_duals": 2,
+  "Jensen_defect": "1/336",
+  "addition_defect": "-1/168",
+  "literal_two_row_counts": [
+    [
+      1,
+      6,
+      19,
+      44,
+      85,
+      146,
+      231
+    ],
+    [
+      1,
+      13,
+      66,
+      211,
+      520,
+      1086,
+      2023
+    ]
+  ],
+  "sharp_separated_interface_gain": "1",
+  "interface_example_gain": "11/12",
+  "scope": "Exact finite replay; written analytic premises and publication review are separate."
+}

@@ -1,4 +1,4 @@
-# Littlewood–Richardson stretching
+# Littlewood–Richardson coefficient positivity
 
 Proofs, exact computations and open questions about the coefficients of
 stretched Littlewood–Richardson polynomials.
@@ -9,50 +9,59 @@ come from a polynomial with rational coefficients. The King–Tollu–Toumazet
 positivity conjecture asks whether its coefficients in ordinary powers of t
 are always nonnegative.
 
-**Main result: every such coefficient is nonnegative if
-$|\lambda|=|\mu|+|\nu|\leq30$ and all three partitions have length at most seven.**
-The collection gives a computer-assisted proof, the exact certificates and
-independently written verification programs. Thus the counterexample requested
-within the [posted FrontierMath bounds](https://epoch.ai/frontiermath/open-problems/stretched-lr-coefficients)
-does not exist. Positivity at arbitrary size in ranks six and seven, and the
-unrestricted conjecture, remain open.
+**Main result: every ordinary coefficient is nonnegative when all three
+partitions have length at most six, at every size and boundary.** The
+[rank-six proof](results/rank-six-positivity/README.md) combines a complete
+original-lattice normal-cycle argument with exact rational certificates.
+The decisive realizability restriction removes sign constraints only after
+proving their actual edge weights are zero. It yields a positive lower bound
+of **1/2,000,000 times total actual lattice edge length** for the linear
+coefficient.
 
-Alper Ferudun's all-size positivity theorem through rank five is an essential
-prior result. The new finite calculation handles the remaining rank-six/seven
-inputs using whole-count reductions, relative-interior counts and rigorous
-coefficient bounds. [Prior work and precise dependencies](REFERENCES.md) are
-part of the proof, including the limits of our independent reproduction.
+The result includes nonsimple and lower-dimensional hives, padded lower ranks,
+and every empty, point and actual-degree case. Rank seven and unrestricted KTT
+positivity remain open. [The manuscript](papers/rank-six/README.md) develops
+the geometric mechanism, scalar algorithms, coefficient assembly and provenance.
+The strengthened theorem gives **strict positivity through the actual degree**
+for every nonempty hive. Its complete exact finite premises have been checked,
+with independent internal AI-assisted review and explicit source and execution records.
 
-**Rank-six progress:** the fourth and fifth ordinary coefficients are now
-nonnegative at every area and boundary. A [new result page](results/rank-six-coefficients/README.md)
-gives the full scope and low-degree consequences, with a
-[complete standalone verifier](tooling/rank6_certificates/README.md) and compact
-certificate data. The first three coefficients remain the whole-rank-six
-question outside the complete families below. This is a partial advance alongside the completed finite-box theorem.
-
-**Whole positive families:** the [new transportation and capped-family result](results/transport-capped/README.md) proves every coefficient for all 3-by-5 transportation margins and the displayed four-capacity LR family. These include complete rank-six degree-six/seven and rank-seven degree-eight families, with a [small standalone certificate](tooling/transport_certificates/README.md) and [full coefficient tools](tooling/three_row_coefficients/README.md). They complement the universal partial rank-six theorem above.
-
-**Whole three-letter families through rank six:** every coefficient is now
-positive through actual degree for every feasible triple with at most six
-parts and one inner partition with at most three parts, at every area and
-boundary. The [complete result](results/three-letter-rank-six/README.md) includes
-a uniform original-lattice bound, whole stabilized quotients, an interior
-translation and full multiple-overlap formulas. Its [portable verifier](tooling/three_letter_certificates/README.md)
-reconstructs all 1,149,016 original normal subsets and 395,657 exact local
-constants. Whole rank six outside this family remains open.
+Alper Ferudun's rank-five theorem and normal-correction approach are important
+antecedents, alongside the classical hive, polynomiality and Berline–Vergne
+results. [Related work](results/rank-six-positivity/NOVELTY.md) and the
+[contribution map](results/rank-six-positivity/CONTRIBUTIONS.md) distinguish those
+inputs from the new mathematical and algorithmic steps.
 
 ## Start here
 
 | Your purpose | Suggested route |
 |---|---|
-| Understand the finite result | [Research-note draft](papers/finite-box.md), then the [detailed proof](results/finite-box/PROOF.md) |
-| Check the complete three-letter family | [Statement and examples](results/three-letter-rank-six/README.md), [full proof](tooling/three_letter_certificates/PROOF.md), and [standalone verification](tooling/three_letter_certificates/README.md) |
-| Check the argument | [Guide for mathematical review](results/finite-box/REVIEWER-GUIDE.md), [dependencies](results/finite-box/DEPENDENCIES.md), and [verification guide](REPRODUCING.md) |
-| Try a small exact calculation | [Sign-completion example](examples/sign_completion.py) or the five established standalone modules below |
-| Explore the wider mathematics | [Results and open questions](RESULTS.md), [structural families](results/structural-positivity/README.md), and [companion outline](papers/families-and-compensation.md) |
-| Use the counting code | [Tools organized by mathematical object](tooling/README.md) |
-| Understand how the work was done | [AI assistance and research process](AI-ASSISTANCE.md), [finite-box methodology](METHODS.md) |
-| Trace contributions and sources | [Result-specific attribution and verification scope](PROVENANCE.md) |
+| Read the main result | [Rank-six statement](results/rank-six-positivity/README.md), [paper and PDF](papers/rank-six/README.md), [complete proof guide](results/rank-six-positivity/PROOF.md) |
+| Verify it yourself | [Routes, data and costs](results/rank-six-positivity/VERIFYING.md); begin with the [five-second closure certificate](tooling/whole_rank_six/closure/README.md) |
+| Explore other theorems | [Organized result catalog and open questions](RESULTS.md), with proof and verification links for every result |
+| Count or construct examples | [Tool guide](tooling/README.md), [reproduction instructions](REPRODUCING.md), and [small examples](examples/sign_completion.py) |
+| Understand the method and process | [Mathematical algorithms](results/rank-six-positivity/ALGORITHMS.md), [AI assistance](AI-ASSISTANCE.md), [formalization status](results/rank-six-positivity/FORMALIZATION.md) |
+| Trace credit and evidence | [Contribution map](results/rank-six-positivity/CONTRIBUTIONS.md), [provenance](PROVENANCE.md), [references](REFERENCES.md) |
+
+## Earlier results and reusable tools
+
+The [complete finite-box theorem](results/finite-box/README.md) covers every
+legal balanced triple of length at most seven and outer area at most thirty.
+It remains a separate result with its own proof, data and external rank-five
+premise. The [transportation and capped families](results/transport-capped/README.md)
+include positive families above rank six. The [three-letter theorem](results/three-letter-rank-six/README.md)
+retains its stronger family-specific bounds and count tools. The
+[c4/c5 module](results/rank-six-coefficients/README.md) remains a compact
+standalone component of the whole rank-six proof.
+
+New supporting work includes the [complete five-height hive representation](results/five-height-hives/README.md),
+an [unbounded-rank layered positive family](results/layered-triangle/README.md),
+and [complete saturated quotient consequences](results/rank-six-quotients/README.md).
+The collection also includes [all 4×5 transportation margins](results/transport-four-by-five/README.md),
+[five-capacity LR families](results/five-capacity/README.md),
+[all-rank gap caps](results/gap-cap/README.md), and
+[sharp linear-coefficient obstructions and restricted addition](results/linear-coefficient-geometry/README.md).
+Each has its own precise mathematical domain and verification route.
 
 ## Small reproducible checks
 
@@ -70,11 +79,13 @@ positive cone, parabolic A3 certificates, a coefficient cone, and two-row
 nonconcavity. Both use only the Python standard library and make no network
 requests. Neither reproduces the finite-box theorem.
 
-The [complete finite verification](results/finite-box/README.md) has ten data
-archives, a C++17 compiler requirement, and substantial disk and runtime needs.
-[REPRODUCING.md](REPRODUCING.md) distinguishes extraction, inventory, fresh
-sample counts, algebra checks and exhaustive verification. It also explains
-which commands have actually been run.
+For the complete small rank-six components, use
+`python3 -B tooling/whole_rank_six/verify.py small --out /path/to/new-small-run`
+with C++17 and GMP. This checks c6–c9; it does not certify the lower-coefficient
+components. The [main verification guide](results/rank-six-positivity/VERIFYING.md)
+separates this short route from the larger original-action checks and full
+scalar regeneration. [REPRODUCING.md](REPRODUCING.md) gives the distinct routes
+for the earlier finite box, families and other independent modules.
 
 ## What else is in the collection?
 
@@ -87,9 +98,9 @@ A negative graph polynomial, local weight or auxiliary quotient is also kept
 distinct from a negative coefficient of an entire LR polynomial.
 
 Every catalog entry links its hypotheses, mathematical argument, available
-certificates, reproduction level and open complement. Some large historical
-certificates still have source-proof documentation without a standalone replay;
-the catalog states that limitation.
+certificates, reproduction level and open complement. The guides distinguish
+fresh counts, complete certificate replay, analytic premises and historical
+controls, so readers can choose the evidence relevant to their question.
 
 This is substantially AI-assisted research directed by Chris Hadad. The
 [AI-assistance account](AI-ASSISTANCE.md) describes the models, research

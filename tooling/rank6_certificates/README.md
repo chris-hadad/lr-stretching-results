@@ -7,9 +7,11 @@ areas and boundaries. For a nonempty hive, the coefficient is strictly positive
 when its actual dimension reaches the coefficient index, and zero below it.
 
 The complete theorem, lattice conventions and analytic dependencies are in
-[PROOF.md](PROOF.md). Whole rank-six positivity remains open at the first three
-ordinary coefficients outside the previously protected domains. This module
-verifies supplied certificates; it does not search for their rational fields.
+[PROOF.md](PROOF.md). The later
+[whole-rank-six theorem](../../results/rank-six-positivity/README.md) closes
+the first three ordinary coefficient signs through the actual degree, with
+separate evidence. This module verifies its supplied c4/c5 certificates; it
+does not search for their rational fields or replay the later theorem.
 
 ## Reproduce the complete finite proof
 

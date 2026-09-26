@@ -1,6 +1,15 @@
 # Whole transportation and capped-family certificates
 
-This compact module verifies every ordinary coefficient of every balanced nonnegative 3-by-5 transportation polytope, including smaller and transposed sizes, and the stated whole LR family with at most four coupled capacities. It includes all margins, walls and actual degree drops. The [complete proof](PROOF.md) gives the entire LR constructors: rank-six degree-six transport, rank-seven degree-eight transport, and rank-six degree-seven capped families. Whole ordinary rank six/seven and unrestricted KTT remain open.
+This compact module verifies every ordinary coefficient of every balanced
+nonnegative 3-by-5 transportation polytope, including smaller and transposed
+sizes, and the stated whole LR family with at most four coupled capacities.
+It includes all margins, walls and actual degree drops. The
+[complete proof](PROOF.md) gives the entire LR constructors: rank-six degree-six
+transport, rank-seven degree-eight transport, and rank-six degree-seven capped
+families. A later [whole-rank-six theorem](../../results/rank-six-positivity/README.md)
+covers all legal rank-six triples; whole rank seven and unrestricted KTT
+remain open. The present module retains a separate all-margin rank-seven
+transportation theorem.
 
 The three complete rational correction fields occupy about 58 KB. Verification requires Python 3.11 or later and only its standard library. Choose a fresh output directory with an existing parent, outside this source module:
 

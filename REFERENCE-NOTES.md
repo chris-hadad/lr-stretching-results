@@ -98,3 +98,35 @@ through the checked pages. The directly inspected Beck–Develin and Ressayre
 statements supply the relevant reciprocity and factorization interfaces.
 The bibliography supplies the mathematical premises; the reproduction
 scope of each computational result is described with that result.
+
+## 25 September 2026 comparison notes
+
+The primary arXiv records were checked for the new
+[whole-rank-six discussion](results/rank-six-positivity/NOVELTY.md):
+
+- [Ferudun, arXiv:2607.22301v2](https://arxiv.org/abs/2607.22301v2),
+  revised 5 September 2026: the abstract states positivity for all triples
+  with at most five parts, a rank-five global correction and a
+  full-dimensional rank-uniform top-four consequence. This is a substantial
+  antecedent, not the all-size rank-six theorem.
+- [Ghodsi, arXiv:2609.14357v1](https://arxiv.org/abs/2609.14357v1),
+  submitted 13 September 2026: the abstract states a finite cover through
+  seven rows and outer size thirty with 358,952 residual triples. Its bound
+  does not imply all-size rank-six positivity. This is a distinct paper from
+  this collection's dated finite-box note.
+- [Berline–Vergne, arXiv:math/0507256v3](https://arxiv.org/abs/math/0507256v3):
+  the abstract states the local face integral formula for rational polytopes.
+  The version-three proposition and theorem locations in the table above
+  remain the precise interface used by the proofs.
+- [Berline–Vergne, arXiv:1502.01671v2](https://arxiv.org/abs/1502.01671v2):
+  the abstract gives a local asymptotic expansion with normal-derivative
+  operators and step-polynomial coefficients for semi-rational polyhedra.
+  It is related analytic context, not a positivity result for LR polynomials.
+- [Guo–Paycha–Zhang, arXiv:1501.00426v2](https://arxiv.org/abs/1501.00426v2):
+  the abstract concerns Laurent decompositions of meromorphic germs supported
+  on cones and filtered residues of exponential sums. It supplies related
+  cone-analytic context, not a direct rank-six coefficient premise.
+
+These source-page checks establish titles, versions and the bounded statements
+above. They are not an exhaustive priority search or a new verification of
+the cited papers' proofs.

@@ -1,0 +1,933 @@
+{
+  "boundary": [
+    15,
+    13,
+    11,
+    9,
+    7,
+    5,
+    10,
+    8,
+    6,
+    4,
+    2,
+    0,
+    10,
+    8,
+    6,
+    4,
+    2,
+    0
+  ],
+  "original_anchor": [
+    24,
+    31,
+    36,
+    39,
+    36,
+    42,
+    46,
+    46,
+    51,
+    54
+  ],
+  "box_bounds": [
+    [
+      23,
+      25
+    ],
+    [
+      29,
+      33
+    ],
+    [
+      34,
+      38
+    ],
+    [
+      38,
+      40
+    ],
+    [
+      34,
+      38
+    ],
+    [
+      39,
+      46
+    ],
+    [
+      44,
+      48
+    ],
+    [
+      44,
+      48
+    ],
+    [
+      49,
+      53
+    ],
+    [
+      53,
+      55
+    ]
+  ],
+  "original_rows": [
+    {
+      "row": 0,
+      "beta": "-23",
+      "normal": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "support_mask": 1,
+      "minimum_box_slack": "0",
+      "strict_violation_possible": false
+    },
+    {
+      "row": 1,
+      "beta": "-6",
+      "normal": [
+        -1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "support_mask": 3,
+      "minimum_box_slack": "-2",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 2,
+      "beta": "-4",
+      "normal": [
+        0,
+        -1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "support_mask": 6,
+      "minimum_box_slack": "-3",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 3,
+      "beta": "-2",
+      "normal": [
+        0,
+        0,
+        -1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "support_mask": 12,
+      "minimum_box_slack": "-2",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 4,
+      "beta": "40",
+      "normal": [
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "support_mask": 8,
+      "minimum_box_slack": "0",
+      "strict_violation_possible": false
+    },
+    {
+      "row": 5,
+      "beta": "-28",
+      "normal": [
+        1,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "support_mask": 19,
+      "minimum_box_slack": "-4",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 6,
+      "beta": "0",
+      "normal": [
+        0,
+        1,
+        -1,
+        0,
+        -1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "support_mask": 54,
+      "minimum_box_slack": "-8",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 7,
+      "beta": "0",
+      "normal": [
+        0,
+        0,
+        1,
+        -1,
+        0,
+        -1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "support_mask": 108,
+      "minimum_box_slack": "-8",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 8,
+      "beta": "8",
+      "normal": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0
+      ],
+      "support_mask": 72,
+      "minimum_box_slack": "-2",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 9,
+      "beta": "-39",
+      "normal": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "support_mask": 176,
+      "minimum_box_slack": "-7",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 10,
+      "beta": "0",
+      "normal": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1,
+        -1,
+        1,
+        0
+      ],
+      "support_mask": 480,
+      "minimum_box_slack": "-8",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 11,
+      "beta": "6",
+      "normal": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -1,
+        0
+      ],
+      "support_mask": 320,
+      "minimum_box_slack": "-3",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 12,
+      "beta": "-48",
+      "normal": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1,
+        1
+      ],
+      "support_mask": 896,
+      "minimum_box_slack": "-4",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 13,
+      "beta": "4",
+      "normal": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1
+      ],
+      "support_mask": 768,
+      "minimum_box_slack": "-2",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 14,
+      "beta": "-53",
+      "normal": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "support_mask": 512,
+      "minimum_box_slack": "0",
+      "strict_violation_possible": false
+    },
+    {
+      "row": 15,
+      "beta": "25",
+      "normal": [
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "support_mask": 1,
+      "minimum_box_slack": "0",
+      "strict_violation_possible": false
+    },
+    {
+      "row": 16,
+      "beta": "8",
+      "normal": [
+        1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "support_mask": 3,
+      "minimum_box_slack": "-2",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 17,
+      "beta": "6",
+      "normal": [
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "support_mask": 6,
+      "minimum_box_slack": "-3",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 18,
+      "beta": "4",
+      "normal": [
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "support_mask": 12,
+      "minimum_box_slack": "-2",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 19,
+      "beta": "-38",
+      "normal": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "support_mask": 8,
+      "minimum_box_slack": "0",
+      "strict_violation_possible": false
+    },
+    {
+      "row": 20,
+      "beta": "13",
+      "normal": [
+        1,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "support_mask": 17,
+      "minimum_box_slack": "-2",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 21,
+      "beta": "0",
+      "normal": [
+        -1,
+        1,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "support_mask": 51,
+      "minimum_box_slack": "-8",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 22,
+      "beta": "0",
+      "normal": [
+        0,
+        -1,
+        1,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0
+      ],
+      "support_mask": 102,
+      "minimum_box_slack": "-8",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 23,
+      "beta": "-48",
+      "normal": [
+        0,
+        0,
+        -1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "support_mask": 76,
+      "minimum_box_slack": "-4",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 24,
+      "beta": "11",
+      "normal": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "support_mask": 144,
+      "minimum_box_slack": "-3",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 25,
+      "beta": "0",
+      "normal": [
+        0,
+        0,
+        0,
+        0,
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0
+      ],
+      "support_mask": 432,
+      "minimum_box_slack": "-8",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 26,
+      "beta": "-54",
+      "normal": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "support_mask": 352,
+      "minimum_box_slack": "-7",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 27,
+      "beta": "9",
+      "normal": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -1
+      ],
+      "support_mask": 640,
+      "minimum_box_slack": "-2",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 28,
+      "beta": "-58",
+      "normal": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        1,
+        1
+      ],
+      "support_mask": 896,
+      "minimum_box_slack": "-4",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 29,
+      "beta": "-53",
+      "normal": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "support_mask": 512,
+      "minimum_box_slack": "0",
+      "strict_violation_possible": false
+    },
+    {
+      "row": 30,
+      "beta": "-23",
+      "normal": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "support_mask": 1,
+      "minimum_box_slack": "0",
+      "strict_violation_possible": false
+    },
+    {
+      "row": 31,
+      "beta": "-18",
+      "normal": [
+        1,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "support_mask": 19,
+      "minimum_box_slack": "-4",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 32,
+      "beta": "-24",
+      "normal": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "support_mask": 38,
+      "minimum_box_slack": "-7",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 33,
+      "beta": "-28",
+      "normal": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0
+      ],
+      "support_mask": 76,
+      "minimum_box_slack": "-4",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 34,
+      "beta": "-38",
+      "normal": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "support_mask": 8,
+      "minimum_box_slack": "0",
+      "strict_violation_possible": false
+    },
+    {
+      "row": 35,
+      "beta": "-11",
+      "normal": [
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "support_mask": 17,
+      "minimum_box_slack": "-2",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 36,
+      "beta": "0",
+      "normal": [
+        0,
+        -1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "support_mask": 178,
+      "minimum_box_slack": "-8",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 37,
+      "beta": "0",
+      "normal": [
+        0,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        -1,
+        0
+      ],
+      "support_mask": 356,
+      "minimum_box_slack": "-8",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 38,
+      "beta": "-6",
+      "normal": [
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "support_mask": 72,
+      "minimum_box_slack": "-2",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 39,
+      "beta": "-9",
+      "normal": [
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "support_mask": 144,
+      "minimum_box_slack": "-3",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 40,
+      "beta": "0",
+      "normal": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        1,
+        1,
+        -1
+      ],
+      "support_mask": 928,
+      "minimum_box_slack": "-8",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 41,
+      "beta": "-4",
+      "normal": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        1,
+        0
+      ],
+      "support_mask": 320,
+      "minimum_box_slack": "-3",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 42,
+      "beta": "-7",
+      "normal": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        1
+      ],
+      "support_mask": 640,
+      "minimum_box_slack": "-2",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 43,
+      "beta": "-2",
+      "normal": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        1
+      ],
+      "support_mask": 768,
+      "minimum_box_slack": "-2",
+      "strict_violation_possible": true
+    },
+    {
+      "row": 44,
+      "beta": "55",
+      "normal": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "support_mask": 512,
+      "minimum_box_slack": "0",
+      "strict_violation_possible": false
+    }
+  ]
+}

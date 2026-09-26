@@ -1,4 +1,10 @@
-# How the result was found and checked
+# How the results were found and checked
+
+This page preserves the finite-box method and adds the 25 September 2026
+[whole-rank-six proof](results/rank-six-positivity/README.md). The first is an
+exhaustive bounded-domain argument; the second is a complete original-hive
+normal-cycle argument at every size. Their computational premises and
+reproduction scopes are separate.
 
 The finite-box result began as a search for a negative ordinary coefficient.
 Repeated positive examples did not justify a theorem. The useful change was
@@ -115,3 +121,43 @@ checked the correct formulas, including zero interiors and unused positive
 grades. The [full argument](tooling/three_letter_certificates/PROOF.md) explains
 why a finite original-normal certificate covers every parameter boundary in
 the stated unbounded family.
+
+## From an abstract field to whole-rank-six positivity
+
+The earlier rank-six normal-cycle identity expressed each coefficient as a
+balanced sum of local weights times actual saturated face volumes. Exact
+fields already protected higher coefficients, but the first-coefficient
+search stalled when it required a nonnegative corrected weight on every
+abstract nine-normal support. That was a sufficient sign system, including
+supports that cannot carry an edge of an original hive.
+
+An Opus 5.5 consultation proposed testing realizability. The follow-on E2
+exploration classified the original supports and produced a rational field
+that is positive on the retained ones. A subsequent Codex/Astra proof showed
+why every positive-weight cell of the complete original refinement has a
+retained physical-row branch. This implication holds through ties, hidden
+affine strata, nonsimple cones and lower-dimensional boundaries. The field
+remains one balanced rational field on the complete normal list; rows omitted
+from its sign test have zero actual edge weight, rather than being deleted
+from the identity.
+
+The independent campaign check rebuilt all 45 original rhombi, the universal
+cone and its symmetry, checked the entire retained predicate, and evaluated
+every retained inequality against the accepted exact scalar and saturated
+kernel data. The accepted margin gives the explicit first-coefficient bound
+in the [new proof](results/rank-six-positivity/PROOF.md). Previously accepted
+bounds for the other indices, with the new compact top-coefficient check, give
+strict positivity through each nonempty hive's actual degree. This is internal computer-assisted
+acceptance with specified shared premises, not a formal proof assistant
+artifact or external human peer review. The
+[verification guide](results/rank-six-positivity/VERIFYING.md) distinguishes
+the complete scientific replays from their final public-wrapper tests.
+
+The [strengthened geometry](results/rank-six-positivity/GEOMETRY.md) gives a
+constructive converse: each retained independent physical branch occurs at
+some legal integral boundary in some compatible positive generic refinement.
+At rank six, 103 positive identities and a small exact propositional certificate
+determine every tight-row closure. This supplies a practical independent check
+and witness constructor without the large field data. The
+[algorithm guide](results/rank-six-positivity/ALGORITHMS.md) explains the scalar
+recurrences, complete domains, original-lattice operations and field search.

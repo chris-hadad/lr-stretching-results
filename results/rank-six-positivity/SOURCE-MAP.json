@@ -1,0 +1,54 @@
+{
+  "schema": "publication-current-file-inventory-v1",
+  "scope": "Exact current public file bytes in this module. Historical source and mathematical claims are delegated to the applicable nested source maps and prose.",
+  "files": [
+    {
+      "path": "ALGORITHMS.md",
+      "bytes": 8026,
+      "sha256": "2fba63ba460942c0f5b6e6fcc8b85f1ea6ec80cdaad21c7b6406a12098755e9b",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "CONTRIBUTIONS.md",
+      "bytes": 7026,
+      "sha256": "4295509b511940c3fb7cfd01ebbd447c21c55525decd815f7367fadb0647b0f8",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "FORMALIZATION.md",
+      "bytes": 5727,
+      "sha256": "cbef5a9e3a6d4361b99a39772dd8ff307aa74b47cc9491d2a5bf43b4673afba5",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "GEOMETRY.md",
+      "bytes": 7798,
+      "sha256": "cb949766d254b039aafeade49ab27b1e1bfcb07e94088006fdc8955ca4122410",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "NOVELTY.md",
+      "bytes": 2919,
+      "sha256": "c100670892e1f98e6c1e2c0ed8a84f6ed5b235e67f400a46e89c79b3be0e2f86",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "PROOF.md",
+      "bytes": 14752,
+      "sha256": "a6650e6dd93a3617adb74cdfaa8ca69a0085d82f80d08b303437ac98c24cabf6",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "README.md",
+      "bytes": 4847,
+      "sha256": "156e05eb1b2b01ec223f4d21c3d0576b555ea9c21f1053baebe906dcff7de76d",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "VERIFYING.md",
+      "bytes": 6453,
+      "sha256": "d0defc785f162cd50d134e823fc188f4f26f5b4501b0b7834679bb5ed81ae1f2",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    }
+  ]
+}

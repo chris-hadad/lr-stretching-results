@@ -1,0 +1,82 @@
+{
+  "all_owned_processes_exited": true,
+  "complete_source_bytes_unchanged": true,
+  "controls": {
+    "elapsed_seconds": 0.23118804104160517,
+    "negative_cases": 24,
+    "positive_cases": 142
+  },
+  "controls_source": {
+    "bytes": 10996,
+    "sha256": "093e5b6fcb0264f00bd5d12df3cf9ef3eb6690501c3493cbb0ff1cf22a82ebc6"
+  },
+  "gap": {
+    "determining_nodes": 32,
+    "full_parent_vectors": 4,
+    "hinge_controls": 169,
+    "homogeneous_joint_coefficients": 40,
+    "positive_nodes": 40,
+    "seconds": 0.7860965409781784,
+    "unused_holds": 8
+  },
+  "owned_child_receipts": 478,
+  "portable_python_uses_assert_for_validation": false,
+  "schema": "legacy-fresh-counts-verification-v1",
+  "science_source_binding": {
+    "data/gap-three.json": {
+      "bytes": 7264,
+      "sha256": "116e926f7286d4aa5b9459b3dbe4fa9e3d7a6609751cc904977b9d623cb10315"
+    },
+    "data/transport.json": {
+      "bytes": 20326,
+      "sha256": "aa85413ad2a9d9007880548847cb57d8e09209c434bb4e705b4ba9e5285fae14"
+    },
+    "exact.py": {
+      "bytes": 2245,
+      "sha256": "c9947a3933b29d2e69a3fea4dfca719bdc1f365ac9b32307b91688edc5f16970"
+    },
+    "fresh_counts.py": {
+      "bytes": 16995,
+      "sha256": "0f6411e12c5ff50d2f2780826724506ada7c5a9c258d7ee26eab3f487889ce84"
+    },
+    "gap3_jt_counter.cpp": {
+      "bytes": 13421,
+      "sha256": "7bba0d6276c479296f07c6e4eb2e715059c6b0b20461e8d331e53708a3115c4c"
+    },
+    "gap_algebra.py": {
+      "bytes": 10753,
+      "sha256": "e8d1702b0b73002e8fd83aa73056c109ef56803d655ccfef80ef3b64b9d79567"
+    },
+    "gap_model.py": {
+      "bytes": 2906,
+      "sha256": "e4c7f716b8f3d79f7054a0c11796d1f88b8647ac3cd41b3a31c6b77ccc88ed17"
+    },
+    "transport_math.py": {
+      "bytes": 11277,
+      "sha256": "dae79759efd6f25402e86adf2c4a38cf2cc3614114eb174a1827f50d61075824"
+    }
+  },
+  "scope": "Fresh finite numerical premises and exact full-vector algebra; all-parameter identities remain the named analytic proofs.",
+  "status": "PASS",
+  "transport": {
+    "complete_assignment_records": 18522,
+    "determining_nodes": 84,
+    "groups_per_node": 189,
+    "labeled_weight_per_node": 2187,
+    "ordinary_coefficients": 133,
+    "positive_nodes": 98,
+    "positive_nonconstant_difference_coefficients": 108,
+    "seconds": 6.305965167004615,
+    "unused_holds": 14
+  },
+  "post_review_wrapper": {
+    "gap_nodes": 40,
+    "gap_seconds": 0.8139587909681723,
+    "transport_nodes": 98,
+    "transport_seconds": 6.067439583945088,
+    "controller_sha256": "ad5810aae1bdc0230e6020cf838ed277a77d896a9336747c476f81b4a0a193f5",
+    "positive_controls": 142,
+    "negative_controls": 24,
+    "scope": "Full fresh recounts after child supervision repair; accepted C++ and selected mathematical Python bodies/data unchanged."
+  }
+}

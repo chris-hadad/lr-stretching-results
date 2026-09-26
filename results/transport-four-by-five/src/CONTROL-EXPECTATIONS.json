@@ -1,0 +1,22 @@
+{
+  "values": {
+    "ORTHANT-1": "1/2",
+    "SIMPLEX-1": "1/2",
+    "ORTHANT-2": "1/4",
+    "SIMPLEX-2": "3/8",
+    "ORTHANT-3": "1/8",
+    "SIMPLEX-3": "7/24",
+    "ORTHANT-4": "1/16",
+    "SIMPLEX-4": "15/64",
+    "ORTHANT-5": "1/32",
+    "SIMPLEX-5": "31/160",
+    "ORTHANT-6": "1/64",
+    "SIMPLEX-6": "21/128",
+    "ORTHANT-7": "1/128",
+    "SIMPLEX-7": "127/896",
+    "ORTHANT-8": "1/256",
+    "SIMPLEX-8": "255/2048",
+    "METRIC-4": "-7/68"
+  },
+  "scope": "Orthogonal orthants, complete simplex constant distributed over its metric-symmetric nonzero vertices, and the legitimate negative metric-local face control. No LR candidate."
+}

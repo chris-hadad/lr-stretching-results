@@ -148,8 +148,8 @@
     },
     {
       "code_source_mappings": [],
-      "included_bytes": 6688,
-      "included_sha256": "ae3240563170318586b8e9c0e588d3ffbc209704caefa0254ae67bb2c164e6b3",
+      "included_bytes": 6815,
+      "included_sha256": "42a63932eccc2a05f0b13a4a5ae05eed0eedbbfadb92e285b38165c86925f422",
       "origin_labels": [],
       "role": "curated_document_or_evidence",
       "source_records": [],
@@ -160,7 +160,13 @@
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "bytes": 6730,
         "sha256": "b9ee5efcf6c915d150e884570921ebc1d53af6a945c13bd4daf875cce39ccb0e"
-      }
+      },
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "ae3240563170318586b8e9c0e588d3ffbc209704caefa0254ae67bb2c164e6b3",
+          "current_included_sha256": "42a63932eccc2a05f0b13a4a5ae05eed0eedbbfadb92e285b38165c86925f422"
+        }
+      ]
     },
     {
       "code_source_mappings": [],

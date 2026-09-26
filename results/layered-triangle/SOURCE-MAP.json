@@ -1,0 +1,1803 @@
+{
+  "schema": "curated-mathematical-module/v1",
+  "source_repository": "stretched-lr-research",
+  "source_commit": "259d8018466872628709e36c94e7c40d3944a3ed",
+  "scope": "Exact public bytes and selected accepted sources; a source hash is not a mathematical verification.",
+  "files": [
+    {
+      "path": "PROOF.md",
+      "bytes": 24300,
+      "sha256": "e23e7cfc88d764478642ad45a41e04e8a84e609b857312595d7133a141f5aed0",
+      "origin": {
+        "transformation": "Curate mathematical sections 2-8; add explicit inherited A/B polynomials and beta weights; update accepted finite closure and local links; omit session administration. Link complete clipped-head dependency.",
+        "sources": [
+          {
+            "label": "PROOF-AUDIT.md",
+            "sha256": "c8c4d08c8a1ee8193fd5521781297cdfd4bfa22c6bb155a65721be2fef086715"
+          },
+          {
+            "label": "001-ROOT-PRODUCT-ATTENUATION-AND-THIRD-STRIP.md",
+            "sha256": "bebc040a19f5c451a1e3c99a8b777cdcfee951fe6cd7cc251372fb0b70c7d46b"
+          },
+          {
+            "label": "U07-004-CRITICAL-COMPENSATION-v1.md",
+            "sha256": "2817c9d19827b3254be8054fc0bcf40ad97cc1472dc9a1bece228848981628be"
+          }
+        ]
+      }
+    },
+    {
+      "path": "README.md",
+      "bytes": 2314,
+      "sha256": "8a87822997609a9b5270555a0c94a382678409919c2ca783f6aaae6e6fd0e1de",
+      "origin": {
+        "transformation": "New reader-facing synthesis of the identified accepted mathematical sources.",
+        "sources": [
+          {
+            "label": "MATHEMATICAL-ACCEPTANCE.md",
+            "sha256": "60b59c8186a48755abb06119a6374bbed8fc556302f80872b479decb914f9223"
+          },
+          {
+            "label": "PROOF-AUDIT.md",
+            "sha256": "c8c4d08c8a1ee8193fd5521781297cdfd4bfa22c6bb155a65721be2fef086715"
+          }
+        ]
+      },
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "85cb6dcc3bd849d097305ee129da9cbf0b73a8114443802ebc6666c76fc72ab4",
+          "current_included_sha256": "8a87822997609a9b5270555a0c94a382678409919c2ca783f6aaae6e6fd0e1de"
+        }
+      ]
+    },
+    {
+      "path": "VERIFICATION.md",
+      "bytes": 2146,
+      "sha256": "1d0eb0d17ab1b112e173cc4fc877d606b18e2c573dfab2b4c1755e1a08bbc59c",
+      "origin": {
+        "transformation": "New reader-facing synthesis of the identified accepted mathematical sources.",
+        "sources": [
+          {
+            "label": "ROOT-CHECKS.md",
+            "sha256": "28f32fce791d3c9fdb7da3b22702af82f81db71f2b374d839a0297a89464b12c"
+          }
+        ]
+      },
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "a20d06efe4004ef10bcaaa7153763490520f1ec4293d571489d0d728b2c82880",
+          "current_included_sha256": "1d0eb0d17ab1b112e173cc4fc877d606b18e2c573dfab2b4c1755e1a08bbc59c"
+        }
+      ]
+    },
+    {
+      "path": "data/second/FIELD-r02.txt.gz",
+      "bytes": 498,
+      "sha256": "3be8783f00a3f32e2c323adea101f42ff0cdc3a6814d739af9b65781742c0892",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of the accepted numeric format adapter; SYMBOLIC is a duplicate adapter, not independent evidence.",
+        "sources": [
+          {
+            "label": "FIELD-r02.txt",
+            "sha256": "b98e34340bd99afd76c6b03fee2b3d3fd46359029ac8024ee8a4af32cf0db047"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/second/FIELD-r03.txt.gz",
+      "bytes": 1222,
+      "sha256": "fe35e5f46be0b3660293821c6e6150018bb3cc25b30eddc95cbd5b9928c3f5f9",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of the accepted numeric format adapter; SYMBOLIC is a duplicate adapter, not independent evidence.",
+        "sources": [
+          {
+            "label": "FIELD-r03.txt",
+            "sha256": "32693ae3f71da4a6549f0682aa9ba4c13f7c8738bfa4ce7058facf27feb810c0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/second/FIELD-r04.txt.gz",
+      "bytes": 2468,
+      "sha256": "e7435031fc3ae4d43f1614e5a96b1c7deb555ed1cb7191c12b6437aac1fc14bf",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of the accepted numeric format adapter; SYMBOLIC is a duplicate adapter, not independent evidence.",
+        "sources": [
+          {
+            "label": "FIELD-r04.txt",
+            "sha256": "cd304bce85e18396a7045a63e2cb3f5d27ef81fff52e7f5ec6625fbc43ae7805"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/second/FIELD-r05.txt.gz",
+      "bytes": 4399,
+      "sha256": "15b443ebf7b97a8847ada11591acf59a011591970c5796a6f0d1c081c940d870",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of the accepted numeric format adapter; SYMBOLIC is a duplicate adapter, not independent evidence.",
+        "sources": [
+          {
+            "label": "FIELD-r05.txt",
+            "sha256": "62d74aca390cb6e24a3bfe696884b48a148ce7623813c4176ca8510264558517"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/second/FIELD-r06.txt.gz",
+      "bytes": 7191,
+      "sha256": "3833fd1d2e684d5dee05cd63fa651476dd9b315ff730f01f2a7e81e934a1b4b2",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of the accepted numeric format adapter; SYMBOLIC is a duplicate adapter, not independent evidence.",
+        "sources": [
+          {
+            "label": "FIELD-r06.txt",
+            "sha256": "f489dca31cb9d7f91544fd050797a9f6e54481d21c5449d2a9b78b762a4a1873"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/second/FIELD-r07.txt.gz",
+      "bytes": 11032,
+      "sha256": "d2bc0d6ae9e03fb81728e8dac5af5a99a89e815e35bd400c3d76290d31776540",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of the accepted numeric format adapter; SYMBOLIC is a duplicate adapter, not independent evidence.",
+        "sources": [
+          {
+            "label": "FIELD-r07.txt",
+            "sha256": "26b7c27e26f9cd484b3e7702fefba9911e6ee03b5264256ffaef43fee1bdbe0e"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/second/FIELD-r08.txt.gz",
+      "bytes": 15799,
+      "sha256": "1ecb4a3bfd4dc916fa08a8e7bdc8da079df7623b3a95dbe38b982d63c4582ee5",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of the accepted numeric format adapter; SYMBOLIC is a duplicate adapter, not independent evidence.",
+        "sources": [
+          {
+            "label": "FIELD-r08.txt",
+            "sha256": "a7c9ca65e0c2d5c7ba6c29c646b7dea2203d420c60dadaf01bde2f74c5a4ee71"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/second/FIELD-r09.txt.gz",
+      "bytes": 22042,
+      "sha256": "366986ce2b70a83805c7b2b554ce0cd2b00acbab505a7f7c1a1639f4f4d8a5e6",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of the accepted numeric format adapter; SYMBOLIC is a duplicate adapter, not independent evidence.",
+        "sources": [
+          {
+            "label": "FIELD-r09.txt",
+            "sha256": "310e9b543c790a56fda979fd1da25f936c464cc7b3a9720c0c3c9b0bbff6200a"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/second/FIELD-r10.txt.gz",
+      "bytes": 29864,
+      "sha256": "7b9775a1f1d74f926bcd3a947402611390861580407ed808a3fcee9a2f045daf",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of the accepted numeric format adapter; SYMBOLIC is a duplicate adapter, not independent evidence.",
+        "sources": [
+          {
+            "label": "FIELD-r10.txt",
+            "sha256": "d4765bc29681ad2d6c76551fa54f95d936a958e5a32850a1e9c87ed3dd4a86bf"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/second/FIELD-r11.txt.gz",
+      "bytes": 39179,
+      "sha256": "85fffdc424bdd6dd2e22336ded347a7911ca68053eb39d1229e2a046659c72b4",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of the accepted numeric format adapter; SYMBOLIC is a duplicate adapter, not independent evidence.",
+        "sources": [
+          {
+            "label": "FIELD-r11.txt",
+            "sha256": "ed2188cf77ac6732886d106e85dc7f6418f29cc308652938613dee2b0393c037"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/second/FIELD-r12.txt.gz",
+      "bytes": 50305,
+      "sha256": "3692c539e1508bbf97bcb6295d71d2f7112b4a0c04d456252ff8e1064a49372f",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of the accepted numeric format adapter; SYMBOLIC is a duplicate adapter, not independent evidence.",
+        "sources": [
+          {
+            "label": "FIELD-r12.txt",
+            "sha256": "824f443af12684e70d7d5c5c329e12721b4b75c8133606fb5c8287a4d3d88f1d"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/second/FIELD-r13.txt.gz",
+      "bytes": 63311,
+      "sha256": "2fa5a65fdca2292e18828d7bf9912ad77bb081f7f886f4d6912da2e690de0130",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of the accepted numeric format adapter; SYMBOLIC is a duplicate adapter, not independent evidence.",
+        "sources": [
+          {
+            "label": "FIELD-r13.txt",
+            "sha256": "9b8f49f79ac3c95a815bc89c4da5df92554052c80126aa337fe85ce5e34732e1"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/second/FIELD-r14.txt.gz",
+      "bytes": 78588,
+      "sha256": "fdf9cfabd72a455ef3c9360c21433e3d7ff66a33f6991d5981ce4309c93d61ec",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of the accepted numeric format adapter; SYMBOLIC is a duplicate adapter, not independent evidence.",
+        "sources": [
+          {
+            "label": "FIELD-r14.txt",
+            "sha256": "a157c7d835a423ab36463b390648260cf0f77240751754a49190921986b26a9c"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/second/SYMBOLIC-r02.txt.gz",
+      "bytes": 236,
+      "sha256": "eea89e3065bbc23f4250f79522eb8376d17d14cc50d7726721c34440f2cc30f1",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of the accepted numeric format adapter; SYMBOLIC is a duplicate adapter, not independent evidence.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r02.txt",
+            "sha256": "4ac66c0bace155ee32ac3a046013c03e6c9f03d3ddae157316008356d4b5e4d4"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/second/SYMBOLIC-r03.txt.gz",
+      "bytes": 560,
+      "sha256": "d176c1e326fd089861ff8dc76575a8e19d49fba1619386cd8f4c380811731c54",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of the accepted numeric format adapter; SYMBOLIC is a duplicate adapter, not independent evidence.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r03.txt",
+            "sha256": "148f012fb1a30df9ccaeafedd6ac6b2e7d76026a42284a0c5453e33991f37390"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/second/SYMBOLIC-r04.txt.gz",
+      "bytes": 1164,
+      "sha256": "31b5b52d58b0e06ff257b0af68aad2a8e9582fa6acf43e0367c83a3e30096c5f",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of the accepted numeric format adapter; SYMBOLIC is a duplicate adapter, not independent evidence.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r04.txt",
+            "sha256": "3b3c143aa9fad3c27f7b47b227d29e1c35e994ef7f3f57d3bc8e02d832e0461b"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/second/SYMBOLIC-r05.txt.gz",
+      "bytes": 2145,
+      "sha256": "117a6ffbb48a4ecc6eef512af2976505f798c6c81e8583c39eca60e7a7a96d88",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of the accepted numeric format adapter; SYMBOLIC is a duplicate adapter, not independent evidence.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r05.txt",
+            "sha256": "2d48c71d8782b0f622de02edae7c2641ede33bad28cac7a7580ec8efe45bae95"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/second/SYMBOLIC-r06.txt.gz",
+      "bytes": 3539,
+      "sha256": "08e92025c500b8f1f70a96b8f401a12bea14ceedce2c576cbed4a0d4ba26b0c7",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of the accepted numeric format adapter; SYMBOLIC is a duplicate adapter, not independent evidence.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r06.txt",
+            "sha256": "9ef0536b906392c102a46f39e5f94b8bb4590f176745be0eb7a34df03b8fac2a"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/second/SYMBOLIC-r07.txt.gz",
+      "bytes": 5432,
+      "sha256": "7ba4c1e6f74d75b4c43afc2c3c1425ec045dcf89ea8c9bd2a0e369dcd94f25bf",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of the accepted numeric format adapter; SYMBOLIC is a duplicate adapter, not independent evidence.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r07.txt",
+            "sha256": "e508df08f23f919ccfb43ba5d6a61030d1bae6903c6216508e939c8e22c19069"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/second/SYMBOLIC-r08.txt.gz",
+      "bytes": 7721,
+      "sha256": "4ba2cabcd60eca46691b279fa7ccd895761f473f7e87042c793f8c531eece9c7",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of the accepted numeric format adapter; SYMBOLIC is a duplicate adapter, not independent evidence.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r08.txt",
+            "sha256": "ea48d0f5f53ab98ce7458c98b77a3c27a2b77e37311bc76efaf67e34d324965d"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/second/SYMBOLIC-r09.txt.gz",
+      "bytes": 10968,
+      "sha256": "5c9dc34a6385c73899f7caabdbe6964cb2bd378943115818ee8478f36b017312",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of the accepted numeric format adapter; SYMBOLIC is a duplicate adapter, not independent evidence.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r09.txt",
+            "sha256": "e2d8710c43267106e4ad94caf76f980c82b227e5eae0863d561626cb9c5bc3e3"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/second/SYMBOLIC-r10.txt.gz",
+      "bytes": 15003,
+      "sha256": "0e6c0b99fd31a7ec457ff54746dc45eff297e993ed8c7b1f75c670cb792e2791",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of the accepted numeric format adapter; SYMBOLIC is a duplicate adapter, not independent evidence.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r10.txt",
+            "sha256": "11bf99ede5f54177cb68cf64531fc4e1be482510de39d0bd979209ee6bc7d980"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/second/SYMBOLIC-r11.txt.gz",
+      "bytes": 19825,
+      "sha256": "c16073e5450220d69f5d8f861fa889d1d23a8a1b358414a374e9a0e00f0400c2",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of the accepted numeric format adapter; SYMBOLIC is a duplicate adapter, not independent evidence.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r11.txt",
+            "sha256": "355edb33c38f2bfbbe515f36d38b46806b35188df7ce5cc9df3b49e391a5380d"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/second/SYMBOLIC-r12.txt.gz",
+      "bytes": 25616,
+      "sha256": "12018cfe6b0438fa9d3f33056b377540b56419047a0390fbb11f21dc0c6a0ece",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of the accepted numeric format adapter; SYMBOLIC is a duplicate adapter, not independent evidence.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r12.txt",
+            "sha256": "28a15d90bf7a1a7c5fcf8e5016d40fcc07fa3704dab17081ea095dda53ec7a24"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/second/SYMBOLIC-r13.txt.gz",
+      "bytes": 32096,
+      "sha256": "19f4099f0478a9d462e6996e308d15e142512cf743abf73ee04b8474f36fdde3",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of the accepted numeric format adapter; SYMBOLIC is a duplicate adapter, not independent evidence.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r13.txt",
+            "sha256": "f38899f2d68aaf3929a55dae09f9c66fe0a81873a36c8215ba65372667309457"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/second/SYMBOLIC-r14.txt.gz",
+      "bytes": 39818,
+      "sha256": "61a876c4aee66e087f9048818d8881bf314b5002d2d46b144a345038bd03efa5",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of the accepted numeric format adapter; SYMBOLIC is a duplicate adapter, not independent evidence.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r14.txt",
+            "sha256": "5a1718d4ad7156dbe7d7425ade657a86df4a03a4ab36398f879a6e233f9e7a22"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r03.txt.gz",
+      "bytes": 1108,
+      "sha256": "406e7733737f2db31cfcaec9172c7d882c5cf1a9a75d416bac73fcd926a36ae0",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r03.txt",
+            "sha256": "5e8d16fa1ad1bb31449a9e9dbfe4267af11ad1411c6e8b5088b11820f4e2316c"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r04.txt.gz",
+      "bytes": 2415,
+      "sha256": "f65002f87ae369b8c2013a3f2810d40865b1d5a932ada8eabec832d48d749590",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r04.txt",
+            "sha256": "7055722410bee3318dfac22840078c5805e8d1e8503cc7784b63064e36f003a6"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r05.txt.gz",
+      "bytes": 4384,
+      "sha256": "17443cfb18ac3b1f262abd83750ab42ed318ddba5fc11231e457f44ec4c4fbfe",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r05.txt",
+            "sha256": "644e12942862d1d8277f90d6e111e05c9a06eea306bed95a9dacf235c6670c41"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r06.txt.gz",
+      "bytes": 7165,
+      "sha256": "95fa07f0968b8606e63509c4a0613734432682d52fc1a18cb22bf7427f97baaf",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r06.txt",
+            "sha256": "151864ac740daa113552ad9eddda395a883423e545ffa87df17e931c0280de16"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r07.txt.gz",
+      "bytes": 10931,
+      "sha256": "a48b15403e4956fd982f75a50ae03068a2911993ea989b7ff5ba0e06125c2668",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r07.txt",
+            "sha256": "630f8376ff6626abc52505cb3e7b2eb54e57bac480daa2b65b278cd3542910ff"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r08.txt.gz",
+      "bytes": 15799,
+      "sha256": "0c284dc3139d9d8160ceb32a4d1d82a745b5eb55c72085ea58a162ffd84d9f8e",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r08.txt",
+            "sha256": "ca1a1f8afa1cd1898239fb8e49532600cd2666c6d13caebcab4f78d5d54d0374"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r09.txt.gz",
+      "bytes": 22009,
+      "sha256": "675ff3e06771b1a297c4d531b53f8f2cbc6689315e5fc9bd04305e8eb0219d5f",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r09.txt",
+            "sha256": "25ffb7f30168b020315d98f80d663192a1fa837846afe48134760d6c635e17d3"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r10.txt.gz",
+      "bytes": 29853,
+      "sha256": "a4cd8a4e643f72bdba66274749730b4188b07ee21c11cf95397973e8b0cf91c4",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r10.txt",
+            "sha256": "8881b64a1a3188f20d592f42196077751973de56525c131546aa3f63c2f25051"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r11.txt.gz",
+      "bytes": 39104,
+      "sha256": "253770a2c59707fb87d4c9c9ce99c1dceb68ff52bb3a166566467bd2f0266461",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r11.txt",
+            "sha256": "5a703ceb0472c742f3a25b8bd09cd874e688d7f822bb4b8abf8d788f5ae6ee92"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r12.txt.gz",
+      "bytes": 50182,
+      "sha256": "89150e2d1e846aa2ba41f9feaeb0117fc72911bcdc14336ebf957ade35f27b7b",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r12.txt",
+            "sha256": "091544dfce7b3854175be2e03416b2620485f5b09cce1c1429ab66b4846ffec7"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r13.txt.gz",
+      "bytes": 63262,
+      "sha256": "6a4d09133aafed3aac2b7a87bdb2b0ee28d99a85d1b9b3112a6b4bb34ab0c208",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r13.txt",
+            "sha256": "701d632efbc52aa3f7ebc51da0abdffc0aa8143f7450c999aa3633b67f20e49c"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r14.txt.gz",
+      "bytes": 78450,
+      "sha256": "4586f6b772a0e6f747b281e5dcd9add4ab5fa4d6d772ebf5ae31ac12ec27a0c0",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r14.txt",
+            "sha256": "4a3baaef348521a45a0adb46ab1136fd3f21b8e6fe3ab45528a58f9f748347d7"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r15.txt.gz",
+      "bytes": 96341,
+      "sha256": "76786b28af9f86bc070c6d3b818fd5c3cd114d30feac6385a0ac9ed19e1d6477",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r15.txt",
+            "sha256": "be870b8ffdac7bfafa0b40b5816c551e64f3328f5ae1e62d4b33337218a56c65"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r16.txt.gz",
+      "bytes": 117230,
+      "sha256": "8200200de7c4f067d813d8eaa4fa6b2b1288e64483dbe515b195d213f8f52cb1",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r16.txt",
+            "sha256": "a4c7344f6d531ae5110e2815794ba6d604d7e966afb67b8a0cf3f37136614a58"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r17.txt.gz",
+      "bytes": 140251,
+      "sha256": "68c5c48eca23fb327162e9c0dfbcba8090365cc9f434922d386b061bff15ee29",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r17.txt",
+            "sha256": "13a78cc86bf9ee1cb10d74d6cf759d9615d296fc631c70fe95915da417c70c33"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r18.txt.gz",
+      "bytes": 166520,
+      "sha256": "55787052294069bddeab99bdfe614e3e2fd97d1a180d58ef7caacb48939d8ee9",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r18.txt",
+            "sha256": "873eb3281faa380fbc057b6d9f05fd7bb7dd644c9bebccae3c5224afe402cdcf"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r19.txt.gz",
+      "bytes": 195684,
+      "sha256": "3912b4775d6407de6bfa2a78a68487b5927a1b14af7e3457486b62bc93197b55",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r19.txt",
+            "sha256": "3b6b8b3339ce2f3d4d88a035063641d52a4f11e2c3ae8a761e586852c7c2ae18"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r20.txt.gz",
+      "bytes": 228864,
+      "sha256": "e794c037ae9ecf5a54b57dde053e646c511cfa339bc3c9cbbfc1b84fe526a7b1",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r20.txt",
+            "sha256": "39d6d1329622e236d1b14f5d66c8881db312f5e495942dadca51734e63e2a2e5"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r21.txt.gz",
+      "bytes": 265842,
+      "sha256": "aec348ef24c3de4f1cb06faea43449a13a77703257a42c23e711eb6bca4a689d",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r21.txt",
+            "sha256": "0df4c56a32f8ab18bf64c555239eabbccd6e7016c86b095513242ac8c6b55910"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r22.txt.gz",
+      "bytes": 306308,
+      "sha256": "cef0886137d2cea13b8059913659ea9d00bfd957d62150217769c9a4f43089ae",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r22.txt",
+            "sha256": "4a2612b611006e3dc319a572b3933205b704d44923756e8bcc961f0c91e355b9"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r23.txt.gz",
+      "bytes": 350345,
+      "sha256": "3132b8c45872b44428be7a612cd8427813331f3fa97ff9010557e4d257ba91cb",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r23.txt",
+            "sha256": "d5aca83cbf849b5bbb6076673648978c7b6c991d92a6c109f6dc96bd4cb8cb8d"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r24.txt.gz",
+      "bytes": 398899,
+      "sha256": "9d8af9e5a0c18e51b83f5798d8c218ccfb8530c43b74f4c248df5560421e4b0d",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r24.txt",
+            "sha256": "5ec2ce6ef68d599f257ce5ce958c83dc2f382dd276492c85eaae8658f7f5fb77"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r25.txt.gz",
+      "bytes": 452645,
+      "sha256": "65c0bf9cdd344f0d883e441aee0a178a5493edfe5cf88c94c47ab87df3679258",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r25.txt",
+            "sha256": "d92e016f1e812ed9e79d21fd54d71a03575bc12c04c031db0a9d6d131c4ffb52"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r26.txt.gz",
+      "bytes": 510790,
+      "sha256": "c9bf92c83ff49dc2bb265deea49777de7c00776ef9eadbbfcde3439ff82be279",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r26.txt",
+            "sha256": "120c328d7065962ae1b549d0c914db15abc89c3787936971cec83ce4c354aaee"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r27.txt.gz",
+      "bytes": 573819,
+      "sha256": "6978dc4f5662a66c65b24f544abf820ab2dee2dd5c5aa450ca98dda6c65831ba",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r27.txt",
+            "sha256": "d0e0fe09b673d8653999480a65ef2b9feac665aec7834981074b8f546980fed1"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r28.txt.gz",
+      "bytes": 641258,
+      "sha256": "21b68687020088d32ea7bd1c7729b82d293c69d81764a43f69c8de19d7abb4a2",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r28.txt",
+            "sha256": "ca33ff77bd1ca6f68f0bb1fa9bc4a5d9f93259f5fc429e10b3a0cca876353209"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r29.txt.gz",
+      "bytes": 714180,
+      "sha256": "cd7d263f7b1862e23603d55f40c1fe421224003beeca2ca6124b30948b357876",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r29.txt",
+            "sha256": "feaadb52e0ba8b7e3c37fc5cc37bdd5d58a00f3da49f51d2a45690c371e608d8"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r30.txt.gz",
+      "bytes": 793579,
+      "sha256": "95d8bfbdadbfe81d388710ccc925ed46ea951b24eb8f9def459bdbe60da39dc0",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r30.txt",
+            "sha256": "6c36999003129b65e7da42a433df4426f688fb5e238c603b71aa70edce5e8516"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r31.txt.gz",
+      "bytes": 878730,
+      "sha256": "7f5e361ab0573edf4324922d6028a615f8b44c3b95b1cdd269d3a5b45888ffe4",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r31.txt",
+            "sha256": "5318fdec6aa7c5e85cd5b9f223d9469e5a91f6f3d815795b006d842dc3274657"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r32.txt.gz",
+      "bytes": 969335,
+      "sha256": "57650bb6db81f7509839c27846129b920a4650400395aa06c55696f9680c1d79",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r32.txt",
+            "sha256": "839dc5026a11e2b53acf661de0bf6b58ba9d17b73b83ccbd6ed7b3e98712b936"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r33.txt.gz",
+      "bytes": 1063907,
+      "sha256": "5c8218577aa82454fb82a4313c218ccbede9829beca52844722b38ffbbe75ddf",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r33.txt",
+            "sha256": "32c15852cc363127358983d9737ac1f4aee95aa5ad0ac69a4972f341afe2bbd8"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r34.txt.gz",
+      "bytes": 1167241,
+      "sha256": "ed7a4b75671b7808ad0085d0ac9c1d3cf4761457c96bfa5dedafd0e63e2a367d",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r34.txt",
+            "sha256": "2d4be901ce6c508320ce196779fa3024f3927ce236ab7a3c2d09cd43c82f7f7a"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r35.txt.gz",
+      "bytes": 1277608,
+      "sha256": "451f22a84eaf729604af39f475f6ce55e7ffdcf73329e8fea5761e3a564b9e3d",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r35.txt",
+            "sha256": "06d374d37a7c3b5c4204e675462a603c28cfd16e2cfb73a29dec982676a8605f"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r36.txt.gz",
+      "bytes": 1395403,
+      "sha256": "cb2bbb1a9cd8ca02a843dd0b417caee1efe9c1c91d1bbc101be5fc8ae5189542",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r36.txt",
+            "sha256": "8ac83774f3e0b105e21ac367ff893cf7c5a46e604c112591139e72cdac446f9b"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r37.txt.gz",
+      "bytes": 1519338,
+      "sha256": "45286ecefea9fe92ef7c6aac221392abf2f242f1fa873ccb6d22956e91e80599",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r37.txt",
+            "sha256": "91a00a501175fd072b0014e35a55677245c8aef6f83bf31458af5d6142f00159"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r38.txt.gz",
+      "bytes": 1649387,
+      "sha256": "4efd82a27fe3ee1937b15036e48d011d20051566f736117bb912f4283bb7c064",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r38.txt",
+            "sha256": "4c9b5c73d9675f3d7135b70aee0436d41e4bdb7f4e773f210fe7147e013b050a"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r39.txt.gz",
+      "bytes": 1787336,
+      "sha256": "cc433743614a0211d04618ee077e91772b6db922cb9b2cbd6b70e6d004df2e80",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r39.txt",
+            "sha256": "58392b14fc8bcc7c49c4a6593535dd87585a62b52e898a82dfd4caf821b35bd6"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r40.txt.gz",
+      "bytes": 1933993,
+      "sha256": "10975d05939600c3a29f99cb4381cd65fab691036d45e29bc4421df378ba8c0c",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r40.txt",
+            "sha256": "02603c2eafcda25c72ac4b435f9fbff4d10054dc35ce9cc2c0b2c6c6219367fe"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r41.txt.gz",
+      "bytes": 2090202,
+      "sha256": "c35c4e2996b6d1533153fc42c8704e0d461400b8acc84b414f16f05c722c0494",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r41.txt",
+            "sha256": "2ae7814b2311dd1120be665cb0e35798c24ebe86b40a3d64230ba36aceb5a948"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r42.txt.gz",
+      "bytes": 2249749,
+      "sha256": "73c47098debb6f8b45257b1c7bda05d8fc8578280420349290da1c9fb2bd3fef",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r42.txt",
+            "sha256": "f78123072d8dfe8bae4dfcde4f871aab8d5d06bee1b6271d5aa1cf670f721454"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/FIELD-r43.txt.gz",
+      "bytes": 2418840,
+      "sha256": "ded317fd2856619075b0f7eb39640eea4c302ed4016c4efc6770262d8e0fbadf",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "FIELD-r43.txt",
+            "sha256": "e49b7cdd5eb0aff25289a5a2729f06918654df58202f76c8f8998fe86a8bff9d"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r03.txt.gz",
+      "bytes": 509,
+      "sha256": "ec6b7fe1a7a40d458467faa5cd5dd8c443ac4413ea27a883e0275343d9b2b058",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r03.txt",
+            "sha256": "fbab69f6901300b380e93d0e5edb40a841ff805d4e656377f666c911a7f979fd"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r04.txt.gz",
+      "bytes": 1133,
+      "sha256": "8494f7a99808a7a824390db59d22a995fdc790d02f774d73fc750fab0cfc13ca",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r04.txt",
+            "sha256": "447bc522c50121d63a71c479501d8e967f8cd5ac194ef9c8f48b03a05ae58fb0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r05.txt.gz",
+      "bytes": 2137,
+      "sha256": "4b72682f780e7bd3651e1c165143253bd3821393b84830b92487d4627782e508",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r05.txt",
+            "sha256": "76ecf2e87979fb9531c2c2d0e534cb6a4a6ba22080f2ba9bae782f7fd55e9feb"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r06.txt.gz",
+      "bytes": 3531,
+      "sha256": "d1592089dc132ba122ee3eea874b9e523baf70efc7fd1055b3b7344d5f21cb93",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r06.txt",
+            "sha256": "aaa8b28854d930f09608b5c2c09ee29ef0d24e585eaba0809dae957165b9242f"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r07.txt.gz",
+      "bytes": 5436,
+      "sha256": "94c9ab7b2d046e1d617af9bfe4174da434590a71ac9956e8fcce77fd7362d0ca",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r07.txt",
+            "sha256": "12b99e597325f4abc3580a55eee88625de537db0dcde64befd6ea60607faa356"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r08.txt.gz",
+      "bytes": 7740,
+      "sha256": "249e9680a4eb514da8423db29ba08912c35c0becbca25688a923217ff73eac98",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r08.txt",
+            "sha256": "743330c0a2b2b534a5103ae6d8420e79f9e4e066cd384f808267d6cd1796efdc"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r09.txt.gz",
+      "bytes": 10921,
+      "sha256": "083913e0b72d6d596a0a917c1b2f7bb20d3a69f30b78f876948d1dee02fd71f5",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r09.txt",
+            "sha256": "b77e1d0115267088a640249bd32a80976a6b1fed4e9f8ba4f6e96b72322895e9"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r10.txt.gz",
+      "bytes": 14984,
+      "sha256": "1605a49ad147781b328f44a27ccee7daa5b64277595f606f82ac5a709cbc764e",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r10.txt",
+            "sha256": "f95a8acad6c20493f9abb4ac7ca46cd9d3a3534cb777d9bf036cc4d70cf4234e"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r11.txt.gz",
+      "bytes": 19874,
+      "sha256": "c5df214867bfc1cb3e5e1ed5e70ffa2175d887dd7e24a030b5ab53cebc623419",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r11.txt",
+            "sha256": "4b0706ccd1b202b18a159d97d71bb2efb039842e246a1869a446490196d461ef"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r12.txt.gz",
+      "bytes": 25582,
+      "sha256": "5eb9082294db168f018b798245cdaba15b94e70ef3f812360be3334ba19633ff",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r12.txt",
+            "sha256": "716539307f7f9ff4a154e25f5090495c0e5b8eb445af58e10164920c3373b7b8"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r13.txt.gz",
+      "bytes": 32145,
+      "sha256": "2103b1239d4cd22ed84ba5b872af211c1076b6ca15bc0f6f62c0005efa14d7b6",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r13.txt",
+            "sha256": "9fb61c07ec7b8f5738b91f15876d5bc3ee80d7ceedbd6977c6d07605b5d85074"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r14.txt.gz",
+      "bytes": 39798,
+      "sha256": "5834dac20074bd56f2bcc35d31440cefe83337e9df49fda65c5fc8712ad71e6d",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r14.txt",
+            "sha256": "4f41a5d2b964942c5288d2a7646d84098a928c157e9507facc485cfe7f2a6ab9"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r15.txt.gz",
+      "bytes": 48641,
+      "sha256": "5c2075673f302a5b0dee1d481ddb7bfed4ffb280f8a21c1f6cecd7b070b077ea",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r15.txt",
+            "sha256": "94860c786e06674250ffcd9c6f2287560e41ea53909626181f098177268fd584"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r16.txt.gz",
+      "bytes": 59311,
+      "sha256": "d3fb773b870615aa95a17bcb59290ed82aa5e37f495da5e1908a0af0e765e496",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r16.txt",
+            "sha256": "b0ca1e393d1c1be449e92eab28a5639660b5db68750f96160416a7fecb0741ec"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r17.txt.gz",
+      "bytes": 70702,
+      "sha256": "ae00e6f6f4c022d23a517f29f4986c35319a15cf21a244861851b774d0d0b48a",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r17.txt",
+            "sha256": "88a72e43764569c091c871f522dc7c5e0a643ad685e86b371167fdd4e77c0dc5"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r18.txt.gz",
+      "bytes": 83701,
+      "sha256": "e585cbdd028e440c04d0366dd63962f1429154948f96233f7504cb2d0453f298",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r18.txt",
+            "sha256": "b0365643d40e19fc1e408ffcf63e498ce00908edc540e18497f7cca371b6a927"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r19.txt.gz",
+      "bytes": 98470,
+      "sha256": "352c2f2fffe12c20f890243011ad6a1e1d889879dad3f8bc00d8cb0b5e6777d8",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r19.txt",
+            "sha256": "16f7245697403c8139ae383de4bac9b892c2300e472f2e3f7a57f09f87dcaa2e"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r20.txt.gz",
+      "bytes": 115074,
+      "sha256": "c64fd0c29cba6b63e8e14f839f4a61905f6b27c5fa9f2ea614d5f8a285bf4fe7",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r20.txt",
+            "sha256": "c00812a4f614adb0751aaf7abc44a2ee4cdb931c7d0fe441c304841fdccb4a24"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r21.txt.gz",
+      "bytes": 133921,
+      "sha256": "c465ff68468b8148a0a3fabac60a10262c2b4a4a6deff54cc6733561d530657a",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r21.txt",
+            "sha256": "e0034010c5b4cfc12f370226fa85f7c8356520e06988fdaaa589e95baeb37b66"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r22.txt.gz",
+      "bytes": 154232,
+      "sha256": "33be0d5caf6c865d0d4893d33421ce0fa5d6c645aae1ee298f5ab53c42e507d6",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r22.txt",
+            "sha256": "9b8eb2f59a3872ad154c142e70d4e953d452ff5c07197966329a4e0714dafab3"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r23.txt.gz",
+      "bytes": 176151,
+      "sha256": "0e054e9781ce583c9b4253b4c616875e49aca9de66dd6d149992b122f9f3405b",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r23.txt",
+            "sha256": "bf7b20d6743341b7e8e43f166c7446edad33b5bc965f870b2d7d35ce0c631abd"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r24.txt.gz",
+      "bytes": 200360,
+      "sha256": "a30e4a7f3a1d7e5895951c3afb667c411f122b574e5f4e7dbf17ee11ca6b5f5c",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r24.txt",
+            "sha256": "214db437f64c05b16a703e8a9fce744300169b039060441079177eea9bc11080"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r25.txt.gz",
+      "bytes": 227705,
+      "sha256": "dbb90e33154f3364af0a71216d0e89643187ffa56d957bb726a9875129223305",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r25.txt",
+            "sha256": "2387f0a68cc02d3b6103dadf96926eec9993421409c2e36c5e7d8377d7a8fd2c"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r26.txt.gz",
+      "bytes": 257197,
+      "sha256": "901506ccf705d3e63cdc4a9b7eeb89c2b2da3f18a78144197d751b90734ac30b",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r26.txt",
+            "sha256": "dcfe436c9eef331b990a148afe4662703e53fe47f1262169ea3f3fbc47ace3ad"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r27.txt.gz",
+      "bytes": 288883,
+      "sha256": "e9a6b261d173f3c3e1c877af267687a8d92a0eb996d00358da15a46938ceefff",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r27.txt",
+            "sha256": "6e857ac12e8bcbfc1e4e11797af9a54aed1350f511d64c4788c3e42e8b9346a6"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r28.txt.gz",
+      "bytes": 322568,
+      "sha256": "660a7d998d2f9a830b8d42b5ce3212053320073941e7d05f395d0638f2f00c39",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r28.txt",
+            "sha256": "56dbbeef9d7fb6af254ddd45e09a54eb6ea4e070510d94b619e917f6dd34c81f"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r29.txt.gz",
+      "bytes": 359436,
+      "sha256": "02d60cf789f9f97c98d4948099025689e2f64cb730155fe035761042480180da",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r29.txt",
+            "sha256": "1493daea7708bbfee160caa7ad7cc86170c625c728db0f0b481d4420f23436ec"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r30.txt.gz",
+      "bytes": 399616,
+      "sha256": "4470f5a16517e1ce68a47725186fa84650fad2fc772d711783d9712bc5c282bc",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r30.txt",
+            "sha256": "ab249a46e530b4f97340d434868cb46a7e9eab9d0c7f70766224002bf0ad5b72"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r31.txt.gz",
+      "bytes": 442755,
+      "sha256": "e6f1e4d470675aac05f59d10f77a1b5ebf853ed76fc61e6bf09b19a091f574f1",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r31.txt",
+            "sha256": "0deb3d27a9600818427fce33a151f86b7d7880e1cee2d4334ab69e41a8860079"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r32.txt.gz",
+      "bytes": 488406,
+      "sha256": "02225a32f3023227751eb1d99f1cce02c49e0e39bca9e666fdde2318607e94fd",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r32.txt",
+            "sha256": "879a66aa386fe1fbe4e6bd2172e8d76a1eb06a96b274d73496efb255ec2636c2"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r33.txt.gz",
+      "bytes": 535137,
+      "sha256": "b8887914bc2d7c8a635eb9f96c5a9843d7d0d14c806da02c3e5558592c56e6e6",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r33.txt",
+            "sha256": "04007528a2ba406b76c2b616c1ea2f0e27d6cf59023ec5ee82f6cfc3c61ccaa3"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r34.txt.gz",
+      "bytes": 587203,
+      "sha256": "9703d53ab9056c2dbf1692e529acbd87e1fc40970e0fdecc6211776c9faaddfc",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r34.txt",
+            "sha256": "26b8ca07f0a2af0a831d4f3676726336543ac9339d001f9a2c5e328ddfd78723"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r35.txt.gz",
+      "bytes": 643047,
+      "sha256": "24475430d14f35425d37e3f23508a33bc3ab7345c045a13a151d83befdb2fafb",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r35.txt",
+            "sha256": "14c238a83e1034097cfcc1f3c000c8b60258ef849f5b36512e1c5fd83ee86e74"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r36.txt.gz",
+      "bytes": 702761,
+      "sha256": "f323d14c772132b424cefcdf15b3e620458008a8fba6b15f05bcc233c0c97e07",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r36.txt",
+            "sha256": "1a7df6a2d5b63ef16cdbc0ebc42c1a2cc484ec28b8f1d340614c5fd72546b802"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r37.txt.gz",
+      "bytes": 765165,
+      "sha256": "a5430b15c2a6cc6865c2010f42cb168bd7a960606696afd78c74bf640088942d",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r37.txt",
+            "sha256": "d86bf55c7a6240917d33c69f56ba8276ad4ce97356d4bbddb2abc4f974aa4487"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r38.txt.gz",
+      "bytes": 830326,
+      "sha256": "c644adca372f688c8e24a45b33eaa308e43a98256f02d4a336a5620a4efd1700",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r38.txt",
+            "sha256": "bfb4b45f99398fdfb9b3ed816215d9dd2b85f31ba85bb2844cd9a6970982e180"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r39.txt.gz",
+      "bytes": 899985,
+      "sha256": "7989e54b5b435d66611011ec6455eac5e85811e6b9eb7f27fa518cb344ba98a7",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r39.txt",
+            "sha256": "3cca853aa966475e4a27644ddd8c7a9ef2d6bda276925c3a6e67c84c4c1de3ff"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r40.txt.gz",
+      "bytes": 973271,
+      "sha256": "5da04bd666d2260165bc20e557f90ff4a89408f171714c95cda9982008a115f3",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r40.txt",
+            "sha256": "f7125e4f51dd651b6f47ec0577c3849d4e89680ea064d87459e251b7f1ba4ebe"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r41.txt.gz",
+      "bytes": 1053139,
+      "sha256": "93252dd79279f51e88be2604191710ef1085943dd0dc2e16910bc40fa1d91968",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r41.txt",
+            "sha256": "66fb8e38e3a706c3d20e2daa59bb3844c00668f672cf700476314050854fa9c9"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r42.txt.gz",
+      "bytes": 1131604,
+      "sha256": "c6545ce3089916f077b84b52a5bcca31f597233b86d97c5f9cedf64b34970861",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r42.txt",
+            "sha256": "c6a9b2d75f14ee26199d5ae7aef4da7b05ee4cef2ab236daca551f000a565633"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/third/SYMBOLIC-r43.txt.gz",
+      "bytes": 1215852,
+      "sha256": "a6894c025282a7a9cfd3f3754c2ceb522fbd8b4e0f5709ce7377480711263b60",
+      "origin": {
+        "transformation": "Lossless deterministic gzip; decompressed bytes equal the accepted mathematical field.",
+        "sources": [
+          {
+            "label": "SYMBOLIC-r43.txt",
+            "sha256": "d91d90c0499bab0d347eb3edbb6351abfad1ef6d473218d74eaaf54203c72108"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/top.json",
+      "bytes": 60937,
+      "sha256": "a3925b7b939d9165fbdb030923dd6e0a770c7f53c100a8bebd3996bf7e393297",
+      "origin": {
+        "transformation": "Select all complete mathematical fields, determining counts, Newton coefficients and holdouts; omit runtime metadata.",
+        "sources": [
+          {
+            "label": "RESULT.json",
+            "sha256": "301c3c7fe7499a8c43b3048af19b37bdd0f597365707d8c1fe84b0e1471718e7"
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/README.md",
+      "bytes": 1263,
+      "sha256": "62823d777f43c0c08737af9d50d1fcf0843be467535f06ad2d12172f3c7a4e11",
+      "origin": {
+        "transformation": "New reader-facing synthesis of the identified accepted mathematical sources. Add clipped-head dependency navigation.",
+        "sources": [
+          {
+            "label": "ROOT-CHECKS.md",
+            "sha256": "28f32fce791d3c9fdb7da3b22702af82f81db71f2b374d839a0297a89464b12c"
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/clipped-head.md",
+      "bytes": 2949,
+      "sha256": "f207c32345eb146a51247cb1e9c72b5410ce5ece2a4ee9ca52124e10f49e8574",
+      "origin": {
+        "transformation": "Select complete original common-current clipped-head identity and convolution proof; omit subsequent separate first-coefficient discussion. Formula display blocks receive three leading spaces for Markdown code indentation; all mathematical text and private source bytes are unchanged.",
+        "sources": [
+          {
+            "label": "U08-002-COMPLETE-CLIPPED-HEAD.md",
+            "sha256": "9ac63549660bf113109bedfd834435c426afaff3b972364893348dc5ebf0bec3"
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/correlated-roots.md",
+      "bytes": 4910,
+      "sha256": "bacb3c1185a5c0982ccb97fc9c3ac800a4586ac19e76a003a4c18c42eedc5008",
+      "origin": {
+        "transformation": "Select complete mathematical sections; omit superseded session/status/remaining-work sections; relink carried source locations. Formula display blocks receive three leading spaces for Markdown code indentation; all mathematical text and private source bytes are unchanged.",
+        "sources": [
+          {
+            "label": "U09-001-CORRELATED-HAHN-BOUND.md",
+            "sha256": "fcc05dfaf26d7b46168797beb1048fe802f3db42dc992040e3bbf01066ccdfa4"
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/critical-parent.md",
+      "bytes": 7556,
+      "sha256": "f441e770240507d36df6120434da61d6a184a6948dab1bf7a239b04f61e4af14",
+      "origin": {
+        "transformation": "Select complete mathematical sections; omit superseded session/status/remaining-work sections; relink carried source locations. Formula display blocks receive three leading spaces for Markdown code indentation; all mathematical text and private source bytes are unchanged.",
+        "sources": [
+          {
+            "label": "U07-004-CRITICAL-COMPENSATION-v1.md",
+            "sha256": "2817c9d19827b3254be8054fc0bcf40ad97cc1472dc9a1bece228848981628be"
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/mixed-payment.md",
+      "bytes": 6601,
+      "sha256": "f8dd36af3c6a9c897bea773d620d41da784f4cef1cf03bcaca21c551af399aba",
+      "origin": {
+        "transformation": "Select complete mathematical sections; omit superseded session/status/remaining-work sections; relink carried source locations. Keep uniform analytic proof only; the main proof supplies the actual included finite bases. Formula display blocks receive three leading spaces for Markdown code indentation; all mathematical text and private source bytes are unchanged.",
+        "sources": [
+          {
+            "label": "002-MIXED-RODRIGUES-AND-WHOLE-PAYMENT.md",
+            "sha256": "785a73d0afe0a792e27c2e6d84edc0fac8e31905150fe1b4c860e2c707ef80ae"
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/second-strip.md",
+      "bytes": 5834,
+      "sha256": "7471038409ef218a63ff09f517218af25a1252c896df789fd157fa3fe651ee2f",
+      "origin": {
+        "transformation": "Select complete mathematical sections; omit superseded session/status/remaining-work sections; relink carried source locations. Formula display blocks receive three leading spaces for Markdown code indentation; all mathematical text and private source bytes are unchanged.",
+        "sources": [
+          {
+            "label": "001-COMPLETE-NEXT-STRIP.md",
+            "sha256": "0d5ca8dbe46ddbf14466fad65838a0e23594c5e1b1c46840d082ef3ad915d215"
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/third-correction.md",
+      "bytes": 3211,
+      "sha256": "183ab8f59e798d75d1a099a9670f10bc7250e4660f54114ae74d122d9d34a6f5",
+      "origin": {
+        "transformation": "Select complete mathematical sections; omit superseded session/status/remaining-work sections; relink carried source locations. Formula display blocks receive three leading spaces for Markdown code indentation; all mathematical text and private source bytes are unchanged.",
+        "sources": [
+          {
+            "label": "003-COMPLETE-THIRD-STRIP-CORRECTION.md",
+            "sha256": "548c139562136f89bf3df98ca872da146f53138f1d4c0c1fc7e1ef20a8936807"
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/top-strip.md",
+      "bytes": 3861,
+      "sha256": "db932c33f1b79c230bf644013790fd7650e396636adbf6cf79994511928cf30a",
+      "origin": {
+        "transformation": "Select complete mathematical sections; omit superseded session/status/remaining-work sections; relink carried source locations. Keep uniform analytic proof only; the main proof supplies the actual included finite bases. Formula display blocks receive three leading spaces for Markdown code indentation; all mathematical text and private source bytes are unchanged.",
+        "sources": [
+          {
+            "label": "U09-002-WHOLE-TOP-STRIP-v2.md",
+            "sha256": "a7b3747335eba9ec7565e2338a7a387e46cfbe8fcd6d35b902b6fd13e58ef4ce"
+          }
+        ]
+      }
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 7085,
+      "sha256": "b097cc309a180af007cc5f941ce47aa2370d694a4c088a3ec7da413ad1715e6c",
+      "origin": {
+        "transformation": "New portable serial runner around accepted independent verification programs, with lossless data decompression and same malformed-carrier controls.",
+        "sources": [
+          {
+            "label": "verify_strips_v3.cpp",
+            "sha256": "39d3dee7ea45a312c3491e0d37aadbc5b20537ecf0c8e41136b1679420c72d2f"
+          },
+          {
+            "label": "final_checks_v2.py",
+            "sha256": "0c5339ec7f50f4b10eebedebdb7c130e374878c033abffdb8e7b82f77f26e0aa"
+          }
+        ]
+      },
+      "publication_update_note": "Added early optimization refusal, existing Homebrew compiler discovery and safe bounded signal/child handling; the accepted mathematical replay operations and data are unchanged.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "436f9fa2c14e472dd1ca725d36c6922bfb126c8b0ed4b51dedc01e9a0306e86c",
+          "current_included_sha256": "86901005d9fffe5ad281dbf020a2c302368de774e53ff1c5714c550511335ecc"
+        },
+        {
+          "previous_included_sha256": "86901005d9fffe5ad281dbf020a2c302368de774e53ff1c5714c550511335ecc",
+          "current_included_sha256": "b097cc309a180af007cc5f941ce47aa2370d694a4c088a3ec7da413ad1715e6c"
+        }
+      ]
+    },
+    {
+      "path": "scalar_controls.py",
+      "bytes": 1959,
+      "sha256": "419fa030bc505d6c0b6d17a75e3eb7cfb45c56a0633464475aa1a8e91e247a46",
+      "origin": {
+        "transformation": "Select complete GT/flow and rational-threshold controls; omit unrelated delta readback and campaign runtime paths.",
+        "sources": [
+          {
+            "label": "final_checks_v2.py",
+            "sha256": "0c5339ec7f50f4b10eebedebdb7c130e374878c033abffdb8e7b82f77f26e0aa"
+          }
+        ]
+      },
+      "publication_update_note": "Added early refusal when Python assertions are disabled; mathematical function bodies are unchanged from the prior verified edition.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "1b7e1fa38f4cba426a89f156f4b2e83bedf73bf2cfd0d5c670b33871c13729c2",
+          "current_included_sha256": "419fa030bc505d6c0b6d17a75e3eb7cfb45c56a0633464475aa1a8e91e247a46"
+        }
+      ]
+    },
+    {
+      "path": "top_strip.py",
+      "bytes": 2452,
+      "sha256": "466615733b362a2f11932f0aac43f1898f1a8a7ada89892878919cb37bb4b111",
+      "origin": {
+        "transformation": "Added early refusal when Python assertions are disabled; mathematical function bodies are unchanged from the prior verified edition. Original source hash remains historical provenance; current byte equality is not asserted.",
+        "sources": [
+          {
+            "label": "top_strip_v1.py",
+            "sha256": "1633e26c2dd35a31df18c005b96fce6e50d53f249108824889c52f5909063863"
+          }
+        ],
+        "transformation_history": [
+          {
+            "included_sha256": "1633e26c2dd35a31df18c005b96fce6e50d53f249108824889c52f5909063863",
+            "transformation": "Exact source copy of independently authored top-strip regeneration."
+          }
+        ]
+      },
+      "publication_update_note": "Added early refusal when Python assertions are disabled; mathematical function bodies are unchanged from the prior verified edition.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "1633e26c2dd35a31df18c005b96fce6e50d53f249108824889c52f5909063863",
+          "current_included_sha256": "466615733b362a2f11932f0aac43f1898f1a8a7ada89892878919cb37bb4b111"
+        }
+      ]
+    },
+    {
+      "path": "verify_strips.cpp",
+      "bytes": 6398,
+      "sha256": "39d3dee7ea45a312c3491e0d37aadbc5b20537ecf0c8e41136b1679420c72d2f",
+      "origin": {
+        "transformation": "Exact source copy of the independently authored A53 finite verifier.",
+        "sources": [
+          {
+            "label": "verify_strips_v3.cpp",
+            "sha256": "39d3dee7ea45a312c3491e0d37aadbc5b20537ecf0c8e41136b1679420c72d2f"
+          }
+        ]
+      }
+    }
+  ]
+}

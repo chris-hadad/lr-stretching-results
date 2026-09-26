@@ -1,0 +1,247 @@
+{
+  "as_of": "2026-09-25",
+  "c1": {
+    "complete_geometry_field_domain": true,
+    "exact_minimum": "40142888690844119591010700379369/40149066134252712057708583296000000000",
+    "field_coordinates": 20960436,
+    "field_denominator": 60000000000,
+    "minimum_row_zero_based": 8203248,
+    "negative_excluded_rows": 2695883,
+    "orbit_domain_rows": 27230728,
+    "physical_branches": 46327714,
+    "primitive_incidences": 119963492,
+    "q7_orbit_rows": 2999563,
+    "q7_q8_extension_incidents": 83862091,
+    "q7_q8_weighted_incidents": 502946160,
+    "q8_orbit_rows": 10480218,
+    "q8_original_supports": 62868270,
+    "q8_q9_extension_incidents": 245099676,
+    "q8_q9_weighted_incidents": 1470284847,
+    "q9_original_supports": 163364983,
+    "retained_orbit_rows": 13325662,
+    "retained_original_supports": 79940357,
+    "theorem_epsilon": "1/2000000"
+  },
+  "c4_c5": {
+    "complete_local_types": 333769,
+    "elapsed_seconds": 1383.6485,
+    "fresh_full_public_export": true,
+    "orbit_domains": {
+      "c4": 675721,
+      "c5": 121241
+    }
+  },
+  "c6": {
+    "dependent_complement": 9633,
+    "exact_minimum": "164999999111/491400000000000",
+    "independent_literal_supports": 102297,
+    "primitive_incidences": 14067,
+    "saturated_kernels": 381,
+    "theorem_epsilon": "1/3000"
+  },
+  "c7_c8_c9": {
+    "dependent_complements": {
+      "q1": 0,
+      "q2": 12,
+      "q3": 486
+    },
+    "exact_minima": {
+      "c7": "1/144",
+      "c8": "1/9",
+      "c9": "1/2"
+    },
+    "independent_literal_supports": {
+      "c7": 10994,
+      "c8": 849,
+      "c9": 42
+    },
+    "two_complete_exact_algorithms": true
+  },
+  "data": {
+    "archives": 9,
+    "complete_restore_and_independent_rehash": true,
+    "compressed_bytes": 4985772426,
+    "files": 1842,
+    "manifest_sha256": "3a51b860088963634ced33a62c8c92fc5c523fb00fe30be2b3461dc33fc5582e",
+    "restorer_refusal_controls": 8,
+    "uncompressed_bytes": 14054651154
+  },
+  "evidence": {
+    "c1_full": {
+      "sha256": "944a6cb1488cb56aa7a0959be7668ffd1ca5779a54d71ff8644836c9c07d44c4",
+      "source_record": "results/runs/SLR-PUB-RANK-SIX-20260925-001/c1-complete-001/RESULT.json",
+      "status": "PASS_COMPLETE_C1_GEOMETRY_FIELD_AND_EXTENSIONS"
+    },
+    "cache_and_geometry": {
+      "sha256": "05c29add68b580e298f5ade1614b56ba214a41086c999eb5be09c6402d018d90",
+      "source_record": "methods/pub-rank-six-2026-09-25/SHORT-RECIPIENT-VERIFICATION.json",
+      "status": "PASS_TINY_GEOMETRY_COMPLETE_CACHE_AND_RUNTIME_CONTROLS"
+    },
+    "closure": {
+      "sha256": "4ca82ffcf0499a0959fbe6666def5b2f2edf5c1a58160e2828f6379436f9e611",
+      "source_record": "methods/pub-rank-six-2026-09-25/pro043-u04/INDEPENDENT-VERIFICATION.json",
+      "status": "PASS_INDEPENDENT_U04_GEOMETRIC_CERTIFICATES_AND_CONTROLS"
+    },
+    "constructive": {
+      "sha256": "3dc0ef3b932aaa3f5ee76171abdddcf5f79ac9b62e624d180753d8ddde6af30b",
+      "source_record": "methods/pub-rank-six-2026-09-25/pro043-u04/PUBLIC-VERIFICATION.json",
+      "status": "PASS_PUBLIC_CLOSURE_CONSTRUCTIVE_API_AND_CLASSIFIER_JOIN"
+    },
+    "data_roundtrip": {
+      "sha256": "d968608b069f5532efb71e5f469fd666cff743ff894c9f4cce3802710ed7199f",
+      "source_record": "methods/pub-rank-six-2026-09-25/DATA-RELEASE-VERIFICATION.json",
+      "status": "PASS_COMPLETE_ASSET_BUILD_RESTORATION_AND_READBACK"
+    },
+    "large_exports": {
+      "sha256": "19b5da070d8d314d1e30e2c6db609db55c034d87a0a85e6405261580a183c236",
+      "source_record": "results/runs/SLR-PUB-RANK-SIX-20260925-001/public-large-exports-001/RESULT.json",
+      "status": "PASS_FRESH_C1_AND_C4_C5_EXPORT_COMMANDS"
+    },
+    "lower_export": {
+      "sha256": "3d2623a1053171cb458b1f2eeebf4298cb8006a0752667a0c1e63aaac696c49a",
+      "source_record": "methods/pub-rank-six-2026-09-25/PUBLIC-LOWER-VERIFICATION.json",
+      "status": "PASS_PUBLIC_LOWER_ADAPTER_SELECTED_COMPLETE_PHASES_AND_CONTROLS"
+    },
+    "lower_full": {
+      "sha256": "4f0612588ea923e1f37f79aa787ab5b18346a246b807bb9b952ea321ebba34e3",
+      "source_record": "results/runs/SLR-PUB-RANK-SIX-20260925-001/c2-c3/FINAL-C2-C3-AUDIT.json",
+      "status": "PASS_COMPLETE_BOUND_NUMERICAL_REPLAY"
+    },
+    "lower_package": {
+      "sha256": "399971981acf6bcd78b56a1a50776fe06296bf5a07aea1922c5b510161dd40fa",
+      "source_record": "results/runs/SLR-PUB-RANK-SIX-20260925-001/c2-c3/FINAL-C2-C3-AUDIT-V2.json",
+      "status": "PASS_CLEAN_PACKAGE_AND_PRIOR_FULL_NUMERIC_AUDIT"
+    },
+    "q9_full": {
+      "sha256": "6ea1ca60bee8c311efc72aea15f70f438027484cbd90aa7160fea641d4533b88",
+      "source_record": "results/runs/SLR-PUB-RANK-SIX-20260925-001/q9-scalars-full-001/RESULT.json",
+      "status": "PASS_COMPLETE_Q9_SCALAR_REGENERATION_FROM_LOWER_CACHE"
+    },
+    "restore_controls": {
+      "sha256": "f81095ef580f2a4f9fc314833109bd575060a0b7f0787d419276db75828d79fa",
+      "source_record": "methods/pub-rank-six-2026-09-25/RESTORE-CONTROLS.json",
+      "status": "PASS_RESTORATION_AND_EIGHT_REFUSAL_CONTROLS"
+    },
+    "scalar_parallel_control": {
+      "sha256": "e1ff674292387bbd15ef82e86792c91854b592ad542d2df4073f9dd9f06631f1",
+      "source_record": "methods/pub-rank-six-2026-09-25/SCALAR-PARALLEL-CONTROL.json",
+      "status": "PASS_ACTUAL_TWO_WORKER_INTERRUPT_WITH_PARTIAL_NOT_COMPLETE_RESULT"
+    },
+    "small_export": {
+      "sha256": "d31980b6c7ce58e440404d8b95790e09cf45d6dc35efa55f33536c4ab573a67e",
+      "source_record": "results/runs/SLR-PUB-RANK-SIX-20260925-001/public-small-export-002/RESULT.json",
+      "status": "PASS_FRESH_SMALL_EXPORT_AND_FAILURE_CONTROLS"
+    }
+  },
+  "final_wrapper_execution": {
+    "c1": "complete fresh public command: geometry, classification, original field and domain coverage",
+    "c4_c5": "complete fresh public command",
+    "complete_long_mathematical_engines": "separate complete runs on identical mathematical sources and exact isolated inputs; all scientific domains and sources reauthenticated",
+    "early_controller_revision_hash_limit": "Early c3/c2 process receipts bind mathematical engine sources and data, but do not hash every intermediate controller revision.",
+    "lower": "complete c3 core, complete c2 field, small H8, six scientific controls, diagnostic q8 range, seven adapter controls",
+    "lower_full_long_orchestration_repeated_after_portability_change": false,
+    "scalar": "complete cache source equality; actual two-worker q9 interruption after two completed ranges (110000 rows), partial result and all owned processes exited",
+    "scalar_455_range_new_wrapper_full_execution_claimed": false,
+    "small": "complete fresh export plus seven failure/cleanup controls"
+  },
+  "geometry": {
+    "Horn_clauses": 564,
+    "RUP_additions": 6488,
+    "RUP_representatives": 9,
+    "closure_certificate_bytes": 254843,
+    "closure_certificate_sha256": "b7bf252262130fab5b98047df8ef37b2a59da42b19708650b9048f403acd460c",
+    "complete_CNF_transports": 45,
+    "complete_rays": 166,
+    "distinct_interior_normals": 42,
+    "feasible_height_slacks": 7470,
+    "gauged_dimension": 25,
+    "identity_coordinate_checks": 2884,
+    "independent_constructive_API_checked": true,
+    "initial_sets_covered": "2^45",
+    "integral_isometries": 6,
+    "mask_join_to_full_classifier": true,
+    "minimum_seed_size_for_old_rule_failure": 6,
+    "physical_rows": 45,
+    "positive_identities": 103,
+    "short_identity_populations": [
+      30,
+      72
+    ],
+    "smaller_seeds_exhausted": 1385980,
+    "stdlib_double_description_and_independent_sage_equal": true
+  },
+  "host": {
+    "architecture": "Apple Silicon ARM64",
+    "compiler": "Apple Clang 21",
+    "fresh_linux_execution_claimed": false,
+    "memory_bytes": 25769803776,
+    "python": "3.14.3"
+  },
+  "lower_coefficients": {
+    "c2_original_field_nnz": 133317644,
+    "c2_original_field_ranges": 105,
+    "c2_original_field_rows": 10480218,
+    "c3_analytic_ranges": 65,
+    "c3_field_rows": 2999563,
+    "c3_jet_slots": 4706329,
+    "c3_operator_rows": 2999563,
+    "c3_topology_levels": 7,
+    "c3_types": 1988979,
+    "h8_levels": 7,
+    "h8_new_slots": 19271753,
+    "h8_types": 1988979,
+    "negative_controls": 6,
+    "q8_scalar_ranges": 425,
+    "q8_scalar_types": 6958562
+  },
+  "proof_scope": "Original hives for all integral balanced partition triples of trimmed length at most six, every size and boundary. Strict ordinary coefficient positivity through actual degree for nonempty hives; point one and empty positive-stretch zero. Requires the cited classical theorems and complete analytic proof.",
+  "q9_scalars": {
+    "aggregate_child_elapsed_seconds": 74370.48723,
+    "complete_exceptional_characters": true,
+    "complete_ranges": 455,
+    "elapsed_seconds": 12569.996547000017,
+    "lower_alpha_and_W_source_equality_complete": true,
+    "lower_analytic_truth_verified_separately": true,
+    "lower_cache_entries": 8947541,
+    "maximum_workers": 6,
+    "minimum_available_bytes": 8580907008,
+    "original_rows": 27230728,
+    "peak_child_rss_bytes": 1048985600,
+    "proper_subset_terms_per_row": 511
+  },
+  "review": {
+    "U04_analytic_gate": "No analytic defect; all named finite obligations independently discharged",
+    "external_human_peer_review_claimed": false,
+    "main_mathematical_final": "No findings",
+    "main_mathematical_rounds_completed": 3,
+    "public_code_source_and_UX_gates": "recorded separately at final candidate review",
+    "whole_proof_assistant_formalization_claimed": false
+  },
+  "schema": "rank-six-public-verification-v1",
+  "status": "PASS_COMPLETE_EXACT_FINITE_PREMISES_WITH_SEPARATE_ANALYTIC_PROOF",
+  "timing_units": "Seconds are elapsed durations; summed child timers are not measured CPU-hours.",
+  "version": "rank-six-2026-09-25-v1",
+  "post_review_execution_controls": {
+    "status": "PASS_TARGETED_REPAIRS_AND_COMPLETE_H8_ROW_VALIDATION",
+    "optimization_guarded_entrypoints": 16,
+    "entrypoint_test_methods": 6,
+    "shared_runtime_test_methods": 8,
+    "other_signal_test_methods": 5,
+    "lower_adapter_test_methods": 10,
+    "h8_real_fresh_levels": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "h8_fresh_small_seconds": 2.280734167085029,
+    "h8_fresh_continuation_through4_seconds": 4.1657384590944275,
+    "h8_all_accepted_rows_revalidated": 1988979,
+    "h8_all_accepted_slots_revalidated": 19271753,
+    "h8_all_row_validation_seconds": 11.106051917071454,
+    "runtime_sha256": "528ca90f1840c373662b06f5fcd8e18030db6a0bad89f0e039503c320b2fb0c6",
+    "lower_controller_sha256": "27ccd765a631c508ecda84be2729c3613546cbdc9b9ee86dc21722b4d079c76b",
+    "scope": "Current execution and continuation boundaries; expensive complete mathematical engines retain the separately recorded full runs. Legacy unbound H8 outputs were not relabeled as fresh signed records.",
+    "regression_commands": "tests/README.md"
+  }
+}

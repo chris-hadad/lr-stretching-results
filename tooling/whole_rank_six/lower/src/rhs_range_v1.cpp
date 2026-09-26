@@ -1,0 +1,20 @@
+// Complete bounded RHS shards using the unchanged accepted A16 exact engine.
+#define main accepted_astra016_calibration_main
+#include "q8_indexed_v3.cpp"
+#undef main
+#include <filesystem>
+uint32_t literal(const char*s){std::string x=s;need(!x.empty()&&std::all_of(x.begin(),x.end(),[](char c){return c>='0'&&c<='9';}),"canonical integer argument");auto v=std::stoull(x);need(v<=UINT32_MAX&&std::to_string(v)==x,"bounded canonical integer argument");return v;}
+int main(int argc,char**argv){try{
+ need(argc==10,"geometry source offsets begin end output cache unit-or-dual control");uint32_t begin=literal(argv[4]),end=literal(argv[5]);need(begin<end&&end<=6958562&&end-begin<=16384,"exact nonempty bounded scalar shard");
+ std::string output=argv[6],mode=argv[8],control=argv[9];need(mode=="unit"||mode=="dual","covector mode");need(control=="none"||control=="omit-term"||control=="eighth"||control=="transport"||control=="cache-coefficient","control mode");
+ need(!std::filesystem::exists(output)&&!std::filesystem::is_symlink(output),"fresh RHS output");auto start=Clock::now();Engine e(argv[1],argv[2],argv[3],literal(argv[7]),control);double setup=seconds(start);std::ofstream out(output);need(bool(out),"RHS output open");Metrics total{};uint64_t orbit_count=0,original_count=0,terms_total=0,negative=0;Q minimum;
+ for(uint32_t tid=begin;tid<end;++tid){auto t=Clock::now();auto p=e.parent(tid);total.geometry+=seconds(t);t=Clock::now();auto children=e.children(p);total.transport+=seconds(t);Q values[2],roots[2];uint64_t points=0,box=0;int sites=mode=="dual"?2:1;
+  for(int site=0;site<sites;++site){Vec c{},w{};for(int j=0;j<8;++j)c[j]=site?j+2:1;for(int i=0;i<8;++i)for(int j=0;j<8;++j)w[i]+=p.gram[i][j]*c[j];t=Clock::now();auto root=e.root(p,c);total.root+=seconds(t);Q alpha=root.value;roots[site]=root.value;points=root.points;box=root.box;unsigned masks=0;bool omitted=false;
+   for(const auto&ch:children){t=Clock::now();const auto&row=e.polynomial(ch.k,ch.type);total.decode+=seconds(t);t=Clock::now();Q value=e.evaluate(row,ch,w);long denominator=p.index;for(int j=0;j<8;++j)if(!(ch.mask>>j&1))denominator=exactlong((__int128)denominator*c[j]);Q term=rat(ch.k%2?-ch.index:ch.index,denominator)*value;if(control=="omit-term"&&!omitted&&term!=0)omitted=true;else alpha-=term;++masks;total.proper+=seconds(t);}
+   need(masks==254,"all proper masks");terms_total+=masks;values[site]=alpha;
+  }
+  if(sites==2&&control=="none")need(values[0]==values[1],"distinct covector exact equality");if(tid==begin||values[0]<minimum)minimum=values[0];negative+=values[0]<0;orbit_count+=p.orbits;original_count+=p.originals;t=Clock::now();
+  out<<"{\"type_id\":"<<tid<<",\"index\":"<<p.index<<",\"original_ordinal\":"<<p.ordinal<<",\"original_permutation\":"<<p.permutation<<",\"orbits\":"<<p.orbits<<",\"originals\":"<<p.originals<<",\"proper_terms\":254,\"alpha\":\""<<values[0]<<"\",\"root\":\""<<roots[0]<<"\",\"numerator_points\":"<<points<<",\"axis_box\":"<<box<<",\"covectors\":"<<sites<<",\"control\":\""<<control<<"\"";if(sites==2)out<<",\"spread_alpha\":\""<<values[1]<<"\"";out<<"}\n";total.serialization+=seconds(t);
+ }
+ out.close();need(bool(out),"complete RHS serialization");rusage u{};getrusage(RUSAGE_SELF,&u);std::cout<<"{\"status\":\"COMPUTED_EXACT_Q8_RHS_SHARD_REQUIRES_ADMISSION\",\"begin\":"<<begin<<",\"end\":"<<end<<",\"types\":"<<end-begin<<",\"orbits\":"<<orbit_count<<",\"originals\":"<<original_count<<",\"proper_terms_evaluated\":"<<terms_total<<",\"negative_types\":"<<negative<<",\"minimum_alpha\":\""<<minimum<<"\",\"preparation_seconds\":"<<setup<<",\"geometry_seconds\":"<<total.geometry<<",\"transport_seconds\":"<<total.transport<<",\"decode_seconds\":"<<total.decode<<",\"root_seconds\":"<<total.root<<",\"proper_seconds\":"<<total.proper<<",\"serialization_seconds\":"<<total.serialization<<",\"total_seconds\":"<<seconds(start)<<",\"peak_rss_bytes\":"<<u.ru_maxrss<<",\"control\":\""<<control<<"\",\"h8_acceptance_is_external_gate\":true}"<<std::endl;return 0;
+ }catch(const std::exception&e){std::cerr<<"REFUSED: "<<e.what()<<'\n';return 2;}}

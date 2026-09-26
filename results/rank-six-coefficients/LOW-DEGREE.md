@@ -50,3 +50,12 @@ protection, the remaining rank-six question is c1,c2,c3 at actual degrees six
 through ten, outside all existing whole-positive terminals. This identifies a
 logical residual, not a finite or minimal feasible census. Horn-strict rank-seven
 quintics remain a separate open class.
+
+## Current context, 25 September 2026
+
+The later [whole-rank-six theorem](../rank-six-positivity/README.md) covers
+all legal ordinary rank-at-most-six triples at every size and actual degree.
+The preceding dated low-degree argument and its original proof sources are
+preserved as a separate route. Rank-seven degree at most four remains an
+all-size consequence here; higher rank-seven degrees and unrestricted KTT
+remain open.

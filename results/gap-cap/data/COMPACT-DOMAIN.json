@@ -1,0 +1,1106 @@
+{
+  "rank": 6,
+  "variables": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "m1",
+    "m2",
+    "m3",
+    "m4",
+    "m5",
+    "n1",
+    "n2",
+    "n3",
+    "n4",
+    "n5"
+  ],
+  "independent_peak_sets": [
+    [],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      4
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      5
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      1,
+      3,
+      5
+    ]
+  ],
+  "closed_polyhedral_cover": [
+    {
+      "normalized_maximum_index": 1,
+      "peak_set": [],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 2,
+      "peak_set": [],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 3,
+      "peak_set": [],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 4,
+      "peak_set": [],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 5,
+      "peak_set": [],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 1,
+      "peak_set": [
+        1
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 2,
+      "peak_set": [
+        1
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 3,
+      "peak_set": [
+        1
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 4,
+      "peak_set": [
+        1
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 5,
+      "peak_set": [
+        1
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 1,
+      "peak_set": [
+        2
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 2,
+      "peak_set": [
+        2
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 3,
+      "peak_set": [
+        2
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 4,
+      "peak_set": [
+        2
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 5,
+      "peak_set": [
+        2
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 1,
+      "peak_set": [
+        3
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 2,
+      "peak_set": [
+        3
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 3,
+      "peak_set": [
+        3
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 4,
+      "peak_set": [
+        3
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 5,
+      "peak_set": [
+        3
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 1,
+      "peak_set": [
+        1,
+        3
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 2,
+      "peak_set": [
+        1,
+        3
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 3,
+      "peak_set": [
+        1,
+        3
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 4,
+      "peak_set": [
+        1,
+        3
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 5,
+      "peak_set": [
+        1,
+        3
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 1,
+      "peak_set": [
+        4
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 2,
+      "peak_set": [
+        4
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 3,
+      "peak_set": [
+        4
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 4,
+      "peak_set": [
+        4
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 5,
+      "peak_set": [
+        4
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 1,
+      "peak_set": [
+        1,
+        4
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 2,
+      "peak_set": [
+        1,
+        4
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 3,
+      "peak_set": [
+        1,
+        4
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 4,
+      "peak_set": [
+        1,
+        4
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 5,
+      "peak_set": [
+        1,
+        4
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 1,
+      "peak_set": [
+        2,
+        4
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 2,
+      "peak_set": [
+        2,
+        4
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 3,
+      "peak_set": [
+        2,
+        4
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 4,
+      "peak_set": [
+        2,
+        4
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 5,
+      "peak_set": [
+        2,
+        4
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 1,
+      "peak_set": [
+        5
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 2,
+      "peak_set": [
+        5
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 3,
+      "peak_set": [
+        5
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 4,
+      "peak_set": [
+        5
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 5,
+      "peak_set": [
+        5
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 1,
+      "peak_set": [
+        1,
+        5
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 2,
+      "peak_set": [
+        1,
+        5
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 3,
+      "peak_set": [
+        1,
+        5
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 4,
+      "peak_set": [
+        1,
+        5
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 5,
+      "peak_set": [
+        1,
+        5
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 1,
+      "peak_set": [
+        2,
+        5
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 2,
+      "peak_set": [
+        2,
+        5
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 3,
+      "peak_set": [
+        2,
+        5
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 4,
+      "peak_set": [
+        2,
+        5
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 5,
+      "peak_set": [
+        2,
+        5
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 1,
+      "peak_set": [
+        3,
+        5
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 2,
+      "peak_set": [
+        3,
+        5
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 3,
+      "peak_set": [
+        3,
+        5
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 4,
+      "peak_set": [
+        3,
+        5
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 5,
+      "peak_set": [
+        3,
+        5
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 1,
+      "peak_set": [
+        1,
+        3,
+        5
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 2,
+      "peak_set": [
+        1,
+        3,
+        5
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 3,
+      "peak_set": [
+        1,
+        3,
+        5
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 4,
+      "peak_set": [
+        1,
+        3,
+        5
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    },
+    {
+      "normalized_maximum_index": 5,
+      "peak_set": [
+        1,
+        3,
+        5
+      ],
+      "domain": "0<=P_i<=1; P_maximum_index=1; d_i=2P_i-P_(i-1)-P_(i+1), P0=P6=0; if i in peak_set require d_i>=P_i and T_i=d_i, otherwise d_i<=P_i and T_i=P_i; 0<=m_i,n_i<=T_i; m_i+n_i>=d_i"
+    }
+  ],
+  "cover_piece_upper_bound": 65,
+  "not_LR_polynomial_chamber_census": true,
+  "rational_points_required_not_only_integral_H1_grid": true,
+  "normalized_outer_area_bound": 36,
+  "binary_convex_maximum_certificate": [
+    {
+      "prefix": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "T": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weighted_threshold_sum": 0
+    },
+    {
+      "prefix": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "T": [
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "weighted_threshold_sum": 10
+    },
+    {
+      "prefix": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "T": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "weighted_threshold_sum": 8
+    },
+    {
+      "prefix": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "T": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "weighted_threshold_sum": 9
+    },
+    {
+      "prefix": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "T": [
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "weighted_threshold_sum": 6
+    },
+    {
+      "prefix": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "T": [
+        0,
+        0,
+        2,
+        0,
+        2
+      ],
+      "weighted_threshold_sum": 16
+    },
+    {
+      "prefix": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "T": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "weighted_threshold_sum": 7
+    },
+    {
+      "prefix": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "T": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "weighted_threshold_sum": 12
+    },
+    {
+      "prefix": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "T": [
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      "weighted_threshold_sum": 4
+    },
+    {
+      "prefix": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "T": [
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      "weighted_threshold_sum": 14
+    },
+    {
+      "prefix": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "T": [
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "weighted_threshold_sum": 12
+    },
+    {
+      "prefix": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "T": [
+        0,
+        2,
+        0,
+        1,
+        1
+      ],
+      "weighted_threshold_sum": 13
+    },
+    {
+      "prefix": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "T": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "weighted_threshold_sum": 5
+    },
+    {
+      "prefix": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "T": [
+        0,
+        1,
+        1,
+        0,
+        2
+      ],
+      "weighted_threshold_sum": 15
+    },
+    {
+      "prefix": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "T": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "weighted_threshold_sum": 9
+    },
+    {
+      "prefix": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "T": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "weighted_threshold_sum": 14
+    },
+    {
+      "prefix": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "T": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weighted_threshold_sum": 2
+    },
+    {
+      "prefix": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "T": [
+        2,
+        0,
+        0,
+        0,
+        2
+      ],
+      "weighted_threshold_sum": 12
+    },
+    {
+      "prefix": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "T": [
+        2,
+        0,
+        0,
+        2,
+        0
+      ],
+      "weighted_threshold_sum": 10
+    },
+    {
+      "prefix": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "T": [
+        2,
+        0,
+        0,
+        1,
+        1
+      ],
+      "weighted_threshold_sum": 11
+    },
+    {
+      "prefix": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "T": [
+        2,
+        0,
+        2,
+        0,
+        0
+      ],
+      "weighted_threshold_sum": 8
+    },
+    {
+      "prefix": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "T": [
+        2,
+        0,
+        2,
+        0,
+        2
+      ],
+      "weighted_threshold_sum": 18
+    },
+    {
+      "prefix": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "T": [
+        2,
+        0,
+        1,
+        1,
+        0
+      ],
+      "weighted_threshold_sum": 9
+    },
+    {
+      "prefix": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "T": [
+        2,
+        0,
+        1,
+        1,
+        1
+      ],
+      "weighted_threshold_sum": 14
+    },
+    {
+      "prefix": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "T": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "weighted_threshold_sum": 3
+    },
+    {
+      "prefix": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "T": [
+        1,
+        1,
+        0,
+        0,
+        2
+      ],
+      "weighted_threshold_sum": 13
+    },
+    {
+      "prefix": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "T": [
+        1,
+        1,
+        0,
+        2,
+        0
+      ],
+      "weighted_threshold_sum": 11
+    },
+    {
+      "prefix": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "T": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "weighted_threshold_sum": 12
+    },
+    {
+      "prefix": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "T": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "weighted_threshold_sum": 6
+    },
+    {
+      "prefix": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "T": [
+        1,
+        1,
+        1,
+        0,
+        2
+      ],
+      "weighted_threshold_sum": 16
+    },
+    {
+      "prefix": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "T": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "weighted_threshold_sum": 10
+    },
+    {
+      "prefix": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "T": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "weighted_threshold_sum": 15
+    }
+  ],
+  "H0": "Cartan polynomial1",
+  "zero_prefix": "exact proper LR product, hence inherited rank<=5 terminal at rank6"
+}

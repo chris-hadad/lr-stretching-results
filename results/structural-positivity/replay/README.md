@@ -28,6 +28,19 @@ again; they do not rerun the historical tableau or transportation counters.
 The names of their successful statuses explicitly retain this distinction.
 A new run becomes evidence only when its actual command completes.
 
+For a fresh enumeration of those same numerical premises, use the separate
+[fresh-count guide](FRESH-COUNTS.md). It regenerates the 40 gap-three positive
+nodes with the complete signed Jacobi–Trudi branching counter and the 98
+rank-ten transport nodes with all 189 signed assignment groups per node.
+The [fresh-count verification](FRESH-COUNTS-VERIFICATION.json) records its
+completed run and controls. Its exact counts supplement the historical-input
+algebra above; the unbounded family statements still require the analytic
+proofs below. The larger normal/mask replay has its own
+[structural certificate guide](../../../tooling/structural_certificates/README.md)
+and separate [F025 forcing-table recheck](../../../tooling/structural_certificates/f025/README.md).
+The latter's full-domain campaign check passed, while its public sibling
+guide is being finalized; neither command in this replay directory reruns it.
+
 The [dependency table](DEPENDENCIES.md) identifies the complete analytic chain,
 finite input populations, source credit and remaining reproduction gaps.
 [SOURCE-MAP.json](SOURCE-MAP.json) pins every required local proof, data file and
@@ -181,8 +194,14 @@ The input contains exactly **40 historical positive counts**: four parents
 at grades `1,...,10`. Of these, 32 are determining values and eight at grades
 9 and 10 are unused checks. The replay independently runs Lagrange and Newton
 arithmetic, checks all full vectors and positive factors, derives the quotient
-constant, checks the complete quadrant identities and 40 joint coefficients,
-and retains the auxiliary
+constant, and checks the complete quadrant identities and 40 joint coefficients.
+
+The separate [fresh counter](FRESH-COUNTS.md) has now enumerated the same 32
+determining and eight unused positive nodes from the complete count model.
+This command continues to check the original accepted JSON values as
+historical inputs; its scope is unchanged.
+
+It retains the auxiliary
 
 ```text
 W0 = P00-P10+tQ0.
@@ -242,7 +261,10 @@ replay reconstructs all seven full vectors using separate Lagrange/Newton
 arithmetic, checks all 133 positive coefficients, all 108 positive
 nonconstant shell coefficients and the final shell identity. It also checks
 all seven explicit positive grade-seven table witnesses against their margins.
-It does not repeat the historical 189-group signed-assignment count.
+It does not repeat the historical 189-group signed-assignment count. The
+separate [fresh-count route](FRESH-COUNTS.md) has now regenerated the 84
+determining and 14 unused positive nodes with all 189 signed groups, while
+retaining the analytic LR/table identity as a proof premise.
 
 The [transportation cone proof](../proofs/root/TRANSPORT-CONE-LINEAR-COEFFICIENT.md)
 uses these linear endpoints with a separate complete sector and Minkowski

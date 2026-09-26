@@ -172,3 +172,14 @@ arguments reviewed in the campaign. Some calculations use the same GMP library
 as the original producer; no independent human or institutional acceptance is
 claimed. The module supplies reproducible evidence for further mathematical
 scrutiny. The still-open rank-six indices c1,c2,c3 require additional arguments.
+
+## Current context, 25 September 2026
+
+The text above is the original standalone c4/c5 mathematical contract. A
+later [whole-rank-six proof](../../results/rank-six-positivity/PROOF.md)
+supplies the missing first-coefficient argument and joins the separately
+accepted higher-index bounds. The c4/c5 quantitative margins and complete
+finite checks here remain independently useful. This earlier certificate
+alone does not replay the new retained-support predicate or c1 field; the
+[new verification guide](../../results/rank-six-positivity/VERIFYING.md)
+identifies those obligations. Rank seven and unrestricted KTT remain open.

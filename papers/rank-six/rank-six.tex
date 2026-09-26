@@ -1,0 +1,810 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs,longtable,array}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\urlstyle{same}
+\usepackage{microtype}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}\newtheorem{remark}[theorem]{Remark}
+\newcommand{\Z}{\mathbb Z}\newcommand{\Q}{\mathbb Q}\newcommand{\R}{\mathbb R}
+\newcommand{\vol}{\operatorname{vol}_{\Z}}
+\newcommand{\pos}{\operatorname{pos}}\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\relint}{\operatorname{relint}}\newcommand{\cl}{\operatorname{cl}}
+\newcommand{\eps}{\varepsilon}
+\title{Coefficient positivity of stretched Littlewood--Richardson polynomials\\
+for partitions of length at most six}
+\author{Chris Hadad}
+\date{25 September 2026}
+\begin{document}
+\maketitle
+\begin{center}\small
+Preprint prepared for independent mathematical verification.
+\end{center}
+\begin{abstract}
+\setlength{\emergencystretch}{1em}
+We prove coefficient positivity at partition length at most six by an exact
+computer-assisted argument for stretched Littlewood--\allowbreak Richardson
+polynomials. The argument uses the original hive lattice at every boundary and actual
+dimension. Its decisive step is a realizability restriction on a complete
+refined normal-cycle certificate: a normal support whose universal tight-row
+closure has excessive interior rank cannot carry a face of the required
+dimension. Its sign constraint may therefore be omitted, while the complete
+balanced coefficient identity is retained. In rank six this permits an exact
+rational correction of every contributing edge weight and yields
+\(c_1\geq (1/2000000)\sum_E\vol(E)\).
+We assemble the higher-coefficient certificates in the same conventions and
+give a small independent computation of the top coefficients. The complete
+finite checks establish strict positivity of every coefficient through the
+actual degree for a nonempty hive. We separate the geometric
+proof, exact finite premises, certificate verification, and regeneration costs.
+The account also explains the scalar-compression and lattice algorithms that
+make the computation practical, and records the substantial AI contributions
+and the limits of their independent checks.
+We additionally prove a constructive legal-realization converse for retained
+physical branches and give a complete 103-identity presentation of rank-six
+hive-face closure, certified by short propositional proofs.
+\end{abstract}
+\tableofcontents
+
+\section{Statement and mathematical contribution}
+Let \(\lambda,\mu,\nu\) be nonnegative integral partitions with
+\(|\lambda|=|\mu|+|\nu|\). Throughout, \(\lambda\) is the outer partition.
+For positive integers \(t\), write
+\[
+ P_{\lambda,\mu,\nu}(t)=c^{t\lambda}_{t\mu,t\nu}.
+\]
+These values agree with a polynomial in \(t\) by stretching polynomiality
+\cite{rassart}. The coefficients discussed here are its ordinary monomial
+coefficients, rather than its values at integers or coefficients in a binomial
+basis. The King--Tollu--Toumazet conjecture \cite{ktt} asserts their nonnegativity without
+a restriction on the partition lengths.
+
+\begin{theorem}[Rank-six coefficient positivity]\label{thm:main}
+Suppose that the maximum trimmed length of \(\lambda,\mu,\nu\) is at most
+six, and let \(H\) be their original hive polytope. If \(H\) is nonempty
+and \(d=\dim H\), then
+\[
+ P_{\lambda,\mu,\nu}(t)=\sum_{k=0}^{d}c_k t^k,
+ \qquad c_0=1,\qquad c_k>0\quad(1\leq k\leq d).
+\]
+All coefficients above \(d\) vanish. An empty positive-stretch family has
+the zero polynomial. A point hive, including the all-empty triple, has
+polynomial one.
+\end{theorem}
+
+The strengthened strict statement uses the small top-coefficient computation
+in Section~\ref{sec:finite} together with the lower-coefficient certificates.
+It is an assembly of analytic theorems and exact finite computations, not a
+formal proof checked by a proof assistant. The release includes every
+finite input and verifier identified in Section~\ref{sec:verification}.
+
+For an actual face \(F\), \(\vol(F)\) denotes Lebesgue measure normalized
+by the saturated lattice \(\Z^{10}\cap\operatorname{lin}(F-F)\); it is not
+multiplied by \((\dim F)!\). More precisely, the proof gives
+\begin{equation}\label{eq:bounds}
+ c_k(H)\ \geq\ \eps_k\sum_{\substack{F\text{ an actual face of }H\\\dim F=k}}
+ \vol(F),\qquad 1\leq k\leq9,
+\end{equation}
+with
+\[
+\begin{aligned}
+(\eps_1,\ldots,\eps_6)&=
+\left(\frac1{2000000},\frac1{200000000},\frac1{200000000},
+\frac1{2000000},\frac1{2000000},\frac1{3000}\right),\\
+(\eps_7,\eps_8,\eps_9)&=
+\left(\frac1{144},\frac1{9},\frac1{2}\right).
+\end{aligned}
+\]
+When \(d=10\), \(c_{10}=\vol(H)\). When \(d<k\), both the coefficient
+and the face sum in \eqref{eq:bounds} vanish.
+
+\subsection{Why a further step was needed}
+Ferudun proved positivity through length five \cite{ferudun}. His proof
+already uses exact normal corrections and the closure relations of two-face
+polygons. The present work builds on that geometric approach and the
+Berline--Vergne local Euler--Maclaurin formula \cite{bv}.
+Pointwise nonnegativity of the uncorrected local weights is unavailable:
+negative local weights occur even on actual hives in the five-part case.
+Thus positive integer counts, polynomiality, and positivity of the highest
+coefficients do not by themselves settle the remaining coefficients.
+
+At length six the ambient hive dimension is ten. The linear coefficient
+involves nine-dimensional normal cones and corrections on eight-normal
+supports. Direct enumeration of boundary triples is an infinite problem;
+even a complete bounded census cannot prove the all-size assertion. The
+finite normal formulation removes that infinity but leaves a substantial
+exact lattice calculation and a large correction system. Our earlier
+unpruned correction search did not find a feasible field. This failure was
+not a proof that its sufficient system was infeasible.
+
+The decisive observation is that many independent normal supports cannot
+contribute to an actual hive edge. Their tightness forces an additional
+independent interior equality. The new restriction is justified by an exact
+geometric lemma; it does not discard a constraint merely because its value
+is negative. The complete correction identity continues to hold before any
+sign condition is applied.
+
+\subsection{What the proof adds and what it uses}
+The principal contributions assembled here are the family-dependent
+realizability criterion, a complete refinement-and-balance argument applicable
+to hidden affine strata, the exact rank-six correction fields, and practical
+original-lattice algorithms for their construction and verification.
+The scalar computation also uses an odd-dimensional reciprocity reduction
+with a finite-character correction for nontrivial lattice cosets.
+The strengthened geometry identifies precisely which independent physical
+branches occur for some legal integral boundary and compatible refinement,
+at any rank. At rank six, a 103-identity calculus determines every tight-row
+closure; a small propositional certificate proves its completeness without
+an extreme-ray completeness oracle. The earlier 102 short identities first
+fail at a generating set of cardinality six.
+These are explicit constructions and specializations of classical local
+Euler--Maclaurin, lattice, reciprocity, and finite Fourier methods; no claim
+to have originated those classical methods is intended.
+
+The finite-box result for seven parts and outer size at most thirty is a
+separate theorem. The collection preserves its proof and compares the
+recent finite-cover preprint of Ghodsi \cite{ghodsi}. Neither bounded result
+is a premise of Theorem~\ref{thm:main}. The theorem here leaves ordinary
+rank seven and unrestricted KTT positivity open. Novelty comparisons are
+bounded literature checks, not a claim of exhaustive worldwide priority.
+
+\section{Original hive, lattice, and local constants}\label{sec:model}
+Put \(T_6=\{(i,j)\in\Z_{\geq0}^2:i+j\leq6\}\), and pad all partitions
+to six parts. For a hive height function \(h:T_6\to\R\), use boundary values
+\[
+ h(i,0)=\sum_{a=1}^i\mu_a,\qquad
+ h(0,j)=\sum_{a=1}^j\lambda_a,\qquad
+ h(6-j,j)=|\mu|+\sum_{a=1}^j\nu_a.
+\]
+The balance identity makes the corner values consistent. The ten free
+coordinates are the heights at
+\[
+(1,1),(1,2),(1,3),(1,4),(2,1),(2,2),(2,3),(3,1),(3,2),(4,1).
+\]
+Their lattice is \(L=\Z^{10}\), with its standard Euclidean metric.
+For every elementary rhombus the sum at the two obtuse corners minus the
+sum at the two acute corners is nonnegative. All 45 inequalities are kept.
+After fixing the boundary they have the form
+\begin{equation}\label{eq:rhombi}
+ \rho_r(b,x)=\ell_r(b)+\langle n_r,x\rangle\geq0,
+ \qquad 0\leq r<45,
+\end{equation}
+where \(b=(\lambda,\mu,\nu)\). Their interior restrictions give 42
+distinct oriented primitive normal directions. Three directions have two
+physical row preimages. Equal directions do not identify their boundary
+offsets.
+
+The hive correspondence identifies the integer points of \(H_b\) with
+the LR coefficient \cite{kt}; homogeneous boundary scaling gives
+\(H_{tb}=tH_b\) for \(t>0\). Stretching polynomiality implies that its Ehrhart
+quasipolynomial has period one. The actual degree is \(\dim H_b\), which
+may be smaller than ten. Padding is carried out in this original model;
+no coordinate upper bound is substituted for the actual dimension.
+
+For a rational hive polytope, choose a positive integer \(s\) clearing all its
+vertices. Its integral dilate satisfies
+\begin{equation}\label{eq:scaling}
+ c_k(sH)=s^k c_k(H),\qquad \vol(sF)=s^k\vol(F).
+\end{equation}
+These identities use period-one polynomiality, not continuity of arbitrary
+Ehrhart coefficients under perturbation. The integral case has constant term
+one; hence so does every nonempty period-one rational hive. This also
+discharges the point and all-empty cases.
+
+\begin{definition}[Complete local constant]
+For an independent set \(I\) of \(q\) original normals, let
+\(\sigma_I=\pos(n_i:i\in I)\). Its constant \(\alpha_I\) is the
+Berline--Vergne dual local value at zero, with the saturated normal lattice
+\(L^*\cap\operatorname{span}(\sigma_I)\) and the induced metric.
+Equivalently, compute in the projected primal quotient lattice. The normal
+generators must not be substituted for tangent generators.
+\end{definition}
+
+For actual integral faces the local Euler--Maclaurin formula expresses
+\(c_k\) as the sum of their normalized volumes times these local values.
+The precise analytic inputs are \cite[Propositions 12--13, Definition 22,
+Corollary 23, Theorem 26]{bv}: quotient and ambient/subspace compatibility,
+dual solid subdivision additivity, and the local coefficient formula.
+Section~\ref{sec:balance} gives the complete argument needed to use
+simplicial constants without assuming the original polytope is simple or
+full-dimensional.
+
+\section{The complete refined normal cycle}\label{sec:balance}
+The following construction works in \(L=\Z^m\) with a fixed rational
+positive-definite metric. Let \(P\) be a nonempty bounded rational polytope
+given by finitely many nonzero integral inward normals from a fixed list
+\(N\). For coefficient statements assume that its Ehrhart counting function
+is a polynomial, as it is for an integral polytope or an original hive.
+The geometric refinement and balance lemmas themselves need no polynomiality
+assumption. Fix \(1\leq k<m\), and put \(q=m-k\).
+
+\begin{lemma}[Compatible refinement using original rows]\label{lem:fan}
+The full ambient normal fan of \(P\) has a pointed simplicial refinement
+\(\Gamma\) whose rays come from the original normal directions, including
+when \(P\) has hidden affine equalities.
+\end{lemma}
+\begin{proof}
+Replace each inequality \(b_r+\langle n_r,x\rangle\geq0\) by
+\(b_r+\langle n_r,x\rangle+\delta a_r\geq0\), with all \(a_r>0\)
+generic and \(\delta>0\) sufficiently small. The perturbed polytope is
+full-dimensional, because any point of \(P\) now satisfies every row
+strictly. It has the same zero recession cone and is bounded. Genericity
+avoids the finite affine circuit degeneracies, so it is simple.
+
+Every perturbed vertex is given by an independent \(m\)-row basis of
+original inequalities. There are only finitely many such bases. For every
+basis feasible for arbitrarily small positive \(\delta\), its vertex
+has a finite limit in \(P\), with the same basis tight. That limit is
+an actual vertex, and its normal cone contains the perturbed vertex cone.
+A common sufficiently small \(\delta\) handles every feasible basis.
+The perturbed normal fan therefore refines the full ambient fan of \(P\).
+Parallel physical rows retain their separate offsets; genericity selects
+at most one over a fixed oriented normal on a simple face.
+No lattice count of the perturbed polytope is used.
+\end{proof}
+
+For \(\sigma\in\Gamma\) of dimension \(q\), assign weight
+\(w_\sigma=\vol(F)\) when \(\relint\sigma\) lies in the normal cone
+\(C_F\) of an actual \(k\)-face \(F\), with \(\dim C_F=q\), and
+assign weight zero otherwise. Each top-dimensional subdivision cell of
+\(C_F\) receives the same full actual face volume.
+
+For a \((q-1)\)-cone \(\tau\), let \(u_{\sigma/\tau}\) denote the
+primitive generator of the image of \(\sigma\) in
+\(L^*/(L^*\cap\operatorname{span}\tau)\).
+\begin{lemma}[Complete primitive balance]\label{lem:balance}
+For every \((q-1)\)-cone \(\tau\) of \(\Gamma\),
+\begin{equation}\label{eq:balance}
+ \sum_{\substack{\sigma\supset\tau\\\dim\sigma=q}}
+ w_\sigma u_{\sigma/\tau}=0.
+\end{equation}
+\end{lemma}
+\begin{proof}
+If \(\relint\tau\) lies in a coarse cone of dimension \(q-1\), that
+cone corresponds to an actual \((k+1)\)-face \(G\). Each adjacent
+nonzero-weight cell corresponds to one facet \(F\) of \(G\) near
+\(\relint\tau\). Put \(M_G=L\cap\operatorname{lin}(G-G)\).
+Restriction \(L^*\to M_G^*\) is surjective because \(M_G\) is saturated;
+its kernel is \(L^*\cap\operatorname{span}\tau\). For the primitive
+facet conormal \(u\),
+\(\operatorname{covol}(M_F)=\operatorname{covol}(M_G)\|u\|\).
+Indeed, extend a basis of its kernel by a lattice vector with \(u(v)=1\);
+the extra perpendicular height is \(1/\|u\|\). The Euclidean facet
+balance formula, divided by the common covolume, is exactly
+\eqref{eq:balance}. An overall reversal from outward to inward normals
+does not change the zero sum.
+
+If \(\relint\tau\) lies inside a coarse \(q\)-cone, exactly two adjacent
+\(q\)-cells in its span contribute. Their weights agree and their primitive
+quotient directions are opposite. If it lies inside a coarse cone of larger
+dimension, all adjacent \(q\)-cell weights are zero. These cases exhaust
+the refinement, including coarse cones with lineality.
+\end{proof}
+
+For every independent \((q-1)\)-support \(J\), choose a rational linear
+functional \(h_J\) on its quotient lattice, allowing the zero functional.
+For \(I=J\cup\{i\}\), choose a saturated integer kernel basis \(M_J\)
+of the original normal matrix. In its coordinates,
+\begin{equation}\label{eq:primitive}
+ u_{I/J}=\frac{M_J^T n_i}{\gcd\text{ of all coordinates of }M_J^T n_i}.
+\end{equation}
+Independence makes the denominator positive. Define
+\begin{equation}\label{eq:beta}
+ \beta_I=\alpha_I+\sum_{J\text{ a facet support of }I}h_J(u_{I/J}).
+\end{equation}
+
+\begin{proposition}[Correction identity]\label{prop:identity}
+For every such rational field \(h\),
+\begin{equation}\label{eq:identity}
+ c_k(P)=\sum_{\substack{\sigma\in\Gamma\\\dim\sigma=q}}w_\sigma\alpha_\sigma
+       =\sum_{\substack{\sigma\in\Gamma\\\dim\sigma=q}}w_\sigma\beta_\sigma.
+\end{equation}
+\end{proposition}
+\begin{proof}
+First dilate to make \(P\) integral. On each actual normal cone, BV dual
+solid valuation adds the local constants of all top-dimensional simplicial
+cells; lower-dimensional intersections contribute zero in that fixed span.
+For a nonpointed coarse cone, ambient/subspace compatibility identifies the
+value with the transverse value in the actual affine hull. The local
+Euler--Maclaurin formula gives the first equality. Insert
+\eqref{eq:beta} and interchange the finite sums. The coefficient of every
+functional \(h_J\) is the complete sum \eqref{eq:balance}, so all
+corrections cancel. Transfer back using \eqref{eq:scaling}.
+\end{proof}
+
+\begin{corollary}\label{cor:all-support}
+If \(\beta_I\geq\eps>0\) on every independent \(q\)-support, then
+\(c_k(P)\geq\eps\sum_{\dim F=k}\vol(F)\).
+\end{corollary}
+\begin{proof}
+All weights are nonnegative. Every actual \(k\)-face has at least one
+top-dimensional normal subdivision cell. Sum \eqref{eq:identity}; use
+\eqref{eq:scaling} for rational \(P\).
+\end{proof}
+This is a sufficient field criterion. Failure to find such a field does
+not exhibit a polytope, much less a whole LR polynomial, with a negative
+coefficient. Abstract nonnegative balanced weights need not be realizable
+face-volume weights.
+
+\section{Realizability pruning}\label{sec:pruning}
+Consider a homogeneous polyhedral family
+\(P_b=\{x:\rho_r(b,x)\geq0\}\), where each \(\rho_r\) is linear in
+the combined boundary and interior coordinates. Let \(C\) be the cone
+of all \((b,x)\) satisfying the physical inequalities; a larger cone
+containing every permitted family member is also safe. For a physical row
+set \(S\), set
+\[
+ C_S=C\cap\{\rho_r=0:r\in S\},\qquad
+ \cl(S)=\{r:\rho_r\text{ vanishes identically on }C_S\}.
+\]
+Given independent normal directions \(I\), a \emph{physical branch}
+chooses one original row above each direction. Retain \(I\) if at least
+one such branch \(S\) has
+\begin{equation}\label{eq:retained}
+ \rank\{n_r:r\in\cl(S)\}=|I|.
+\end{equation}
+For a specified boundary this is a necessary support condition. The converse
+below is existential: every retained physical branch occurs at some legal
+integral boundary in some compatible refinement. It does not specify the
+same boundary or refinement for different branches.
+
+\begin{lemma}[Support of positive weights]\label{lem:support}
+Every \(q\)-cell of the refinement in Lemma~\ref{lem:fan} with positive
+weight has a retained physical branch.
+\end{lemma}
+\begin{proof}
+Let \(\sigma\) contribute the volume of an actual \(k\)-face \(F\).
+Choose its \(q\) defining physical rows in the relaxed polytope, and an
+incident relaxed vertex whose independent \(m\)-row basis contains them.
+Its limit is an actual vertex \(v\) of \(P_b\), with these rows tight.
+For \(\xi\in\relint\sigma\subset\relint C_F\), minimization at \(v\)
+shows \(v\in F\). Each selected normal belongs to \(C_F\), so its row
+is constant on \(F\) and, being zero at \(v\), is tight on all of \(F\).
+
+Let \(T(F)\) consist of all original rows tight on \(F\), including
+every hidden affine equality. Then
+\(S\subset T(F)\) and \(\rank_x T(F)=m-\dim F=q\).
+A relative-interior point \((b,x)\) of \(F\) lies in \(C_S\).
+Every row in \(\cl(S)\) vanishes there. Its restriction to \(F\) is a
+nonnegative affine function, so vanishing at a relative-interior point
+forces it to vanish identically. Therefore
+\[
+ S\subset\cl(S)\subset T(F),\qquad
+ q\leq\rank_x\cl(S)\leq q.
+\]
+This proves \eqref{eq:retained} for the actual branch. Taking an existential
+choice over all branches cannot discard it.
+\end{proof}
+
+\begin{theorem}[Family-dependent sign certificate]\label{thm:pruned}
+If the field in \eqref{eq:beta} has \(\beta_I\geq\eps>0\) for every
+retained independent \(q\)-support, then every nonempty period-one member
+of the family satisfies
+\[
+ c_k(P_b)\geq\eps\sum_{\dim F=k}\vol(F).
+\]
+\end{theorem}
+\begin{proof}
+Proposition~\ref{prop:identity} holds for every field, regardless of sign.
+Lemma~\ref{lem:support} puts every positive-weight cell in the retained
+set. Excluded cells have weight zero and impose no sign condition.
+Corollary~\ref{cor:all-support}'s final summation and rational scaling now
+apply without altering any incidence or balance identity.
+\end{proof}
+
+For rank six, the universal cone uses 28 heights and all 45 original rhombi.
+Its affine lineality has dimension three. Set
+\(h(0,0)=h(1,0)=h(0,1)=0\); subtracting an affine height function gives
+this gauge and leaves every rhombus slack unchanged. The resulting cone is
+pointed and full-dimensional in 25 coordinates. Its 166 primitive extreme
+rays provide an exact closure test: intersect the ray sets on which every
+selected physical row is tight, and find every row vanishing on all the
+surviving rays. If there is no surviving ray, the face is the origin and
+every row belongs to its closure. Cone completeness must be verified; an
+incomplete ray list could make this exclusion unsound.
+Section~\ref{sec:closure-calculus} gives an alternative complete closure
+certificate from feasible vectors and positive identities. Their 166 tight
+masks agree exactly with the original classifier, and all six physical-row
+symmetries preserve this set of masks. Either complete route certifies the
+closure predicate used below.
+
+For nine independent normals, compute an exact nonzero kernel vector
+\(w\in\Q^{10}\). Condition~\eqref{eq:retained} is equivalent to every
+closure row being orthogonal to \(w\). All branches over the three repeated
+directions are checked. The six barycentric coordinate permutations preserve
+physical rows, the cone, the original lattice and its metric. Thus the
+predicate is invariant under that six-element group.
+
+\input{geometry-strengthening}
+
+\section{Exact scalar computation and its acceleration}\label{sec:scalar}
+Let \(N\) be any independent \(q\)-row normal matrix. In normal-image
+coordinates use
+\[
+ \Lambda=N\Z^{10},\quad I=[\Z^q:\Lambda],\quad
+ G=NN^T,\quad Q=G^{-1}.
+\]
+Let \(d_i\) be the least positive integer with \(d_i e_i\in\Lambda\),
+and \(\mathcal F=\Lambda\cap\prod_i[0,d_i)\). Unique reduction modulo
+the primitive axes gives
+\begin{equation}\label{eq:series}
+ S(c)=\frac{\sum_{p\in\mathcal F}e^{\langle c,p\rangle}}
+ {\prod_i(1-e^{d_i c_i})},\qquad
+ |\mathcal F|=\frac{\prod_i d_i}{I}.
+\end{equation}
+Every fundamental numerator point is needed. Equal Gram matrices and equal
+indices alone need not identify the full image lattice. Type reuse must
+verify its original columns and exact row/ambient transport.
+
+Let \(R_Q\) be the degree-preserving holomorphic projection for metric
+\(Q\). The local constant is
+\(\alpha_N=R_Q(S^{[0]})\), where \([0]\) means total homogeneous degree
+zero \cite{bvasym,gpz}. This projection precedes any one-variable
+specialization. A Laurent constant on a generic ray is a different operation.
+With \(B_a(x)\) the Bernoulli polynomial in
+\(ze^{xz}/(e^z-1)=\sum_{a\geq0}B_a(x)z^a/a!\), put
+\[
+ W(a)=\sum_{p\in\mathcal F}\prod_i
+ \frac{d_i^{a_i}B_{a_i}(p_i/d_i)}{a_i!}.
+\]
+Then the following finite formula specifies every scalar without a cache:
+\begin{equation}\label{eq:direct}
+ \alpha_N=\frac{(-1)^q}{\prod_i d_i}
+ \sum_{\substack{a\in\Z_{\geq0}^q\\|a|=q}}
+ W(a)\,T\bigl(\{i:a_i=0\},(\max(a_i-1,0))_i\bigr).
+\end{equation}
+Here \(T(\varnothing,0)=1\). If \(j\notin U\), \(e_j>0\) and
+\(|e|=|U|\), set \(b=Q_{UU}^{-1}Q_{Uj}\) and use
+\begin{equation}\label{eq:projection}
+ T(U,e)=\sum_{i\in U}b_iT(U\setminus\{i\},e-\mathbf e_j).
+\end{equation}
+To prove it, split \(c_j\) into its projection on the denominator span
+and its orthogonal remainder. In every remainder term, expand the other
+factors into the same two spaces. The denominator-space factor has negative
+homogeneous degree, whose holomorphic projection is zero. Orthogonal
+multiplicativity kills that term. The projected part cancels one denominator
+and yields \eqref{eq:projection}. Induction finishes the proof.
+
+An independent implementation uses the full Euler--Maclaurin recurrence.
+For \(T\) a row subset, write \(I_T=[\Z^T:N_T\Z^{10}]\) and
+\(G_T=N_TN_T^T\), with \(I_\varnothing=\alpha_\varnothing=1\).
+Choose a common generic vector \(w\), and set
+\(c_T=G_T^{-1}w_T\). With \(\mu_\varnothing=1\), the recurrence is
+\begin{equation}\label{eq:forward}
+ \mu_T(s)=S_T(sc_T)
+ -\sum_{\varnothing\ne U\subseteq T}
+ \frac{(-1)^{|U|}I_{T\setminus U}}
+ {I_Ts^{|U|}\prod_{i\in U}c_{T,i}}\,
+ \mu_{T\setminus U}(s).
+\end{equation}
+The quotient covectors are compatible restrictions of the same specialization;
+all negative Laurent coefficients cancel. Multiplying by \(s^{|T|}\)
+reduces scalar extraction to finite polynomial arithmetic. Higher Taylor
+coefficients needed by larger supports are retained to the required degree.
+
+\subsection{Odd dimension and exceptional lattice cosets}
+For odd \(q\), proper-subset constants can replace a full degree-\(q\)
+jet calculation. Put \(\ell(c)=\sum_i c_i\), and for \(F\subseteq T\)
+define
+\[
+ K(\varnothing)=1,\quad
+ a(F)=Q_{FF}^{-1}(Q\mathbf1)_F,\quad
+ K(F)=\sum_{i\in F}a_i(F)K(F\setminus\{i\}).
+\]
+Nested orthogonal projection proves the last recurrence by cancelling one
+numerator factor. If \(\mathbf1\in\Lambda\), closed/open reciprocity
+gives \(S(-c)=-e^{\ell(c)}S(c)\). Apply \(R_Q\), insert the complete
+local recurrence, and compare degree zero. A proper germ of positive
+degree is orthogonal to the denominator variables and has zero contribution;
+the surviving expression is
+\begin{equation}\label{eq:odd}
+ A_T=-\frac12\sum_{J\subsetneq T}
+ (-1)^{|T\setminus J|}\frac{I_J}{I_T}\,
+ \alpha_J\frac{K(T\setminus J)}{|T\setminus J|!},
+ \qquad \alpha_T=A_T.
+\end{equation}
+Thus at \(q=9\) there are 511 proper terms, and only lower constants are
+required. Original lattice membership is essential.
+
+For general \(\Lambda\), let \(S_a\) be the closed orthant sum on
+\(a+\Lambda\), and \(D=S_0-S_{-\mathbf1}\). The two coset reciprocity
+identities give \(D(-c)=e^{\ell(c)}D(c)\), so instead
+\begin{equation}\label{eq:defect}
+ \alpha_T=A_T+\tfrac12R_Q(D^{[0]}).
+\end{equation}
+Let \(\widehat H\) be the character group of \(H=\Z^q/\Lambda\).
+For \(z_i=\chi(e_i)\), character orthogonality makes the defect explicit:
+\begin{equation}\label{eq:characters}
+ D(c)=\frac1I\sum_{\chi\in\widehat H}
+ \left(1-\prod_i z_i\right)\prod_i(1-z_i e^{c_i})^{-1}.
+\end{equation}
+All characters, their actual axis phases and the factor \(1/I\) are
+retained. Terms with \(\prod_i z_i=1\) vanish. The other terms are
+evaluated exactly in a cyclotomic field, or by complete rational Galois
+traces followed by \eqref{eq:projection}.
+
+For independent primitive rows with entries in \(\{0,1,-1\}\), a
+nontrivial character cannot have only one nontrivial coordinate. If it
+has exactly two, column annihilation forces identical row supports and
+phases equal or opposite. Independence rules out a single relative sign;
+both signs force order two, with both phases \(-1\). Their product is
+one, so the defect vanishes. Every surviving character therefore has at
+least three nontrivial phases. Its coordinate poles number at most \(q-3\),
+which is six at \(q=9\). This is the scalar acceleration used in the
+large certificate; it does not assert positivity of the raw scalars.
+
+\section{Finite certificates and assembly}\label{sec:finite}
+All finite tests use exact integers and rationals. Floating optimization
+proposes a field only; it contributes no sign decision to the proof.
+The six coordinate isometries act on complete original supports. Averaging
+a field seeded at support-orbit representatives includes every stabilizer:
+\begin{equation}\label{eq:field}
+ \beta_I=\alpha_I+\frac{B_I n}{6D}.
+\end{equation}
+Formula~\eqref{eq:field} is the orbit-averaged convention for the
+\(c_1,\ldots,c_5\) fields. The \(c_6\) certificate instead lists its
+381 literal support functionals directly, with denominator \(10^{12}\),
+and uses \eqref{eq:beta} without an additional averaging factor.
+At each support, the kernel matrix \(M\) has an integer left inverse
+\(A\) satisfying \(NM=0\) and \(AM=I\), and the expected rational
+rank, or equivalently verifies full rank and gcd one of its maximal minors.
+This proves that its column lattice is the full saturated kernel.
+Every restricted conormal is divided by the gcd of all its coordinates.
+The complete original-normal action is checked against any stored sparse
+matrix action; agreement of only floating residuals is insufficient.
+
+\begin{center}
+\begin{tabular}{@{}rrll@{}}\toprule
+Coefficient & Normal size & Finite sign domain & Bound \\\midrule
+\(c_1\)&9&13,325,662 retained orbit rows&\(1/2000000\)\\
+\(c_2\)&8&10,480,218 orbit rows&\(1/200000000\)\\
+\(c_3\)&7&2,999,563 orbit rows&\(1/200000000\)\\
+\(c_4\)&6&675,721 orbit rows&\(1/2000000\)\\
+\(c_5\)&5&121,241 orbit rows&\(1/2000000\)\\
+\(c_6\)&4&102,297 literal independent supports&\(1/3000\)\\
+\(c_7\)&3&10,994 literal independent supports&\(1/144\)\\
+\(c_8\)&2&849 literal independent supports&\(1/9\)\\
+\(c_9\)&1&42 literal supports&\(1/2\)\\\bottomrule
+\end{tabular}
+\end{center}
+The different rows explicitly distinguish literal supports from symmetry
+representatives. All dependent complements and all transports belong to
+their coverage checks.
+
+\subsection{The linear certificate}
+The complete nine-normal roster has 27,230,728 orbit rows. The independent
+closure test visits 46,327,714 physical branches, retains 13,325,662 rows
+representing 79,940,357 original parents, and excludes the remaining rows
+from the sign test by Lemma~\ref{lem:support}. It does not delete them
+from the balanced identity.
+The integer field has 20,960,436 coordinates and \(D=10^{10}\) in
+\eqref{eq:field}; its actual denominator is \(6\cdot10^{10}\).
+The complete exact retained minimum is
+\[
+ \frac{40142888690844119591010700379369}
+ {40149066134252712057708583296000000000}
+ >\frac1{2000000}.
+\]
+It occurs at zero-based row 8,203,248. The accepted original-action check
+reconstructs 119,963,492 primitive incidences. The 2,695,883 negative
+excluded rows remain useful adverse controls, not LR counterexamples.
+
+The full roster is generated from every independent eight-support orbit:
+extend by each absent normal, test independence in its saturated two-coordinate
+kernel, and canonicalize under all six actions. Conversely, every independent
+nine-support has an independent deleted eight-face, so some extension
+produces its orbit. The verifier checks the complete eight-domain, every
+extension, duplicate identity, deleted face, multiplicity and source join.
+A row count by itself would not prove coverage.
+
+\subsection{The higher certificates and a small strengthening}
+For \(c_2,\ldots,c_6\), the rational fields constrain every independent
+support, without the family-dependent pruning. Their complete domains,
+original lattices, primitive incidences, scalar values and corrected
+inequalities are specified in the corresponding verification modules.
+Corollary~\ref{cor:all-support} applies in every actual dimension.
+
+For \(q=1,2,3\), no correction is needed. Reconstructing the 45 rhombi
+and 42 directions and enumerating all \(\binom{42}{q}\) subsets gives
+42, 849, 10,994 independent supports and 0, 12, 486 dependent supports.
+The exact minima are \(1/2,1/9,1/144\). An independent Python rational
+implementation of \eqref{eq:direct} agrees on every support and lattice
+index with the C++ implementation of \eqref{eq:forward}. Complete
+nonunimodular numerators are included. This small rank-six calculation
+replaces a dependency on a rank-uniform top-coefficient catalog; it makes
+no new rank-uniform assertion.
+
+\begin{proof}[Proof of Theorem~\ref{thm:main} from the finite premises]
+The linear certificate and Theorem~\ref{thm:pruned} establish
+\eqref{eq:bounds} for \(k=1\). The complete higher fields and
+Corollary~\ref{cor:all-support} establish it for \(2\leq k\leq6\).
+The small uncorrected certificates establish it for \(7\leq k\leq9\).
+Every nonempty polytope of dimension at least \(k\) has an actual
+\(k\)-face of positive normalized volume. The leading ten-dimensional
+coefficient is its volume. Thus all coefficients through actual degree
+are positive. Section~\ref{sec:model} supplies constant one, actual degree,
+padding, rational scaling and the empty/point cases. No generic-boundary
+assumption or limiting transfer across chambers is needed.
+\end{proof}
+
+\section{Verification contract and reproducibility}\label{sec:verification}
+A certificate is the rational field together with the exact finite domain
+and the mathematical interpretation above. A file hash establishes identity;
+it does not prove a scalar value or a domain complete. The distribution must
+therefore distinguish the following operations.
+\begin{enumerate}
+\item Reconstruct the original rhombi, lattice and symmetry; verify the
+universal cone and all physical-branch closure tests.
+\item Regenerate all required normal supports, saturated kernels, image
+lattices, type transports and primitive incidences. Reject omissions,
+duplicates, foreign rows, and incomplete tails.
+\item Reconstruct every local scalar from the stated analytic recurrence,
+including its complete numerator and exceptional lattice cosets. A
+proper-subset cache must itself have a complete analytic verification.
+\item Evaluate every corrected value exactly and compare it with its
+declared bound. Reconstruct the original action independently of any
+stored sparse matrix. Record exact minima and complete domain counts.
+\item Verify corrupt-data and omission controls, process exit, and complete
+output before accepting a pass. Reproduce from the distributed source/data
+copy, not from paths in the private research workspace.
+\end{enumerate}
+
+The accompanying package is version \emph{rank-six-2026-09-25-v1} in the
+\href{https://github.com/chris-hadad/lr-stretching-results/releases/tag/rank-six-2026-09-25-v1}{public source
+repository and release archives}. Its
+\href{https://github.com/chris-hadad/lr-stretching-results/blob/rank-six-2026-09-25-v1/results/rank-six-positivity/VERIFYING.md}{rank-six verification guide}
+gives the exact commands, source and data manifests, complete coverage reports,
+measured costs and negative controls. The proof and the small geometric
+certificate can be inspected before downloading the large numerical assets.
+
+The fast route rechecks geometry, original action and inequalities using
+supplied exact scalar data. Full regeneration additionally establishes those
+scalar inputs and their lower-type dependencies. These are different trust
+boundaries. The universal cone has a small independent reconstruction: choose
+25 independent original inequalities after fixing the affine-height gauge,
+start with their simplicial cone, and intersect the remaining 20 halfspaces
+by exact double description. The standard-library Python implementation
+checks all extreme-ray and facet ranks and gives precisely the same 166 rays
+and tight masks as a separate Sage/PPL reconstruction. It takes approximately
+three seconds locally and removes Sage as a required reader dependency.
+
+The fresh public \(c_1\) geometry, classification, original-action and coverage
+checks took 21.49 minutes on the publication host under concurrent load.
+The complete independent \(q=9\) scalar check covered all 27,230,728 rows in
+3.49 elapsed hours with up to six children; the sum of their elapsed timers
+was 20.66 hours. These are wall and aggregate child durations, not measured
+CPU-hours or performance promises. Complete lower scalar regeneration is a
+separate requirement, recorded with its commands and costs in the verification
+report. The small top-coefficient replay, including compilation and both
+implementations, took approximately six seconds locally.
+
+The code uses arbitrary-precision arithmetic where the proof needs it.
+Machine-width formats are accompanied by exact range and overflow checks.
+The mathematical trust base comprises the cited classical theorems, the
+proof in Sections~\ref{sec:balance}--\ref{sec:pruning}, and the specified
+finite predicates. The execution trust base additionally includes the
+compiler, integer/rational libraries, operating system and hardware.
+Independent implementations reduce shared implementation risk but do not
+replace an audit of the common mathematical specification.
+
+\subsection{Formal verification}
+No Lean, Coq or HOL verification of the whole theorem is claimed. A useful
+formalization must connect the concrete LR coefficient to the original hive
+count, prove the polynomial/coefficient interpretation, formalize the
+saturated-lattice normal-cycle and pruning arguments, and certify the exact
+finite computation. Proving only that a nonnegative weighted sum is
+nonnegative while assuming this entire connection would leave the central
+obligation untouched. The accompanying formalization assessment separates
+these obligations and identifies the exact certificate predicates suitable
+for a small kernel-checked arithmetic layer.
+The new closure certificate offers a concrete first target: Lean's standard
+library has a sound LRAT checker to which the RUP additions can be exported
+with ordered unit-propagation hints. That route has been investigated but
+not compiled or kernel-checked here. A successful finite CNF check would
+still require the formula interpretation, closure sandwich and remaining
+LR/BV bridge to be formalized.
+
+\section{Mathematical and computational implications}
+Realizability pruning is available for any homogeneous fixed-row polyhedral
+family with the local coefficient formula. Its utility in another family
+depends on proving the original support implication, computing a complete
+closure description, and finding an exact retained field. The rank-six
+success does not establish that these tasks remain tractable in higher rank.
+
+The odd scalar formula and finite-character defect are also reusable beyond
+this instance, subject to their precise lattice and metric hypotheses.
+The primitive \(0,\pm1\) row condition explains the six-pole defect bound;
+it cannot be transferred to arbitrary integer matrices without checking
+the corresponding character supports.
+
+The proof does not establish a positive tableau formula, monotonicity,
+concavity, superadditivity, or a simple local rule for paying each negative
+edge. Such statements are different from coefficient positivity, and some
+proposed monotonicity-related shortcuts were independently refuted during
+the investigation. A smaller conceptual field or a more local correction
+would improve explanation and verification cost. Those are substantive
+further questions, rather than missing premises of the stated certificate
+once its complete checks pass.
+
+\section{Contributions and AI assistance}
+This work was directed by Chris Hadad and involved substantial mathematical
+and computational contributions from AI systems across continuing research
+environments. The contribution record distinguishes discovery, construction,
+audit, independent reimplementation, and integration.
+The realizability route originated in an Opus 5.5 mathematical consultation
+and was developed into the complete pruned rational field by a separate
+Opus 5.5 exploration. Fable orchestrated and audited that work. Four fresh
+Opus-routed verification seats added proof reading, sampled exact classification,
+a separate complete
+classification and domain recount, and bounded whole-count controls. Two
+of those verification reports explicitly identify Opus 5.5; exact versions
+of the other two are unresolved in the inspected records. The Codex
+campaign subsequently supplied an independent proof-level adoption and
+complete original-normal geometric and arithmetic checks. Earlier ChatGPT
+Pro investigations and Codex work supplied the refined normal-cycle
+argument, higher fields, scalar algorithms, domains, and retained numerical
+checkpoints. The accompanying provenance table records exact artifact/model
+evidence and unresolved attribution details.
+During publication strengthening, a further ChatGPT Pro investigation
+supplied the legal-realization converse, completed the positive closure
+calculus and identified the minimum-six obstruction to its earlier rules.
+The publication campaign independently reviewed the argument, reimplemented
+its finite checker and constructive interface, and replayed all certificate
+predicates and the complete smaller-seed exhaustion. Those contributions
+strengthen the geometry and its accessibility; they are not a new run of
+the original numerical positivity field.
+
+A model name in an orchestration wrapper is not necessarily the model that
+produced the mathematical response. Likewise, rerunning a producer's program
+is different from writing a second verifier. The process description retains
+these distinctions. It records a cumulative research process in which
+separate contexts proposed, challenged, repaired and reused ideas; it is not
+a controlled comparison of model abilities or evidence of their relative
+credit percentages. AI review is distinct from external human mathematical
+review. Established mathematics and the named researchers retain their
+explicit attribution.
+
+\begin{thebibliography}{99}
+\raggedright
+\bibitem{bv} N. Berline and M. Vergne,
+\emph{Local Euler--Maclaurin formula for polytopes},
+\href{https://arxiv.org/abs/math/0507256v3}{arXiv:math/0507256v3}.
+\bibitem{bvasym} N. Berline and M. Vergne,
+\emph{Local asymptotic Euler--Maclaurin expansion for Riemann sums over a
+semi-rational polyhedron},
+\href{https://arxiv.org/abs/1502.01671}{arXiv:1502.01671}.
+\bibitem{ferudun} A. Ferudun,
+\emph{Positivity of stretched Littlewood--Richardson coefficients for
+partitions of length at most five},
+\href{https://arxiv.org/abs/2607.22301v2}{arXiv:2607.22301v2}, 2026.
+\bibitem{ghodsi} M. Ghodsi,
+\emph{A finite cover for coefficient positivity of stretched
+Littlewood--Richardson polynomials in the seven-row, size-thirty box},
+\href{https://arxiv.org/abs/2609.14357v1}{arXiv:2609.14357v1}, 2026.
+\bibitem{gpz} L. Guo, S. Paycha and B. Zhang,
+\emph{A conical approach to Laurent expansions for multivariate meromorphic
+germs with linear poles}, Pacific J. Math. 307 (2020), 159--196;
+\href{https://arxiv.org/abs/1501.00426v2}{arXiv:1501.00426v2}.
+\bibitem{kt} A. Knutson and T. Tao,
+\emph{The honeycomb model of GL(n) tensor products I: proof of the saturation
+conjecture}, \href{https://arxiv.org/abs/math/9807160}{arXiv:math/9807160}.
+\bibitem{ktt} R. C. King, C. Tollu and F. Toumazet,
+\emph{The hive model and the polynomial nature of stretched
+Littlewood--Richardson coefficients}, S\'eminaire Lotharingien de Combinatoire
+54A (2006), Article B54Ad, 19 pp.;
+\href{https://www.mat.univie.ac.at/~slc/wpapers/s54Akitoto1.pdf}{journal version}.
+Its introduction recalls the positivity conjecture from the authors'
+\emph{Stretched Littlewood--Richardson and Kostka coefficients},
+CRM Proceedings and Lecture Notes 34 (2004), 99--112.
+\bibitem{rassart} E. Rassart,
+\emph{A polynomiality property for Littlewood--Richardson coefficients},
+J. Combin. Theory Ser. A 107 (2004), 161--179;
+\href{https://arxiv.org/abs/math/0308101}{arXiv:math/0308101}.
+\end{thebibliography}
+\end{document}

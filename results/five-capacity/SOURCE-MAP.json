@@ -1,0 +1,328 @@
+{
+  "schema": "curated-mathematical-module/v1",
+  "research_commit": "259d8018466872628709e36c94e7c40d3944a3ed",
+  "verification": "Fresh finite private-candidate replay passed where a verifier is supplied; inherited analytic proofs and combined publication review remain separate.",
+  "files": [
+    {
+      "path": "PROOF.md",
+      "bytes": 9322,
+      "sha256": "7bf6f622aefe2e75474939b275b0fe82c66dd0337bf56e076fb784bc715a89ba",
+      "origin": {
+        "transformation": "Retain complete mathematical proof; update local dependency links and remove superseded review/session administration.",
+        "sources": [
+          {
+            "label": "CAP-M5-THEOREM.md",
+            "sha256": "ae830283262315d9ebe16c258b5d4f9d8ff2fc47fca3c2b3afa5e38589277e08"
+          }
+        ]
+      }
+    },
+    {
+      "path": "README.md",
+      "bytes": 2436,
+      "sha256": "b731f161ac1b2c3abecef7e13d6a2a6433ae87321a0bdcb2cd7d296cee173eb8",
+      "origin": {
+        "transformation": "Reader-facing curation or new portable adapter. Correct prose spacing and distinguish fresh candidate replay from pending publication review.",
+        "sources": [
+          {
+            "label": "ACCEPTANCE.md",
+            "sha256": "f37918714473178d1d525de5f252a6c35670af8e1df844065e8a26af4245b7b6"
+          },
+          {
+            "label": "CAP-M5-THEOREM.md",
+            "sha256": "ae830283262315d9ebe16c258b5d4f9d8ff2fc47fca3c2b3afa5e38589277e08"
+          }
+        ]
+      },
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "8c4a5bfcf246d1e19af8ba0d208a9da0262838145219cdcf488d4b0d49c3b4ea",
+          "current_included_sha256": "b731f161ac1b2c3abecef7e13d6a2a6433ae87321a0bdcb2cd7d296cee173eb8"
+        }
+      ]
+    },
+    {
+      "path": "VERIFICATION.json",
+      "bytes": 527,
+      "sha256": "a0b12952ce9a2d11351bffdb507239aea9b2760af9ba11bfaf84f281205938ad",
+      "origin": {
+        "transformation": "New mathematical projection of fresh exact candidate verification.",
+        "sources": []
+      }
+    },
+    {
+      "path": "arithmetic.py",
+      "bytes": 11050,
+      "sha256": "fc23495645417b3fcdec7cefcba9660a137607b9d00f52ad1f10361485a8c356",
+      "origin": {
+        "transformation": "Exact campaign-owned Fraction recurrence source.",
+        "sources": [
+          {
+            "label": "arithmetic_frozen.py",
+            "sha256": "fc23495645417b3fcdec7cefcba9660a137607b9d00f52ad1f10361485a8c356"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/field.json",
+      "bytes": 215352,
+      "sha256": "3c9e59b47550f3a1b691760c563a7d9ea1ea1252ac2b78aac7cd480283a2b858",
+      "origin": {
+        "transformation": "Exact mathematical input data.",
+        "sources": [
+          {
+            "label": "FIELD.json",
+            "sha256": "3c9e59b47550f3a1b691760c563a7d9ea1ea1252ac2b78aac7cd480283a2b858"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/subsets.jsonl.gz",
+      "bytes": 618367,
+      "sha256": "e9ed4df9e3639e8e625579878ed51de70f2c772ee89f281dfc697e49f0d3dcba",
+      "origin": {
+        "transformation": "Lossless deterministic gzip of all26,332 original mathematical subset records.",
+        "sources": [
+          {
+            "label": "ALL-ORIGINAL-SUBSET-VALUES.jsonl",
+            "sha256": "e55ac2e4a31246d0203bd166bec0d1c7d7a042559e27b873bc837876f8c1b3f6"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/types.json",
+      "bytes": 964843,
+      "sha256": "f603d13e204508e26776f5167883b135d2bd958e1c255fe10d9b2d6c7bfa732d",
+      "origin": {
+        "transformation": "Exact mathematical input data.",
+        "sources": [
+          {
+            "label": "TYPES.json",
+            "sha256": "f603d13e204508e26776f5167883b135d2bd958e1c255fe10d9b2d6c7bfa732d"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/values.json",
+      "bytes": 202313,
+      "sha256": "f12f289a0d6469b2423a659bf44af355e6a72fcae2692b746194e24692d63aca",
+      "origin": {
+        "transformation": "Retain all961 exact values and identities; omit historical timings and flags.",
+        "sources": [
+          {
+            "label": "TYPE-VALUES.json",
+            "sha256": "0bb6dc7bb9c7e5de2954fde8b5a38a08200fc5085e4ba9c623229c9b61833a81"
+          }
+        ]
+      }
+    },
+    {
+      "path": "geometry.py",
+      "bytes": 9045,
+      "sha256": "5ad25ce495818230f954efcb14b9e45ec713a64bb6fb14f262028959f94ee42e",
+      "origin": {
+        "transformation": "Remove only extra final blank lines after the complete staged whitespace check; mathematical content and Python AST unchanged. Earlier source identities remain historical. Original source hash remains historical provenance; current byte equality is not asserted.",
+        "sources": [
+          {
+            "label": "verify_v2.py",
+            "sha256": "8992bdcdccca848006bec4dc04682a96499c9127012646d4153ad9bb3f7c0b74"
+          }
+        ],
+        "transformation_history": [
+          {
+            "included_sha256": "6f1ce68116713d4992b6348b4d031e243bf679626f1b326d8e872fd2ecb70159",
+            "transformation": "Extract exact independent geometry, saturated-image and distinguishing-control functions; omit host-specific lifecycle/runtime code."
+          }
+        ]
+      },
+      "publication_update_note": "Remove only extra final blank lines after the complete staged whitespace check; mathematical content and Python AST unchanged. Earlier source identities remain historical.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "6f1ce68116713d4992b6348b4d031e243bf679626f1b326d8e872fd2ecb70159",
+          "current_included_sha256": "5ad25ce495818230f954efcb14b9e45ec713a64bb6fb14f262028959f94ee42e"
+        }
+      ]
+    },
+    {
+      "path": "proofs/character-three-row.md",
+      "bytes": 6653,
+      "sha256": "732af6edbcb38a710aa982b980911ce4ff8018a4b8709cf441a1fb452ada335f",
+      "origin": {
+        "transformation": "Complete indispensable character/chamber/first-coefficient sections; omit unrelated obstruction and research administration.",
+        "sources": [
+          {
+            "label": "THREE-ROW-PROOF-v2.md",
+            "sha256": "3df0de63bc2c08d54f4ac5f1a8c81096f045eacbb1f777ec44e6bcda2d4297ae"
+          }
+        ]
+      },
+      "publication_update_note": "Remove only extra final blank lines after the complete staged whitespace check; mathematical content and Python AST unchanged. Earlier source identities remain historical.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "d6068309dcf6562021de42eb30bbfcc53f6301a6ba21c708131a871c9d60bb96",
+          "current_included_sha256": "732af6edbcb38a710aa982b980911ce4ff8018a4b8709cf441a1fb452ada335f"
+        }
+      ]
+    },
+    {
+      "path": "proofs/linear.md",
+      "bytes": 8726,
+      "sha256": "b871526d2605d8835f554496b8f7cee983483a221d9e0d39e4c600d1ae93035d",
+      "origin": {
+        "transformation": "Reader-facing curation or new portable adapter.",
+        "sources": [
+          {
+            "label": "CAPPED-LINEAR-THEOREM.md",
+            "sha256": "2b68e2138f1d6b5c3f3cb1a76d12d588fa3db8a1ff5bdb92fc75ce8e472ef8e9"
+          }
+        ]
+      },
+      "publication_update_note": "Remove only extra final blank lines after the complete staged whitespace check; mathematical content and Python AST unchanged. Earlier source identities remain historical.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "35ffe9894997315cb4cbd930a8ce9dbe6d8a001154813589d4a96d6132b892b7",
+          "current_included_sha256": "b871526d2605d8835f554496b8f7cee983483a221d9e0d39e4c600d1ae93035d"
+        }
+      ]
+    },
+    {
+      "path": "proofs/normal-cycle.md",
+      "bytes": 4513,
+      "sha256": "ff44d6768833c72806bb4936c3142165eccd1f755af71222b13f4be17c78f95d",
+      "origin": {
+        "transformation": "Remove only extra final blank lines after the complete staged whitespace check; mathematical content and Python AST unchanged. Earlier source identities remain historical. Original source hash remains historical provenance; current byte equality is not asserted.",
+        "sources": [
+          {
+            "label": "PROOF.md",
+            "sha256": "1e6569af942d34288378ef6a97de1caefba7adea02cebb791d4e6cd25c6d73fa"
+          }
+        ],
+        "transformation_history": [
+          {
+            "included_sha256": "396639f4362bb85d22469273458e1f2279b37b38aeace85a95ca2844dc157453",
+            "transformation": "Exact accepted mathematical normal-cycle/recurrence source; original family-specific scopes remain explicit. Select the complete general normal-cycle implication and BV recurrence; omit unrelated older family-specific fields and superseded open-status wording."
+          }
+        ]
+      },
+      "publication_update_note": "Remove only extra final blank lines after the complete staged whitespace check; mathematical content and Python AST unchanged. Earlier source identities remain historical.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "396639f4362bb85d22469273458e1f2279b37b38aeace85a95ca2844dc157453",
+          "current_included_sha256": "ff44d6768833c72806bb4936c3142165eccd1f755af71222b13f4be17c78f95d"
+        }
+      ]
+    },
+    {
+      "path": "proofs/occupation-kernel.md",
+      "bytes": 5370,
+      "sha256": "04f00158362c269d8fb37e5da39799b06286604288f6f42aaf1be0f67ce6e006",
+      "origin": {
+        "transformation": "Complete indispensable mathematical dependency; unrelated later research sections omitted. Reader-facing dependency, status or display correction; mathematical claims unchanged.",
+        "sources": [
+          {
+            "label": "OCCUPATION-KERNEL-PROOF.md",
+            "sha256": "6b7ec40ebde00e8859fdb8304b17805065441a58e6f7aa0bff9de32b9f3961cc"
+          }
+        ]
+      },
+      "publication_update_note": "Remove only extra final blank lines after the complete staged whitespace check; mathematical content and Python AST unchanged. Earlier source identities remain historical.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "f812c8ccd9a05df00337c7c9c107359f8cfeb26fd89bae7f6a96b855bf682a19",
+          "current_included_sha256": "04f00158362c269d8fb37e5da39799b06286604288f6f42aaf1be0f67ce6e006"
+        }
+      ]
+    },
+    {
+      "path": "proofs/one-overlap.md",
+      "bytes": 4338,
+      "sha256": "a26b0ff26b1c730f4ff744c26aed936d3ac20ffe1b366d84639f0a21c19d33fa",
+      "origin": {
+        "transformation": "Complete indispensable mathematical dependency; unrelated later research sections omitted. Reader-facing dependency, status or display correction; mathematical claims unchanged.",
+        "sources": [
+          {
+            "label": "ONE-OVERLAP-CHAMBER.md",
+            "sha256": "89c48becff98c412ecbc5795a27d378f5f117a0b751b2db7d088c32cc6937c47"
+          }
+        ]
+      },
+      "publication_update_note": "Remove only extra final blank lines after the complete staged whitespace check; mathematical content and Python AST unchanged. Earlier source identities remain historical.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "cd736f48df9273bf047daeacd0e75058e3ad2023ab99c84f04b0c6b922a74fca",
+          "current_included_sha256": "a26b0ff26b1c730f4ff744c26aed936d3ac20ffe1b366d84639f0a21c19d33fa"
+        }
+      ]
+    },
+    {
+      "path": "proofs/three-row-linear.md",
+      "bytes": 16176,
+      "sha256": "75ec4b8f519074c5c8d184d2125b379e020db2e4eccf7a13cd7b902635738606",
+      "origin": {
+        "transformation": "Complete indispensable mathematical dependency; unrelated later research sections omitted. Reader-facing dependency, status or display correction; mathematical claims unchanged.",
+        "sources": [
+          {
+            "label": "THREE-ROW-LINEAR-THEOREM-v2.md",
+            "sha256": "94b4542e8791bb3acc77347a3d983a01e41ef5a6b70d2b19d76651eaeaec5b1e"
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/transport-kernels.md",
+      "bytes": 8546,
+      "sha256": "e4c74b91b70913f1fd169ea5728c22efa4c2d647d6659af48d139576b3246c52",
+      "origin": {
+        "transformation": "Complete indispensable mathematical dependency; unrelated later research sections omitted.",
+        "sources": [
+          {
+            "label": "PROOF.md",
+            "sha256": "fd78f5ad5696a125cc2d258f11938de21935beb413399d8b32582359bb04f625"
+          }
+        ]
+      },
+      "publication_update_note": "Remove only extra final blank lines after the complete staged whitespace check; mathematical content and Python AST unchanged. Earlier source identities remain historical.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "9391f7dd788d1d5a12415edacc754602ab35e3ae36c4de6dac24fcc210740e7e",
+          "current_included_sha256": "e4c74b91b70913f1fd169ea5728c22efa4c2d647d6659af48d139576b3246c52"
+        }
+      ]
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 4863,
+      "sha256": "93bfbdda623525cd6f244fa28152f3f8f80c5c216afcac67308e4dcda834151d",
+      "origin": {
+        "transformation": "Added early refusal when Python assertions are disabled; mathematical function bodies are unchanged from the prior verified edition. Original source hash remains historical provenance; current byte equality is not asserted.",
+        "sources": [
+          {
+            "label": "verify_v2.py",
+            "sha256": "8992bdcdccca848006bec4dc04682a96499c9127012646d4153ad9bb3f7c0b74"
+          },
+          {
+            "label": "compare_field_v2.py",
+            "sha256": "c36f0db888e19208e7fa74b95cfc4aae56f8e51ca564e7663c1b1989fdf4d018"
+          }
+        ],
+        "transformation_history": [
+          {
+            "included_sha256": "6b0e0b2d7ad9dfcb2a525ef5dd4b5085b4402f5f7a1dbf2ead28de756c899ed3",
+            "transformation": "New portable complete replay of the same exact geometry, recurrence and sparse-field identities, retaining every dependent subset and zero support."
+          }
+        ]
+      },
+      "publication_update_note": "Added early refusal when Python assertions are disabled; mathematical function bodies are unchanged from the prior verified edition.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "6b0e0b2d7ad9dfcb2a525ef5dd4b5085b4402f5f7a1dbf2ead28de756c899ed3",
+          "current_included_sha256": "93bfbdda623525cd6f244fa28152f3f8f80c5c216afcac67308e4dcda834151d"
+        }
+      ]
+    }
+  ]
+}

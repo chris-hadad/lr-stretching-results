@@ -1,0 +1,141 @@
+{
+  "schema": "curated-mathematical-module/v1",
+  "research_commit": "259d8018466872628709e36c94e7c40d3944a3ed",
+  "verification": "Fresh finite private-candidate replay passed where a verifier is supplied; inherited analytic proofs and combined publication review remain separate.",
+  "files": [
+    {
+      "path": "AREA-BOUND.md",
+      "bytes": 3724,
+      "sha256": "658f9312f5f0b8e4534e860a4b17e43ed1122fc644e3ef13f7172fa82de00318",
+      "origin": {
+        "transformation": "New reader-facing curation and portable adapter.",
+        "sources": [
+          {
+            "label": "ROOT-ALL-RANK-COMPACT-BOUND.md",
+            "sha256": "219775d0fe689cc5488b5ebdd0191cbf8c20aa4efaa2c9bb0ebbc0f01911f29c"
+          }
+        ]
+      },
+      "publication_update_note": "Remove only extra final blank lines after the complete staged whitespace check; mathematical content and Python AST unchanged. Earlier source identities remain historical.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "67ef8e5f4d4b6ef271749f7dd0ffbf219cdeafa33a7bbe022bbcd6966b921800",
+          "current_included_sha256": "658f9312f5f0b8e4534e860a4b17e43ed1122fc644e3ef13f7172fa82de00318"
+        }
+      ]
+    },
+    {
+      "path": "CAP-PROOF.md",
+      "bytes": 6314,
+      "sha256": "693d45b4c6a9201a430924c032ddab076c29e64256a1911d694afb5fe984c6ec",
+      "origin": {
+        "transformation": "Retain complete cap/factorization/normalized-cover proof; omit regional extension and operator records; update historical open-rank wording.",
+        "sources": [
+          {
+            "label": "002-GLOBAL-PREFIX-CAP-AND-COMPACT-REDUCTION.md",
+            "sha256": "7da790d5250a31744190a84d7d38a36000a4552578001682fce7c81d27b06945"
+          }
+        ]
+      },
+      "publication_update_note": "Remove only extra final blank lines after the complete staged whitespace check; mathematical content and Python AST unchanged. Earlier source identities remain historical.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "a101ed2c396c1ce170c279f352f66f3c8fa79b684a2f9d393f468572ab6f7a83",
+          "current_included_sha256": "693d45b4c6a9201a430924c032ddab076c29e64256a1911d694afb5fe984c6ec"
+        }
+      ]
+    },
+    {
+      "path": "README.md",
+      "bytes": 1594,
+      "sha256": "193fb2cb40e6d8f960de84621f151652648b40fa8e74ebfbf2a137755cb5c976",
+      "origin": {
+        "transformation": "New reader-facing curation and portable adapter. Correct prose spacing and distinguish fresh candidate replay from pending publication review.",
+        "sources": [
+          {
+            "label": "002-GLOBAL-PREFIX-CAP-AND-COMPACT-REDUCTION.md",
+            "sha256": "7da790d5250a31744190a84d7d38a36000a4552578001682fce7c81d27b06945"
+          },
+          {
+            "label": "ROOT-ALL-RANK-COMPACT-BOUND.md",
+            "sha256": "219775d0fe689cc5488b5ebdd0191cbf8c20aa4efaa2c9bb0ebbc0f01911f29c"
+          },
+          {
+            "label": "ACCEPTANCE.md",
+            "sha256": "95036ac63ff766ae4ae6d3eb8735bb69b44f83afba4782939b026e52a031b54f"
+          }
+        ]
+      },
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "4f874c133dd241cba4bedb67b8f0a5e03329533a97412409ffcc1ca6b3797bcf",
+          "current_included_sha256": "193fb2cb40e6d8f960de84621f151652648b40fa8e74ebfbf2a137755cb5c976"
+        }
+      ]
+    },
+    {
+      "path": "VERIFICATION.json",
+      "bytes": 367,
+      "sha256": "6026571050f3e9c46208fa6980c632ad453e284cc4f188d08e7b3392f80c4d56",
+      "origin": {
+        "transformation": "New mathematical projection of fresh exact candidate verification.",
+        "sources": []
+      }
+    },
+    {
+      "path": "data/COMPACT-DOMAIN.json",
+      "bytes": 26092,
+      "sha256": "45b19541a07f35214d230478d71578450ea52c6868237d9cd9ced17ce2517ff9",
+      "origin": {
+        "transformation": "Exact mathematical domain/matrix data; no source program.",
+        "sources": [
+          {
+            "label": "COMPACT-DOMAIN.json",
+            "sha256": "45b19541a07f35214d230478d71578450ea52c6868237d9cd9ced17ce2517ff9"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/COMPACT-MATRICES.json",
+      "bytes": 885030,
+      "sha256": "56ad8d747f724f4e6357c5b26e458cd9b43eb1fc1cae4234b81280c02fa0cea4",
+      "origin": {
+        "transformation": "Exact mathematical domain/matrix data; no source program.",
+        "sources": [
+          {
+            "label": "COMPACT-MATRICES.json",
+            "sha256": "56ad8d747f724f4e6357c5b26e458cd9b43eb1fc1cae4234b81280c02fa0cea4"
+          }
+        ]
+      }
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 1970,
+      "sha256": "7413f60d08af8d1f171eb115bb4c89c41c5317f0dc59de4621701a47fbded380",
+      "origin": {
+        "transformation": "Added early refusal when Python assertions are disabled; mathematical function bodies are unchanged from the prior verified edition. Original source hash remains historical provenance; current byte equality is not asserted.",
+        "sources": [
+          {
+            "label": "check_structural_v2.py",
+            "sha256": "ed33d4b790cfe4608a7fcdc71dc8ab92bc351e5759e25f2069d10446fc80fa9c"
+          }
+        ],
+        "transformation_history": [
+          {
+            "included_sha256": "b58094c6426faebe365a697d1f4268830bf42b54c8b2203ff2ba2ce2592bf104",
+            "transformation": "Extract exact complete cap-domain check with relative paths; omit unrelated regional polynomial computations."
+          }
+        ]
+      },
+      "publication_update_note": "Added early refusal when Python assertions are disabled; mathematical function bodies are unchanged from the prior verified edition.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "b58094c6426faebe365a697d1f4268830bf42b54c8b2203ff2ba2ce2592bf104",
+          "current_included_sha256": "7413f60d08af8d1f171eb115bb4c89c41c5317f0dc59de4621701a47fbded380"
+        }
+      ]
+    }
+  ]
+}

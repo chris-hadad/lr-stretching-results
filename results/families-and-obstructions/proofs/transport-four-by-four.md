@@ -1,5 +1,11 @@
 # A3 first-jet reduction and positivity of every positive 4-by-4 transportation linear coefficient
 
+25 September 2026 update: the [complete 4-by-5 result](../../transport-four-by-five/README.md)
+includes every 4-by-4 boundary. Its [closed-boundary linear argument](../../transport-four-by-five/proofs/linear-four-by-five.md#closed-nonnegative-margins-and-every-active-subrectangle)
+and complete current verifier provide a public route to this result. The
+historical derivation below is preserved; its source-specific certificate
+paths are provenance labels and are not dependencies of that current proof.
+
 Source archive SHA-256: `1c3da888e9972f4cd21d808fc8f0bdf1e6608cd9d665346c1e68c2bb4e7b2880`.
 This AI-assisted proof uses an exact finite A3 chamber certificate.
 

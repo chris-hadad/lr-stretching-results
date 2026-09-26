@@ -1,17 +1,29 @@
 {
   "files": [
     {
-      "bytes": 2197,
+      "bytes": 2783,
       "origin": {
         "repository": "stretched-lr-research",
         "source": "methods/astra010-2026-09-14/publication-docs/NOVELTY.md",
         "source_bytes": 2197,
         "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
         "source_sha256": "b3725d0a9d8a86ecb0f99d51a7b52ac44d40b0af922d5a426cc520f1f58d2f43",
-        "transformation": "none; exact current curated source bytes"
+        "transformation": "Current public editorial update; original-source hash remains historical provenance and no current byte equality is asserted.",
+        "transformation_history": [
+          {
+            "included_sha256": "b3725d0a9d8a86ecb0f99d51a7b52ac44d40b0af922d5a426cc520f1f58d2f43",
+            "transformation": "none; exact current curated source bytes"
+          }
+        ]
       },
       "path": "NOVELTY.md",
-      "sha256": "b3725d0a9d8a86ecb0f99d51a7b52ac44d40b0af922d5a426cc520f1f58d2f43"
+      "sha256": "c72448201416530cf7d8bfaa36a275918a6f0ba19699145e3abf40252ee04fb0",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "b3725d0a9d8a86ecb0f99d51a7b52ac44d40b0af922d5a426cc520f1f58d2f43",
+          "current_included_sha256": "c72448201416530cf7d8bfaa36a275918a6f0ba19699145e3abf40252ee04fb0"
+        }
+      ]
     },
     {
       "bytes": 5059,
@@ -27,30 +39,54 @@
       "sha256": "3247de2c6e34bb449d715f2be2f69b347972c7b77a13541bc81185794900b001"
     },
     {
-      "bytes": 6367,
+      "bytes": 7338,
       "origin": {
         "repository": "stretched-lr-research",
         "source": "methods/astra010-2026-09-14/publication-docs/QUOTIENTS.md",
         "source_bytes": 6367,
         "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
         "source_sha256": "439e8096f0774ad98e2a46abd3687b27e0f653c082c0c5afcda2eafba6dce563",
-        "transformation": "none; exact current curated source bytes"
+        "transformation": "Current public editorial update; original-source hash remains historical provenance and no current byte equality is asserted.",
+        "transformation_history": [
+          {
+            "included_sha256": "439e8096f0774ad98e2a46abd3687b27e0f653c082c0c5afcda2eafba6dce563",
+            "transformation": "none; exact current curated source bytes"
+          }
+        ]
       },
       "path": "QUOTIENTS.md",
-      "sha256": "439e8096f0774ad98e2a46abd3687b27e0f653c082c0c5afcda2eafba6dce563"
+      "sha256": "10435c4a4ee5498940567b29ad7cfe0dd81b89d62325128282768e208b2d94aa",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "439e8096f0774ad98e2a46abd3687b27e0f653c082c0c5afcda2eafba6dce563",
+          "current_included_sha256": "10435c4a4ee5498940567b29ad7cfe0dd81b89d62325128282768e208b2d94aa"
+        }
+      ]
     },
     {
-      "bytes": 4781,
+      "bytes": 5363,
       "origin": {
         "repository": "stretched-lr-research",
         "source": "methods/astra010-2026-09-14/publication-docs/README.md",
         "source_bytes": 4781,
         "source_commit": "f2a6f39d1d34b0f5bc363f23a97932458791e943",
         "source_sha256": "d398a3da4b90f50ad0bd6ffe1272fb2de93976192f834ac2c5c64065ee71787c",
-        "transformation": "none; exact current curated source bytes"
+        "transformation": "Current public editorial update; original-source hash remains historical provenance and no current byte equality is asserted.",
+        "transformation_history": [
+          {
+            "included_sha256": "d398a3da4b90f50ad0bd6ffe1272fb2de93976192f834ac2c5c64065ee71787c",
+            "transformation": "none; exact current curated source bytes"
+          }
+        ]
       },
       "path": "README.md",
-      "sha256": "d398a3da4b90f50ad0bd6ffe1272fb2de93976192f834ac2c5c64065ee71787c"
+      "sha256": "b232cc1bd93d870802797ecca6fc5f5d3b382416c824dbf942e3da40de13930f",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "d398a3da4b90f50ad0bd6ffe1272fb2de93976192f834ac2c5c64065ee71787c",
+          "current_included_sha256": "b232cc1bd93d870802797ecca6fc5f5d3b382416c824dbf942e3da40de13930f"
+        }
+      ]
     },
     {
       "bytes": 2392,

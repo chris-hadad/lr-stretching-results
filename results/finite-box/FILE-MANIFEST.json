@@ -30,8 +30,14 @@
     },
     {
       "path": "README.md",
-      "bytes": 6688,
-      "sha256": "ae3240563170318586b8e9c0e588d3ffbc209704caefa0254ae67bb2c164e6b3"
+      "bytes": 6815,
+      "sha256": "42a63932eccc2a05f0b13a4a5ae05eed0eedbbfadb92e285b38165c86925f422",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "ae3240563170318586b8e9c0e588d3ffbc209704caefa0254ae67bb2c164e6b3",
+          "current_included_sha256": "42a63932eccc2a05f0b13a4a5ae05eed0eedbbfadb92e285b38165c86925f422"
+        }
+      ]
     },
     {
       "path": "REFERENCES.bib",
@@ -55,8 +61,14 @@
     },
     {
       "path": "SOURCE-MAP.json",
-      "bytes": 12191721,
-      "sha256": "858800600fee60d3ad5b3ee9c20b5ad33fa4d7ca50476fcde82a92b2b24b633d"
+      "bytes": 12191999,
+      "sha256": "d5e03d7317cdfaa6db00babde0979f424eb7642141e748afdc164f7b94c8e6dc",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "858800600fee60d3ad5b3ee9c20b5ad33fa4d7ca50476fcde82a92b2b24b633d",
+          "current_included_sha256": "d5e03d7317cdfaa6db00babde0979f424eb7642141e748afdc164f7b94c8e6dc"
+        }
+      ]
     },
     {
       "path": "code/ADAPTATIONS.md",

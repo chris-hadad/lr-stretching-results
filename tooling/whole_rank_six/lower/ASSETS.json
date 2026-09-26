@@ -1,0 +1,1437 @@
+{
+  "files": {
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-0000000-0100000.bin": {
+      "bytes": 1590576,
+      "sha256": "0fc48e0f821f32ac8c8eea2f2395ef07784a356dc41243213753167d9a98967c"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-0100000-0200000.bin": {
+      "bytes": 1677336,
+      "sha256": "c7abd012d593387ec51372c387d20f2c71579ee6eaaacee29dbdc3a658df9243"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-0200000-0300000.bin": {
+      "bytes": 1833156,
+      "sha256": "6e334662e3a8d9bbe13a94cca378a98638f218b1b87e38d6d3f2ee2fbcbd107e"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-0300000-0400000.bin": {
+      "bytes": 1507248,
+      "sha256": "76a60f4eb47dfd2c9258297ae3ab09d6a485fecf41c39d7a712fcb6acc042909"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-0400000-0500000.bin": {
+      "bytes": 1873212,
+      "sha256": "981d0ecae00a298c5b2a9242486b22fd94e277b1e080b99bc6624457702df1e3"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-0500000-0600000.bin": {
+      "bytes": 2511876,
+      "sha256": "7d8b293c859ca288eed843ab10192faaa2b18cd98b789ad2f8662ce2ddbe3f06"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-0600000-0700000.bin": {
+      "bytes": 2584392,
+      "sha256": "0e18599212fccf7abb0f78df5f711b58ebce64bf3224d69f9492b38b741e5372"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-0700000-0800000.bin": {
+      "bytes": 2351676,
+      "sha256": "af26d3f123045278234b3244e5fcac86c0aab3f3f324a07a204c56a1ebbc8103"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-0800000-0900000.bin": {
+      "bytes": 3470208,
+      "sha256": "d7406710193475ee5417fdbccf39f5ed2c195aa423ba2493866b2c6856c1416a"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-0900000-1000000.bin": {
+      "bytes": 2945592,
+      "sha256": "48eb2a9f0f3970d5e7759cf5be20f18b0ab573c54f88bc5473e5aec9567d6f12"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-1000000-1100000.bin": {
+      "bytes": 2560164,
+      "sha256": "20c717311b74e67829b7fc7dbfe694a7e6666eaf50c66cd73d8d88f1bb120d09"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-1100000-1200000.bin": {
+      "bytes": 2547648,
+      "sha256": "1fac25350fff8bc905076fa3a4eba677e1240f3447d29c646c9b4bdd07cc1d6e"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-1200000-1300000.bin": {
+      "bytes": 2810928,
+      "sha256": "b50c3f9b50c790b857176b6003b776714728da028ab9437b03bc51a88a248cec"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-1300000-1400000.bin": {
+      "bytes": 2432352,
+      "sha256": "b2073d1e0e462e381548dbc5ce575a507dc9befbdb5161e3cccb21685c567f93"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-1400000-1500000.bin": {
+      "bytes": 2230656,
+      "sha256": "5ff1fcfbef7e82e83c57019ff65e387d1342e3d19395c597835dd4198400ca90"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-1500000-1600000.bin": {
+      "bytes": 2256564,
+      "sha256": "a6a6b418f4905ed660ca57af60ae9c056b76b0b2a6f7fe8399c6415f8dfc7763"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-1600000-1700000.bin": {
+      "bytes": 2217312,
+      "sha256": "9f1df737542367c790610d54a76365dd93cd25ce0ccc524f576e3f6febe7f8d5"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-1700000-1800000.bin": {
+      "bytes": 1707408,
+      "sha256": "1ad3181c95d092bf04149978c903490c1072a504422da1f7fe3c409cc326318c"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-1800000-1900000.bin": {
+      "bytes": 1812948,
+      "sha256": "c91f4795f767caac9a0770d072cf46ddbe871e5ea0505dfea90f4cdff6e76ffa"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-1900000-2000000.bin": {
+      "bytes": 1577724,
+      "sha256": "ebbb9061e5efe57cc19d724266fb68390211b8a69edc379c63d40d9776871b8f"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-2000000-2100000.bin": {
+      "bytes": 1869408,
+      "sha256": "23399b07fe2dd0f8c42a0b996b3fc70e0d84eeb31bfaebb521a90959023eae15"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-2100000-2200000.bin": {
+      "bytes": 2008296,
+      "sha256": "46a30b1a37fcdcfc6b3052545ea76f866981802a92d745b287e18be5e2fd28e7"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-2200000-2300000.bin": {
+      "bytes": 1937544,
+      "sha256": "2caf573d42353d8dead4f677c6b92e94d5a81f05f13eee4d4f2a85c330352978"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-2300000-2400000.bin": {
+      "bytes": 1732068,
+      "sha256": "9b200c4de64676c06176e243e5533efa091ecdac2553bad8223ddc9b38a39def"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-2400000-2500000.bin": {
+      "bytes": 1572240,
+      "sha256": "0e26ae2cd311085e2858541d24266309e9f773abd4e2b7d77db6ac476205227e"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-2500000-2600000.bin": {
+      "bytes": 1878288,
+      "sha256": "be705211088f88a47bca1e4b64b62f99bda48cb99bfc9afabafbd467fc267b55"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-2600000-2700000.bin": {
+      "bytes": 1876824,
+      "sha256": "6ee490f98f6f1da21818a3d51741e6a743d1d940075be2d7ea6eb4810c370bf0"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-2700000-2800000.bin": {
+      "bytes": 1807728,
+      "sha256": "a7239e43124a1a668b9d1b1656b38d2fffe4cb589957906c03f1d8cdc6eb80d2"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-2800000-2900000.bin": {
+      "bytes": 2097540,
+      "sha256": "197c59eb12c01defa9758148b6742f19058a681d54c8dd5e1106f25c329dc0ba"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-2900000-3000000.bin": {
+      "bytes": 1820400,
+      "sha256": "bc3e664e868e105999770b6667f86b86b58843673c2c1114f7fc099648c9d695"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-3000000-3100000.bin": {
+      "bytes": 1793100,
+      "sha256": "bb135691492ec02b76e232ade84755b0e54380fc408a15a7f2bad2ec80608a5b"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-3100000-3200000.bin": {
+      "bytes": 1829856,
+      "sha256": "a351c101b6c26e3866aed29906637cae24d945d8c65d07612f4ba8627cc182f0"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-3200000-3300000.bin": {
+      "bytes": 1706028,
+      "sha256": "687c9dccde35e1ae48173f1692cd9a200a3382060fd1dabc532faf76e6f0db46"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-3300000-3400000.bin": {
+      "bytes": 1525536,
+      "sha256": "525a40e6b4d3adc195b191964f9da6cad7fad58b1a8ad614bb7fa44df830867d"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-3400000-3500000.bin": {
+      "bytes": 1904640,
+      "sha256": "64f0a6b73577d692c2708bdf69fcefabbe23bdeaa6e8829ef7985ac2265a5366"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-3500000-3600000.bin": {
+      "bytes": 1664292,
+      "sha256": "aab43b01dff4accba9070cdc880e4f65a724935ab75a98266b8c454758d52514"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-3600000-3700000.bin": {
+      "bytes": 1594464,
+      "sha256": "83d02772910b62fa667d149470a5614928748156beda79bfa15cf2fa979c8ea9"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-3700000-3800000.bin": {
+      "bytes": 1491672,
+      "sha256": "1757e5d35b60d930887e9c960249ddd66877214e4a4aff3237f10917671067ff"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-3800000-3900000.bin": {
+      "bytes": 1549104,
+      "sha256": "46fc07e3af485f9b15b3303edfe696ba42efb5293de9cff90f42c87b02073496"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-3900000-4000000.bin": {
+      "bytes": 1579212,
+      "sha256": "cf2416be9675fda885ae7e80fb8e42f11d0988e2c04445b4191fb465e212eaf1"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-4000000-4100000.bin": {
+      "bytes": 1417596,
+      "sha256": "4a0083cb11c8b06dc233cae5af56f1b230ef07e0e1da1d0adba7e9fc8c609177"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-4100000-4200000.bin": {
+      "bytes": 1423512,
+      "sha256": "273287093ddd2167d7173ea11ffe7c977f1b58b2e8f64063ea2f000a846b05bc"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-4200000-4300000.bin": {
+      "bytes": 1528392,
+      "sha256": "b0609ccbc62dd8d4f43f114c96b4a1658400467f4e5ca9e1c8e8dfc4eacf490c"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-4300000-4400000.bin": {
+      "bytes": 1374756,
+      "sha256": "7eb7f809011add448abf92c177a2bb7c9359f5ae42d6a94800dcafaeb035b2d4"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-4400000-4500000.bin": {
+      "bytes": 1339524,
+      "sha256": "41170705c7c948d29aead6b722d3ad8e73737b49cfdfdf2a229538df84de892b"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-4500000-4600000.bin": {
+      "bytes": 1458864,
+      "sha256": "6ca8d52659da94c623d21110f2c6f60779000598427b91631f4d2fb20e605a0c"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-4600000-4700000.bin": {
+      "bytes": 1359072,
+      "sha256": "73395511ff9300007ec34ce08a06931cad1388db5260a4bbbfef163d4ec8b6b2"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-4700000-4800000.bin": {
+      "bytes": 1424628,
+      "sha256": "84464a2d18cd67bccfcdbe7cb225148424230097a4d669d3d4251259a1036bf0"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-4800000-4900000.bin": {
+      "bytes": 1374372,
+      "sha256": "f56c66dc44c8df021829c925f9de2baa7827d1e6db22ebeb4abd37de9343ee43"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-4900000-5000000.bin": {
+      "bytes": 1400976,
+      "sha256": "a91fd8dbd99e383e986d45dd3cd43ae55f39c24e38a1307f310d0b08093d9b1e"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-5000000-5100000.bin": {
+      "bytes": 1473612,
+      "sha256": "9d55c49d5440a6f967dfb07cb30175f166eeac053aebe9b6c22f21ac508d01ba"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-5100000-5200000.bin": {
+      "bytes": 1429020,
+      "sha256": "7acefc04efcc9ebb7438d5e3faf0d279b60f5044c7989b765a31cf65be748151"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-5200000-5300000.bin": {
+      "bytes": 1318548,
+      "sha256": "19c92d23a4cfb9a806bf2903b0343bafcb6537349ed4aef48a507bf99f164e94"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-5300000-5400000.bin": {
+      "bytes": 1346136,
+      "sha256": "5dd9c43ab7d63253dc4ffd41d2b91404782be589b466d2ea1ee9699f938e1215"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-5400000-5500000.bin": {
+      "bytes": 1380192,
+      "sha256": "413dd625038e4d1d4e4e2bd5fde6b9ad801c1876666b9f0d317d33f3c940a379"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-5500000-5600000.bin": {
+      "bytes": 1312356,
+      "sha256": "d4ee2775a81f68b8407db6400d9ab32c3472d4e427217fadd09f9f2a04f95308"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-5600000-5700000.bin": {
+      "bytes": 1433532,
+      "sha256": "f980bc7e263905d77655469fbf40eb3ff845f1d4950f07076c2b1cfb7c322f22"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-5700000-5800000.bin": {
+      "bytes": 1637808,
+      "sha256": "3fcfe2428e9f445284fbcce859722a37660165f3cdd4a1559d18d73405b2be7d"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-5800000-5900000.bin": {
+      "bytes": 2513388,
+      "sha256": "8475ddcbebcaff64b1d129eeaedb4bab2c90d930b503d4648c6e15f6047f962e"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-5900000-6000000.bin": {
+      "bytes": 1965060,
+      "sha256": "546aedabc92af9bb0356f4672aed606ce30a49616a71b11ed3ae509c8b5e4dfe"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-6000000-6100000.bin": {
+      "bytes": 2168784,
+      "sha256": "cadfbfa7c0795f488986f65c1283c54d20f26b9b381a1b1a2f965e3f0417c1c7"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-6100000-6200000.bin": {
+      "bytes": 2047584,
+      "sha256": "df62f9342771ed6080256bf30fc39a0209fc16ebee908f31289ac8f409fa8138"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-6200000-6300000.bin": {
+      "bytes": 1770900,
+      "sha256": "4466ae2cf42678b3775e51769892f79c515e7d464a67f6c233aeff808b93ffce"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-6300000-6400000.bin": {
+      "bytes": 1521696,
+      "sha256": "7c2225dfd3f7d088234a0614f4b172a222c7a5e273af23b7c423def6de33b4b4"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-6400000-6500000.bin": {
+      "bytes": 1420272,
+      "sha256": "fba30360ea3c91d467104e6d1b128edaf5f5f58f600bc4b4d136db8a2365c346"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-6500000-6600000.bin": {
+      "bytes": 1639848,
+      "sha256": "40a596a68f983981407416e950328f52d364b8dbf71af24c995f5dc5425f839f"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-6600000-6700000.bin": {
+      "bytes": 1466388,
+      "sha256": "de5f22eb2148bc0e340eaa32fb067cba4f95628fb241bd52f4053d2c84e67a01"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-6700000-6800000.bin": {
+      "bytes": 1416912,
+      "sha256": "3a6e816eb13d9d4444b5a126d51e70024c70bf66b1950f3d607d2015fbc77613"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-6800000-6900000.bin": {
+      "bytes": 1690572,
+      "sha256": "69c109c405e41cfdbcc6ba50cf01a952fc4cd6ab311fc088e7a3368076eeea4b"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-6900000-6958562.bin": {
+      "bytes": 971100,
+      "sha256": "e9bcc8947ddc9236422684f84c214b9b1ddf65274d0535a15d58dc843cec767e"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/k-0000000.bin": {
+      "bytes": 1250000,
+      "sha256": "6cc715c1d3b9d90f1c2a3a148fb4686a869c3b46375c0210e357464fc5c66bdc"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/k-0010000.bin": {
+      "bytes": 62500000,
+      "sha256": "cb29c4eab9aebb411d72a61d66b8ec20c393dea2fed24007bf777ba8b3fa27a3"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/k-1010000.bin": {
+      "bytes": 62500000,
+      "sha256": "e1529f1bad59ffa3b25a659960ef07395b18d5cd2f24312e66906fda123b07af"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/k-1510000.bin": {
+      "bytes": 62500000,
+      "sha256": "7749366d6080208cf19d45e39df020cc3bf4b74ebe9d2cb808ff53be67f1cd20"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/k-2010000.bin": {
+      "bytes": 62500000,
+      "sha256": "8c2fe30b5d548f78a316833bdaa6f4de5724303cd9749dfb1ea908b2744172f8"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/k-2510000.bin": {
+      "bytes": 61195375,
+      "sha256": "fc410ec14a343ea32beda37757f4647a58df556f4ebec6ae715931158a30c919"
+    },
+    "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/k-510000.bin": {
+      "bytes": 62500000,
+      "sha256": "6ed872302bf84e2ab511323752bc1dab29c2ea1344391fe5469144ab690317cd"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-cyclic-polish30.i64": {
+      "bytes": 71989512,
+      "sha256": "74fbd163801e04dd8917f62bbb5f5868b924df9a9f0d9dbc139d6fe80375c283"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-00000000-00100000-001.rows": {
+      "bytes": 11208984,
+      "sha256": "df0302c0aead86f739c66cb9c9ecc40482f0fd09e3a9a9ab0a955bc907d79549"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-00100000-00200000-001.rows": {
+      "bytes": 11550328,
+      "sha256": "d1e793dd663217a3e66a50ac443ce4b3219742f0b572408c70d491059f55b4db"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-00200000-00300000-001.rows": {
+      "bytes": 12020832,
+      "sha256": "78e56d8ae129e7630511c74d1a85a6d42874e3c92f84d281fe4a547cdc977c35"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-00300000-00400000-001.rows": {
+      "bytes": 12141296,
+      "sha256": "08fc76161d999e68143e8e94c6d4b2f93ee29d33fdfa45fb8a4b25e00dc762e7"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-00400000-00500000-001.rows": {
+      "bytes": 12264616,
+      "sha256": "c09c9b90df6575af8ebebe62289932772e07938dd55fade86146b6e63c163b0f"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-00500000-00600000-001.rows": {
+      "bytes": 11710176,
+      "sha256": "2d9dfd68f3e85298c9bb268736d94d6c063f3ecd3b7790e6b558bfaed8f2f6d4"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-00600000-00700000-001.rows": {
+      "bytes": 11083048,
+      "sha256": "1962a0eb005d9e9acf98cf4092bda5104af42e9d3d0b397a9c9de33a3db69f84"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-00700000-00800000-001.rows": {
+      "bytes": 10517856,
+      "sha256": "8500b6d3bd7cbec9ec203eb4967a267169a43dcd0071a1dff8598e4c89398016"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-00800000-00900000-001.rows": {
+      "bytes": 11266408,
+      "sha256": "2b029805bd3875415159f2f02e93ba7abbfd940e598fbfa3f667e9f0a500c5d9"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-00900000-01000000-001.rows": {
+      "bytes": 11566888,
+      "sha256": "52bf9b7c5d98d6629351cda1fdf77912ac0a1fe33eec930fb78b84c59a01648e"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-01000000-01100000-001.rows": {
+      "bytes": 10981304,
+      "sha256": "bbb5b7234be6aba7251b280680017adad80b214ae8631e029fa73bb49891d9d4"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-01100000-01200000-001.rows": {
+      "bytes": 11076496,
+      "sha256": "e04affdd12f59859e6ee2bb2fcf203032016431d8b1f682871919030efd84429"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-01200000-01300000-001.rows": {
+      "bytes": 10633480,
+      "sha256": "e6cd987f844ade88a38092c894f6c1b053e0550331a8f7348d6f9330c474edab"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-01300000-01400000-001.rows": {
+      "bytes": 10331912,
+      "sha256": "c898da2e948c1639eb98f416903d51fbbf9e8812beaf584d083c5994479ca0a8"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-01400000-01500000-001.rows": {
+      "bytes": 10308000,
+      "sha256": "8dae0afc7bfcb88fb399e8029f88732a8da05f482d7df12f7f7a1e2ecda3b7a3"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-01500000-01600000-001.rows": {
+      "bytes": 10400856,
+      "sha256": "b946a5281ee2f34f33384a17a34133d0c1196dc5004382d1e22670ee80d3fe58"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-01600000-01700000-001.rows": {
+      "bytes": 10775152,
+      "sha256": "f0512827d13a80f94643c58b8c283051401dcc93bc586a2c408ed136ea123278"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-01700000-01800000-001.rows": {
+      "bytes": 10409240,
+      "sha256": "7002512a662122ff6ad58b0ccd8fc74b0b7f571bd656c91eb3b93393eb40a780"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-01800000-01900000-001.rows": {
+      "bytes": 10927272,
+      "sha256": "2ce2e58f1005699114512104140f5fab51a9f526e206aa82871247b661738704"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-01900000-02000000-001.rows": {
+      "bytes": 10780320,
+      "sha256": "5c8deea150b6da1d36745a2ddf98a84a940271eb59ca43f9cd83b111e04b2209"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-02000000-02100000-001.rows": {
+      "bytes": 11377464,
+      "sha256": "b6783ba46123f762a227066b338af084bc0e7c45099801d1e685102dfff9844f"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-02100000-02200000-001.rows": {
+      "bytes": 11585752,
+      "sha256": "a4b54890b23b6d52d2aabc53c71e2e33ec971e275c5277f332bc35581521f0c6"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-02200000-02300000-001.rows": {
+      "bytes": 11901392,
+      "sha256": "9ce98790c065b84998b2d764b3446bf9538b26ca29b55a14d96334c9fd21bf6b"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-02300000-02400000-001.rows": {
+      "bytes": 12167328,
+      "sha256": "35083f2ff2e9e51f836914b5eb6e893acb5505fb5e468f77a190724bbf34ffa9"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-02400000-02500000-001.rows": {
+      "bytes": 11647616,
+      "sha256": "1649ee8533cbefdc8bde5bb3c67821abb97356ab653a097cf5c374fbd0223ad2"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-02500000-02600000-001.rows": {
+      "bytes": 11836000,
+      "sha256": "ea39a4fa86e292f075f30e2b79121e1d4ae92acf864f4202fbe334887f81cd98"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-02600000-02700000-001.rows": {
+      "bytes": 11766432,
+      "sha256": "8fd8a9c7861f697031b4ab6afb1c02e1b5261aaaad03ce473eb1ac5d7c50b1a2"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-02700000-02800000-001.rows": {
+      "bytes": 11229480,
+      "sha256": "641763a0fd3b274b44c33545e5cce2cb0dd96c0a7d0bcba3a456eecd5cfabc79"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-02800000-02900000-001.rows": {
+      "bytes": 11561824,
+      "sha256": "96cd6ec0558950b80f8c51f6c955d79e0c2ab5e9fc4b48078dff233ef18f7a30"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-02900000-03000000-001.rows": {
+      "bytes": 10963648,
+      "sha256": "e4d416f88af5b18443f612233009f35550e9bce6bc1b23a016524770563a23a9"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-03000000-03100000-001.rows": {
+      "bytes": 11425336,
+      "sha256": "0cb1245208c2b6aa2142f33e1ab510a0523d05bf582ed47fe43e417048616b89"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-03100000-03200000-001.rows": {
+      "bytes": 10871728,
+      "sha256": "0e97420793084f4df237757484b940cc14c438bad08d5ede8b13a7b4a15df599"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-03200000-03300000-001.rows": {
+      "bytes": 10626368,
+      "sha256": "6c0d767ed689c7f24b6063f5e2304f46a812b9817d394579f4f76bd82fa008e3"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-03300000-03400000-001.rows": {
+      "bytes": 11399808,
+      "sha256": "fcfcad71255463849db3b0aaa4c81f853cc234efe23aa058858d8690c120dd49"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-03400000-03500000-001.rows": {
+      "bytes": 11421576,
+      "sha256": "9b299ad0bc8deb2a2962a0f8821531ff670240ea1273c65ba5769f8626e7544d"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-03500000-03600000-001.rows": {
+      "bytes": 11564672,
+      "sha256": "18e3fcad1bcd1ba51dfe2ec96cfd2ca0542e1d550c35cadd4684ad58dae55421"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-03600000-03700000-001.rows": {
+      "bytes": 11371032,
+      "sha256": "d7b7adbe05456ad9b79d0417e6ddab839bec978ceec434a97e24cb08936bffce"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-03700000-03800000-001.rows": {
+      "bytes": 11627584,
+      "sha256": "fa2085cacbd0df431c0e3cbc5aca29e933c7865a8fbbc60b9a7219f9462caf1a"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-03800000-03900000-001.rows": {
+      "bytes": 12110528,
+      "sha256": "4836849c6d6d71aae539491e1318b31c88fb5d663421ce32c1c90ae5a98eaac2"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-03900000-04000000-001.rows": {
+      "bytes": 12611432,
+      "sha256": "aa2e0ce29509b7139dced9ac814b089627d6a4b0689ffa612bfaf7d08cbf7bf6"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-04000000-04100000-001.rows": {
+      "bytes": 12624728,
+      "sha256": "7fe7d66b09da1bc97de1f6cb7488290d01f4de8d1314628ab704a8bf54772bfd"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-04100000-04200000-001.rows": {
+      "bytes": 12097288,
+      "sha256": "4e4d00cba81997518ad919092a87eafac05b059edbc7c103b4f999effebfd5e6"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-04200000-04300000-001.rows": {
+      "bytes": 11808544,
+      "sha256": "e5bc34f516c751fa18c2ec04116c304b193e5a3a0365bd7737b01cefb1bc9140"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-04300000-04400000-001.rows": {
+      "bytes": 12024712,
+      "sha256": "89a130e5ab0683700fa7b21c17e764dc4f5b7b1e2ba3d52fa09bd7b76cba971f"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-04400000-04500000-001.rows": {
+      "bytes": 11908032,
+      "sha256": "e3840fea0bc871adece7701e0377e2dd4626dac1308a8369fe06cf7da3d83339"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-04500000-04600000-001.rows": {
+      "bytes": 12427968,
+      "sha256": "9e214f5cdb8a0c3d9b2029334828c5f1ebfa079e35facd2cbe5e32f1cd7c0c14"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-04600000-04700000-001.rows": {
+      "bytes": 12585888,
+      "sha256": "f6cb0f01365ef4a57ba96d9f8d656300c4673afca7738311a2b92eb85519d9b2"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-04700000-04800000-001.rows": {
+      "bytes": 12114304,
+      "sha256": "d222f59a04fe70368caf45eaf5cc0734fe89a2a561c4708e8a5a9f228e68087e"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-04800000-04900000-001.rows": {
+      "bytes": 12329640,
+      "sha256": "4c1d25db6171a49e1561f7606d484509e0fb61fe7c51de85cc7291371f7795ed"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-04900000-05000000-001.rows": {
+      "bytes": 12815416,
+      "sha256": "f5dc8f09cb4d61acf3b6fabbc905f0bad6ac068c11f02f644b8af360787b039e"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-05000000-05100000-001.rows": {
+      "bytes": 12691064,
+      "sha256": "2093933b3efeccd8243d2b2f6a65472b30e02475ca3e8387298428acaf8b5472"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-05100000-05200000-001.rows": {
+      "bytes": 12480736,
+      "sha256": "3f6a32e33ec1ef3f9d95cbb896f0a26f39707800d9ae6629d6748cd57612b473"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-05200000-05300000-001.rows": {
+      "bytes": 13155064,
+      "sha256": "900ca79dd0dcaa6b5963b80b169a88fa3e81953f6e338561524a0815ed4515a6"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-05300000-05400000-001.rows": {
+      "bytes": 12576424,
+      "sha256": "2f7c54cd9b5974f474ae7534c9e646fdc10d54cef427db4174718a65b0ec6fc2"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-05400000-05500000-001.rows": {
+      "bytes": 12384736,
+      "sha256": "f810c1b6f5aef150b554010b237d62337221d3570b729735bd81063069c0c21f"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-05500000-05600000-001.rows": {
+      "bytes": 12062224,
+      "sha256": "2ba86ca51e4c327d6d44e56bbf35ef1ae5a56e489392745c8954fb2522a93ff0"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-05600000-05700000-001.rows": {
+      "bytes": 12120648,
+      "sha256": "a38bf1c8bb458fefb24439b54ad5d4c103d6b64920b0b3e7683196dd04532709"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-05700000-05800000-001.rows": {
+      "bytes": 12807208,
+      "sha256": "51d9a568e5b7519d580dbe707a1ef1acd4c66932469824af3116890762945d09"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-05800000-05900000-001.rows": {
+      "bytes": 12460192,
+      "sha256": "52684c9d6e194c72f599c52e533fc99f475a2a97a057282060af55a3e154a06d"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-05900000-06000000-001.rows": {
+      "bytes": 12177688,
+      "sha256": "817fc12c8fb24b28239d4f622c20ad94b3e342f32e3a1d3095849236de74a5ae"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-06000000-06100000-001.rows": {
+      "bytes": 12315608,
+      "sha256": "8421417944fa97b074c06f828edee0d9a45ef5d13c6cafc36305624ff91cf5af"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-06100000-06200000-001.rows": {
+      "bytes": 11431696,
+      "sha256": "442d7ad17cacd714648effa334fd328a80fbcdd123b8da349262ec2eb5cfe8b7"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-06200000-06300000-001.rows": {
+      "bytes": 12136736,
+      "sha256": "46c972a1fc87f53f56a97768eac9af52de9a17a2640867146d85dfa8a0634240"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-06300000-06400000-001.rows": {
+      "bytes": 12181120,
+      "sha256": "72312d8c513d0abb5d79e43ad88bc1cfd9f0f03a3da6455f40f53b3c3f2941ab"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-06400000-06500000-001.rows": {
+      "bytes": 11210792,
+      "sha256": "c0a5c26f5de3ee3d744a1b75e069eab0a6b553e720f8b38899d342166108e1b9"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-06500000-06600000-001.rows": {
+      "bytes": 11941768,
+      "sha256": "0d7e98ec0555d48d5bff61947be40d69a8b6b89ca8feffea62fc5d8a9691c1a2"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-06600000-06700000-001.rows": {
+      "bytes": 12307528,
+      "sha256": "2c2c2f1d339ed3675649359450c8eb57d213cb993156ed3a81341b3c3450a18a"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-06700000-06800000-001.rows": {
+      "bytes": 12716952,
+      "sha256": "dd40251b593732b49ef78ae15a5686c2cc1db0ed2e98d7e4d27ed44c4740c002"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-06800000-06900000-001.rows": {
+      "bytes": 13014048,
+      "sha256": "87126890535ef777ae134313dd0b7e66aac2e5e256b9db2ca903506886a17496"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-06900000-07000000-001.rows": {
+      "bytes": 13297536,
+      "sha256": "3b648d4ed01a1ef6f0c76dcf5fd3ded52ed6932acd20f0d6ad48605d36043c79"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-07000000-07100000-001.rows": {
+      "bytes": 13278736,
+      "sha256": "3d4346d44e479d2ef43698865a7e69d6498b0987d01bd2b78c5f10f7d7887161"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-07100000-07200000-001.rows": {
+      "bytes": 12801936,
+      "sha256": "64b7a020b564c82713919729ec9d726d35c889454f54f6b7fdb2b1fc05d31cc5"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-07200000-07300000-001.rows": {
+      "bytes": 12736488,
+      "sha256": "cf56f00b1adbfd42cde7713fb0f5e67964ba9bcde1024d731a9e69043e7c82ee"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-07300000-07400000-001.rows": {
+      "bytes": 13189568,
+      "sha256": "467566fa79443f3205ec0219f4e8fc8b23ce0edb7afb2b5f5ee5399fe8c7c6fa"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-07400000-07500000-001.rows": {
+      "bytes": 12505168,
+      "sha256": "c6380780f1c3ff1e2cf6f8ee2538a9e0509a4be84a9c08d6ed4a8306406f7f25"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-07500000-07600000-001.rows": {
+      "bytes": 12671552,
+      "sha256": "7342f6635862b9a29e39c58b682788742381fb8a3d1f65dc6e32343048a449b8"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-07600000-07700000-001.rows": {
+      "bytes": 13273568,
+      "sha256": "9c4949a641fd2da53fd872c221e076b78960d5534a3ada4cad0783d09f5d3d2a"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-07700000-07800000-001.rows": {
+      "bytes": 12890800,
+      "sha256": "ade25128ba067f5ad39b57b654df6c08f01b7a728fb5aa5c3aafc610e65cf418"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-07800000-07900000-001.rows": {
+      "bytes": 13574976,
+      "sha256": "0a2b8ac50e9b0741718e9cffa1a74e5ec907bd57e10afa7bf3117247fc390f80"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-07900000-08000000-001.rows": {
+      "bytes": 13184792,
+      "sha256": "450a723ddb3bfae6b0c4413c0431aa58c06ae40ad710fbd2cdd267ef2db6586f"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-08000000-08100000-001.rows": {
+      "bytes": 13093096,
+      "sha256": "97460eaccac9e0b002468c83d894db8d5688175de95caf7b34821f7e6a42727a"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-08100000-08200000-001.rows": {
+      "bytes": 13606280,
+      "sha256": "35f0a9f19293c34e5fb088cd33a87784f65a285bbbe8091d92c181dbc9118898"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-08200000-08300000-001.rows": {
+      "bytes": 13079856,
+      "sha256": "1cbfe00673300a13b51e98d40b547e6da60e703c1b752ce84f6822d0c712ed9f"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-08300000-08400000-001.rows": {
+      "bytes": 12847208,
+      "sha256": "04a1d365b88ea8fc7a20a70c4c5b609ed2e159b758252030e3e1ba5c106d4008"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-08400000-08500000-001.rows": {
+      "bytes": 13316408,
+      "sha256": "39f005adae90c4d1c11a0d0fef4ae70daef5492ad527f8306c5186419c29e0f2"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-08500000-08600000-001.rows": {
+      "bytes": 12741048,
+      "sha256": "558383876d4b0d4feb09eebd0615462fc85a15fb5741f82da891fbbea5150396"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-08600000-08700000-001.rows": {
+      "bytes": 11871608,
+      "sha256": "92adeb100be829621989b9bc5ad173831410ee35e6b974d9b994a7edb1a2904b"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-08700000-08800000-001.rows": {
+      "bytes": 10342928,
+      "sha256": "41d81f43f1343b3b69af32fe8cab37bd6539bb874582ae5acdb67f1899ff3036"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-08800000-08900000-001.rows": {
+      "bytes": 9774728,
+      "sha256": "f46547964741aca8ab4ee54109cc8d713d8ea726db5f46f4531fddb86a42a8c9"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-08900000-09000000-001.rows": {
+      "bytes": 10271696,
+      "sha256": "012ba8a6e15a388b740be1942a2cf2438cf88422816658f69d1f80d6f2f6b4e2"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-09000000-09100000-001.rows": {
+      "bytes": 9967160,
+      "sha256": "22730708e5d7f66caf07e20a453cf2b78dccc61f6ce9dd4b70067c90cf5aebfe"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-09100000-09200000-001.rows": {
+      "bytes": 10775656,
+      "sha256": "3cc15a45509abda3285f6d45a14b7e2c3813d635c5d67f5a78080031e60d7141"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-09200000-09300000-001.rows": {
+      "bytes": 10849432,
+      "sha256": "07870362ccb127e96d1a3daf5cd17930232ac064da36c8a17edd81f92ec02d78"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-09300000-09400000-001.rows": {
+      "bytes": 10839992,
+      "sha256": "1c61695d8b52412259e441044045815cce6cd313ada9bf6bf922bb3d2b97150f"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-09400000-09500000-001.rows": {
+      "bytes": 10869656,
+      "sha256": "9dc99ca9c1a6a5c194abf91d9dd862d596d03019fbf49cdd591f49dcb2492913"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-09500000-09600000-001.rows": {
+      "bytes": 10549184,
+      "sha256": "070a2d2b69794d95e0fedd83aa28cbaa7964c489b946b5093f6b8a86306c8c3e"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-09600000-09700000-001.rows": {
+      "bytes": 10781680,
+      "sha256": "965c855eb4227930697995e1f09e3801a921b32ae548b056427d919d6c3552b4"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-09700000-09800000-001.rows": {
+      "bytes": 11435048,
+      "sha256": "c8f84cb08e3357ae4e4a3080e68ef6e76bd156617cd3dd97efd08b9fb1ec7d09"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-09800000-09900000-001.rows": {
+      "bytes": 11224568,
+      "sha256": "28540d368740f2c4a82cda0185db4874aad3576dbccb4b9e5ca781c767512cc3"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-09900000-10000000-001.rows": {
+      "bytes": 11401504,
+      "sha256": "3d6c6e8396a19fadc8800f73bba9b52d87bf4317ded473430124449a41aec83a"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-10000000-10100000-001.rows": {
+      "bytes": 11551320,
+      "sha256": "a508d0c9c5137df7074aca7fe4536612b676f2ea2e04073ef1aff6fe588e6194"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-10100000-10200000-001.rows": {
+      "bytes": 11619472,
+      "sha256": "bce6d2c7a8466166641cd1daedcb1721d29d8509058ea78a23f8077695a03fc6"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-10200000-10300000-001.rows": {
+      "bytes": 10409640,
+      "sha256": "3b679ca06bf5c8342e4e30f50f7c979d305539df719374dd0276e1a054419c21"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-10300000-10400000-001.rows": {
+      "bytes": 9887184,
+      "sha256": "5d8fe934b3afaf82f19a0a54403d903494d28cbf71f2c929a796cfb04ccf8417"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-10400000-10480218-001.rows": {
+      "bytes": 7782952,
+      "sha256": "46aca98e35627c7a3e7fdc507e7e6fc4271aa2f75be3578f0f6ddaabc80f4baf"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-rhs.offsets": {
+      "bytes": 55668504,
+      "sha256": "ca3599f8520b9eeb6de790501ead2ae01c5c6845cdbe0b2b9c8e188dc1e2289f"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-rhs.tsv": {
+      "bytes": 434717100,
+      "sha256": "f6cba284b1f0d2f2a40823f1cdf52fabcf6c509ac49703607771fa7ed9e6b5f3"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/h8/adapter-v5-final/indices/q1.offsets": {
+      "bytes": 40,
+      "sha256": "555a237c517b39d45a82effcf7e84f856754fe886fdfe81af3d6670e5cd0f61f"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/h8/adapter-v5-final/indices/q2.offsets": {
+      "bytes": 296,
+      "sha256": "3a8a2d63b7ae858e02d5dcfc874210fd0f1f36049d3dd23c594c79710e75a5cc"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/h8/adapter-v5-final/indices/q3.offsets": {
+      "bytes": 3096,
+      "sha256": "548f7f38ebc1b62994ab64d4d65f623676d281a78e324cbe87b69136cdad0ce7"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/h8/adapter-v5-final/indices/q4.offsets": {
+      "bytes": 34240,
+      "sha256": "608203aaefd919d3251862d27e1c11840e1a6ef9e83cec508109eacc3bafa99e"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/h8/adapter-v5-final/indices/q5.offsets": {
+      "bytes": 319272,
+      "sha256": "7ab2842dff24c2907027ea1d513bee973349787a924047b9ba822ba86abcc006"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/h8/adapter-v5-final/indices/q6.offsets": {
+      "bytes": 2346456,
+      "sha256": "9042e594f04a64717ed39885c648eae2c24665787d32400058bd6498b5d2380d"
+    },
+    "results/runs/SLR-ASTRA017-20260917-001/h8/adapter-v5-final/indices/q7.offsets": {
+      "bytes": 13208488,
+      "sha256": "6630b4b59b8a9066a13ea44b09ef12fd206674d5e29d221ea0c082378926911b"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q1.nidx": {
+      "bytes": 40,
+      "sha256": "281b02b10f5f4997e5bf8c93343e6f2aa8bc81ffad6d6813c593181ebceda12a"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q1.npts": {
+      "bytes": 16,
+      "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q2.nidx": {
+      "bytes": 296,
+      "sha256": "cec23eb169b654342d75bcdeae08326d2907a80f9bea562d8d06c4e7eac53ec8"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q2.npts": {
+      "bytes": 148,
+      "sha256": "358121ecacd3a970c25db8a42513e9b668f1ec0023dbf49fe5d27f0a2430eed8"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q3.nidx": {
+      "bytes": 3096,
+      "sha256": "ae8d2632dbc6b1415338ca27adbea3c160e4fd8cb5e820cc282d1cd1ef1df092"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q3.npts": {
+      "bytes": 1588,
+      "sha256": "b6a98a6ac53868104fa75bee9fc72e677a5661952c198cfd3b399f4d13394741"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q4.nidx": {
+      "bytes": 34240,
+      "sha256": "a9d6815bd769594c62b85302c52bc8a5f5d8e9e0b6c9f01106032c9892eecc0a"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q4.npts": {
+      "bytes": 18296,
+      "sha256": "8a10aa2a7a5420e927429efb67ae4ad65b612b6ccc3792d834201f08d6005c29"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q5.nidx": {
+      "bytes": 319272,
+      "sha256": "e7aeed4f8f01812994d10aba63f59ed7fac2ff4f40a9ae2a922cdad1a337a6af"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q5.npts": {
+      "bytes": 182552,
+      "sha256": "882cdbef1b57b64ef2500583b94790cf841e34d68cf8c0036646fc830a374c13"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q6.nidx": {
+      "bytes": 2346456,
+      "sha256": "09924a23ddb4c362a8146cc3e0cd8b05cfe60491d7b656eec5022ac2795f7265"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q6.npts": {
+      "bytes": 1651892,
+      "sha256": "50f0a82971bc9829dc1e0a51316416ce1db2860271449381ec2bb9bf1767341b"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q7.nidx": {
+      "bytes": 13208488,
+      "sha256": "f200431403cc3c812f912f7c08c7097af0a489913651c6c37cba75629e320e99"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q7.npts": {
+      "bytes": 18925056,
+      "sha256": "35ad3b1cd9472537a29c826901e169cec21f73dd46593a9dc442bd1cfff4c674"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/ALL.kernels": {
+      "bytes": 111493965,
+      "sha256": "bd4eaf8d74677b6709f441c3b19e2fa19be9d4b5e6bdd8d18a70d5ccb5a7db96"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/atlas.json": {
+      "bytes": 20229,
+      "sha256": "69872685131cfbdab8c1ac3acd2b92b551f2abfee562b8cc5c717dbd30b52885"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/atlas.txt": {
+      "bytes": 1704,
+      "sha256": "c9dda99e779c800af87e7b61bc254c2d732d0473e955f93d5e3d3e3f12712718"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/incidence-0000000.rows": {
+      "bytes": 881512,
+      "sha256": "c1a8e4f46f98a844a37ddb3fe12774614729101c0201cd9772f0d6125a64ffc3"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/incidence-0010000.rows": {
+      "bytes": 24056112,
+      "sha256": "f43048676fdc0f74d9e4fc466cedf40c2f0dc3b3331cb2a10ded2cc99158583a"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/incidence-0260000.rows": {
+      "bytes": 25542896,
+      "sha256": "c9d79c5933e86e049abd0d0363c7035d0b17340eb0266a53004de663dfbde229"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/incidence-0510000.rows": {
+      "bytes": 27161224,
+      "sha256": "e6a3b85e25b14279cfcf35343dcab8d90b8620090ff105f93b1933b822dc3422"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/incidence-0760000.rows": {
+      "bytes": 26318624,
+      "sha256": "08b6716c87138803909250f11cc05c1538fd39d93bd1839c794124c64e47a20f"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/incidence-1010000.rows": {
+      "bytes": 24944728,
+      "sha256": "714e8b939c50dd7a115d8ea65c34e1f848095458005347daa94722beed7185a0"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/incidence-1260000.rows": {
+      "bytes": 26982416,
+      "sha256": "e7bc37382febea7abad10ca9ed05de4f4476e95458499493809e48e87bcb87d8"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/incidence-1510000.rows": {
+      "bytes": 28798288,
+      "sha256": "30e76c2c5de01a855d828016f0061be2b8a2cc0f69bcec193e685d74a3b9922b"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/incidence-1760000.rows": {
+      "bytes": 27949248,
+      "sha256": "03e3ced886acb71c79aeae37790bce0ac764e42f7869d46cb452d232e8469d45"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/incidence-2010000.rows": {
+      "bytes": 27597960,
+      "sha256": "087b96a01e2bb5e8fa3e5ac96a6ec56588a812d7a8070e8b2bf2b10dec5d6c39"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/incidence-2260000.rows": {
+      "bytes": 28342944,
+      "sha256": "d1b46d88ec9c681173096657e51cfa67805bc0d033594983a19f98cbcb5a7a2b"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/incidence-2510000.rows": {
+      "bytes": 28704784,
+      "sha256": "f3ff819314d86923668a2b5dece2290e8a738ce4de3f6defaeb1cf7f31eb98fb"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/incidence-2760000.rows": {
+      "bytes": 26440674,
+      "sha256": "e26f3c9701ef28518a5a9fbb8e42260fff716b0dc2e5f30db72b2bde81cc4c51"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q1-ALL.map": {
+      "bytes": 252,
+      "sha256": "db8155780edbe63bea3fe883ce8a3c5d5617243e0a2a87286581d6c8a7fe64ae"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q1.lookup": {
+      "bytes": 336,
+      "sha256": "97dd865772542eaf5e4e220275bf8c0309439b543e1acd8349e0208a1f43d743"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q1.profiles": {
+      "bytes": 20,
+      "sha256": "26945cf1c9937028bc103505fee4de9042d82c1e665f05069cc04f0ed5904e9d"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q1.types": {
+      "bytes": 292,
+      "sha256": "2d48972529a59f90dfefa1ef338a5006fb796c9286bdd2e7548c8f5042a2d993"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q2-ALL.map": {
+      "bytes": 5166,
+      "sha256": "4af1cc1032049f929d2c665f01226e84393c2232049aa12e73b8d4b92e1d1f76"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q2.lookup": {
+      "bytes": 6888,
+      "sha256": "01f99e29135d5978492451cba0c28d0d636517d5849293f1075d419a2d9e5a70"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q2.profiles": {
+      "bytes": 216,
+      "sha256": "6097a856c5ae43778e09c76b95bdd57d8317450d1a35744a1a0a1a01f47aedd6"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q2.types": {
+      "bytes": 2628,
+      "sha256": "77c9f0d6bff9f4c88c103a385dd997937448b0bafece88450818a812922939ce"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q3-ALL.map": {
+      "bytes": 68880,
+      "sha256": "2f9aa943c5af4da14018d15c8bdd94b59c498a21a8cdbfe998811eaf72cd3d53"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q3.lookup": {
+      "bytes": 91840,
+      "sha256": "efb4918602a6bdf084439c9f6ea5b5eff5da5b754cbb94ce295cbfb73824e553"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q3.profiles": {
+      "bytes": 2702,
+      "sha256": "4b4ec7a734773f6e95b9a60ab6f3f656d794812a2fd816b59098e0724f5399c9"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q3.types": {
+      "bytes": 28178,
+      "sha256": "86e942c320a5c445e19fb8968e539ddefff125ccb508fcc736dba439524064b8"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q4-ALL.map": {
+      "bytes": 671580,
+      "sha256": "530f3db95d1777b1cbe9c8a06fc3b8be32a6f738d39e568ef3a7694c7fc0d658"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q4.lookup": {
+      "bytes": 895440,
+      "sha256": "c24941ca764728a90288641fa93e2fbd7c3961f6e74baf89dde5217fcbf61c2c"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q4.profiles": {
+      "bytes": 34232,
+      "sha256": "4ed30a6a636ab08a1904f1eb50507e5c02da59daa39f5aaec6c4c003cf1252fc"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q4.types": {
+      "bytes": 312367,
+      "sha256": "cd58f6817e008017c45a8a3c7a11f360bf34e30289e4ff29a75d714a2bebc368"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q5-ALL.map": {
+      "bytes": 5104008,
+      "sha256": "985cacaf37130b4d60757f264118cee453e4f5a91c7b8cd1947d352eb500660d"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q5.lookup": {
+      "bytes": 6805344,
+      "sha256": "59c74c5ea18641cd6fa54f4a627fd3bc6fc3bb4a2d61457627434e2b9d140cbf"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q5.profiles": {
+      "bytes": 359172,
+      "sha256": "e94c04a50de3cfca8a1597d06b4e4b3fb4e93ccf7f4f49fa120b4eacc5263001"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q5.types": {
+      "bytes": 2913284,
+      "sha256": "4a4cec0feba2116af56012e9d7d20a6a9d2c442658f34181c01ed8df17e68f04"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q6-ALL.map": {
+      "bytes": 31474716,
+      "sha256": "ff116794ae388a71445fb15383e04ff18574f27bd34cc63a1138c0246c8da7b0"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q6.join": {
+      "bytes": 8108652,
+      "sha256": "54804f191d1dfa3d8290c7e7e53d75a599ae6a2066d31ac8a5cb8281cde981fa"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q6.lookup": {
+      "bytes": 41966288,
+      "sha256": "82a44b1a2c2982e5d32672618d826da0580794ed80c398850014815a8831577a"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q6.profiles": {
+      "bytes": 2933060,
+      "sha256": "2759bbf32d05e45250e8e8d304c7f734eae27acd23bae3baadc5090b2252c51b"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q6.types": {
+      "bytes": 21411338,
+      "sha256": "c179d862ddbb2da80a86be43313c15f60e3109cff548657a4850d181499ba0a7"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q7-ALL.map": {
+      "bytes": 161869968,
+      "sha256": "02549974b1dca06845cd4bf2bdc970ad53f2ac2f48e7eff945ed630a1fd50765"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q7.join": {
+      "bytes": 35994756,
+      "sha256": "58fc88b306c2b4a1fcaa13497be9c209b2ec1a7c103c9d288590ea4819e57a64"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q7.lookup": {
+      "bytes": 215826624,
+      "sha256": "ce8c067d9f7ef9ea56418c3c3e2722e707ccbe0fa45290adb7d3299d050cf30f"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q7.profiles": {
+      "bytes": 18161660,
+      "sha256": "27e90bfef5bd5297bb221a49de3835608d02744ccf85c9928291e6081b8c31b6"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q7.types": {
+      "bytes": 120527380,
+      "sha256": "0072dc545230a7acab77a9da8f510840300a2b2aafd8900e6f1f14efc2743f06"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U03-A05/DATA/CACHE/q1.jets": {
+      "bytes": 184,
+      "sha256": "bdeaa8971796c7886246863354997cc880aed4ccd282f39f9d74f28ef5cdf2b4"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U03-A05/DATA/CACHE/q2.jets": {
+      "bytes": 4344,
+      "sha256": "0b24bec96ccde1fb428411c91ef331c2d1fb61273842ca7b96fa70cf830ccb97"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U03-A05/DATA/CACHE/q3.jets": {
+      "bytes": 133912,
+      "sha256": "a38b30cc5c23a50c7eac58eef3502b79170b53e5c0d47f028fb38fbb22257801"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U03-A05/DATA/CACHE/q4.jets": {
+      "bytes": 2287813,
+      "sha256": "4f59e024d6443fdea512c9e841ce88ca2b7bf142ef9eeb35c31cfccff98332e3"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U03-A05/DATA/CACHE/q5.jets": {
+      "bytes": 17144790,
+      "sha256": "94660385dc293d54a0ef79b11c257cba4894be41bc33779dadd87964840c5940"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U03-A05/DATA/CACHE/q6.jets": {
+      "bytes": 54512283,
+      "sha256": "7db37deaf77594bc5b88fe2ba3806e777a1c70bc6d6ec0155de7c305a7ff56f4"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U03-A05/DATA/CACHE/q7.jets": {
+      "bytes": 71054145,
+      "sha256": "aa151cee1fadac03f6b8ecddcd989457ed7eec17eeaf6a06f79990f588c153ce"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U03-A05/DATA/RHS-ORBIT-TYPES.u32": {
+      "bytes": 11998252,
+      "sha256": "3c5f8d1fcad68367e9e83347cd5c4dbd2cc4db7ac70ab6494490a4b3c8b83121"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U04/DATA/FIELD.i64": {
+      "bytes": 21623072,
+      "sha256": "2a6f0120fd2db8452178b0a0b3cc5a5a9a0a2a521dd198bdc01af3af4b3f2fbf"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U04/DATA/MINIMUM-WITNESS.json": {
+      "bytes": 2265,
+      "sha256": "c640d18898e3cbed5d6da5623899be015a048f58fa81425c781635c3954ffbc0"
+    },
+    "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U04/INPUTS.json": {
+      "bytes": 5871,
+      "sha256": "cbd1f04347fbc0f91dcf97b1b177ffe472317db64fc0492c1cfebc2b339f6605"
+    },
+    "results/runs/SLR-PRO033-PACKET-20260916-001/science-restored-check/U06/DATA/LAYER8/q1.layer8": {
+      "bytes": 75,
+      "sha256": "fb4def1caddbe89b13066079ee6c83ca4f6f79b8892dcd904d1aca0577d5f248"
+    },
+    "results/runs/SLR-PRO033-PACKET-20260916-001/science-restored-check/U06/DATA/LAYER8/q2.layer8": {
+      "bytes": 2389,
+      "sha256": "55aeae09779aa2afa57a3bebdeac2370fd842dcfd2959952b339c441be2b826a"
+    },
+    "results/runs/SLR-PRO033-PACKET-20260916-001/science-restored-check/U06/DATA/LAYER8/q3.layer8": {
+      "bytes": 114186,
+      "sha256": "beeeafd8c2d2c7f1b58f9d880266240716e7e83ecaa914462d8e34a8f66e229a"
+    },
+    "results/runs/SLR-PRO033-PACKET-20260916-001/science-restored-check/U06/DATA/LAYER8/q4.layer8": {
+      "bytes": 3137782,
+      "sha256": "18fcfc82134c9dba1001c0011d039c32fa2cd1f228e931c4f97c9546548c0846"
+    },
+    "results/runs/SLR-PRO033-PACKET-20260916-001/science-restored-check/U06/DATA/LAYER8/q5.layer8": {
+      "bytes": 38089540,
+      "sha256": "53b8aff938434824550fdcefef06e0342def11bf9790e487b78cd779a7bb6987"
+    },
+    "results/runs/SLR-PRO033-PACKET-20260916-001/science-restored-check/U07/DATA/COLLATION/merge-02-00.types": {
+      "bytes": 876778812,
+      "sha256": "5985ef45becaa781578ad70d563d7bf70a60dc62bd49e2c3e7cfd360620b7e18"
+    },
+    "results/runs/SLR-PRO033-PACKET-20260916-001/science-restored-check/U08/DATA/COMPLETE/q6.layer8": {
+      "bytes": 201968045,
+      "sha256": "3bc42aac2b5850e9df3a91de61e168d20fd6f87b0035c8e78b1f8a78680cc00e"
+    },
+    "results/runs/SLR-PRO033-PACKET-20260916-001/science-restored-check/U09/DATA/COMPLETE/q7.layer8": {
+      "bytes": 445742839,
+      "sha256": "2a931752930a175543cf67ad440de93f8b0f96ade69c1a0e2cdf7a9a5c0360f8"
+    }
+  },
+  "groups": {
+    "c2-field": [
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-0000000-0100000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-0100000-0200000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-0200000-0300000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-0300000-0400000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-0400000-0500000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-0500000-0600000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-0600000-0700000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-0700000-0800000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-0800000-0900000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-0900000-1000000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-1000000-1100000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-1100000-1200000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-1200000-1300000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-1300000-1400000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-1400000-1500000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-1500000-1600000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-1600000-1700000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-1700000-1800000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-1800000-1900000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-1900000-2000000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-2000000-2100000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-2100000-2200000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-2200000-2300000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-2300000-2400000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-2400000-2500000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-2500000-2600000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-2600000-2700000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-2700000-2800000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-2800000-2900000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-2900000-3000000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-3000000-3100000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-3100000-3200000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-3200000-3300000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-3300000-3400000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-3400000-3500000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-3500000-3600000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-3600000-3700000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-3700000-3800000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-3800000-3900000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-3900000-4000000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-4000000-4100000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-4100000-4200000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-4200000-4300000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-4300000-4400000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-4400000-4500000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-4500000-4600000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-4600000-4700000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-4700000-4800000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-4800000-4900000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-4900000-5000000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-5000000-5100000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-5100000-5200000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-5200000-5300000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-5300000-5400000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-5400000-5500000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-5500000-5600000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-5600000-5700000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-5700000-5800000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-5800000-5900000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-5900000-6000000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-6000000-6100000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-6100000-6200000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-6200000-6300000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-6300000-6400000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-6400000-6500000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-6500000-6600000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-6600000-6700000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-6700000-6800000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-6800000-6900000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/join-6900000-6958562.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/k-0000000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/k-0010000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/k-1010000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/k-1510000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/k-2010000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/k-2510000.bin",
+      "results/runs/SLR-ASTRA015-20260917-001/q8/operator-data/k-510000.bin",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-cyclic-polish30.i64",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-00000000-00100000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-00100000-00200000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-00200000-00300000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-00300000-00400000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-00400000-00500000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-00500000-00600000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-00600000-00700000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-00700000-00800000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-00800000-00900000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-00900000-01000000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-01000000-01100000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-01100000-01200000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-01200000-01300000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-01300000-01400000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-01400000-01500000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-01500000-01600000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-01600000-01700000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-01700000-01800000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-01800000-01900000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-01900000-02000000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-02000000-02100000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-02100000-02200000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-02200000-02300000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-02300000-02400000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-02400000-02500000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-02500000-02600000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-02600000-02700000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-02700000-02800000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-02800000-02900000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-02900000-03000000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-03000000-03100000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-03100000-03200000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-03200000-03300000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-03300000-03400000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-03400000-03500000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-03500000-03600000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-03600000-03700000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-03700000-03800000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-03800000-03900000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-03900000-04000000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-04000000-04100000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-04100000-04200000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-04200000-04300000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-04300000-04400000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-04400000-04500000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-04500000-04600000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-04600000-04700000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-04700000-04800000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-04800000-04900000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-04900000-05000000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-05000000-05100000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-05100000-05200000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-05200000-05300000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-05300000-05400000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-05400000-05500000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-05500000-05600000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-05600000-05700000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-05700000-05800000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-05800000-05900000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-05900000-06000000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-06000000-06100000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-06100000-06200000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-06200000-06300000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-06300000-06400000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-06400000-06500000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-06500000-06600000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-06600000-06700000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-06700000-06800000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-06800000-06900000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-06900000-07000000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-07000000-07100000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-07100000-07200000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-07200000-07300000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-07300000-07400000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-07400000-07500000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-07500000-07600000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-07600000-07700000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-07700000-07800000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-07800000-07900000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-07900000-08000000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-08000000-08100000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-08100000-08200000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-08200000-08300000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-08300000-08400000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-08400000-08500000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-08500000-08600000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-08600000-08700000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-08700000-08800000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-08800000-08900000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-08900000-09000000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-09000000-09100000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-09100000-09200000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-09200000-09300000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-09300000-09400000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-09400000-09500000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-09500000-09600000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-09600000-09700000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-09700000-09800000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-09800000-09900000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-09900000-10000000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-10000000-10100000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-10100000-10200000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-10200000-10300000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-10300000-10400000-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-operator-10400000-10480218-001.rows",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-rhs.offsets",
+      "results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-rhs.tsv",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/atlas.txt",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q7.join",
+      "results/runs/SLR-PRO033-PACKET-20260916-001/science-restored-check/U07/DATA/COLLATION/merge-02-00.types"
+    ],
+    "c3-analytic": [
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q1.nidx",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q1.npts",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q2.nidx",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q2.npts",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q3.nidx",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q3.npts",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q4.nidx",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q4.npts",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q5.nidx",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q5.npts",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q6.nidx",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q6.npts",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q7.nidx",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q7.npts",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/atlas.txt",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q1-ALL.map",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q1.lookup",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q1.profiles",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q1.types",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q2-ALL.map",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q2.lookup",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q2.profiles",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q2.types",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q3-ALL.map",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q3.lookup",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q3.profiles",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q3.types",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q4-ALL.map",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q4.lookup",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q4.profiles",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q4.types",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q5-ALL.map",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q5.lookup",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q5.profiles",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q5.types",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q6-ALL.map",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q6.lookup",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q6.profiles",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q6.types",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q7-ALL.map",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q7.profiles",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q7.types",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U03-A05/DATA/CACHE/q1.jets",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U03-A05/DATA/CACHE/q2.jets",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U03-A05/DATA/CACHE/q3.jets",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U03-A05/DATA/CACHE/q4.jets",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U03-A05/DATA/CACHE/q5.jets",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U03-A05/DATA/CACHE/q6.jets",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U03-A05/DATA/CACHE/q7.jets"
+    ],
+    "c3-core": [
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/ALL.kernels",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/atlas.json",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/atlas.txt",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/incidence-0000000.rows",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/incidence-0010000.rows",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/incidence-0260000.rows",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/incidence-0510000.rows",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/incidence-0760000.rows",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/incidence-1010000.rows",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/incidence-1260000.rows",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/incidence-1510000.rows",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/incidence-1760000.rows",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/incidence-2010000.rows",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/incidence-2260000.rows",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/incidence-2510000.rows",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/incidence-2760000.rows",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q1-ALL.map",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q1.lookup",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q1.types",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q2-ALL.map",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q2.lookup",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q2.types",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q3-ALL.map",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q3.lookup",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q3.types",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q4-ALL.map",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q4.lookup",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q4.types",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q5-ALL.map",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q5.lookup",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q5.types",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q6-ALL.map",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q6.join",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q6.lookup",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q6.types",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q7-ALL.map",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q7.join",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q7.lookup",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q7.types",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U03-A05/DATA/CACHE/q7.jets",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U03-A05/DATA/RHS-ORBIT-TYPES.u32",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U04/DATA/FIELD.i64",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U04/DATA/MINIMUM-WITNESS.json",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U04/INPUTS.json"
+    ],
+    "h8": [
+      "results/runs/SLR-ASTRA017-20260917-001/h8/adapter-v5-final/indices/q1.offsets",
+      "results/runs/SLR-ASTRA017-20260917-001/h8/adapter-v5-final/indices/q2.offsets",
+      "results/runs/SLR-ASTRA017-20260917-001/h8/adapter-v5-final/indices/q3.offsets",
+      "results/runs/SLR-ASTRA017-20260917-001/h8/adapter-v5-final/indices/q4.offsets",
+      "results/runs/SLR-ASTRA017-20260917-001/h8/adapter-v5-final/indices/q5.offsets",
+      "results/runs/SLR-ASTRA017-20260917-001/h8/adapter-v5-final/indices/q6.offsets",
+      "results/runs/SLR-ASTRA017-20260917-001/h8/adapter-v5-final/indices/q7.offsets",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q1.nidx",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q1.npts",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q2.nidx",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q2.npts",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q3.nidx",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q3.npts",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q4.nidx",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q4.npts",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q5.nidx",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q5.npts",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q6.nidx",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q6.npts",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q7.nidx",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/NUMERATORS/q7.npts",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/atlas.txt",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q1-ALL.map",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q1.lookup",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q1.profiles",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q1.types",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q2-ALL.map",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q2.lookup",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q2.profiles",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q2.types",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q3-ALL.map",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q3.lookup",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q3.profiles",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q3.types",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q4-ALL.map",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q4.lookup",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q4.profiles",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q4.types",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q5-ALL.map",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q5.lookup",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q5.profiles",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q5.types",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q6-ALL.map",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q6.lookup",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q6.profiles",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q6.types",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q7-ALL.map",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q7.profiles",
+      "results/runs/SLR-PRO031-C3-VERIFY-20260916-001/data/U02/DATA/q7.types",
+      "results/runs/SLR-PRO033-PACKET-20260916-001/science-restored-check/U06/DATA/LAYER8/q1.layer8",
+      "results/runs/SLR-PRO033-PACKET-20260916-001/science-restored-check/U06/DATA/LAYER8/q2.layer8",
+      "results/runs/SLR-PRO033-PACKET-20260916-001/science-restored-check/U06/DATA/LAYER8/q3.layer8",
+      "results/runs/SLR-PRO033-PACKET-20260916-001/science-restored-check/U06/DATA/LAYER8/q4.layer8",
+      "results/runs/SLR-PRO033-PACKET-20260916-001/science-restored-check/U06/DATA/LAYER8/q5.layer8",
+      "results/runs/SLR-PRO033-PACKET-20260916-001/science-restored-check/U08/DATA/COMPLETE/q6.layer8",
+      "results/runs/SLR-PRO033-PACKET-20260916-001/science-restored-check/U09/DATA/COMPLETE/q7.layer8"
+    ]
+  },
+  "repository_commit": "259d8018466872628709e36c94e7c40d3944a3ed",
+  "schema": "rank-six-c2-c3-assets-v1"
+}

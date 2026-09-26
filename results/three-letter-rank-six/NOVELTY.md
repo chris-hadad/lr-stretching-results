@@ -27,3 +27,12 @@ note is justified by the complete family result. Expert assessment is still
 needed to judge novelty and a possible paper; no collaboration or authorship
 commitment is inferred. Whole ordinary-rank-six positivity and unrestricted
 KTT remain separate open goals.
+
+## Current context, 25 September 2026
+
+The dated comparison above evaluates the three-letter family at its original
+publication scope. A later [whole-rank-six theorem](../rank-six-positivity/README.md)
+covers all ordinary rank-at-most-six triples, while this module retains its
+explicit count formulas and independent small certificate. See the
+[later novelty note](../rank-six-positivity/NOVELTY.md) for that theorem's
+bounded related-work comparison. Rank seven and unrestricted KTT remain open.

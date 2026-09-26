@@ -264,3 +264,13 @@ short-inner-three and an entire negative outside the completed box remain
 open. Computer-assisted checking and model review are not external human
 acceptance or worldwide priority. No ordinary-negative LR polynomial was
 observed, and no new finite-box coverage is asserted.
+
+## Current context, 25 September 2026
+
+This original three-letter proof remains an independent, explicit whole-family
+certificate, with its own count formulas and rational fields. The later
+[whole-rank-six theorem](../../results/rank-six-positivity/README.md) covers
+all legal ordinary rank-at-most-six triples at every size. Its first-
+coefficient proof and finite field are separate from this family module.
+General rank-seven families and unrestricted KTT remain open; the preceding
+dated scope statements are retained to show what this module established.

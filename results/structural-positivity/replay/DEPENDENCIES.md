@@ -12,13 +12,13 @@ regenerate the underlying counts.
 | Slope-two all-rank positivity, `n>=5` | The unequal-weight two-row proof, section 4, coefficientwise remainder and bound | Exact formulas and bounded complete character checks | The all-rank inequality is the proof; no finite rank panel replaces it. Prior degree is `n-2` |
 | Slope-three all-rank positivity, `n>=6` | Slope-three proof: profile minimum, coefficient ratio bounds, analytic `d>=21` range and required `d=4,...,20` cases | All 17 finite vectors, 221 ambient coefficient entries; explicit degree-three exception | The count formula and later sign argument have the distinct contributions described in PROVENANCE.md. Higher slopes and all two-row LR shapes remain open here |
 | Weighted-GT degree, lattice and true-interior premises for gap three | [Weighted-GT interiors](proofs/WEIGHTED-GT-INTERIORS.md), sections 2–3, with [General height](proofs/GENERAL-HEIGHT.md), complete staircase proof | Strict positive degree-ten bases are reconstructed in the exact prior space | Dimension is proved using a strict point, not equation counting alone. Rassart polynomiality and rational Ehrhart reciprocity are external classical inputs |
-| Complete gap-three eight-term count | [complete gap-three formula](../proofs/pro027/001-COMPLETE-GAP3-CLUSTERS.md), complete expansion and cap intersections; elementary interval and path-cancellation details in [Delta-two branching](proofs/DELTA-TWO-BRANCHING.md), sections 2–4 | No new enumeration of the full signed tableau count | The earlier gap-two positivity conclusion is not imported; only its fully stated elementary identities enter. The general gap-three count identity is broader than this positive family |
+| Complete gap-three eight-term count | [complete gap-three formula](../proofs/pro027/001-COMPLETE-GAP3-CLUSTERS.md), complete expansion and cap intersections; elementary interval and path-cancellation details in [Delta-two branching](proofs/DELTA-TWO-BRANCHING.md), sections 2–4 | The original algebra command does not enumerate the signed count; the separate [fresh-count route](FRESH-COUNTS.md) does so at the four required finite bases | The earlier gap-two positivity conclusion is not imported; only its fully stated elementary identities enter. The general gap-three count identity is broader than this positive family |
 | Initial gap-three axis and quotient | [002](../proofs/pro027/002-QUOTIENT-LATTICE-AND-ZERO-GRADE.md), [003](../proofs/pro027/003-SHARP-AFFINE-THRESHOLD.md), [004](../proofs/pro027/004-UNBOUNDED-RANK6-POSITIVITY.md) | Reconstruct `P00,P10,P20`; derive `Q0` by exact division; preserve `W0` and its four negative coefficients | Full quotient polytope and cancellation arguments supply all-grade applicability. The `x=0` wall cannot be removed |
-| Whole integer quadrant, axes and corner | [005](../proofs/pro027/005-COMPLETE-QUADRANT-AND-DUALITY.md), [006](../proofs/pro027/006-QUOTIENT-MOMENTS-AND-POSITIVE-CERTIFICATE.md), [008](../proofs/pro027/008-INITIAL-WALLS-AND-POSITIVE-DIFFERENCES.md) | All four parent vectors from 32 determining positive values, eight unused values; exact positive factors, hinge formulas, 169 finite moment controls, first and mixed differences | Full branching, determinant duality and the wall identities remain analytic. Both independent interpolation algorithms share the historical count inputs |
+| Whole integer quadrant, axes and corner | [005](../proofs/pro027/005-COMPLETE-QUADRANT-AND-DUALITY.md), [006](../proofs/pro027/006-QUOTIENT-MOMENTS-AND-POSITIVE-CERTIFICATE.md), [008](../proofs/pro027/008-INITIAL-WALLS-AND-POSITIVE-DIFFERENCES.md) | The original algebra command reconstructs four parent vectors from 32 historical determining and eight unused positive values, with exact factors, 169 finite moment controls and differences. The separate fresh-count route regenerates those nodes | Full branching, determinant duality and wall identities remain analytic. Both interpolation algorithms in the original algebra command share its historical inputs |
 | Homogeneous gap-three cone and every zero-parameter boundary | [007](../proofs/pro027/007-HOMOGENEOUS-CONE-AND-BOUNDARIES.md), all five sections; factor formulas in 006 | All 40 joint coefficients, independent-width normalization, rectangle/segment/point boundary polynomial and complete staircase comparisons | The proof gives independent widths and saturated boundary inverse; a rational substitution into a quadrant theorem would not suffice |
-| Four gap-three numerical bases | [data/gap-three.json](data/gap-three.json); verified aggregate `F2627-GAP3-AGGREGATE-001` and its preserved raw vectors, source hashes in SOURCE-MAP | Exactly 40 historical positive sites: 32 determining plus eight unused; all complete vectors and algebra checked afresh when run | The complete Jacobi–Trudi counter, signed query rosters and child receipts are not included or rerun. The data retain their historical numerical provenance |
-| Full endpoint LR/table identity, actual dimension and codegree | [011](../proofs/pro027/011-COMPLETE-RANK10-CAP-RELEASE-FAMILY.md), complete tail construction, saturated chart and cap formula; [012](../proofs/pro027/012-INDEPENDENT-WHOLE-MODELS-AND-CHALLENGES.md), full models | Literal endpoint triples and seven strict grade-seven witnesses checked; polynomial degree 18 and every coefficient checked | Classical Hall adjunction/Pieri, network total unimodularity and Ehrhart reciprocity are analytic premises. Both implementations in the historical source are distinct from this algebra replay |
-| Seven endpoint vectors, complete positive shells and sharp stabilization | [data/transport.json](data/transport.json); verified aggregate `F2627-TRANSPORT-AGGREGATE-001` and preserved raw vectors; proof 011 | Seven vectors, 133 positive coefficients, 108 positive nonconstant differences, 14 unused positive values and final shell identity | Seven grade-zero constants and roots `-1,...,-6` are proved premises. Full 189-group signed assignments at 98 positive nodes are not recounted |
+| Four gap-three numerical bases | [data/gap-three.json](data/gap-three.json); verified aggregate `F2627-GAP3-AGGREGATE-001`; [fresh-count guide](FRESH-COUNTS.md) and [record](FRESH-COUNTS-VERIFICATION.json) | The algebra command keeps 40 historical positive inputs; the separate complete signed Jacobi–Trudi counter freshly regenerated all 32 determining and eight unused nodes, then compared full vectors and algebra | The all-parameter branching, quotient and hinge identities remain analytic proofs; neither command extrapolates a finite grid into the theorem |
+| Full endpoint LR/table identity, actual dimension and codegree | [011](../proofs/pro027/011-COMPLETE-RANK10-CAP-RELEASE-FAMILY.md), complete tail construction, saturated chart and cap formula; [012](../proofs/pro027/012-INDEPENDENT-WHOLE-MODELS-AND-CHALLENGES.md), full models | Literal endpoint triples and seven strict grade-seven witnesses checked; the fresh counter also retains all 189 signed assignment groups at every required positive node | Classical Hall adjunction/Pieri, network total unimodularity and Ehrhart reciprocity remain analytic premises. Finite agreement does not independently prove the whole LR/table identity |
+| Seven endpoint vectors, complete positive shells and sharp stabilization | [data/transport.json](data/transport.json); verified aggregate `F2627-TRANSPORT-AGGREGATE-001`; [fresh-count guide](FRESH-COUNTS.md) and [record](FRESH-COUNTS-VERIFICATION.json) | The algebra command uses historical nodes to reconstruct seven vectors, 133 positive coefficients and 108 positive nonconstant differences. The separate fresh counter regenerated 84 determining and 14 unused positive nodes with all 189 signed groups per node | Grade-zero constants, roots `-1,...,-6`, the full LR/table identity and cap stabilization remain proved premises; fresh finite counts do not replace them |
 | Homogeneous transport linear bound `e1>=5279u/360` | [Homogeneous transportation coefficient proof](../proofs/root/TRANSPORT-CONE-LINEAR-COEFFICIENT.md), sections 1–5; seven exact endpoint coefficients above | Exact endpoint premise only | Complete cut-wall analysis, support-function/Minkowski equality and classical first-coefficient additivity are analytic. Higher mixed coefficients do not follow from endpoint interpolation |
 | Transport `e16>0` corollary | Homogeneous transportation coefficient proof, section 6, citing the complete two-normal quotient-lattice formula in the short-normal coefficient proof | Not regenerated by the endpoint replay | Existing accepted theorem retained in the parent catalog. Its separate BV source dependency is mapped below; it is not needed for endpoint positivity or the `e1` bound |
 
@@ -70,14 +70,21 @@ by this module.
 
 ## Remaining reproduction limits
 
-The full normal atlas and other structural families are described in the
-parent [catalog](../README.md). A standalone normal-atlas checker is not yet
-included. Its finite premises comprise 34 rosters, 1,508,387 independent
-occurrences, 34,761 dependent occurrences, 127,467 incidences and 5,480
-complete types, identified by `F2627-NORMAL-AGGREGATE-002` and the associated
-normal-correction proofs. These are certificate populations, not LR triples.
-Complete reproduction requires the quotient lattices, Laurent values and
-all affected incidences, not only the aggregate totals.
+The normal atlas and P06/P07/P08 finite mask checks now have a separate
+[structural certificate adapter](../../../tooling/structural_certificates/README.md)
+with source-identical checkers and manifested data. Its accepted campaign
+run completed all four finite joins through 664 children in a 572.497-second
+report span. The final public adapter separately completed all 664 children and four
+finite joins in 467.749 seconds, with complete process exit. The finite population includes 34
+rosters, 1,508,387 independent occurrences, 34,761 dependent occurrences,
+127,467 incidences and 5,480 complete types. These are certificate
+populations, not LR triples. An independent campaign F025 check has passed
+all 294,912 rank-six and rank-seven forcing-table records, with 10 positive
+controls and 21 refusals. Its
+[public sibling guide](../../../tooling/structural_certificates/f025/README.md)
+documents the original row-order check. The normal/mask adapter does not
+rerun this separate prerequisite. These forcing calculations give sound
+dimension upper bounds, not actual dimension or a universal closure theorem.
 
 The untouched connected quadruples at ranks thirteen and fourteen are an
 open mathematical calculation. They are distinct from reproducing the
@@ -85,7 +92,8 @@ existing atlas. The established protected indices remain the ambient
 `D_n-4,...,D_n`, not necessarily the top five actual coefficients of every
 degenerate hive.
 
-The gap-three and transportation modules reconstruct complete algebra from
-the stated historical count values. A fresh enumeration would additionally
-require the complete counters, query/assignment identities and their model
-dependencies. That larger recount is not provided by the present commands.
+The original gap-three and transportation `reproduce.py` commands reconstruct
+complete algebra from historical values. The separate
+[fresh-count package](FRESH-COUNTS.md) supplies complete counters and the
+finite query/assignment identities for those same required nodes. It does
+not independently prove the all-parameter analytic identities.

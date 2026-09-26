@@ -166,3 +166,13 @@ This is the same complete field as (5), expressed without a basis-dependent spar
 Whole ordinary rank-six/seven positivity and unrestricted KTT remain open. Arbitrary four-by-five transportation and capped families with five or more capacities are outside this new whole-family theorem. The whole LR constructors, coefficient indices and original lattices in this note are mandatory; local weights and arbitrary proper faces do not imply an entire LR counterexample.
 
 The classical BV formula, Alper Ferudun's rank-five theorem and correction approach, earlier complete normal-cycle arguments and the full LR character constructions are credited foundations. The new finite fields and exact normal analyses yield these specific all-margin whole families. The independent implementations and reviews supply computer-assisted evidence for mathematical scrutiny, not human expert acceptance or a worldwide priority determination.
+
+## Current context, 25 September 2026
+
+The preceding dated proof and its finite certificates retain their original
+whole-family domains. The later [whole-rank-six theorem](../../results/rank-six-positivity/README.md)
+covers the legal rank-six LR constructors here at every size. The all-margin
+3-by-5 transportation theorem remains a distinct rank-seven family result,
+and the complete quantitative margins above belong to this module. The new
+theorem does not settle whole rank seven, arbitrary four-by-five tables or
+unrestricted KTT.

@@ -13,6 +13,14 @@ July-to-September history, model roster, Chris's research direction, persistent
 plans, shared ledger and mathematical tooling. This page retains the
 result-specific contributions, source versions and verification scopes.
 
+As of 25 September 2026, the
+[whole-rank-six result](results/rank-six-positivity/README.md) is the main
+current theorem. The
+[new contribution map](results/rank-six-positivity/CONTRIBUTIONS.md)
+identifies the originating route, certificate development, inherited proof
+premises and independent campaign adoption. The earlier dated modules below
+retain their own scopes and source versions.
+
 Alper Ferudun's all-size positivity theorem through length five is a central
 prior result used in the finite-box proof. His correction methods, Per
 Alexandersson's counting and reciprocity methods, Thawinrak's flow/LR
@@ -35,10 +43,44 @@ checks; some inputs and mathematical premises are shared. None constitutes
 independent human peer review. External mathematical review and a complete
 assessment of novelty remain outstanding.
 
+The whole-rank-six proof has a different sequence of checks. In the native
+wildcard record, an Opus 5.5 consultation proposed pruning impossible
+normal supports; an Opus 5.5 E2 exploration developed a candidate rational
+field and exact checks; Fable 5.1 orchestrated and audited the return.
+Codex/Astra A54 then independently proved the whole-family implication,
+reconstructed the original normal cone and physical-row branches, and checked
+the retained field against the previously accepted scalar and saturated
+lattice records. The [proof](results/rank-six-positivity/PROOF.md) states the
+mathematical dependencies, and [verification](results/rank-six-positivity/VERIFYING.md)
+states the computational scope. The wildcard report was lead-grade when
+returned; the later acceptance is a separate step. These checks share
+Berline–Vergne theory, the accepted complete normal-cycle identity and other
+specified sources. Neither the audit nor A54 is external human peer review.
+
+Publication preparation then completed the full independent scalar and field
+replays, a compact independent c6–c9 check, and the strict-through-actual-degree
+assembly. A separate GPT 6 Pro continuation supplied the legal-realization
+converse and complete positive closure calculus; independently authored campaign
+code checked every finite predicate and its constructive interface. Three main
+Astra mathematical rounds finished clean. The supporting-result review found
+one missing inherited boundary dependency; an explicit closed-boundary argument
+replaced it and passed focused confirmation. These are internal mathematical
+and computational checks, with their source and execution limits recorded.
+
+The wildcard metadata's `consult:codex` row labels its transport wrapper
+`claude-sonnet-5`. The preserved consult report identifies `gpt-6-astra` as
+the reasoning backend. We attribute the route content to the latter report,
+without treating the wrapper label as a second mathematical contributor or
+claiming a verified lower-level execution trace. Roles, evidence and dates
+are stated here rather than credit percentages.
+
 ## What the reproducible modules establish
 
 | Module | Exact check and its scope |
 |---|---|
+| Whole rank six | Complete original cone, every physical branch, full corrected action and support coverage; all 455 q9 scalar ranges, complete c2/c3 jets and H8/q8 chain, full c4/c5 and compact c6–c9. [Exact record](tooling/whole_rank_six/VERIFICATION.json). Final public-wrapper tests and complete engine runs remain distinguished. |
+| Closure and legal witnesses | All 103 identities, 166 feasible heights, nine RUP proofs and 45 full CNF transports; all 1,385,980 smaller seeds; exact constructive boundary, trace, edge and perturbation controls. [Scope](results/rank-six-positivity/GEOMETRY.md). |
+| New supporting families | Complete [4×5 transportation](results/transport-four-by-five/README.md), [five-capacity](results/five-capacity/README.md) and [layered](results/layered-triangle/README.md) finite replays; [five-height](results/five-height-hives/README.md), [gap-cap](results/gap-cap/README.md) and [linear-geometry](results/linear-coefficient-geometry/README.md) exact controls, each with its analytic proof and limits. |
 | Finite box | Complete prior export replay, including 624,314 terminal requirements and the 3,936,015-key residual composition with original preimage weights. Cited universal theorems remain external premises. The full convenience command has not itself been run end to end; its component replay and interface checks are recorded separately. |
 | Rank-eighteen Hurwitz example | 32 independently recounted determining values, three unused positive checks, the full ordinary coefficient vector and exact root certificates. |
 | Positive root cone | Full degree-bounded profile polynomial, all 528 coefficients of H, 23 exact Routh tables, seven uniform rational Rouché certificates and separate literal-flow/positive-character controls. The 528 reconstruction inputs evaluate the proved profile polynomial; they are not another tableau-count grid. |
@@ -46,14 +88,16 @@ assessment of novelty remain outstanding.
 | Coefficient cone | The nine-factor numerator, original flow polynomial, all 28 coefficient chambers and 29 walls, continuity, derivative signs and exact minima. Earlier independent positive-GT count controls are not rerun by this focused module. |
 | Two-row nonconcavity | Independent positive count recurrences, symbolic/harmonic identities, 90 strict midpoint gaps and endpoint checks. The all-index conclusion follows from the proof. |
 | Structural two-row families | All 17 finite slope-three proof cases and 221 ambient coefficient entries, plus 283 bounded profiles and 1,132 complete character-count comparisons. The all-rank result also uses the analytic proof. |
-| Gap-three families | Complete algebra reconstructed from 32 historical determining positive values and eight unused values, including all parent/quotient vectors, 40 joint coefficients and the negative auxiliary correction. The underlying tableau counts are not freshly enumerated by this module. |
-| Transportation family | Seven complete vectors, 133 positive coefficients, 108 positive nonconstant shell coefficients, 14 unused historical positive checks and seven strict-interior witnesses. The underlying transportation counts are historical inputs. |
+| Gap-three families | The original algebra command reconstructs complete vectors from 32 historical determining and eight unused positive values. A separate [fresh count](results/structural-positivity/replay/FRESH-COUNTS.md) regenerates all 40 nodes from the whole signed Jacobi–Trudi model, then checks the same algebra and negative auxiliary correction. The all-parameter proof is separate. |
+| Transportation family | The original algebra command uses historical nodes for seven vectors, 133 positive coefficients and 108 positive nonconstant shell coefficients. The separate [fresh count](results/structural-positivity/replay/FRESH-COUNTS.md) regenerates 84 determining and 14 unused positive nodes with all 189 signed assignment groups per node. The whole LR/table identity and stabilization proof remain analytic premises. |
+| Structural normal and masks | A source-identical campaign replay completed four normal/P06/P07/P08 finite joins through 664 children in a 572.497-second report span. The [final public adapter](tooling/structural_certificates/README.md) separately completed all 664 children and four finite joins in 467.749 seconds with complete process exit. A separate independent F025 check has passed 294,912 forcing-table records and 10 positive / 21 refusal controls; its [public guide](tooling/structural_certificates/f025/README.md) documents the complete original-row check. |
 
 [PUBLICATION-CHECKS.md](PUBLICATION-CHECKS.md) records the additional execution
 checks for the researcher edition. [REPRODUCING.md](REPRODUCING.md) gives the
 commands and resource requirements. The larger normal atlas and fresh
-gap/transport count adapters are not yet standalone modules; their exact
-dependencies and remaining work are listed with the structural results.
+gap/transport count routes now have the separate modules linked above. Their
+finite scopes and remaining analytic or F025 dependencies are listed with the
+[structural results](results/structural-positivity/README.md).
 
 ## Mathematical and implementation contributions
 
@@ -75,6 +119,19 @@ domains. Independent numerical comparisons use separately written algorithms
 or selected earlier implementations, as identified in the tooling source
 notes. Executing a copied comparison implementation does not imply adoption
 of the current API by another software project.
+
+The fresh gap-three and transport count wrapper selected campaign-accepted
+independent mathematical code and reran every required positive node. Its
+source map distinguishes byte-exact counter code, selected unchanged function
+bodies, retained JSON inputs and new process adapters. The structural normal
+and mask package instead copies accepted mathematical checkers byte for byte,
+with a new portable reader and separately versioned data. The completed
+campaign run, complete public-adapter run, calibration and resume checks are
+distinct observations.
+P06/P07/P08 use accepted analytic proofs and hash-pinned F025 forcing tables.
+The separately executed F025 check covers their complete rank-six and
+rank-seven domains and complete original row order. These are sound
+dimension upper-bound premises, not a new universal closure theorem or independent human review.
 
 The families-and-obstructions collection includes every original cubic witness
 shard, the complete sparse 614-vector corpus, both 4-by-5 transportation
@@ -108,6 +165,31 @@ the paired Python measurements.
 
 The research-note author list has not been finalized. Human and AI
 contributions are described here without assigning authorship to AI systems.
+
+## Whole ordinary-rank-six theorem, 25 September 2026
+
+The new whole-rank-six result proves nonnegativity of every ordinary
+coefficient for a legal balanced triple of maximum trimmed length at most six,
+at every size and boundary. For a nonempty hive H, its first coefficient has
+the accepted bound
+
+    c1(H) >= (1/2000000) * sum_(actual edges F of H) length_Z(F).
+
+The proof uses an original 45-rhombus normal system and its finite refined
+normal cycle. It keeps the actual saturated face and quotient lattices and all
+physical-row branches. A realizability lemma shows that positive-weight
+edge cells occur only among retained supports, so excluded negative field
+rows have zero weight in the complete balanced identity. This is a theorem
+about whole LR hives, not arbitrary formal normal polytopes.
+
+Pro027 supplied the complete normal-cycle identity; A19/A20 supplied the
+original q9 domain, scalars, primitive operator and field-search foundation;
+A17 and the inherited coefficient results supplied the higher-index signs.
+The Opus/Fable wildcard sequence and A54 verification have the distinct roles
+given above. The exact finite field and complete checks are available for
+inspection through the new module; a source map or hash authenticates bytes
+but does not replace its mathematical proof. Rank seven and unrestricted KTT
+remain open. No worldwide-priority or human-review claim is made.
 
 ## Transportation and capped-family certificates, 14 September 2026
 

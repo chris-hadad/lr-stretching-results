@@ -13,28 +13,52 @@
       "sha256": "fc37a7ae2489eed1968eaea16d18b40e9efb5d96d494ecc7f586ec699a77301f"
     },
     {
-      "bytes": 2906,
+      "bytes": 3405,
       "origin": {
         "repository": "stretched-lr-research",
         "source": "methods/astra011-2026-09-14/publication-docs/NOVELTY.md",
         "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
         "source_sha256": "ce0ee17d4910974656d923e7abf2ef7176d22b7f6a2de5c0a176e8f80be0efb3",
-        "transformation": "none; exact curated source bytes"
+        "transformation": "Current public editorial update; original-source hash remains historical provenance and no current byte equality is asserted.",
+        "transformation_history": [
+          {
+            "included_sha256": "ce0ee17d4910974656d923e7abf2ef7176d22b7f6a2de5c0a176e8f80be0efb3",
+            "transformation": "none; exact curated source bytes"
+          }
+        ]
       },
       "path": "NOVELTY.md",
-      "sha256": "ce0ee17d4910974656d923e7abf2ef7176d22b7f6a2de5c0a176e8f80be0efb3"
+      "sha256": "50dccba7dc083d4cdae88980faa382a4c6704d8a9c1200c7c2f354b0cdc5a466",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "ce0ee17d4910974656d923e7abf2ef7176d22b7f6a2de5c0a176e8f80be0efb3",
+          "current_included_sha256": "50dccba7dc083d4cdae88980faa382a4c6704d8a9c1200c7c2f354b0cdc5a466"
+        }
+      ]
     },
     {
-      "bytes": 4531,
+      "bytes": 4610,
       "origin": {
         "repository": "stretched-lr-research",
         "source": "methods/astra011-2026-09-14/publication-docs/README-FINAL.md",
         "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
         "source_sha256": "9f3e714a3dddade84e2582034dfba492122c9d93e124ad276d830cdb4744bf37",
-        "transformation": "none; exact curated source bytes"
+        "transformation": "Current public editorial update; original-source hash remains historical provenance and no current byte equality is asserted.",
+        "transformation_history": [
+          {
+            "included_sha256": "9f3e714a3dddade84e2582034dfba492122c9d93e124ad276d830cdb4744bf37",
+            "transformation": "none; exact curated source bytes"
+          }
+        ]
       },
       "path": "README.md",
-      "sha256": "9f3e714a3dddade84e2582034dfba492122c9d93e124ad276d830cdb4744bf37"
+      "sha256": "b9586ad739b227c8c37f709b316ee9120d3a76a8ddcaf17ec531f5449f5062ce",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "9f3e714a3dddade84e2582034dfba492122c9d93e124ad276d830cdb4744bf37",
+          "current_included_sha256": "b9586ad739b227c8c37f709b316ee9120d3a76a8ddcaf17ec531f5449f5062ce"
+        }
+      ]
     },
     {
       "bytes": 14722,

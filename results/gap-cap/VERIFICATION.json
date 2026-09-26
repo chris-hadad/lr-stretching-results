@@ -1,0 +1,11 @@
+{
+  "status": "PASS_FRESH_PRIVATE_CANDIDATE_REPLAY",
+  "seconds": 0.036990666994825006,
+  "closed_pieces": 65,
+  "inequalities_per_piece": 40,
+  "equalities_per_piece": 1,
+  "binary_vertices": 32,
+  "normalized_outer_area_bound": 36,
+  "unbounded_denominators": true,
+  "scope": "Exact finite replay; written analytic premises and publication review are separate."
+}

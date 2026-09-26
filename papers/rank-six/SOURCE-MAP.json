@@ -1,0 +1,42 @@
+{
+  "schema": "publication-current-file-inventory-v1",
+  "scope": "Exact current public file bytes in this module. Historical source and mathematical claims are delegated to the applicable nested source maps and prose.",
+  "files": [
+    {
+      "path": "BUILD.json",
+      "bytes": 4925,
+      "sha256": "129220fc58c1429bd45f45db4b30ab518fad276ada9cf7646bddedc3918f058c",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "README.md",
+      "bytes": 3006,
+      "sha256": "2a987d557a5e926c3750feb364c1c0ea5e5b20ea2a0e2f9c25da8326dcef5505",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "geometry-strengthening.tex",
+      "bytes": 9498,
+      "sha256": "42a348f2dad0110f226c65fa263acba7ee48d8c24cde9485413af41839729c37",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "rank-six-preprint-source.tar.gz",
+      "bytes": 3253300,
+      "sha256": "447b621aa0024d1f2276cbbc4b7fe786f99b63e41c6711d72e2968486988aa54",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "rank-six.pdf",
+      "bytes": 142934,
+      "sha256": "743058e010a91d52995b2f8b4d3e1c2cfc64d3791c4fc3ca8768130e0735c1ee",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "rank-six.tex",
+      "bytes": 42896,
+      "sha256": "979109a7520da2990c0a3d925b43cfbc38493a93d2177f2cff676a60a4e392d2",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    }
+  ]
+}

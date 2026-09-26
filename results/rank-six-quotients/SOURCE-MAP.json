@@ -1,0 +1,54 @@
+{
+  "schema": "curated-mathematical-module/v1",
+  "source_repository": "stretched-lr-research",
+  "source_commit": "259d8018466872628709e36c94e7c40d3944a3ed",
+  "scope": "Analytic corollaries with whole coefficient-bound prerequisites; no independent finite certificate.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2065,
+      "sha256": "1d805d4f9e9eef6851bd02aed5b923c9606a71fb38da4ec5dc083d00b16bbefc",
+      "origin": {
+        "sources": [
+          {
+            "label": "GLOBAL-C2-ACCEPTANCE.md",
+            "sha256": "10bf44ba16957e75da3d1203a96ff9b2302f2f6b8c0eb2dd9cb87ec6d172a593",
+            "bytes": 4738
+          },
+          {
+            "label": "GLOBAL-QUOTIENT-CONSEQUENCES.md",
+            "sha256": "f8878102ff796f0595301e29130dc014f8138b24d6b1d217036ad338751c8804",
+            "bytes": 7283
+          }
+        ],
+        "transformation": "Reader-facing complete derivation expanding the accepted stabilization, saturated whole-quotient transfer and explicit segment-tail consequences; current parent theorem linked separately."
+      },
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "eca96bc58b550ce5ea0ac4c99182d2db35d0a758fdd5eae28b69db153838d17e",
+          "current_included_sha256": "1d805d4f9e9eef6851bd02aed5b923c9606a71fb38da4ec5dc083d00b16bbefc"
+        }
+      ]
+    },
+    {
+      "path": "PROOF.md",
+      "bytes": 10973,
+      "sha256": "d0e9c91c60161df4469eeeab47cc3a41f0b04038ffad305da59e48ed55965bff",
+      "origin": {
+        "sources": [
+          {
+            "label": "GLOBAL-C2-ACCEPTANCE.md",
+            "sha256": "10bf44ba16957e75da3d1203a96ff9b2302f2f6b8c0eb2dd9cb87ec6d172a593",
+            "bytes": 4738
+          },
+          {
+            "label": "GLOBAL-QUOTIENT-CONSEQUENCES.md",
+            "sha256": "f8878102ff796f0595301e29130dc014f8138b24d6b1d217036ad338751c8804",
+            "bytes": 7283
+          }
+        ],
+        "transformation": "Reader-facing complete derivation expanding the accepted stabilization, saturated whole-quotient transfer and explicit segment-tail consequences; current parent theorem linked separately."
+      }
+    }
+  ]
+}

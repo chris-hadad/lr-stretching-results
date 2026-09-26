@@ -1,0 +1,190 @@
+{
+  "accepted_aggregates": {
+    "F2627-MASK-P06-AGGREGATE-001": {
+      "sha256": "02f8381697f59198de1b0a2cc6b4b8b403e9018d18b8805813e96f32cd249ad7",
+      "source_path": "methods/frontier-026-027-2026-09-11/accepted-2026-09-12/science/F2627-MASK-P06-AGGREGATE-001/result.json",
+      "source_repository": "stretched-lr-research"
+    },
+    "F2627-MASK-P07-AGGREGATE-001": {
+      "sha256": "54b350aff82892461115802c82ebacc45421cd7303b63da25aff64d534724edb",
+      "source_path": "methods/frontier-026-027-2026-09-11/accepted-2026-09-12/science/F2627-MASK-P07-AGGREGATE-001/result.json",
+      "source_repository": "stretched-lr-research"
+    },
+    "F2627-MASK-P08-AGGREGATE-001": {
+      "sha256": "0feff6bb5ae1ffede37d9e7623fa63f759074a4e1c5979f948621c0898521e93",
+      "source_path": "methods/frontier-026-027-2026-09-11/accepted-2026-09-12/science/F2627-MASK-P08-AGGREGATE-001/result.json",
+      "source_repository": "stretched-lr-research"
+    },
+    "F2627-NORMAL-AGGREGATE-002": {
+      "sha256": "c8908084f247cc33a81b7deaebda755bc21ab20866c511539c555aae677f3eb5",
+      "source_path": "methods/frontier-026-027-2026-09-11/accepted-2026-09-12/science/F2627-NORMAL-AGGREGATE-002/result.json",
+      "source_repository": "stretched-lr-research"
+    }
+  },
+  "adapters": {
+    "public_controls.py": {
+      "purpose": "small archive, source/output, optimized reader, identity and process-group cleanup fixtures",
+      "sha256": "f9f1a6eb604113b4505a03b36a2ac31a92109eb990ee18dd3f90c34cdf43f4de"
+    },
+    "reader_replay.py": {
+      "purpose": "generic fresh/resume reader using the pinned mathematical checkers and published owned-group runtime",
+      "sha256": "48acb5149cd902a36a0f4a9310cd7a11a4330031331447d30c6b1f1442ba9ad3",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "a61607f512bf77662d74e363cf7c8f914d37b56bcc617d5171edbe503e479624",
+          "current_included_sha256": "48acb5149cd902a36a0f4a9310cd7a11a4330031331447d30c6b1f1442ba9ad3"
+        }
+      ]
+    },
+    "restore.py": {
+      "purpose": "public ZIP authentication, safe restoration and independent complete byte rehash",
+      "sha256": "43ffbaa512cbb5eb9fe8de96cf8422f552ce9be56822c32cd1f7da8e41093b3f"
+    }
+  },
+  "campaign_evidence": {
+    "scope": "four complete source-identical finite joins under the separate campaign runner; public reader independently calibrated on bounded real units",
+    "sha256": "b399314f6baa9e9c006147135d0cca94a8f4ca26423be08537e088c63ba88f64",
+    "source_path": "results/runs/SLR-PUB-RANK-SIX-20260925-001/legacy-normal-mask/RUN-RESULT.json",
+    "source_repository": "stretched-lr-research"
+  },
+  "checkers_and_tests": {
+    "normal_checker_tests.py": {
+      "accepted_sha256": "01e0d844185327f1e56d8a05f98a1a3f8c6c2033ffb3e60d2f7ab0785cb66932",
+      "candidate_sha256": "01e0d844185327f1e56d8a05f98a1a3f8c6c2033ffb3e60d2f7ab0785cb66932",
+      "source_path": "methods/frontier-026-027-2026-09-11/accepted-2026-09-12/review/R3-tooling/sources/normal_checker_tests.py",
+      "source_repository": "stretched-lr-research",
+      "transformation": "byte-for-byte copy"
+    },
+    "pro027_mask_tests.py": {
+      "accepted_sha256": "234608610f9539d1a84758d0eb310d5cf995b3e934f43836498e167c93613a2e",
+      "candidate_sha256": "234608610f9539d1a84758d0eb310d5cf995b3e934f43836498e167c93613a2e",
+      "source_path": "methods/frontier-026-027-2026-09-11/accepted-2026-09-12/review/R3-tooling/sources/pro027_mask_tests.py",
+      "source_repository": "stretched-lr-research",
+      "transformation": "byte-for-byte copy"
+    },
+    "verify_normal_certificates.py": {
+      "accepted_sha256": "580de0e067be93d0d0c96b2d85acb4c11ef5b7996647552f3717a452c0c40420",
+      "candidate_sha256": "580de0e067be93d0d0c96b2d85acb4c11ef5b7996647552f3717a452c0c40420",
+      "source_path": "methods/frontier-026-027-2026-09-11/accepted-2026-09-12/review/R3-tooling/sources/verify_normal_certificates.py",
+      "source_repository": "stretched-lr-research",
+      "transformation": "byte-for-byte copy"
+    },
+    "verify_pro027_masks.py": {
+      "accepted_sha256": "bca0fefb46a54edba559278b0e1ca4f34722686b1b2fbc49cad7771801f32efe",
+      "candidate_sha256": "bca0fefb46a54edba559278b0e1ca4f34722686b1b2fbc49cad7771801f32efe",
+      "source_path": "methods/frontier-026-027-2026-09-11/accepted-2026-09-12/review/R3-tooling/sources/verify_pro027_masks.py",
+      "source_repository": "stretched-lr-research",
+      "transformation": "byte-for-byte copy"
+    }
+  },
+  "claim_limit": "Finite certificates plus linked analytic premises; the public adapter itself has bounded real-unit, exact-resume and refusal-control evidence, not a second complete science run.",
+  "data": {
+    "archive_bytes": 273273064,
+    "archive_name": "structural-certificates-data-v1.zip",
+    "archive_sha256": "cc5169a8509233cbb4e4b6241a176b418ebe25a061930f35b5d560b5335ec8b8",
+    "files": 10456,
+    "public_manifest": "DATA-ASSET.json",
+    "public_manifest_sha256": "b4c705e887ea5493b178932bae4b88774bb1ba1601a9128ef2995725f4f1ac18",
+    "source_manifest_path": "methods/pub-rank-six-2026-09-25/legacy-normal-mask/data-asset-v1.json",
+    "source_manifest_repository": "stretched-lr-research",
+    "source_manifest_sha256": "c4698f804ab85e209a42126c74710c3e9afc1b33e71762a8c1c057aa9b3e9cb4",
+    "transformations": [
+      "Every packet/<relative> and f025/<relative> file byte is unchanged and bound by the same size and SHA-256.",
+      "Absolute captured source roots and source_path fields were removed.",
+      "Each original source was retained as an inert stretched-lr-research repository-relative provenance path.",
+      "The sorted members were written as fixed-timestamp, fixed-mode ZIP_STORED ordinary files; no returned code or conversations were added."
+    ],
+    "uncompressed_bytes": 269680674
+  },
+  "documentation": {
+    "DEPENDENCIES.md": {
+      "sha256": "91997c95cddfdacbdfe90ca76df8d9a6fa1765b3c4789a8a0edf5a658d36a785",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "1e2095cd2fa49b751a686b0f39add28a197f11bdc5dbed44a272ec38f3521a88",
+          "current_included_sha256": "91997c95cddfdacbdfe90ca76df8d9a6fa1765b3c4789a8a0edf5a658d36a785"
+        }
+      ]
+    },
+    "README.md": {
+      "sha256": "4a4d48fc8fb4af9dcf985d4de96e788821534a0cb720e6cfbefb150544bf601c",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "77efb81c855251904c07bd85b66656c02de3a1e8f52dbfbaf7460d173ff2fdd2",
+          "current_included_sha256": "a46f8de20049b57e7beb1255c0b9be7746d5032b4c3c31ceb2cd1b93b6701d8c"
+        },
+        {
+          "previous_included_sha256": "a46f8de20049b57e7beb1255c0b9be7746d5032b4c3c31ceb2cd1b93b6701d8c",
+          "current_included_sha256": "c1e4104e350ce0196233d7e9c10baa387917b96a714f6abb79ec6065a254b68e"
+        },
+        {
+          "previous_included_sha256": "c1e4104e350ce0196233d7e9c10baa387917b96a714f6abb79ec6065a254b68e",
+          "current_included_sha256": "4a4d48fc8fb4af9dcf985d4de96e788821534a0cb720e6cfbefb150544bf601c"
+        }
+      ]
+    }
+  },
+  "f025_recheck_hook": {
+    "archive_or_table_byte_change": false,
+    "data_paths": [
+      "f025/F025-MASK-R6-001.json",
+      "f025/F025-MASK-R7-001.json"
+    ],
+    "expected_record_counts": {
+      "rank_6": 32768,
+      "rank_7": 262144
+    },
+    "original_row_order_source": "verify_pro027_masks.py:original_rows(n)",
+    "original_row_order_source_sha256": "bca0fefb46a54edba559278b0e1ca4f34722686b1b2fbc49cad7771801f32efe",
+    "status": "separate finite forcing recheck to integrate as a sibling; no checker or output is claimed here"
+  },
+  "jobs": {
+    "jobs": 656,
+    "public_roster": "JOBS.json",
+    "public_roster_sha256": "fbf97cd23e7325f3775bf837731667ad1eabe938adbe38b0f9b245ac26337276",
+    "source_roster_path": "methods/pub-rank-six-2026-09-25/legacy-normal-mask/jobs-v1.json",
+    "source_roster_repository": "stretched-lr-research",
+    "source_roster_sha256": "4847b26694917dcaa79b5d5ca63c8d2978d3a82ca19b4f4ff666ab7d2e522c0f",
+    "transformation": "The legacy absolute report locator was replaced with inert codex-workbench repository-relative accepted_report_source; command, args, interval, expected status and report SHA-256 were preserved."
+  },
+  "public_proof_paths": [
+    "results/structural-positivity/proofs/pro027/021-BOUNDARY-AWARE-FACET-REDUCTION.md",
+    "results/structural-positivity/proofs/pro027/022-HIDDEN-STRATA-BY-DUAL-VALUATION.md",
+    "results/structural-positivity/proofs/pro027/023-ALL-SIZE-FOUR-COORDINATE-LR-POSITIVITY.md",
+    "results/structural-positivity/proofs/pro027/025-COMPLETE-REFINED-NORMAL-CYCLE.md",
+    "results/structural-positivity/proofs/pro027/026-ALL-SIZE-FIVE-COORDINATE-DOMAINS.md",
+    "results/structural-positivity/proofs/pro027/028-ALL-RANK6-FIVE-COORDINATE-POSITIVITY.md",
+    "results/structural-positivity/proofs/pro027/029-EXACT-LATTICE-ISOMETRIES-AND-FINITE-CERTIFICATE.md",
+    "results/structural-positivity/proofs/pro027/030-COMPLETE-FAN-AND-PERIODIC-BOUNDARY-CHALLENGES.md",
+    "results/structural-positivity/proofs/pro027/031-ALL-RANK6-SIXTH-COEFFICIENT.md",
+    "results/structural-positivity/proofs/pro027/032-COMPLETE-SIX-FACE-VOLUMES-AND-BALANCES.md",
+    "results/structural-positivity/proofs/pro027/033-COMPLETE-CONE-EXCLUSION-AND-PRIMITIVE-CHALLENGE.md",
+    "results/structural-positivity/proofs/pro027/034-ALL-RANK7-ELEVENTH-COEFFICIENT.md",
+    "results/structural-positivity/proofs/pro027/036-COMPLETE-ELEVEN-FACE-CHALLENGE.md",
+    "results/structural-positivity/proofs/pro027/037-TWELVE-COMPONENT-AND-RELEASE-CHALLENGES.md",
+    "results/structural-positivity/proofs/pro027/038-INTRINSIC-BOUNDARY-PATCH-COMPENSATION.md",
+    "results/structural-positivity/proofs/pro027/039-EXACT-ISOMETRY-OBSTRUCTION.md",
+    "results/structural-positivity/proofs/pro027/040-FINITE-RANK-PATCH-REDUCTION.md",
+    "results/structural-positivity/proofs/pro027/042-CODIMENSION-FOUR-THROUGH-RANK-TWELVE.md"
+  ],
+  "runtime": {
+    "candidate_sha256": "528ca90f1840c373662b06f5fcd8e18030db6a0bad89f0e039503c320b2fb0c6",
+    "source_path": "tooling/whole_rank_six/runtime.py",
+    "source_repository": "lr-stretching-results",
+    "source_sha256": "280055b94bf0c59ce0fbb6ad58c96de8130379c8c300e7556eadb5d562e7f089",
+    "transformation": "Current public adaptation; prior exact-copy claim and accepted/source SHA-256 remain historical.",
+    "transformation_history": [
+      {
+        "candidate_sha256": "280055b94bf0c59ce0fbb6ad58c96de8130379c8c300e7556eadb5d562e7f089",
+        "transformation": "byte-for-byte copy"
+      }
+    ],
+    "publication_refresh_history": [
+      {
+        "previous_included_sha256": "280055b94bf0c59ce0fbb6ad58c96de8130379c8c300e7556eadb5d562e7f089",
+        "current_included_sha256": "528ca90f1840c373662b06f5fcd8e18030db6a0bad89f0e039503c320b2fb0c6"
+      }
+    ]
+  },
+  "schema": "structural-certificates-source-map-v2"
+}

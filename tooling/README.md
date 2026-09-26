@@ -6,6 +6,13 @@ models. The current additions are the complete principal rank-six split sector,
 the clipped rank-eight family, abstract two-width bundles and general rectangular
 matrix invariant counts. Every API keeps its mathematical domain explicit.
 
+For the 25 September 2026 all-size result, start with the separate
+[whole-rank-six verification module](whole_rank_six/README.md) and
+[theorem page](../results/rank-six-positivity/README.md). Its finite original
+normal fields, saturated-lattice checks and retained-support proof have a
+different scope from the standalone c4/c5 module below. The generic Python
+API commands here are not a replay of the new theorem.
+
 The Python API and the following commands use Python 3.11+ and its standard
 library, with no network or original research checkout. The separate native
 modules below state their compiler/library requirements. From the repository root:
@@ -92,6 +99,16 @@ original-domain and zero-boundary contracts.
 
 ## Complete transportation and three-row coefficients
 
+For the strongest current positivity scopes, use the separate
+[4×5 transportation verifier](../results/transport-four-by-five/README.md)
+and [five-capacity verifier](../results/five-capacity/README.md). They include
+all nonnegative parameter boundaries and actual degree drops. The first has a
+separate numerical companion; the second is a small standard-library replay.
+`transport_count` and `transport_to_lr` already accept 4×5 margins, while
+`capped_polynomial` already accepts five capacities. The `transport_polynomial`
+API below still accepts at most three rows; its computational domain is separate
+from the stronger theorem.
+
 [transport_certificates/README.md](transport_certificates/README.md) reconstructs the entire all-margin 3-by-5 transportation and four-capacity LR positivity proof with Python's standard library. Its three exact fields occupy about 58 KB. An optional C++/GMP command independently checks every local constant; complete rosters, original lattices and failure limits are explicit.
 
 [three_row_coefficients/README.md](three_row_coefficients/README.md) computes full exact coefficient vectors for three-row transportation, coupled capacities and complete affine Schur/Jacobi-Trudi families. It retains original offsets and signed terms. The APIs have explicit assignment/permutation/degree refusals and independent unsigned count controls; their existence does not prove positivity outside the stated theorem domains.
@@ -104,7 +121,28 @@ every local value and the complete geometry, lattice, type and incidence
 structure, then checks all rational inequalities. Its 44.8 MB dataset contains
 all required finite inputs. The full fresh-export replay took about 10.4 minutes
 on the recorded host. This optional module requires a C++17 compiler and GMP;
-its exact scope, failure controls and open c1/c2/c3 complement are explicit.
+its exact scope and failure controls are explicit. The subsequent
+whole-rank-six module supplies separate evidence for the then-open c1/c2/c3
+complement.
+
+## Structural normal and mask certificates
+
+[structural_certificates/README.md](structural_certificates/README.md)
+provides source-identical normal-atlas and P06/P07/P08 checkers, a manifest for
+the separate data ZIP, a restorer and a resumable reader. The finite scopes
+are the ambient `c_(D_n-4)` argument for ranks 6 through 12 and the selected
+four- and five-coordinate boundary criteria. The accepted source-identical
+campaign run completed four joins through 664 children in a 572.497-second
+report span. The final public reader separately completed all 664 children and four
+finite joins in 467.749 seconds; every child and owned process group exited.
+
+The independent F025 forcing-table check has passed all 294,912 rank-six and
+rank-seven records, but its [public sibling guide](structural_certificates/f025/README.md)
+documents the completed original row-order check. The normal/mask reader consumes hash-pinned forcing
+tables and does not replace that separate finite check. These forcing tables
+supply sound dimension upper bounds; they are not a new universal closure theorem or a generic LR counter.
+The [family count guide](../results/structural-positivity/replay/FRESH-COUNTS.md)
+separately regenerates the gap-three and rank-ten transportation premises.
 
 ## Optional complete H-system counter
 
@@ -116,6 +154,14 @@ box; it does not prove the chart, lattice, dimension, interior interpretation or
 coordinate bounds. Partial and refused results remain explicit.
 
 ## Sources and prior measurements
+
+Additional exact structural interfaces and proof checks are organized by
+result: [five-height original hives](../results/five-height-hives/README.md),
+[layered triangle families](../results/layered-triangle/README.md),
+[gap caps](../results/gap-cap/README.md), and
+[linear-coefficient geometry](../results/linear-coefficient-geometry/README.md).
+The [closure and witness API](whole_rank_six/closure/README.md) is a small
+entry point to the new rank-six geometry, with no large data download.
 
 [PROOFS.md](PROOFS.md) collects the contracts.
 [CURRENT-SOURCES.md](CURRENT-SOURCES.md) explains the current additions and

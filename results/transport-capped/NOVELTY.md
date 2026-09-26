@@ -9,3 +9,13 @@ The prior capped derivation supplied a whole binomial product when every capacit
 Targeted searches for three-row transportation Ehrhart positivity, 3-by-5 coefficient positivity, and capped-family positivity did not locate a prior matching all-margin statement. The checked primary material includes the Berline-Vergne local formula, Ferudun's rank-five proof and correction method, Rassart's chamber framework, and Trandafir's [external-column paper](https://link.springer.com/article/10.1007/s00454-025-00762-1). The latter's general matrix theorem has actual matrix, chamber and saturation hypotheses; its LR discussion is an example/future-work section, not a universal LR reduction. This is a bounded comparison, not an exhaustive literature review or a worldwide priority claim.
 
 These compact, independently reproduced whole-family certificates are useful as a standalone public finding and a basis for further low-coefficient work. Their theory and code should be available for expert scrutiny. A separate paper or authorship decision would require a fuller novelty/contribution assessment; a core whole-rank or unrestricted-KTT endpoint has not been reached. The repository's existing process and attribution account remains in force.
+
+## Current context, 25 September 2026
+
+The assessment above belongs to the original transportation and capped-family
+certificate. A later [whole-rank-six theorem](../rank-six-positivity/README.md)
+covers the ordinary rank-six constructors at every size, while the 3-by-5
+rank-seven transport theorem remains a separate family result. The earlier
+certificate still gives its own quantitative margins and complete all-margin
+transport statement. The later theorem has a [separate bounded comparison](../rank-six-positivity/NOVELTY.md);
+neither assessment establishes worldwide priority.

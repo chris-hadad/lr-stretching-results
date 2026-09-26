@@ -1,0 +1,17 @@
+{
+  "schema": "rank-six-small-geometry-inputs-v1",
+  "files": {
+    "atlas.json": {
+      "bytes": 20229,
+      "sha256": "69872685131cfbdab8c1ac3acd2b92b551f2abfee562b8cc5c717dbd30b52885"
+    },
+    "controls_geometry.py": {
+      "bytes": 9066,
+      "sha256": "c13c251897a7bddc171f82ad00cc92d74fae0ec39c186aec70d3acc29fc7663c"
+    },
+    "src/portable/geometry_stdlib.py": {
+      "bytes": 9165,
+      "sha256": "9cd973fbaca7a464d11bee29af520b98b2123f034530f1758b827f4c28578f61"
+    }
+  }
+}

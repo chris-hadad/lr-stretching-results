@@ -1,0 +1,196 @@
+{
+  "schema": "complete-transport-4x5-companion/v1",
+  "files": {
+    "source/UNIT04/DATA/COVER-F-COMPLETE.cells.txt": {
+      "bytes": 5397325,
+      "sha256": "6f0eedb35c59abdcee016a6ffb40de1df20c35318417164dac8ad72eedf209f4"
+    },
+    "source/UNIT04/DATA/COVER-F-COMPLETE.signs.txt": {
+      "bytes": 3071241,
+      "sha256": "75aac89234849ee52e03dccfb5368c78100af6a4c8815015e1b44e1d83693150"
+    },
+    "source/UNIT04/DATA/COVER-F-COMPLETE.simplices.txt": {
+      "bytes": 4149226,
+      "sha256": "a28a532848d50ee3896820cc8774f1e98fe80ab118945553c9968d18e38eb82e"
+    },
+    "source/UNIT04/DATA/COVER-U-B000.cells.txt": {
+      "bytes": 12949207,
+      "sha256": "adf858309e9f08447c3ed5a916290ecabd9aa87b480a929d3e328b3fc43d509a"
+    },
+    "source/UNIT04/DATA/COVER-U-B000.signs.txt": {
+      "bytes": 7451287,
+      "sha256": "529ea01c8bc370f08cdb27165c9f98a8438bd3330564fa57efdb32fc9b03b943"
+    },
+    "source/UNIT04/DATA/COVER-U-B000.simplices.txt": {
+      "bytes": 22854444,
+      "sha256": "c37f6fd35f9b795c525aebf488b25aad15c230e3f0125a71128f482150a6dd02"
+    },
+    "source/UNIT04/DATA/COVER-U-B001.cells.txt": {
+      "bytes": 13087868,
+      "sha256": "40d82416aadd97bade0f7162985654e96e8a396f88bf6bc22802122be21afb3d"
+    },
+    "source/UNIT04/DATA/COVER-U-B001.signs.txt": {
+      "bytes": 7581026,
+      "sha256": "b083257e987ef67b0b69dcc984db0901e1393d45986c5175780582880b59b444"
+    },
+    "source/UNIT04/DATA/COVER-U-B001.simplices.txt": {
+      "bytes": 30094935,
+      "sha256": "f43d363407f9c7da71d0cfa2aa183d431542131771fb6c97376843445e14dfe1"
+    },
+    "source/UNIT04/DATA/COVER-U-B002.cells.txt": {
+      "bytes": 13082016,
+      "sha256": "8156e91c6080e14c6065622d35fe26f596ef3d6a10f6089a09f7484fff1ad505"
+    },
+    "source/UNIT04/DATA/COVER-U-B002.signs.txt": {
+      "bytes": 7582215,
+      "sha256": "21018c8c8fbf3c042856e14a937d4ddb04181d580d5e7708b2902a3349538e89"
+    },
+    "source/UNIT04/DATA/COVER-U-B002.simplices.txt": {
+      "bytes": 31851579,
+      "sha256": "895276a17b7e0c8fcea13220fcd52997aacdb4e6e400480cbda4ca212fa09e8f"
+    },
+    "source/UNIT04/DATA/COVER-U-B003.cells.txt": {
+      "bytes": 13082129,
+      "sha256": "3db4456624e97632de53b3066c851cbb57a8c78a14d4a4f259edae95002f5174"
+    },
+    "source/UNIT04/DATA/COVER-U-B003.signs.txt": {
+      "bytes": 7560139,
+      "sha256": "5989f95907b6abd1ea8e543211c95d7e6a490771c19a28f24eda56dff074a92d"
+    },
+    "source/UNIT04/DATA/COVER-U-B003.simplices.txt": {
+      "bytes": 27226368,
+      "sha256": "c77b96a0f9977a0428e0a6cd2df8650b1eebe733df2dffc0015a4b09dc35d66b"
+    },
+    "source/UNIT04/DATA/COVER-U-B004.cells.txt": {
+      "bytes": 13087919,
+      "sha256": "350cd98f6ea8925ef57e6061c32993d222cde689780b106337b7d7728cf3ddea"
+    },
+    "source/UNIT04/DATA/COVER-U-B004.signs.txt": {
+      "bytes": 7556395,
+      "sha256": "22b145f2b3e9d1bf819966500a846eb6ef219a2c6048caf421fd82d8d2858f9f"
+    },
+    "source/UNIT04/DATA/COVER-U-B004.simplices.txt": {
+      "bytes": 29149795,
+      "sha256": "3317dfa875126571f14df9e35aaeb11a8fab835924ff7577bf74ef193b8fe25b"
+    },
+    "source/UNIT04/DATA/COVER-U-B005-R01.cells.txt": {
+      "bytes": 11938261,
+      "sha256": "594867aef55396ad695a2d8d0f5cd8b92ebed5fb2d88e1628dcfdc875dc15aad"
+    },
+    "source/UNIT04/DATA/COVER-U-B005-R01.signs.txt": {
+      "bytes": 6908502,
+      "sha256": "dd6aa66792e014e725e5132ef894326ce79470fa7f811e092e6601cfa767f5ca"
+    },
+    "source/UNIT04/DATA/COVER-U-B005-R01.simplices.txt": {
+      "bytes": 22862557,
+      "sha256": "a99a516781a3d9c1cd7e1e53c8253922b97883aa6dfb074cd0d823744df33d81"
+    },
+    "source/UNIT04/DATA/FORCED-ARRANGEMENT/state-105.txt": {
+      "bytes": 1723220,
+      "sha256": "70fa4a0a585f25b27f707eedb5139d35531225972241961ad27b0bf84c0945c8"
+    },
+    "source/UNIT04/DATA/FULL-ARRANGEMENT/state-143.txt": {
+      "bytes": 33849573,
+      "sha256": "cb2f8765b1d6705e842b913b9a0dbef1c61cff551ad0ff17fc7ec2dd3ecd8e0d"
+    },
+    "source/UNIT04/DATA/GLOBAL-RAY-QUADRATICS.json": {
+      "bytes": 1701711,
+      "sha256": "9dd8b265321805fee8feadb87975dfdd901541edfbdca277e693b65c597d9f93"
+    },
+    "source/UNIT04/DATA/Q-FORCED-COMPLETE.raw.txt": {
+      "bytes": 18735735,
+      "sha256": "723b88c2de48491f965ea33bd9bfd12121f797e2e702f21a05160c48d286ac59"
+    },
+    "source/UNIT04/DATA/Q-UNFORCED-COMPLETE.raw.txt": {
+      "bytes": 270980050,
+      "sha256": "b3389817adb91d787459dae3f2e752e1abc9b802cd9dd98446edf40920d237aa"
+    },
+    "source/UNIT05/DATA/C3-P-F-000000.fields.bin": {
+      "bytes": 40154608,
+      "sha256": "e7de8e44b4bc6fa3b247508659441fc975e7eb49f9284c3dd940280a1d21e1fc"
+    },
+    "source/UNIT05/DATA/C3-P-U-000000.fields.bin": {
+      "bytes": 48400032,
+      "sha256": "c9db56484889153f42ce19cc566e700a51349a3e0a45f46f5474b01f57ca92d9"
+    },
+    "source/UNIT05/DATA/C3-P-U-050000.fields.bin": {
+      "bytes": 48400032,
+      "sha256": "ad2b8d6709df1f1b7fb86125cac7b54feef3cc12ac7b4d5b26fd562a34d16f5d"
+    },
+    "source/UNIT05/DATA/C3-P-U-100000.fields.bin": {
+      "bytes": 48400032,
+      "sha256": "06f8846c245fb421123e2e55857efe660395d3696e5c16711d600174524b1b75"
+    },
+    "source/UNIT05/DATA/C3-P-U-150000.fields.bin": {
+      "bytes": 48400032,
+      "sha256": "7d83cd1f18cf03e03ff4fe4ab6e4f1b03d0b80daba4ffa3f4a5f65c07a8e4401"
+    },
+    "source/UNIT05/DATA/C3-P-U-200000.fields.bin": {
+      "bytes": 48400032,
+      "sha256": "6ac7c7597e8e09ffd3b04f7ed4ec0a99e901c4221a0cb95ab3a00859a81696e5"
+    },
+    "source/UNIT05/DATA/C3-P-U-250000.fields.bin": {
+      "bytes": 48400032,
+      "sha256": "50bdfac4bb7998bf28632f67281cf4d912be888cb9fe2028ede15f5e793b934d"
+    },
+    "source/UNIT05/DATA/C3-P-U-300000.fields.bin": {
+      "bytes": 48400032,
+      "sha256": "5e55ae282e1f7aa7372132b19adf3a8939c7112be6643332f905124c4e3d5323"
+    },
+    "source/UNIT05/DATA/C3-P-U-350000.fields.bin": {
+      "bytes": 48400032,
+      "sha256": "9dcdb3da65bf5486640527d38ec8121dba11efac70aad8189ea41a8ebd07fa21"
+    },
+    "source/UNIT05/DATA/C3-P-U-400000.fields.bin": {
+      "bytes": 48400032,
+      "sha256": "3daf68855db7735f9dae43ffe138cafba377d57e90fd1a187da747eda9dd1161"
+    },
+    "source/UNIT05/DATA/C3-P-U-450000.fields.bin": {
+      "bytes": 48400032,
+      "sha256": "6e39596a6157f9169f09b4612191eb887bc928c9a32f9f60d0a7d5e4f2e1c123"
+    },
+    "source/UNIT05/DATA/C3-P-U-500000.fields.bin": {
+      "bytes": 48400032,
+      "sha256": "e08912fc9883d46f79c1ea098d06f34f4115c6ccaf133f95149508e3faf29636"
+    },
+    "source/UNIT05/DATA/C3-P-U-550000.fields.bin": {
+      "bytes": 39895184,
+      "sha256": "64d7bf802c40b58bb9b394458f5839c21b351003619dad2e7c4cb12edf9031fc"
+    },
+    "source/UNIT05/DATA/GLOBAL-RAY-CUBICS.json": {
+      "bytes": 5614265,
+      "sha256": "1c1ad35871274d67474caf7964f9aac2235f5a028c47bf1b211fa4dbd6bed585"
+    },
+    "derived/quadratic-F.bin": {
+      "bytes": 15265408,
+      "sha256": "bb09bb6b5d6e62147a21f21041e84f1abcb20159b375b417c28f5c306b8a85a6"
+    },
+    "derived/quadratic-U.bin": {
+      "bytes": 217566784,
+      "sha256": "b4d107ae3eda6e08ca52d02b6bd41463430fdbe2bc7eb0d4e1d64dd2b43f6d5c"
+    },
+    "derived/templates.txt": {
+      "bytes": 6254991,
+      "sha256": "85e90a08a2217a73d9b611986d80b19ef2ebba74f223a03eb514ace776656781"
+    },
+    "atlas.json": {
+      "bytes": 560462,
+      "sha256": "5a6748c75e7e08d46d32cecf8909945b65f30f363f371dfaba555eb0b66de48e"
+    },
+    "local-certificate.json": {
+      "bytes": 571731,
+      "sha256": "affc43c504bc2ea45ff8ed2ce50e59e4bf6c33852f756c4e0ee809051227fce4"
+    },
+    "baseline/BASELINE-ROSTER.json": {
+      "bytes": 7632,
+      "sha256": "94ab2557666519bd633435f051c5b837520c70a610ade31406d7611614180050"
+    },
+    "baseline/INPUT.txt": {
+      "bytes": 6970,
+      "sha256": "02718e623e80a422836f35328b1936f596a2860f10fff997e6cd7057ef1d66d3"
+    }
+  },
+  "file_count": 47,
+  "bytes": 1483813110,
+  "scope": "Complete source and ready-derived numerical inputs for all 52 low-field batches, full atlas, 317-type local certificate and 17 whole-baseline inputs. No executable or operator log."
+}

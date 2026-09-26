@@ -60,3 +60,14 @@ reproduction and current source commit are recorded in the
 [rank-six verification record](../results/rank-six-coefficients/VERIFICATION.json).
 It needs no provider program, private return archive or original research path.
 Earlier tool exports and their source/verification histories remain unchanged.
+
+## Whole-rank-six source separation, 25 September 2026
+
+The new [whole-rank-six tooling guide](whole_rank_six/README.md) describes the
+finite evidence for the later theorem. The c4/c5 module above retains its
+own source map, verifier and historical execution record. Its complete
+fresh-export replay does not by itself verify the later first-coefficient
+field or the realizability implication. See the new
+[verification guide](../results/rank-six-positivity/VERIFYING.md) for those
+separate proof and execution obligations. The source maps identify exact
+curated bytes; they are custody records, not mathematical checks.

@@ -533,8 +533,18 @@
   "proof_files": 44,
   "standalone_replay": {
     "path": "replay/SOURCE-MAP.json",
-    "bytes": 20398,
-    "sha256": "f38362dc7b06c7a7398463659dee6cd9b75216840e3bc8a7aee41cd58246d6d6",
-    "scope": "Three selected modules with exact dependencies; historical count/algebra scope stated in replay/README.md."
+    "bytes": 21359,
+    "sha256": "7f6a69859342c55c66dfbe1abf6c51215408e3fa0c6d0ef57135cc19ce32b915",
+    "scope": "Three selected modules with exact dependencies; historical count/algebra scope stated in replay/README.md.",
+    "publication_refresh_history": [
+      {
+        "previous_included_sha256": "f38362dc7b06c7a7398463659dee6cd9b75216840e3bc8a7aee41cd58246d6d6",
+        "current_included_sha256": "59ba8cfe6903da074a726b19cf06a7e011ea2d87c6c7c189c6c0642dd2ef5799"
+      },
+      {
+        "previous_included_sha256": "59ba8cfe6903da074a726b19cf06a7e011ea2d87c6c7c189c6c0642dd2ef5799",
+        "current_included_sha256": "7f6a69859342c55c66dfbe1abf6c51215408e3fa0c6d0ef57135cc19ce32b915"
+      }
+    ]
   }
 }

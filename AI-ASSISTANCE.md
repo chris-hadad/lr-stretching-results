@@ -1,8 +1,9 @@
 # AI assistance and the research process
 
 This research has been developed since July 2026 through sustained collaboration
-between Chris Hadad and several AI models, working across Codex, Claude Code
-and the ChatGPT app. AI systems have contributed substantial mathematics:
+between Chris Hadad and several AI models, working across Codex, Claude-based
+research workflows and the ChatGPT app. AI systems have contributed substantial
+mathematics:
 proposed constructions, conjectures, counterexamples to intermediate claims,
 proof arguments and exact computational methods. They have also built software,
 challenged proposed results and assembled the evidence published here.
@@ -13,11 +14,11 @@ resources and decides what to share. The resulting work combines human
 direction with extensive AI-originated research and machine-executed exact
 computation.
 
-This account covers July through **14 September 2026**. It summarizes the
+This account covers July through **25 September 2026**. It summarizes the
 project's working records and Chris's model and session history. The
 [provenance page](PROVENANCE.md) gives result-specific contributions and
-independence limits; [METHODS.md](METHODS.md) explains the mathematical route
-to the finite-box proof. The linked proofs and verification records supply
+independence limits; [METHODS.md](METHODS.md) explains the mathematical routes
+to the whole-rank and finite-box proofs. The linked proofs and verification records supply
 the evidence for individual results.
 
 - [How the program developed](#how-the-program-developed)
@@ -66,13 +67,17 @@ into one current overview. Sustained GPT 6 Pro work in the ChatGPT app added
 constructions, proof developments, data and programs, which the local research
 environments could investigate and check.
 
-The original search eventually yielded a
+The original search yielded a
 [computer-assisted positivity proof for the complete finite box](results/finite-box/README.md).
-The broader program continues: the
-[rank-six fourth- and fifth-coefficient result](results/rank-six-coefficients/README.md)
-is a further partial advance, while unrestricted positivity and an ordinary
-negative coefficient outside the proved box remain open. These outcomes
-required changes of mathematical strategy as well as more computation.
+Later work accepted [whole ordinary-rank-at-most-six coefficient
+nonnegativity](results/rank-six-positivity/README.md) at every size and boundary.
+Its linear-coefficient proof joins finite original normal fields, saturated
+lattice calculations and a realizability argument that removes zero-weight
+normal supports from the sign test. The earlier
+[fourth- and fifth-coefficient module](results/rank-six-coefficients/README.md)
+remains a separately useful certificate. Rank seven and unrestricted KTT
+positivity remain open. These outcomes required changes of mathematical
+strategy as well as more computation.
 
 ## Models and research environments
 
@@ -84,7 +89,7 @@ and several generations of models.
 | Environment | Models used in this program | Main kinds of work |
 |---|---|---|
 | Codex | GPT 5.6 and GPT 6 | Original mathematical research, literature investigation, experiment and tool design, exact computation, proof reconstruction, review and integration of the research record |
-| Claude Code | Fable 5 and Fable 5.1 | A continuing mathematical research lane, including geometric and counting methods, structural families, computational experiments, software development and criticism of proposed arguments |
+| Claude-based research workflows | Fable 5 and Fable 5.1; Opus 5.5 in the recorded September wildcard consultation, exploration and explicitly identified verification reports | Geometric and counting methods, structural families, route generation, computational experiments, software development and criticism of proposed arguments |
 | ChatGPT app | GPT 5.6 Pro and GPT 6 Pro | Human-launched research sessions with prepared mathematical context; constructions, extended proof development, challenges to the current approach, numerical data and proposed programs |
 
 The non-Pro models were used at **xhigh or max**, depending on the session.
@@ -102,7 +107,21 @@ a fresh approach. A result's specific attribution belongs with that result;
 it cannot be inferred just from the application in which a later check ran.
 The Claude-led environment has also used Codex coding and review seats, so
 even a single local research lane can contain contributions from both model
-families.
+families. In the September wildcard record, the `consult:codex` seat appears
+as `claude-sonnet-5` in transport metadata, while its preserved report names
+`gpt-6-astra` as the reasoning backend. The wrapper label is not evidence that
+Sonnet supplied the mathematical route. No lower-level execution trace was
+independently verified for this account.
+
+The rank-six native investigation also used four fresh verification seats
+dispatched on the `opus` alias. Two reports explicitly identify Opus 5.5:
+one checked 44,979 distinct sampled supports by exact certificates; the other
+independently reproduced the complete 27,230,728-row classification and domain
+count. The other two seats examined the geometric lemma and bounded whole-count
+identities. Their precise independence limits and unresolved model-version
+details are recorded in the [rank-six contribution table](results/rank-six-positivity/CONTRIBUTIONS.md#model-and-harness-evidence).
+These checks were substantive contributions before Codex's later independent
+adoption; they are not all attributed to the orchestration model.
 
 ## Chris's role as research director
 
@@ -352,10 +371,45 @@ keeping the corresponding full high-degree polynomials uncomputed.
 mathematical compensation argument with exact finite fields. The portable
 verifier reconstructs the relevant local constants and geometry and checks
 the complete inequalities. The proof explains why those finite predicates
-apply at every area and boundary. Remaining lower coefficients are left
-open, and certificate-rechecking cost is reported separately from discovery
-cost. This illustrates why a useful public result needs both an argument
-and a way to inspect its finite premises.
+apply at every area and boundary. That dated module preceded the later
+whole-rank-six theorem; certificate-rechecking cost is reported separately
+from discovery cost. This illustrates why a useful public result needs both an
+argument and a way to inspect its finite premises.
+
+**A whole-rank-six theorem by restricting a sufficient system.** An earlier exact
+normal-cycle field treated every abstract nine-normal support as a possible
+edge term. Opus 5.5's O1 consultation proposed checking which supports an
+original hive can actually realize; its E2 exploration developed an exact
+rational field on the retained supports. Fable 5.1 orchestrated and audited
+the wildcard work. The subsequent Codex/Astra A54 session independently
+proved the pruning implication, reconstructed the complete original normal
+system and checked the exact field against the accepted scalar and lattice
+records. The [whole theorem](results/rank-six-positivity/PROOF.md) derives
+
+    c1(H) >= (1/2000000) * sum_(actual edges F of H) length_Z(F)
+
+for every nonempty whole hive of ordinary rank at most six. Positive-weight
+cells are retained before the field is tested; excluded negative local rows
+contribute zero actual edge weight. Previously accepted coefficient bounds
+complete nonnegativity through the actual degree. This was iterative discovery,
+audit and independent adoption, with shared analytic premises; it was not a
+controlled model comparison, formal Lean proof or human peer review. The
+[contribution map](results/rank-six-positivity/CONTRIBUTIONS.md) separates the
+originating idea, finite certificate and later checks.
+
+**Strengthening the explanation during publication.** A further GPT 6 Pro
+investigation proved an all-rank legal-realization converse and completed a
+103-identity rank-six closure calculus. The earlier short calculus failed at
+a six-row seed; the repaired presentation comes with a compact propositional
+certificate for every physical-row set. Codex independently checked the
+argument, wrote a different certificate verifier and constructive interface,
+and exhausted all smaller seeds. The geometric check now takes about five
+seconds without a SAT solver or polyhedral library. Separately, complete
+scalar regeneration and a small independent top-coefficient calculation
+strengthened the main conclusion to strict positivity through actual degree.
+The [geometry account](results/rank-six-positivity/GEOMETRY.md) and
+[verification record](tooling/whole_rank_six/VERIFICATION.json) retain the exact
+boundaries between those contributions.
 
 ## What has worked and what required correction
 

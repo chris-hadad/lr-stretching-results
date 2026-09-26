@@ -53,3 +53,19 @@ The full parent vectors, two unused parameter values in each determining space a
 The classical multivariate theorem is stated in Haase, Juhnke-Kubitzke, Sanyal and Theobald, [Mixed Ehrhart polynomials](https://arxiv.org/abs/1509.02254). Whole stabilization and the full saturated-fiber argument retain their separate hypotheses as proved above. General rank-six low-dimensional quotients outside these families remain open.
 
 The quantitative quotient face-volume margins above concern the original table/cap quotient. The whole-LR consequence uses equality of polynomial counts to transfer positivity; it does not transfer that margin to a potentially different collection of LR quotient faces.
+
+## Current context, 25 September 2026
+
+The earlier family proof above already covers every initial and intermediate
+parent **inside its two declared families**. Separately, the accepted global
+rank-at-most-six coefficient bounds establish strict ordinary-coefficient
+positivity through actual degree for every positive-dimensional entire
+stabilized saturated quotient along a feasible whole direction whose final
+ordinary LR rank is at most six; a point quotient has polynomial one. This
+does not assign an ordinary LR rank to the quotient. Those bounds also give
+an eventual positive entire parent tail along such directions, under the
+stated stabilization and size threshold. Quotient positivity alone does not
+establish positivity for an arbitrary initial parent. The later
+[whole-rank-six theorem](../rank-six-positivity/README.md) separately protects
+all legal initial ordinary-rank-at-most-six parents. General rank-seven
+parents and unrestricted KTT remain open.

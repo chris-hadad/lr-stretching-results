@@ -1,0 +1,64 @@
+{
+  "entries": {
+    "check_analytic.cpp": {
+      "changed_for_portability": false,
+      "original_path": "methods/frontier031-2026-09-16/c3-verification/check_analytic.cpp",
+      "original_sha256": "e4f337932d1b4612155ecb8f68c0bbde4ade940e190e1f692fa5020af3d7573e",
+      "portable_bytes": 12283,
+      "portable_sha256": "e4f337932d1b4612155ecb8f68c0bbde4ade940e190e1f692fa5020af3d7573e"
+    },
+    "check_field.py": {
+      "adapter_transformations": [
+        "Reject optimized Python before load-bearing assertions or data reads."
+      ],
+      "changed_for_portability": true,
+      "original_path": "methods/frontier031-2026-09-16/c3-verification/check_field.py",
+      "original_sha256": "f2013c7bbec904cb1bcb12217bdf17385d4ac81254d8ace54fe948b7221b5c3e",
+      "portable_bytes": 8201,
+      "portable_sha256": "d6d37fa94d6ab0235b8c557f6b9868ebadf5f64a7cf00f7f3456bd9b5b92f57e"
+    },
+    "check_geometry.cpp": {
+      "changed_for_portability": false,
+      "original_path": "methods/frontier031-2026-09-16/c3-verification/check_geometry.cpp",
+      "original_sha256": "70115e3a4086a094eb1a3bbfd1cca39832bc84383f9431250c57a0f1472c40f6",
+      "portable_bytes": 10544,
+      "portable_sha256": "70115e3a4086a094eb1a3bbfd1cca39832bc84383f9431250c57a0f1472c40f6"
+    },
+    "field_original_v1.cpp": {
+      "changed_for_portability": true,
+      "original_path": "methods/astra017-2026-09-17/correction/full-q8/field_original_v1.cpp",
+      "original_sha256": "0a066ab1308015165e85d593fdb37ec68f05d5737986677da7a8aad6472582ed",
+      "portable_bytes": 8771,
+      "portable_sha256": "8713b83c4591ff96f8e0e0a021760d47437bc4c37a76841e896af8be92999ebe"
+    },
+    "h8_check_range.cpp": {
+      "changed_for_portability": true,
+      "original_path": "methods/astra017-2026-09-17/h8/adapter-v3/check_range.cpp",
+      "original_sha256": "8eab9782f1e3f7897223dde141868d935c553f17df79fd187434fb925b0c1e24",
+      "portable_bytes": 14693,
+      "portable_sha256": "81e2b9927a119e81193107d528d61a8a6b1edbb0ffdff35dcc168c57220103d3"
+    },
+    "operator.cpp": {
+      "changed_for_portability": false,
+      "original_path": "methods/astra015-2026-09-17/q8-calibration/operator.cpp",
+      "original_sha256": "9999b1fb1e96c32da13a9fb75e025bc4cbffd975d07661566ff12a7cec6e38d5",
+      "portable_bytes": 10163,
+      "portable_sha256": "9999b1fb1e96c32da13a9fb75e025bc4cbffd975d07661566ff12a7cec6e38d5"
+    },
+    "q8_indexed_v3.cpp": {
+      "changed_for_portability": false,
+      "original_path": "methods/astra016-2026-09-17/q8/q8_indexed_v3.cpp",
+      "original_sha256": "14153edf5a24f20fd992d68cbe3d7aae020bc8b530029927be6f290b6e9fde83",
+      "portable_bytes": 17768,
+      "portable_sha256": "14153edf5a24f20fd992d68cbe3d7aae020bc8b530029927be6f290b6e9fde83"
+    },
+    "rhs_range_v1.cpp": {
+      "changed_for_portability": true,
+      "original_path": "methods/astra017-2026-09-17/correction/full-q8/rhs_range_v1.cpp",
+      "original_sha256": "c3a02208607c9999515a54306b6daab475b5eb18c2009c175474e609e1fc7d75",
+      "portable_bytes": 4081,
+      "portable_sha256": "16e0e8d055016eadfbc0e8a6d26e4734bbb6496d07f2dae643469e1d09c0bf5e"
+    }
+  },
+  "schema": "rank-six-c2-c3-portable-sources-v1"
+}

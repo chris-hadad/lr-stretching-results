@@ -51,7 +51,7 @@
       "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained."
     },
     {
-      "bytes": 3545,
+      "bytes": 4167,
       "editorial_baseline": {
         "bytes": 2906,
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
@@ -67,11 +67,17 @@
       "path": "CURRENT-SOURCES.md",
       "previous_included_sha256": "6b13e686b507cd3546243c80bcb97387d9c911cfc17169f5760726d39d6828db",
       "prior_included_sha256": "6ad9349fea88b0ce73ca818ccb8543d2824a1c8ad383d7be010c49711c3c7154",
-      "sha256": "519160c397accdc4009cb664708e9243b0849e82356e9bb59e7e8793a46558d5",
-      "transformation": "Current navigation/source explanation for the rank-six addition; prior mathematical/executable bytes retained elsewhere at their original identities."
+      "sha256": "3d6769a38357b1c84b672e7f44b252823b0475ecb9ee99cb35960fea6ae73532",
+      "transformation": "Current navigation/source explanation for the rank-six addition; prior mathematical/executable bytes retained elsewhere at their original identities.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "519160c397accdc4009cb664708e9243b0849e82356e9bb59e7e8793a46558d5",
+          "current_included_sha256": "3d6769a38357b1c84b672e7f44b252823b0475ecb9ee99cb35960fea6ae73532"
+        }
+      ]
     },
     {
-      "bytes": 9241,
+      "bytes": 9790,
       "editorial_baseline": {
         "bytes": 8835,
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
@@ -87,15 +93,27 @@
       "path": "PROOFS.md",
       "previous_included_sha256": "cbf73b5bafc26e222247c00b29cd2d74ae27d8180dcd2507519c3e64bd6e0ec3",
       "previous_version": {
-        "bytes": 7711,
+        "bytes": 7753,
         "path": "history/previous-tooling/PROOFS.md",
-        "sha256": "400d70b272a50ae2ba1f72684d7dbafdf31666570c78874354e4d2742e629acd"
+        "sha256": "2917181a86496e7d0c3c82431828060a51fe38a8eba67df6b2eae0819a68d6b1",
+        "publication_refresh_history": [
+          {
+            "previous_included_sha256": "400d70b272a50ae2ba1f72684d7dbafdf31666570c78874354e4d2742e629acd",
+            "current_included_sha256": "2917181a86496e7d0c3c82431828060a51fe38a8eba67df6b2eae0819a68d6b1"
+          }
+        ]
       },
-      "sha256": "92c47cd0ae7da6bc87d0c6ad729faa501e016f4e0fd68e366558e623362f2b06",
-      "transformation": "Current navigation/source explanation for the rank-six addition; prior mathematical/executable bytes retained elsewhere at their original identities."
+      "sha256": "6886a10acc1f31416c24951df40a4ae652ae4f37042cf1bb6ed040ce2d87becc",
+      "transformation": "Current navigation/source explanation for the rank-six addition; prior mathematical/executable bytes retained elsewhere at their original identities.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "92c47cd0ae7da6bc87d0c6ad729faa501e016f4e0fd68e366558e623362f2b06",
+          "current_included_sha256": "6886a10acc1f31416c24951df40a4ae652ae4f37042cf1bb6ed040ce2d87becc"
+        }
+      ]
     },
     {
-      "bytes": 9835,
+      "bytes": 12730,
       "current_update": "Three-letter family reader/source integration, 14 September 2026.",
       "editorial_baseline": {
         "bytes": 7737,
@@ -112,12 +130,28 @@
       "path": "README.md",
       "previous_included_sha256": "68693448598608f9f3cd63ff3e1558de5bca89f70e25b14a27b6aaf083bd195d",
       "previous_version": {
-        "bytes": 5755,
+        "bytes": 5749,
         "path": "history/previous-tooling/README.md",
-        "sha256": "cae532d5e552a7daaeab76c582816042c9d57e2c5393d946abea8d6a82035578"
+        "sha256": "17cdd9c1a47bcfc7ad6836cedf79ccd1137add3e0d9ad36cc9ab8f88e0df4904",
+        "publication_refresh_history": [
+          {
+            "previous_included_sha256": "cae532d5e552a7daaeab76c582816042c9d57e2c5393d946abea8d6a82035578",
+            "current_included_sha256": "17cdd9c1a47bcfc7ad6836cedf79ccd1137add3e0d9ad36cc9ab8f88e0df4904"
+          }
+        ]
       },
-      "sha256": "45c8e865eb154c7a044bd3d306529dbc1ee5ea269c74129759356b4b2daa060c",
-      "transformation": "Current navigation/source explanation for the rank-six addition; prior mathematical/executable bytes retained elsewhere at their original identities."
+      "sha256": "57f90eed2991ddc2ea4c00de740c5788edb79836b02692046f29a75c7f456376",
+      "transformation": "Current navigation/source explanation for the rank-six addition; prior mathematical/executable bytes retained elsewhere at their original identities.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "45c8e865eb154c7a044bd3d306529dbc1ee5ea269c74129759356b4b2daa060c",
+          "current_included_sha256": "620ba8eebc673c72226ff9ae5bd14d95bbef6c58803a3de4e18ce26c3409a7ee"
+        },
+        {
+          "previous_included_sha256": "620ba8eebc673c72226ff9ae5bd14d95bbef6c58803a3de4e18ce26c3409a7ee",
+          "current_included_sha256": "57f90eed2991ddc2ea4c00de740c5788edb79836b02692046f29a75c7f456376"
+        }
+      ]
     },
     {
       "bytes": 2374,
@@ -1021,32 +1055,56 @@
       "transformation": "Exact reviewed standalone rank-six source copy"
     },
     {
-      "bytes": 8868,
+      "bytes": 9496,
       "origin": {
         "repository": "stretched-lr-research",
         "source": "code/rank6_certificates/PROOF.md",
         "source_bytes": 8868,
         "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
         "source_sha256": "cfe567198b7f3ef3c497a34e937baa3b40ee1056ef8b1aaf7d904b5058bba857",
-        "transformation": "Exact reviewed and clean-export-reproduced module"
+        "transformation": "Current public editorial update; original-source hash remains historical provenance and no current byte equality is asserted.",
+        "transformation_history": [
+          {
+            "included_sha256": "cfe567198b7f3ef3c497a34e937baa3b40ee1056ef8b1aaf7d904b5058bba857",
+            "transformation": "Exact reviewed and clean-export-reproduced module"
+          }
+        ]
       },
       "path": "rank6_certificates/PROOF.md",
-      "sha256": "cfe567198b7f3ef3c497a34e937baa3b40ee1056ef8b1aaf7d904b5058bba857",
-      "transformation": "Exact reviewed standalone rank-six source copy"
+      "sha256": "630f916101a4505196cc256ed7bda713673cfb07c990a62fb125eaf24388aecf",
+      "transformation": "Exact reviewed standalone rank-six source copy",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "cfe567198b7f3ef3c497a34e937baa3b40ee1056ef8b1aaf7d904b5058bba857",
+          "current_included_sha256": "630f916101a4505196cc256ed7bda713673cfb07c990a62fb125eaf24388aecf"
+        }
+      ]
     },
     {
-      "bytes": 5716,
+      "bytes": 5813,
       "origin": {
         "repository": "stretched-lr-research",
         "source": "code/rank6_certificates/README.md",
         "source_bytes": 5716,
         "source_commit": "37fa623176a0dcabff414f54b038fc206ae13c90",
         "source_sha256": "abbd19372f56562e5fbd91a3c484f6c60c4d854b8b98e2d488aa9b8b99d0ac9b",
-        "transformation": "Exact reviewed and clean-export-reproduced module"
+        "transformation": "Current public editorial update; original-source hash remains historical provenance and no current byte equality is asserted.",
+        "transformation_history": [
+          {
+            "included_sha256": "abbd19372f56562e5fbd91a3c484f6c60c4d854b8b98e2d488aa9b8b99d0ac9b",
+            "transformation": "Exact reviewed and clean-export-reproduced module"
+          }
+        ]
       },
       "path": "rank6_certificates/README.md",
-      "sha256": "abbd19372f56562e5fbd91a3c484f6c60c4d854b8b98e2d488aa9b8b99d0ac9b",
-      "transformation": "Exact reviewed standalone rank-six source copy"
+      "sha256": "ca417fa34cfed09e32699970f589856e727b5560068d200b5e101a1f0857cb0d",
+      "transformation": "Exact reviewed standalone rank-six source copy",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "abbd19372f56562e5fbd91a3c484f6c60c4d854b8b98e2d488aa9b8b99d0ac9b",
+          "current_included_sha256": "ca417fa34cfed09e32699970f589856e727b5560068d200b5e101a1f0857cb0d"
+        }
+      ]
     },
     {
       "bytes": 44846862,
@@ -1598,17 +1656,29 @@
       "sha256": "529d249e2c288ceedc5cbc4f5a90c56715cd19caa7d4de297b81921627186f20"
     },
     {
-      "bytes": 13780,
+      "bytes": 14341,
       "origin": {
         "repository": "stretched-lr-research",
         "source": "code/three_letter_certificates/PROOF.md",
         "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
         "source_sha256": "b6802299ba7ba19e401ba1e9aa3dcd03ab70516920fd749b88c3bb47f0294148",
-        "transformation": "none; exact curated source bytes"
+        "transformation": "Current public editorial update; original-source hash remains historical provenance and no current byte equality is asserted.",
+        "transformation_history": [
+          {
+            "included_sha256": "b6802299ba7ba19e401ba1e9aa3dcd03ab70516920fd749b88c3bb47f0294148",
+            "transformation": "none; exact curated source bytes"
+          }
+        ]
       },
       "path": "three_letter_certificates/PROOF.md",
       "provenance": "Exact curated three-letter mathematical module; its module source map binds the canonical source.",
-      "sha256": "b6802299ba7ba19e401ba1e9aa3dcd03ab70516920fd749b88c3bb47f0294148"
+      "sha256": "5451b108718997c0cf2df4d766c681c6be66b082b9ba36b8c7743f685e0ebdc9",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "b6802299ba7ba19e401ba1e9aa3dcd03ab70516920fd749b88c3bb47f0294148",
+          "current_included_sha256": "5451b108718997c0cf2df4d766c681c6be66b082b9ba36b8c7743f685e0ebdc9"
+        }
+      ]
     },
     {
       "bytes": 3919,
@@ -1637,10 +1707,16 @@
       "sha256": "9b54a0035fe8b9da8d19116c3f976777aeb1753bb7f96c71734826b87c4ae7c0"
     },
     {
-      "bytes": 25696,
+      "bytes": 26302,
       "path": "three_letter_certificates/SOURCE-MAP.json",
       "provenance": "Exact curated three-letter mathematical module; its module source map binds the canonical source.",
-      "sha256": "0708316e27d9a84792575523aaeaff5fc32636f4ca6d5b5c9dbdcadd434744d2"
+      "sha256": "b48c7070832c7b530f29449395c8e2635f1b0802eebaf0006aba6afa0e59fa96",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "0708316e27d9a84792575523aaeaff5fc32636f4ca6d5b5c9dbdcadd434744d2",
+          "current_included_sha256": "b48c7070832c7b530f29449395c8e2635f1b0802eebaf0006aba6afa0e59fa96"
+        }
+      ]
     },
     {
       "bytes": 73,
@@ -2251,28 +2327,46 @@
       "sha256": "9f565d31e9d6e2f844a7e846a44a3eef8145e8677cf9b0b4e936bbd3d0bdbff0"
     },
     {
-      "bytes": 19099,
+      "bytes": 19637,
       "current_update": "14 September whole-family reader/source update; earlier origin fields retain their historical scope.",
       "path": "transport_certificates/PROOF.md",
       "previous_included_sha256": "74e68368bb2cef53d3eecfaf3173994c2ac94ec5381c57bb7e337a9fd6d7efe8",
       "provenance": "Current exact curated mathematical member; specific new module source maps bind original source bytes.",
-      "sha256": "1e6569af942d34288378ef6a97de1caefba7adea02cebb791d4e6cd25c6d73fa"
+      "sha256": "873e8c9cedc6f17441caf99845ca89267a85ab6376e1c57cac40d9ddc7112931",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "1e6569af942d34288378ef6a97de1caefba7adea02cebb791d4e6cd25c6d73fa",
+          "current_included_sha256": "873e8c9cedc6f17441caf99845ca89267a85ab6376e1c57cac40d9ddc7112931"
+        }
+      ]
     },
     {
-      "bytes": 3868,
+      "bytes": 4052,
       "current_update": "14 September whole-family reader/source update; earlier origin fields retain their historical scope.",
       "path": "transport_certificates/README.md",
       "previous_included_sha256": "d40e9fef9ad0509acb95ed7201372667d3ad4a806a2065b6f34f7c09bdb0a12f",
       "provenance": "Current exact curated mathematical member; specific new module source maps bind original source bytes.",
-      "sha256": "cc43b591bb11724e0ef464016543315507821ed9567c0b2f94465f50dc7ac7ef"
+      "sha256": "2e89742ef42047b3b2cb638672ebb9a447506363268fc6e0edb3bc024b56e35f",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "cc43b591bb11724e0ef464016543315507821ed9567c0b2f94465f50dc7ac7ef",
+          "current_included_sha256": "2e89742ef42047b3b2cb638672ebb9a447506363268fc6e0edb3bc024b56e35f"
+        }
+      ]
     },
     {
-      "bytes": 5080,
+      "bytes": 6292,
       "current_update": "14 September whole-family reader/source update; earlier origin fields retain their historical scope.",
       "path": "transport_certificates/SOURCE-MAP.json",
       "previous_included_sha256": "db87fe8877ef14b8a9151a0fe9fc0480e05a58474ac424848a3dcdb4d1383480",
       "provenance": "Current exact curated mathematical member; specific new module source maps bind original source bytes.",
-      "sha256": "db747a71d468c951dd2f3db9b42de390896b8bd2f5468ae4881548543e8edefd"
+      "sha256": "b8bb52c9da75ec2f0aa5b65ca9bc42269794473b4ffbc19b4e4dcf2411c8f0e7",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "db747a71d468c951dd2f3db9b42de390896b8bd2f5468ae4881548543e8edefd",
+          "current_included_sha256": "b8bb52c9da75ec2f0aa5b65ca9bc42269794473b4ffbc19b4e4dcf2411c8f0e7"
+        }
+      ]
     },
     {
       "bytes": 11050,
@@ -2317,6 +2411,738 @@
       "path": "transport_certificates/verify.py",
       "provenance": "Current exact curated mathematical member; specific new module source maps bind original source bytes.",
       "sha256": "9a927ca5061ce76bcd5f5f9eed9fd4b449471c1e8a9885b43cab596d458f820d"
+    },
+    {
+      "path": "structural_certificates/DATA-ASSET.json",
+      "bytes": 6667223,
+      "sha256": "b4c705e887ea5493b178932bae4b88774bb1ba1601a9128ef2995725f4f1ac18",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "structural_certificates/DEPENDENCIES.md",
+      "bytes": 4431,
+      "sha256": "91997c95cddfdacbdfe90ca76df8d9a6fa1765b3c4789a8a0edf5a658d36a785",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "structural_certificates/JOBS.json",
+      "bytes": 487406,
+      "sha256": "fbf97cd23e7325f3775bf837731667ad1eabe938adbe38b0f9b245ac26337276",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "structural_certificates/README.md",
+      "bytes": 5154,
+      "sha256": "4a4d48fc8fb4af9dcf985d4de96e788821534a0cb720e6cfbefb150544bf601c",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "a46f8de20049b57e7beb1255c0b9be7746d5032b4c3c31ceb2cd1b93b6701d8c",
+          "current_included_sha256": "c1e4104e350ce0196233d7e9c10baa387917b96a714f6abb79ec6065a254b68e"
+        },
+        {
+          "previous_included_sha256": "c1e4104e350ce0196233d7e9c10baa387917b96a714f6abb79ec6065a254b68e",
+          "current_included_sha256": "4a4d48fc8fb4af9dcf985d4de96e788821534a0cb720e6cfbefb150544bf601c"
+        }
+      ]
+    },
+    {
+      "path": "structural_certificates/SOURCE-MAP.json",
+      "bytes": 10953,
+      "sha256": "13072f62334587e54e4b7df847cf75876ac1325068d9b96a5303d75eb0a85f85",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "56d9f1a622c10ed84a981f6dda559c09cf557171479e81edc43440f074dfbd75",
+          "current_included_sha256": "dcc678c8326e5e30272e48b6447fa185b576f657f99c1a0e6dd1ef53ec8ec671"
+        },
+        {
+          "previous_included_sha256": "dcc678c8326e5e30272e48b6447fa185b576f657f99c1a0e6dd1ef53ec8ec671",
+          "current_included_sha256": "13072f62334587e54e4b7df847cf75876ac1325068d9b96a5303d75eb0a85f85"
+        }
+      ]
+    },
+    {
+      "path": "structural_certificates/VERIFICATION.json",
+      "bytes": 3539,
+      "sha256": "7f9758fbcb732dd97476a1e312b3cb67ab71fd162a43d5061c7ac8b8d7a08170",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "93991ac70d40907a4bd0c60b47f3c1fffc83cc7849118d272e6cc251fe59e705",
+          "current_included_sha256": "7f9758fbcb732dd97476a1e312b3cb67ab71fd162a43d5061c7ac8b8d7a08170"
+        }
+      ]
+    },
+    {
+      "path": "structural_certificates/f025/FORCING-SOURCE-MAP.json",
+      "bytes": 6122,
+      "sha256": "b8f68af011d4ffe56505617481edd568c0592adf4ac1c32c339a28eb59c1ae30",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "b178e922e7eb03f3489fb33ddedc22add34c7ba05ca1a96695cff672063f59d6",
+          "current_included_sha256": "5bf9134e92f8d9ac734d87ee5048c436ad46399f57cd37b997db10475769e080"
+        },
+        {
+          "previous_included_sha256": "5bf9134e92f8d9ac734d87ee5048c436ad46399f57cd37b997db10475769e080",
+          "current_included_sha256": "74ca5cc3fadfd78beac936dd98787b9a4faadd22c969c3e83bbb9a845b667c6b"
+        },
+        {
+          "previous_included_sha256": "74ca5cc3fadfd78beac936dd98787b9a4faadd22c969c3e83bbb9a845b667c6b",
+          "current_included_sha256": "b8f68af011d4ffe56505617481edd568c0592adf4ac1c32c339a28eb59c1ae30"
+        }
+      ]
+    },
+    {
+      "path": "structural_certificates/f025/FORCING-VERIFICATION.json",
+      "bytes": 7125,
+      "sha256": "00035f5d9b5c27b755258212a875bd7ed752b256a761f0a9685bd265a3d974fd",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "85917dc53a2df23b5756a4ba2f43e67bb4376e73074756ecbcbe0c07f9882be6",
+          "current_included_sha256": "00035f5d9b5c27b755258212a875bd7ed752b256a761f0a9685bd265a3d974fd"
+        }
+      ]
+    },
+    {
+      "path": "structural_certificates/f025/FORCING.md",
+      "bytes": 10259,
+      "sha256": "30e9571138793dddc367410649d6898bc01e9a55f93216f800b05bba655085db",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "structural_certificates/f025/README.md",
+      "bytes": 945,
+      "sha256": "b238eb0e0da3ff826ba5ebf8070fcb95d0d44c5d52c2b97ed15b5bab28c17ffd",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "structural_certificates/f025/forcing_controls.py",
+      "bytes": 5838,
+      "sha256": "61dbe9e5323b9c4474eb3f4eee4a9f7f4009c2a63526fb9bc5ed44ab60414d27",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "structural_certificates/f025/forcing_hive.py",
+      "bytes": 4406,
+      "sha256": "95c3d07d37f2896981d81583176984995c1d119d46ba1487a64336bbee48bb6c",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_update_note": "Remove only extra final blank lines after the complete staged whitespace check; mathematical content and Python AST unchanged. Earlier source identities remain historical.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "cbe690a304b67fcc3c7049d3619e01e9813c91186b3315a59c999f953ac1d265",
+          "current_included_sha256": "95c3d07d37f2896981d81583176984995c1d119d46ba1487a64336bbee48bb6c"
+        }
+      ]
+    },
+    {
+      "path": "structural_certificates/f025/forcing_model.py",
+      "bytes": 7653,
+      "sha256": "d8c242904f12dce24623b48cd0e0fe53740aa4f424431a8ea471c391d3079557",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "structural_certificates/f025/forcing_rows.py",
+      "bytes": 1773,
+      "sha256": "a63d58ac07cf14bcc549cdf0573069bf4526a7b977424daad3e759e99a0212be",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_update_note": "Remove only extra final blank lines after the complete staged whitespace check; mathematical content and Python AST unchanged. Earlier source identities remain historical.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "3ea1c575c102ed1d4afe04eb82217c1835b4864ec996a086eee3719384a80633",
+          "current_included_sha256": "a63d58ac07cf14bcc549cdf0573069bf4526a7b977424daad3e759e99a0212be"
+        }
+      ]
+    },
+    {
+      "path": "structural_certificates/f025/verify_forcing.py",
+      "bytes": 18526,
+      "sha256": "722e6f9e3c04ba25e0f4b0c44272039892dfb4f4e953eb77963f796890c6f99f",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_update_note": "Repaired bounded child launch, cancellation and process-group cleanup; preserved mathematical bodies and exact data. Optimization refusal remains explicit where assertions are used.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "f81f390e5804a7138521bba242edb57ee62d2458fb81fadcfe707bf12ac620e3",
+          "current_included_sha256": "722e6f9e3c04ba25e0f4b0c44272039892dfb4f4e953eb77963f796890c6f99f"
+        }
+      ]
+    },
+    {
+      "path": "structural_certificates/normal_checker_tests.py",
+      "bytes": 19836,
+      "sha256": "01e0d844185327f1e56d8a05f98a1a3f8c6c2033ffb3e60d2f7ab0785cb66932",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "structural_certificates/pro027_mask_tests.py",
+      "bytes": 26501,
+      "sha256": "234608610f9539d1a84758d0eb310d5cf995b3e934f43836498e167c93613a2e",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "structural_certificates/public_controls.py",
+      "bytes": 8303,
+      "sha256": "f9f1a6eb604113b4505a03b36a2ac31a92109eb990ee18dd3f90c34cdf43f4de",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "structural_certificates/reader_replay.py",
+      "bytes": 13041,
+      "sha256": "48acb5149cd902a36a0f4a9310cd7a11a4330031331447d30c6b1f1442ba9ad3",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_update_note": "Added handled flag-only cancellation and a bounded polling supervisor before data/checker child creation, with exact cleanup and handler restoration; accepted mathematical engines and data are unchanged.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "a61607f512bf77662d74e363cf7c8f914d37b56bcc617d5171edbe503e479624",
+          "current_included_sha256": "48acb5149cd902a36a0f4a9310cd7a11a4330031331447d30c6b1f1442ba9ad3"
+        }
+      ]
+    },
+    {
+      "path": "structural_certificates/restore.py",
+      "bytes": 8855,
+      "sha256": "43ffbaa512cbb5eb9fe8de96cf8422f552ce9be56822c32cd1f7da8e41093b3f",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "structural_certificates/runtime.py",
+      "bytes": 3625,
+      "sha256": "528ca90f1840c373662b06f5fcd8e18030db6a0bad89f0e039503c320b2fb0c6",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_update_note": "Repaired launch-time, repeated-signal and handler-restoration cancellation in the shared main-thread child supervisor; group_exists and stop_group retain their prior exact AST bodies. All four current runtime copies are byte-identical.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "280055b94bf0c59ce0fbb6ad58c96de8130379c8c300e7556eadb5d562e7f089",
+          "current_included_sha256": "528ca90f1840c373662b06f5fcd8e18030db6a0bad89f0e039503c320b2fb0c6"
+        }
+      ]
+    },
+    {
+      "path": "structural_certificates/verify_normal_certificates.py",
+      "bytes": 52537,
+      "sha256": "580de0e067be93d0d0c96b2d85acb4c11ef5b7996647552f3717a452c0c40420",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "structural_certificates/verify_pro027_masks.py",
+      "bytes": 93085,
+      "sha256": "bca0fefb46a54edba559278b0e1ca4f34722686b1b2fbc49cad7771801f32efe",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/C1-INPUTS.json",
+      "bytes": 254456,
+      "sha256": "f90ac0a3698f89d227e811a6c5657efe9b6cd13e935d0608aaa3527b3053f03d",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/DATA-ASSETS.json",
+      "bytes": 435947,
+      "sha256": "3a51b860088963634ced33a62c8c92fc5c523fb00fe30be2b3461dc33fc5582e",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/DATA-SMALL.json",
+      "bytes": 1311,
+      "sha256": "b945dc63fc396ba029f6b46bc8ee49a86f87d88dd2631e83707d23cc588e65bd",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/GEOMETRY-INPUTS.json",
+      "bytes": 494,
+      "sha256": "5445824cf7a0cd2f250c3d00361557c2ee5a654ce9bfd1597b7e22fc2874b072",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/README.md",
+      "bytes": 8260,
+      "sha256": "89edf2dae73dcfa35588f5b64759469db3ca53d6124a0cd2cb5985093c7da02b",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/SOURCE-MAP.json",
+      "bytes": 22801,
+      "sha256": "b0b936ba446c8b124da0440d0b83730de40b0ae580f5ab9da60478eddd2e4b95",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "7bdf0f571ab89d3eaf2362557f7d16f4709ede91e1535ae476a4a16ec095de4b",
+          "current_included_sha256": "d7c84cec6e396277f26af770e8b384774111e4a09788c9a2fa66ec059d3ef33e"
+        },
+        {
+          "previous_included_sha256": "d7c84cec6e396277f26af770e8b384774111e4a09788c9a2fa66ec059d3ef33e",
+          "current_included_sha256": "b0b936ba446c8b124da0440d0b83730de40b0ae580f5ab9da60478eddd2e4b95"
+        }
+      ]
+    },
+    {
+      "path": "whole_rank_six/VERIFICATION.json",
+      "bytes": 10814,
+      "sha256": "32aeda6ff787ae6fc7caeaf5b64cd94f9f19e9d9f21e4272cf1d3d34d22587b8",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "13e0bc300361d660099f5f2f023122c449892dad6732a4c4b393550b736606d5",
+          "current_included_sha256": "32aeda6ff787ae6fc7caeaf5b64cd94f9f19e9d9f21e4272cf1d3d34d22587b8"
+        }
+      ]
+    },
+    {
+      "path": "whole_rank_six/atlas.json",
+      "bytes": 20229,
+      "sha256": "69872685131cfbdab8c1ac3acd2b92b551f2abfee562b8cc5c717dbd30b52885",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/c1.py",
+      "bytes": 7995,
+      "sha256": "cf95437014840fe91d717315401a4cbf53e29f534ff27f28aa16ec03b4b314b2",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/c6/data/field.json.gz",
+      "bytes": 282305,
+      "sha256": "e778d14abd55880d627bfe92e8a61f0d00f15ca9027de2cd6e310c35231d3fca",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/c6/data/incidence.json.gz",
+      "bytes": 72229,
+      "sha256": "d978ea1bcaa1df274acd8f979aa478e2ac89859b251334584dbaf1534b1d2e87",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/c6/data/raw.json.gz",
+      "bytes": 3019079,
+      "sha256": "a273124b51826f40808f0f3237a53cf0a7d75e5fac8dd83cc49f396fe263accb",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/c6/forward.cpp",
+      "bytes": 1390,
+      "sha256": "ed442a010f171741c698daa5c3c1ce12bb68be6b1e8fba95081c600e65c02c5b",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/c6/local_values.cpp",
+      "bytes": 9571,
+      "sha256": "213cca303fc2d9cb46d85e075ead332e3221577185923795d963e9049e78549b",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/c6/verify.py",
+      "bytes": 5729,
+      "sha256": "f4b1d092a50814b663c6f3ac3e35e832026e7abb662591dc5bd509e92d441723",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/closure/CLOSURE-CERTIFICATE.json",
+      "bytes": 254843,
+      "sha256": "b7bf252262130fab5b98047df8ef37b2a59da42b19708650b9048f403acd460c",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/closure/README.md",
+      "bytes": 5264,
+      "sha256": "85b680f8b9e2f025602169784fcb810290da0e591bdea7979a1af2c9669c43ee",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/closure/constructive_hive_closure.py",
+      "bytes": 22361,
+      "sha256": "24d83cb03718f2e92c62fc30ea4bc86df9cbca7e50e0d4cb7aa4364bd258d03f",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/closure/minimum_six.cpp",
+      "bytes": 3461,
+      "sha256": "7422fdbbfa92815c3cdbbedd70ee2772ebadbe3e194659b0aebf4f75129d2d51",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/closure/test_constructive_hive_closure.py",
+      "bytes": 5337,
+      "sha256": "033900f865e478d74f12d9bd30a7bc514d4af55f0289c2f21e906f416d7d626b",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_update_note": "Added early refusal when Python assertions are disabled; mathematical function bodies are unchanged from the prior verified edition.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "e87cff50ec1d36ca38a03480772cc30ef625155ac7639b835d9fd73e7ddcead8",
+          "current_included_sha256": "033900f865e478d74f12d9bd30a7bc514d4af55f0289c2f21e906f416d7d626b"
+        }
+      ]
+    },
+    {
+      "path": "whole_rank_six/closure/verify_closure.py",
+      "bytes": 10133,
+      "sha256": "3bf7bf2eff36d5d17117bb9d9080b9130b6f00e5c957ec5c769aedfa0cd401b4",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/controls_geometry.py",
+      "bytes": 9066,
+      "sha256": "c13c251897a7bddc171f82ad00cc92d74fae0ec39c186aec70d3acc29fc7663c",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/geometry.py",
+      "bytes": 2930,
+      "sha256": "d213958eeb221ff7bd509ccab2f2d4cd227efdfb10326a178019a110dd0031c3",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/lower/ASSETS.json",
+      "bytes": 90278,
+      "sha256": "07962abdafce7c3670c0699e27141150d86762fff46ff40ef3bf6c961cb0d940",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/lower/RANGES.json",
+      "bytes": 4563,
+      "sha256": "71df769f576110e30e7bd1b31302017ce7775f87235dc9b3b678b5e03c925a44",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/lower/README.md",
+      "bytes": 5846,
+      "sha256": "3854e2e604b87801da82ab4987b29dc21ab7f7e64b62ccc2e667739ad77f1c6c",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "958e0e84bf01ddd20fd1c5fd4ba9b98ed882db5c327a80929a62aace25f29afd",
+          "current_included_sha256": "3854e2e604b87801da82ab4987b29dc21ab7f7e64b62ccc2e667739ad77f1c6c"
+        }
+      ]
+    },
+    {
+      "path": "whole_rank_six/lower/SOURCE-MAP.json",
+      "bytes": 3205,
+      "sha256": "9f97f1caf5d7303e7a3f881900ab84f3aa5c26b7760f3727354a5c4c94828db6",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/lower/controls.py",
+      "bytes": 7132,
+      "sha256": "ac8c5dd28f9d5e7aab462df28266dae39cf222fccf634cc69922378e27f75abd",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/lower/q8_rhs_replay.py",
+      "bytes": 7739,
+      "sha256": "19353189ce458fda2b2913c0058f86fda60d47c2f4abf28c2629c49107547fc4",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/lower/replay.py",
+      "bytes": 32115,
+      "sha256": "27ccd765a631c508ecda84be2729c3613546cbdc9b9ee86dc21722b4d079c76b",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_update_note": "Bound successful H8 row bytes and source/input identity at production, and validate exact row identities/counts before continuation; unbound legacy output is refused. Mathematical engines and input assets are unchanged.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "a901ed3e7acc37269087ded45aec282cc830e7a280c7c70ade5c5212fb6a4d13",
+          "current_included_sha256": "27ccd765a631c508ecda84be2729c3613546cbdc9b9ee86dc21722b4d079c76b"
+        }
+      ]
+    },
+    {
+      "path": "whole_rank_six/lower/runtime.py",
+      "bytes": 3625,
+      "sha256": "528ca90f1840c373662b06f5fcd8e18030db6a0bad89f0e039503c320b2fb0c6",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_update_note": "Repaired launch-time, repeated-signal and handler-restoration cancellation in the shared main-thread child supervisor; group_exists and stop_group retain their prior exact AST bodies. All four current runtime copies are byte-identical.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "280055b94bf0c59ce0fbb6ad58c96de8130379c8c300e7556eadb5d562e7f089",
+          "current_included_sha256": "528ca90f1840c373662b06f5fcd8e18030db6a0bad89f0e039503c320b2fb0c6"
+        }
+      ]
+    },
+    {
+      "path": "whole_rank_six/lower/src/check_analytic.cpp",
+      "bytes": 12283,
+      "sha256": "e4f337932d1b4612155ecb8f68c0bbde4ade940e190e1f692fa5020af3d7573e",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/lower/src/check_field.py",
+      "bytes": 8201,
+      "sha256": "d6d37fa94d6ab0235b8c557f6b9868ebadf5f64a7cf00f7f3456bd9b5b92f57e",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/lower/src/check_geometry.cpp",
+      "bytes": 10544,
+      "sha256": "70115e3a4086a094eb1a3bbfd1cca39832bc84383f9431250c57a0f1472c40f6",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/lower/src/field_original_v1.cpp",
+      "bytes": 8771,
+      "sha256": "8713b83c4591ff96f8e0e0a021760d47437bc4c37a76841e896af8be92999ebe",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/lower/src/h8_check_range.cpp",
+      "bytes": 14693,
+      "sha256": "81e2b9927a119e81193107d528d61a8a6b1edbb0ffdff35dcc168c57220103d3",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/lower/src/operator.cpp",
+      "bytes": 10163,
+      "sha256": "9999b1fb1e96c32da13a9fb75e025bc4cbffd975d07661566ff12a7cec6e38d5",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/lower/src/q8_indexed_v3.cpp",
+      "bytes": 17768,
+      "sha256": "14153edf5a24f20fd992d68cbe3d7aae020bc8b530029927be6f290b6e9fde83",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/lower/src/rhs_range_v1.cpp",
+      "bytes": 4081,
+      "sha256": "16e0e8d055016eadfbc0e8a6d26e4734bbb6496d07f2dae643469e1d09c0bf5e",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/lower/tests/term_subject.py",
+      "bytes": 951,
+      "sha256": "ab42a1cf8ef5f2232e921d9600c995593eae0baaea42cf182ac692ead81d66ae",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/lower/tests/test_adapter.py",
+      "bytes": 13811,
+      "sha256": "8fb3e61e289210fd2228aef92ef3aa6a8914bb346a533036f37e7643cc626537",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "f874041e8b8a07daf86960f229c4295a5b1daefc6decc730f2b94882eb89617c",
+          "current_included_sha256": "8fb3e61e289210fd2228aef92ef3aa6a8914bb346a533036f37e7643cc626537"
+        }
+      ]
+    },
+    {
+      "path": "whole_rank_six/restore.py",
+      "bytes": 5679,
+      "sha256": "975afb671c588ca2eb871a0ada6de82aa5ac9b51058c09e4c4d5dcfc2a46823d",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/runtime.py",
+      "bytes": 3625,
+      "sha256": "528ca90f1840c373662b06f5fcd8e18030db6a0bad89f0e039503c320b2fb0c6",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_update_note": "Repaired launch-time, repeated-signal and handler-restoration cancellation in the shared main-thread child supervisor; group_exists and stop_group retain their prior exact AST bodies. All four current runtime copies are byte-identical.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "280055b94bf0c59ce0fbb6ad58c96de8130379c8c300e7556eadb5d562e7f089",
+          "current_included_sha256": "528ca90f1840c373662b06f5fcd8e18030db6a0bad89f0e039503c320b2fb0c6"
+        }
+      ]
+    },
+    {
+      "path": "whole_rank_six/scalars/INPUTS.json",
+      "bytes": 254354,
+      "sha256": "e9113e6034a213dab1e9741073ef8aecffb37418c9ddc28a13012a023329c087",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/scalars/README.md",
+      "bytes": 4429,
+      "sha256": "189bc07d2b9ab453b8d1fa249c1931cb786ba3607cf68fca1a9b45aa0308b08e",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/scalars/SOURCE-MAP.json",
+      "bytes": 2474,
+      "sha256": "c7265b2e4bcbf83af6a5f719369bbf081f7ebcdd58cf4bb3069418d62352486e",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "e473ac89efd560aef60f85749db05f78ec9c85ae2b53db516a163d0408e2ed61",
+          "current_included_sha256": "c7265b2e4bcbf83af6a5f719369bbf081f7ebcdd58cf4bb3069418d62352486e"
+        }
+      ]
+    },
+    {
+      "path": "whole_rank_six/scalars/replay.py",
+      "bytes": 26335,
+      "sha256": "58565836f6bbd981666ac7d851bb09e8cfc03b9efc0ce0cb0a7e59cbb244a3ac",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/scalars/runtime.py",
+      "bytes": 3625,
+      "sha256": "528ca90f1840c373662b06f5fcd8e18030db6a0bad89f0e039503c320b2fb0c6",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_update_note": "Repaired launch-time, repeated-signal and handler-restoration cancellation in the shared main-thread child supervisor; group_exists and stop_group retain their prior exact AST bodies. All four current runtime copies are byte-identical.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "280055b94bf0c59ce0fbb6ad58c96de8130379c8c300e7556eadb5d562e7f089",
+          "current_included_sha256": "528ca90f1840c373662b06f5fcd8e18030db6a0bad89f0e039503c320b2fb0c6"
+        }
+      ]
+    },
+    {
+      "path": "whole_rank_six/scalars/src/cache_prepare_v2.cpp",
+      "bytes": 9816,
+      "sha256": "d0b75b02e7b7a481758766c3f4118989fa69501c2c05e85b142639f2b51ba170",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/scalars/src/production_cache_v2.cpp",
+      "bytes": 6783,
+      "sha256": "121ef15d95f7ed16a038d79aa6a47c4f6616b93bcb813df6e20f4843773782bb",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/scalars/src/production_characters_v1.hpp",
+      "bytes": 12903,
+      "sha256": "736fbbd5885eaf1f517b9bf3eb674ba453a84905cec470ae9f66365a5a578efa",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/scalars/src/production_core_v1.hpp",
+      "bytes": 18135,
+      "sha256": "71c0caf6646a5a5147ee63b969bc0bfb291f181cfc4ddd7dbbbdd934264a0e2e",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/scalars/src/production_range_v2.cpp",
+      "bytes": 4849,
+      "sha256": "4701d6fc7e52f4a8d36de72e7077b5138d5ef3e15f35d8a28ee391d1c863e123",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/src/astra015-2026-09-17/q8-calibration/operator.cpp",
+      "bytes": 10163,
+      "sha256": "9999b1fb1e96c32da13a9fb75e025bc4cbffd975d07661566ff12a7cec6e38d5",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/src/astra016-2026-09-17/q8/q8_indexed_v3.cpp",
+      "bytes": 17768,
+      "sha256": "14153edf5a24f20fd992d68cbe3d7aae020bc8b530029927be6f290b6e9fde83",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/src/astra017-2026-09-17/correction/full-q8/field_original_v1.cpp",
+      "bytes": 8815,
+      "sha256": "1782028d8d1db86cac23df55ce814c726aaeba17751fa8b7b638813e65cc8388",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/src/astra017-2026-09-17/correction/full-q8/rhs_range_v1.cpp",
+      "bytes": 4113,
+      "sha256": "02459756683498d87ca57bbce9c610e6fd19e587d7aaf152c8342071cfbcd05f",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/src/astra019-2026-09-18/domain/domain_v3.cpp",
+      "bytes": 27343,
+      "sha256": "bd909658d36ffd8aaad5ce5f067f57ee0f8c1173a360307d282b01662c6c0e36",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/src/astra019-2026-09-18/field/common_v1.hpp",
+      "bytes": 6343,
+      "sha256": "7bbb92270e38a772ffe9fd8751ba273077a87c8b3f14268d2127ec79ee5e9e3d",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/src/astra019-2026-09-18/scalar/production_cache_v2.cpp",
+      "bytes": 6783,
+      "sha256": "121ef15d95f7ed16a038d79aa6a47c4f6616b93bcb813df6e20f4843773782bb",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/src/astra019-2026-09-18/scalar/production_characters_v1.hpp",
+      "bytes": 12903,
+      "sha256": "736fbbd5885eaf1f517b9bf3eb674ba453a84905cec470ae9f66365a5a578efa",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/src/astra019-2026-09-18/scalar/production_core_v1.hpp",
+      "bytes": 18135,
+      "sha256": "71c0caf6646a5a5147ee63b969bc0bfb291f181cfc4ddd7dbbbdd934264a0e2e",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/src/astra019-2026-09-18/scalar/production_range_v2.cpp",
+      "bytes": 4849,
+      "sha256": "4701d6fc7e52f4a8d36de72e7077b5138d5ef3e15f35d8a28ee391d1c863e123",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/src/astra054-2026-09-25/field-check/retained_field_check_v1.cpp",
+      "bytes": 14158,
+      "sha256": "a1f3503187c1fbdbef601f928ece2d0a431965bcd17860cdcec0213dc9bc887a",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/src/astra054-2026-09-25/geometry/classify_v1.cpp",
+      "bytes": 6699,
+      "sha256": "8575984ad879225c791c7746ee5e7fa455340470efe23285c900fd3989b5a369",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/src/frontier031-2026-09-16/c3-verification/check_analytic.cpp",
+      "bytes": 12283,
+      "sha256": "e4f337932d1b4612155ecb8f68c0bbde4ade940e190e1f692fa5020af3d7573e",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/src/frontier031-2026-09-16/c3-verification/check_geometry.cpp",
+      "bytes": 10544,
+      "sha256": "70115e3a4086a094eb1a3bbfd1cca39832bc84383f9431250c57a0f1472c40f6",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/src/portable/coverage.cpp",
+      "bytes": 4236,
+      "sha256": "572380133c319ce412db47d18ad5b6072484d7f7039fddd42eb2ae120c864556",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/src/portable/geometry.py",
+      "bytes": 5407,
+      "sha256": "192576cc71b45b30b5d6576304bb53eeafebbf27565e18e7ae125bc00cba00b2",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/src/portable/geometry_stdlib.py",
+      "bytes": 9165,
+      "sha256": "9cd973fbaca7a464d11bee29af520b98b2123f034530f1758b827f4c28578f61",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/top/forward.cpp",
+      "bytes": 1390,
+      "sha256": "03033e84c451b998ff8f598a68e42c0e6d1d160dd9c8940e687912f64375a93a",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/top/local_values.cpp",
+      "bytes": 9571,
+      "sha256": "213cca303fc2d9cb46d85e075ead332e3221577185923795d963e9049e78549b",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/top/verify.py",
+      "bytes": 7499,
+      "sha256": "08fc7b6c4e620f834347aa15badbf57942ad0f736ed48f28d256b9b3ded55b42",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "whole_rank_six/verify.py",
+      "bytes": 4660,
+      "sha256": "88df1ea02cf4dc798acad8978df136ecef452e5d1d065dc56c235172adff8e52",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
     }
   ],
   "omitted_machinery": [
@@ -2501,9 +3327,15 @@
   "source_commit_note": "Imported original bytes were checked directly against the listed exact repository commits. Newly authored packaging/interface bytes retain their explicit source hashes; no earlier commit is claimed for them.",
   "three_letter_update": {
     "module_map": {
-      "bytes": 25696,
+      "bytes": 26302,
       "path": "tooling/three_letter_certificates/SOURCE-MAP.json",
-      "sha256": "0708316e27d9a84792575523aaeaff5fc32636f4ca6d5b5c9dbdcadd434744d2"
+      "sha256": "b48c7070832c7b530f29449395c8e2635f1b0802eebaf0006aba6afa0e59fa96",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "0708316e27d9a84792575523aaeaff5fc32636f4ca6d5b5c9dbdcadd434744d2",
+          "current_included_sha256": "b48c7070832c7b530f29449395c8e2635f1b0802eebaf0006aba6afa0e59fa96"
+        }
+      ]
     },
     "scope": "Complete rank<=6, short-inner-three original-lattice certificate and whole-object helpers.",
     "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
@@ -2512,9 +3344,15 @@
   "transport_certificate_update": {
     "module_maps": {
       "results/transport-capped": {
-        "bytes": 4690,
+        "bytes": 6508,
         "path": "results/transport-capped/SOURCE-MAP.json",
-        "sha256": "82fb53a883d87262bc75bd0608adb4ddf709b61805e055c8107ebd4987b59975"
+        "sha256": "2b7b48aab8fb20a5d53cb76166167f3a4a73490467d0e87cb9dc45b4b06f2ab3",
+        "publication_refresh_history": [
+          {
+            "previous_included_sha256": "82fb53a883d87262bc75bd0608adb4ddf709b61805e055c8107ebd4987b59975",
+            "current_included_sha256": "2b7b48aab8fb20a5d53cb76166167f3a4a73490467d0e87cb9dc45b4b06f2ab3"
+          }
+        ]
       },
       "tooling/three_row_coefficients": {
         "bytes": 3966,
@@ -2522,9 +3360,15 @@
         "sha256": "0b1f0f8ac86bd58057b64427042480910b44a8852d00e1af022f457fa7a09201"
       },
       "tooling/transport_certificates": {
-        "bytes": 5080,
+        "bytes": 6292,
         "path": "tooling/transport_certificates/SOURCE-MAP.json",
-        "sha256": "db747a71d468c951dd2f3db9b42de390896b8bd2f5468ae4881548543e8edefd"
+        "sha256": "b8bb52c9da75ec2f0aa5b65ca9bc42269794473b4ffbc19b4e4dcf2411c8f0e7",
+        "publication_refresh_history": [
+          {
+            "previous_included_sha256": "db747a71d468c951dd2f3db9b42de390896b8bd2f5468ae4881548543e8edefd",
+            "current_included_sha256": "b8bb52c9da75ec2f0aa5b65ca9bc42269794473b4ffbc19b4e4dcf2411c8f0e7"
+          }
+        ]
       }
     },
     "scope": "Complete 3-by-5 transport and four-capacity coefficient certificates, plus full exact three-row polynomial interfaces.",

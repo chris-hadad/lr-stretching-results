@@ -3,8 +3,10 @@
 For partitions λ, μ and ν with λ outer, `|λ| = |μ| + |ν| <= 30`, and
 maximum trimmed length at most seven, every ordinary coefficient of the
 stretched Littlewood–Richardson polynomial is nonnegative. The computer-assisted proof has undergone independent AI-assisted
-mathematical review and exact computational checks. The unrestricted KTT conjecture and whole-rank positivity
-for ranks six and seven remain open.
+mathematical review and exact computational checks. A later
+[whole-rank-six theorem](../rank-six-positivity/README.md) covers rank at most six
+at every size; the rank-seven finite-box component remains distinct. Whole
+rank-seven and unrestricted KTT positivity remain open.
 
 Start with the [research-note draft](../../papers/finite-box.md) for a connected
 account. Read [the detailed proof](PROOF.md), [the audit map](REVIEWER-GUIDE.md), and

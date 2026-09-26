@@ -1,0 +1,14 @@
+{
+  "status": "PASS_FRESH_PRIVATE_CANDIDATE_REPLAY",
+  "seconds": 29.60403570800554,
+  "subsets": 26332,
+  "independent": 20823,
+  "dependent": 5509,
+  "types_freshly_recomputed": 961,
+  "corrected_q7_rows": 7830,
+  "incidences": 54810,
+  "nonzero_field_supports": 70,
+  "minimum": "26684096221433977/2668409622144333204480",
+  "boundary_strictness_prerequisite": "Existing complete 3-by-5 transportation theorem and verifier",
+  "scope": "Exact finite replay; written analytic premises and publication review are separate."
+}

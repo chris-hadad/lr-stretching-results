@@ -1,0 +1,67 @@
+{
+  "status": "PASS_COMPLETE_FINITE_PREMISES",
+  "cells": 632696,
+  "simplices": 4209661,
+  "seven_factorial_volume": "7/576",
+  "volume": "1/414720",
+  "rays": 15573,
+  "counters": {
+    "pairs": 46616414,
+    "triples": 248939603,
+    "ray_occurrences": 7008446,
+    "positions": 104394840,
+    "assignment_visits": 647880704,
+    "c2_column_checks": 70084460,
+    "c2_row_checks": 42050676,
+    "c3_column_checks": 466164140,
+    "c3_row_checks": 279698484
+  },
+  "baseline_vectors": 17,
+  "ordinary_positions": 221,
+  "unused_whole_counts": 34,
+  "higher_local_values": {
+    "types": 317,
+    "minimum": "160895356850988106001219145739/55646261445256136651283775488000",
+    "analytic_controls": 17,
+    "eighth_order_omission_detected": true
+  },
+  "verification_edition": "Final public wrapper after optimization and signal-boundary repairs",
+  "wall_seconds": 144.68403158406727,
+  "measured_52_batch_seconds": 127.60996632720344,
+  "actual_consumer_refusals": 10,
+  "fresh_atlas": {
+    "arrays": 392,
+    "determining_values": 178360,
+    "unused_values": 784
+  },
+  "inherited_linear_vanishing_gradients": 154,
+  "public_review": "pending combined root review",
+  "scope": "Exact finite replay; written analytic premises and publication review are separate.",
+  "earlier_publication_replay": {
+    "wall_seconds": 317.3765042499872,
+    "measured_52_batch_seconds": 282.0983958322322,
+    "scope": "Pre-review unoptimized source version; complete mathematical checks"
+  },
+  "current_executable_sources": {
+    "reproduce.py": "f60f4539a8e0e18e2eb414f0cd29ce2aae95da5053335e6abd6bd3ec887813ac",
+    "restore_data.py": "6876d4d58564af0a5b2c1e5d35967250827d1ad358c1b1c93a08ab95c91b4be0",
+    "src/atlas_replay.py": "72203dd8628e51b9578307b99688857a773c66738591c9f61988c0cf2f462640",
+    "src/build_templates.py": "059d684e119371746f3753deab1cd72460446ba707a1693599954db4ca2649e0",
+    "src/check_cover.cpp": "23070aea3f4e6a0538fe76b88a0ade542566fc7c5aa5c273f5dbfa7f69bef4c5",
+    "src/check_fields.cpp": "f3de5b824d3291fd1f242c74eab7f943ec8f9d0d7ac7d09cc8e2502bd1acca01",
+    "src/common.hpp": "7dff8c89811ae50ba11989a7ef661fc5e82d2f8e1dc6c9578699f22136e42888",
+    "src/count_tables.cpp": "34b82dd74c8048a86d44768c61b922fa0330f2bf360f588b4cc2b2c9af68bdd9",
+    "src/encode_quadratic.py": "593e072e25b950a988d4f844fb2629741efd880a15862fda9ca8a9478049cf0b",
+    "src/join.py": "625973df4eaf127c5fb69cd65efb69376f754e0861932e271ce8d13e7eeebc60",
+    "src/portable_io.py": "40145d9270d1047c6430ab2de4d28a94a9540f88a019339b11e5fc51a032642f",
+    "src/table_bv.cpp": "697a46985ab5aac1cef110c2090559a9ea66ae7f84524d515071383c21981956",
+    "src/transport_math.py": "a2235306334dd594eab7246fe397d9715ebaab113d6f27dc9f879e63cb7f280e",
+    "src/verify_topology.py": "90be48201cb69a306430554e0584faed560d0e169dbef35883aad531c550c642"
+  },
+  "post_review_controls": {
+    "optimization_and_negative_local_value": "PASS; included in six entrypoint test methods",
+    "child_supervision": "PASS; included in five signal-path test methods",
+    "all_recorded_children_waited": true,
+    "complete_final_wrapper": true
+  }
+}

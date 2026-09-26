@@ -37,16 +37,28 @@
       "sha256": "529d249e2c288ceedc5cbc4f5a90c56715cd19caa7d4de297b81921627186f20"
     },
     {
-      "bytes": 13780,
+      "bytes": 14341,
       "origin": {
         "repository": "stretched-lr-research",
         "source": "code/three_letter_certificates/PROOF.md",
         "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
         "source_sha256": "b6802299ba7ba19e401ba1e9aa3dcd03ab70516920fd749b88c3bb47f0294148",
-        "transformation": "none; exact curated source bytes"
+        "transformation": "Current public editorial update; original-source hash remains historical provenance and no current byte equality is asserted.",
+        "transformation_history": [
+          {
+            "included_sha256": "b6802299ba7ba19e401ba1e9aa3dcd03ab70516920fd749b88c3bb47f0294148",
+            "transformation": "none; exact curated source bytes"
+          }
+        ]
       },
       "path": "PROOF.md",
-      "sha256": "b6802299ba7ba19e401ba1e9aa3dcd03ab70516920fd749b88c3bb47f0294148"
+      "sha256": "5451b108718997c0cf2df4d766c681c6be66b082b9ba36b8c7743f685e0ebdc9",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "b6802299ba7ba19e401ba1e9aa3dcd03ab70516920fd749b88c3bb47f0294148",
+          "current_included_sha256": "5451b108718997c0cf2df4d766c681c6be66b082b9ba36b8c7743f685e0ebdc9"
+        }
+      ]
     },
     {
       "bytes": 3919,

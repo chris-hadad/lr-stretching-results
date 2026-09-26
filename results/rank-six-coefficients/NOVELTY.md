@@ -25,3 +25,13 @@ human peer review and publication suitability remain separate assessments.
 The broader rank-six and unrestricted KTT problems remain open. This result
 is shared at its standalone partial scope, with the complete proof, finite
 certificates and reproducible verifier linked from the result page.
+
+## Current context, 25 September 2026
+
+The dated assessment above concerns the c4/c5 certificate when issued. A
+later [whole-rank-six theorem](../rank-six-positivity/README.md) gives the
+complete ordinary-coefficient sign conclusion at every size and boundary.
+Its [separate novelty assessment](../rank-six-positivity/NOVELTY.md) compares
+the later theorem with Ferudun's length-five result and other inspected
+primary work. The standalone certificate and its original contribution
+remain identifiable; rank seven and unrestricted KTT remain open.

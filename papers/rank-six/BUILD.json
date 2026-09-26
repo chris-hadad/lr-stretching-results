@@ -1,0 +1,127 @@
+{
+  "schema": "rank-six-paper-build-v1",
+  "status": "PASS_COMPLETE_SOURCE_ARCHIVE_BUILD_ANCILLARY_REPLAY_AND_VISUAL_QA",
+  "version": "rank-six-2026-09-25-v1",
+  "pages": 16,
+  "all_pages_visually_inspected": true,
+  "final_render_exactly_matches_visually_inspected_pages": true,
+  "compiler": "Tectonic 0.17.0, offline cached untrusted mode",
+  "compiler_warnings": 0,
+  "pdf_sha256": "743058e010a91d52995b2f8b4d3e1c2cfc64d3791c4fc3ca8768130e0735c1ee",
+  "pdf_bytes": 142934,
+  "source_archive_sha256": "447b621aa0024d1f2276cbbc4b7fe786f99b63e41c6711d72e2968486988aa54",
+  "source_archive_bytes": 3253300,
+  "source_archive_members": {
+    "anc/CLOSURE-CERTIFICATE.json": {
+      "bytes": 254843,
+      "sha256": "b7bf252262130fab5b98047df8ef37b2a59da42b19708650b9048f403acd460c"
+    },
+    "anc/LICENSE-CC-BY-4.0.txt": {
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    "anc/LICENSE-MIT.txt": {
+      "bytes": 1068,
+      "sha256": "865dbcbac02fa4505208534f29aeda616ba22620e182c74bb5e4b7448245c254"
+    },
+    "anc/README.md": {
+      "bytes": 2007,
+      "sha256": "eef5dcea455ad7a4040ba90e0a2e6620a6f8654378cea0a308ea9c40e5bce134"
+    },
+    "anc/atlas.json": {
+      "bytes": 20229,
+      "sha256": "69872685131cfbdab8c1ac3acd2b92b551f2abfee562b8cc5c717dbd30b52885"
+    },
+    "anc/constructive_hive_closure.py": {
+      "bytes": 22361,
+      "sha256": "24d83cb03718f2e92c62fc30ea4bc86df9cbca7e50e0d4cb7aa4364bd258d03f"
+    },
+    "anc/minimum_six.cpp": {
+      "bytes": 3461,
+      "sha256": "7422fdbbfa92815c3cdbbedd70ee2772ebadbe3e194659b0aebf4f75129d2d51"
+    },
+    "anc/small_rank_six/DATA-SMALL.json": {
+      "bytes": 1311,
+      "sha256": "b945dc63fc396ba029f6b46bc8ee49a86f87d88dd2631e83707d23cc588e65bd"
+    },
+    "anc/small_rank_six/c6/data/field.json.gz": {
+      "bytes": 282305,
+      "sha256": "e778d14abd55880d627bfe92e8a61f0d00f15ca9027de2cd6e310c35231d3fca"
+    },
+    "anc/small_rank_six/c6/data/incidence.json.gz": {
+      "bytes": 72229,
+      "sha256": "d978ea1bcaa1df274acd8f979aa478e2ac89859b251334584dbaf1534b1d2e87"
+    },
+    "anc/small_rank_six/c6/data/raw.json.gz": {
+      "bytes": 3019079,
+      "sha256": "a273124b51826f40808f0f3237a53cf0a7d75e5fac8dd83cc49f396fe263accb"
+    },
+    "anc/small_rank_six/c6/forward.cpp": {
+      "bytes": 1390,
+      "sha256": "ed442a010f171741c698daa5c3c1ce12bb68be6b1e8fba95081c600e65c02c5b"
+    },
+    "anc/small_rank_six/c6/local_values.cpp": {
+      "bytes": 9571,
+      "sha256": "213cca303fc2d9cb46d85e075ead332e3221577185923795d963e9049e78549b"
+    },
+    "anc/small_rank_six/c6/verify.py": {
+      "bytes": 5729,
+      "sha256": "f4b1d092a50814b663c6f3ac3e35e832026e7abb662591dc5bd509e92d441723"
+    },
+    "anc/small_rank_six/runtime.py": {
+      "bytes": 3625,
+      "sha256": "528ca90f1840c373662b06f5fcd8e18030db6a0bad89f0e039503c320b2fb0c6"
+    },
+    "anc/small_rank_six/top/forward.cpp": {
+      "bytes": 1390,
+      "sha256": "03033e84c451b998ff8f598a68e42c0e6d1d160dd9c8940e687912f64375a93a"
+    },
+    "anc/small_rank_six/top/local_values.cpp": {
+      "bytes": 9571,
+      "sha256": "213cca303fc2d9cb46d85e075ead332e3221577185923795d963e9049e78549b"
+    },
+    "anc/small_rank_six/top/verify.py": {
+      "bytes": 7499,
+      "sha256": "08fc7b6c4e620f834347aa15badbf57942ad0f736ed48f28d256b9b3ded55b42"
+    },
+    "anc/small_rank_six/verify.py": {
+      "bytes": 4660,
+      "sha256": "88df1ea02cf4dc798acad8978df136ecef452e5d1d065dc56c235172adff8e52"
+    },
+    "anc/test_constructive_hive_closure.py": {
+      "bytes": 5337,
+      "sha256": "033900f865e478d74f12d9bd30a7bc514d4af55f0289c2f21e906f416d7d626b"
+    },
+    "anc/verify_closure.py": {
+      "bytes": 10133,
+      "sha256": "3bf7bf2eff36d5d17117bb9d9080b9130b6f00e5c957ec5c769aedfa0cd401b4"
+    },
+    "geometry-strengthening.tex": {
+      "bytes": 9498,
+      "sha256": "42a348f2dad0110f226c65fa263acba7ee48d8c24cde9485413af41839729c37"
+    },
+    "rank-six.tex": {
+      "bytes": 42896,
+      "sha256": "979109a7520da2990c0a3d925b43cfbc38493a93d2177f2cff676a60a4e392d2"
+    }
+  },
+  "ancillary_checks": [
+    "all closure identities and RUP refutations",
+    "complete minimum-six exhaustion",
+    "constructive controls",
+    "complete c6-c9 finite premises"
+  ],
+  "arxiv_processed_PDF_not_yet_checked": true,
+  "arxiv_submission_performed": false,
+  "external_human_review_claimed": false,
+  "whole_proof_assistant_formalization_claimed": false,
+  "post_review_revision": {
+    "changed_members": [
+      "anc/small_rank_six/runtime.py",
+      "anc/test_constructive_hive_closure.py"
+    ],
+    "reason": "Early optimized-Python refusal in constructive test and robust shared child launch/cancellation; mathematical functions and TeX/PDF are unchanged.",
+    "prior_archive_sha256": "6be46eae4b5578e4f834147498ccbc73f4835d0d168ae7a9f72c22abb7104d45",
+    "all_ancillary_checks_repeated": true
+  }
+}

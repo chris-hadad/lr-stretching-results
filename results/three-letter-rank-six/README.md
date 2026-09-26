@@ -11,8 +11,10 @@ With lambda outer, this concerns the entire polynomial
     P(t)=c^(t lambda)_(t mu,t nu), len(lambda)<=6, len(nu)<=3,
 
 and its image under inner symmetry. It closes the complete three-letter
-slice at the first unresolved ordinary rank. Whole ordinary rank six outside
-this slice, and unrestricted King-Tollu-Toumazet positivity, remain open.
+slice as a standalone family theorem. The later
+[whole-rank-six result](../rank-six-positivity/README.md) covers all legal
+ordinary rank-at-most-six triples; rank seven and unrestricted
+King-Tollu-Toumazet positivity remain open.
 
 The [complete proof](../../tooling/three_letter_certificates/PROOF.md) starts
 from a [full row-letter model](../../tooling/three_letter_certificates/MODEL.md)

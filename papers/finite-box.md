@@ -291,3 +291,13 @@ Supplementary materials are the detailed proof, original mathematical source
 documents, finite data archives, exact checker sources, file manifests and
 reproduction records linked above. Cite a precise repository commit and data
 release so that later presentation changes do not obscure the checked version.
+
+## Current context, 25 September 2026
+
+This dated paper proves its original finite box. A later, separate
+[whole-rank-six paper](rank-six/README.md) and
+[result module](../results/rank-six-positivity/README.md) establish ordinary
+coefficient nonnegativity through rank six at every size and boundary. Thus
+a possible ordinary negative coefficient must have rank at least seven;
+the finite-box theorem excludes rank seven through outer area thirty. The
+earlier discussion of then-open rank-six questions remains unchanged above.

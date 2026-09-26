@@ -5295,7 +5295,7 @@
       "included_sha256": "5359fde7567c13660b32ba8b195ba6392ebcc533cbcd62f7b008bd1cf58b70c4"
     },
     {
-      "bytes": 13126,
+      "bytes": 13632,
       "path": "proofs/transport-four-by-four.md",
       "source_path": "methods/frontier-024-2026-09-09/sources/PROOFS/009-A3-FIRST-JET-AND-FOUR-BY-FOUR-C1.md",
       "source_sha256": "9600c5cffc95b7d26b1a556a7189db2911733e9441cbcf4652627ceabdcbc525",
@@ -5305,7 +5305,14 @@
         "bytes": 13538,
         "sha256": "9600c5cffc95b7d26b1a556a7189db2911733e9441cbcf4652627ceabdcbc525"
       },
-      "included_sha256": "556ba5d0877653f1f2cbfc861613a355b0ae6a0634663edab40b488e3a13ff83"
+      "included_sha256": "128a8c53452bd3ed9d3a3cbbcdd4ac234ac6f3ef6ad165d6f3997fa33646126b",
+      "publication_update_note": "Added a dated pointer to the new 4x5 proof; original historical proof body remains preserved.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "556ba5d0877653f1f2cbfc861613a355b0ae6a0634663edab40b488e3a13ff83",
+          "current_included_sha256": "128a8c53452bd3ed9d3a3cbbcdd4ac234ac6f3ef6ad165d6f3997fa33646126b"
+        }
+      ]
     },
     {
       "bytes": 7719,

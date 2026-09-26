@@ -1,0 +1,237 @@
+{
+  "analytic_dependencies": [
+    {
+      "bytes": 8588,
+      "path": "../proofs/pro027/001-COMPLETE-GAP3-CLUSTERS.md",
+      "sha256": "1612e05242f043464cb9a32d0b2d30b9c1612c6fa8a18b5806907a2a18517c6f"
+    },
+    {
+      "bytes": 3024,
+      "path": "../proofs/pro027/002-QUOTIENT-LATTICE-AND-ZERO-GRADE.md",
+      "sha256": "1bf242992287e4d5a936fa8a343a0bbe13a847f009bb5cbaf63c4eac2a28a200"
+    },
+    {
+      "bytes": 2965,
+      "path": "../proofs/pro027/003-SHARP-AFFINE-THRESHOLD.md",
+      "sha256": "b56efe0b36cecb362f7807d04c040d77d58f88010b757b06fe6193c10ad1c1e1"
+    },
+    {
+      "bytes": 8797,
+      "path": "../proofs/pro027/004-UNBOUNDED-RANK6-POSITIVITY.md",
+      "sha256": "123136f4dfff6319e202cfc281fed1e3d5c8d81896690aa94b8406dceaf67918"
+    },
+    {
+      "bytes": 8278,
+      "path": "../proofs/pro027/005-COMPLETE-QUADRANT-AND-DUALITY.md",
+      "sha256": "09af03b7850f83b390f991e9b81c3353d38712dfec3ed834f9b123b03544240b"
+    },
+    {
+      "bytes": 7008,
+      "path": "../proofs/pro027/006-QUOTIENT-MOMENTS-AND-POSITIVE-CERTIFICATE.md",
+      "sha256": "c97e41ce67c221dc34fa62dac0f3c8d64e945df79f9a6d2fa1a310c37ffa857f"
+    },
+    {
+      "bytes": 9623,
+      "path": "../proofs/pro027/007-HOMOGENEOUS-CONE-AND-BOUNDARIES.md",
+      "sha256": "ccbcf45c0448622efd8ea1ed724841ef8f1337380d4967f5eb8df3ce075f14a4"
+    },
+    {
+      "bytes": 4689,
+      "path": "../proofs/pro027/008-INITIAL-WALLS-AND-POSITIVE-DIFFERENCES.md",
+      "sha256": "9681d0fd7c07a3279c5a7c9f2b4adaed2e9db9ba3fb6cf2d48e48fa78c0533c1"
+    },
+    {
+      "bytes": 7153,
+      "path": "../proofs/pro027/011-COMPLETE-RANK10-CAP-RELEASE-FAMILY.md",
+      "sha256": "25d86dd2ab23a370c2d76786b81254a1710906578e04bc6740d2037173bbf221"
+    },
+    {
+      "bytes": 5848,
+      "path": "../proofs/pro027/012-INDEPENDENT-WHOLE-MODELS-AND-CHALLENGES.md",
+      "sha256": "87385d75eb68aaa108e0b239754242b9d6c6ab71b9341639d828d1bb828b6f33"
+    },
+    {
+      "bytes": 8023,
+      "path": "proofs/WEIGHTED-GT-INTERIORS.md",
+      "sha256": "ce55d4c87476fa2bebdb5e8a041078143d2fa88fb101a57d863ca663772e85d5"
+    },
+    {
+      "bytes": 9785,
+      "path": "proofs/GENERAL-HEIGHT.md",
+      "sha256": "d5fc32c2c85a2abfc99af88d9977ecb4935c1183f366317bab7f630f87265156"
+    },
+    {
+      "bytes": 9450,
+      "path": "proofs/DELTA-TWO-BRANCHING.md",
+      "sha256": "27533720ed383df35303aa6e87f8b024327233c6fb98509273056282cd2e0016"
+    }
+  ],
+  "existing_public_origin": "Existing exact.py, gap_algebra.py, DEPENDENCIES.md and accepted data are reused without modification.",
+  "files": [
+    {
+      "bytes": 13421,
+      "integration": "new",
+      "path": "gap3_jt_counter.cpp",
+      "sha256": "7bba0d6276c479296f07c6e4eb2e715059c6b0b20461e8d331e53708a3115c4c"
+    },
+    {
+      "bytes": 2905,
+      "integration": "new",
+      "path": "gap_model.py",
+      "sha256": "3b343bbfdeb928a084ecfe1dac7ebcf8f12b8c45626def32c7773f403d303629",
+      "publication_update_note": "Remove only extra final blank lines after the complete staged whitespace check; mathematical content and Python AST unchanged. Earlier source identities remain historical.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "e4c7f716b8f3d79f7054a0c11796d1f88b8647ac3cd41b3a31c6b77ccc88ed17",
+          "current_included_sha256": "3b343bbfdeb928a084ecfe1dac7ebcf8f12b8c45626def32c7773f403d303629"
+        }
+      ]
+    },
+    {
+      "bytes": 11276,
+      "integration": "new",
+      "path": "transport_math.py",
+      "sha256": "12c70dc99529c51f1a0434b2e8e217299c169feb7a16a4f704b2853e1de1fff2",
+      "publication_update_note": "Remove only extra final blank lines after the complete staged whitespace check; mathematical content and Python AST unchanged. Earlier source identities remain historical.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "dae79759efd6f25402e86adf2c4a38cf2cc3614114eb174a1827f50d61075824",
+          "current_included_sha256": "12c70dc99529c51f1a0434b2e8e217299c169feb7a16a4f704b2853e1de1fff2"
+        }
+      ]
+    },
+    {
+      "bytes": 20446,
+      "integration": "new",
+      "path": "fresh_counts.py",
+      "sha256": "ad5810aae1bdc0230e6020cf838ed277a77d896a9336747c476f81b4a0a193f5",
+      "publication_update_note": "Repaired bounded child launch, cancellation and process-group cleanup; preserved mathematical bodies and exact data. Optimization refusal remains explicit where assertions are used.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "0f6411e12c5ff50d2f2780826724506ada7c5a9c258d7ee26eab3f487889ce84",
+          "current_included_sha256": "ad5810aae1bdc0230e6020cf838ed277a77d896a9336747c476f81b4a0a193f5"
+        }
+      ]
+    },
+    {
+      "bytes": 10996,
+      "integration": "new",
+      "path": "controls.py",
+      "sha256": "093e5b6fcb0264f00bd5d12df3cf9ef3eb6690501c3493cbb0ff1cf22a82ebc6"
+    },
+    {
+      "bytes": 11683,
+      "integration": "new",
+      "path": "FRESH-COUNTS.md",
+      "sha256": "f6441059e2fc14328b2a18a6037e058d68a6d868aedab9a946ac16e955406d6d"
+    },
+    {
+      "bytes": 2245,
+      "candidate_path": "exact.py",
+      "integration": "reuse existing exact bytes",
+      "path": "exact.py",
+      "sha256": "c9947a3933b29d2e69a3fea4dfca719bdc1f365ac9b32307b91688edc5f16970"
+    },
+    {
+      "bytes": 10753,
+      "candidate_path": "gap_algebra.py",
+      "integration": "reuse existing exact bytes",
+      "path": "gap_algebra.py",
+      "sha256": "e8d1702b0b73002e8fd83aa73056c109ef56803d655ccfef80ef3b64b9d79567"
+    },
+    {
+      "bytes": 7264,
+      "candidate_path": "data/gap-three.json",
+      "integration": "reuse existing exact bytes",
+      "path": "data/gap-three.json",
+      "sha256": "116e926f7286d4aa5b9459b3dbe4fa9e3d7a6609751cc904977b9d623cb10315"
+    },
+    {
+      "bytes": 20326,
+      "candidate_path": "data/transport.json",
+      "integration": "reuse existing exact bytes",
+      "path": "data/transport.json",
+      "sha256": "aa85413ad2a9d9007880548847cb57d8e09209c434bb4e705b4ba9e5285fae14"
+    },
+    {
+      "bytes": 11748,
+      "candidate_path": "ACCEPTED-DEPENDENCIES.md",
+      "integration": "Current editorial update to the prior exact accepted copy; candidate_path and prior digest retain historical provenance.",
+      "path": "DEPENDENCIES.md",
+      "sha256": "1275470c467d3e4cacbc21efd74cc02d77788175e00e9c987c0cf36fe0d4c0d7",
+      "integration_history": [
+        {
+          "included_sha256": "6bc2a0a618bbaca8b0043b12323400a43dc9137f75286930d7dff95e68cec864",
+          "integration": "reuse existing exact bytes"
+        }
+      ],
+      "publication_update_note": "Updated public analytic dependency guidance after the exact accepted dependency copy; accepted source bytes remain historical provenance.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "6bc2a0a618bbaca8b0043b12323400a43dc9137f75286930d7dff95e68cec864",
+          "current_included_sha256": "21d75d925deb139f8bef866a94d3d73aa5e13673ddb2da5b4083326a34cac879"
+        },
+        {
+          "previous_included_sha256": "21d75d925deb139f8bef866a94d3d73aa5e13673ddb2da5b4083326a34cac879",
+          "current_included_sha256": "1275470c467d3e4cacbc21efd74cc02d77788175e00e9c987c0cf36fe0d4c0d7"
+        }
+      ]
+    }
+  ],
+  "independence": "Accepted campaign-authored independent counting arithmetic; new portable wrappers. No provider program or private packet/harness dependency.",
+  "original_counter": {
+    "bytes": 13421,
+    "sha256": "7bba0d6276c479296f07c6e4eb2e715059c6b0b20461e8d331e53708a3115c4c"
+  },
+  "public_directory": "results/structural-positivity/replay",
+  "schema": "legacy-fresh-counts-public-map-v1",
+  "source_extracts": {
+    "gap_model.py": {
+      "original_file": "verify_gap3_bases.py",
+      "original_pin": {
+        "bytes": 44560,
+        "sha256": "961cc39db84533111971cc4b826d1dee95b7fdcd975500c4f26aade54fa8a6ac"
+      },
+      "unchanged_function_or_class_spans": [
+        "family",
+        "gt_hypotheses",
+        "query",
+        "complete_counter_record"
+      ]
+    },
+    "transport_math.py": {
+      "original_file": "verify_pro027_transport.py",
+      "original_pin": {
+        "bytes": 49293,
+        "sha256": "0844c1b8be83b0e172d419597be630ccd5dbb8fe9207358d6263a94a57ee60ab"
+      },
+      "unchanged_function_or_class_spans": [
+        "CheckError",
+        "Refused",
+        "need",
+        "integer",
+        "rational",
+        "encoded",
+        "sha",
+        "Budget",
+        "group_key",
+        "assignment_groups",
+        "margins",
+        "assignment_targets",
+        "B",
+        "AssignmentCounter",
+        "bare_family",
+        "greedy_table",
+        "chart_table",
+        "geometry",
+        "multiply",
+        "evaluate",
+        "interpolate",
+        "reconstruct",
+        "final_shell",
+        "node_id",
+        "family_nodes"
+      ]
+    }
+  }
+}

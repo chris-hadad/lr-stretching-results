@@ -1,0 +1,17 @@
+{
+  "status": "PASS_TARGETED_PUBLICATION_CONTROLS",
+  "methods": {
+    "entrypoints": 6,
+    "shared_runtime": 8,
+    "other_signals": 5,
+    "lower_adapter": 10
+  },
+  "python_observed": "3.14.3",
+  "platform_observed": "Apple Silicon macOS",
+  "tests": {
+    "tests/test_publication_entrypoints.py": "b212249d3e706bd7baba2c5703c8e82129749caf85e034e68789f1274d6755cc",
+    "tests/test_publication_runtime.py": "eb946585d72498a628ebe7073eed67855aef0c995eda00d5b97a3bb8682a9683",
+    "tests/test_publication_signal_paths.py": "82e5bafcf7e8249974a3ceddd461b1df898a05bdb33bed2627e409c19bcb6d58"
+  },
+  "scope": "Synthetic failure controls and real owned-process boundaries; mathematical full-domain evidence is recorded in the result modules. No external human review or proof-assistant claim."
+}
