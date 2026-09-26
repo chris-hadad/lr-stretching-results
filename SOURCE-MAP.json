@@ -812,8 +812,8 @@
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "sha256": "b0bf3ed847a6ffff27add8b39cf706a9f77d73e60ce58bdd2d108fe8e1af56aa"
       },
-      "included_bytes": 18113,
-      "included_sha256": "53aef7129b2a12fcf4f2ded4a6126b2241fcb8ab4aee281f5b2a576a7c2b7c47",
+      "included_bytes": 18316,
+      "included_sha256": "19114acadb5c4d94f8f1e361b4b7229ff0b7c7c636e7d8c8d68b5a3b94911dc0",
       "path": "RESULTS.md",
       "previous_included_sha256": "0929e2a93b3cac77cecf1e8024f16d7ef2f0bee65e91eba9aaec92e9b69754ab",
       "prior_included_sha256": "e153b88b3010587b9b5df1decff7c944e73055eabd29c33eaab351d937d33cc4",
@@ -822,6 +822,11 @@
         {
           "previous_included_sha256": "f72be0af3cc188491fa22abff842c6a072f9e348679fb6529be20749ace857eb",
           "current_included_sha256": "53aef7129b2a12fcf4f2ded4a6126b2241fcb8ab4aee281f5b2a576a7c2b7c47"
+        },
+        {
+          "previous_included_sha256": "53aef7129b2a12fcf4f2ded4a6126b2241fcb8ab4aee281f5b2a576a7c2b7c47",
+          "current_included_sha256": "19114acadb5c4d94f8f1e361b4b7229ff0b7c7c636e7d8c8d68b5a3b94911dc0",
+          "note": "Final UX correction: replace obsolete missing-material statements with the complete structural and fresh-count verification routes. No mathematical claim changed."
         }
       ]
     },
@@ -859,8 +864,8 @@
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "sha256": "7729b13d06663899dedb7a271576ce0b2f74bb37c8f096085bb2d9c3e2200364"
       },
-      "included_bytes": 5307,
-      "included_sha256": "67d3e97391e093d46fa2766c9994191e8d45635e1ed49e8312bdc30dde58d7f6",
+      "included_bytes": 5613,
+      "included_sha256": "7f398cd3ebeec51b8c55e39ee8c178b122624eaddba1c68b0b0dec2bbbc1bd6a",
       "path": "papers/families-and-compensation.md",
       "previous_included_sha256": "c0518568932803bf3d39621f1c3f628dabf623b0c50c013a2c6d1a816efd51f4",
       "prior_included_sha256": "891a207b92fd74eee4128dcdb49e21012b654296842436b3dda7fd7f26132331",
@@ -869,6 +874,11 @@
         {
           "previous_included_sha256": "e9b50d8e5fb50697e0abf2f9bd7f46063028f66c78cd14918bec0ba51d76a554",
           "current_included_sha256": "67d3e97391e093d46fa2766c9994191e8d45635e1ed49e8312bdc30dde58d7f6"
+        },
+        {
+          "previous_included_sha256": "67d3e97391e093d46fa2766c9994191e8d45635e1ed49e8312bdc30dde58d7f6",
+          "current_included_sha256": "7f398cd3ebeec51b8c55e39ee8c178b122624eaddba1c68b0b0dec2bbbc1bd6a",
+          "note": "Final UX correction: replace obsolete missing-material statements with the complete structural and fresh-count verification routes. No mathematical claim changed."
         }
       ]
     },

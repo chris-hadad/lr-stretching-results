@@ -21,8 +21,12 @@ The [structural collection](../results/structural-positivity/README.md) and
 [families and obstructions](../results/families-and-obstructions/README.md)
 give the complete statements and proof references. The
 [dependency map](../results/structural-positivity/replay/DEPENDENCIES.md)
-distinguishes symbolic arguments, finite certificates, available standalone
-checks and the larger normal-atlas reproduction still to be packaged.
+distinguishes symbolic arguments and each complete finite verification route.
+The [structural certificate guide](../tooling/structural_certificates/README.md)
+supplies the full normal-atlas and boundary-mask data and replay, while the
+[fresh-count guide](../results/structural-positivity/replay/FRESH-COUNTS.md)
+reconstructs all required gap-three and transportation counts. These checks
+retain their stated analytic premises and mathematical domains.
 
 ## Questions suggested by the examples
 

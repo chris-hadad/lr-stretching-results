@@ -70,11 +70,15 @@ Start with the [rank-six paper](papers/rank-six/README.md) or jump to a category
 | [Precise realization obstructions](results/families-and-obstructions/README.md#negative-graphs-genuine-lr-faces-and-precise-obstructions) | Specified Euler-isometric quiver embeddings and direct affine-lattice flow realizations are impossible | The no-go scopes leave other maps, projections and equal-count constructions open. |
 
 The structural section supplies the accepted theorem catalog, full selected
-source proofs and [three standalone family checks](results/structural-positivity/replay/README.md).
+source proofs and [standalone family checks](results/structural-positivity/replay/README.md).
 Two-row finite proof cases and bounded character comparisons are freshly
-computed. Gap-three and transport replay use exact historical count inputs
-and regenerate complete coefficient algebra. The [dependency map](results/structural-positivity/replay/DEPENDENCIES.md)
-states the full normal-atlas packaging and fresh-count replay work still open. The finite-box package has its own exhaustive reproduction interface.
+computed. The gap-three and transport algebra checks use historical count
+inputs; the separate [fresh-count guide](results/structural-positivity/replay/FRESH-COUNTS.md)
+reconstructs every required count. The [structural certificate guide](tooling/structural_certificates/README.md)
+provides the complete normal-atlas and boundary-mask data and replay. The
+[dependency map](results/structural-positivity/replay/DEPENDENCIES.md) states
+each route's analytic premises and exact limits. The finite-box package has
+its own exhaustive reproduction interface.
 The five older small modules run from the repository root with:
 
 ```sh
