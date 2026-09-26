@@ -2,7 +2,9 @@
 
 For partitions λ, μ and ν with λ outer, write
 
-$$P(t)=c^{t\lambda}_{t\mu,t\nu}=\sum_k c_k t^k.$$
+```math
+P(t)=c^{t\lambda}_{t\mu,t\nu}=\sum_k c_k t^k.
+```
 
 **Every ordinary coefficient is nonnegative when all three partitions have
 length at most six, at every size and boundary.** The result uses the complete
@@ -11,8 +13,10 @@ padding, nonsimple cones, hidden affine strata and actual degree drops.
 
 The new linear-coefficient bound is
 
-$$c_1(H)\geq\frac{1}{2\,000\,000}
-\sum_{E\text{ an actual edge of }H}\operatorname{length}_{\mathbb Z}(E).$$
+```math
+c_1(H)\geq\frac{1}{2\,000\,000}
+\sum_{E\text{ an actual edge of }H}\mathrm{length}_{\mathbb Z}(E).
+```
 
 It is strict whenever the nonempty hive has positive dimension. This joins the
 complete higher-coefficient certificates. A compact independent top-coefficient
@@ -68,8 +72,10 @@ The complete domain has 27,230,728 nine-normal orbit rows. All 46,327,714
 physical-row branches are checked. The retained set has 13,325,662 rows,
 representing 79,940,357 original supports. The exact minimum is
 
-$$\frac{40142888690844119591010700379369}
-{40149066134252712057708583296000000000}.$$
+```math
+\frac{40142888690844119591010700379369}
+{40149066134252712057708583296000000000}.
+```
 
 These finite numbers support an all-size theorem only through the geometric
 proof. They are not a census of boundary triples.

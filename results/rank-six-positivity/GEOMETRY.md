@@ -11,8 +11,10 @@ Keep every original rhombus inequality `rho_r(b,x) >= 0`, including separate
 physical rows with equal interior normals. Let `C` be the cone of all hive
 heights, before fixing the boundary. For a physical-row set S define
 
-$$\operatorname{cl}(S)=\{r:\rho_r(h)=0\text{ for every }h\in C
-\text{ satisfying }\rho_s(h)=0\ (s\in S)\}.$$
+```math
+\mathrm{cl}(S)=\{r:\rho_r(h)=0\text{ for every }h\in C
+\text{ satisfying }\rho_s(h)=0\ (s\in S)\}.
+```
 
 Write `rank_x` for rank after restricting to the interior coordinates.
 For rank n, their number is `m=(n-1)(n-2)/2`.
@@ -20,7 +22,9 @@ For rank n, their number is `m=(n-1)(n-2)/2`.
 **Legal-realization theorem.** Suppose `n >= 3` and S has q independent
 interior normals, with `1 <= q <= m`. Then
 
-$$\operatorname{rank}_x\operatorname{cl}(S)=q$$
+```math
+\mathrm{rank}_x\mathrm{cl}(S)=q
+```
 
 if and only if **some legal integral LR boundary and some compatible positive
 generic relaxation of the original rows** realize S as a normal cell of
@@ -39,8 +43,10 @@ The boundary can always be made legal. In the convention where lambda is the
 vertical outer edge, the rhombus inequalities imply that all three boundary
 words are decreasing. Adding the affine height `u*i+v*j-h(0,0)`, with
 
-$$u=\max(0,-\mu_n),\qquad
-v=\max(0,-\lambda_n,u-\nu_n),$$
+```math
+u=\max(0,-\mu_n),\qquad
+v=\max(0,-\lambda_n,u-\nu_n),
+```
 
 makes them nonnegative integral partitions. It preserves every rhombus slack,
 the trace, and the translated interior lattice. An explicit rational right
@@ -63,8 +69,10 @@ unit-coefficient two-versus-two identities give 30 rules up to reversal; the
 three-versus-three identities give 72. One further six-versus-six identity
 completes their closure calculus:
 
-$$\rho_4+\rho_{17}+\rho_{18}+\rho_{23}+\rho_{31}+\rho_{41}
-=\rho_3+\rho_8+\rho_{24}+\rho_{26}+\rho_{35}+\rho_{39}.$$
+```math
+\rho_4+\rho_{17}+\rho_{18}+\rho_{23}+\rho_{31}+\rho_{41}
+=\rho_3+\rho_8+\rho_{24}+\rho_{26}+\rho_{35}+\rho_{39}.
+```
 
 The IDs are **zero-based physical rows 0–44** in the supplied
 [atlas](../../tooling/whole_rank_six/atlas.json), not its 42 interior-normal
@@ -84,7 +92,9 @@ Let R(S) be rule closure, C(S) actual cone closure, and V(S) the tight-row
 closure on the 166 supplied feasible integral heights. Positive identities
 and feasible heights give the sandwich
 
-$$R(S)\subseteq C(S)\subseteq V(S).$$
+```math
+R(S)\subseteq C(S)\subseteq V(S).
+```
 
 For each target row r, encode a rule-closed set M that excludes r and meets
 the positive support of every supplied height with positive r-slack. Such a
@@ -115,11 +125,15 @@ classifier. Both verification routes are retained.
 
 The original 102 rules leave
 
-$$S=\{4,17,18,23,31,41\}$$
+```math
+S=\{4,17,18,23,31,41\}
+```
 
 unchanged, although its actual closure is
 
-$$\{2,3,4,7,8,9,11,17,18,23,24,26,31,35,39,40,41,44\}.$$
+```math
+\{2,3,4,7,8,9,11,17,18,23,24,26,31,35,39,40,41,44\}.
+```
 
 The interior rank rises from six to eight. The new identity and the old rules
 force exactly these rows, and a feasible integral height realizes exactly

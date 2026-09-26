@@ -4,7 +4,7 @@ Proofs, exact computations and open questions about the coefficients of
 stretched Littlewood–Richardson polynomials.
 
 For partitions λ, μ and ν, with λ the outer partition, let
-$P(t)=c^{t\lambda}_{t\mu,t\nu}$ for positive integers t. These integer values
+$`P(t)=c^{t\lambda}_{t\mu,t\nu}`$ for positive integers t. These integer values
 come from a polynomial with rational coefficients. The King–Tollu–Toumazet
 positivity conjecture asks whether its coefficients in ordinary powers of t
 are always nonnegative.

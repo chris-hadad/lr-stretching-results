@@ -22,9 +22,16 @@
     },
     {
       "path": "GEOMETRY.md",
-      "bytes": 7798,
-      "sha256": "cb949766d254b039aafeade49ab27b1e1bfcb07e94088006fdc8955ca4122410",
-      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+      "bytes": 7836,
+      "sha256": "ef8eb2cf8c142435cf61fc292e066678ad92bf2a9518903ce3ed6f81bd66c1eb",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_update_note": "GitHub rendering compatibility: replace thirteen unsupported operatorname commands with upright function names via mathrm; use native fenced math and protected inline math so original TeX escapes survive. Mathematical expression tokens otherwise unchanged; no executable, numerical, PDF or TeX-source change.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "cb949766d254b039aafeade49ab27b1e1bfcb07e94088006fdc8955ca4122410",
+          "current_included_sha256": "ef8eb2cf8c142435cf61fc292e066678ad92bf2a9518903ce3ed6f81bd66c1eb"
+        }
+      ]
     },
     {
       "path": "NOVELTY.md",
@@ -34,21 +41,42 @@
     },
     {
       "path": "PROOF.md",
-      "bytes": 14752,
-      "sha256": "a6650e6dd93a3617adb74cdfaa8ca69a0085d82f80d08b303437ac98c24cabf6",
-      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+      "bytes": 14794,
+      "sha256": "63a45bdb0d1eb68f4c4742f10579d76e6cfbe9cc4fbcda72fe5c39cde4b1e805",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_update_note": "GitHub rendering compatibility: replace thirteen unsupported operatorname commands with upright function names via mathrm; use native fenced math and protected inline math so original TeX escapes survive. Mathematical expression tokens otherwise unchanged; no executable, numerical, PDF or TeX-source change.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "a6650e6dd93a3617adb74cdfaa8ca69a0085d82f80d08b303437ac98c24cabf6",
+          "current_included_sha256": "63a45bdb0d1eb68f4c4742f10579d76e6cfbe9cc4fbcda72fe5c39cde4b1e805"
+        }
+      ]
     },
     {
       "path": "README.md",
-      "bytes": 4847,
-      "sha256": "156e05eb1b2b01ec223f4d21c3d0576b555ea9c21f1053baebe906dcff7de76d",
-      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+      "bytes": 4865,
+      "sha256": "53fce6bd99231ced8f49bddef42c8263993dc4755651932b000e52a114c72513",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_update_note": "GitHub rendering compatibility: replace thirteen unsupported operatorname commands with upright function names via mathrm; use native fenced math and protected inline math so original TeX escapes survive. Mathematical expression tokens otherwise unchanged; no executable, numerical, PDF or TeX-source change.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "156e05eb1b2b01ec223f4d21c3d0576b555ea9c21f1053baebe906dcff7de76d",
+          "current_included_sha256": "53fce6bd99231ced8f49bddef42c8263993dc4755651932b000e52a114c72513"
+        }
+      ]
     },
     {
       "path": "VERIFYING.md",
-      "bytes": 6453,
-      "sha256": "d0defc785f162cd50d134e823fc188f4f26f5b4501b0b7834679bb5ed81ae1f2",
-      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+      "bytes": 6461,
+      "sha256": "faaf02ca3425d59bdc927bd9e49941f50e7e68e1b9f5bfff22eaa3306bd7f71d",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_update_note": "GitHub rendering compatibility: replace thirteen unsupported operatorname commands with upright function names via mathrm; use native fenced math and protected inline math so original TeX escapes survive. Mathematical expression tokens otherwise unchanged; no executable, numerical, PDF or TeX-source change.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "d0defc785f162cd50d134e823fc188f4f26f5b4501b0b7834679bb5ed81ae1f2",
+          "current_included_sha256": "faaf02ca3425d59bdc927bd9e49941f50e7e68e1b9f5bfff22eaa3306bd7f71d"
+        }
+      ]
     }
   ]
 }

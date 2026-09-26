@@ -31,9 +31,11 @@ The linear component covers all 27,230,728 nine-normal orbit rows and all
 representing 79,940,357 original supports. The field has 20,960,436 integer
 coordinates and denominator 60,000,000,000. Its exact minimum is
 
-$$\frac{40142888690844119591010700379369}
+```math
+\frac{40142888690844119591010700379369}
 {40149066134252712057708583296000000000}
->\frac1{2\,000\,000}.$$
+>\frac1{2\,000\,000}.
+```
 
 The full original action was reconstructed independently of the stored sparse
 operator. Complete q7→q8→q9 extension joins establish coverage rather than

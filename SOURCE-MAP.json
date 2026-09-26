@@ -722,8 +722,8 @@
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "sha256": "573a7f8478d2c682846366fb69e6f5c480fcd4635ae9a19f87e6bc0e261fcb05"
       },
-      "included_bytes": 7290,
-      "included_sha256": "e28a4c704ad688b7287ef781202ede57b5eedd8ea313ee2d954f8092b559e15b",
+      "included_bytes": 7292,
+      "included_sha256": "b6c990f7665e50e72c70980cabb75a54d4b039ef64169f52a9d5adcaa1d7d99a",
       "path": "README.md",
       "pre_licensing_included_sha256": "2b6abf0e71abaa3319dcb2bd4fb68b09f7972c28f054809abe64a85b910860a3",
       "previous_included_sha256": "257794436e1fb28353355ee13f9766825c50fde5e4bf9c8f6971150043259a4a",
@@ -737,8 +737,13 @@
         {
           "previous_included_sha256": "9d00c636368a003d945d833c7261d047118233c1cb057534c5b7fcb074b6a8b2",
           "current_included_sha256": "e28a4c704ad688b7287ef781202ede57b5eedd8ea313ee2d954f8092b559e15b"
+        },
+        {
+          "previous_included_sha256": "e28a4c704ad688b7287ef781202ede57b5eedd8ea313ee2d954f8092b559e15b",
+          "current_included_sha256": "b6c990f7665e50e72c70980cabb75a54d4b039ef64169f52a9d5adcaa1d7d99a"
         }
-      ]
+      ],
+      "publication_update_note": "GitHub rendering compatibility: replace thirteen unsupported operatorname commands with upright function names via mathrm; use native fenced math and protected inline math so original TeX escapes survive. Mathematical expression tokens otherwise unchanged; no executable, numerical, PDF or TeX-source change."
     },
     {
       "editorial_baseline": {
@@ -883,16 +888,21 @@
       ]
     },
     {
-      "included_bytes": 16408,
-      "included_sha256": "046bb5f6aadca6813323e2ce02b027092d22dba22783ce9e5595593899e76f9a",
+      "included_bytes": 16542,
+      "included_sha256": "11819db986cf3744604821f4fcefe2c864020a89d9ad4dfad1237d86be2cfc4c",
       "path": "papers/finite-box.md",
       "provenance": "New September 13 authored exposition, verification adapter or source-projected mathematical input; module/source maps state the exact dependencies.",
       "publication_refresh_history": [
         {
           "previous_included_sha256": "c9c40de756a348260257d4094bf2921e129d26740d1716d88a336e43112012ef",
           "current_included_sha256": "046bb5f6aadca6813323e2ce02b027092d22dba22783ce9e5595593899e76f9a"
+        },
+        {
+          "previous_included_sha256": "046bb5f6aadca6813323e2ce02b027092d22dba22783ce9e5595593899e76f9a",
+          "current_included_sha256": "11819db986cf3744604821f4fcefe2c864020a89d9ad4dfad1237d86be2cfc4c"
         }
-      ]
+      ],
+      "publication_update_note": "GitHub rendering compatibility: replace thirteen unsupported operatorname commands with upright function names via mathrm; use native fenced math and protected inline math so original TeX escapes survive. Mathematical expression tokens otherwise unchanged; no executable, numerical, PDF or TeX-source change."
     },
     {
       "included_bytes": 713,
@@ -12417,9 +12427,16 @@
     },
     {
       "path": "results/rank-six-positivity/GEOMETRY.md",
-      "included_bytes": 7798,
-      "included_sha256": "cb949766d254b039aafeade49ab27b1e1bfcb07e94088006fdc8955ca4122410",
-      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+      "included_bytes": 7836,
+      "included_sha256": "ef8eb2cf8c142435cf61fc292e066678ad92bf2a9518903ce3ed6f81bd66c1eb",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_update_note": "GitHub rendering compatibility: replace thirteen unsupported operatorname commands with upright function names via mathrm; use native fenced math and protected inline math so original TeX escapes survive. Mathematical expression tokens otherwise unchanged; no executable, numerical, PDF or TeX-source change.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "cb949766d254b039aafeade49ab27b1e1bfcb07e94088006fdc8955ca4122410",
+          "current_included_sha256": "ef8eb2cf8c142435cf61fc292e066678ad92bf2a9518903ce3ed6f81bd66c1eb"
+        }
+      ]
     },
     {
       "path": "results/rank-six-positivity/NOVELTY.md",
@@ -12429,33 +12446,58 @@
     },
     {
       "path": "results/rank-six-positivity/PROOF.md",
-      "included_bytes": 14752,
-      "included_sha256": "a6650e6dd93a3617adb74cdfaa8ca69a0085d82f80d08b303437ac98c24cabf6",
-      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+      "included_bytes": 14794,
+      "included_sha256": "63a45bdb0d1eb68f4c4742f10579d76e6cfbe9cc4fbcda72fe5c39cde4b1e805",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_update_note": "GitHub rendering compatibility: replace thirteen unsupported operatorname commands with upright function names via mathrm; use native fenced math and protected inline math so original TeX escapes survive. Mathematical expression tokens otherwise unchanged; no executable, numerical, PDF or TeX-source change.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "a6650e6dd93a3617adb74cdfaa8ca69a0085d82f80d08b303437ac98c24cabf6",
+          "current_included_sha256": "63a45bdb0d1eb68f4c4742f10579d76e6cfbe9cc4fbcda72fe5c39cde4b1e805"
+        }
+      ]
     },
     {
       "path": "results/rank-six-positivity/README.md",
-      "included_bytes": 4847,
-      "included_sha256": "156e05eb1b2b01ec223f4d21c3d0576b555ea9c21f1053baebe906dcff7de76d",
-      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+      "included_bytes": 4865,
+      "included_sha256": "53fce6bd99231ced8f49bddef42c8263993dc4755651932b000e52a114c72513",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_update_note": "GitHub rendering compatibility: replace thirteen unsupported operatorname commands with upright function names via mathrm; use native fenced math and protected inline math so original TeX escapes survive. Mathematical expression tokens otherwise unchanged; no executable, numerical, PDF or TeX-source change.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "156e05eb1b2b01ec223f4d21c3d0576b555ea9c21f1053baebe906dcff7de76d",
+          "current_included_sha256": "53fce6bd99231ced8f49bddef42c8263993dc4755651932b000e52a114c72513"
+        }
+      ]
     },
     {
       "path": "results/rank-six-positivity/SOURCE-MAP.json",
-      "included_bytes": 2583,
-      "included_sha256": "b1b2d65177a4bb713a4dfb720cf3a2d38c805a1c8c1e9cb7137535ca6df43227",
+      "included_bytes": 5075,
+      "included_sha256": "01a1930d7bf99059f2118e3e2b567d4182882913630cd6afb211ae8efa9c41d0",
       "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
       "publication_refresh_history": [
         {
           "previous_included_sha256": "1cb37c69a0ffdfc65004cc37926ab1fbbdfbf025a70b3b92d21fc325ecd4992a",
           "current_included_sha256": "b1b2d65177a4bb713a4dfb720cf3a2d38c805a1c8c1e9cb7137535ca6df43227"
+        },
+        {
+          "previous_included_sha256": "b1b2d65177a4bb713a4dfb720cf3a2d38c805a1c8c1e9cb7137535ca6df43227",
+          "current_included_sha256": "01a1930d7bf99059f2118e3e2b567d4182882913630cd6afb211ae8efa9c41d0"
         }
       ]
     },
     {
       "path": "results/rank-six-positivity/VERIFYING.md",
-      "included_bytes": 6453,
-      "included_sha256": "d0defc785f162cd50d134e823fc188f4f26f5b4501b0b7834679bb5ed81ae1f2",
-      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+      "included_bytes": 6461,
+      "included_sha256": "faaf02ca3425d59bdc927bd9e49941f50e7e68e1b9f5bfff22eaa3306bd7f71d",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_update_note": "GitHub rendering compatibility: replace thirteen unsupported operatorname commands with upright function names via mathrm; use native fenced math and protected inline math so original TeX escapes survive. Mathematical expression tokens otherwise unchanged; no executable, numerical, PDF or TeX-source change.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "d0defc785f162cd50d134e823fc188f4f26f5b4501b0b7834679bb5ed81ae1f2",
+          "current_included_sha256": "faaf02ca3425d59bdc927bd9e49941f50e7e68e1b9f5bfff22eaa3306bd7f71d"
+        }
+      ]
     },
     {
       "path": "results/rank-six-quotients/PROOF.md",
@@ -13753,8 +13795,14 @@
     },
     "results/rank-six-positivity": {
       "path": "results/rank-six-positivity/SOURCE-MAP.json",
-      "bytes": 2583,
-      "sha256": "b1b2d65177a4bb713a4dfb720cf3a2d38c805a1c8c1e9cb7137535ca6df43227"
+      "bytes": 5075,
+      "sha256": "01a1930d7bf99059f2118e3e2b567d4182882913630cd6afb211ae8efa9c41d0",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "b1b2d65177a4bb713a4dfb720cf3a2d38c805a1c8c1e9cb7137535ca6df43227",
+          "current_included_sha256": "01a1930d7bf99059f2118e3e2b567d4182882913630cd6afb211ae8efa9c41d0"
+        }
+      ]
     },
     "results/rank-six-quotients": {
       "path": "results/rank-six-quotients/SOURCE-MAP.json",

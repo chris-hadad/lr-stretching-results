@@ -12,9 +12,11 @@ Let λ, μ and ν be integral partitions with λ outer and
 `|λ| = |μ| + |ν|`. Pad them to six parts. On the triangular grid
 `T = {(i,j): i,j >= 0, i+j <= 6}`, fix
 
-$$h(i,0)=\sum_{a\leq i}\mu_a,\qquad
+```math
+h(i,0)=\sum_{a\leq i}\mu_a,\qquad
 h(0,j)=\sum_{a\leq j}\lambda_a,\qquad
-h(6-j,j)=|\mu|+\sum_{a\leq j}\nu_a.$$
+h(6-j,j)=|\mu|+\sum_{a\leq j}\nu_a.
+```
 
 The interior coordinates, in order, are
 
@@ -24,7 +26,9 @@ Their lattice is `L = Z^10` with the standard metric. All 45 elementary
 rhombi are imposed, with the obtuse-corner sum minus the acute-corner sum
 nonnegative. Write their physical rows as
 
-$$\rho_r(b,x)=\ell_r(b)+\langle n_r,x\rangle\geq0.$$
+```math
+\rho_r(b,x)=\ell_r(b)+\langle n_r,x\rangle\geq0.
+```
 
 The 45 rows restrict to 42 distinct primitive oriented interior normals.
 Three directions have two physical preimages. Equal directions retain their
@@ -38,8 +42,10 @@ fundamental parallelepiped of volume one, without factorial normalization.
 
 If `s` clears the vertices of a rational hive, `s H_b` is integral and
 
-$$c_k(sH_b)=s^k c_k(H_b),\qquad
-\operatorname{vol}_{\mathbb Z}(sF)=s^k\operatorname{vol}_{\mathbb Z}(F).$$
+```math
+c_k(sH_b)=s^k c_k(H_b),\qquad
+\mathrm{vol}_{\mathbb Z}(sF)=s^k\mathrm{vol}_{\mathbb Z}(F).
+```
 
 The coefficient identity uses polynomiality. It does not follow by taking
 limits of arbitrary Ehrhart quasipolynomials. Constant one transfers from
@@ -72,9 +78,11 @@ actual normal cone receives the same full actual face volume.
 
 **Primitive quotient balance.** For every `(q-1)`-cone τ of Γ,
 
-$$\sum_{\sigma\supset\tau,\ \dim\sigma=q}
+```math
+\sum_{\sigma\supset\tau,\ \dim\sigma=q}
 w_\sigma u_{\sigma/\tau}=0
-\quad\text{in }L^*/(L^*\cap\operatorname{span}\tau),$$
+\quad\text{in }L^*/(L^*\cap\mathrm{span}\tau),
+```
 
 where `u` is the primitive quotient generator. There are three cases. If τ
 lies in a coarse `(q-1)`-cone, that cone belongs to an actual `(k+1)`-face G.
@@ -83,7 +91,9 @@ The adjacent contributing cells correspond to facets F of G. Put
 surjective, with the displayed quotient kernel. For a primitive facet
 conormal u,
 
-$$\operatorname{covol}(M_F)=\operatorname{covol}(M_G)\|u\|.$$
+```math
+\mathrm{covol}(M_F)=\mathrm{covol}(M_G)\|u\|.
+```
 
 To see this, extend a basis of `ker u` by a lattice vector v with `u(v)=1`;
 its perpendicular height is `1/||u||`. Dividing Euclidean facet balance by
@@ -99,9 +109,11 @@ constant in its saturated normal plane and induced quotient metric. For each
 independent `(q-1)`-support J, choose a rational quotient functional h_J.
 If `I = J union {n}`, choose a saturated integer kernel basis M_J and set
 
-$$u_{I/J}=\frac{M_J^T n}{\gcd(\text{all coordinates of }M_J^T n)},
+```math
+u_{I/J}=\frac{M_J^T n}{\gcd(\text{all coordinates of }M_J^T n)},
 \qquad
-\beta_I=\alpha_I+\sum_{J\text{ facet of }I}h_J(u_{I/J}).$$
+\beta_I=\alpha_I+\sum_{J\text{ facet of }I}h_J(u_{I/J}).
+```
 
 Independence makes the gcd positive. A normal-plane index, or the unchanged
 ambient normal, cannot replace this primitive quotient operation.
@@ -112,8 +124,10 @@ Lower-dimensional intersections contribute zero in that fixed span. For a
 nonpointed cone, ambient/subspace compatibility identifies the value in the
 actual transverse space. The local coefficient formula consequently gives
 
-$$c_k(P)=\sum_\sigma w_\sigma\alpha_\sigma
-       =\sum_\sigma w_\sigma\beta_\sigma.$$
+```math
+c_k(P)=\sum_\sigma w_\sigma\alpha_\sigma
+       =\sum_\sigma w_\sigma\beta_\sigma.
+```
 
 For the second equality, insert the correction, interchange the finite sums,
 and apply primitive balance at every J. This works for **every rational field**,
@@ -136,8 +150,10 @@ and interior coordinates satisfying every original physical row. It may be
 a larger cone than the legal LR family, as long as it contains every original
 hive. For physical row set S define
 
-$$C_S=C\cap\{\rho_r=0:r\in S\},\qquad
-\operatorname{cl}(S)=\{r:\rho_r\text{ vanishes on all of }C_S\}.$$
+```math
+C_S=C\cap\{\rho_r=0:r\in S\},\qquad
+\mathrm{cl}(S)=\{r:\rho_r\text{ vanishes on all of }C_S\}.
+```
 
 For an independent q-set I of normal directions, consider **all** physical
 branches that choose one row above each direction. Retain I if at least one
@@ -161,8 +177,10 @@ point `(b,x)` of F, every row of `cl(S)` vanishes. Its restriction to F is
 a nonnegative affine function; vanishing at a relative-interior point forces
 it to vanish identically. Thus
 
-$$S\subseteq\operatorname{cl}(S)\subseteq T(F),\qquad
-q\leq\operatorname{rank}_x\operatorname{cl}(S)\leq q.$$
+```math
+S\subseteq\mathrm{cl}(S)\subseteq T(F),\qquad
+q\leq\mathrm{rank}_x\mathrm{cl}(S)\leq q.
+```
 
 This proves retention for the actual branch. Taking an existential maximum
 over all physical branches is safe. No ambient full-dimensionality was used.
@@ -193,8 +211,10 @@ The local scalar α_N is computed from `Λ = N Z^10`, the complete numerator
 `Λ intersect product_i [0,d_i)`, and metric `Q = (N N^T)^(-1)`. The complete
 generating function is
 
-$$S(c)=\frac{\sum_{p\in\Lambda\cap\prod_i[0,d_i)}e^{\langle c,p\rangle}}
-{\prod_i(1-e^{d_i c_i})}.$$
+```math
+S(c)=\frac{\sum_{p\in\Lambda\cap\prod_i[0,d_i)}e^{\langle c,p\rangle}}
+{\prod_i(1-e^{d_i c_i})}.
+```
 
 Its BV constant is the degree-zero multivariate holomorphic projection.
 The [manuscript](../../papers/rank-six/rank-six.tex) derives a finite Bernoulli
@@ -208,7 +228,9 @@ insufficient for type reuse.
 
 For the orbit-averaged c1–c5 fields the stored convention is
 
-$$\beta_I=\alpha_I+\frac{B_I n}{6D}.$$
+```math
+\beta_I=\alpha_I+\frac{B_I n}{6D}.
+```
 
 Every group element and stabilizer is included. The c6 field lists 381 literal
 support functionals directly and has no additional factor of six. Saturation
@@ -232,8 +254,10 @@ For c1, the all-support domain is 27,230,728 orbit rows. The closure test
 visits 46,327,714 branches and retains the stated rows, representing
 79,940,357 literal independent parents. The exact minimum is
 
-$$\frac{40142888690844119591010700379369}
-{40149066134252712057708583296000000000}>\frac1{2\,000\,000}.$$
+```math
+\frac{40142888690844119591010700379369}
+{40149066134252712057708583296000000000}>\frac1{2\,000\,000}.
+```
 
 The field has 20,960,436 integer coordinates, with `D = 10^10` and actual
 denominator `6 × 10^10`. Its original-action check covers 119,963,492

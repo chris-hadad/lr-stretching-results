@@ -22,27 +22,31 @@ FrontierMath box; it does not prove the unrestricted positivity conjecture.
 
 ## 1. Question, conventions and theorem
 
-For partitions λ, μ and ν with $|\lambda|=|\mu|+|\nu|$, let
+For partitions λ, μ and ν with $`|\lambda|=|\mu|+|\nu|`$, let
 
-$$P_{\lambda,\mu,\nu}(t)=c^{t\lambda}_{t\mu,t\nu}\qquad(t=1,2,\ldots).$$
+```math
+P_{\lambda,\mu,\nu}(t)=c^{t\lambda}_{t\mu,t\nu}\qquad(t=1,2,\ldots).
+```
 
 Stretching polynomiality is prior mathematics of Derksen–Weyman and Rassart;
 it is not a conclusion inferred from a finite interpolation. We write
-$P(t)=\sum_j c_jt^j$ in the ordinary monomial basis. The values $P(t)$ are LR
-multiplicities; the rational numbers $c_j$ are different objects. Their
+$`P(t)=\sum_j c_jt^j`$ in the ordinary monomial basis. The values $`P(t)`$ are LR
+multiplicities; the rational numbers $`c_j`$ are different objects. Their
 nonnegativity is the King–Tollu–Toumazet conjecture.
 
 **Theorem.** If
 
-$$|\lambda|=|\mu|+|\nu|\leq30,\qquad
-\max\{\ell(\lambda),\ell(\mu),\ell(\nu)\}\leq7,$$
+```math
+|\lambda|=|\mu|+|\nu|\leq30,\qquad
+\max\{\ell(\lambda),\ell(\mu),\ell(\nu)\}\leq7,
+```
 
-then every ordinary coefficient $c_j$ is nonnegative.
+then every ordinary coefficient $`c_j`$ is nonnegative.
 
 Here λ is outer and lengths are measured after removing trailing zeros. For
 an empty positive-stretch family we use the zero polynomial, independently
-of the isolated value $c^0_{0,0}=1$ at stretch zero. A nonempty hive has
-$P(0)=1$. The all-empty triple has polynomial one; an empty inner partition
+of the isolated value $`c^0_{0,0}=1`$ at stretch zero. A nonempty hive has
+$`P(0)=1`$. The all-empty triple has polynomial one; an empty inner partition
 gives the usual zero-or-one rule. Noncontainment gives zero. These cases are
 part of the theorem, not discarded inputs.
 
@@ -92,13 +96,13 @@ The complete finite premises and source proofs are linked from
 ## 3. Reductions preserving the whole counting problem
 
 **Inactive gaps.** Delete empty skew rows. For consecutive remaining rows with
-lengths $r_i$ and inner gaps $\delta_i$, replace each gap by
-$\min(\delta_i,r_{i+1})$ and translate the bottom row to start at zero.
+lengths $`r_i`$ and inner gaps $`\delta_i`$, replace each gap by
+$`\min(\delta_i,r_{i+1})`$ and translate the bottom row to start at zero.
 The partition inequalities survive. An overlapping pair of rows keeps its
 gap; a nonoverlapping pair remains nonoverlapping. Moving each row with its
 entries preserves all row/column comparisons, content, the reading word and
 ballot conditions. Restoring its previous position is the inverse. Because
-$\min(t\delta,tr)=t\min(\delta,r)$, this is a bijection at every positive
+$`\min(t\delta,tr)=t\min(\delta,r)`$, this is a bijection at every positive
 stretch, not a coincidence of initial counts.
 
 **Tensor symmetries and determinant twists.** Express the LR coefficient as
@@ -107,8 +111,8 @@ simultaneously dualizing, and balancing determinant twists give exact
 identities. Each stored reduction word is checked to produce legal partitions
 with the specified outer factor and shifts.
 
-**Positive dilation.** If a common divisor g is removed, then $P(t)=Q(gt)$.
-The coefficient of $t^j$ is multiplied by $g^j>0$, so signs are unchanged.
+**Positive dilation.** If a common divisor g is removed, then $`P(t)=Q(gt)`$.
+The coefficient of $`t^j`$ is multiplied by $`g^j>0`$, so signs are unchanged.
 Reduction words record this scale and strictly decrease their stated order.
 
 **Proper Horn factorization.** For a feasible parent on a multiplicity-one
@@ -124,11 +128,13 @@ original domain.
 
 ## 4. The correct lattice and relative interior
 
-The rank-n conventional hive has $D=(n-1)(n-2)/2$ unfixed coordinates and
-$3n(n-1)/2$ original rhombus inequalities. After boundary equalities and
+The rank-n conventional hive has $`D=(n-1)(n-2)/2`$ unfixed coordinates and
+$`3n(n-1)/2`$ original rhombus inequalities. After boundary equalities and
 proved forced equations, a chart is written
 
-$$h=tb+Tz.$$
+```math
+h=tb+Tz.
+```
 
 The integer b and T, a coordinate-selection inverse and full-rank checks
 establish the complete relative integer lattice. Further forced equalities
@@ -146,7 +152,9 @@ interior reciprocity with a guessed parity.
 
 For the nonempty period-one hive, Ehrhart reciprocity gives
 
-$$P(-t)=(-1)^d I(t),$$
+```math
+P(-t)=(-1)^d I(t),
+```
 
 where I counts the true relative interior in the original lattice. Rational
 hive vertices are allowed. The argument uses stretching polynomiality, not
@@ -156,40 +164,46 @@ an assumption that every hive is a lattice polytope.
 
 Known geometric formulas protect the leading coefficients under their exact
 dimension, lattice and metric hypotheses. In particular, the verified
-short-normal criterion protects $c_{d-2}$ when each primitive facet normal in
+short-normal criterion protects $`c_{d-2}`$ when each primitive facet normal in
 the saturated chart has squared norm at most six in the fixed metric. Together
 with the leading two coefficients, it protects the top three signs. For
 rational vertices, one may dilate to a lattice polytope and transport signs
 back using period-one polynomiality. The criterion is checked wherever used.
 
-For degree five, put $A=P(1)$, $B=P(2)$, $U=I(1)$ and $V=I(2)$. Expanding
+For degree five, put $`A=P(1)`$, $`B=P(2)`$, $`U=I(1)`$ and $`V=I(2)`$. Expanding
 ordinary monomials and applying reciprocity gives
 
-$$24c_2=16(A-U)-(B-V)-30,$$
+```math
+24c_2=16(A-U)-(B-V)-30,
+```
 
-$$60c_1=30A-3B+60U-15V+20+2I(3).$$
+```math
+60c_1=30A-3B+60U-15V+20+2I(3).
+```
 
 If the explicit part of the second right-hand side is nonnegative, the
-nonnegativity of $I(3)$ suffices for $c_1$. The separate $c_2$ test and protected
+nonnegativity of $`I(3)`$ suffices for $`c_1`$. The separate $`c_2`$ test and protected
 top three signs then prove the whole polynomial nonnegative. Dropping an
 unknown nonnegative term yields a sufficient bound, not an equality with zero.
 An earlier weaker expression can fail even when the polynomial is positive.
 
 As an arithmetic illustration, the lattice-simplex polynomial
-$P(t)=\binom{t+5}{5}$ has $A=6$, $B=21$ and $I(1)=I(2)=I(3)=0$. The identities
-give $c_1=137/60$ and $c_2=15/8$. This example illustrates the method; it is
+$`P(t)=\binom{t+5}{5}`$ has $`A=6`$, $`B=21`$ and $`I(1)=I(2)=I(3)=0`$. The identities
+give $`c_1=137/60`$ and $`c_2=15/8`$. This example illustrates the method; it is
 not asserted to be a new LR instance. The small
 [exact program](../examples/sign_completion.py) derives the identities for
 an arbitrary quintic and checks these fractions.
 
 In later layers take d+1 signed interpolation nodes, leaving one negative
-node uncomputed. Lagrange interpolation, $P(0)=1$ and reciprocity give
+node uncomputed. Lagrange interpolation, $`P(0)=1`$ and reciprocity give
 
-$$P(t)=Q(t)+ZK(t),\qquad c_j=q_j+k_jZ,$$
+```math
+P(t)=Q(t)+ZK(t),\qquad c_j=q_j+k_jZ,
+```
 
-where Z is the missing integer interior count. For $k_j>0$, sign positivity
-requires $Z\geq\lceil-q_j/k_j\rceil$; for $k_j<0$ it requires
-$Z\leq\lfloor-q_j/k_j\rfloor$; for $k_j=0$ it requires $q_j\geq0$.
+where Z is the missing integer interior count. For $`k_j>0`$, sign positivity
+requires $`Z\geq\lceil-q_j/k_j\rceil`$; for $`k_j<0`$ it requires
+$`Z\leq\lfloor-q_j/k_j\rfloor`$; for $`k_j=0`$ it requires $`q_j\geq0`$.
 All arithmetic is rational and all rounding exact. Complete counting bounds
 place the true Z in an interval satisfying every required inequality. The
 interval need not collapse to one value: it proves signs without claiming
@@ -199,8 +213,8 @@ to determine the entire polynomial.
 
 An upper-bound certificate starts from a proved enclosing integer box for
 the full fixed-grade system. Exact linear implications tighten coordinates.
-Each split at an integer m partitions an interval into $[l,m]$ and
-$[m+1,u]$; every branch is verified. Leaves are infeasible or carry valid
+Each split at an integer m partitions an interval into $`[l,m]`$ and
+$`[m+1,u]`$; every branch is verified. Leaves are infeasible or carry valid
 upper counts. A fractional split can omit an integer point and is rejected.
 Lower certificates instead use explicitly disjoint feasible boxes, intervals
 or full low-dimensional fibers, checking every original inequality.
