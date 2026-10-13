@@ -5269,7 +5269,7 @@
       "included_sha256": "8cb89110c8044ae882ef0d599b7a23c4dcf4a0ff169cce185449f39ab8fe6a99"
     },
     {
-      "bytes": 10936,
+      "bytes": 11717,
       "path": "proofs/transport-double-cuts.md",
       "source_path": "methods/frontier-024-2026-09-09/sources/BRANCHES/P07-9739/PROOFS/017-ARBITRARY-SIZE-POSITIVE-DOUBLE-CUT-CORE.md",
       "source_sha256": "37656ed2a50b40bdddc97b2560cd40b36c5d704217cb6ae06eb9791fe5900f8c",
@@ -5279,7 +5279,19 @@
         "bytes": 10969,
         "sha256": "37656ed2a50b40bdddc97b2560cd40b36c5d704217cb6ae06eb9791fe5900f8c"
       },
-      "included_sha256": "676bcfa42fa43b6371a8fa01fb15f79f2cf7d3a4420614abb73198ae3d869694"
+      "included_sha256": "923a93c1f3c55d841b7c125a1efdc0702093e6620aa4c4ff6cdc9665a71067da",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "676bcfa42fa43b6371a8fa01fb15f79f2cf7d3a4420614abb73198ae3d869694",
+          "current_included_sha256": "ce258d7f0bbb1961c1da6668e74f4f6bbf0d2828db9213648c46de669204f04c",
+          "date": "2026-10-12"
+        },
+        {
+          "previous_included_sha256": "ce258d7f0bbb1961c1da6668e74f4f6bbf0d2828db9213648c46de669204f04c",
+          "current_included_sha256": "923a93c1f3c55d841b7c125a1efdc0702093e6620aa4c4ff6cdc9665a71067da",
+          "date": "2026-10-12"
+        }
+      ]
     },
     {
       "bytes": 8819,

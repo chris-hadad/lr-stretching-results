@@ -13,50 +13,74 @@
       "sha256": "fc37a7ae2489eed1968eaea16d18b40e9efb5d96d494ecc7f586ec699a77301f"
     },
     {
-      "bytes": 3405,
+      "bytes": 4059,
       "origin": {
         "repository": "stretched-lr-research",
         "source": "methods/astra011-2026-09-14/publication-docs/NOVELTY.md",
         "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
         "source_sha256": "ce0ee17d4910974656d923e7abf2ef7176d22b7f6a2de5c0a176e8f80be0efb3",
-        "transformation": "Current public editorial update; original-source hash remains historical provenance and no current byte equality is asserted.",
+        "transformation": "Current public explanatory update; original source hashes remain historical lineage.",
         "transformation_history": [
           {
             "included_sha256": "ce0ee17d4910974656d923e7abf2ef7176d22b7f6a2de5c0a176e8f80be0efb3",
             "transformation": "none; exact curated source bytes"
+          },
+          {
+            "transformation": "Current public editorial update; original-source hash remains historical provenance and no current byte equality is asserted."
           }
         ]
       },
       "path": "NOVELTY.md",
-      "sha256": "50dccba7dc083d4cdae88980faa382a4c6704d8a9c1200c7c2f354b0cdc5a466",
+      "sha256": "1a41e983841d4147a3e829e3bd4b146d8b3fe22ece20fe4477d2f099f245b5c8",
       "publication_refresh_history": [
         {
           "previous_included_sha256": "ce0ee17d4910974656d923e7abf2ef7176d22b7f6a2de5c0a176e8f80be0efb3",
           "current_included_sha256": "50dccba7dc083d4cdae88980faa382a4c6704d8a9c1200c7c2f354b0cdc5a466"
+        },
+        {
+          "previous_included_sha256": "50dccba7dc083d4cdae88980faa382a4c6704d8a9c1200c7c2f354b0cdc5a466",
+          "current_included_sha256": "1a41e983841d4147a3e829e3bd4b146d8b3fe22ece20fe4477d2f099f245b5c8",
+          "date": "2026-10-12"
         }
       ]
     },
     {
-      "bytes": 4610,
+      "bytes": 5288,
       "origin": {
         "repository": "stretched-lr-research",
         "source": "methods/astra011-2026-09-14/publication-docs/README-FINAL.md",
         "source_commit": "e24055454487052a4c7b4e735801ae0804acd546",
         "source_sha256": "9f3e714a3dddade84e2582034dfba492122c9d93e124ad276d830cdb4744bf37",
-        "transformation": "Current public editorial update; original-source hash remains historical provenance and no current byte equality is asserted.",
+        "transformation": "Current public explanatory update; original source hashes remain historical lineage.",
         "transformation_history": [
           {
             "included_sha256": "9f3e714a3dddade84e2582034dfba492122c9d93e124ad276d830cdb4744bf37",
             "transformation": "none; exact curated source bytes"
+          },
+          {
+            "transformation": "Current public editorial update; original-source hash remains historical provenance and no current byte equality is asserted."
+          },
+          {
+            "transformation": "Current public explanatory update; original source hashes remain historical lineage."
           }
         ]
       },
       "path": "README.md",
-      "sha256": "b9586ad739b227c8c37f709b316ee9120d3a76a8ddcaf17ec531f5449f5062ce",
+      "sha256": "9ec24a3908cec16af1c7d8d61d2bcd096039f64e55467017e016823b22f89d0c",
       "publication_refresh_history": [
         {
           "previous_included_sha256": "9f3e714a3dddade84e2582034dfba492122c9d93e124ad276d830cdb4744bf37",
           "current_included_sha256": "b9586ad739b227c8c37f709b316ee9120d3a76a8ddcaf17ec531f5449f5062ce"
+        },
+        {
+          "previous_included_sha256": "b9586ad739b227c8c37f709b316ee9120d3a76a8ddcaf17ec531f5449f5062ce",
+          "current_included_sha256": "d662e1a141ff32b00954847b4a22a4ac229f50e15ed3e2b5d66bd2442807367f",
+          "date": "2026-10-12"
+        },
+        {
+          "previous_included_sha256": "d662e1a141ff32b00954847b4a22a4ac229f50e15ed3e2b5d66bd2442807367f",
+          "current_included_sha256": "9ec24a3908cec16af1c7d8d61d2bcd096039f64e55467017e016823b22f89d0c",
+          "date": "2026-10-12"
         }
       ]
     },

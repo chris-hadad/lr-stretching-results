@@ -1,0 +1,49 @@
+{
+  "four_independent_symbols": [
+    "x",
+    "y",
+    "X",
+    "Y"
+  ],
+  "X_meaning": "x^U",
+  "Y_meaning": "y^U",
+  "h2U": {
+    "numerator": "X**2*x**2*y - X**2*x**2 - Y**2*x*y**2 + Y**2*y**2 + x - y",
+    "denominator": "(x - 1)*(x - y)*(y - 1)",
+    "expanded_numerator": "X**2*x**2*y - X**2*x**2 - Y**2*x*y**2 + Y**2*y**2 + x - y",
+    "expanded_denominator": "x**2*y - x**2 - x*y**2 + x + y**2 - y"
+  },
+  "h3U1": {
+    "numerator": "X**3*x**3*y - X**3*x**3 - Y**3*x*y**3 + Y**3*y**3 + x - y",
+    "denominator": "(x - 1)*(x - y)*(y - 1)",
+    "expanded_numerator": "X**3*x**3*y - X**3*x**3 - Y**3*x*y**3 + Y**3*y**3 + x - y",
+    "expanded_denominator": "x**2*y - x**2 - x*y**2 + x + y**2 - y"
+  },
+  "h4U2": {
+    "numerator": "X**4*x**4*y - X**4*x**4 - Y**4*x*y**4 + Y**4*y**4 + x - y",
+    "denominator": "(x - 1)*(x - y)*(y - 1)",
+    "expanded_numerator": "X**4*x**4*y - X**4*x**4 - Y**4*x*y**4 + Y**4*y**4 + x - y",
+    "expanded_denominator": "x**2*y - x**2 - x*y**2 + x + y**2 - y"
+  },
+  "hUm1": {
+    "numerator": "X*x*y - X*x - Y*x*y + Y*y + x - y",
+    "denominator": "(x - 1)*(x - y)*(y - 1)",
+    "expanded_numerator": "X*x*y - X*x - Y*x*y + Y*y + x - y",
+    "expanded_denominator": "x**2*y - x**2 - x*y**2 + x + y**2 - y"
+  },
+  "complete_determinant": {
+    "numerator": "(X*x - 1)**2*(X*x - Y*y)**2*(Y*y - 1)**2",
+    "denominator": "(x - 1)**2*(x - y)**2*(y - 1)**2",
+    "expanded_numerator": "X**4*Y**2*x**4*y**2 - 2*X**4*Y*x**4*y + X**4*x**4 - 2*X**3*Y**3*x**3*y**3 + 2*X**3*Y**2*x**3*y**2 + 2*X**3*Y*x**3*y - 2*X**3*x**3 + X**2*Y**4*x**2*y**4 + 2*X**2*Y**3*x**2*y**3 - 6*X**2*Y**2*x**2*y**2 + 2*X**2*Y*x**2*y + X**2*x**2 - 2*X*Y**4*x*y**4 + 2*X*Y**3*x*y**3 + 2*X*Y**2*x*y**2 - 2*X*Y*x*y + Y**4*y**4 - 2*Y**3*y**3 + Y**2*y**2",
+    "expanded_denominator": "x**4*y**2 - 2*x**4*y + x**4 - 2*x**3*y**3 + 2*x**3*y**2 + 2*x**3*y - 2*x**3 + x**2*y**4 + 2*x**2*y**3 - 6*x**2*y**2 + 2*x**2*y + x**2 - 2*x*y**4 + 2*x*y**3 + 2*x*y**2 - 2*x*y + y**4 - 2*y**3 + y**2"
+  },
+  "squared_Weyl_character": {
+    "numerator": "(X*x - 1)**2*(X*x - Y*y)**2*(Y*y - 1)**2",
+    "denominator": "(x - 1)**2*(x - y)**2*(y - 1)**2",
+    "expanded_numerator": "X**4*Y**2*x**4*y**2 - 2*X**4*Y*x**4*y + X**4*x**4 - 2*X**3*Y**3*x**3*y**3 + 2*X**3*Y**2*x**3*y**2 + 2*X**3*Y*x**3*y - 2*X**3*x**3 + X**2*Y**4*x**2*y**4 + 2*X**2*Y**3*x**2*y**3 - 6*X**2*Y**2*x**2*y**2 + 2*X**2*Y*x**2*y + X**2*x**2 - 2*X*Y**4*x*y**4 + 2*X*Y**3*x*y**3 + 2*X*Y**2*x*y**2 - 2*X*Y*x*y + Y**4*y**4 - 2*Y**3*y**3 + Y**2*y**2",
+    "expanded_denominator": "x**4*y**2 - 2*x**4*y + x**4 - 2*x**3*y**3 + 2*x**3*y**2 + 2*x**3*y - 2*x**3 + x**2*y**4 + 2*x**2*y**3 - 6*x**2*y**2 + 2*x**2*y + x**2 - 2*x*y**4 + 2*x*y**3 + 2*x*y**2 - 2*x*y + y**4 - 2*y**3 + y**2"
+  },
+  "free_variable_residual": "0",
+  "h_minus1_residual": "0",
+  "no_U_sampling": true
+}

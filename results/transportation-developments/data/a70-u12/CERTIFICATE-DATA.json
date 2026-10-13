@@ -1,0 +1,8276 @@
+{
+  "schema": "a70-u12-complete-theorem-critical-data/v1",
+  "complete_certificate": {
+    "geometry": {
+      "status": "PASS",
+      "physical_system": {
+        "outer": [
+          [
+            2,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "inner": [
+          [
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "content": [
+          [
+            1,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "array": [
+          [
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              -1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              1,
+              0,
+              -1,
+              -1,
+              0,
+              -1,
+              0
+            ],
+            [
+              1,
+              1,
+              1,
+              0,
+              -1,
+              0,
+              -1
+            ],
+            [
+              -2,
+              1,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              -1,
+              -1,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              -1,
+              -1
+            ]
+          ]
+        ],
+        "occurrences": [
+          {
+            "label": "parameter:S",
+            "normal": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "parameter:U",
+            "normal": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "nonnegative:x(1,1)",
+            "normal": [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "nonnegative:x(1,2)",
+            "normal": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "nonnegative:x(1,3)",
+            "normal": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "nonnegative:x(2,1)",
+            "normal": [
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "nonnegative:x(2,2)",
+            "normal": [
+              0,
+              1,
+              -1,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "nonnegative:x(2,3)",
+            "normal": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "nonnegative:x(3,1)",
+            "normal": [
+              1,
+              0,
+              -1,
+              -1,
+              0,
+              -1,
+              0
+            ]
+          },
+          {
+            "label": "nonnegative:x(3,2)",
+            "normal": [
+              1,
+              1,
+              1,
+              0,
+              -1,
+              0,
+              -1
+            ]
+          },
+          {
+            "label": "nonnegative:x(3,3)",
+            "normal": [
+              -2,
+              1,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "label": "nonnegative:x(4,1)",
+            "normal": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "nonnegative:x(4,2)",
+            "normal": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "nonnegative:x(4,3)",
+            "normal": [
+              1,
+              0,
+              0,
+              -1,
+              -1,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "nonnegative:x(5,1)",
+            "normal": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "label": "nonnegative:x(5,2)",
+            "normal": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "label": "nonnegative:x(5,3)",
+            "normal": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              -1,
+              -1
+            ]
+          },
+          {
+            "label": "column:(2,1)",
+            "normal": [
+              0,
+              0,
+              -1,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "column:(2,2)",
+            "normal": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "column:(2,3)",
+            "normal": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "column:(3,1)",
+            "normal": [
+              -1,
+              1,
+              1,
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "label": "column:(3,2)",
+            "normal": [
+              -2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "label": "column:(3,3)",
+            "normal": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "column:(4,1)",
+            "normal": [
+              1,
+              0,
+              0,
+              -1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "column:(4,2)",
+            "normal": [
+              2,
+              0,
+              -1,
+              -2,
+              -1,
+              -1,
+              0
+            ]
+          },
+          {
+            "label": "column:(4,3)",
+            "normal": [
+              2,
+              1,
+              0,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "label": "column:(5,1)",
+            "normal": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              -1,
+              0
+            ]
+          },
+          {
+            "label": "column:(5,2)",
+            "normal": [
+              1,
+              0,
+              0,
+              1,
+              0,
+              -1,
+              -1
+            ]
+          },
+          {
+            "label": "column:(5,3)",
+            "normal": [
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "ballot:(1,1)",
+            "normal": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "ballot:(1,2)",
+            "normal": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "ballot:(2,1)",
+            "normal": [
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "ballot:(2,2)",
+            "normal": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "ballot:(3,1)",
+            "normal": [
+              -1,
+              1,
+              1,
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "label": "ballot:(3,2)",
+            "normal": [
+              2,
+              0,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          },
+          {
+            "label": "ballot:(4,1)",
+            "normal": [
+              0,
+              1,
+              0,
+              -1,
+              0,
+              -1,
+              1
+            ]
+          },
+          {
+            "label": "ballot:(4,2)",
+            "normal": [
+              2,
+              1,
+              0,
+              0,
+              -1,
+              -1,
+              -2
+            ]
+          },
+          {
+            "label": "ballot:(5,1)",
+            "normal": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              -1,
+              0
+            ]
+          },
+          {
+            "label": "ballot:(5,2)",
+            "normal": [
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              -1
+            ]
+          }
+        ],
+        "forms": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            -1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            -1,
+            -1,
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            0,
+            -1,
+            0,
+            -1
+          ],
+          [
+            -2,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            -1,
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            -1
+          ],
+          [
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            -1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            -2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            -1,
+            -2,
+            -1,
+            -1,
+            0
+          ],
+          [
+            2,
+            1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            1,
+            0,
+            -1,
+            -1
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            -1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          [
+            0,
+            1,
+            0,
+            -1,
+            0,
+            -1,
+            1
+          ],
+          [
+            2,
+            1,
+            0,
+            0,
+            -1,
+            -1,
+            -2
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            -1
+          ]
+        ],
+        "orthant_normals": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "prior_degree": {
+        "parameterization": "S=4epsilon+p, U=4epsilon+q, epsilon>0, p,q>=0",
+        "tail_rows": "(S-2epsilon,epsilon,epsilon); (epsilon,S-2epsilon,epsilon)",
+        "z": "epsilon-U/2",
+        "strict_slacks": [
+          {
+            "label": "parameter:S",
+            "epsilon_p_q": [
+              4,
+              1,
+              "0"
+            ]
+          },
+          {
+            "label": "parameter:U",
+            "epsilon_p_q": [
+              4,
+              0,
+              "1"
+            ]
+          },
+          {
+            "label": "nonnegative:x(1,1)",
+            "epsilon_p_q": [
+              8,
+              0,
+              "2"
+            ]
+          },
+          {
+            "label": "nonnegative:x(1,2)",
+            "epsilon_p_q": [
+              0,
+              0,
+              "0"
+            ]
+          },
+          {
+            "label": "nonnegative:x(1,3)",
+            "epsilon_p_q": [
+              0,
+              0,
+              "0"
+            ]
+          },
+          {
+            "label": "nonnegative:x(2,1)",
+            "epsilon_p_q": [
+              3,
+              0,
+              "1/2"
+            ]
+          },
+          {
+            "label": "nonnegative:x(2,2)",
+            "epsilon_p_q": [
+              5,
+              0,
+              "3/2"
+            ]
+          },
+          {
+            "label": "nonnegative:x(2,3)",
+            "epsilon_p_q": [
+              0,
+              0,
+              "0"
+            ]
+          },
+          {
+            "label": "nonnegative:x(3,1)",
+            "epsilon_p_q": [
+              2,
+              0,
+              "1/2"
+            ]
+          },
+          {
+            "label": "nonnegative:x(3,2)",
+            "epsilon_p_q": [
+              4,
+              0,
+              "1/2"
+            ]
+          },
+          {
+            "label": "nonnegative:x(3,3)",
+            "epsilon_p_q": [
+              2,
+              0,
+              "1"
+            ]
+          },
+          {
+            "label": "nonnegative:x(4,1)",
+            "epsilon_p_q": [
+              2,
+              1,
+              "0"
+            ]
+          },
+          {
+            "label": "nonnegative:x(4,2)",
+            "epsilon_p_q": [
+              1,
+              0,
+              "0"
+            ]
+          },
+          {
+            "label": "nonnegative:x(4,3)",
+            "epsilon_p_q": [
+              1,
+              0,
+              "0"
+            ]
+          },
+          {
+            "label": "nonnegative:x(5,1)",
+            "epsilon_p_q": [
+              1,
+              0,
+              "0"
+            ]
+          },
+          {
+            "label": "nonnegative:x(5,2)",
+            "epsilon_p_q": [
+              2,
+              1,
+              "0"
+            ]
+          },
+          {
+            "label": "nonnegative:x(5,3)",
+            "epsilon_p_q": [
+              1,
+              0,
+              "0"
+            ]
+          },
+          {
+            "label": "column:(2,1)",
+            "epsilon_p_q": [
+              1,
+              0,
+              "1/2"
+            ]
+          },
+          {
+            "label": "column:(2,2)",
+            "epsilon_p_q": [
+              4,
+              0,
+              "1"
+            ]
+          },
+          {
+            "label": "column:(2,3)",
+            "epsilon_p_q": [
+              4,
+              0,
+              "1"
+            ]
+          },
+          {
+            "label": "column:(3,1)",
+            "epsilon_p_q": [
+              2,
+              0,
+              "1/2"
+            ]
+          },
+          {
+            "label": "column:(3,2)",
+            "epsilon_p_q": [
+              1,
+              0,
+              "1/2"
+            ]
+          },
+          {
+            "label": "column:(3,3)",
+            "epsilon_p_q": [
+              4,
+              0,
+              "1"
+            ]
+          },
+          {
+            "label": "column:(4,1)",
+            "epsilon_p_q": [
+              2,
+              0,
+              "0"
+            ]
+          },
+          {
+            "label": "column:(4,2)",
+            "epsilon_p_q": [
+              3,
+              0,
+              "1/2"
+            ]
+          },
+          {
+            "label": "column:(4,3)",
+            "epsilon_p_q": [
+              6,
+              0,
+              "1"
+            ]
+          },
+          {
+            "label": "column:(5,1)",
+            "epsilon_p_q": [
+              3,
+              1,
+              "0"
+            ]
+          },
+          {
+            "label": "column:(5,2)",
+            "epsilon_p_q": [
+              3,
+              1,
+              "0"
+            ]
+          },
+          {
+            "label": "column:(5,3)",
+            "epsilon_p_q": [
+              3,
+              1,
+              "0"
+            ]
+          },
+          {
+            "label": "ballot:(1,1)",
+            "epsilon_p_q": [
+              0,
+              0,
+              "0"
+            ]
+          },
+          {
+            "label": "ballot:(1,2)",
+            "epsilon_p_q": [
+              0,
+              0,
+              "0"
+            ]
+          },
+          {
+            "label": "ballot:(2,1)",
+            "epsilon_p_q": [
+              3,
+              0,
+              "1/2"
+            ]
+          },
+          {
+            "label": "ballot:(2,2)",
+            "epsilon_p_q": [
+              0,
+              0,
+              "0"
+            ]
+          },
+          {
+            "label": "ballot:(3,1)",
+            "epsilon_p_q": [
+              2,
+              0,
+              "1/2"
+            ]
+          },
+          {
+            "label": "ballot:(3,2)",
+            "epsilon_p_q": [
+              3,
+              0,
+              "1/2"
+            ]
+          },
+          {
+            "label": "ballot:(4,1)",
+            "epsilon_p_q": [
+              3,
+              0,
+              "1"
+            ]
+          },
+          {
+            "label": "ballot:(4,2)",
+            "epsilon_p_q": [
+              6,
+              0,
+              "1"
+            ]
+          },
+          {
+            "label": "ballot:(5,1)",
+            "epsilon_p_q": [
+              3,
+              0,
+              "1"
+            ]
+          },
+          {
+            "label": "ballot:(5,2)",
+            "epsilon_p_q": [
+              6,
+              0,
+              "1"
+            ]
+          }
+        ],
+        "fiber_lattice": "Z^5",
+        "prior_actual_degree": 5,
+        "degree_basis": "An open set in the complete injective five-coordinate tableau chart, with integer inverse; no fitted degree."
+      },
+      "double_description": {
+        "rays": [
+          [
+            0,
+            1,
+            -1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            -1,
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            -1,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            0,
+            0,
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            0,
+            0,
+            2,
+            1,
+            1
+          ]
+        ],
+        "stages": [
+          {
+            "stage": 1,
+            "normal": [
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "positive": 1,
+            "negative": 1,
+            "zero": 5,
+            "all_pair_count": 1,
+            "primitive_candidates": 7,
+            "extreme_rays": 7
+          },
+          {
+            "stage": 2,
+            "normal": [
+              0,
+              1,
+              -1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "positive": 2,
+            "negative": 0,
+            "zero": 5,
+            "all_pair_count": 0,
+            "primitive_candidates": 7,
+            "extreme_rays": 7
+          },
+          {
+            "stage": 3,
+            "normal": [
+              1,
+              0,
+              -1,
+              -1,
+              0,
+              -1,
+              0
+            ],
+            "positive": 2,
+            "negative": 2,
+            "zero": 3,
+            "all_pair_count": 4,
+            "primitive_candidates": 9,
+            "extreme_rays": 9
+          },
+          {
+            "stage": 4,
+            "normal": [
+              1,
+              1,
+              1,
+              0,
+              -1,
+              0,
+              -1
+            ],
+            "positive": 4,
+            "negative": 2,
+            "zero": 3,
+            "all_pair_count": 8,
+            "primitive_candidates": 15,
+            "extreme_rays": 15
+          },
+          {
+            "stage": 5,
+            "normal": [
+              -2,
+              1,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "positive": 6,
+            "negative": 5,
+            "zero": 4,
+            "all_pair_count": 30,
+            "primitive_candidates": 36,
+            "extreme_rays": 20
+          },
+          {
+            "stage": 6,
+            "normal": [
+              1,
+              0,
+              0,
+              -1,
+              -1,
+              0,
+              0
+            ],
+            "positive": 7,
+            "negative": 5,
+            "zero": 8,
+            "all_pair_count": 35,
+            "primitive_candidates": 50,
+            "extreme_rays": 19
+          },
+          {
+            "stage": 7,
+            "normal": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              -1,
+              -1
+            ],
+            "positive": 8,
+            "negative": 5,
+            "zero": 6,
+            "all_pair_count": 40,
+            "primitive_candidates": 54,
+            "extreme_rays": 20
+          },
+          {
+            "stage": 8,
+            "normal": [
+              -1,
+              1,
+              1,
+              1,
+              0,
+              1,
+              0
+            ],
+            "positive": 7,
+            "negative": 5,
+            "zero": 8,
+            "all_pair_count": 35,
+            "primitive_candidates": 50,
+            "extreme_rays": 16
+          },
+          {
+            "stage": 9,
+            "normal": [
+              -2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "positive": 2,
+            "negative": 5,
+            "zero": 9,
+            "all_pair_count": 10,
+            "primitive_candidates": 21,
+            "extreme_rays": 11
+          },
+          {
+            "stage": 10,
+            "normal": [
+              1,
+              0,
+              0,
+              -1,
+              0,
+              0,
+              0
+            ],
+            "positive": 6,
+            "negative": 0,
+            "zero": 5,
+            "all_pair_count": 0,
+            "primitive_candidates": 11,
+            "extreme_rays": 11
+          },
+          {
+            "stage": 11,
+            "normal": [
+              2,
+              0,
+              -1,
+              -2,
+              -1,
+              -1,
+              0
+            ],
+            "positive": 6,
+            "negative": 0,
+            "zero": 5,
+            "all_pair_count": 0,
+            "primitive_candidates": 11,
+            "extreme_rays": 11
+          },
+          {
+            "stage": 12,
+            "normal": [
+              2,
+              1,
+              0,
+              -1,
+              -1,
+              -1,
+              -1
+            ],
+            "positive": 9,
+            "negative": 0,
+            "zero": 2,
+            "all_pair_count": 0,
+            "primitive_candidates": 11,
+            "extreme_rays": 11
+          },
+          {
+            "stage": 13,
+            "normal": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "positive": 6,
+            "negative": 0,
+            "zero": 5,
+            "all_pair_count": 0,
+            "primitive_candidates": 11,
+            "extreme_rays": 11
+          },
+          {
+            "stage": 14,
+            "normal": [
+              1,
+              0,
+              0,
+              1,
+              0,
+              -1,
+              -1
+            ],
+            "positive": 5,
+            "negative": 0,
+            "zero": 6,
+            "all_pair_count": 0,
+            "primitive_candidates": 11,
+            "extreme_rays": 11
+          },
+          {
+            "stage": 15,
+            "normal": [
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            "positive": 6,
+            "negative": 0,
+            "zero": 5,
+            "all_pair_count": 0,
+            "primitive_candidates": 11,
+            "extreme_rays": 11
+          },
+          {
+            "stage": 16,
+            "normal": [
+              -1,
+              1,
+              1,
+              0,
+              1,
+              0,
+              1
+            ],
+            "positive": 5,
+            "negative": 1,
+            "zero": 5,
+            "all_pair_count": 5,
+            "primitive_candidates": 15,
+            "extreme_rays": 11
+          },
+          {
+            "stage": 17,
+            "normal": [
+              2,
+              0,
+              -1,
+              -1,
+              -1,
+              -1,
+              -1
+            ],
+            "positive": 7,
+            "negative": 0,
+            "zero": 4,
+            "all_pair_count": 0,
+            "primitive_candidates": 11,
+            "extreme_rays": 11
+          },
+          {
+            "stage": 18,
+            "normal": [
+              0,
+              1,
+              0,
+              -1,
+              0,
+              -1,
+              1
+            ],
+            "positive": 6,
+            "negative": 1,
+            "zero": 4,
+            "all_pair_count": 6,
+            "primitive_candidates": 16,
+            "extreme_rays": 15
+          },
+          {
+            "stage": 19,
+            "normal": [
+              2,
+              1,
+              0,
+              0,
+              -1,
+              -1,
+              -2
+            ],
+            "positive": 12,
+            "negative": 0,
+            "zero": 3,
+            "all_pair_count": 0,
+            "primitive_candidates": 15,
+            "extreme_rays": 15
+          },
+          {
+            "stage": 20,
+            "normal": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              -1,
+              0
+            ],
+            "positive": 8,
+            "negative": 2,
+            "zero": 5,
+            "all_pair_count": 16,
+            "primitive_candidates": 28,
+            "extreme_rays": 15
+          },
+          {
+            "stage": 21,
+            "normal": [
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              -1
+            ],
+            "positive": 14,
+            "negative": 0,
+            "zero": 1,
+            "all_pair_count": 0,
+            "primitive_candidates": 15,
+            "extreme_rays": 15
+          }
+        ],
+        "rank_calls": 415,
+        "complete": true,
+        "remaining_inequalities": 21
+      },
+      "facets": [
+        {
+          "rays": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            10,
+            12,
+            14
+          ],
+          "normals": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              -1,
+              -1
+            ]
+          ]
+        },
+        {
+          "rays": [
+            0,
+            1,
+            2,
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            13,
+            14
+          ],
+          "normals": [
+            [
+              1,
+              0,
+              0,
+              -1,
+              -1,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "rays": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            9,
+            10,
+            11
+          ],
+          "normals": [
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "rays": [
+            0,
+            1,
+            2,
+            4,
+            6,
+            7,
+            9,
+            11
+          ],
+          "normals": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "rays": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "normals": [
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "rays": [
+            0,
+            1,
+            3,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            13
+          ],
+          "normals": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "rays": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            9,
+            11,
+            12,
+            13
+          ],
+          "normals": [
+            [
+              -2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          ]
+        },
+        {
+          "rays": [
+            0,
+            2,
+            3,
+            4,
+            6,
+            7,
+            12,
+            13,
+            14
+          ],
+          "normals": [
+            [
+              -1,
+              1,
+              1,
+              1,
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "rays": [
+            0,
+            2,
+            3,
+            5,
+            9,
+            10
+          ],
+          "normals": [
+            [
+              -1,
+              1,
+              1,
+              0,
+              1,
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "rays": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            13,
+            14
+          ],
+          "normals": [
+            [
+              0,
+              0,
+              -1,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "rays": [
+            1,
+            2,
+            5,
+            8,
+            9,
+            10
+          ],
+          "normals": [
+            [
+              1,
+              0,
+              -1,
+              -1,
+              0,
+              -1,
+              0
+            ]
+          ]
+        },
+        {
+          "rays": [
+            2,
+            3,
+            5,
+            8,
+            9,
+            10,
+            13
+          ],
+          "normals": [
+            [
+              0,
+              1,
+              0,
+              -1,
+              0,
+              -1,
+              1
+            ]
+          ]
+        },
+        {
+          "rays": [
+            2,
+            3,
+            5,
+            8,
+            12,
+            13,
+            14
+          ],
+          "normals": [
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              -1,
+              0
+            ]
+          ]
+        }
+      ],
+      "pulling": {
+        "cones": [
+          [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            11
+          ],
+          [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            13
+          ],
+          [
+            0,
+            1,
+            2,
+            4,
+            5,
+            12,
+            13
+          ],
+          [
+            0,
+            1,
+            2,
+            4,
+            6,
+            7,
+            14
+          ],
+          [
+            0,
+            1,
+            2,
+            4,
+            6,
+            13,
+            14
+          ],
+          [
+            0,
+            1,
+            2,
+            4,
+            12,
+            13,
+            14
+          ],
+          [
+            0,
+            1,
+            2,
+            5,
+            6,
+            9,
+            11
+          ],
+          [
+            0,
+            1,
+            2,
+            5,
+            6,
+            9,
+            13
+          ],
+          [
+            0,
+            1,
+            2,
+            5,
+            8,
+            9,
+            10
+          ],
+          [
+            0,
+            1,
+            2,
+            5,
+            8,
+            9,
+            13
+          ],
+          [
+            0,
+            1,
+            2,
+            5,
+            8,
+            13,
+            14
+          ],
+          [
+            0,
+            1,
+            2,
+            5,
+            12,
+            13,
+            14
+          ],
+          [
+            0,
+            2,
+            3,
+            5,
+            8,
+            9,
+            10
+          ],
+          [
+            0,
+            2,
+            3,
+            5,
+            8,
+            9,
+            13
+          ],
+          [
+            0,
+            2,
+            3,
+            5,
+            8,
+            13,
+            14
+          ],
+          [
+            0,
+            2,
+            3,
+            5,
+            12,
+            13,
+            14
+          ]
+        ],
+        "face_recursion": [
+          {
+            "face": [
+              6,
+              11
+            ],
+            "rank": 2,
+            "simplex": true
+          },
+          {
+            "face": [
+              6,
+              13
+            ],
+            "rank": 2,
+            "simplex": true
+          },
+          {
+            "face": [
+              5,
+              6,
+              11,
+              13
+            ],
+            "rank": 3,
+            "pivot": 5,
+            "all_rank_one_lower_facets": [
+              [
+                5,
+                11
+              ],
+              [
+                5,
+                13
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                6,
+                13
+              ]
+            ],
+            "opposite_facets": [
+              [
+                6,
+                11
+              ],
+              [
+                6,
+                13
+              ]
+            ],
+            "result_simplices": [
+              [
+                5,
+                6,
+                11
+              ],
+              [
+                5,
+                6,
+                13
+              ]
+            ]
+          },
+          {
+            "face": [
+              5,
+              12,
+              13
+            ],
+            "rank": 3,
+            "simplex": true
+          },
+          {
+            "face": [
+              4,
+              5,
+              6,
+              11,
+              12,
+              13
+            ],
+            "rank": 4,
+            "pivot": 4,
+            "all_rank_one_lower_facets": [
+              [
+                4,
+                5,
+                11
+              ],
+              [
+                4,
+                5,
+                12
+              ],
+              [
+                4,
+                6,
+                11
+              ],
+              [
+                4,
+                6,
+                12,
+                13
+              ],
+              [
+                5,
+                6,
+                11,
+                13
+              ],
+              [
+                5,
+                12,
+                13
+              ]
+            ],
+            "opposite_facets": [
+              [
+                5,
+                6,
+                11,
+                13
+              ],
+              [
+                5,
+                12,
+                13
+              ]
+            ],
+            "result_simplices": [
+              [
+                4,
+                5,
+                6,
+                11
+              ],
+              [
+                4,
+                5,
+                6,
+                13
+              ],
+              [
+                4,
+                5,
+                12,
+                13
+              ]
+            ]
+          },
+          {
+            "face": [
+              6,
+              9,
+              11
+            ],
+            "rank": 3,
+            "simplex": true
+          },
+          {
+            "face": [
+              6,
+              9,
+              13
+            ],
+            "rank": 3,
+            "simplex": true
+          },
+          {
+            "face": [
+              5,
+              6,
+              9,
+              11,
+              13
+            ],
+            "rank": 4,
+            "pivot": 5,
+            "all_rank_one_lower_facets": [
+              [
+                5,
+                6,
+                11,
+                13
+              ],
+              [
+                5,
+                9,
+                11
+              ],
+              [
+                5,
+                9,
+                13
+              ],
+              [
+                6,
+                9,
+                11
+              ],
+              [
+                6,
+                9,
+                13
+              ]
+            ],
+            "opposite_facets": [
+              [
+                6,
+                9,
+                11
+              ],
+              [
+                6,
+                9,
+                13
+              ]
+            ],
+            "result_simplices": [
+              [
+                5,
+                6,
+                9,
+                11
+              ],
+              [
+                5,
+                6,
+                9,
+                13
+              ]
+            ]
+          },
+          {
+            "face": [
+              2,
+              4,
+              5,
+              6,
+              9,
+              11,
+              12,
+              13
+            ],
+            "rank": 5,
+            "pivot": 2,
+            "all_rank_one_lower_facets": [
+              [
+                2,
+                4,
+                5,
+                9,
+                11
+              ],
+              [
+                2,
+                4,
+                5,
+                12
+              ],
+              [
+                2,
+                4,
+                6,
+                9,
+                11
+              ],
+              [
+                2,
+                4,
+                6,
+                12,
+                13
+              ],
+              [
+                2,
+                5,
+                9,
+                13
+              ],
+              [
+                2,
+                5,
+                12,
+                13
+              ],
+              [
+                2,
+                6,
+                9,
+                13
+              ],
+              [
+                4,
+                5,
+                6,
+                11,
+                12,
+                13
+              ],
+              [
+                5,
+                6,
+                9,
+                11,
+                13
+              ]
+            ],
+            "opposite_facets": [
+              [
+                4,
+                5,
+                6,
+                11,
+                12,
+                13
+              ],
+              [
+                5,
+                6,
+                9,
+                11,
+                13
+              ]
+            ],
+            "result_simplices": [
+              [
+                2,
+                4,
+                5,
+                6,
+                11
+              ],
+              [
+                2,
+                4,
+                5,
+                6,
+                13
+              ],
+              [
+                2,
+                4,
+                5,
+                12,
+                13
+              ],
+              [
+                2,
+                5,
+                6,
+                9,
+                11
+              ],
+              [
+                2,
+                5,
+                6,
+                9,
+                13
+              ]
+            ]
+          },
+          {
+            "face": [
+              7,
+              14
+            ],
+            "rank": 2,
+            "simplex": true
+          },
+          {
+            "face": [
+              13,
+              14
+            ],
+            "rank": 2,
+            "simplex": true
+          },
+          {
+            "face": [
+              6,
+              7,
+              13,
+              14
+            ],
+            "rank": 3,
+            "pivot": 6,
+            "all_rank_one_lower_facets": [
+              [
+                6,
+                7
+              ],
+              [
+                6,
+                13
+              ],
+              [
+                7,
+                14
+              ],
+              [
+                13,
+                14
+              ]
+            ],
+            "opposite_facets": [
+              [
+                7,
+                14
+              ],
+              [
+                13,
+                14
+              ]
+            ],
+            "result_simplices": [
+              [
+                6,
+                7,
+                14
+              ],
+              [
+                6,
+                13,
+                14
+              ]
+            ]
+          },
+          {
+            "face": [
+              12,
+              13,
+              14
+            ],
+            "rank": 3,
+            "simplex": true
+          },
+          {
+            "face": [
+              4,
+              6,
+              7,
+              12,
+              13,
+              14
+            ],
+            "rank": 4,
+            "pivot": 4,
+            "all_rank_one_lower_facets": [
+              [
+                4,
+                6,
+                7
+              ],
+              [
+                4,
+                6,
+                12,
+                13
+              ],
+              [
+                4,
+                7,
+                12,
+                14
+              ],
+              [
+                6,
+                7,
+                13,
+                14
+              ],
+              [
+                12,
+                13,
+                14
+              ]
+            ],
+            "opposite_facets": [
+              [
+                6,
+                7,
+                13,
+                14
+              ],
+              [
+                12,
+                13,
+                14
+              ]
+            ],
+            "result_simplices": [
+              [
+                4,
+                6,
+                7,
+                14
+              ],
+              [
+                4,
+                6,
+                13,
+                14
+              ],
+              [
+                4,
+                12,
+                13,
+                14
+              ]
+            ]
+          },
+          {
+            "face": [
+              2,
+              4,
+              6,
+              7,
+              12,
+              13,
+              14
+            ],
+            "rank": 5,
+            "pivot": 2,
+            "all_rank_one_lower_facets": [
+              [
+                2,
+                4,
+                6,
+                7
+              ],
+              [
+                2,
+                4,
+                6,
+                12,
+                13
+              ],
+              [
+                2,
+                4,
+                7,
+                12,
+                14
+              ],
+              [
+                2,
+                6,
+                7,
+                13,
+                14
+              ],
+              [
+                2,
+                12,
+                13,
+                14
+              ],
+              [
+                4,
+                6,
+                7,
+                12,
+                13,
+                14
+              ]
+            ],
+            "opposite_facets": [
+              [
+                4,
+                6,
+                7,
+                12,
+                13,
+                14
+              ]
+            ],
+            "result_simplices": [
+              [
+                2,
+                4,
+                6,
+                7,
+                14
+              ],
+              [
+                2,
+                4,
+                6,
+                13,
+                14
+              ],
+              [
+                2,
+                4,
+                12,
+                13,
+                14
+              ]
+            ]
+          },
+          {
+            "face": [
+              2,
+              5,
+              8,
+              9,
+              13
+            ],
+            "rank": 5,
+            "simplex": true
+          },
+          {
+            "face": [
+              8,
+              13,
+              14
+            ],
+            "rank": 3,
+            "simplex": true
+          },
+          {
+            "face": [
+              5,
+              8,
+              12,
+              13,
+              14
+            ],
+            "rank": 4,
+            "pivot": 5,
+            "all_rank_one_lower_facets": [
+              [
+                5,
+                8,
+                12,
+                14
+              ],
+              [
+                5,
+                8,
+                13
+              ],
+              [
+                5,
+                12,
+                13
+              ],
+              [
+                8,
+                13,
+                14
+              ],
+              [
+                12,
+                13,
+                14
+              ]
+            ],
+            "opposite_facets": [
+              [
+                8,
+                13,
+                14
+              ],
+              [
+                12,
+                13,
+                14
+              ]
+            ],
+            "result_simplices": [
+              [
+                5,
+                8,
+                13,
+                14
+              ],
+              [
+                5,
+                12,
+                13,
+                14
+              ]
+            ]
+          },
+          {
+            "face": [
+              2,
+              5,
+              8,
+              12,
+              13,
+              14
+            ],
+            "rank": 5,
+            "pivot": 2,
+            "all_rank_one_lower_facets": [
+              [
+                2,
+                5,
+                8,
+                12,
+                14
+              ],
+              [
+                2,
+                5,
+                8,
+                13
+              ],
+              [
+                2,
+                5,
+                12,
+                13
+              ],
+              [
+                2,
+                8,
+                13,
+                14
+              ],
+              [
+                2,
+                12,
+                13,
+                14
+              ],
+              [
+                5,
+                8,
+                12,
+                13,
+                14
+              ]
+            ],
+            "opposite_facets": [
+              [
+                5,
+                8,
+                12,
+                13,
+                14
+              ]
+            ],
+            "result_simplices": [
+              [
+                2,
+                5,
+                8,
+                13,
+                14
+              ],
+              [
+                2,
+                5,
+                12,
+                13,
+                14
+              ]
+            ]
+          },
+          {
+            "face": [
+              1,
+              2,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              11,
+              12,
+              13,
+              14
+            ],
+            "rank": 6,
+            "pivot": 1,
+            "all_rank_one_lower_facets": [
+              [
+                1,
+                2,
+                4,
+                5,
+                7,
+                8,
+                12,
+                14
+              ],
+              [
+                1,
+                2,
+                4,
+                5,
+                9,
+                11
+              ],
+              [
+                1,
+                2,
+                4,
+                6,
+                7,
+                9,
+                11
+              ],
+              [
+                1,
+                2,
+                5,
+                8,
+                9
+              ],
+              [
+                1,
+                2,
+                6,
+                7,
+                8,
+                9,
+                13,
+                14
+              ],
+              [
+                1,
+                4,
+                5,
+                6,
+                7,
+                8,
+                11,
+                12,
+                13,
+                14
+              ],
+              [
+                1,
+                5,
+                6,
+                8,
+                9,
+                11,
+                13
+              ],
+              [
+                2,
+                4,
+                5,
+                6,
+                9,
+                11,
+                12,
+                13
+              ],
+              [
+                2,
+                4,
+                6,
+                7,
+                12,
+                13,
+                14
+              ],
+              [
+                2,
+                5,
+                8,
+                9,
+                13
+              ],
+              [
+                2,
+                5,
+                8,
+                12,
+                13,
+                14
+              ]
+            ],
+            "opposite_facets": [
+              [
+                2,
+                4,
+                5,
+                6,
+                9,
+                11,
+                12,
+                13
+              ],
+              [
+                2,
+                4,
+                6,
+                7,
+                12,
+                13,
+                14
+              ],
+              [
+                2,
+                5,
+                8,
+                9,
+                13
+              ],
+              [
+                2,
+                5,
+                8,
+                12,
+                13,
+                14
+              ]
+            ],
+            "result_simplices": [
+              [
+                1,
+                2,
+                4,
+                5,
+                6,
+                11
+              ],
+              [
+                1,
+                2,
+                4,
+                5,
+                6,
+                13
+              ],
+              [
+                1,
+                2,
+                4,
+                5,
+                12,
+                13
+              ],
+              [
+                1,
+                2,
+                4,
+                6,
+                7,
+                14
+              ],
+              [
+                1,
+                2,
+                4,
+                6,
+                13,
+                14
+              ],
+              [
+                1,
+                2,
+                4,
+                12,
+                13,
+                14
+              ],
+              [
+                1,
+                2,
+                5,
+                6,
+                9,
+                11
+              ],
+              [
+                1,
+                2,
+                5,
+                6,
+                9,
+                13
+              ],
+              [
+                1,
+                2,
+                5,
+                8,
+                9,
+                13
+              ],
+              [
+                1,
+                2,
+                5,
+                8,
+                13,
+                14
+              ],
+              [
+                1,
+                2,
+                5,
+                12,
+                13,
+                14
+              ]
+            ]
+          },
+          {
+            "face": [
+              1,
+              2,
+              5,
+              8,
+              9,
+              10
+            ],
+            "rank": 6,
+            "simplex": true
+          },
+          {
+            "face": [
+              5,
+              8,
+              9,
+              10
+            ],
+            "rank": 4,
+            "simplex": true
+          },
+          {
+            "face": [
+              5,
+              8,
+              9,
+              13
+            ],
+            "rank": 4,
+            "simplex": true
+          },
+          {
+            "face": [
+              3,
+              5,
+              8,
+              9,
+              10,
+              13
+            ],
+            "rank": 5,
+            "pivot": 3,
+            "all_rank_one_lower_facets": [
+              [
+                3,
+                5,
+                8,
+                10
+              ],
+              [
+                3,
+                5,
+                8,
+                13
+              ],
+              [
+                3,
+                5,
+                9,
+                10
+              ],
+              [
+                3,
+                5,
+                9,
+                13
+              ],
+              [
+                3,
+                8,
+                9,
+                10,
+                13
+              ],
+              [
+                5,
+                8,
+                9,
+                10
+              ],
+              [
+                5,
+                8,
+                9,
+                13
+              ]
+            ],
+            "opposite_facets": [
+              [
+                5,
+                8,
+                9,
+                10
+              ],
+              [
+                5,
+                8,
+                9,
+                13
+              ]
+            ],
+            "result_simplices": [
+              [
+                3,
+                5,
+                8,
+                9,
+                10
+              ],
+              [
+                3,
+                5,
+                8,
+                9,
+                13
+              ]
+            ]
+          },
+          {
+            "face": [
+              2,
+              3,
+              5,
+              8,
+              9,
+              10,
+              13
+            ],
+            "rank": 6,
+            "pivot": 2,
+            "all_rank_one_lower_facets": [
+              [
+                2,
+                3,
+                5,
+                8,
+                10
+              ],
+              [
+                2,
+                3,
+                5,
+                8,
+                13
+              ],
+              [
+                2,
+                3,
+                5,
+                9,
+                10
+              ],
+              [
+                2,
+                3,
+                5,
+                9,
+                13
+              ],
+              [
+                2,
+                3,
+                8,
+                9,
+                10,
+                13
+              ],
+              [
+                2,
+                5,
+                8,
+                9,
+                10
+              ],
+              [
+                2,
+                5,
+                8,
+                9,
+                13
+              ],
+              [
+                3,
+                5,
+                8,
+                9,
+                10,
+                13
+              ]
+            ],
+            "opposite_facets": [
+              [
+                3,
+                5,
+                8,
+                9,
+                10,
+                13
+              ]
+            ],
+            "result_simplices": [
+              [
+                2,
+                3,
+                5,
+                8,
+                9,
+                10
+              ],
+              [
+                2,
+                3,
+                5,
+                8,
+                9,
+                13
+              ]
+            ]
+          },
+          {
+            "face": [
+              3,
+              5,
+              8,
+              12,
+              13,
+              14
+            ],
+            "rank": 5,
+            "pivot": 3,
+            "all_rank_one_lower_facets": [
+              [
+                3,
+                5,
+                8,
+                12,
+                14
+              ],
+              [
+                3,
+                5,
+                8,
+                13
+              ],
+              [
+                3,
+                5,
+                12,
+                13
+              ],
+              [
+                3,
+                8,
+                13,
+                14
+              ],
+              [
+                3,
+                12,
+                13,
+                14
+              ],
+              [
+                5,
+                8,
+                12,
+                13,
+                14
+              ]
+            ],
+            "opposite_facets": [
+              [
+                5,
+                8,
+                12,
+                13,
+                14
+              ]
+            ],
+            "result_simplices": [
+              [
+                3,
+                5,
+                8,
+                13,
+                14
+              ],
+              [
+                3,
+                5,
+                12,
+                13,
+                14
+              ]
+            ]
+          },
+          {
+            "face": [
+              2,
+              3,
+              5,
+              8,
+              12,
+              13,
+              14
+            ],
+            "rank": 6,
+            "pivot": 2,
+            "all_rank_one_lower_facets": [
+              [
+                2,
+                3,
+                5,
+                8,
+                12,
+                14
+              ],
+              [
+                2,
+                3,
+                5,
+                8,
+                13
+              ],
+              [
+                2,
+                3,
+                5,
+                12,
+                13
+              ],
+              [
+                2,
+                3,
+                8,
+                13,
+                14
+              ],
+              [
+                2,
+                3,
+                12,
+                13,
+                14
+              ],
+              [
+                2,
+                5,
+                8,
+                12,
+                13,
+                14
+              ],
+              [
+                3,
+                5,
+                8,
+                12,
+                13,
+                14
+              ]
+            ],
+            "opposite_facets": [
+              [
+                3,
+                5,
+                8,
+                12,
+                13,
+                14
+              ]
+            ],
+            "result_simplices": [
+              [
+                2,
+                3,
+                5,
+                8,
+                13,
+                14
+              ],
+              [
+                2,
+                3,
+                5,
+                12,
+                13,
+                14
+              ]
+            ]
+          },
+          {
+            "face": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14
+            ],
+            "rank": 7,
+            "pivot": 0,
+            "all_rank_one_lower_facets": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                7,
+                8,
+                10,
+                12,
+                14
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                6,
+                7,
+                8,
+                9,
+                10,
+                13,
+                14
+              ],
+              [
+                0,
+                1,
+                2,
+                4,
+                5,
+                9,
+                10,
+                11
+              ],
+              [
+                0,
+                1,
+                2,
+                4,
+                6,
+                7,
+                9,
+                11
+              ],
+              [
+                0,
+                1,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                11,
+                12,
+                13,
+                14
+              ],
+              [
+                0,
+                1,
+                3,
+                5,
+                6,
+                8,
+                9,
+                10,
+                11,
+                13
+              ],
+              [
+                0,
+                2,
+                3,
+                4,
+                5,
+                6,
+                9,
+                11,
+                12,
+                13
+              ],
+              [
+                0,
+                2,
+                3,
+                4,
+                6,
+                7,
+                12,
+                13,
+                14
+              ],
+              [
+                0,
+                2,
+                3,
+                5,
+                9,
+                10
+              ],
+              [
+                1,
+                2,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                11,
+                12,
+                13,
+                14
+              ],
+              [
+                1,
+                2,
+                5,
+                8,
+                9,
+                10
+              ],
+              [
+                2,
+                3,
+                5,
+                8,
+                9,
+                10,
+                13
+              ],
+              [
+                2,
+                3,
+                5,
+                8,
+                12,
+                13,
+                14
+              ]
+            ],
+            "opposite_facets": [
+              [
+                1,
+                2,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                11,
+                12,
+                13,
+                14
+              ],
+              [
+                1,
+                2,
+                5,
+                8,
+                9,
+                10
+              ],
+              [
+                2,
+                3,
+                5,
+                8,
+                9,
+                10,
+                13
+              ],
+              [
+                2,
+                3,
+                5,
+                8,
+                12,
+                13,
+                14
+              ]
+            ],
+            "result_simplices": [
+              [
+                0,
+                1,
+                2,
+                4,
+                5,
+                6,
+                11
+              ],
+              [
+                0,
+                1,
+                2,
+                4,
+                5,
+                6,
+                13
+              ],
+              [
+                0,
+                1,
+                2,
+                4,
+                5,
+                12,
+                13
+              ],
+              [
+                0,
+                1,
+                2,
+                4,
+                6,
+                7,
+                14
+              ],
+              [
+                0,
+                1,
+                2,
+                4,
+                6,
+                13,
+                14
+              ],
+              [
+                0,
+                1,
+                2,
+                4,
+                12,
+                13,
+                14
+              ],
+              [
+                0,
+                1,
+                2,
+                5,
+                6,
+                9,
+                11
+              ],
+              [
+                0,
+                1,
+                2,
+                5,
+                6,
+                9,
+                13
+              ],
+              [
+                0,
+                1,
+                2,
+                5,
+                8,
+                9,
+                10
+              ],
+              [
+                0,
+                1,
+                2,
+                5,
+                8,
+                9,
+                13
+              ],
+              [
+                0,
+                1,
+                2,
+                5,
+                8,
+                13,
+                14
+              ],
+              [
+                0,
+                1,
+                2,
+                5,
+                12,
+                13,
+                14
+              ],
+              [
+                0,
+                2,
+                3,
+                5,
+                8,
+                9,
+                10
+              ],
+              [
+                0,
+                2,
+                3,
+                5,
+                8,
+                9,
+                13
+              ],
+              [
+                0,
+                2,
+                3,
+                5,
+                8,
+                13,
+                14
+              ],
+              [
+                0,
+                2,
+                3,
+                5,
+                12,
+                13,
+                14
+              ]
+            ]
+          }
+        ]
+      },
+      "half_open": {
+        "omega": [
+          61436,
+          35835,
+          -1033,
+          1540,
+          53704,
+          29992,
+          20628
+        ],
+        "positive_weights_on_all_rays": [
+          "1031",
+          "4805",
+          "1538",
+          "1",
+          "1",
+          "88",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "6102",
+          "10813",
+          "12986"
+        ],
+        "cones": [
+          {
+            "rays": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6,
+              11
+            ],
+            "determinant": -1,
+            "omega_coordinates": [
+              "1033",
+              "17794",
+              "1540",
+              "19088",
+              "29992",
+              "53704",
+              "-42888"
+            ],
+            "open": [
+              6
+            ],
+            "shift": [
+              1,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "rays": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6,
+              13
+            ],
+            "determinant": 1,
+            "omega_coordinates": [
+              "1033",
+              "17794",
+              "1540",
+              "19088",
+              "-12896",
+              "-32072",
+              "42888"
+            ],
+            "open": [
+              4,
+              5
+            ],
+            "shift": [
+              2,
+              2,
+              0,
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "rays": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              12,
+              13
+            ],
+            "determinant": -1,
+            "omega_coordinates": [
+              "1033",
+              "17794",
+              "1540",
+              "-12984",
+              "-12896",
+              "32072",
+              "10816"
+            ],
+            "open": [
+              3,
+              4
+            ],
+            "shift": [
+              2,
+              2,
+              0,
+              0,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "rays": [
+              0,
+              1,
+              2,
+              4,
+              6,
+              7,
+              14
+            ],
+            "determinant": 1,
+            "omega_coordinates": [
+              "1033",
+              "4898",
+              "1540",
+              "6192",
+              "10816",
+              "-17096",
+              "29992"
+            ],
+            "open": [
+              5
+            ],
+            "shift": [
+              1,
+              1,
+              0,
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "rays": [
+              0,
+              1,
+              2,
+              4,
+              6,
+              13,
+              14
+            ],
+            "determinant": -1,
+            "omega_coordinates": [
+              "1033",
+              "4898",
+              "1540",
+              "6192",
+              "-6280",
+              "17096",
+              "12896"
+            ],
+            "open": [
+              4
+            ],
+            "shift": [
+              1,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "rays": [
+              0,
+              1,
+              2,
+              4,
+              12,
+              13,
+              14
+            ],
+            "determinant": 1,
+            "omega_coordinates": [
+              "1033",
+              "4898",
+              "1540",
+              "-88",
+              "6280",
+              "10816",
+              "12896"
+            ],
+            "open": [
+              3
+            ],
+            "shift": [
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "rays": [
+              0,
+              1,
+              2,
+              5,
+              6,
+              9,
+              11
+            ],
+            "determinant": 1,
+            "omega_coordinates": [
+              "1033",
+              "17794",
+              "20628",
+              "29992",
+              "53704",
+              "-19088",
+              "-23800"
+            ],
+            "open": [
+              5,
+              6
+            ],
+            "shift": [
+              2,
+              3,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "rays": [
+              0,
+              1,
+              2,
+              5,
+              6,
+              9,
+              13
+            ],
+            "determinant": -1,
+            "omega_coordinates": [
+              "1033",
+              "17794",
+              "20628",
+              "6192",
+              "6104",
+              "-19088",
+              "23800"
+            ],
+            "open": [
+              5
+            ],
+            "shift": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "rays": [
+              0,
+              1,
+              2,
+              5,
+              8,
+              9,
+              10
+            ],
+            "determinant": -1,
+            "omega_coordinates": [
+              "30937",
+              "-6006",
+              "20628",
+              "6192",
+              "53704",
+              "10816",
+              "-29904"
+            ],
+            "open": [
+              1,
+              6
+            ],
+            "shift": [
+              1,
+              3,
+              -1,
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "rays": [
+              0,
+              1,
+              2,
+              5,
+              8,
+              9,
+              13
+            ],
+            "determinant": 1,
+            "omega_coordinates": [
+              "1033",
+              "23898",
+              "20628",
+              "6192",
+              "-6104",
+              "-19088",
+              "29904"
+            ],
+            "open": [
+              4,
+              5
+            ],
+            "shift": [
+              2,
+              2,
+              0,
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "rays": [
+              0,
+              1,
+              2,
+              5,
+              8,
+              13,
+              14
+            ],
+            "determinant": 1,
+            "omega_coordinates": [
+              "1033",
+              "4810",
+              "1540",
+              "6192",
+              "-6104",
+              "10816",
+              "19088"
+            ],
+            "open": [
+              4
+            ],
+            "shift": [
+              1,
+              1,
+              0,
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "rays": [
+              0,
+              1,
+              2,
+              5,
+              12,
+              13,
+              14
+            ],
+            "determinant": -1,
+            "omega_coordinates": [
+              "1033",
+              "4810",
+              "1540",
+              "88",
+              "6104",
+              "10816",
+              "12984"
+            ],
+            "open": [],
+            "shift": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "rays": [
+              0,
+              2,
+              3,
+              5,
+              8,
+              9,
+              10
+            ],
+            "determinant": -1,
+            "omega_coordinates": [
+              "24931",
+              "20628",
+              "6006",
+              "6192",
+              "47698",
+              "10816",
+              "-29904"
+            ],
+            "open": [
+              6
+            ],
+            "shift": [
+              1,
+              2,
+              -1,
+              1,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "rays": [
+              0,
+              2,
+              3,
+              5,
+              8,
+              9,
+              13
+            ],
+            "determinant": 1,
+            "omega_coordinates": [
+              "24931",
+              "20628",
+              "-23898",
+              "6192",
+              "17794",
+              "-19088",
+              "29904"
+            ],
+            "open": [
+              2,
+              5
+            ],
+            "shift": [
+              2,
+              2,
+              -1,
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "rays": [
+              0,
+              2,
+              3,
+              5,
+              8,
+              13,
+              14
+            ],
+            "determinant": 1,
+            "omega_coordinates": [
+              "5843",
+              "1540",
+              "-4810",
+              "6192",
+              "-1294",
+              "10816",
+              "19088"
+            ],
+            "open": [
+              2,
+              4
+            ],
+            "shift": [
+              2,
+              2,
+              -1,
+              0,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "rays": [
+              0,
+              2,
+              3,
+              5,
+              12,
+              13,
+              14
+            ],
+            "determinant": -1,
+            "omega_coordinates": [
+              "5843",
+              "1540",
+              "-4810",
+              "4898",
+              "1294",
+              "10816",
+              "17794"
+            ],
+            "open": [
+              2
+            ],
+            "shift": [
+              1,
+              1,
+              -1,
+              0,
+              1,
+              1,
+              0
+            ]
+          }
+        ]
+      },
+      "boundaries": {
+        "section": "S+U=1; 0<=a,b,d,e<=S and -U<=z<=0",
+        "u_zero_rays": [
+          [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ]
+        ],
+        "s_zero_rays": [
+          [
+            0,
+            1,
+            -1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "boundary_degrees": {
+          "u=0": 0,
+          "s=0,u>0": 1,
+          "s=u=0": 0
+        },
+        "boundary_counts": {
+          "u=0": "1",
+          "s=0": "U+1"
+        }
+      }
+    },
+    "algebra": {
+      "status": "PASS",
+      "rational_identity": {
+        "status": "PASS",
+        "simplex_terms": 16,
+        "displayed_terms": 9,
+        "common_denominator": [
+          {
+            "monomial": [
+              0,
+              1
+            ],
+            "power": 2
+          },
+          {
+            "monomial": [
+              1,
+              0
+            ],
+            "power": 6
+          },
+          {
+            "monomial": [
+              1,
+              1
+            ],
+            "power": 4
+          },
+          {
+            "monomial": [
+              1,
+              2
+            ],
+            "power": 1
+          },
+          {
+            "monomial": [
+              2,
+              1
+            ],
+            "power": 3
+          }
+        ],
+        "left_numerator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficient": "-5"
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficient": "3"
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficient": "10"
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficient": "-15"
+          },
+          {
+            "powers": [
+              2,
+              2
+            ],
+            "coefficient": "-3"
+          },
+          {
+            "powers": [
+              2,
+              3
+            ],
+            "coefficient": "-3"
+          },
+          {
+            "powers": [
+              3,
+              0
+            ],
+            "coefficient": "-10"
+          },
+          {
+            "powers": [
+              3,
+              1
+            ],
+            "coefficient": "30"
+          },
+          {
+            "powers": [
+              3,
+              2
+            ],
+            "coefficient": "9"
+          },
+          {
+            "powers": [
+              3,
+              3
+            ],
+            "coefficient": "9"
+          },
+          {
+            "powers": [
+              3,
+              4
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              4,
+              0
+            ],
+            "coefficient": "5"
+          },
+          {
+            "powers": [
+              4,
+              1
+            ],
+            "coefficient": "-30"
+          },
+          {
+            "powers": [
+              4,
+              4
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              4,
+              5
+            ],
+            "coefficient": "3"
+          },
+          {
+            "powers": [
+              5,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              5,
+              1
+            ],
+            "coefficient": "15"
+          },
+          {
+            "powers": [
+              5,
+              2
+            ],
+            "coefficient": "-30"
+          },
+          {
+            "powers": [
+              5,
+              3
+            ],
+            "coefficient": "-28"
+          },
+          {
+            "powers": [
+              5,
+              4
+            ],
+            "coefficient": "-14"
+          },
+          {
+            "powers": [
+              5,
+              5
+            ],
+            "coefficient": "-13"
+          },
+          {
+            "powers": [
+              5,
+              6
+            ],
+            "coefficient": "-3"
+          },
+          {
+            "powers": [
+              6,
+              1
+            ],
+            "coefficient": "-3"
+          },
+          {
+            "powers": [
+              6,
+              2
+            ],
+            "coefficient": "45"
+          },
+          {
+            "powers": [
+              6,
+              3
+            ],
+            "coefficient": "35"
+          },
+          {
+            "powers": [
+              6,
+              4
+            ],
+            "coefficient": "16"
+          },
+          {
+            "powers": [
+              6,
+              5
+            ],
+            "coefficient": "16"
+          },
+          {
+            "powers": [
+              6,
+              6
+            ],
+            "coefficient": "7"
+          },
+          {
+            "powers": [
+              6,
+              7
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              7,
+              2
+            ],
+            "coefficient": "-27"
+          },
+          {
+            "powers": [
+              7,
+              3
+            ],
+            "coefficient": "-7"
+          },
+          {
+            "powers": [
+              7,
+              4
+            ],
+            "coefficient": "25"
+          },
+          {
+            "powers": [
+              7,
+              5
+            ],
+            "coefficient": "6"
+          },
+          {
+            "powers": [
+              7,
+              6
+            ],
+            "coefficient": "6"
+          },
+          {
+            "powers": [
+              7,
+              7
+            ],
+            "coefficient": "-3"
+          },
+          {
+            "powers": [
+              8,
+              2
+            ],
+            "coefficient": "6"
+          },
+          {
+            "powers": [
+              8,
+              3
+            ],
+            "coefficient": "-14"
+          },
+          {
+            "powers": [
+              8,
+              4
+            ],
+            "coefficient": "-57"
+          },
+          {
+            "powers": [
+              8,
+              5
+            ],
+            "coefficient": "-25"
+          },
+          {
+            "powers": [
+              8,
+              6
+            ],
+            "coefficient": "-30"
+          },
+          {
+            "powers": [
+              8,
+              7
+            ],
+            "coefficient": "3"
+          },
+          {
+            "powers": [
+              9,
+              3
+            ],
+            "coefficient": "10"
+          },
+          {
+            "powers": [
+              9,
+              4
+            ],
+            "coefficient": "36"
+          },
+          {
+            "powers": [
+              9,
+              5
+            ],
+            "coefficient": "7"
+          },
+          {
+            "powers": [
+              9,
+              6
+            ],
+            "coefficient": "25"
+          },
+          {
+            "powers": [
+              9,
+              7
+            ],
+            "coefficient": "-4"
+          },
+          {
+            "powers": [
+              10,
+              3
+            ],
+            "coefficient": "-2"
+          },
+          {
+            "powers": [
+              10,
+              4
+            ],
+            "coefficient": "-6"
+          },
+          {
+            "powers": [
+              10,
+              5
+            ],
+            "coefficient": "18"
+          },
+          {
+            "powers": [
+              10,
+              6
+            ],
+            "coefficient": "3"
+          },
+          {
+            "powers": [
+              10,
+              7
+            ],
+            "coefficient": "10"
+          },
+          {
+            "powers": [
+              11,
+              4
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              11,
+              5
+            ],
+            "coefficient": "-16"
+          },
+          {
+            "powers": [
+              11,
+              6
+            ],
+            "coefficient": "-12"
+          },
+          {
+            "powers": [
+              11,
+              7
+            ],
+            "coefficient": "-11"
+          },
+          {
+            "powers": [
+              12,
+              5
+            ],
+            "coefficient": "4"
+          },
+          {
+            "powers": [
+              12,
+              6
+            ],
+            "coefficient": "4"
+          },
+          {
+            "powers": [
+              12,
+              7
+            ],
+            "coefficient": "3"
+          },
+          {
+            "powers": [
+              13,
+              7
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              14,
+              7
+            ],
+            "coefficient": "-1"
+          }
+        ],
+        "right_numerator": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              1,
+              0
+            ],
+            "coefficient": "-5"
+          },
+          {
+            "powers": [
+              1,
+              1
+            ],
+            "coefficient": "3"
+          },
+          {
+            "powers": [
+              2,
+              0
+            ],
+            "coefficient": "10"
+          },
+          {
+            "powers": [
+              2,
+              1
+            ],
+            "coefficient": "-15"
+          },
+          {
+            "powers": [
+              2,
+              2
+            ],
+            "coefficient": "-3"
+          },
+          {
+            "powers": [
+              2,
+              3
+            ],
+            "coefficient": "-3"
+          },
+          {
+            "powers": [
+              3,
+              0
+            ],
+            "coefficient": "-10"
+          },
+          {
+            "powers": [
+              3,
+              1
+            ],
+            "coefficient": "30"
+          },
+          {
+            "powers": [
+              3,
+              2
+            ],
+            "coefficient": "9"
+          },
+          {
+            "powers": [
+              3,
+              3
+            ],
+            "coefficient": "9"
+          },
+          {
+            "powers": [
+              3,
+              4
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              4,
+              0
+            ],
+            "coefficient": "5"
+          },
+          {
+            "powers": [
+              4,
+              1
+            ],
+            "coefficient": "-30"
+          },
+          {
+            "powers": [
+              4,
+              4
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              4,
+              5
+            ],
+            "coefficient": "3"
+          },
+          {
+            "powers": [
+              5,
+              0
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              5,
+              1
+            ],
+            "coefficient": "15"
+          },
+          {
+            "powers": [
+              5,
+              2
+            ],
+            "coefficient": "-30"
+          },
+          {
+            "powers": [
+              5,
+              3
+            ],
+            "coefficient": "-28"
+          },
+          {
+            "powers": [
+              5,
+              4
+            ],
+            "coefficient": "-14"
+          },
+          {
+            "powers": [
+              5,
+              5
+            ],
+            "coefficient": "-13"
+          },
+          {
+            "powers": [
+              5,
+              6
+            ],
+            "coefficient": "-3"
+          },
+          {
+            "powers": [
+              6,
+              1
+            ],
+            "coefficient": "-3"
+          },
+          {
+            "powers": [
+              6,
+              2
+            ],
+            "coefficient": "45"
+          },
+          {
+            "powers": [
+              6,
+              3
+            ],
+            "coefficient": "35"
+          },
+          {
+            "powers": [
+              6,
+              4
+            ],
+            "coefficient": "16"
+          },
+          {
+            "powers": [
+              6,
+              5
+            ],
+            "coefficient": "16"
+          },
+          {
+            "powers": [
+              6,
+              6
+            ],
+            "coefficient": "7"
+          },
+          {
+            "powers": [
+              6,
+              7
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              7,
+              2
+            ],
+            "coefficient": "-27"
+          },
+          {
+            "powers": [
+              7,
+              3
+            ],
+            "coefficient": "-7"
+          },
+          {
+            "powers": [
+              7,
+              4
+            ],
+            "coefficient": "25"
+          },
+          {
+            "powers": [
+              7,
+              5
+            ],
+            "coefficient": "6"
+          },
+          {
+            "powers": [
+              7,
+              6
+            ],
+            "coefficient": "6"
+          },
+          {
+            "powers": [
+              7,
+              7
+            ],
+            "coefficient": "-3"
+          },
+          {
+            "powers": [
+              8,
+              2
+            ],
+            "coefficient": "6"
+          },
+          {
+            "powers": [
+              8,
+              3
+            ],
+            "coefficient": "-14"
+          },
+          {
+            "powers": [
+              8,
+              4
+            ],
+            "coefficient": "-57"
+          },
+          {
+            "powers": [
+              8,
+              5
+            ],
+            "coefficient": "-25"
+          },
+          {
+            "powers": [
+              8,
+              6
+            ],
+            "coefficient": "-30"
+          },
+          {
+            "powers": [
+              8,
+              7
+            ],
+            "coefficient": "3"
+          },
+          {
+            "powers": [
+              9,
+              3
+            ],
+            "coefficient": "10"
+          },
+          {
+            "powers": [
+              9,
+              4
+            ],
+            "coefficient": "36"
+          },
+          {
+            "powers": [
+              9,
+              5
+            ],
+            "coefficient": "7"
+          },
+          {
+            "powers": [
+              9,
+              6
+            ],
+            "coefficient": "25"
+          },
+          {
+            "powers": [
+              9,
+              7
+            ],
+            "coefficient": "-4"
+          },
+          {
+            "powers": [
+              10,
+              3
+            ],
+            "coefficient": "-2"
+          },
+          {
+            "powers": [
+              10,
+              4
+            ],
+            "coefficient": "-6"
+          },
+          {
+            "powers": [
+              10,
+              5
+            ],
+            "coefficient": "18"
+          },
+          {
+            "powers": [
+              10,
+              6
+            ],
+            "coefficient": "3"
+          },
+          {
+            "powers": [
+              10,
+              7
+            ],
+            "coefficient": "10"
+          },
+          {
+            "powers": [
+              11,
+              4
+            ],
+            "coefficient": "-1"
+          },
+          {
+            "powers": [
+              11,
+              5
+            ],
+            "coefficient": "-16"
+          },
+          {
+            "powers": [
+              11,
+              6
+            ],
+            "coefficient": "-12"
+          },
+          {
+            "powers": [
+              11,
+              7
+            ],
+            "coefficient": "-11"
+          },
+          {
+            "powers": [
+              12,
+              5
+            ],
+            "coefficient": "4"
+          },
+          {
+            "powers": [
+              12,
+              6
+            ],
+            "coefficient": "4"
+          },
+          {
+            "powers": [
+              12,
+              7
+            ],
+            "coefficient": "3"
+          },
+          {
+            "powers": [
+              13,
+              7
+            ],
+            "coefficient": "2"
+          },
+          {
+            "powers": [
+              14,
+              7
+            ],
+            "coefficient": "-1"
+          }
+        ],
+        "residual": [],
+        "identity_basis": "Full sparse exact polynomial numerator after complete denominator clearing; no finite series grid."
+      },
+      "all_parameter_extraction": {
+        "identities": [
+          {
+            "identity": "E: first complete series term",
+            "left": [
+              {
+                "powers": [
+                  0,
+                  0
+                ],
+                "coefficient": "1"
+              },
+              {
+                "powers": [
+                  1,
+                  0
+                ],
+                "coefficient": "3"
+              },
+              {
+                "powers": [
+                  2,
+                  0
+                ],
+                "coefficient": "13/4"
+              },
+              {
+                "powers": [
+                  3,
+                  0
+                ],
+                "coefficient": "3/2"
+              },
+              {
+                "powers": [
+                  4,
+                  0
+                ],
+                "coefficient": "1/4"
+              }
+            ],
+            "right": [
+              {
+                "powers": [
+                  0,
+                  0
+                ],
+                "coefficient": "1"
+              },
+              {
+                "powers": [
+                  1,
+                  0
+                ],
+                "coefficient": "3"
+              },
+              {
+                "powers": [
+                  2,
+                  0
+                ],
+                "coefficient": "13/4"
+              },
+              {
+                "powers": [
+                  3,
+                  0
+                ],
+                "coefficient": "3/2"
+              },
+              {
+                "powers": [
+                  4,
+                  0
+                ],
+                "coefficient": "1/4"
+              }
+            ],
+            "residual": []
+          },
+          {
+            "identity": "A: second complete series term",
+            "left": [
+              {
+                "powers": [
+                  1,
+                  0
+                ],
+                "coefficient": "19/15"
+              },
+              {
+                "powers": [
+                  2,
+                  0
+                ],
+                "coefficient": "13/4"
+              },
+              {
+                "powers": [
+                  3,
+                  0
+                ],
+                "coefficient": "73/24"
+              },
+              {
+                "powers": [
+                  4,
+                  0
+                ],
+                "coefficient": "5/4"
+              },
+              {
+                "powers": [
+                  5,
+                  0
+                ],
+                "coefficient": "23/120"
+              }
+            ],
+            "right": [
+              {
+                "powers": [
+                  1,
+                  0
+                ],
+                "coefficient": "19/15"
+              },
+              {
+                "powers": [
+                  2,
+                  0
+                ],
+                "coefficient": "13/4"
+              },
+              {
+                "powers": [
+                  3,
+                  0
+                ],
+                "coefficient": "73/24"
+              },
+              {
+                "powers": [
+                  4,
+                  0
+                ],
+                "coefficient": "5/4"
+              },
+              {
+                "powers": [
+                  5,
+                  0
+                ],
+                "coefficient": "23/120"
+              }
+            ],
+            "residual": []
+          },
+          {
+            "identity": "C: all three xy terms, k=S-U",
+            "left": [
+              {
+                "powers": [
+                  1,
+                  0
+                ],
+                "coefficient": "-71/60"
+              },
+              {
+                "powers": [
+                  1,
+                  1
+                ],
+                "coefficient": "-7/6"
+              },
+              {
+                "powers": [
+                  1,
+                  2
+                ],
+                "coefficient": "-1/4"
+              },
+              {
+                "powers": [
+                  2,
+                  0
+                ],
+                "coefficient": "-3/8"
+              },
+              {
+                "powers": [
+                  2,
+                  1
+                ],
+                "coefficient": "-1/24"
+              },
+              {
+                "powers": [
+                  3,
+                  0
+                ],
+                "coefficient": "5/4"
+              },
+              {
+                "powers": [
+                  3,
+                  1
+                ],
+                "coefficient": "7/6"
+              },
+              {
+                "powers": [
+                  3,
+                  2
+                ],
+                "coefficient": "1/4"
+              },
+              {
+                "powers": [
+                  4,
+                  0
+                ],
+                "coefficient": "3/8"
+              },
+              {
+                "powers": [
+                  4,
+                  1
+                ],
+                "coefficient": "1/24"
+              },
+              {
+                "powers": [
+                  5,
+                  0
+                ],
+                "coefficient": "-1/15"
+              }
+            ],
+            "right": [
+              {
+                "powers": [
+                  1,
+                  0
+                ],
+                "coefficient": "-71/60"
+              },
+              {
+                "powers": [
+                  1,
+                  1
+                ],
+                "coefficient": "-7/6"
+              },
+              {
+                "powers": [
+                  1,
+                  2
+                ],
+                "coefficient": "-1/4"
+              },
+              {
+                "powers": [
+                  2,
+                  0
+                ],
+                "coefficient": "-3/8"
+              },
+              {
+                "powers": [
+                  2,
+                  1
+                ],
+                "coefficient": "-1/24"
+              },
+              {
+                "powers": [
+                  3,
+                  0
+                ],
+                "coefficient": "5/4"
+              },
+              {
+                "powers": [
+                  3,
+                  1
+                ],
+                "coefficient": "7/6"
+              },
+              {
+                "powers": [
+                  3,
+                  2
+                ],
+                "coefficient": "1/4"
+              },
+              {
+                "powers": [
+                  4,
+                  0
+                ],
+                "coefficient": "3/8"
+              },
+              {
+                "powers": [
+                  4,
+                  1
+                ],
+                "coefficient": "1/24"
+              },
+              {
+                "powers": [
+                  5,
+                  0
+                ],
+                "coefficient": "-1/15"
+              }
+            ],
+            "residual": []
+          },
+          {
+            "identity": "D: all three x^2 y terms, k=S-2U",
+            "left": [
+              {
+                "powers": [
+                  1,
+                  0
+                ],
+                "coefficient": "9/20"
+              },
+              {
+                "powers": [
+                  1,
+                  1
+                ],
+                "coefficient": "7/12"
+              },
+              {
+                "powers": [
+                  1,
+                  2
+                ],
+                "coefficient": "1/6"
+              },
+              {
+                "powers": [
+                  2,
+                  0
+                ],
+                "coefficient": "-13/24"
+              },
+              {
+                "powers": [
+                  2,
+                  1
+                ],
+                "coefficient": "-19/24"
+              },
+              {
+                "powers": [
+                  2,
+                  2
+                ],
+                "coefficient": "-1/4"
+              },
+              {
+                "powers": [
+                  3,
+                  0
+                ],
+                "coefficient": "1/24"
+              },
+              {
+                "powers": [
+                  3,
+                  1
+                ],
+                "coefficient": "1/6"
+              },
+              {
+                "powers": [
+                  3,
+                  2
+                ],
+                "coefficient": "1/12"
+              },
+              {
+                "powers": [
+                  4,
+                  0
+                ],
+                "coefficient": "1/24"
+              },
+              {
+                "powers": [
+                  4,
+                  1
+                ],
+                "coefficient": "1/24"
+              },
+              {
+                "powers": [
+                  5,
+                  0
+                ],
+                "coefficient": "1/120"
+              }
+            ],
+            "right": [
+              {
+                "powers": [
+                  1,
+                  0
+                ],
+                "coefficient": "9/20"
+              },
+              {
+                "powers": [
+                  1,
+                  1
+                ],
+                "coefficient": "7/12"
+              },
+              {
+                "powers": [
+                  1,
+                  2
+                ],
+                "coefficient": "1/6"
+              },
+              {
+                "powers": [
+                  2,
+                  0
+                ],
+                "coefficient": "-13/24"
+              },
+              {
+                "powers": [
+                  2,
+                  1
+                ],
+                "coefficient": "-19/24"
+              },
+              {
+                "powers": [
+                  2,
+                  2
+                ],
+                "coefficient": "-1/4"
+              },
+              {
+                "powers": [
+                  3,
+                  0
+                ],
+                "coefficient": "1/24"
+              },
+              {
+                "powers": [
+                  3,
+                  1
+                ],
+                "coefficient": "1/6"
+              },
+              {
+                "powers": [
+                  3,
+                  2
+                ],
+                "coefficient": "1/12"
+              },
+              {
+                "powers": [
+                  4,
+                  0
+                ],
+                "coefficient": "1/24"
+              },
+              {
+                "powers": [
+                  4,
+                  1
+                ],
+                "coefficient": "1/24"
+              },
+              {
+                "powers": [
+                  5,
+                  0
+                ],
+                "coefficient": "1/120"
+              }
+            ],
+            "residual": []
+          },
+          {
+            "identity": "parity even: n=S-U/2",
+            "left": [
+              {
+                "powers": [
+                  1,
+                  0
+                ],
+                "coefficient": "-1/10"
+              },
+              {
+                "powers": [
+                  2,
+                  0
+                ],
+                "coefficient": "-1/6"
+              },
+              {
+                "powers": [
+                  3,
+                  0
+                ],
+                "coefficient": "1/3"
+              },
+              {
+                "powers": [
+                  4,
+                  0
+                ],
+                "coefficient": "2/3"
+              },
+              {
+                "powers": [
+                  5,
+                  0
+                ],
+                "coefficient": "4/15"
+              }
+            ],
+            "right": [
+              {
+                "powers": [
+                  1,
+                  0
+                ],
+                "coefficient": "-1/10"
+              },
+              {
+                "powers": [
+                  2,
+                  0
+                ],
+                "coefficient": "-1/6"
+              },
+              {
+                "powers": [
+                  3,
+                  0
+                ],
+                "coefficient": "1/3"
+              },
+              {
+                "powers": [
+                  4,
+                  0
+                ],
+                "coefficient": "2/3"
+              },
+              {
+                "powers": [
+                  5,
+                  0
+                ],
+                "coefficient": "4/15"
+              }
+            ],
+            "residual": []
+          },
+          {
+            "identity": "parity odd: n=S-(U-1)/2",
+            "left": [
+              {
+                "powers": [
+                  1,
+                  0
+                ],
+                "coefficient": "1/15"
+              },
+              {
+                "powers": [
+                  3,
+                  0
+                ],
+                "coefficient": "-1/3"
+              },
+              {
+                "powers": [
+                  5,
+                  0
+                ],
+                "coefficient": "4/15"
+              }
+            ],
+            "right": [
+              {
+                "powers": [
+                  1,
+                  0
+                ],
+                "coefficient": "1/15"
+              },
+              {
+                "powers": [
+                  3,
+                  0
+                ],
+                "coefficient": "-1/3"
+              },
+              {
+                "powers": [
+                  5,
+                  0
+                ],
+                "coefficient": "4/15"
+              }
+            ],
+            "residual": []
+          }
+        ],
+        "coefficient_rule": "[x^n](1-x)^(-m)=binom(n+m-1,m-1) for n>=0, zero for n<0",
+        "support": {
+          "C": "U<=S, k=S-U>=0; C(0,U)=C(1,U)=0",
+          "D": "2U<=S, k=S-2U>=0; D(0,U)=D(1,U)=D(2,U)=0",
+          "even": "U=2v, n=S-v>=0; n=0 contributes zero; n<0 has no support",
+          "odd": "U=2v+1, n=S-v; n=0,1 contribute zero; n<0 has no support",
+          "unified_binomial": "U<=2S; upper argument 2S-U+3>=3; below 5 yields zero"
+        }
+      },
+      "ordinary_coefficients_and_operation": {
+        "status": "PASS",
+        "complete_sign_slots": 48,
+        "chambers": [
+          {
+            "chamber": 0,
+            "substitution": [
+              [
+                {
+                  "powers": [
+                    0,
+                    1
+                  ],
+                  "coefficient": "1"
+                },
+                {
+                  "powers": [
+                    1,
+                    0
+                  ],
+                  "coefficient": "2"
+                }
+              ],
+              [
+                {
+                  "powers": [
+                    1,
+                    0
+                  ],
+                  "coefficient": "1"
+                }
+              ]
+            ],
+            "rows": [
+              {
+                "degree": 0,
+                "ordinary_coefficient": [
+                  {
+                    "powers": [
+                      0,
+                      0
+                    ],
+                    "coefficient": "1"
+                  }
+                ],
+                "fixed_s_u_derivative": [],
+                "coefficient_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      0
+                    ],
+                    "coefficient": "1"
+                  }
+                ],
+                "derivative_in_cone": []
+              },
+              {
+                "degree": 1,
+                "ordinary_coefficient": [
+                  {
+                    "powers": [
+                      0,
+                      1
+                    ],
+                    "coefficient": "47/15"
+                  }
+                ],
+                "fixed_s_u_derivative": [
+                  {
+                    "powers": [
+                      0,
+                      0
+                    ],
+                    "coefficient": "47/15"
+                  }
+                ],
+                "coefficient_in_cone": [
+                  {
+                    "powers": [
+                      1,
+                      0
+                    ],
+                    "coefficient": "47/15"
+                  }
+                ],
+                "derivative_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      0
+                    ],
+                    "coefficient": "47/15"
+                  }
+                ]
+              },
+              {
+                "degree": 2,
+                "ordinary_coefficient": [
+                  {
+                    "powers": [
+                      0,
+                      2
+                    ],
+                    "coefficient": "49/12"
+                  }
+                ],
+                "fixed_s_u_derivative": [
+                  {
+                    "powers": [
+                      0,
+                      1
+                    ],
+                    "coefficient": "49/6"
+                  }
+                ],
+                "coefficient_in_cone": [
+                  {
+                    "powers": [
+                      2,
+                      0
+                    ],
+                    "coefficient": "49/12"
+                  }
+                ],
+                "derivative_in_cone": [
+                  {
+                    "powers": [
+                      1,
+                      0
+                    ],
+                    "coefficient": "49/6"
+                  }
+                ]
+              },
+              {
+                "degree": 3,
+                "ordinary_coefficient": [
+                  {
+                    "powers": [
+                      0,
+                      3
+                    ],
+                    "coefficient": "11/4"
+                  }
+                ],
+                "fixed_s_u_derivative": [
+                  {
+                    "powers": [
+                      0,
+                      2
+                    ],
+                    "coefficient": "33/4"
+                  }
+                ],
+                "coefficient_in_cone": [
+                  {
+                    "powers": [
+                      3,
+                      0
+                    ],
+                    "coefficient": "11/4"
+                  }
+                ],
+                "derivative_in_cone": [
+                  {
+                    "powers": [
+                      2,
+                      0
+                    ],
+                    "coefficient": "33/4"
+                  }
+                ]
+              },
+              {
+                "degree": 4,
+                "ordinary_coefficient": [
+                  {
+                    "powers": [
+                      0,
+                      4
+                    ],
+                    "coefficient": "11/12"
+                  }
+                ],
+                "fixed_s_u_derivative": [
+                  {
+                    "powers": [
+                      0,
+                      3
+                    ],
+                    "coefficient": "11/3"
+                  }
+                ],
+                "coefficient_in_cone": [
+                  {
+                    "powers": [
+                      4,
+                      0
+                    ],
+                    "coefficient": "11/12"
+                  }
+                ],
+                "derivative_in_cone": [
+                  {
+                    "powers": [
+                      3,
+                      0
+                    ],
+                    "coefficient": "11/3"
+                  }
+                ]
+              },
+              {
+                "degree": 5,
+                "ordinary_coefficient": [
+                  {
+                    "powers": [
+                      0,
+                      5
+                    ],
+                    "coefficient": "7/60"
+                  }
+                ],
+                "fixed_s_u_derivative": [
+                  {
+                    "powers": [
+                      0,
+                      4
+                    ],
+                    "coefficient": "7/12"
+                  }
+                ],
+                "coefficient_in_cone": [
+                  {
+                    "powers": [
+                      5,
+                      0
+                    ],
+                    "coefficient": "7/60"
+                  }
+                ],
+                "derivative_in_cone": [
+                  {
+                    "powers": [
+                      4,
+                      0
+                    ],
+                    "coefficient": "7/12"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "chamber": 1,
+            "substitution": [
+              [
+                {
+                  "powers": [
+                    0,
+                    1
+                  ],
+                  "coefficient": "1"
+                },
+                {
+                  "powers": [
+                    1,
+                    0
+                  ],
+                  "coefficient": "2"
+                }
+              ],
+              [
+                {
+                  "powers": [
+                    0,
+                    1
+                  ],
+                  "coefficient": "1"
+                },
+                {
+                  "powers": [
+                    1,
+                    0
+                  ],
+                  "coefficient": "1"
+                }
+              ]
+            ],
+            "rows": [
+              {
+                "degree": 0,
+                "ordinary_coefficient": [
+                  {
+                    "powers": [
+                      0,
+                      0
+                    ],
+                    "coefficient": "1"
+                  }
+                ],
+                "fixed_s_u_derivative": [],
+                "coefficient_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      0
+                    ],
+                    "coefficient": "1"
+                  }
+                ],
+                "derivative_in_cone": []
+              },
+              {
+                "degree": 1,
+                "ordinary_coefficient": [
+                  {
+                    "powers": [
+                      0,
+                      1
+                    ],
+                    "coefficient": "67/30"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      0
+                    ],
+                    "coefficient": "9/20"
+                  }
+                ],
+                "fixed_s_u_derivative": [
+                  {
+                    "powers": [
+                      0,
+                      0
+                    ],
+                    "coefficient": "67/30"
+                  }
+                ],
+                "coefficient_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      1
+                    ],
+                    "coefficient": "161/60"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      0
+                    ],
+                    "coefficient": "47/15"
+                  }
+                ],
+                "derivative_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      0
+                    ],
+                    "coefficient": "67/30"
+                  }
+                ]
+              },
+              {
+                "degree": 2,
+                "ordinary_coefficient": [
+                  {
+                    "powers": [
+                      0,
+                      2
+                    ],
+                    "coefficient": "3/4"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      1
+                    ],
+                    "coefficient": "11/4"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      0
+                    ],
+                    "coefficient": "-13/24"
+                  }
+                ],
+                "fixed_s_u_derivative": [
+                  {
+                    "powers": [
+                      0,
+                      1
+                    ],
+                    "coefficient": "3/2"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      0
+                    ],
+                    "coefficient": "11/4"
+                  }
+                ],
+                "coefficient_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      2
+                    ],
+                    "coefficient": "71/24"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      1
+                    ],
+                    "coefficient": "91/12"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      0
+                    ],
+                    "coefficient": "49/12"
+                  }
+                ],
+                "derivative_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      1
+                    ],
+                    "coefficient": "17/4"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      0
+                    ],
+                    "coefficient": "7"
+                  }
+                ]
+              },
+              {
+                "degree": 3,
+                "ordinary_coefficient": [
+                  {
+                    "powers": [
+                      0,
+                      3
+                    ],
+                    "coefficient": "-13/12"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      2
+                    ],
+                    "coefficient": "23/6"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      1
+                    ],
+                    "coefficient": "-25/24"
+                  },
+                  {
+                    "powers": [
+                      3,
+                      0
+                    ],
+                    "coefficient": "1/24"
+                  }
+                ],
+                "fixed_s_u_derivative": [
+                  {
+                    "powers": [
+                      0,
+                      2
+                    ],
+                    "coefficient": "-13/4"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      1
+                    ],
+                    "coefficient": "23/3"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      0
+                    ],
+                    "coefficient": "-25/24"
+                  }
+                ],
+                "coefficient_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      3
+                    ],
+                    "coefficient": "7/4"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      2
+                    ],
+                    "coefficient": "57/8"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      1
+                    ],
+                    "coefficient": "97/12"
+                  },
+                  {
+                    "powers": [
+                      3,
+                      0
+                    ],
+                    "coefficient": "11/4"
+                  }
+                ],
+                "derivative_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      2
+                    ],
+                    "coefficient": "27/8"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      1
+                    ],
+                    "coefficient": "37/3"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      0
+                    ],
+                    "coefficient": "95/12"
+                  }
+                ]
+              },
+              {
+                "degree": 4,
+                "ordinary_coefficient": [
+                  {
+                    "powers": [
+                      0,
+                      4
+                    ],
+                    "coefficient": "-3/4"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      3
+                    ],
+                    "coefficient": "5/3"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      2
+                    ],
+                    "coefficient": "-1/4"
+                  },
+                  {
+                    "powers": [
+                      3,
+                      1
+                    ],
+                    "coefficient": "-1/6"
+                  },
+                  {
+                    "powers": [
+                      4,
+                      0
+                    ],
+                    "coefficient": "1/24"
+                  }
+                ],
+                "fixed_s_u_derivative": [
+                  {
+                    "powers": [
+                      0,
+                      3
+                    ],
+                    "coefficient": "-3"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      2
+                    ],
+                    "coefficient": "5"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      1
+                    ],
+                    "coefficient": "-1/2"
+                  },
+                  {
+                    "powers": [
+                      3,
+                      0
+                    ],
+                    "coefficient": "-1/6"
+                  }
+                ],
+                "coefficient_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      4
+                    ],
+                    "coefficient": "13/24"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      3
+                    ],
+                    "coefficient": "3"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      2
+                    ],
+                    "coefficient": "21/4"
+                  },
+                  {
+                    "powers": [
+                      3,
+                      1
+                    ],
+                    "coefficient": "11/3"
+                  },
+                  {
+                    "powers": [
+                      4,
+                      0
+                    ],
+                    "coefficient": "11/12"
+                  }
+                ],
+                "derivative_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      3
+                    ],
+                    "coefficient": "4/3"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      2
+                    ],
+                    "coefficient": "15/2"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      1
+                    ],
+                    "coefficient": "10"
+                  },
+                  {
+                    "powers": [
+                      3,
+                      0
+                    ],
+                    "coefficient": "11/3"
+                  }
+                ]
+              },
+              {
+                "degree": 5,
+                "ordinary_coefficient": [
+                  {
+                    "powers": [
+                      0,
+                      5
+                    ],
+                    "coefficient": "-3/20"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      4
+                    ],
+                    "coefficient": "1/3"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      3
+                    ],
+                    "coefficient": "-1/6"
+                  },
+                  {
+                    "powers": [
+                      3,
+                      2
+                    ],
+                    "coefficient": "1/12"
+                  },
+                  {
+                    "powers": [
+                      4,
+                      1
+                    ],
+                    "coefficient": "-1/24"
+                  },
+                  {
+                    "powers": [
+                      5,
+                      0
+                    ],
+                    "coefficient": "1/120"
+                  }
+                ],
+                "fixed_s_u_derivative": [
+                  {
+                    "powers": [
+                      0,
+                      4
+                    ],
+                    "coefficient": "-3/4"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      3
+                    ],
+                    "coefficient": "4/3"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      2
+                    ],
+                    "coefficient": "-1/2"
+                  },
+                  {
+                    "powers": [
+                      3,
+                      1
+                    ],
+                    "coefficient": "1/6"
+                  },
+                  {
+                    "powers": [
+                      4,
+                      0
+                    ],
+                    "coefficient": "-1/24"
+                  }
+                ],
+                "coefficient_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      5
+                    ],
+                    "coefficient": "1/15"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      4
+                    ],
+                    "coefficient": "11/24"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      3
+                    ],
+                    "coefficient": "13/12"
+                  },
+                  {
+                    "powers": [
+                      3,
+                      2
+                    ],
+                    "coefficient": "7/6"
+                  },
+                  {
+                    "powers": [
+                      4,
+                      1
+                    ],
+                    "coefficient": "7/12"
+                  },
+                  {
+                    "powers": [
+                      5,
+                      0
+                    ],
+                    "coefficient": "7/60"
+                  }
+                ],
+                "derivative_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      4
+                    ],
+                    "coefficient": "5/24"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      3
+                    ],
+                    "coefficient": "3/2"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      2
+                    ],
+                    "coefficient": "3"
+                  },
+                  {
+                    "powers": [
+                      3,
+                      1
+                    ],
+                    "coefficient": "7/3"
+                  },
+                  {
+                    "powers": [
+                      4,
+                      0
+                    ],
+                    "coefficient": "7/12"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "chamber": 2,
+            "substitution": [
+              [
+                {
+                  "powers": [
+                    0,
+                    1
+                  ],
+                  "coefficient": "1"
+                },
+                {
+                  "powers": [
+                    1,
+                    0
+                  ],
+                  "coefficient": "1"
+                }
+              ],
+              [
+                {
+                  "powers": [
+                    0,
+                    1
+                  ],
+                  "coefficient": "1"
+                },
+                {
+                  "powers": [
+                    1,
+                    0
+                  ],
+                  "coefficient": "2"
+                }
+              ]
+            ],
+            "rows": [
+              {
+                "degree": 0,
+                "ordinary_coefficient": [
+                  {
+                    "powers": [
+                      0,
+                      0
+                    ],
+                    "coefficient": "1"
+                  }
+                ],
+                "fixed_s_u_derivative": [],
+                "coefficient_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      0
+                    ],
+                    "coefficient": "1"
+                  }
+                ],
+                "derivative_in_cone": []
+              },
+              {
+                "degree": 1,
+                "ordinary_coefficient": [
+                  {
+                    "powers": [
+                      0,
+                      1
+                    ],
+                    "coefficient": "21/20"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      0
+                    ],
+                    "coefficient": "49/30"
+                  }
+                ],
+                "fixed_s_u_derivative": [
+                  {
+                    "powers": [
+                      0,
+                      0
+                    ],
+                    "coefficient": "21/20"
+                  }
+                ],
+                "coefficient_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      1
+                    ],
+                    "coefficient": "161/60"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      0
+                    ],
+                    "coefficient": "56/15"
+                  }
+                ],
+                "derivative_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      0
+                    ],
+                    "coefficient": "21/20"
+                  }
+                ]
+              },
+              {
+                "degree": 2,
+                "ordinary_coefficient": [
+                  {
+                    "powers": [
+                      0,
+                      2
+                    ],
+                    "coefficient": "-1/24"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      1
+                    ],
+                    "coefficient": "19/6"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      0
+                    ],
+                    "coefficient": "-1/6"
+                  }
+                ],
+                "fixed_s_u_derivative": [
+                  {
+                    "powers": [
+                      0,
+                      1
+                    ],
+                    "coefficient": "-1/12"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      0
+                    ],
+                    "coefficient": "19/6"
+                  }
+                ],
+                "coefficient_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      2
+                    ],
+                    "coefficient": "71/24"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      1
+                    ],
+                    "coefficient": "9"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      0
+                    ],
+                    "coefficient": "6"
+                  }
+                ],
+                "derivative_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      1
+                    ],
+                    "coefficient": "37/12"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      0
+                    ],
+                    "coefficient": "3"
+                  }
+                ]
+              },
+              {
+                "degree": 3,
+                "ordinary_coefficient": [
+                  {
+                    "powers": [
+                      0,
+                      3
+                    ],
+                    "coefficient": "-1/24"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      2
+                    ],
+                    "coefficient": "1/4"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      1
+                    ],
+                    "coefficient": "11/4"
+                  },
+                  {
+                    "powers": [
+                      3,
+                      0
+                    ],
+                    "coefficient": "-29/24"
+                  }
+                ],
+                "fixed_s_u_derivative": [
+                  {
+                    "powers": [
+                      0,
+                      2
+                    ],
+                    "coefficient": "-1/8"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      1
+                    ],
+                    "coefficient": "1/2"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      0
+                    ],
+                    "coefficient": "11/4"
+                  }
+                ],
+                "coefficient_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      3
+                    ],
+                    "coefficient": "7/4"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      2
+                    ],
+                    "coefficient": "67/8"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      1
+                    ],
+                    "coefficient": "93/8"
+                  },
+                  {
+                    "powers": [
+                      3,
+                      0
+                    ],
+                    "coefficient": "119/24"
+                  }
+                ],
+                "derivative_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      2
+                    ],
+                    "coefficient": "25/8"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      1
+                    ],
+                    "coefficient": "13/2"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      0
+                    ],
+                    "coefficient": "13/4"
+                  }
+                ]
+              },
+              {
+                "degree": 4,
+                "ordinary_coefficient": [
+                  {
+                    "powers": [
+                      0,
+                      4
+                    ],
+                    "coefficient": "1/24"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      3
+                    ],
+                    "coefficient": "-1/3"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      2
+                    ],
+                    "coefficient": "1"
+                  },
+                  {
+                    "powers": [
+                      3,
+                      1
+                    ],
+                    "coefficient": "1/6"
+                  },
+                  {
+                    "powers": [
+                      4,
+                      0
+                    ],
+                    "coefficient": "-1/3"
+                  }
+                ],
+                "fixed_s_u_derivative": [
+                  {
+                    "powers": [
+                      0,
+                      3
+                    ],
+                    "coefficient": "1/6"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      2
+                    ],
+                    "coefficient": "-1"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      1
+                    ],
+                    "coefficient": "2"
+                  },
+                  {
+                    "powers": [
+                      3,
+                      0
+                    ],
+                    "coefficient": "1/6"
+                  }
+                ],
+                "coefficient_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      4
+                    ],
+                    "coefficient": "13/24"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      3
+                    ],
+                    "coefficient": "7/2"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      2
+                    ],
+                    "coefficient": "15/2"
+                  },
+                  {
+                    "powers": [
+                      3,
+                      1
+                    ],
+                    "coefficient": "13/2"
+                  },
+                  {
+                    "powers": [
+                      4,
+                      0
+                    ],
+                    "coefficient": "2"
+                  }
+                ],
+                "derivative_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      3
+                    ],
+                    "coefficient": "4/3"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      2
+                    ],
+                    "coefficient": "9/2"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      1
+                    ],
+                    "coefficient": "9/2"
+                  },
+                  {
+                    "powers": [
+                      3,
+                      0
+                    ],
+                    "coefficient": "3/2"
+                  }
+                ]
+              },
+              {
+                "degree": 5,
+                "ordinary_coefficient": [
+                  {
+                    "powers": [
+                      0,
+                      5
+                    ],
+                    "coefficient": "-1/120"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      4
+                    ],
+                    "coefficient": "1/12"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      3
+                    ],
+                    "coefficient": "-1/3"
+                  },
+                  {
+                    "powers": [
+                      3,
+                      2
+                    ],
+                    "coefficient": "2/3"
+                  },
+                  {
+                    "powers": [
+                      4,
+                      1
+                    ],
+                    "coefficient": "-5/12"
+                  },
+                  {
+                    "powers": [
+                      5,
+                      0
+                    ],
+                    "coefficient": "3/40"
+                  }
+                ],
+                "fixed_s_u_derivative": [
+                  {
+                    "powers": [
+                      0,
+                      4
+                    ],
+                    "coefficient": "-1/24"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      3
+                    ],
+                    "coefficient": "1/3"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      2
+                    ],
+                    "coefficient": "-1"
+                  },
+                  {
+                    "powers": [
+                      3,
+                      1
+                    ],
+                    "coefficient": "4/3"
+                  },
+                  {
+                    "powers": [
+                      4,
+                      0
+                    ],
+                    "coefficient": "-5/12"
+                  }
+                ],
+                "coefficient_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      5
+                    ],
+                    "coefficient": "1/15"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      4
+                    ],
+                    "coefficient": "13/24"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      3
+                    ],
+                    "coefficient": "19/12"
+                  },
+                  {
+                    "powers": [
+                      3,
+                      2
+                    ],
+                    "coefficient": "25/12"
+                  },
+                  {
+                    "powers": [
+                      4,
+                      1
+                    ],
+                    "coefficient": "31/24"
+                  },
+                  {
+                    "powers": [
+                      5,
+                      0
+                    ],
+                    "coefficient": "37/120"
+                  }
+                ],
+                "derivative_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      4
+                    ],
+                    "coefficient": "5/24"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      3
+                    ],
+                    "coefficient": "1"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      2
+                    ],
+                    "coefficient": "3/2"
+                  },
+                  {
+                    "powers": [
+                      3,
+                      1
+                    ],
+                    "coefficient": "1"
+                  },
+                  {
+                    "powers": [
+                      4,
+                      0
+                    ],
+                    "coefficient": "1/4"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "chamber": 3,
+            "substitution": [
+              [
+                {
+                  "powers": [
+                    1,
+                    0
+                  ],
+                  "coefficient": "1"
+                }
+              ],
+              [
+                {
+                  "powers": [
+                    0,
+                    1
+                  ],
+                  "coefficient": "1"
+                },
+                {
+                  "powers": [
+                    1,
+                    0
+                  ],
+                  "coefficient": "2"
+                }
+              ]
+            ],
+            "rows": [
+              {
+                "degree": 0,
+                "ordinary_coefficient": [
+                  {
+                    "powers": [
+                      0,
+                      0
+                    ],
+                    "coefficient": "1"
+                  }
+                ],
+                "fixed_s_u_derivative": [],
+                "coefficient_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      0
+                    ],
+                    "coefficient": "1"
+                  }
+                ],
+                "derivative_in_cone": []
+              },
+              {
+                "degree": 1,
+                "ordinary_coefficient": [
+                  {
+                    "powers": [
+                      0,
+                      1
+                    ],
+                    "coefficient": "1"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      0
+                    ],
+                    "coefficient": "26/15"
+                  }
+                ],
+                "fixed_s_u_derivative": [
+                  {
+                    "powers": [
+                      0,
+                      0
+                    ],
+                    "coefficient": "1"
+                  }
+                ],
+                "coefficient_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      1
+                    ],
+                    "coefficient": "1"
+                  },
+                  {
+                    "powers": [
+                      1,
+                      0
+                    ],
+                    "coefficient": "56/15"
+                  }
+                ],
+                "derivative_in_cone": [
+                  {
+                    "powers": [
+                      0,
+                      0
+                    ],
+                    "coefficient": "1"
+                  }
+                ]
+              },
+              {
+                "degree": 2,
+                "ordinary_coefficient": [
+                  {
+                    "powers": [
+                      1,
+                      1
+                    ],
+                    "coefficient": "3"
+                  }
+                ],
+                "fixed_s_u_derivative": [
+                  {
+                    "powers": [
+                      1,
+                      0
+                    ],
+                    "coefficient": "3"
+                  }
+                ],
+                "coefficient_in_cone": [
+                  {
+                    "powers": [
+                      1,
+                      1
+                    ],
+                    "coefficient": "3"
+                  },
+                  {
+                    "powers": [
+                      2,
+                      0
+                    ],
+                    "coefficient": "6"
+                  }
+                ],
+                "derivative_in_cone": [
+                  {
+                    "powers": [
+                      1,
+                      0
+                    ],
+                    "coefficient": "3"
+                  }
+                ]
+              },
+              {
+                "degree": 3,
+                "ordinary_coefficient": [
+                  {
+                    "powers": [
+                      2,
+                      1
+                    ],
+                    "coefficient": "13/4"
+                  },
+                  {
+                    "powers": [
+                      3,
+                      0
+                    ],
+                    "coefficient": "-37/24"
+                  }
+                ],
+                "fixed_s_u_derivative": [
+                  {
+                    "powers": [
+                      2,
+                      0
+                    ],
+                    "coefficient": "13/4"
+                  }
+                ],
+                "coefficient_in_cone": [
+                  {
+                    "powers": [
+                      2,
+                      1
+                    ],
+                    "coefficient": "13/4"
+                  },
+                  {
+                    "powers": [
+                      3,
+                      0
+                    ],
+                    "coefficient": "119/24"
+                  }
+                ],
+                "derivative_in_cone": [
+                  {
+                    "powers": [
+                      2,
+                      0
+                    ],
+                    "coefficient": "13/4"
+                  }
+                ]
+              },
+              {
+                "degree": 4,
+                "ordinary_coefficient": [
+                  {
+                    "powers": [
+                      3,
+                      1
+                    ],
+                    "coefficient": "3/2"
+                  },
+                  {
+                    "powers": [
+                      4,
+                      0
+                    ],
+                    "coefficient": "-1"
+                  }
+                ],
+                "fixed_s_u_derivative": [
+                  {
+                    "powers": [
+                      3,
+                      0
+                    ],
+                    "coefficient": "3/2"
+                  }
+                ],
+                "coefficient_in_cone": [
+                  {
+                    "powers": [
+                      3,
+                      1
+                    ],
+                    "coefficient": "3/2"
+                  },
+                  {
+                    "powers": [
+                      4,
+                      0
+                    ],
+                    "coefficient": "2"
+                  }
+                ],
+                "derivative_in_cone": [
+                  {
+                    "powers": [
+                      3,
+                      0
+                    ],
+                    "coefficient": "3/2"
+                  }
+                ]
+              },
+              {
+                "degree": 5,
+                "ordinary_coefficient": [
+                  {
+                    "powers": [
+                      4,
+                      1
+                    ],
+                    "coefficient": "1/4"
+                  },
+                  {
+                    "powers": [
+                      5,
+                      0
+                    ],
+                    "coefficient": "-23/120"
+                  }
+                ],
+                "fixed_s_u_derivative": [
+                  {
+                    "powers": [
+                      4,
+                      0
+                    ],
+                    "coefficient": "1/4"
+                  }
+                ],
+                "coefficient_in_cone": [
+                  {
+                    "powers": [
+                      4,
+                      1
+                    ],
+                    "coefficient": "1/4"
+                  },
+                  {
+                    "powers": [
+                      5,
+                      0
+                    ],
+                    "coefficient": "37/120"
+                  }
+                ],
+                "derivative_in_cone": [
+                  {
+                    "powers": [
+                      4,
+                      0
+                    ],
+                    "coefficient": "1/4"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "wall_identities": [
+          {
+            "wall": "s=2u",
+            "full_count": [
+              {
+                "powers": [
+                  0,
+                  0
+                ],
+                "coefficient": "1"
+              },
+              {
+                "powers": [
+                  1,
+                  0
+                ],
+                "coefficient": "47/15"
+              },
+              {
+                "powers": [
+                  2,
+                  0
+                ],
+                "coefficient": "49/12"
+              },
+              {
+                "powers": [
+                  3,
+                  0
+                ],
+                "coefficient": "11/4"
+              },
+              {
+                "powers": [
+                  4,
+                  0
+                ],
+                "coefficient": "11/12"
+              },
+              {
+                "powers": [
+                  5,
+                  0
+                ],
+                "coefficient": "7/60"
+              }
+            ],
+            "all_six_coefficients": "equal"
+          },
+          {
+            "wall": "s=u",
+            "full_count": [
+              {
+                "powers": [
+                  0,
+                  0
+                ],
+                "coefficient": "1"
+              },
+              {
+                "powers": [
+                  1,
+                  0
+                ],
+                "coefficient": "161/60"
+              },
+              {
+                "powers": [
+                  2,
+                  0
+                ],
+                "coefficient": "71/24"
+              },
+              {
+                "powers": [
+                  3,
+                  0
+                ],
+                "coefficient": "7/4"
+              },
+              {
+                "powers": [
+                  4,
+                  0
+                ],
+                "coefficient": "13/24"
+              },
+              {
+                "powers": [
+                  5,
+                  0
+                ],
+                "coefficient": "1/15"
+              }
+            ],
+            "all_six_coefficients": "equal"
+          },
+          {
+            "wall": "u=2s",
+            "full_count": [
+              {
+                "powers": [
+                  0,
+                  0
+                ],
+                "coefficient": "1"
+              },
+              {
+                "powers": [
+                  1,
+                  0
+                ],
+                "coefficient": "56/15"
+              },
+              {
+                "powers": [
+                  2,
+                  0
+                ],
+                "coefficient": "6"
+              },
+              {
+                "powers": [
+                  3,
+                  0
+                ],
+                "coefficient": "119/24"
+              },
+              {
+                "powers": [
+                  4,
+                  0
+                ],
+                "coefficient": "2"
+              },
+              {
+                "powers": [
+                  5,
+                  0
+                ],
+                "coefficient": "37/120"
+              }
+            ],
+            "all_six_coefficients": "equal"
+          }
+        ],
+        "low_chamber": [
+          {
+            "powers": [
+              0,
+              0
+            ],
+            "coefficient": "1"
+          },
+          {
+            "powers": [
+              0,
+              1
+            ],
+            "coefficient": "47/15"
+          },
+          {
+            "powers": [
+              0,
+              2
+            ],
+            "coefficient": "49/12"
+          },
+          {
+            "powers": [
+              0,
+              3
+            ],
+            "coefficient": "11/4"
+          },
+          {
+            "powers": [
+              0,
+              4
+            ],
+            "coefficient": "11/12"
+          },
+          {
+            "powers": [
+              0,
+              5
+            ],
+            "coefficient": "7/60"
+          }
+        ],
+        "selected_gain": [
+          "0",
+          "21/20",
+          "73/24",
+          "77/24",
+          "35/24",
+          "29/120"
+        ],
+        "strictness": {
+          "chamber_0": "u=a>0 gives a>0",
+          "chambers_1_2": "s,u>0 gives a+b>0; both pure endpoint powers retained",
+          "chamber_3": "s=a>0 gives a>0",
+          "operation": "At fixed s>0, continuous coefficients on the three checked walls and strict derivatives for u>0 imply strict increase on every positive-length interval [u,v].",
+          "constant": "coefficient one in every chamber; difference zero"
+        },
+        "boundary_counts": {
+          "u=0": "1",
+          "s=0": "1+U"
+        },
+        "shadow_arrival_status": "Exact displayed algebra only; independent shadow/layer counts remain SOURCE."
+      }
+    }
+  },
+  "status": "EXACT_COMPLETE_CERTIFICATE_DATA",
+  "scope": "Only the complete stated legal rank-five family and all four parameter chambers. Positive fixed fibers have degree five; u=0 is a point, s=0 is a primitive segment; no broader source theorem/finite population adopted."
+}

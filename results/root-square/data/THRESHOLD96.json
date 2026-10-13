@@ -1,0 +1,27 @@
+{
+  "schema": "a81-original-gain-threshold96-result/v1",
+  "identity": "A81-INDEX-ALGEBRA-THRESHOLD96-001",
+  "scope_sha256": "86c586a63386c41b46a655aa367230d3bdbd60848f3bdb943585d44b4e14d780",
+  "input_sha256": "2365b12c05139e539dbc6dd80a30666420c25900ba15f43c940069af74ff5182",
+  "majorants": {
+    "path": "[source record]",
+    "sha256": "378462d962b81b0b26f83db7656c4ff94b2f7bb3085a5b566905b920a0565dc1"
+  },
+  "bridge": {
+    "path": "[source record]",
+    "sha256": "72abf3c897993abeb8874b81b145738056e79d19c55d53fc5285891598b3ed81"
+  },
+  "failures": [],
+  "threshold_sweep": false,
+  "expected_SOURCE_arrays_read": false,
+  "provider_programs_read_or_executed": false,
+  "quotient_theorem_adoption": false,
+  "scientific_adoption": false,
+  "scalar_LR_calls": 0,
+  "original_enumeration": false,
+  "changed_proof_statement": "Uniform original-only H/G raw-gain reserve starts m>=96 if root adopts; finite join becomes transitionsm3..95 with complete endpointsm3..96. Existing H3 exception remains.",
+  "self_peak_rss_bytes": 30703616,
+  "python": "/var/tmp/sage-10.9-current/local/bin/python3",
+  "declared_Sage_slots": 1,
+  "stop": "Root mathematical judgment, independent gate/adoption and finite integration remain separate."
+}

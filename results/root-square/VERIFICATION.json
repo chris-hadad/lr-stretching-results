@@ -1,0 +1,77 @@
+{
+  "schema": "curated-family-verification/v1",
+  "date": "2026-10-12",
+  "fresh_export_status": "SELECTED_COMPLETE_CHECKS_PASS",
+  "checks": [
+    {
+      "id": "export-root-square-001",
+      "exit_code": 0,
+      "guarded_seconds": 4.6574061249848455,
+      "sampled_peak_group_rss_bytes": 34963456,
+      "sample_zero_means_true_peak_unknown": false,
+      "executed_code_sha256": {
+        "root-square/code/reproduce.py": "83ec82a1d53a15b3f0168839cab28a09b720af1b12bf051109103221ff76a562"
+      }
+    },
+    {
+      "id": "export-height-001",
+      "exit_code": 0,
+      "guarded_seconds": 1.2668012090143748,
+      "sampled_peak_group_rss_bytes": 0,
+      "sample_zero_means_true_peak_unknown": true,
+      "executed_code_sha256": {
+        "root-square/code/verify_height.py": "c00ff6b0f7eaef7634141d63a85ed84f2f460669ffa12c09ba65915c4b23b815"
+      }
+    },
+    {
+      "id": "export-index-derive-001",
+      "exit_code": 0,
+      "guarded_seconds": 8.7975884169864,
+      "sampled_peak_group_rss_bytes": 105840640,
+      "sample_zero_means_true_peak_unknown": false,
+      "executed_code_sha256": {
+        "root-square/code/derive_index.py": "f286979d40e4894820ae240e943bd1cb201faf319f47d1c5920b08c8fb7205de"
+      }
+    },
+    {
+      "id": "export-index-link-001",
+      "exit_code": 0,
+      "guarded_seconds": 8.736389917001361,
+      "sampled_peak_group_rss_bytes": 99450880,
+      "sample_zero_means_true_peak_unknown": false,
+      "executed_code_sha256": {
+        "root-square/code/link_index.py": "aa5c202a269fe36a0e42aba7bfc2a95e3cbdef66d56d88a6537c8b727673d058"
+      }
+    },
+    {
+      "id": "export-threshold96-001",
+      "exit_code": 0,
+      "guarded_seconds": 1.3088561659969855,
+      "sampled_peak_group_rss_bytes": 0,
+      "sample_zero_means_true_peak_unknown": true,
+      "executed_code_sha256": {
+        "root-square/code/verify_threshold96.py": "d2f84fde8a9810a0e7f13de8eca1b5cce5b37e311a82f886650d5c4d3ccb429f"
+      }
+    }
+  ],
+  "public_curation_review": "PASSED_INTERNAL_ASTRA_REVIEW",
+  "A83_scientific_status": "Not an additional A83 claim",
+  "returned_provider_programs_executed": false,
+  "full_repository_suite_run": false,
+  "raw_private_runtime_records_exported": false,
+  "source_map_is_theorem_proof": false,
+  "scope_limit": "Arithmetic/structural reproduction and recorded exact proofs. Internal AI review, human review, formal certification and novelty are distinct. No new unused observations or additive coverage from replay.",
+  "selected_endpoints": 94,
+  "selected_raw_gains": 93,
+  "positive_complement_gains": 92,
+  "fresh_full_mask_endpoints": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "complete_high_index_endpoint_regeneration": false,
+  "uniform_symbolic_linkage_and_threshold96_rederived": true,
+  "review_receipt_sha256": "da4dd1c7c065cacccad93353e079875ffb731681d23be78d2f1d78992e14a98a",
+  "accepted_scope_sha256": "06484ba8fac8b719d860c32695d5055426cde36b587a53ad4d7b9a640eee2680"
+}

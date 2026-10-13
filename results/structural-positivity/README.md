@@ -127,3 +127,14 @@ theory and Minkowski valuation results is credited in the repository
 [references](../../REFERENCES.md). Alper Ferudun's rank-four/five positivity
 and correction work are central antecedents. No human endorsement or worldwide
 novelty claim is implied by these verification records.
+
+## Complete later family extensions
+
+[Two-row-inner positivity](../two-row-inner/README.md) now covers all ambient
+ranks and every coefficient; the older slope-two/three proofs retain their
+historical formulas. [Transportation compensation](../transportation-developments/README.md)
+adds universal all-size c1, the complete C22 bridge, restricted c2 families,
+triangle-free and one-triangle originals. [Root-square](../root-square/README.md)
+and [four-letter](../four-letter/README.md) have separate height/index domains
+and actual degrees. The [progress record](../research-progress/README.md) keeps
+component/operation obstructions distinct from complete LR negatives.

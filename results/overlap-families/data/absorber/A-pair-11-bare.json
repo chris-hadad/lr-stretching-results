@@ -1,0 +1,184 @@
+{
+  "status": "COMPUTED_COMPLETE_BARE_ORIGINAL_POLYNOMIAL",
+  "id": "A-pair-11",
+  "original": {
+    "outer": [
+      22,
+      20,
+      11,
+      10,
+      9,
+      6,
+      3
+    ],
+    "inner": [
+      13,
+      11,
+      10,
+      9,
+      6,
+      3,
+      0
+    ],
+    "content": [
+      12,
+      9,
+      8
+    ],
+    "maximum_trimmed_rank": 7,
+    "outer_area": 81,
+    "size_balance_checked": true
+  },
+  "prior_degree": 9,
+  "degree_basis": "A58 entire absorbing-cap residual theorem, exact dimension 2*5-1; also U01 full band bijection",
+  "determining_grades": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "unused_positive_grades": [
+    10,
+    11,
+    12
+  ],
+  "coefficients": [
+    "1",
+    "1877/280",
+    "198689/10080",
+    "334339/10080",
+    "201953/5760",
+    "34691/1440",
+    "30961/2880",
+    "30281/10080",
+    "6413/13440",
+    "331/10080"
+  ],
+  "rows": [
+    {
+      "id": "A-pair-11",
+      "t": 0,
+      "value": 1,
+      "maxrss_kib": 93228,
+      "states": 95,
+      "transitions": 183,
+      "cache_hits": 89
+    },
+    {
+      "id": "A-pair-11",
+      "t": 1,
+      "value": 134,
+      "maxrss_kib": 93228,
+      "states": 95,
+      "transitions": 183,
+      "cache_hits": 89
+    },
+    {
+      "id": "A-pair-11",
+      "t": 2,
+      "value": 2902,
+      "maxrss_kib": 93228,
+      "states": 484,
+      "transitions": 1638,
+      "cache_hits": 1155
+    },
+    {
+      "id": "A-pair-11",
+      "t": 3,
+      "value": 27972,
+      "maxrss_kib": 93356,
+      "states": 1558,
+      "transitions": 8178,
+      "cache_hits": 6621
+    },
+    {
+      "id": "A-pair-11",
+      "t": 4,
+      "value": 169242,
+      "maxrss_kib": 93612,
+      "states": 3861,
+      "transitions": 29079,
+      "cache_hits": 25219
+    },
+    {
+      "id": "A-pair-11",
+      "t": 5,
+      "value": 755063,
+      "maxrss_kib": 94124,
+      "states": 8098,
+      "transitions": 82888,
+      "cache_hits": 74791
+    },
+    {
+      "id": "A-pair-11",
+      "t": 6,
+      "value": 2715567,
+      "maxrss_kib": 96172,
+      "states": 15135,
+      "transitions": 202252,
+      "cache_hits": 187118
+    },
+    {
+      "id": "A-pair-11",
+      "t": 7,
+      "value": 8316039,
+      "maxrss_kib": 97964,
+      "states": 25999,
+      "transitions": 439774,
+      "cache_hits": 413776
+    },
+    {
+      "id": "A-pair-11",
+      "t": 8,
+      "value": 22482174,
+      "maxrss_kib": 102444,
+      "states": 41878,
+      "transitions": 874897,
+      "cache_hits": 833020
+    },
+    {
+      "id": "A-pair-11",
+      "t": 9,
+      "value": 55021879,
+      "maxrss_kib": 111660,
+      "states": 64121,
+      "transitions": 1621815,
+      "cache_hits": 1557695
+    },
+    {
+      "id": "A-pair-11",
+      "t": 10,
+      "value": 124139015,
+      "maxrss_kib": 126508,
+      "states": 94238,
+      "transitions": 2838412,
+      "cache_hits": 2744175
+    },
+    {
+      "id": "A-pair-11",
+      "t": 11,
+      "value": 261737125,
+      "maxrss_kib": 143204,
+      "states": 133900,
+      "transitions": 4736228,
+      "cache_hits": 4602329
+    },
+    {
+      "id": "A-pair-11",
+      "t": 12,
+      "value": 521125761,
+      "maxrss_kib": 173028,
+      "states": 184939,
+      "transitions": 7591453,
+      "cache_hits": 7406515
+    }
+  ],
+  "maxrss_kib": 173028,
+  "counter_scope": "literal original tableaux; independent of residual and band formulas"
+}

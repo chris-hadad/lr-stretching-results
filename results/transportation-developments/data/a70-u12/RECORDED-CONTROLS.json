@@ -1,0 +1,475 @@
+{
+  "schema": "a70-u12-recorded-a70-controls/v1",
+  "status": "RECORDED_A70_CONTROLS_NOT_NEW_COUNTS",
+  "origin": "A70 root independent bare-LR and full physical-array controls",
+  "origin_sha256": "17db3e0d52dfad2bdebed641e9dd63a8bc1452dc048dd561cbe117b99ad25821",
+  "grade_records": [
+    {
+      "id": "PRO049-S1-U1",
+      "grade": 0,
+      "role": "determining",
+      "S": 0,
+      "U": 0,
+      "literal_outer": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "literal_inner": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "literal_content": [
+        0,
+        0,
+        0
+      ],
+      "bare_lr_count": 1,
+      "physical_array_count": 1,
+      "all_parameter_formula": 1
+    },
+    {
+      "id": "PRO049-S1-U1",
+      "grade": 1,
+      "role": "determining",
+      "S": 1,
+      "U": 1,
+      "literal_outer": [
+        6,
+        5,
+        4,
+        2,
+        1
+      ],
+      "literal_inner": [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "literal_content": [
+        4,
+        3,
+        1
+      ],
+      "bare_lr_count": 9,
+      "physical_array_count": 9,
+      "all_parameter_formula": 9
+    },
+    {
+      "id": "PRO049-S1-U1",
+      "grade": 2,
+      "role": "determining",
+      "S": 2,
+      "U": 2,
+      "literal_outer": [
+        12,
+        10,
+        8,
+        4,
+        2
+      ],
+      "literal_inner": [
+        8,
+        6,
+        4,
+        2,
+        0
+      ],
+      "literal_content": [
+        8,
+        6,
+        2
+      ],
+      "bare_lr_count": 43,
+      "physical_array_count": 43,
+      "all_parameter_formula": 43
+    },
+    {
+      "id": "PRO049-S1-U1",
+      "grade": 3,
+      "role": "determining",
+      "S": 3,
+      "U": 3,
+      "literal_outer": [
+        18,
+        15,
+        12,
+        6,
+        3
+      ],
+      "literal_inner": [
+        12,
+        9,
+        6,
+        3,
+        0
+      ],
+      "literal_content": [
+        12,
+        9,
+        3
+      ],
+      "bare_lr_count": 143,
+      "physical_array_count": 143,
+      "all_parameter_formula": 143
+    },
+    {
+      "id": "PRO049-S1-U1",
+      "grade": 4,
+      "role": "determining",
+      "S": 4,
+      "U": 4,
+      "literal_outer": [
+        24,
+        20,
+        16,
+        8,
+        4
+      ],
+      "literal_inner": [
+        16,
+        12,
+        8,
+        4,
+        0
+      ],
+      "literal_content": [
+        16,
+        12,
+        4
+      ],
+      "bare_lr_count": 378,
+      "physical_array_count": 378,
+      "all_parameter_formula": 378
+    },
+    {
+      "id": "PRO049-S1-U1",
+      "grade": 5,
+      "role": "determining",
+      "S": 5,
+      "U": 5,
+      "literal_outer": [
+        30,
+        25,
+        20,
+        10,
+        5
+      ],
+      "literal_inner": [
+        20,
+        15,
+        10,
+        5,
+        0
+      ],
+      "literal_content": [
+        20,
+        15,
+        5
+      ],
+      "bare_lr_count": 854,
+      "physical_array_count": 854,
+      "all_parameter_formula": 854
+    },
+    {
+      "id": "PRO049-S1-U1",
+      "grade": 6,
+      "role": "unused",
+      "S": 6,
+      "U": 6,
+      "literal_outer": [
+        36,
+        30,
+        24,
+        12,
+        6
+      ],
+      "literal_inner": [
+        24,
+        18,
+        12,
+        6,
+        0
+      ],
+      "literal_content": [
+        24,
+        18,
+        6
+      ],
+      "bare_lr_count": 1722,
+      "physical_array_count": 1722,
+      "all_parameter_formula": 1722
+    },
+    {
+      "id": "PRO049-S1-U1",
+      "grade": 7,
+      "role": "unused",
+      "S": 7,
+      "U": 7,
+      "literal_outer": [
+        42,
+        35,
+        28,
+        14,
+        7
+      ],
+      "literal_inner": [
+        28,
+        21,
+        14,
+        7,
+        0
+      ],
+      "literal_content": [
+        28,
+        21,
+        7
+      ],
+      "bare_lr_count": 3186,
+      "physical_array_count": 3186,
+      "all_parameter_formula": 3186
+    },
+    {
+      "id": "PRO049-S1-U2",
+      "grade": 0,
+      "role": "determining",
+      "S": 0,
+      "U": 0,
+      "literal_outer": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "literal_inner": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "literal_content": [
+        0,
+        0,
+        0
+      ],
+      "bare_lr_count": 1,
+      "physical_array_count": 1,
+      "all_parameter_formula": 1
+    },
+    {
+      "id": "PRO049-S1-U2",
+      "grade": 1,
+      "role": "determining",
+      "S": 1,
+      "U": 2,
+      "literal_outer": [
+        10,
+        8,
+        6,
+        2,
+        1
+      ],
+      "literal_inner": [
+        6,
+        4,
+        2,
+        1,
+        0
+      ],
+      "literal_content": [
+        7,
+        5,
+        2
+      ],
+      "bare_lr_count": 18,
+      "physical_array_count": 18,
+      "all_parameter_formula": 18
+    },
+    {
+      "id": "PRO049-S1-U2",
+      "grade": 2,
+      "role": "determining",
+      "S": 2,
+      "U": 4,
+      "literal_outer": [
+        20,
+        16,
+        12,
+        4,
+        2
+      ],
+      "literal_inner": [
+        12,
+        8,
+        4,
+        2,
+        0
+      ],
+      "literal_content": [
+        14,
+        10,
+        4
+      ],
+      "bare_lr_count": 114,
+      "physical_array_count": 114,
+      "all_parameter_formula": 114
+    },
+    {
+      "id": "PRO049-S1-U2",
+      "grade": 3,
+      "role": "determining",
+      "S": 3,
+      "U": 6,
+      "literal_outer": [
+        30,
+        24,
+        18,
+        6,
+        3
+      ],
+      "literal_inner": [
+        18,
+        12,
+        6,
+        3,
+        0
+      ],
+      "literal_content": [
+        21,
+        15,
+        6
+      ],
+      "bare_lr_count": 437,
+      "physical_array_count": 437,
+      "all_parameter_formula": 437
+    },
+    {
+      "id": "PRO049-S1-U2",
+      "grade": 4,
+      "role": "determining",
+      "S": 4,
+      "U": 8,
+      "literal_outer": [
+        40,
+        32,
+        24,
+        8,
+        4
+      ],
+      "literal_inner": [
+        24,
+        16,
+        8,
+        4,
+        0
+      ],
+      "literal_content": [
+        28,
+        20,
+        8
+      ],
+      "bare_lr_count": 1257,
+      "physical_array_count": 1257,
+      "all_parameter_formula": 1257
+    },
+    {
+      "id": "PRO049-S1-U2",
+      "grade": 5,
+      "role": "determining",
+      "S": 5,
+      "U": 10,
+      "literal_outer": [
+        50,
+        40,
+        30,
+        10,
+        5
+      ],
+      "literal_inner": [
+        30,
+        20,
+        10,
+        5,
+        0
+      ],
+      "literal_content": [
+        35,
+        25,
+        10
+      ],
+      "bare_lr_count": 3003,
+      "physical_array_count": 3003,
+      "all_parameter_formula": 3003
+    },
+    {
+      "id": "PRO049-S1-U2",
+      "grade": 6,
+      "role": "unused",
+      "S": 6,
+      "U": 12,
+      "literal_outer": [
+        60,
+        48,
+        36,
+        12,
+        6
+      ],
+      "literal_inner": [
+        36,
+        24,
+        12,
+        6,
+        0
+      ],
+      "literal_content": [
+        42,
+        30,
+        12
+      ],
+      "bare_lr_count": 6300,
+      "physical_array_count": 6300,
+      "all_parameter_formula": 6300
+    },
+    {
+      "id": "PRO049-S1-U2",
+      "grade": 7,
+      "role": "unused",
+      "S": 7,
+      "U": 14,
+      "literal_outer": [
+        70,
+        56,
+        42,
+        14,
+        7
+      ],
+      "literal_inner": [
+        42,
+        28,
+        14,
+        7,
+        0
+      ],
+      "literal_content": [
+        49,
+        35,
+        14
+      ],
+      "bare_lr_count": 12006,
+      "physical_array_count": 12006,
+      "all_parameter_formula": 12006
+    }
+  ],
+  "new_lr_or_physical_counts": 0,
+  "fresh_unused_grades": 0,
+  "historical_reserved_grades": "Grades 6/7 were unused at the original A70 freeze; checking their archived values now is reuse."
+}

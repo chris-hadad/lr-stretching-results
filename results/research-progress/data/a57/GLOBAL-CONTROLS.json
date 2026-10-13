@@ -1,0 +1,1480 @@
+{
+  "schema": "a57-global-controls/v1",
+  "status": "PASS",
+  "rows": [
+    {
+      "old": [
+        1
+      ],
+      "before": {
+        "widths": [
+          1,
+          2
+        ],
+        "actual_degree": 4,
+        "original_triple": {
+          "lambda": [
+            24,
+            18,
+            12,
+            10,
+            8,
+            4
+          ],
+          "mu": [
+            12,
+            12,
+            8,
+            8,
+            0,
+            0
+          ],
+          "nu": [
+            18,
+            12,
+            6
+          ]
+        },
+        "determining_values": [
+          1,
+          99,
+          825,
+          3283,
+          9153
+        ],
+        "unused_positive_holdouts": [
+          [
+            5,
+            20691
+          ],
+          [
+            6,
+            40729
+          ]
+        ],
+        "independent_count_grades": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        "coefficients": [
+          "1",
+          "8",
+          "26",
+          "40",
+          "24"
+        ]
+      },
+      "after": {
+        "widths": [
+          1,
+          1,
+          1
+        ],
+        "actual_degree": 7,
+        "original_triple": {
+          "lambda": [
+            24,
+            18,
+            12,
+            10,
+            8,
+            6,
+            4,
+            2
+          ],
+          "mu": [
+            12,
+            12,
+            8,
+            8,
+            4,
+            4,
+            0,
+            0
+          ],
+          "nu": [
+            18,
+            12,
+            6
+          ]
+        },
+        "determining_values": [
+          1,
+          831,
+          27761,
+          287503,
+          1657809,
+          6730031,
+          21625825,
+          58809183
+        ],
+        "unused_positive_holdouts": [
+          [
+            8,
+            141114977
+          ],
+          [
+            9,
+            307215199
+          ]
+        ],
+        "independent_count_grades": [
+          0,
+          1,
+          2,
+          7,
+          8,
+          9
+        ],
+        "coefficients": [
+          "1",
+          "68/7",
+          "222/5",
+          "612/5",
+          "216",
+          "240",
+          "768/5",
+          "1536/35"
+        ]
+      },
+      "gain": [
+        "0",
+        "12/7",
+        "92/5",
+        "412/5",
+        "192",
+        "240",
+        "768/5",
+        "1536/35"
+      ],
+      "c1_gain": "12/7"
+    },
+    {
+      "old": [
+        2
+      ],
+      "before": {
+        "widths": [
+          2,
+          4
+        ],
+        "actual_degree": 4,
+        "original_triple": {
+          "lambda": [
+            48,
+            36,
+            24,
+            20,
+            16,
+            8
+          ],
+          "mu": [
+            24,
+            24,
+            16,
+            16,
+            0,
+            0
+          ],
+          "nu": [
+            36,
+            24,
+            12
+          ]
+        },
+        "determining_values": [
+          1,
+          825,
+          9153,
+          40729,
+          120513
+        ],
+        "unused_positive_holdouts": [
+          [
+            5,
+            282681
+          ],
+          [
+            6,
+            570625
+          ]
+        ],
+        "independent_count_grades": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        "coefficients": [
+          "1",
+          "16",
+          "104",
+          "320",
+          "384"
+        ]
+      },
+      "after": {
+        "widths": [
+          2,
+          2,
+          2
+        ],
+        "actual_degree": 7,
+        "original_triple": {
+          "lambda": [
+            48,
+            36,
+            24,
+            20,
+            16,
+            12,
+            8,
+            4
+          ],
+          "mu": [
+            24,
+            24,
+            16,
+            16,
+            8,
+            8,
+            0,
+            0
+          ],
+          "nu": [
+            36,
+            24,
+            12
+          ]
+        },
+        "determining_values": [
+          1,
+          27761,
+          1657809,
+          21625825,
+          141114977,
+          618744081,
+          2095568305,
+          5920403969
+        ],
+        "unused_positive_holdouts": [
+          [
+            8,
+            14623788993
+          ],
+          [
+            9,
+            32568890545
+          ]
+        ],
+        "independent_count_grades": [
+          0,
+          1,
+          2,
+          7,
+          8,
+          9
+        ],
+        "coefficients": [
+          "1",
+          "136/7",
+          "888/5",
+          "4896/5",
+          "3456",
+          "7680",
+          "49152/5",
+          "196608/35"
+        ]
+      },
+      "gain": [
+        "0",
+        "24/7",
+        "368/5",
+        "3296/5",
+        "3072",
+        "7680",
+        "49152/5",
+        "196608/35"
+      ],
+      "c1_gain": "24/7"
+    },
+    {
+      "old": [
+        3
+      ],
+      "before": {
+        "widths": [
+          3,
+          6
+        ],
+        "actual_degree": 4,
+        "original_triple": {
+          "lambda": [
+            72,
+            54,
+            36,
+            30,
+            24,
+            12
+          ],
+          "mu": [
+            36,
+            36,
+            24,
+            24,
+            0,
+            0
+          ],
+          "nu": [
+            54,
+            36,
+            18
+          ]
+        },
+        "determining_values": [
+          1,
+          3283,
+          40729,
+          188803,
+          570625
+        ],
+        "unused_positive_holdouts": [
+          [
+            5,
+            1355971
+          ],
+          [
+            6,
+            2761273
+          ]
+        ],
+        "independent_count_grades": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        "coefficients": [
+          "1",
+          "24",
+          "234",
+          "1080",
+          "1944"
+        ]
+      },
+      "after": {
+        "widths": [
+          3,
+          3,
+          3
+        ],
+        "actual_degree": 7,
+        "original_triple": {
+          "lambda": [
+            72,
+            54,
+            36,
+            30,
+            24,
+            18,
+            12,
+            6
+          ],
+          "mu": [
+            36,
+            36,
+            24,
+            24,
+            12,
+            12,
+            0,
+            0
+          ],
+          "nu": [
+            54,
+            36,
+            18
+          ]
+        },
+        "determining_values": [
+          1,
+          287503,
+          21625825,
+          307215199,
+          2095568305,
+          9441493951,
+          32568890545,
+          93239078767
+        ],
+        "unused_positive_holdouts": [
+          [
+            8,
+            232618402849
+          ],
+          [
+            9,
+            522128829871
+          ]
+        ],
+        "independent_count_grades": [
+          0,
+          1,
+          2,
+          7,
+          8,
+          9
+        ],
+        "coefficients": [
+          "1",
+          "204/7",
+          "1998/5",
+          "16524/5",
+          "17496",
+          "58320",
+          "559872/5",
+          "3359232/35"
+        ]
+      },
+      "gain": [
+        "0",
+        "36/7",
+        "828/5",
+        "11124/5",
+        "15552",
+        "58320",
+        "559872/5",
+        "3359232/35"
+      ],
+      "c1_gain": "36/7"
+    },
+    {
+      "old": [
+        1,
+        1
+      ],
+      "before": {
+        "widths": [
+          1,
+          1,
+          4
+        ],
+        "actual_degree": 7,
+        "original_triple": {
+          "lambda": [
+            48,
+            36,
+            24,
+            22,
+            20,
+            18,
+            16,
+            8
+          ],
+          "mu": [
+            24,
+            24,
+            20,
+            20,
+            16,
+            16,
+            0,
+            0
+          ],
+          "nu": [
+            36,
+            24,
+            12
+          ]
+        },
+        "determining_values": [
+          1,
+          5157,
+          212525,
+          2373217,
+          14219145,
+          59073773,
+          192775765,
+          530044425
+        ],
+        "unused_positive_holdouts": [
+          [
+            8,
+            1282415825
+          ],
+          [
+            9,
+            2809878517
+          ]
+        ],
+        "independent_count_grades": [
+          0,
+          1,
+          2,
+          7,
+          8,
+          9
+        ],
+        "coefficients": [
+          "1",
+          "82/5",
+          "598/5",
+          "2428/5",
+          "1168",
+          "8288/5",
+          "6432/5",
+          "2112/5"
+        ]
+      },
+      "after": {
+        "widths": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "actual_degree": 10,
+        "original_triple": {
+          "lambda": [
+            48,
+            36,
+            24,
+            22,
+            20,
+            18,
+            16,
+            12,
+            8,
+            4
+          ],
+          "mu": [
+            24,
+            24,
+            20,
+            20,
+            16,
+            16,
+            8,
+            8,
+            0,
+            0
+          ],
+          "nu": [
+            36,
+            24,
+            12
+          ]
+        },
+        "determining_values": [
+          1,
+          182421,
+          40997145,
+          1349811085,
+          17892865089,
+          139242757269,
+          763465609465,
+          3266992028205,
+          11621534906817,
+          35830428770773,
+          98562663483417
+        ],
+        "unused_positive_holdouts": [
+          [
+            11,
+            247036743443469
+          ],
+          [
+            12,
+            573072695658625
+          ]
+        ],
+        "independent_count_grades": [
+          0,
+          1,
+          2,
+          10,
+          11,
+          12
+        ],
+        "coefficients": [
+          "1",
+          "696/35",
+          "978/5",
+          "384032/315",
+          "1638982/315",
+          "78044/5",
+          "32964",
+          "5047936/105",
+          "692288/15",
+          "8273344/315",
+          "2115776/315"
+        ]
+      },
+      "gain": [
+        "0",
+        "122/35",
+        "76",
+        "231068/315",
+        "1271062/315",
+        "69756/5",
+        "158388/5",
+        "5003584/105",
+        "692288/15",
+        "8273344/315",
+        "2115776/315"
+      ],
+      "c1_gain": "122/35"
+    },
+    {
+      "old": [
+        1,
+        2
+      ],
+      "before": {
+        "widths": [
+          1,
+          2,
+          6
+        ],
+        "actual_degree": 7,
+        "original_triple": {
+          "lambda": [
+            72,
+            54,
+            36,
+            34,
+            32,
+            28,
+            24,
+            12
+          ],
+          "mu": [
+            36,
+            36,
+            32,
+            32,
+            24,
+            24,
+            0,
+            0
+          ],
+          "nu": [
+            54,
+            36,
+            18
+          ]
+        },
+        "determining_values": [
+          1,
+          34515,
+          1818045,
+          22386091,
+          141369705,
+          606950883,
+          2025722725,
+          5661678555
+        ],
+        "unused_positive_holdouts": [
+          [
+            8,
+            13869554193
+          ],
+          [
+            9,
+            30687747571
+          ]
+        ],
+        "independent_count_grades": [
+          0,
+          1,
+          2,
+          7,
+          8,
+          9
+        ],
+        "coefficients": [
+          "1",
+          "122/5",
+          "1322/5",
+          "7866/5",
+          "5428",
+          "53928/5",
+          "57168/5",
+          "25024/5"
+        ]
+      },
+      "after": {
+        "widths": [
+          1,
+          2,
+          3,
+          3
+        ],
+        "actual_degree": 10,
+        "original_triple": {
+          "lambda": [
+            72,
+            54,
+            36,
+            34,
+            32,
+            28,
+            24,
+            18,
+            12,
+            6
+          ],
+          "mu": [
+            36,
+            36,
+            32,
+            32,
+            24,
+            24,
+            12,
+            12,
+            0,
+            0
+          ],
+          "nu": [
+            54,
+            36,
+            18
+          ]
+        },
+        "determining_values": [
+          1,
+          3184575,
+          1026774585,
+          38896111135,
+          555547719825,
+          4528303385199,
+          25624867884265,
+          112191872654415,
+          406083943772193,
+          1269164879142751,
+          3529728940700697
+        ],
+        "unused_positive_holdouts": [
+          [
+            11,
+            8927064866656575
+          ],
+          [
+            12,
+            20865884350344625
+          ]
+        ],
+        "independent_count_grades": [
+          0,
+          1,
+          2,
+          10,
+          11,
+          12
+        ],
+        "coefficients": [
+          "1",
+          "148/5",
+          "3040/7",
+          "1265486/315",
+          "126442/5",
+          "333086/3",
+          "339956",
+          "10658864/15",
+          "33743616/35",
+          "240288736/315",
+          "266304"
+        ]
+      },
+      "gain": [
+        "0",
+        "26/5",
+        "5946/35",
+        "769928/315",
+        "99302/5",
+        "1503646/15",
+        "1642612/5",
+        "10583792/15",
+        "33743616/35",
+        "240288736/315",
+        "266304"
+      ],
+      "c1_gain": "26/5"
+    },
+    {
+      "old": [
+        1,
+        1,
+        1
+      ],
+      "before": {
+        "widths": [
+          1,
+          1,
+          1,
+          6
+        ],
+        "actual_degree": 10,
+        "original_triple": {
+          "lambda": [
+            72,
+            54,
+            36,
+            34,
+            32,
+            30,
+            28,
+            26,
+            24,
+            12
+          ],
+          "mu": [
+            36,
+            36,
+            32,
+            32,
+            28,
+            28,
+            24,
+            24,
+            0,
+            0
+          ],
+          "nu": [
+            54,
+            36,
+            18
+          ]
+        },
+        "determining_values": [
+          1,
+          209223,
+          40710125,
+          1255162195,
+          16031153961,
+          121813573871,
+          656905884661,
+          2776884838875,
+          9786070128017,
+          29949005283031,
+          81891233408061
+        ],
+        "unused_positive_holdouts": [
+          [
+            11,
+            204235914601379
+          ],
+          [
+            12,
+            471812154765625
+          ]
+        ],
+        "independent_count_grades": [
+          0,
+          1,
+          2,
+          10,
+          11,
+          12
+        ],
+        "coefficients": [
+          "1",
+          "174/7",
+          "9854/35",
+          "65068/35",
+          "275522/35",
+          "22360",
+          "216424/5",
+          "1980032/35",
+          "1676768/35",
+          "166528/7",
+          "184448/35"
+        ]
+      },
+      "after": {
+        "widths": [
+          1,
+          1,
+          1,
+          3,
+          3
+        ],
+        "actual_degree": 13,
+        "original_triple": {
+          "lambda": [
+            72,
+            54,
+            36,
+            34,
+            32,
+            30,
+            28,
+            26,
+            24,
+            18,
+            12,
+            6
+          ],
+          "mu": [
+            36,
+            36,
+            32,
+            32,
+            28,
+            28,
+            24,
+            24,
+            12,
+            12,
+            0,
+            0
+          ],
+          "nu": [
+            54,
+            36,
+            18
+          ]
+        },
+        "determining_values": [
+          1,
+          19736163,
+          23606346161,
+          2242807375075,
+          64843263773865,
+          935922836397371,
+          8560527772179433,
+          56702233272117483,
+          295305079704788465,
+          1276761049189242355,
+          4759040737253769921,
+          15716882917354181843,
+          46936726315313273305,
+          128751538901138986635
+        ],
+        "unused_positive_holdouts": [
+          [
+            14,
+            328403943307185471545
+          ],
+          [
+            15,
+            786554814120543197851
+          ]
+        ],
+        "independent_count_grades": [
+          0,
+          1,
+          2,
+          13,
+          14,
+          15
+        ],
+        "coefficients": [
+          "1",
+          "4298/143",
+          "174821/385",
+          "15308044/3465",
+          "9482231/315",
+          "6710002/45",
+          "172257404/315",
+          "470859848/315",
+          "106256704/35",
+          "1422984256/315",
+          "1506811072/315",
+          "1689476224/495",
+          "5097291008/3465",
+          "2607187456/9009"
+        ]
+      },
+      "gain": [
+        "0",
+        "5204/1001",
+        "66427/385",
+        "1266616/495",
+        "7002533/315",
+        "5703802/45",
+        "158622692/315",
+        "90607912/63",
+        "104579936/35",
+        "202212928/45",
+        "301030208/63",
+        "1689476224/495",
+        "5097291008/3465",
+        "2607187456/9009"
+      ],
+      "c1_gain": "5204/1001"
+    }
+  ],
+  "refinement_and_concavity_defect": "-6/5005",
+  "convexity_defect": "2/35",
+  "negative_controls": {
+    "old_width_refinement_nondecreasing": true,
+    "global_concavity": true,
+    "global_convexity": true,
+    "sharp_lower_bound_refuted": false,
+    "whole_LR_candidate": false
+  },
+  "simplex_skeleton_coefficients": [
+    {
+      "dimension": 1,
+      "codimension": 0,
+      "sum": "1"
+    },
+    {
+      "dimension": 1,
+      "codimension": 1,
+      "sum": "1"
+    },
+    {
+      "dimension": 2,
+      "codimension": 0,
+      "sum": "1"
+    },
+    {
+      "dimension": 2,
+      "codimension": 1,
+      "sum": "3/2"
+    },
+    {
+      "dimension": 2,
+      "codimension": 2,
+      "sum": "1"
+    },
+    {
+      "dimension": 3,
+      "codimension": 0,
+      "sum": "1"
+    },
+    {
+      "dimension": 3,
+      "codimension": 1,
+      "sum": "2"
+    },
+    {
+      "dimension": 3,
+      "codimension": 2,
+      "sum": "11/6"
+    },
+    {
+      "dimension": 3,
+      "codimension": 3,
+      "sum": "1"
+    },
+    {
+      "dimension": 4,
+      "codimension": 0,
+      "sum": "1"
+    },
+    {
+      "dimension": 4,
+      "codimension": 1,
+      "sum": "5/2"
+    },
+    {
+      "dimension": 4,
+      "codimension": 2,
+      "sum": "35/12"
+    },
+    {
+      "dimension": 4,
+      "codimension": 3,
+      "sum": "25/12"
+    },
+    {
+      "dimension": 4,
+      "codimension": 4,
+      "sum": "1"
+    },
+    {
+      "dimension": 5,
+      "codimension": 0,
+      "sum": "1"
+    },
+    {
+      "dimension": 5,
+      "codimension": 1,
+      "sum": "3"
+    },
+    {
+      "dimension": 5,
+      "codimension": 2,
+      "sum": "17/4"
+    },
+    {
+      "dimension": 5,
+      "codimension": 3,
+      "sum": "15/4"
+    },
+    {
+      "dimension": 5,
+      "codimension": 4,
+      "sum": "137/60"
+    },
+    {
+      "dimension": 5,
+      "codimension": 5,
+      "sum": "1"
+    },
+    {
+      "dimension": 6,
+      "codimension": 0,
+      "sum": "1"
+    },
+    {
+      "dimension": 6,
+      "codimension": 1,
+      "sum": "7/2"
+    },
+    {
+      "dimension": 6,
+      "codimension": 2,
+      "sum": "35/6"
+    },
+    {
+      "dimension": 6,
+      "codimension": 3,
+      "sum": "49/8"
+    },
+    {
+      "dimension": 6,
+      "codimension": 4,
+      "sum": "203/45"
+    },
+    {
+      "dimension": 6,
+      "codimension": 5,
+      "sum": "49/20"
+    },
+    {
+      "dimension": 6,
+      "codimension": 6,
+      "sum": "1"
+    },
+    {
+      "dimension": 7,
+      "codimension": 0,
+      "sum": "1"
+    },
+    {
+      "dimension": 7,
+      "codimension": 1,
+      "sum": "4"
+    },
+    {
+      "dimension": 7,
+      "codimension": 2,
+      "sum": "23/3"
+    },
+    {
+      "dimension": 7,
+      "codimension": 3,
+      "sum": "28/3"
+    },
+    {
+      "dimension": 7,
+      "codimension": 4,
+      "sum": "967/120"
+    },
+    {
+      "dimension": 7,
+      "codimension": 5,
+      "sum": "469/90"
+    },
+    {
+      "dimension": 7,
+      "codimension": 6,
+      "sum": "363/140"
+    },
+    {
+      "dimension": 7,
+      "codimension": 7,
+      "sum": "1"
+    },
+    {
+      "dimension": 8,
+      "codimension": 0,
+      "sum": "1"
+    },
+    {
+      "dimension": 8,
+      "codimension": 1,
+      "sum": "9/2"
+    },
+    {
+      "dimension": 8,
+      "codimension": 2,
+      "sum": "39/4"
+    },
+    {
+      "dimension": 8,
+      "codimension": 3,
+      "sum": "27/2"
+    },
+    {
+      "dimension": 8,
+      "codimension": 4,
+      "sum": "1069/80"
+    },
+    {
+      "dimension": 8,
+      "codimension": 5,
+      "sum": "801/80"
+    },
+    {
+      "dimension": 8,
+      "codimension": 6,
+      "sum": "29531/5040"
+    },
+    {
+      "dimension": 8,
+      "codimension": 7,
+      "sum": "761/280"
+    },
+    {
+      "dimension": 8,
+      "codimension": 8,
+      "sum": "1"
+    },
+    {
+      "dimension": 9,
+      "codimension": 0,
+      "sum": "1"
+    },
+    {
+      "dimension": 9,
+      "codimension": 1,
+      "sum": "5"
+    },
+    {
+      "dimension": 9,
+      "codimension": 2,
+      "sum": "145/12"
+    },
+    {
+      "dimension": 9,
+      "codimension": 3,
+      "sum": "75/4"
+    },
+    {
+      "dimension": 9,
+      "codimension": 4,
+      "sum": "3013/144"
+    },
+    {
+      "dimension": 9,
+      "codimension": 5,
+      "sum": "285/16"
+    },
+    {
+      "dimension": 9,
+      "codimension": 6,
+      "sum": "4523/378"
+    },
+    {
+      "dimension": 9,
+      "codimension": 7,
+      "sum": "6515/1008"
+    },
+    {
+      "dimension": 9,
+      "codimension": 8,
+      "sum": "7129/2520"
+    },
+    {
+      "dimension": 9,
+      "codimension": 9,
+      "sum": "1"
+    },
+    {
+      "dimension": 10,
+      "codimension": 0,
+      "sum": "1"
+    },
+    {
+      "dimension": 10,
+      "codimension": 1,
+      "sum": "11/2"
+    },
+    {
+      "dimension": 10,
+      "codimension": 2,
+      "sum": "44/3"
+    },
+    {
+      "dimension": 10,
+      "codimension": 3,
+      "sum": "605/24"
+    },
+    {
+      "dimension": 10,
+      "codimension": 4,
+      "sum": "7513/240"
+    },
+    {
+      "dimension": 10,
+      "codimension": 5,
+      "sum": "8591/288"
+    },
+    {
+      "dimension": 10,
+      "codimension": 6,
+      "sum": "341693/15120"
+    },
+    {
+      "dimension": 10,
+      "codimension": 7,
+      "sum": "84095/6048"
+    },
+    {
+      "dimension": 10,
+      "codimension": 8,
+      "sum": "177133/25200"
+    },
+    {
+      "dimension": 10,
+      "codimension": 9,
+      "sum": "7381/2520"
+    },
+    {
+      "dimension": 10,
+      "codimension": 10,
+      "sum": "1"
+    },
+    {
+      "dimension": 11,
+      "codimension": 0,
+      "sum": "1"
+    },
+    {
+      "dimension": 11,
+      "codimension": 1,
+      "sum": "6"
+    },
+    {
+      "dimension": 11,
+      "codimension": 2,
+      "sum": "35/2"
+    },
+    {
+      "dimension": 11,
+      "codimension": 3,
+      "sum": "33"
+    },
+    {
+      "dimension": 11,
+      "codimension": 4,
+      "sum": "10831/240"
+    },
+    {
+      "dimension": 11,
+      "codimension": 5,
+      "sum": "1903/40"
+    },
+    {
+      "dimension": 11,
+      "codimension": 6,
+      "sum": "242537/6048"
+    },
+    {
+      "dimension": 11,
+      "codimension": 7,
+      "sum": "139381/5040"
+    },
+    {
+      "dimension": 11,
+      "codimension": 8,
+      "sum": "341747/21600"
+    },
+    {
+      "dimension": 11,
+      "codimension": 9,
+      "sum": "190553/25200"
+    },
+    {
+      "dimension": 11,
+      "codimension": 10,
+      "sum": "83711/27720"
+    },
+    {
+      "dimension": 11,
+      "codimension": 11,
+      "sum": "1"
+    },
+    {
+      "dimension": 12,
+      "codimension": 0,
+      "sum": "1"
+    },
+    {
+      "dimension": 12,
+      "codimension": 1,
+      "sum": "13/2"
+    },
+    {
+      "dimension": 12,
+      "codimension": 2,
+      "sum": "247/12"
+    },
+    {
+      "dimension": 12,
+      "codimension": 3,
+      "sum": "169/4"
+    },
+    {
+      "dimension": 12,
+      "codimension": 4,
+      "sum": "22711/360"
+    },
+    {
+      "dimension": 12,
+      "codimension": 5,
+      "sum": "11661/160"
+    },
+    {
+      "dimension": 12,
+      "codimension": 6,
+      "sum": "4090021/60480"
+    },
+    {
+      "dimension": 12,
+      "codimension": 7,
+      "sum": "624455/12096"
+    },
+    {
+      "dimension": 12,
+      "codimension": 8,
+      "sum": "14936519/453600"
+    },
+    {
+      "dimension": 12,
+      "codimension": 9,
+      "sum": "5356117/302400"
+    },
+    {
+      "dimension": 12,
+      "codimension": 10,
+      "sum": "1676701/207900"
+    },
+    {
+      "dimension": 12,
+      "codimension": 11,
+      "sum": "86021/27720"
+    },
+    {
+      "dimension": 12,
+      "codimension": 12,
+      "sum": "1"
+    }
+  ],
+  "scope": "Complete original-parent controls via unchanged A55 bridge; new operation/Jensen obstructions only. General initial bound and KTT stay open. Skeleton formula does not certify original-hive realization.",
+  "source_sha256": "c6a8a1e9a3fa49b26c5c0b2c9f495ac91c568de632474b86d1b813c48542ce68",
+  "seconds": 0.015203375000000005
+}

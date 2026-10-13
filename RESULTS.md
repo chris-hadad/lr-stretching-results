@@ -24,6 +24,24 @@ Start with the [rank-six paper](papers/rank-six/README.md) or jump to a category
 | [All actual cubics through rank seven](results/families-and-obstructions/README.md#positivity-at-arbitrary-size) | Every whole LR polynomial of ordinary rank at most seven and actual degree at most three is coefficient-nonnegative at every size | Complete 8,520-witness and orbit certificates included; distinct from the coordinate-bound sufficient classes. |
 | [Boundary-coordinate classes](results/structural-positivity/README.md#normal-corrections-and-boundary-classes) | At arbitrary size: rank at most seven with the specified coordinate bound at most four, and rank at most six with bound at most five after tensor symmetry | Complete boundary-aware finite certificates. These sufficient classes do not exhaust whole rank six or every actual quartic/quintic. |
 
+## Later complete families and operations, 26 September–12 October 2026
+
+| Result | Established complete scope | Proof and reproduction boundary |
+| --- | --- | --- |
+| [Every two-row-inner family](results/two-row-inner/README.md) | Either inner partition length<=2, arbitrary outer rank/area; strict nonpoint coefficients through actual degree; complete content-majorization cover | Self-contained character/cycle/parity proof and complete trusted finite controls |
+| [All-size transportation c1](results/transportation-developments/README.md#the-full-linear-coefficient-at-every-table-size) | Entire double-cut linear coefficient at every active p,N>=2; all higher-class first jets zero at their original offsets | Complete Pro029/A006 primitive/wall proof and credited two-class dependency; no arbitrary higher signs |
+| [Complete C22 bridge](results/transportation-developments/README.md#c22-is-a-full-table-with-every-budget-and-cap-retained) | Every cap/budget pattern has paid c1; all coefficients at <=3 positive caps or the one-positive-budget boundary | Full table inverse, saturated lattice, true degree and existing 4-by-5/two-row-inner premises |
+| [Triangle-free / one triangle](results/transportation-developments/README.md#selected-width-overlap-families-at-arbitrary-column-count) | Three positive rows, specified 0<A<=B, every positive column>=A; triangle-free at arbitrary count, or exactly one triangle plus isolates N>=4; strict through actual degree | Every singleton/pair/triple and high tail kept; full A73-A79 chain and fixed certificates |
+| [Low/interacting overlap](results/overlap-families/README.md) | Exact FR044/A66/A71 width/overlap floors and ordered degree strata; paid effective-cap operations | Full proofs and interacting certificate; complete absorber/A71 numerical closure included |
+| [Root-square operations](results/root-square/README.md) | Height u>=max(3,m-2)s; separate fixed-u=2s raw-index law at m>=3; degree 2m+1, gains with their true degrees | Complete moments, masks, selected finite bridge and symbolic uniform tail; exceptional negative E gain paid by J |
+| [Four-letter original cover](results/four-letter/README.md) | m>=3,s>0,u>=3s; physical rank m+4, degree 3m+3; entire strict baseline and height gain | Full original chart, all ballot families/capacities, two arithmetic representations and complete finite/free-variable certificates |
+
+The [dated record](results/research-progress/README.md) includes the restricted
+c2 results, stable quotient, affine/tournament constructions, complete normal
+components and compensated method obstructions. Its native research entries remain
+qualified source reports; [formalization](results/rank-six-positivity/FORMALIZATION.md)
+still stops short of the whole rank-six theorem.
+
 ## Positive families at arbitrary size
 
 | Result | Established scope | Verification and limit |
@@ -36,7 +54,7 @@ Start with the [rank-six paper](papers/rank-six/README.md) or jump to a category
 | [Gap-three and two-row families](results/structural-positivity/README.md#whole-families) | Complete specified gap-three quadrant/cone; arbitrary positive weights in the slope-two and slope-three two-row channels | Whole-count identities and sign proofs, with finite numerical premises checked. General gap three and higher slopes remain open. |
 | [Two-bank families](results/structural-positivity/README.md#whole-families) | All ordinary coefficients for the g=1, h=0 family at every m≥2; a positive linear coefficient throughout the full stated capped g domain | Exact whole formulas including walls. Other gaps and h>0 retain their open coefficient ranges. |
 | [Transportation family and cone](results/structural-positivity/README.md#whole-families) | Every integer-h endpoint family is positive; the complete homogeneous nonnegative-parameter cone has c1≥5279u/360 and positive c16,c17,c18 | Seven endpoint polynomials and unused checks verified. Middle coefficients c2,...,c15 at noninteger v/u remain open. |
-| [Uniform central two-row tensors](results/families-and-obstructions/README.md#positivity-at-arbitrary-size) | All n≥3, g≥1 with ng even, at the exact displayed ordinary triple | Symbolic all-parameter proof, both parities, independent finite controls; unequal weights require separate arguments. |
+| [Uniform central two-row tensors](results/families-and-obstructions/README.md#positivity-at-arbitrary-size) | All n≥3, g≥1 with ng even, at the exact displayed ordinary triple | Symbolic all-parameter proof, both parities and independent finite controls. The later [FR044 theorem](results/two-row-inner/README.md) covers unequal feasible two-row-inner originals with complete degree/point classification. |
 | [Matching layers and strict gaps one/two](results/families-and-obstructions/README.md#positivity-at-arbitrary-size) | Unbounded matching layers through min(q,r)=5; complete specified strict gap-one and gap-two strata | Exact shifts, full tableau identities and all 637 gap-two profiles. Larger matching layers and general gap three remain open. |
 | [Rank-six Horn release](results/families-and-obstructions/README.md#positivity-at-arbitrary-size) | The complete displayed source–sink boundary family for 0≤s≤2M | Exact bivariate certificate with independent determining values and unused checks; not all rank-six triples. |
 | [Clipped rank-eight region](results/families-and-obstructions/README.md#a-complete-rank-eight-positive-region) | The entire specified LR family across 0≤S≤2M | Complete tableau/lattice map and 253-term clipped-region polynomial; no whole-rank-eight assertion. |
@@ -123,3 +141,6 @@ The whole-rank-six result and its reusable mechanisms are the present preprint
 focus. The finite-box theorem and the other families remain accessible as
 independent supporting work. Journal suitability and novelty require external
 assessment; neither follows from a benchmark consequence or internal review.
+
+
+The [A83 complete low-overlap generator and three-factor boundary](results/overlap-families/README.md#proposed-complete-original-generators-a83) retain their exact union, auxiliary and actual-gain scopes, accepted at the actual internal scientific/public review gate.

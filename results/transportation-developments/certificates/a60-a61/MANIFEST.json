@@ -1,0 +1,120 @@
+{
+  "schema": "a60-a61-public-complete-input-manifest/v1",
+  "files": [
+    {
+      "path": "results/transportation-developments/certificates/a60-a61/PROVENANCE.json",
+      "bytes": 13470,
+      "sha256": "05fdec78bbaa3b62cf198bc72b1c15ac5e93de44fa846bd30f5ed35e25ff271e"
+    },
+    {
+      "path": "results/transportation-developments/certificates/a60-a61/README.md",
+      "bytes": 3668,
+      "sha256": "7db011771e382e21a730967523f06c3167eb84b3c8ff3e9e5576cf54cb826d2f"
+    },
+    {
+      "path": "results/transportation-developments/certificates/a60-a61/a60_certificate.py",
+      "bytes": 5312,
+      "sha256": "ced6a15dbaf4a7b6c57691b84f4a4b215b332d86d1001a372c58d20a0957b057"
+    },
+    {
+      "path": "results/transportation-developments/certificates/a60-a61/a61_balancing.py",
+      "bytes": 2357,
+      "sha256": "3b5b2367fc8c931340c5c999b93c3ddf264a22ca9443ac809a175495f64adc8b"
+    },
+    {
+      "path": "results/transportation-developments/certificates/a60-a61/a61_chambers.py",
+      "bytes": 3714,
+      "sha256": "431a82469ef2f2ae79d26046fd89b67b247115ae73832916aac5e2e83d0318fa"
+    },
+    {
+      "path": "results/transportation-developments/certificates/a60-a61/a61_map_audit.py",
+      "bytes": 1795,
+      "sha256": "06c864cc47ad9764caf7ad103188243d6e96c5e8307711376242047914e31946"
+    },
+    {
+      "path": "results/transportation-developments/certificates/a60-a61/balancing-probe-v1.json",
+      "bytes": 513797,
+      "sha256": "ceeedadf13b9017a78c4a7833b64edae9d87e03e49d093b5d28175e78861daee"
+    },
+    {
+      "path": "results/transportation-developments/certificates/a60-a61/chambers-v1.json",
+      "bytes": 309182,
+      "sha256": "75f69ffa6b81f62403823a750baa02a613da8c383fff57fbed94672ce5bb9826"
+    },
+    {
+      "path": "results/transportation-developments/certificates/a60-a61/check_certificates.py",
+      "bytes": 12484,
+      "sha256": "b29f2b3cf56a563c7e24f9b5ef70ceb6dd985311262a25ad953918a90a8db406"
+    },
+    {
+      "path": "results/transportation-developments/certificates/a60-a61/historical-chamber-maps.json",
+      "bytes": 315830,
+      "sha256": "a32606979a8dd49a8e3a6c628bb61287dcf093b2f183f7820a2da16942360e2c"
+    },
+    {
+      "path": "results/transportation-developments/certificates/a60-a61/k3-certificate-v1.json",
+      "bytes": 54381,
+      "sha256": "6c09bc508e61b8590ffc860e2a93dcea78be9e85453521b38e06f413e6dd5fca"
+    },
+    {
+      "path": "results/transportation-developments/certificates/a60-a61/polynomial_arithmetic.py",
+      "bytes": 1207,
+      "sha256": "11ed64d95220dde41c9cfefde89ebe616a6a46210a0ea6cea7f84ae9acb1ff8f"
+    },
+    {
+      "path": "results/transportation-developments/proofs/A58-FIRST-WALL-PROOF.md",
+      "bytes": 9542,
+      "sha256": "27f4f181aacf59fbd8735b9034dce590a34af0f84ef1a6a7b3651fd778019fef",
+      "curation_history": [
+        {
+          "previous_included_sha256": "c7284ebe853d765b91d0b121f5ac48441b98fdcd5127ce1615ae4cfd210c39ac",
+          "previous_included_bytes": 8901,
+          "reason": "Exact R2 current public bytes; mathematical data/code remain unchanged."
+        },
+        {
+          "previous_included_sha256": "9a7a6568a911c331ed7c9645c5944af7af0f521013563ddfbe2a7b5f81891eac",
+          "previous_included_bytes": 9540,
+          "reason": "Only complete-expression code delimiters restored after real rendered-link failure."
+        }
+      ]
+    },
+    {
+      "path": "results/transportation-developments/proofs/A59-BALANCED-CAPS-PROOF.md",
+      "bytes": 8449,
+      "sha256": "35ff8aacfe28d29ad9f45b36c86abce8c19e61620ac4e6ca1d7f1c32c06c676c",
+      "curation_history": [
+        {
+          "previous_included_sha256": "26304de707fc70202d2a844b88463e1eb8aa6d924f93316c2c4578b84242d934",
+          "previous_included_bytes": 7866,
+          "reason": "Exact R2 current public bytes; mathematical data/code remain unchanged."
+        }
+      ]
+    },
+    {
+      "path": "results/transportation-developments/proofs/A60-K3-RESERVE-PROOF.md",
+      "bytes": 13873,
+      "sha256": "886e12654262779f4475e59a05215ec5c8356202d6e160bd33af7e26ff17db69",
+      "curation_history": [
+        {
+          "previous_included_sha256": "0577b5c076ecf140177fab993ba8b929c59f0220f6ef24bd77c90a44d00f538f",
+          "previous_included_bytes": 13373,
+          "reason": "Exact R2 current public bytes; mathematical data/code remain unchanged."
+        }
+      ]
+    },
+    {
+      "path": "results/transportation-developments/proofs/A61-UNIFORM-PROOF.md",
+      "bytes": 10769,
+      "sha256": "42c35b9acc3c520fb8467e3166d2609267d548b65591938c5e5800b0b91e9ecb",
+      "curation_history": [
+        {
+          "previous_included_sha256": "6cecfbf44fc82b227c168ac6db81f56b279f37715490ef2699d8542ad751a6cc",
+          "previous_included_bytes": 10168,
+          "reason": "Exact R2 current public bytes; mathematical data/code remain unchanged."
+        }
+      ]
+    }
+  ],
+  "self_excluded": "results/transportation-developments/certificates/a60-a61/MANIFEST.json",
+  "scope": "Forty complete A60 base records/31 applicable derivatives and full five/fifteen A61 closures, written mathematical dependencies and complete historical independent coefficient maps; no new LR counts."
+}

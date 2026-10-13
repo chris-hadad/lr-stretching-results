@@ -35,14 +35,11 @@ affected incidence at each extension. The source collection summarized above
 covers its explicit n<=12 ambient theorem. The newer
 [rank-six c4/c5 certificates](../results/rank-six-coefficients/README.md) provide
 a complete further coefficient advance and a practical independent verifier.
-Their remaining rank-six target is c1,c2,c3 at actual degrees six through ten.
+The later whole-rank-six theorem pays c1,c2,c3 at every actual degree; these earlier fields retain their standalone scope.
 A negative local weight or failed sufficient correction still does not by
 itself give a negative entire LR polynomial.
 
-Whole-rank-six positivity might instead follow from uniform interior bounds
-or a complete chamber description. The finite-box proof provides concrete
-sign-completion inequalities to test for such an extension, but its bounded
-coverage does not supply unbounded parameter coverage.
+The whole-rank-six result follows from complete normal-cycle compensation with realizability pruning. Uniform interior bounds and chamber descriptions remain useful questions above that rank; the finite box alone supplies no unrestricted parameter coverage.
 
 For counterexample constructions, unclosed rational transport directions and
 larger matching flanks give complete objects with specific missing sign
@@ -65,3 +62,23 @@ supports carrying actual edge weight, while excluded negative supports have
 zero weight. The family results above retain their standalone certificates;
 rank seven and unrestricted KTT remain open. Earlier descriptions of the
 then-open rank-six target are preserved as dated context.
+
+## Complete original operations, 12 October 2026
+
+[The new source-linked family packages](../results/research-progress/README.md)
+connect several stronger mechanisms. Two-row marked-cycle comparison pays a
+terminating content-majorization cover. All-rank transportation wall induction
+makes the entire higher-class first jet zero; the C22 inverse transfers complete
+counts to full tables. Threshold-overlap families retain every supported
+intersection and pay high tails jointly, extending triangle-free and one-triangle
+families to arbitrary column counts at their specified width floor.
+
+Root-square height and fixed-wall raw index are different operations on complete
+originals. Their adverse correction/complement coefficients are paid by the
+same coefficient of the full parent. The four-letter chart retains all ballot
+families and coupled capacities, with an actual paid u=3s baseline and an exact
+height gain. Full finite bases, rational majorants and consecutive-factor
+recurrences supply arbitrary-index conclusions. Older bounded panels and
+unsigned normal components remain supporting work with explicit complements.
+This suggests a paper centered on complete original generators and compensation,
+while keeping whole rank seven and unrestricted KTT as the genuine open targets.

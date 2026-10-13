@@ -1,0 +1,48 @@
+{
+  "schema": "a83-overlap-all-index-denominator-payment/v1",
+  "definitions": {
+    "n": "arbitrary integer n >= 2",
+    "r": "integer 0 <= r <= n",
+    "alpha": "nonnegative integers l,i,j",
+    "sigma": "l+i+j",
+    "support": "sigma <= D-1",
+    "I1": "l+j <= r-1",
+    "beta": "1-I1-I2"
+  },
+  "onezero": {
+    "D": "n+r+1",
+    "I2": "l+i <= r",
+    "whole_coefficient": "beta/(D-sigma) + I1/(n+1-i) [i<=n] + I2/(n-j) [j<=n-1]",
+    "adverse_case": "beta=-1 iff I1=I2=1",
+    "partner_support_proof": "I2 implies i<=r<=n; I1 implies j<=r-1<=n-1. Both positive denominators are actually present.",
+    "identities": [
+      "(D-sigma)-(n+1-i)=r-l-j",
+      "(D-sigma)-(n-j)=r+1-l-i"
+    ],
+    "strict_lower_bounds": [
+      "r-l-j >= 1 by I1",
+      "r+1-l-i >= 1 by I2"
+    ],
+    "conclusion": "Each partner separately exceeds 1/(D-sigma); the complete coefficient keeps both. At r=0, I1 never occurs."
+  },
+  "balanced": {
+    "D": "n+r",
+    "I2": "l+i <= r-1",
+    "whole_coefficient": "beta/(D-sigma) + I1/(n-i) [i<=n-1] + I2/(n-j) [j<=n-1]",
+    "adverse_case": "beta=-1 iff I1=I2=1",
+    "partner_support_proof": "I2 implies i<=r-1<=n-1; I1 implies j<=r-1<=n-1. Both positive denominators are actually present.",
+    "identities": [
+      "(D-sigma)-(n-i)=r-l-j",
+      "(D-sigma)-(n-j)=r-l-i"
+    ],
+    "strict_lower_bounds": [
+      "r-l-j >= 1 by I1",
+      "r-l-i >= 1 by I2"
+    ],
+    "conclusion": "Each partner separately exceeds 1/(D-sigma); the complete coefficient keeps both. At r=0 neither indicator occurs."
+  },
+  "nonadverse_case": "beta>=0 has only nonnegative supported terms; outside total support the whole coefficient is zero. A zero denominator is never evaluated.",
+  "derivative": "-partial_e+partial_x+partial_y with fixed physical A,T1,T2; physical grade adds t",
+  "finite_records": "results/raw/SLR-ASTRA083-20261012-001/verification/overlap/v1-pre-validating-001/FIELDS.json details include every adverse n2..6,r0..n coefficient and its exact denominators.",
+  "unbounded_quantifier": "The displayed algebraic identities and integer indicator hypotheses, not any finite grid."
+}

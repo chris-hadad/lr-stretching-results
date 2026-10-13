@@ -1,0 +1,570 @@
+{
+  "schema": "a81-complete-original-kernel-linkage/v1",
+  "four_symbol_character_sha256": "fd2a67f712d585427a22ae8139b19197701d978c799bc73fac98426beb368db3",
+  "moment_alphas": {
+    "1": {
+      "j": 1,
+      "n": "m - 1",
+      "N_j": "3*S - 1",
+      "full_P_j": {
+        "numerator": "(-S + q)*(-3*S - m + q + 1)",
+        "denominator": "m",
+        "expanded_numerator": "3*S**2 + S*m - 4*S*q - S - m*q + q**2 + q",
+        "expanded_denominator": "m"
+      },
+      "Delta_k_P_at0": [
+        {
+          "numerator": "S*(3*S + m - 1)",
+          "denominator": "m",
+          "expanded_numerator": "3*S**2 + S*m - S",
+          "expanded_denominator": "m"
+        },
+        {
+          "numerator": "-4*S - m + 2",
+          "denominator": "m",
+          "expanded_numerator": "-4*S - m + 2",
+          "expanded_denominator": "m"
+        },
+        {
+          "numerator": "2",
+          "denominator": "m",
+          "expanded_numerator": "2",
+          "expanded_denominator": "m"
+        }
+      ],
+      "all_factorial_moment_terms": [
+        {
+          "numerator": "S*(3*S + m - 1)",
+          "denominator": "m",
+          "expanded_numerator": "3*S**2 + S*m - S",
+          "expanded_denominator": "m"
+        },
+        {
+          "numerator": "-(3*S - 1)*(4*S + m - 2)",
+          "denominator": "2*m",
+          "expanded_numerator": "-12*S**2 - 3*S*m + 10*S + m - 2",
+          "expanded_denominator": "2*m"
+        },
+        {
+          "numerator": "(3*S - 2)*(3*S - 1)*(m + 1)",
+          "denominator": "2*m*(2*m + 1)",
+          "expanded_numerator": "9*S**2*m + 9*S**2 - 9*S*m - 9*S + 2*m + 2",
+          "expanded_denominator": "4*m**2 + 2*m"
+        }
+      ],
+      "alpha": {
+        "numerator": "-(3*S + 2*m - 1)*(S*m - S - m)",
+        "denominator": "2*m*(2*m + 1)",
+        "expanded_numerator": "-3*S**2*m + 3*S**2 - 2*S*m**2 + 6*S*m - S + 2*m**2 - m",
+        "expanded_denominator": "4*m**2 + 2*m"
+      },
+      "newton_residual": "0",
+      "term_count": 3
+    },
+    "2": {
+      "j": 2,
+      "n": "m - 2",
+      "N_j": "2*S - 2",
+      "full_P_j": {
+        "numerator": "(-S + q)*(-S + q - 1)*(-2*S - m + q + 2)*(-2*S - m + q + 3)",
+        "denominator": "2*m*(m - 1)",
+        "expanded_numerator": "4*S**4 + 4*S**3*m - 12*S**3*q - 6*S**3 + S**2*m**2 - 10*S**2*m*q - S**2*m + 13*S**2*q**2 + 17*S**2*q - 4*S**2 - 2*S*m**2*q + S*m**2 + 8*S*m*q**2 + 4*S*m*q - 5*S*m - 6*S*q**3 - 15*S*q**2 + 3*S*q + 6*S + m**2*q**2 - m**2*q - 2*m*q**3 - 3*m*q**2 + 5*m*q + q**4 + 4*q**3 + q**2 - 6*q",
+        "expanded_denominator": "2*m**2 - 2*m"
+      },
+      "Delta_k_P_at0": [
+        {
+          "numerator": "S*(S + 1)*(2*S + m - 3)*(2*S + m - 2)",
+          "denominator": "2*m*(m - 1)",
+          "expanded_numerator": "4*S**4 + 4*S**3*m - 6*S**3 + S**2*m**2 - S**2*m - 4*S**2 + S*m**2 - 5*S*m + 6*S",
+          "expanded_denominator": "2*m**2 - 2*m"
+        },
+        {
+          "numerator": "-S*(2*S + m - 3)*(3*S + m - 3)",
+          "denominator": "m*(m - 1)",
+          "expanded_numerator": "-6*S**3 - 5*S**2*m + 15*S**2 - S*m**2 + 6*S*m - 9*S",
+          "expanded_denominator": "m**2 - m"
+        },
+        {
+          "numerator": "13*S**2 + 8*S*m - 33*S + m**2 - 9*m + 20",
+          "denominator": "m*(m - 1)",
+          "expanded_numerator": "13*S**2 + 8*S*m - 33*S + m**2 - 9*m + 20",
+          "expanded_denominator": "m**2 - m"
+        },
+        {
+          "numerator": "-6*(3*S + m - 5)",
+          "denominator": "m*(m - 1)",
+          "expanded_numerator": "-18*S - 6*m + 30",
+          "expanded_denominator": "m**2 - m"
+        },
+        {
+          "numerator": "12",
+          "denominator": "m*(m - 1)",
+          "expanded_numerator": "12",
+          "expanded_denominator": "m**2 - m"
+        }
+      ],
+      "all_factorial_moment_terms": [
+        {
+          "numerator": "S*(S + 1)*(2*S + m - 3)*(2*S + m - 2)",
+          "denominator": "2*m*(m - 1)",
+          "expanded_numerator": "4*S**4 + 4*S**3*m - 6*S**3 + S**2*m**2 - S**2*m - 4*S**2 + S*m**2 - 5*S*m + 6*S",
+          "expanded_denominator": "2*m**2 - 2*m"
+        },
+        {
+          "numerator": "-S*(S - 1)*(2*S + m - 3)*(3*S + m - 3)",
+          "denominator": "m*(m - 1)",
+          "expanded_numerator": "-6*S**4 - 5*S**3*m + 21*S**3 - S**2*m**2 + 11*S**2*m - 24*S**2 + S*m**2 - 6*S*m + 9*S",
+          "expanded_denominator": "m**2 - m"
+        },
+        {
+          "numerator": "(S - 1)*(2*S - 3)*(13*S**2 + 8*S*m - 33*S + m**2 - 9*m + 20)",
+          "denominator": "2*(m - 1)*(2*m - 1)",
+          "expanded_numerator": "26*S**4 + 16*S**3*m - 131*S**3 + 2*S**2*m**2 - 58*S**2*m + 244*S**2 - 5*S*m**2 + 69*S*m - 199*S + 3*m**2 - 27*m + 60",
+          "expanded_denominator": "4*m**2 - 6*m + 2"
+        },
+        {
+          "numerator": "-(S - 2)*(S - 1)*(2*S - 3)*(m + 1)*(3*S + m - 5)",
+          "denominator": "m*(m - 1)*(2*m - 1)",
+          "expanded_numerator": "-6*S**4*m - 6*S**4 - 2*S**3*m**2 + 35*S**3*m + 37*S**3 + 9*S**2*m**2 - 75*S**2*m - 84*S**2 - 13*S*m**2 + 70*S*m + 83*S + 6*m**2 - 24*m - 30",
+          "expanded_denominator": "2*m**3 - 3*m**2 + m"
+        },
+        {
+          "numerator": "(S - 2)*(S - 1)*(2*S - 5)*(2*S - 3)*(m + 1)*(m + 2)",
+          "denominator": "2*m*(m - 1)*(2*m - 1)*(2*m + 1)",
+          "expanded_numerator": "4*S**4*m**2 + 12*S**4*m + 8*S**4 - 28*S**3*m**2 - 84*S**3*m - 56*S**3 + 71*S**2*m**2 + 213*S**2*m + 142*S**2 - 77*S*m**2 - 231*S*m - 154*S + 30*m**2 + 90*m + 60",
+          "expanded_denominator": "8*m**4 - 8*m**3 - 2*m**2 + 2*m"
+        }
+      ],
+      "alpha": {
+        "numerator": "(S + m - 2)*(S + m - 1)*(2*S + 2*m - 3)*(S*m + 2*S + 3*m)",
+        "denominator": "2*m*(m - 1)*(2*m - 1)*(2*m + 1)",
+        "expanded_numerator": "2*S**4*m + 4*S**4 + 6*S**3*m**2 + 9*S**3*m - 18*S**3 + 6*S**2*m**3 + 12*S**2*m**2 - 50*S**2*m + 26*S**2 + 2*S*m**4 + 13*S*m**3 - 59*S*m**2 + 59*S*m - 12*S + 6*m**4 - 27*m**3 + 39*m**2 - 18*m",
+        "expanded_denominator": "8*m**4 - 8*m**3 - 2*m**2 + 2*m"
+      },
+      "newton_residual": "0",
+      "term_count": 5
+    },
+    "3": {
+      "j": 3,
+      "n": "m - 3",
+      "N_j": "S - 3",
+      "full_P_j": {
+        "numerator": "(-S + q)*(-S + q - 2)*(-S + q - 1)*(-S - m + q + 3)*(-S - m + q + 4)*(-S - m + q + 5)",
+        "denominator": "6*m*(m - 2)*(m - 1)",
+        "expanded_numerator": "S**6 + 3*S**5*m - 6*S**5*q - 9*S**5 + 3*S**4*m**2 - 15*S**4*m*q - 15*S**4*m + 15*S**4*q**2 + 45*S**4*q + 13*S**4 + S**3*m**3 - 12*S**3*m**2*q - 3*S**3*m**2 + 30*S**3*m*q**2 + 60*S**3*m*q - 19*S**3*m - 20*S**3*q**3 - 90*S**3*q**2 - 52*S**3*q + 57*S**3 - 3*S**2*m**3*q + 3*S**2*m**3 + 18*S**2*m**2*q**2 + 9*S**2*m**2*q - 30*S**2*m**2 - 30*S**2*m*q**3 - 90*S**2*m*q**2 + 57*S**2*m*q + 93*S**2*m + 15*S**2*q**4 + 90*S**2*q**3 + 78*S**2*q**2 - 171*S**2*q - 86*S**2 + 3*S*m**3*q**2 - 6*S*m**3*q + 2*S*m**3 - 12*S*m**2*q**3 - 9*S*m**2*q**2 + 60*S*m**2*q - 24*S*m**2 + 15*S*m*q**4 + 60*S*m*q**3 - 57*S*m*q**2 - 186*S*m*q + 94*S*m - 6*S*q**5 - 45*S*q**4 - 52*S*q**3 + 171*S*q**2 + 172*S*q - 120*S - m**3*q**3 + 3*m**3*q**2 - 2*m**3*q + 3*m**2*q**4 + 3*m**2*q**3 - 30*m**2*q**2 + 24*m**2*q - 3*m*q**5 - 15*m*q**4 + 19*m*q**3 + 93*m*q**2 - 94*m*q + q**6 + 9*q**5 + 13*q**4 - 57*q**3 - 86*q**2 + 120*q",
+        "expanded_denominator": "6*m**3 - 18*m**2 + 12*m"
+      },
+      "Delta_k_P_at0": [
+        {
+          "numerator": "S*(S + 1)*(S + 2)*(S + m - 5)*(S + m - 4)*(S + m - 3)",
+          "denominator": "6*m*(m - 2)*(m - 1)",
+          "expanded_numerator": "S**6 + 3*S**5*m - 9*S**5 + 3*S**4*m**2 - 15*S**4*m + 13*S**4 + S**3*m**3 - 3*S**3*m**2 - 19*S**3*m + 57*S**3 + 3*S**2*m**3 - 30*S**2*m**2 + 93*S**2*m - 86*S**2 + 2*S*m**3 - 24*S*m**2 + 94*S*m - 120*S",
+          "expanded_denominator": "6*m**3 - 18*m**2 + 12*m"
+        },
+        {
+          "numerator": "-S*(S + 1)*(S + m - 5)*(S + m - 4)*(2*S + m - 4)",
+          "denominator": "2*m*(m - 2)*(m - 1)",
+          "expanded_numerator": "-2*S**5 - 5*S**4*m + 20*S**4 - 4*S**3*m**2 + 30*S**3*m - 54*S**3 - S**2*m**3 + 9*S**2*m**2 - 21*S**2*m + 4*S**2 - S*m**3 + 13*S*m**2 - 56*S*m + 80*S",
+          "expanded_denominator": "2*m**3 - 6*m**2 + 4*m"
+        },
+        {
+          "numerator": "S*(S + m - 5)*(5*S**2 + 5*S*m - 25*S + m**2 - 10*m + 26)",
+          "denominator": "m*(m - 2)*(m - 1)",
+          "expanded_numerator": "5*S**4 + 10*S**3*m - 50*S**3 + 6*S**2*m**2 - 60*S**2*m + 151*S**2 + S*m**3 - 15*S*m**2 + 76*S*m - 130*S",
+          "expanded_denominator": "m**3 - 3*m**2 + 2*m"
+        },
+        {
+          "numerator": "-(2*S + m - 6)*(10*S**2 + 10*S*m - 60*S + m**2 - 15*m + 56)",
+          "denominator": "m*(m - 2)*(m - 1)",
+          "expanded_numerator": "-20*S**3 - 30*S**2*m + 180*S**2 - 12*S*m**2 + 150*S*m - 472*S - m**3 + 21*m**2 - 146*m + 336",
+          "expanded_denominator": "m**3 - 3*m**2 + 2*m"
+        },
+        {
+          "numerator": "12*(5*S**2 + 5*S*m - 35*S + m**2 - 15*m + 56)",
+          "denominator": "m*(m - 2)*(m - 1)",
+          "expanded_numerator": "60*S**2 + 60*S*m - 420*S + 12*m**2 - 180*m + 672",
+          "expanded_denominator": "m**3 - 3*m**2 + 2*m"
+        },
+        {
+          "numerator": "-60*(2*S + m - 8)",
+          "denominator": "m*(m - 2)*(m - 1)",
+          "expanded_numerator": "-120*S - 60*m + 480",
+          "expanded_denominator": "m**3 - 3*m**2 + 2*m"
+        },
+        {
+          "numerator": "120",
+          "denominator": "m*(m - 2)*(m - 1)",
+          "expanded_numerator": "120",
+          "expanded_denominator": "m**3 - 3*m**2 + 2*m"
+        }
+      ],
+      "all_factorial_moment_terms": [
+        {
+          "numerator": "S*(S + 1)*(S + 2)*(S + m - 5)*(S + m - 4)*(S + m - 3)",
+          "denominator": "6*m*(m - 2)*(m - 1)",
+          "expanded_numerator": "S**6 + 3*S**5*m - 9*S**5 + 3*S**4*m**2 - 15*S**4*m + 13*S**4 + S**3*m**3 - 3*S**3*m**2 - 19*S**3*m + 57*S**3 + 3*S**2*m**3 - 30*S**2*m**2 + 93*S**2*m - 86*S**2 + 2*S*m**3 - 24*S*m**2 + 94*S*m - 120*S",
+          "expanded_denominator": "6*m**3 - 18*m**2 + 12*m"
+        },
+        {
+          "numerator": "-S*(S - 3)*(S + 1)*(S + m - 5)*(S + m - 4)*(2*S + m - 4)",
+          "denominator": "4*m*(m - 2)*(m - 1)",
+          "expanded_numerator": "-2*S**6 - 5*S**5*m + 26*S**5 - 4*S**4*m**2 + 45*S**4*m - 114*S**4 - S**3*m**3 + 21*S**3*m**2 - 111*S**3*m + 166*S**3 + 2*S**2*m**3 - 14*S**2*m**2 + 7*S**2*m + 68*S**2 + 3*S*m**3 - 39*S*m**2 + 168*S*m - 240*S",
+          "expanded_denominator": "4*m**3 - 12*m**2 + 8*m"
+        },
+        {
+          "numerator": "S*(S - 4)*(S - 3)*(S + m - 5)*(5*S**2 + 5*S*m - 25*S + m**2 - 10*m + 26)",
+          "denominator": "4*m*(m - 2)*(2*m - 3)",
+          "expanded_numerator": "5*S**6 + 10*S**5*m - 85*S**5 + 6*S**4*m**2 - 130*S**4*m + 561*S**4 + S**3*m**3 - 57*S**3*m**2 + 616*S**3*m - 1787*S**3 - 7*S**2*m**3 + 177*S**2*m**2 - 1252*S**2*m + 2722*S**2 + 12*S*m**3 - 180*S*m**2 + 912*S*m - 1560*S",
+          "expanded_denominator": "8*m**3 - 28*m**2 + 24*m"
+        },
+        {
+          "numerator": "-(S - 5)*(S - 4)*(S - 3)*(2*S + m - 6)*(10*S**2 + 10*S*m - 60*S + m**2 - 15*m + 56)",
+          "denominator": "24*(m - 2)*(m - 1)*(2*m - 3)",
+          "expanded_numerator": "-20*S**6 - 30*S**5*m + 420*S**5 - 12*S**4*m**2 + 510*S**4*m - 3572*S**4 - S**3*m**3 + 165*S**3*m**2 - 3356*S**3*m + 15660*S**3 + 12*S**2*m**3 - 816*S**2*m**2 + 10602*S**2*m - 37016*S**2 - 47*S*m**3 + 1707*S*m**2 - 15862*S*m + 44112*S + 60*m**3 - 1260*m**2 + 8760*m - 20160",
+          "expanded_denominator": "48*m**3 - 216*m**2 + 312*m - 144"
+        },
+        {
+          "numerator": "(S - 6)*(S - 5)*(S - 4)*(S - 3)*(m + 1)*(5*S**2 + 5*S*m - 35*S + m**2 - 15*m + 56)",
+          "denominator": "8*(m - 2)*(m - 1)*(2*m - 3)*(2*m - 1)",
+          "expanded_numerator": "5*S**6*m + 5*S**6 + 5*S**5*m**2 - 120*S**5*m - 125*S**5 + S**4*m**3 - 104*S**4*m**2 + 1176*S**4*m + 1281*S**4 - 18*S**3*m**3 + 847*S**3*m**2 - 6018*S**3*m - 6883*S**3 + 119*S**2*m**3 - 3376*S**2*m**2 + 16939*S**2*m + 20434*S**2 - 342*S*m**3 + 6588*S*m**2 - 24822*S*m - 31752*S + 360*m**3 - 5040*m**2 + 14760*m + 20160",
+          "expanded_denominator": "32*m**4 - 160*m**3 + 280*m**2 - 200*m + 48"
+        },
+        {
+          "numerator": "-(S - 7)*(S - 6)*(S - 5)*(S - 4)*(S - 3)*(m + 1)*(m + 2)*(2*S + m - 8)",
+          "denominator": "16*m*(m - 2)*(m - 1)*(2*m - 3)*(2*m - 1)",
+          "expanded_numerator": "-2*S**6*m**2 - 6*S**6*m - 4*S**6 - S**5*m**3 + 55*S**5*m**2 + 172*S**5*m + 116*S**5 + 25*S**4*m**3 - 615*S**4*m**2 - 2020*S**4*m - 1380*S**4 - 245*S**3*m**3 + 3575*S**3*m**2 + 12440*S**3*m + 8620*S**3 + 1175*S**2*m**3 - 11383*S**2*m**2 - 42374*S**2*m - 29816*S**2 - 2754*S*m**3 + 18810*S*m**2 + 75708*S*m + 54144*S + 2520*m**3 - 12600*m**2 - 55440*m - 40320",
+          "expanded_denominator": "64*m**5 - 320*m**4 + 560*m**3 - 400*m**2 + 96*m"
+        },
+        {
+          "numerator": "(S - 8)*(S - 7)*(S - 6)*(S - 5)*(S - 4)*(S - 3)*(m + 1)*(m + 2)*(m + 3)",
+          "denominator": "48*m*(m - 2)*(m - 1)*(2*m - 3)*(2*m - 1)*(2*m + 1)",
+          "expanded_numerator": "S**6*m**3 + 6*S**6*m**2 + 11*S**6*m + 6*S**6 - 33*S**5*m**3 - 198*S**5*m**2 - 363*S**5*m - 198*S**5 + 445*S**4*m**3 + 2670*S**4*m**2 + 4895*S**4*m + 2670*S**4 - 3135*S**3*m**3 - 18810*S**3*m**2 - 34485*S**3*m - 18810*S**3 + 12154*S**2*m**3 + 72924*S**2*m**2 + 133694*S**2*m + 72924*S**2 - 24552*S*m**3 - 147312*S*m**2 - 270072*S*m - 147312*S + 20160*m**3 + 120960*m**2 + 221760*m + 120960",
+          "expanded_denominator": "384*m**6 - 1728*m**5 + 2400*m**4 - 720*m**3 - 624*m**2 + 288*m"
+        }
+      ],
+      "alpha": {
+        "numerator": "(S + 2*m - 7)*(S + 2*m - 6)*(S + 2*m - 5)*(S**3*m**3 + 6*S**3*m**2 + 11*S**3*m + 6*S**3 + 18*S**2*m**3 + 33*S**2*m**2 - 27*S**2*m - 42*S**2 + 77*S*m**3 - 93*S*m**2 - 98*S*m + 72*S + 60*m**3 - 180*m**2 + 120*m)",
+        "denominator": "48*m*(m - 2)*(m - 1)*(2*m - 3)*(2*m - 1)*(2*m + 1)",
+        "expanded_numerator": "S**6*m**3 + 6*S**6*m**2 + 11*S**6*m + 6*S**6 + 6*S**5*m**4 + 36*S**5*m**3 - 9*S**5*m**2 - 189*S**5*m - 150*S**5 + 12*S**4*m**5 + 108*S**4*m**4 - 242*S**4*m**3 - 927*S**4*m**2 + 881*S**4*m + 1470*S**4 + 8*S**3*m**6 + 192*S**3*m**5 - 568*S**3*m**4 - 2328*S**3*m**3 + 6539*S**3*m**2 + 1425*S**3*m - 7050*S**3 + 144*S**2*m**6 - 108*S**2*m**5 - 5040*S**2*m**4 + 16489*S**2*m**3 - 7755*S**2*m**2 - 21148*S**2*m + 16524*S**2 + 616*S*m**6 - 5568*S*m**5 + 15910*S*m**4 - 7620*S*m**3 - 34526*S*m**2 + 48828*S*m - 15120*S + 480*m**6 - 5760*m**5 + 26760*m**4 - 59760*m**3 + 63480*m**2 - 25200*m",
+        "expanded_denominator": "384*m**6 - 1728*m**5 + 2400*m**4 - 720*m**3 - 624*m**2 + 288*m"
+      },
+      "newton_residual": "0",
+      "term_count": 7
+    }
+  },
+  "solved_R_polynomials": {
+    "1": {
+      "R_j": {
+        "numerator": "5*S*m + S + 2*m**2 - 2*m*q + m",
+        "denominator": "2*m**2*(2*m + 1)",
+        "expanded_numerator": "5*S*m + S + 2*m**2 - 2*m*q + m",
+        "expanded_denominator": "4*m**3 + 2*m**2"
+      },
+      "solution_steps": [
+        {
+          "q_power": 1,
+          "operator_leading_coefficient": "-2*m - 1",
+          "solved_coefficient": {
+            "numerator": "-1",
+            "denominator": "m*(2*m + 1)",
+            "expanded_numerator": "-1",
+            "expanded_denominator": "2*m**2 + m"
+          }
+        },
+        {
+          "q_power": 0,
+          "operator_leading_coefficient": "-2*m",
+          "solved_coefficient": {
+            "numerator": "5*S*m + S + 2*m**2 + m",
+            "denominator": "2*m**2*(2*m + 1)",
+            "expanded_numerator": "5*S*m + S + 2*m**2 + m",
+            "expanded_denominator": "4*m**3 + 2*m**2"
+          }
+        }
+      ],
+      "whole_q_polynomial_residual": "0",
+      "beta_endpoint": {
+        "numerator": "S*(2*S + m - 1)*(3*S*m + S + 2*m**2 + m)",
+        "denominator": "2*m**2*(2*m + 1)",
+        "expanded_numerator": "6*S**3*m + 2*S**3 + 7*S**2*m**2 - S**2 + 2*S*m**3 - S*m**2 - S*m",
+        "expanded_denominator": "4*m**3 + 2*m**2"
+      },
+      "degree_q": 1
+    },
+    "2": {
+      "R_j": {
+        "numerator": "16*S**3*m**3 - 2*S**3*m**2 - 8*S**3*m + 16*S**2*m**4 - 32*S**2*m**3*q + 18*S**2*m**3 + 30*S**2*m**2*q - 45*S**2*m**2 + 6*S**2*m*q + 10*S**2*m - 4*S**2*q + 4*S**2 + 4*S*m**5 - 24*S*m**4*q + 30*S*m**4 + 20*S*m**3*q**2 + 22*S*m**3*q - 85*S*m**3 - 26*S*m**2*q**2 + 12*S*m**2*q + 50*S*m**2 + 4*S*m*q**2 - 12*S*m*q + 2*S*m + 2*S*q**2 + 2*S*q - 4*S - 4*m**5*q + 10*m**5 + 8*m**4*q**2 - 2*m**4*q - 33*m**4 - 4*m**3*q**3 - 14*m**3*q**2 + 26*m**3*q + 31*m**3 + 6*m**2*q**3 + 7*m**2*q**2 - 25*m**2*q - 6*m**2 - 2*m*q**3 - m*q**2 + 5*m*q - 2*m",
+        "denominator": "4*m**2*(m - 1)**2*(2*m - 1)*(2*m + 1)",
+        "expanded_numerator": "16*S**3*m**3 - 2*S**3*m**2 - 8*S**3*m + 16*S**2*m**4 - 32*S**2*m**3*q + 18*S**2*m**3 + 30*S**2*m**2*q - 45*S**2*m**2 + 6*S**2*m*q + 10*S**2*m - 4*S**2*q + 4*S**2 + 4*S*m**5 - 24*S*m**4*q + 30*S*m**4 + 20*S*m**3*q**2 + 22*S*m**3*q - 85*S*m**3 - 26*S*m**2*q**2 + 12*S*m**2*q + 50*S*m**2 + 4*S*m*q**2 - 12*S*m*q + 2*S*m + 2*S*q**2 + 2*S*q - 4*S - 4*m**5*q + 10*m**5 + 8*m**4*q**2 - 2*m**4*q - 33*m**4 - 4*m**3*q**3 - 14*m**3*q**2 + 26*m**3*q + 31*m**3 + 6*m**2*q**3 + 7*m**2*q**2 - 25*m**2*q - 6*m**2 - 2*m*q**3 - m*q**2 + 5*m*q - 2*m",
+        "expanded_denominator": "16*m**6 - 32*m**5 + 12*m**4 + 8*m**3 - 4*m**2"
+      },
+      "solution_steps": [
+        {
+          "q_power": 3,
+          "operator_leading_coefficient": "-2*m - 1",
+          "solved_coefficient": {
+            "numerator": "-1",
+            "denominator": "2*m*(m - 1)*(2*m + 1)",
+            "expanded_numerator": "-1",
+            "expanded_denominator": "4*m**3 - 2*m**2 - 2*m"
+          }
+        },
+        {
+          "q_power": 2,
+          "operator_leading_coefficient": "-2*m",
+          "solved_coefficient": {
+            "numerator": "10*S*m + 2*S + 4*m**2 - m",
+            "denominator": "4*m**2*(m - 1)*(2*m + 1)",
+            "expanded_numerator": "10*S*m + 2*S + 4*m**2 - m",
+            "expanded_denominator": "8*m**4 - 4*m**3 - 4*m**2"
+          }
+        },
+        {
+          "q_power": 1,
+          "operator_leading_coefficient": "1 - 2*m",
+          "solved_coefficient": {
+            "numerator": "-32*S**2*m**2 - 2*S**2*m + 4*S**2 - 24*S*m**3 - 2*S*m**2 + 10*S*m - 2*S - 4*m**4 - 6*m**3 + 20*m**2 - 5*m",
+            "denominator": "4*m**2*(m - 1)*(2*m - 1)*(2*m + 1)",
+            "expanded_numerator": "-32*S**2*m**2 - 2*S**2*m + 4*S**2 - 24*S*m**3 - 2*S*m**2 + 10*S*m - 2*S - 4*m**4 - 6*m**3 + 20*m**2 - 5*m",
+            "expanded_denominator": "16*m**5 - 16*m**4 - 4*m**3 + 4*m**2"
+          }
+        },
+        {
+          "q_power": 0,
+          "operator_leading_coefficient": "2 - 2*m",
+          "solved_coefficient": {
+            "numerator": "16*S**3*m**3 - 2*S**3*m**2 - 8*S**3*m + 16*S**2*m**4 + 18*S**2*m**3 - 45*S**2*m**2 + 10*S**2*m + 4*S**2 + 4*S*m**5 + 30*S*m**4 - 85*S*m**3 + 50*S*m**2 + 2*S*m - 4*S + 10*m**5 - 33*m**4 + 31*m**3 - 6*m**2 - 2*m",
+            "denominator": "4*m**2*(m - 1)**2*(2*m - 1)*(2*m + 1)",
+            "expanded_numerator": "16*S**3*m**3 - 2*S**3*m**2 - 8*S**3*m + 16*S**2*m**4 + 18*S**2*m**3 - 45*S**2*m**2 + 10*S**2*m + 4*S**2 + 4*S*m**5 + 30*S*m**4 - 85*S*m**3 + 50*S*m**2 + 2*S*m - 4*S + 10*m**5 - 33*m**4 + 31*m**3 - 6*m**2 - 2*m",
+            "expanded_denominator": "16*m**6 - 32*m**5 + 12*m**4 + 8*m**3 - 4*m**2"
+          }
+        }
+      ],
+      "whole_q_polynomial_residual": "0",
+      "beta_endpoint": {
+        "numerator": "S*(S + m - 3)*(S + m - 1)*(8*S**2*m**2 - 2*S**2 + 18*S*m**3 - 18*S*m**2 - S*m + 4*S + 10*m**4 - 23*m**3 + 8*m**2 + 2*m)",
+        "denominator": "4*m**2*(m - 1)**2*(2*m - 1)*(2*m + 1)",
+        "expanded_numerator": "8*S**5*m**2 - 2*S**5 + 34*S**4*m**3 - 50*S**4*m**2 - 5*S**4*m + 12*S**4 + 54*S**3*m**4 - 163*S**3*m**3 + 100*S**3*m**2 + 22*S**3*m - 22*S**3 + 38*S**2*m**5 - 176*S**2*m**4 + 233*S**2*m**3 - 74*S**2*m**2 - 27*S**2*m + 12*S**2 + 10*S*m**6 - 63*S*m**5 + 130*S*m**4 - 99*S*m**3 + 16*S*m**2 + 6*S*m",
+        "expanded_denominator": "16*m**6 - 32*m**5 + 12*m**4 + 8*m**3 - 4*m**2"
+      },
+      "degree_q": 3
+    }
+  },
+  "R1_source_text_comparison_residual": "0",
+  "beta1_beta2_complete_endpoint_residuals": [
+    "0",
+    "0"
+  ],
+  "total_mask_factorial_ratios": {
+    "1": [
+      {
+        "p": 0,
+        "factorial_ratio": {
+          "numerator": "3*S + 2*m - 1",
+          "denominator": "2*m",
+          "expanded_numerator": "3*S + 2*m - 1",
+          "expanded_denominator": "2*m"
+        },
+        "residual": "0"
+      },
+      {
+        "p": 1,
+        "factorial_ratio": {
+          "numerator": "(3*S - 1)*(3*S + 2*m - 1)",
+          "denominator": "2*m*(2*m + 1)",
+          "expanded_numerator": "9*S**2 + 6*S*m - 6*S - 2*m + 1",
+          "expanded_denominator": "4*m**2 + 2*m"
+        },
+        "residual": "0"
+      }
+    ],
+    "2": [
+      {
+        "p": 0,
+        "factorial_ratio": {
+          "numerator": "(S + m - 2)*(2*S + 2*m - 3)",
+          "denominator": "(m - 1)*(2*m - 1)",
+          "expanded_numerator": "2*S**2 + 4*S*m - 7*S + 2*m**2 - 7*m + 6",
+          "expanded_denominator": "2*m**2 - 3*m + 1"
+        },
+        "residual": "0"
+      },
+      {
+        "p": 1,
+        "factorial_ratio": {
+          "numerator": "(S - 1)*(S + m - 2)*(2*S + 2*m - 3)",
+          "denominator": "m*(m - 1)*(2*m - 1)",
+          "expanded_numerator": "2*S**3 + 4*S**2*m - 9*S**2 + 2*S*m**2 - 11*S*m + 13*S - 2*m**2 + 7*m - 6",
+          "expanded_denominator": "2*m**3 - 3*m**2 + m"
+        },
+        "residual": "0"
+      },
+      {
+        "p": 2,
+        "factorial_ratio": {
+          "numerator": "(S - 1)*(2*S - 3)*(S + m - 2)*(2*S + 2*m - 3)",
+          "denominator": "m*(m - 1)*(2*m - 1)*(2*m + 1)",
+          "expanded_numerator": "4*S**4 + 8*S**3*m - 24*S**3 + 4*S**2*m**2 - 34*S**2*m + 53*S**2 - 10*S*m**2 + 47*S*m - 51*S + 6*m**2 - 21*m + 18",
+          "expanded_denominator": "4*m**4 - 4*m**3 - m**2 + m"
+        },
+        "residual": "0"
+      }
+    ],
+    "3": [
+      {
+        "p": 0,
+        "factorial_ratio": {
+          "numerator": "(S + 2*m - 7)*(S + 2*m - 6)*(S + 2*m - 5)",
+          "denominator": "4*(m - 2)*(m - 1)*(2*m - 3)",
+          "expanded_numerator": "S**3 + 6*S**2*m - 18*S**2 + 12*S*m**2 - 72*S*m + 107*S + 8*m**3 - 72*m**2 + 214*m - 210",
+          "expanded_denominator": "8*m**3 - 36*m**2 + 52*m - 24"
+        },
+        "residual": "0"
+      },
+      {
+        "p": 1,
+        "factorial_ratio": {
+          "numerator": "(S - 3)*(S + 2*m - 7)*(S + 2*m - 6)*(S + 2*m - 5)",
+          "denominator": "4*(m - 2)*(m - 1)*(2*m - 3)*(2*m - 1)",
+          "expanded_numerator": "S**4 + 6*S**3*m - 21*S**3 + 12*S**2*m**2 - 90*S**2*m + 161*S**2 + 8*S*m**3 - 108*S*m**2 + 430*S*m - 531*S - 24*m**3 + 216*m**2 - 642*m + 630",
+          "expanded_denominator": "16*m**4 - 80*m**3 + 140*m**2 - 100*m + 24"
+        },
+        "residual": "0"
+      },
+      {
+        "p": 2,
+        "factorial_ratio": {
+          "numerator": "(S - 4)*(S - 3)*(S + 2*m - 7)*(S + 2*m - 6)*(S + 2*m - 5)",
+          "denominator": "8*m*(m - 2)*(m - 1)*(2*m - 3)*(2*m - 1)",
+          "expanded_numerator": "S**5 + 6*S**4*m - 25*S**4 + 12*S**3*m**2 - 114*S**3*m + 245*S**3 + 8*S**2*m**3 - 156*S**2*m**2 + 790*S**2*m - 1175*S**2 - 56*S*m**3 + 648*S*m**2 - 2362*S*m + 2754*S + 96*m**3 - 864*m**2 + 2568*m - 2520",
+          "expanded_denominator": "32*m**5 - 160*m**4 + 280*m**3 - 200*m**2 + 48*m"
+        },
+        "residual": "0"
+      },
+      {
+        "p": 3,
+        "factorial_ratio": {
+          "numerator": "(S - 5)*(S - 4)*(S - 3)*(S + 2*m - 7)*(S + 2*m - 6)*(S + 2*m - 5)",
+          "denominator": "8*m*(m - 2)*(m - 1)*(2*m - 3)*(2*m - 1)*(2*m + 1)",
+          "expanded_numerator": "S**6 + 6*S**5*m - 30*S**5 + 12*S**4*m**2 - 144*S**4*m + 370*S**4 + 8*S**3*m**3 - 216*S**3*m**2 + 1360*S**3*m - 2400*S**3 - 96*S**2*m**3 + 1428*S**2*m**2 - 6312*S**2*m + 8629*S**2 + 376*S*m**3 - 4104*S*m**2 + 14378*S*m - 16290*S - 480*m**3 + 4320*m**2 - 12840*m + 12600",
+          "expanded_denominator": "64*m**6 - 288*m**5 + 400*m**4 - 120*m**3 - 104*m**2 + 48*m"
+        },
+        "residual": "0"
+      }
+    ]
+  },
+  "bounded_gamma_ratios": {
+    "V1_to_V3positive": {
+      "numerator": "3*S",
+      "denominator": "2*m - 1",
+      "expanded_numerator": "3*S",
+      "expanded_denominator": "2*m - 1"
+    },
+    "V2_to_V2positive": {
+      "numerator": "S*(2*S - 1)",
+      "denominator": "(m - 2)*(2*m - 3)",
+      "expanded_numerator": "2*S**2 - S",
+      "expanded_denominator": "2*m**2 - 7*m + 6"
+    },
+    "V3_to_V1positive": {
+      "numerator": "S*(S - 2)*(S - 1)",
+      "denominator": "2*(m - 3)*(2*m - 7)*(2*m - 5)",
+      "expanded_numerator": "S**3 - 3*S**2 + 2*S",
+      "expanded_denominator": "8*m**3 - 72*m**2 + 214*m - 210"
+    },
+    "W1_to_W12positive": {
+      "numerator": "2*S",
+      "denominator": "m - 1",
+      "expanded_numerator": "2*S",
+      "expanded_denominator": "m - 1"
+    },
+    "Wcenter_to_W11positive": {
+      "numerator": "S**2*(S + m - 3)**2",
+      "denominator": "(m - 3)**2*(m - 2)**2",
+      "expanded_numerator": "S**4 + 2*S**3*m - 6*S**3 + S**2*m**2 - 6*S**2*m + 9*S**2",
+      "expanded_denominator": "m**4 - 10*m**3 + 37*m**2 - 60*m + 36"
+    },
+    "W2_to_W11positive": {
+      "numerator": "S*(S - 1)*(S + m - 3)*(S + m - 2)",
+      "denominator": "(m - 3)**2*(m - 2)**2",
+      "expanded_numerator": "S**4 + 2*S**3*m - 6*S**3 + S**2*m**2 - 7*S**2*m + 11*S**2 - S*m**2 + 5*S*m - 6*S",
+      "expanded_denominator": "m**4 - 10*m**3 + 37*m**2 - 60*m + 36"
+    },
+    "full_low_first_to_V2positive": {
+      "numerator": "2*S*(S + m)*(S + m - 2)*(S + m - 1)*(2*S + 2*m - 3)*(2*S + 2*m - 1)",
+      "denominator": "m*(m - 2)*(m - 1)*(2*m - 3)*(2*m - 1)*(2*m + 1)",
+      "expanded_numerator": "8*S**6 + 40*S**5*m - 40*S**5 + 80*S**4*m**2 - 160*S**4*m + 70*S**4 + 80*S**3*m**3 - 240*S**3*m**2 + 210*S**3*m - 50*S**3 + 40*S**2*m**4 - 160*S**2*m**3 + 210*S**2*m**2 - 100*S**2*m + 12*S**2 + 8*S*m**5 - 40*S*m**4 + 70*S*m**3 - 50*S*m**2 + 12*S*m",
+      "expanded_denominator": "8*m**6 - 36*m**5 + 50*m**4 - 15*m**3 - 13*m**2 + 6*m"
+    },
+    "full_low_second_to_V1positive": {
+      "numerator": "S*(S - 1)*(S + 2)*(S + 2*m - 7)*(S + 2*m - 6)*(S + 2*m - 5)*(S + 2*m - 4)*(S + 2*m - 3)*(S + 2*m - 2)",
+      "denominator": "16*(m - 3)*(m - 2)*(m - 1)*(2*m - 7)*(2*m - 5)*(2*m - 3)*(2*m - 1)",
+      "expanded_numerator": "S**9 + 12*S**8*m - 26*S**8 + 60*S**7*m**2 - 258*S**7*m + 266*S**7 + 160*S**6*m**3 - 1020*S**6*m**2 + 2066*S**6*m - 1316*S**6 + 240*S**5*m**4 - 2000*S**5*m**3 + 5880*S**5*m**2 - 7090*S**5*m + 2849*S**5 + 192*S**4*m**5 - 1920*S**4*m**4 + 6960*S**4*m**3 - 10740*S**4*m**2 + 5706*S**4*m + 406*S**4 + 64*S**3*m**6 - 672*S**3*m**5 + 2080*S**3*m**4 + 440*S**3*m**3 - 13724*S**3*m**2 + 24340*S**3*m - 13196*S**3 + 64*S**2*m**6 - 1248*S**2*m**5 + 9040*S**2*m**4 - 32200*S**2*m**3 + 60376*S**2*m**2 - 56888*S**2*m + 21096*S**2 - 128*S*m**6 + 1728*S*m**5 - 9440*S*m**4 + 26640*S*m**3 - 40832*S*m**2 + 32112*S*m - 10080*S",
+      "expanded_denominator": "256*m**7 - 3584*m**6 + 20608*m**5 - 62720*m**4 + 108304*m**3 - 105056*m**2 + 52272*m - 10080"
+    },
+    "full_low_third_to_V1positive": {
+      "numerator": "S*(S - 2)*(S - 1)*(S + 2*m - 7)*(S + 2*m - 6)*(S + 2*m - 5)*(S + 2*m - 4)*(S + 2*m - 3)*(S + 2*m - 2)",
+      "denominator": "16*(m - 3)*(m - 2)*(m - 1)*(2*m - 7)*(2*m - 5)*(2*m - 3)*(2*m - 1)*(2*m + 1)",
+      "expanded_numerator": "S**9 + 12*S**8*m - 30*S**8 + 60*S**7*m**2 - 306*S**7*m + 378*S**7 + 160*S**6*m**3 - 1260*S**6*m**2 + 3194*S**6*m - 2604*S**6 + 240*S**5*m**4 - 2640*S**5*m**3 + 10440*S**5*m**2 - 17610*S**5*m + 10689*S**5 + 192*S**4*m**5 - 2880*S**4*m**4 + 16240*S**4*m**3 - 43380*S**4*m**2 + 55106*S**4*m - 26670*S**4 + 64*S**3*m**6 - 1440*S**3*m**5 + 11680*S**3*m**4 - 45960*S**3*m**3 + 94516*S**3*m**2 - 97284*S**3*m + 39332*S**3 - 192*S**2*m**6 + 2976*S**2*m**5 - 18480*S**2*m**4 + 58840*S**2*m**3 - 101208*S**2*m**2 + 89000*S**2*m - 31176*S**2 + 128*S*m**6 - 1728*S*m**5 + 9440*S*m**4 - 26640*S*m**3 + 40832*S*m**2 - 32112*S*m + 10080*S",
+      "expanded_denominator": "512*m**8 - 6912*m**7 + 37632*m**6 - 104832*m**5 + 153888*m**4 - 101808*m**3 - 512*m**2 + 32112*m - 10080"
+    }
+  },
+  "six_parent_kernels_from_complete_normal_form": {
+    "l": {
+      "numerator": "3*(3*S + 2*m - 1)*(S*m - S - m)",
+      "denominator": "4*(2*m - 1)*(2*m + 1)",
+      "expanded_numerator": "9*S**2*m - 9*S**2 + 6*S*m**2 - 18*S*m + 3*S - 6*m**2 + 3*m",
+      "expanded_denominator": "16*m**2 - 4"
+    },
+    "p3": {
+      "numerator": "-3*S*(3*S + 2*m - 1)*(7*S*m + 5*S + 5*m + 2)",
+      "denominator": "4*(2*m - 1)*(2*m + 1)",
+      "expanded_numerator": "-63*S**3*m - 45*S**3 - 42*S**2*m**2 - 54*S**2*m - 3*S**2 - 30*S*m**2 + 3*S*m + 6*S",
+      "expanded_denominator": "16*m**2 - 4"
+    },
+    "p12": {
+      "numerator": "3*S**2*(2*S + m - 1)*(3*S*m + S + 2*m**2 + m)",
+      "denominator": "m*(m - 1)*(2*m + 1)",
+      "expanded_numerator": "18*S**4*m + 6*S**4 + 21*S**3*m**2 - 3*S**3 + 6*S**2*m**3 - 3*S**2*m**2 - 3*S**2*m",
+      "expanded_denominator": "2*m**3 - m**2 - m"
+    },
+    "p2": {
+      "numerator": "S*(S + m - 2)*(2*S + 2*m - 3)*(16*S**3*m**4 + 18*S**3*m**3 - 14*S**3*m**2 - 20*S**3*m - 32*S**3 + 50*S**2*m**4 - 27*S**2*m**3 - 45*S**2*m**2 - 74*S**2*m + 48*S**2 + 17*S*m**4 - 51*S*m**3 - 64*S*m**2 + 98*S*m - 16*S - 23*m**4 - 2*m**3 + 45*m**2 - 20*m)",
+      "denominator": "8*m*(m - 2)*(m - 1)*(2*m - 3)*(2*m - 1)*(2*m + 1)",
+      "expanded_numerator": "32*S**6*m**4 + 36*S**6*m**3 - 28*S**6*m**2 - 40*S**6*m - 64*S**6 + 64*S**5*m**5 + 60*S**5*m**4 - 236*S**5*m**3 - 72*S**5*m**2 - 136*S**5*m + 320*S**5 + 32*S**4*m**6 + 124*S**4*m**5 - 482*S**4*m**4 + 73*S**4*m**3 - 117*S**4*m**2 + 1010*S**4*m - 560*S**4 + 100*S**3*m**6 - 336*S**3*m**5 + 30*S**3*m**4 + 102*S**3*m**3 + 1274*S**3*m**2 - 1570*S**3*m + 400*S**3 + 34*S**2*m**6 - 313*S**2*m**5 + 484*S**2*m**4 + 532*S**2*m**3 - 1497*S**2*m**2 + 840*S**2*m - 96*S**2 - 46*S*m**6 + 157*S*m**5 - 34*S*m**4 - 367*S*m**3 + 410*S*m**2 - 120*S*m",
+      "expanded_denominator": "64*m**6 - 288*m**5 + 400*m**4 - 120*m**3 - 104*m**2 + 48*m"
+    },
+    "p11": {
+      "numerator": "-3*S**2*(S + m - 3)**2*(S + m - 2)**2*(S + m - 1)*(2*S**2 + 3*S*m - 2*S - m)",
+      "denominator": "8*m*(m - 3)**2*(m - 2)**2*(m - 1)",
+      "expanded_numerator": "-6*S**9 - 39*S**8*m + 72*S**8 - 105*S**7*m**2 + 396*S**7*m - 348*S**7 - 150*S**6*m**3 + 867*S**6*m**2 - 1566*S**6*m + 864*S**6 - 120*S**5*m**4 + 948*S**5*m**3 - 2643*S**5*m**2 + 3024*S**5*m - 1158*S**5 - 51*S**4*m**5 + 522*S**4*m**4 - 2013*S**4*m**3 + 3597*S**4*m**2 - 2895*S**4*m + 792*S**4 - 9*S**3*m**6 + 120*S**3*m**5 - 621*S**3*m**4 + 1578*S**3*m**3 - 2028*S**3*m**2 + 1188*S**3*m - 216*S**3 + 3*S**2*m**6 - 33*S**2*m**5 + 141*S**2*m**4 - 291*S**2*m**3 + 288*S**2*m**2 - 108*S**2*m",
+      "expanded_denominator": "8*m**6 - 88*m**5 + 376*m**4 - 776*m**3 + 768*m**2 - 288*m"
+    },
+    "p1": {
+      "numerator": "-S*(S - 1)*(S + 2*m - 7)*(S + 2*m - 6)*(S + 2*m - 5)*(15*S**4*m**5 - 27*S**4*m**4 - 15*S**4*m**3 + 11*S**4*m**2 - 12*S**4*m - 20*S**4 + 48*S**3*m**5 - 189*S**3*m**4 + 168*S**3*m**3 - 61*S**3*m**2 - 54*S**3*m + 184*S**3 - 41*S**2*m**5 + 42*S**2*m**4 - 107*S**2*m**3 + 100*S**2*m**2 + 610*S**2*m - 556*S**2 - 162*S*m**5 + 384*S*m**4 - 366*S*m**3 + 1132*S*m**2 - 1668*S*m + 584*S - 136*m**5 + 240*m**4 + 824*m**3 - 2160*m**2 + 1328*m - 96)",
+      "denominator": "192*(m - 3)*(m - 2)*(m - 1)*(2*m - 7)*(2*m - 5)*(2*m - 3)*(2*m - 1)*(2*m + 1)",
+      "expanded_numerator": "-15*S**9*m**5 + 27*S**9*m**4 + 15*S**9*m**3 - 11*S**9*m**2 + 12*S**9*m + 20*S**9 - 90*S**8*m**6 + 399*S**8*m**5 - 234*S**8*m**4 - 519*S**8*m**3 + 342*S**8*m**2 - 54*S**8*m - 564*S**8 - 180*S**7*m**7 + 1206*S**7*m**6 - 1714*S**7*m**5 - 2568*S**7*m**4 + 6542*S**7*m**3 - 3006*S**7*m**2 - 2800*S**7*m + 6552*S**7 - 120*S**6*m**8 + 900*S**6*m**7 - 180*S**6*m**6 - 12498*S**6*m**5 + 35268*S**6*m**4 - 36126*S**6*m**3 + 3552*S**6*m**2 + 39612*S**6*m - 40488*S**6 - 264*S**5*m**8 + 4740*S**5*m**7 - 28644*S**5*m**6 + 80549*S**5*m**5 - 116625*S**5*m**4 + 70187*S**5*m**3 + 83553*S**5*m**2 - 227644*S**5*m + 143220*S**5 + 712*S**4*m**8 - 6804*S**4*m**7 + 24906*S**4*m**6 - 47337*S**4*m**5 + 36522*S**4*m**4 + 132873*S**4*m**3 - 529078*S**4*m**2 + 682962*S**4*m - 289716*S**4 + 968*S**3*m**8 - 11760*S**3*m**7 + 55374*S**3*m**6 - 149044*S**3*m**5 + 360990*S**3*m**4 - 876472*S**3*m**3 + 1409256*S**3*m**2 - 1116352*S**3*m + 313888*S**3 - 208*S**2*m**8 + 1392*S**2*m**7 - 12780*S**2*m**6 + 126348*S**2*m**5 - 605460*S**2*m**4 + 1435164*S**2*m**3 - 1709312*S**2*m**2 + 923688*S**2*m - 153072*S**2 - 1088*S*m**8 + 11712*S*m**7 - 39792*S*m**6 + 3312*S*m**5 + 292080*S*m**4 - 731664*S*m**3 + 744704*S*m**2 - 299424*S*m + 20160*S",
+      "expanded_denominator": "6144*m**8 - 82944*m**7 + 451584*m**6 - 1257984*m**5 + 1846656*m**4 - 1221696*m**3 - 6144*m**2 + 385344*m - 120960"
+    }
+  },
+  "six_kernel_identity_residuals": {
+    "l": "0",
+    "p3": "0",
+    "p12": "0",
+    "p2": "0",
+    "p11": "0",
+    "p1": "0"
+  },
+  "both_lower_diagonal_signed_partners_retained": true,
+  "third_mask_uses_all_seven_moments": true,
+  "no_parameter_sweep": true,
+  "no_expected_SOURCE_arrays_read": true,
+  "no_provider_programs_read_or_executed": true,
+  "text_pins": {
+    "44/446538c1a29f15441064f00f201d9f3052af997e9f409c305178f998882c5387.md": "446538c1a29f15441064f00f201d9f3052af997e9f409c305178f998882c5387",
+    "99/99195083e2c2033f39eb977c680cdb3fbfb4d0ebb89c338b999ad441ce67a13e.md": "99195083e2c2033f39eb977c680cdb3fbfb4d0ebb89c338b999ad441ce67a13e"
+  },
+  "self_peak_rss_bytes": 104038400,
+  "Sage_slots_declared": 1,
+  "claim_ceiling": "Free-variable arithmetic linkage only. Physical support, whole-original character extraction and scientific adoption require root proof/gate."
+}

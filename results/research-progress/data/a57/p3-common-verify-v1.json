@@ -1,0 +1,45 @@
+{
+  "schema": "A57-P3-RANK7-CERTIFICATE-ONLY-VERIFICATION-V1",
+  "source_sha256": "5f64cd5ea904effbaa9ba8b6984a828d8c97ba2e54895c1208c44214e8f1e2aa",
+  "status": "PASS",
+  "shared_boundary": {
+    "lambda": [
+      89000001,
+      77230769,
+      75230770,
+      66230770,
+      64230770,
+      42153846,
+      24923078
+    ],
+    "mu": [
+      47000000,
+      45000000,
+      35846154,
+      26230770,
+      19923077,
+      14461538,
+      1
+    ],
+    "nu": [
+      67461538,
+      54461539,
+      48153847,
+      40000000,
+      23230770,
+      17230769,
+      1
+    ],
+    "trace": 439000004
+  },
+  "checked_original_rows": 3087,
+  "seed_equalities": 288,
+  "faces": 48,
+  "parent_minimum_slack": 999999,
+  "minimum_offspan_face_slack": 999998,
+  "inspan_offseed_zeros": 16,
+  "zero_counts": {
+    "6": 32,
+    "7": 16
+  }
+}

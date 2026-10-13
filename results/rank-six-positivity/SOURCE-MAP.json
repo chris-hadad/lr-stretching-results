@@ -16,9 +16,21 @@
     },
     {
       "path": "FORMALIZATION.md",
-      "bytes": 5727,
-      "sha256": "cbef5a9e3a6d4361b99a39772dd8ff307aa74b47cc9491d2a5bf43b4673afba5",
-      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+      "bytes": 9206,
+      "sha256": "ca7ca478be6865ed34fe01938503f09c4a969fbc4a516f10fdd40e15f6bd344f",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "cbef5a9e3a6d4361b99a39772dd8ff307aa74b47cc9491d2a5bf43b4673afba5",
+          "current_included_sha256": "351e2e773e0f5cdd8924a8fad6e2144fa886110b3604fd221ea77fc302347cde",
+          "date": "2026-10-12"
+        },
+        {
+          "previous_included_sha256": "351e2e773e0f5cdd8924a8fad6e2144fa886110b3604fd221ea77fc302347cde",
+          "current_included_sha256": "ca7ca478be6865ed34fe01938503f09c4a969fbc4a516f10fdd40e15f6bd344f",
+          "round": "R2"
+        }
+      ]
     },
     {
       "path": "GEOMETRY.md",

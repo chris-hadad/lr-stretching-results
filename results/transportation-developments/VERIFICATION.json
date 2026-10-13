@@ -1,0 +1,80 @@
+{
+  "schema": "curated-family-verification/v1",
+  "date": "2026-10-12",
+  "fresh_export_status": "SELECTED_COMPLETE_CHECKS_PASS",
+  "checks": [
+    {
+      "id": "export-triangle-001",
+      "exit_code": 0,
+      "guarded_seconds": 52.40780541600543,
+      "sampled_peak_group_rss_bytes": 46235648,
+      "sample_zero_means_true_peak_unknown": false,
+      "executed_code_sha256": {
+        "transportation-developments/code/verify_triangle.py": "ef3ac5f581511fbe80edfe2b609472416adb03a9fb37f13c9df7d2d233457863"
+      }
+    },
+    {
+      "id": "export-high-star-001",
+      "exit_code": 0,
+      "guarded_seconds": 8.356724000012036,
+      "sampled_peak_group_rss_bytes": 67796992,
+      "sample_zero_means_true_peak_unknown": false,
+      "executed_code_sha256": {
+        "transportation-developments/code/verify_high_star.py": "29785354610988eb67472eb42003d6d1eb2c8845157edee441e972a8dcb13df4"
+      }
+    },
+    {
+      "id": "export-crossing-001",
+      "exit_code": 0,
+      "guarded_seconds": 2.0605253750109114,
+      "sampled_peak_group_rss_bytes": 34897920,
+      "sample_zero_means_true_peak_unknown": false,
+      "executed_code_sha256": {
+        "transportation-developments/code/verify_crossing.py": "33d47ec30d3229636beaf7a147b7b925e0305b28a5bf733f69daa94f35e9e444"
+      }
+    },
+    {
+      "id": "export-two-cap-001",
+      "exit_code": 0,
+      "guarded_seconds": 32.87261808299809,
+      "sampled_peak_group_rss_bytes": 136708096,
+      "sample_zero_means_true_peak_unknown": false,
+      "executed_code_sha256": {
+        "transportation-developments/code/reproduce_two_cap.py": "fb74e9d9d56d19437e3b668438fc4c632a9c3a275a8ea5375d4f7e827044f3f4"
+      }
+    }
+  ],
+  "public_curation_review": "PASSED_INTERNAL_ASTRA_REVIEW",
+  "A83_scientific_status": "Not an additional A83 claim",
+  "returned_provider_programs_executed": false,
+  "full_repository_suite_run": false,
+  "raw_private_runtime_records_exported": false,
+  "source_map_is_theorem_proof": false,
+  "scope_limit": "Arithmetic/structural reproduction and recorded exact proofs. Internal AI review, human review, formal certification and novelty are distinct. No new unused observations or additive coverage from replay.",
+  "post_replay_code_equivalence": {
+    "path": "results/transportation-developments/code/verify_triangle.py",
+    "before": {
+      "bytes": 53550,
+      "sha256": "ef3ac5f581511fbe80edfe2b609472416adb03a9fb37f13c9df7d2d233457863"
+    },
+    "after": {
+      "bytes": 53546,
+      "sha256": "2972ca1e4289b37333806750d849cdfaf3ba8a520db34396c034c73177502ef7"
+    },
+    "full_AST_identity": "PASS_EXACT_WITHOUT_LOCATION_ATTRIBUTES",
+    "AST_sha256": "767adff30a473cb1932ffe5ce974b525394d1b1d340b0595cb063c069b676f68",
+    "change": "Only spaces on one otherwise empty line removed; every executable expression, function and assertion unchanged.",
+    "mathematical_replay": "Successful export-triangle-001 executes the before bytes; exact full AST identity justifies unchanged mathematical execution scope. No replay repeated for whitespace."
+  },
+  "two_cap": {
+    "chamber_identities": 40,
+    "coefficient_slots": 204336
+  },
+  "crossing": {
+    "A63_chambers": 12,
+    "A64_a9_chambers": 2
+  },
+  "literal_LR_or_table_backend_calls": 0,
+  "review_receipt_sha256": "da4dd1c7c065cacccad93353e079875ffb731681d23be78d2f1d78992e14a98a",
+  "accepted_scope_sha256": "06484ba8fac8b719d860c32695d5055426cde36b587a53ad4d7b9a640eee2680"
+}

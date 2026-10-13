@@ -32,6 +32,24 @@ results. [Related work](results/rank-six-positivity/NOVELTY.md) and the
 [contribution map](results/rank-six-positivity/CONTRIBUTIONS.md) distinguish those
 inputs from the new mathematical and algorithmic steps.
 
+## Developments after the rank-six release
+
+The collection now includes [every two-row-inner LR family at arbitrary rank](results/two-row-inner/README.md),
+with complete paid content majorization; [all-size transportation c1 and selected
+higher-coefficient/overlap families](results/transportation-developments/README.md);
+[low-overlap originals and operations](results/overlap-families/README.md);
+[distinct root-square height and raw-index operations](results/root-square/README.md);
+and [an entire four-letter family and paid height cover](results/four-letter/README.md).
+The last family has physical rank m+4 and degree 3m+3 for every m>=3,s>0,u>=3s.
+These results extend complete positive families to unbounded ranks while retaining
+the open whole-rank-seven and unrestricted questions.
+
+[The dated progress and obstruction record](results/research-progress/README.md)
+accounts for every A55-A82 development, including qualified native/formal progress.
+Each new module states its complete proof dependencies and precise portable
+reproduction limits. The earlier scientific rank-six release/tag/assets retain
+their immutable identity.
+
 ## Start here
 
 | Your purpose | Suggested route |
@@ -118,3 +136,6 @@ Software and executable examples are available under [MIT](LICENSE).
 Research notes, proofs, documentation and data are available under
 [CC BY 4.0](LICENSES/CC-BY-4.0.txt). See [licensing and attribution](LICENSING.md)
 for the scopes, release archives and credit information.
+
+
+The [complete low-overlap generator](results/overlap-families/README.md#proposed-complete-original-generators-a83) adds the union hg=0 OR b=c at the exact long/tail floors; its exact scope passed the actual internal scientific/public review gate.

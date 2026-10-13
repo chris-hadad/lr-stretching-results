@@ -48,3 +48,14 @@ with the [theorem](tooling/three_letter_certificates/PROOF.md), mathematical
 data manifest and verification record. The source maps preserve the original
 research evidence and the curated portable files separately. Earlier release
 archives are not relabeled as containing this later theorem.
+
+## Citing developments after the rank-six release
+
+For the current [two-row-inner](results/two-row-inner/README.md),
+[transportation](results/transportation-developments/README.md),
+[overlap](results/overlap-families/README.md), [root-square](results/root-square/README.md),
+[four-letter](results/four-letter/README.md) and [dated progress](results/research-progress/README.md)
+modules, cite the exact Git commit of the version used together with its module
+proof, verification record and source map. These additions are not retroactively
+part of the 25 September scientific tag or paper. The earlier citation,
+licensing and authorship policies remain unchanged.

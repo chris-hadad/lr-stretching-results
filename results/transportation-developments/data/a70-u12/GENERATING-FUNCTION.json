@@ -1,0 +1,1811 @@
+{
+  "schema": "a70-u12-complete-bivariate-series/v1",
+  "variables": [
+    "x",
+    "y"
+  ],
+  "series": "sum_{S,U>=0} N(S,U) x^S y^U",
+  "nine_complete_terms": [
+    {
+      "numerator": [
+        {
+          "powers": [
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            1,
+            0
+          ],
+          "coefficient": "4"
+        },
+        {
+          "powers": [
+            2,
+            0
+          ],
+          "coefficient": "1"
+        }
+      ],
+      "denominator": [
+        {
+          "monomial": [
+            0,
+            1
+          ],
+          "power": 2
+        },
+        {
+          "monomial": [
+            1,
+            0
+          ],
+          "power": 5
+        }
+      ]
+    },
+    {
+      "numerator": [
+        {
+          "powers": [
+            1,
+            0
+          ],
+          "coefficient": "-9"
+        },
+        {
+          "powers": [
+            2,
+            0
+          ],
+          "coefficient": "-12"
+        },
+        {
+          "powers": [
+            3,
+            0
+          ],
+          "coefficient": "-2"
+        }
+      ],
+      "denominator": [
+        {
+          "monomial": [
+            0,
+            1
+          ],
+          "power": 1
+        },
+        {
+          "monomial": [
+            1,
+            0
+          ],
+          "power": 6
+        }
+      ]
+    },
+    {
+      "numerator": [
+        {
+          "powers": [
+            2,
+            0
+          ],
+          "coefficient": "3"
+        }
+      ],
+      "denominator": [
+        {
+          "monomial": [
+            1,
+            0
+          ],
+          "power": 4
+        },
+        {
+          "monomial": [
+            1,
+            1
+          ],
+          "power": 3
+        }
+      ]
+    },
+    {
+      "numerator": [
+        {
+          "powers": [
+            2,
+            0
+          ],
+          "coefficient": "3"
+        },
+        {
+          "powers": [
+            3,
+            0
+          ],
+          "coefficient": "-2"
+        }
+      ],
+      "denominator": [
+        {
+          "monomial": [
+            1,
+            0
+          ],
+          "power": 5
+        },
+        {
+          "monomial": [
+            1,
+            1
+          ],
+          "power": 2
+        }
+      ]
+    },
+    {
+      "numerator": [
+        {
+          "powers": [
+            2,
+            0
+          ],
+          "coefficient": "4"
+        },
+        {
+          "powers": [
+            3,
+            0
+          ],
+          "coefficient": "-8"
+        },
+        {
+          "powers": [
+            4,
+            0
+          ],
+          "coefficient": "-4"
+        }
+      ],
+      "denominator": [
+        {
+          "monomial": [
+            1,
+            0
+          ],
+          "power": 6
+        },
+        {
+          "monomial": [
+            1,
+            1
+          ],
+          "power": 1
+        }
+      ]
+    },
+    {
+      "numerator": [
+        {
+          "powers": [
+            3,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ],
+      "denominator": [
+        {
+          "monomial": [
+            1,
+            0
+          ],
+          "power": 4
+        },
+        {
+          "monomial": [
+            2,
+            1
+          ],
+          "power": 3
+        }
+      ]
+    },
+    {
+      "numerator": [
+        {
+          "powers": [
+            3,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ],
+      "denominator": [
+        {
+          "monomial": [
+            1,
+            0
+          ],
+          "power": 5
+        },
+        {
+          "monomial": [
+            2,
+            1
+          ],
+          "power": 2
+        }
+      ]
+    },
+    {
+      "numerator": [
+        {
+          "powers": [
+            3,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ],
+      "denominator": [
+        {
+          "monomial": [
+            1,
+            0
+          ],
+          "power": 6
+        },
+        {
+          "monomial": [
+            2,
+            1
+          ],
+          "power": 1
+        }
+      ]
+    },
+    {
+      "numerator": [
+        {
+          "powers": [
+            1,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            2,
+            0
+          ],
+          "coefficient": "15"
+        },
+        {
+          "powers": [
+            2,
+            1
+          ],
+          "coefficient": "6"
+        },
+        {
+          "powers": [
+            3,
+            0
+          ],
+          "coefficient": "15"
+        },
+        {
+          "powers": [
+            3,
+            1
+          ],
+          "coefficient": "20"
+        },
+        {
+          "powers": [
+            4,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            4,
+            1
+          ],
+          "coefficient": "6"
+        }
+      ],
+      "denominator": [
+        {
+          "monomial": [
+            1,
+            0
+          ],
+          "power": 6
+        },
+        {
+          "monomial": [
+            1,
+            2
+          ],
+          "power": 1
+        }
+      ]
+    }
+  ],
+  "cone_series": {
+    "omega": [
+      61436,
+      35835,
+      -1033,
+      1540,
+      53704,
+      29992,
+      20628
+    ],
+    "positive_weights_on_all_rays": [
+      "1031",
+      "4805",
+      "1538",
+      "1",
+      "1",
+      "88",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "6102",
+      "10813",
+      "12986"
+    ],
+    "cones": [
+      {
+        "rays": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          11
+        ],
+        "determinant": -1,
+        "omega_coordinates": [
+          "1033",
+          "17794",
+          "1540",
+          "19088",
+          "29992",
+          "53704",
+          "-42888"
+        ],
+        "open": [
+          6
+        ],
+        "shift": [
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "rays": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          13
+        ],
+        "determinant": 1,
+        "omega_coordinates": [
+          "1033",
+          "17794",
+          "1540",
+          "19088",
+          "-12896",
+          "-32072",
+          "42888"
+        ],
+        "open": [
+          4,
+          5
+        ],
+        "shift": [
+          2,
+          2,
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "rays": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          12,
+          13
+        ],
+        "determinant": -1,
+        "omega_coordinates": [
+          "1033",
+          "17794",
+          "1540",
+          "-12984",
+          "-12896",
+          "32072",
+          "10816"
+        ],
+        "open": [
+          3,
+          4
+        ],
+        "shift": [
+          2,
+          2,
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "rays": [
+          0,
+          1,
+          2,
+          4,
+          6,
+          7,
+          14
+        ],
+        "determinant": 1,
+        "omega_coordinates": [
+          "1033",
+          "4898",
+          "1540",
+          "6192",
+          "10816",
+          "-17096",
+          "29992"
+        ],
+        "open": [
+          5
+        ],
+        "shift": [
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "rays": [
+          0,
+          1,
+          2,
+          4,
+          6,
+          13,
+          14
+        ],
+        "determinant": -1,
+        "omega_coordinates": [
+          "1033",
+          "4898",
+          "1540",
+          "6192",
+          "-6280",
+          "17096",
+          "12896"
+        ],
+        "open": [
+          4
+        ],
+        "shift": [
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "rays": [
+          0,
+          1,
+          2,
+          4,
+          12,
+          13,
+          14
+        ],
+        "determinant": 1,
+        "omega_coordinates": [
+          "1033",
+          "4898",
+          "1540",
+          "-88",
+          "6280",
+          "10816",
+          "12896"
+        ],
+        "open": [
+          3
+        ],
+        "shift": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "rays": [
+          0,
+          1,
+          2,
+          5,
+          6,
+          9,
+          11
+        ],
+        "determinant": 1,
+        "omega_coordinates": [
+          "1033",
+          "17794",
+          "20628",
+          "29992",
+          "53704",
+          "-19088",
+          "-23800"
+        ],
+        "open": [
+          5,
+          6
+        ],
+        "shift": [
+          2,
+          3,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "rays": [
+          0,
+          1,
+          2,
+          5,
+          6,
+          9,
+          13
+        ],
+        "determinant": -1,
+        "omega_coordinates": [
+          "1033",
+          "17794",
+          "20628",
+          "6192",
+          "6104",
+          "-19088",
+          "23800"
+        ],
+        "open": [
+          5
+        ],
+        "shift": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "rays": [
+          0,
+          1,
+          2,
+          5,
+          8,
+          9,
+          10
+        ],
+        "determinant": -1,
+        "omega_coordinates": [
+          "30937",
+          "-6006",
+          "20628",
+          "6192",
+          "53704",
+          "10816",
+          "-29904"
+        ],
+        "open": [
+          1,
+          6
+        ],
+        "shift": [
+          1,
+          3,
+          -1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "rays": [
+          0,
+          1,
+          2,
+          5,
+          8,
+          9,
+          13
+        ],
+        "determinant": 1,
+        "omega_coordinates": [
+          "1033",
+          "23898",
+          "20628",
+          "6192",
+          "-6104",
+          "-19088",
+          "29904"
+        ],
+        "open": [
+          4,
+          5
+        ],
+        "shift": [
+          2,
+          2,
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "rays": [
+          0,
+          1,
+          2,
+          5,
+          8,
+          13,
+          14
+        ],
+        "determinant": 1,
+        "omega_coordinates": [
+          "1033",
+          "4810",
+          "1540",
+          "6192",
+          "-6104",
+          "10816",
+          "19088"
+        ],
+        "open": [
+          4
+        ],
+        "shift": [
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "rays": [
+          0,
+          1,
+          2,
+          5,
+          12,
+          13,
+          14
+        ],
+        "determinant": -1,
+        "omega_coordinates": [
+          "1033",
+          "4810",
+          "1540",
+          "88",
+          "6104",
+          "10816",
+          "12984"
+        ],
+        "open": [],
+        "shift": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "rays": [
+          0,
+          2,
+          3,
+          5,
+          8,
+          9,
+          10
+        ],
+        "determinant": -1,
+        "omega_coordinates": [
+          "24931",
+          "20628",
+          "6006",
+          "6192",
+          "47698",
+          "10816",
+          "-29904"
+        ],
+        "open": [
+          6
+        ],
+        "shift": [
+          1,
+          2,
+          -1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "rays": [
+          0,
+          2,
+          3,
+          5,
+          8,
+          9,
+          13
+        ],
+        "determinant": 1,
+        "omega_coordinates": [
+          "24931",
+          "20628",
+          "-23898",
+          "6192",
+          "17794",
+          "-19088",
+          "29904"
+        ],
+        "open": [
+          2,
+          5
+        ],
+        "shift": [
+          2,
+          2,
+          -1,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "rays": [
+          0,
+          2,
+          3,
+          5,
+          8,
+          13,
+          14
+        ],
+        "determinant": 1,
+        "omega_coordinates": [
+          "5843",
+          "1540",
+          "-4810",
+          "6192",
+          "-1294",
+          "10816",
+          "19088"
+        ],
+        "open": [
+          2,
+          4
+        ],
+        "shift": [
+          2,
+          2,
+          -1,
+          0,
+          2,
+          2,
+          0
+        ]
+      },
+      {
+        "rays": [
+          0,
+          2,
+          3,
+          5,
+          12,
+          13,
+          14
+        ],
+        "determinant": -1,
+        "omega_coordinates": [
+          "5843",
+          "1540",
+          "-4810",
+          "4898",
+          "1294",
+          "10816",
+          "17794"
+        ],
+        "open": [
+          2
+        ],
+        "shift": [
+          1,
+          1,
+          -1,
+          0,
+          1,
+          1,
+          0
+        ]
+      }
+    ]
+  },
+  "complete_rational_identity": {
+    "status": "PASS",
+    "simplex_terms": 16,
+    "displayed_terms": 9,
+    "common_denominator": [
+      {
+        "monomial": [
+          0,
+          1
+        ],
+        "power": 2
+      },
+      {
+        "monomial": [
+          1,
+          0
+        ],
+        "power": 6
+      },
+      {
+        "monomial": [
+          1,
+          1
+        ],
+        "power": 4
+      },
+      {
+        "monomial": [
+          1,
+          2
+        ],
+        "power": 1
+      },
+      {
+        "monomial": [
+          2,
+          1
+        ],
+        "power": 3
+      }
+    ],
+    "left_numerator": [
+      {
+        "powers": [
+          0,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          1,
+          0
+        ],
+        "coefficient": "-5"
+      },
+      {
+        "powers": [
+          1,
+          1
+        ],
+        "coefficient": "3"
+      },
+      {
+        "powers": [
+          2,
+          0
+        ],
+        "coefficient": "10"
+      },
+      {
+        "powers": [
+          2,
+          1
+        ],
+        "coefficient": "-15"
+      },
+      {
+        "powers": [
+          2,
+          2
+        ],
+        "coefficient": "-3"
+      },
+      {
+        "powers": [
+          2,
+          3
+        ],
+        "coefficient": "-3"
+      },
+      {
+        "powers": [
+          3,
+          0
+        ],
+        "coefficient": "-10"
+      },
+      {
+        "powers": [
+          3,
+          1
+        ],
+        "coefficient": "30"
+      },
+      {
+        "powers": [
+          3,
+          2
+        ],
+        "coefficient": "9"
+      },
+      {
+        "powers": [
+          3,
+          3
+        ],
+        "coefficient": "9"
+      },
+      {
+        "powers": [
+          3,
+          4
+        ],
+        "coefficient": "2"
+      },
+      {
+        "powers": [
+          4,
+          0
+        ],
+        "coefficient": "5"
+      },
+      {
+        "powers": [
+          4,
+          1
+        ],
+        "coefficient": "-30"
+      },
+      {
+        "powers": [
+          4,
+          4
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "powers": [
+          4,
+          5
+        ],
+        "coefficient": "3"
+      },
+      {
+        "powers": [
+          5,
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "powers": [
+          5,
+          1
+        ],
+        "coefficient": "15"
+      },
+      {
+        "powers": [
+          5,
+          2
+        ],
+        "coefficient": "-30"
+      },
+      {
+        "powers": [
+          5,
+          3
+        ],
+        "coefficient": "-28"
+      },
+      {
+        "powers": [
+          5,
+          4
+        ],
+        "coefficient": "-14"
+      },
+      {
+        "powers": [
+          5,
+          5
+        ],
+        "coefficient": "-13"
+      },
+      {
+        "powers": [
+          5,
+          6
+        ],
+        "coefficient": "-3"
+      },
+      {
+        "powers": [
+          6,
+          1
+        ],
+        "coefficient": "-3"
+      },
+      {
+        "powers": [
+          6,
+          2
+        ],
+        "coefficient": "45"
+      },
+      {
+        "powers": [
+          6,
+          3
+        ],
+        "coefficient": "35"
+      },
+      {
+        "powers": [
+          6,
+          4
+        ],
+        "coefficient": "16"
+      },
+      {
+        "powers": [
+          6,
+          5
+        ],
+        "coefficient": "16"
+      },
+      {
+        "powers": [
+          6,
+          6
+        ],
+        "coefficient": "7"
+      },
+      {
+        "powers": [
+          6,
+          7
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          7,
+          2
+        ],
+        "coefficient": "-27"
+      },
+      {
+        "powers": [
+          7,
+          3
+        ],
+        "coefficient": "-7"
+      },
+      {
+        "powers": [
+          7,
+          4
+        ],
+        "coefficient": "25"
+      },
+      {
+        "powers": [
+          7,
+          5
+        ],
+        "coefficient": "6"
+      },
+      {
+        "powers": [
+          7,
+          6
+        ],
+        "coefficient": "6"
+      },
+      {
+        "powers": [
+          7,
+          7
+        ],
+        "coefficient": "-3"
+      },
+      {
+        "powers": [
+          8,
+          2
+        ],
+        "coefficient": "6"
+      },
+      {
+        "powers": [
+          8,
+          3
+        ],
+        "coefficient": "-14"
+      },
+      {
+        "powers": [
+          8,
+          4
+        ],
+        "coefficient": "-57"
+      },
+      {
+        "powers": [
+          8,
+          5
+        ],
+        "coefficient": "-25"
+      },
+      {
+        "powers": [
+          8,
+          6
+        ],
+        "coefficient": "-30"
+      },
+      {
+        "powers": [
+          8,
+          7
+        ],
+        "coefficient": "3"
+      },
+      {
+        "powers": [
+          9,
+          3
+        ],
+        "coefficient": "10"
+      },
+      {
+        "powers": [
+          9,
+          4
+        ],
+        "coefficient": "36"
+      },
+      {
+        "powers": [
+          9,
+          5
+        ],
+        "coefficient": "7"
+      },
+      {
+        "powers": [
+          9,
+          6
+        ],
+        "coefficient": "25"
+      },
+      {
+        "powers": [
+          9,
+          7
+        ],
+        "coefficient": "-4"
+      },
+      {
+        "powers": [
+          10,
+          3
+        ],
+        "coefficient": "-2"
+      },
+      {
+        "powers": [
+          10,
+          4
+        ],
+        "coefficient": "-6"
+      },
+      {
+        "powers": [
+          10,
+          5
+        ],
+        "coefficient": "18"
+      },
+      {
+        "powers": [
+          10,
+          6
+        ],
+        "coefficient": "3"
+      },
+      {
+        "powers": [
+          10,
+          7
+        ],
+        "coefficient": "10"
+      },
+      {
+        "powers": [
+          11,
+          4
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "powers": [
+          11,
+          5
+        ],
+        "coefficient": "-16"
+      },
+      {
+        "powers": [
+          11,
+          6
+        ],
+        "coefficient": "-12"
+      },
+      {
+        "powers": [
+          11,
+          7
+        ],
+        "coefficient": "-11"
+      },
+      {
+        "powers": [
+          12,
+          5
+        ],
+        "coefficient": "4"
+      },
+      {
+        "powers": [
+          12,
+          6
+        ],
+        "coefficient": "4"
+      },
+      {
+        "powers": [
+          12,
+          7
+        ],
+        "coefficient": "3"
+      },
+      {
+        "powers": [
+          13,
+          7
+        ],
+        "coefficient": "2"
+      },
+      {
+        "powers": [
+          14,
+          7
+        ],
+        "coefficient": "-1"
+      }
+    ],
+    "right_numerator": [
+      {
+        "powers": [
+          0,
+          0
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          1,
+          0
+        ],
+        "coefficient": "-5"
+      },
+      {
+        "powers": [
+          1,
+          1
+        ],
+        "coefficient": "3"
+      },
+      {
+        "powers": [
+          2,
+          0
+        ],
+        "coefficient": "10"
+      },
+      {
+        "powers": [
+          2,
+          1
+        ],
+        "coefficient": "-15"
+      },
+      {
+        "powers": [
+          2,
+          2
+        ],
+        "coefficient": "-3"
+      },
+      {
+        "powers": [
+          2,
+          3
+        ],
+        "coefficient": "-3"
+      },
+      {
+        "powers": [
+          3,
+          0
+        ],
+        "coefficient": "-10"
+      },
+      {
+        "powers": [
+          3,
+          1
+        ],
+        "coefficient": "30"
+      },
+      {
+        "powers": [
+          3,
+          2
+        ],
+        "coefficient": "9"
+      },
+      {
+        "powers": [
+          3,
+          3
+        ],
+        "coefficient": "9"
+      },
+      {
+        "powers": [
+          3,
+          4
+        ],
+        "coefficient": "2"
+      },
+      {
+        "powers": [
+          4,
+          0
+        ],
+        "coefficient": "5"
+      },
+      {
+        "powers": [
+          4,
+          1
+        ],
+        "coefficient": "-30"
+      },
+      {
+        "powers": [
+          4,
+          4
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "powers": [
+          4,
+          5
+        ],
+        "coefficient": "3"
+      },
+      {
+        "powers": [
+          5,
+          0
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "powers": [
+          5,
+          1
+        ],
+        "coefficient": "15"
+      },
+      {
+        "powers": [
+          5,
+          2
+        ],
+        "coefficient": "-30"
+      },
+      {
+        "powers": [
+          5,
+          3
+        ],
+        "coefficient": "-28"
+      },
+      {
+        "powers": [
+          5,
+          4
+        ],
+        "coefficient": "-14"
+      },
+      {
+        "powers": [
+          5,
+          5
+        ],
+        "coefficient": "-13"
+      },
+      {
+        "powers": [
+          5,
+          6
+        ],
+        "coefficient": "-3"
+      },
+      {
+        "powers": [
+          6,
+          1
+        ],
+        "coefficient": "-3"
+      },
+      {
+        "powers": [
+          6,
+          2
+        ],
+        "coefficient": "45"
+      },
+      {
+        "powers": [
+          6,
+          3
+        ],
+        "coefficient": "35"
+      },
+      {
+        "powers": [
+          6,
+          4
+        ],
+        "coefficient": "16"
+      },
+      {
+        "powers": [
+          6,
+          5
+        ],
+        "coefficient": "16"
+      },
+      {
+        "powers": [
+          6,
+          6
+        ],
+        "coefficient": "7"
+      },
+      {
+        "powers": [
+          6,
+          7
+        ],
+        "coefficient": "1"
+      },
+      {
+        "powers": [
+          7,
+          2
+        ],
+        "coefficient": "-27"
+      },
+      {
+        "powers": [
+          7,
+          3
+        ],
+        "coefficient": "-7"
+      },
+      {
+        "powers": [
+          7,
+          4
+        ],
+        "coefficient": "25"
+      },
+      {
+        "powers": [
+          7,
+          5
+        ],
+        "coefficient": "6"
+      },
+      {
+        "powers": [
+          7,
+          6
+        ],
+        "coefficient": "6"
+      },
+      {
+        "powers": [
+          7,
+          7
+        ],
+        "coefficient": "-3"
+      },
+      {
+        "powers": [
+          8,
+          2
+        ],
+        "coefficient": "6"
+      },
+      {
+        "powers": [
+          8,
+          3
+        ],
+        "coefficient": "-14"
+      },
+      {
+        "powers": [
+          8,
+          4
+        ],
+        "coefficient": "-57"
+      },
+      {
+        "powers": [
+          8,
+          5
+        ],
+        "coefficient": "-25"
+      },
+      {
+        "powers": [
+          8,
+          6
+        ],
+        "coefficient": "-30"
+      },
+      {
+        "powers": [
+          8,
+          7
+        ],
+        "coefficient": "3"
+      },
+      {
+        "powers": [
+          9,
+          3
+        ],
+        "coefficient": "10"
+      },
+      {
+        "powers": [
+          9,
+          4
+        ],
+        "coefficient": "36"
+      },
+      {
+        "powers": [
+          9,
+          5
+        ],
+        "coefficient": "7"
+      },
+      {
+        "powers": [
+          9,
+          6
+        ],
+        "coefficient": "25"
+      },
+      {
+        "powers": [
+          9,
+          7
+        ],
+        "coefficient": "-4"
+      },
+      {
+        "powers": [
+          10,
+          3
+        ],
+        "coefficient": "-2"
+      },
+      {
+        "powers": [
+          10,
+          4
+        ],
+        "coefficient": "-6"
+      },
+      {
+        "powers": [
+          10,
+          5
+        ],
+        "coefficient": "18"
+      },
+      {
+        "powers": [
+          10,
+          6
+        ],
+        "coefficient": "3"
+      },
+      {
+        "powers": [
+          10,
+          7
+        ],
+        "coefficient": "10"
+      },
+      {
+        "powers": [
+          11,
+          4
+        ],
+        "coefficient": "-1"
+      },
+      {
+        "powers": [
+          11,
+          5
+        ],
+        "coefficient": "-16"
+      },
+      {
+        "powers": [
+          11,
+          6
+        ],
+        "coefficient": "-12"
+      },
+      {
+        "powers": [
+          11,
+          7
+        ],
+        "coefficient": "-11"
+      },
+      {
+        "powers": [
+          12,
+          5
+        ],
+        "coefficient": "4"
+      },
+      {
+        "powers": [
+          12,
+          6
+        ],
+        "coefficient": "4"
+      },
+      {
+        "powers": [
+          12,
+          7
+        ],
+        "coefficient": "3"
+      },
+      {
+        "powers": [
+          13,
+          7
+        ],
+        "coefficient": "2"
+      },
+      {
+        "powers": [
+          14,
+          7
+        ],
+        "coefficient": "-1"
+      }
+    ],
+    "residual": [],
+    "identity_basis": "Full sparse exact polynomial numerator after complete denominator clearing; no finite series grid."
+  },
+  "denominator_rule": "monomial [p,q] with power k means (1-x^p*y^q)^k. Numerator powers use the same variable order.",
+  "all_closed_faces_zero_cases_lattice_residues_retained": true
+}

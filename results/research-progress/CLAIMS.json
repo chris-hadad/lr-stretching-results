@@ -1,0 +1,310 @@
+{
+  "schema": "curated-claim-lineage/v1",
+  "claims": [
+    {
+      "id": "FR044",
+      "acceptance_sha256": "53c5fed395db36088dfecb56576ac2ba07067a60d3cb7d7a69b71c3bba28a169",
+      "internal_gate_sha256": "dddd80630b90a256d8bd72eed2846a34d63819a51ad8f90c1bd7ebf4a8a8059d",
+      "classification": "Previously accepted internally; exact public curation passed internal review."
+    },
+    {
+      "id": "A55",
+      "acceptance_sha256": "ed2fc78c1c9ac3c54939c1ed4d7c957e188a82f9fffe0d282b2196f21079d133",
+      "internal_gate_sha256": "887dced005aed94d98306611f414c352532a6e2055650aa8d427cc536b22f5bc",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/research-progress/proofs/A55-balance-PROOF.md",
+        "results/research-progress/proofs/A55-tournament-PROOF.md"
+      ]
+    },
+    {
+      "id": "A56",
+      "acceptance_sha256": "254c14d20ef97ee460476e83660328418588122623d0b978a63f54ccb2da584e",
+      "internal_gate_sha256": "1c79111229880e32df38cc26d5259305a9d5cbfa440220349504330ac4829cec",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/research-progress/proofs/A56-balance-PROOF.md",
+        "results/research-progress/proofs/A56-head-split-PROOF.md"
+      ]
+    },
+    {
+      "id": "A57",
+      "acceptance_sha256": "e5ecfbbb7fe81718bcff6d43c51c59c80581831fa597c5e7c497dfabf3715256",
+      "internal_gate_sha256": "bbec824f6d5175a6c5362f9e15dff5f3934252562184740f947b6ac744b50c0c",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/research-progress/proofs/A57-PROOF.md"
+      ]
+    },
+    {
+      "id": "A58",
+      "acceptance_sha256": "f16a891fa248c38c4fb1ba5ed4cfb7bf5952d9386230b9da558e8e2c6cb7d73c",
+      "internal_gate_sha256": "a83b16b7a088c35f17316fc17c021b9e33d5b692d97820055d67a2bd4d9d977d",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/overlap-families/proofs/A58-COUPLED-PROOF.md",
+        "results/transportation-developments/proofs/A58-FIRST-WALL-PROOF.md"
+      ]
+    },
+    {
+      "id": "A59",
+      "acceptance_sha256": "90150e667c3b77a8d67b302fc58523b76886138d81e3e74a9bec600611418024",
+      "internal_gate_sha256": "9c176426b6bcce9e2344346277e789d81c354d1ae419762246b8c906e12faa97",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/transportation-developments/proofs/A59-BALANCED-CAPS-PROOF.md",
+        "results/transportation-developments/proofs/A59-TWO-CAP-BANDS-PROOF.md"
+      ]
+    },
+    {
+      "id": "A60",
+      "acceptance_sha256": "2f5d240afa689901cd5e7aae06eefe09044ea200d5d6228436800b6be8511b94",
+      "internal_gate_sha256": "7857eef5ec7fd88cd36724b4ffb5c3521e47edb069c105e3a6889c2604126e49",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/transportation-developments/proofs/A60-GROUPED-BANDS.md",
+        "results/transportation-developments/proofs/A60-K3-RESERVE-PROOF.md"
+      ]
+    },
+    {
+      "id": "A61",
+      "acceptance_sha256": "53f8ae61b0b993ac45def4229f33363135295933de04ae86f13ec1c72cb352b9",
+      "internal_gate_sha256": "50b10cd30f3d09982ea436ed2d0f4911022a8c5fe6edb6716c498583568a5ac5",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/transportation-developments/proofs/A61-UNIFORM-PROOF.md"
+      ]
+    },
+    {
+      "id": "A62",
+      "acceptance_sha256": "4d98c9c62c26d311ff67089dd2a6713d2ef8d30c5ea922b05c45963361008f87",
+      "internal_gate_sha256": "1360170f6f401ece8e0bc7aa0b008ca8d3303dad1c6f8221914290fd11f31433",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/transportation-developments/proofs/A62-PAID-OPERATIONS-PROOF.md"
+      ]
+    },
+    {
+      "id": "A63",
+      "acceptance_sha256": "7f930ae6a845933866a503cace03ee850d8da808fff23a4b384235a8bc7ba123",
+      "internal_gate_sha256": "56e2db0c781770ac240bd364133b828b838b8a8e72ca40d76a56573b6b32b973",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/transportation-developments/proofs/A63-CROSSING-PROOF.md"
+      ]
+    },
+    {
+      "id": "A64",
+      "acceptance_sha256": "807c60471ad3fa5e712fc0f0378070ab8d59f5f84ca6a2b114d89cae949d95e8",
+      "internal_gate_sha256": "bbc8043ed12f31a6c15705d0a38adc15a8a60e80e3be40476b45151bd34cc622",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/research-progress/proofs/A64-GRAPH-PARENT-C1.md",
+        "results/research-progress/proofs/A64-RECURRENCE-OBSTRUCTION.md",
+        "results/transportation-developments/proofs/A64-TWO-CAP-PROOF.md"
+      ]
+    },
+    {
+      "id": "A65",
+      "acceptance_sha256": "1cd0114ccdbf07cf59766c2735980dd1339d5349a8ba5d31e4f811a0f17d5c78",
+      "internal_gate_sha256": "9e1ec229bbc0353e745ae2a802baf2d04bb4dca77a24a4223da4e8572a7cb885",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/transportation-developments/proofs/A65-QUADRATIC-WALL.md",
+        "results/transportation-developments/proofs/A65-THREE-ROW-KERNEL.md"
+      ]
+    },
+    {
+      "id": "A66",
+      "acceptance_sha256": "9c2d1af75aec6d53e6f002f06f0c82282a1cbfe03876d9b438d0c7b6e60d848b",
+      "internal_gate_sha256": "dc57972d18054957fa25eb8009649bc57832ed4a54b1d0aa52c5cdaefe9ba7a7",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/overlap-families/proofs/A66-INTERACTING-ADOPTION.md",
+        "results/overlap-families/proofs/A66-WHOLE-OPERATIONS.md"
+      ]
+    },
+    {
+      "id": "A67",
+      "acceptance_sha256": "f9d9002729e4bc9142e750d1dd112bc0891224028669b95055a23ef754874334",
+      "internal_gate_sha256": "65b11301d2778b80c3ac83ee8d6617aad01222e1543e9561b375af4946481760",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/transportation-developments/proofs/A67-COARSENING.md",
+        "results/transportation-developments/proofs/A67-KERNEL-RECURRENCE.md",
+        "results/transportation-developments/proofs/A67-TRANSVERSE.md"
+      ]
+    },
+    {
+      "id": "A68",
+      "acceptance_sha256": "0088a0363e46d464d0f70cb677909b860fd971c447c685e7ba7515ef65d2df1a",
+      "internal_gate_sha256": "b77ab011f329fb2a7a82a42a6dc7edf1e16f86026fe80e8e9c77b549e9559b41",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/transportation-developments/proofs/A68-COMPLETE-GAIN.md"
+      ]
+    },
+    {
+      "id": "A69",
+      "acceptance_sha256": "da3aef693fc55708a6268065c3dca802f4df39467acc0d4cd0799e22ebe518aa",
+      "internal_gate_sha256": "217e188b67f1e2d25f3cb2fb8b3bae7335043266c91db0aa68310d10ca6d6b77",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/transportation-developments/proofs/A69-AGGREGATE.md",
+        "results/transportation-developments/proofs/A69-WALL-JUMPS.md"
+      ]
+    },
+    {
+      "id": "A70",
+      "acceptance_sha256": "30f3f2c9cdc12a80afef9f0a34df1188fdc1ae67b07f723a5e91d486c20e131f",
+      "internal_gate_sha256": "6f0872c1e7bbbb8af9e1febff21c965f386734a5e89587641bb1388e60333018",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/transportation-developments/proofs/A70-BALANCED-SPLITTING.md",
+        "results/transportation-developments/proofs/A70-CONVEX-CAP.md",
+        "results/transportation-developments/proofs/A70-DOMINANT-PARENT.md",
+        "results/transportation-developments/proofs/A70-PRO049-U12-ADOPTION.md",
+        "results/transportation-developments/proofs/A70-STABILIZED-QUOTIENT.md"
+      ]
+    },
+    {
+      "id": "A71",
+      "acceptance_sha256": "1b10daa5ee9b55d77b6f9487219d15e907880f719dcf50269fa67e636a03a8ae",
+      "internal_gate_sha256": "895efc0ee244f902b399840bfcc443c20cd3ff405b0acbf9b266bd104745829b",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/overlap-families/proofs/A71-LOW-OVERLAP-KERNEL.md",
+        "results/overlap-families/proofs/A71-LOW-OVERLAP-NONEMPTINESS.md",
+        "results/overlap-families/proofs/A71-PRO050-ADOPTION.md",
+        "results/transportation-developments/proofs/A71-DOMINANT-SPLITTING.md"
+      ]
+    },
+    {
+      "id": "A72",
+      "acceptance_sha256": "982790d4c2211b67de7cf1a962eb3d64647b2c0c228383408c52181f1aea9c69",
+      "internal_gate_sha256": "965032b151f93b961e31e9dfeb1a5381a533739a4737a7fce3b2a276fa51efc7",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/transportation-developments/proofs/A72-CONSTRAINED-PARENT-v2.md"
+      ]
+    },
+    {
+      "id": "A73",
+      "acceptance_sha256": "7a3dcd21f1684140b52de61fd3c68833cbd482680f8744d6242c34c4756e09f0",
+      "internal_gate_sha256": "fd80df64b8963912ab9587df5c323fcf4608ca83e82ff26318f8858972f687c0",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/transportation-developments/proofs/A73-ALL-MARGIN.md",
+        "results/transportation-developments/proofs/A73-PRIMITIVE-ADOPTION.md"
+      ]
+    },
+    {
+      "id": "A74",
+      "acceptance_sha256": "45c376ea36d314b2a654212306232ff02ee22df076dad88c155fc1bc45ab1554",
+      "internal_gate_sha256": "9ddcef8cb9ebf56f02f2cda77d1a42ff17cb51baca86cdda1e3b083bb947fa65",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/transportation-developments/proofs/A74-COMPLETE-INTERSECTIONS.md",
+        "results/transportation-developments/proofs/A74-PAIR-SUM-ADOPTION.md"
+      ]
+    },
+    {
+      "id": "A75",
+      "acceptance_sha256": "462a34274db5407912cd23f0d1da8bc57ad79d4b50fde6281a37adceabc82f73",
+      "internal_gate_sha256": "0dec14a62bffa8e803f5ed38e9b2d0b61c1683417027898f08af13fa0a6ee9ea",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/transportation-developments/proofs/A75-HIGH-BAND-CONTRACTION-v2.md",
+        "results/transportation-developments/proofs/A75-ONE-PAIR-REDUCTION-v2.md"
+      ]
+    },
+    {
+      "id": "A76",
+      "acceptance_sha256": "cde8682eedfa5371a6f8d5f7a39556cbca8d5ce79fb764237dc92ff963ffb170",
+      "internal_gate_sha256": "08e64cb69c356e7f6eca1f124c4a4ee6dd61e448d419f3cbd7f4380a1e939724",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/transportation-developments/proofs/A76-STAR-COMPOSITION-v2.md",
+        "results/transportation-developments/proofs/A76-TRIANGLE-FREE-REDUCTION-v1.md"
+      ]
+    },
+    {
+      "id": "A77",
+      "acceptance_sha256": "4e983659d9691f16429aae5a24c47b5d39f07cc2a87c6a7f3c0b6ae3adbb1ade",
+      "internal_gate_sha256": "07a51d32497d3234df351b68d3d5caeb564ba35f453e65e2b5f259015253220f",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/transportation-developments/proofs/A77-DOMINANT-COLUMN-ADOPTION-v1.md",
+        "results/transportation-developments/proofs/A77-HIGH-CORE-OBSTRUCTION-v1.md",
+        "results/transportation-developments/proofs/A77-HIGH-LEAF-CONTRACTION-v1.md",
+        "results/transportation-developments/proofs/A77-LOW-ENVELOPE-v2.md",
+        "results/transportation-developments/proofs/A77-UNIFORM-G-v1.md"
+      ]
+    },
+    {
+      "id": "A78",
+      "acceptance_sha256": "d9080e3b6740416da9c173cf2bb8cc1d962549898c2114b2bb92e8785ce8bfdd",
+      "internal_gate_sha256": "e7a6f544929ba2c16a27531e005d5ef6e5fdddd8bd3fb66a3881fd0a4b1ea00e",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/transportation-developments/proofs/A78-HIGH-STAR-ADOPTION-v1.md"
+      ]
+    },
+    {
+      "id": "A79",
+      "acceptance_sha256": "4f3f91232cad4b930a3933bb7ac4a9f4696b74a758ea1fbb448dd6114cf9682b",
+      "internal_gate_sha256": "c794d9aa568fe36869aee071e5e53ecda58121e80835e63d0790513fafbb1c93",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/transportation-developments/proofs/A79-UNIFORM-TRIANGLE-v1.md"
+      ]
+    },
+    {
+      "id": "A80",
+      "acceptance_sha256": "a05b629872651a919036b7a545925391b3a4bce00c8f1b0d0bd87e806623dddd",
+      "internal_gate_sha256": "6d6ef30a74019008d99b31a04b87c6819d5a743c0c025573b5ce331b7b38baa0",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/root-square/proofs/A80-COLLAR-EXTENSION-v1.md"
+      ]
+    },
+    {
+      "id": "A81",
+      "acceptance_sha256": "6fe75329f19f7ea0dbd6dcaabba56def3428c3ca46d0e6cdabaad8ac157cdf60",
+      "internal_gate_sha256": "c61825facf273f65c6fd02df6cdd3b3198c6179574b387aadd9b5687fa98582b",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/root-square/proofs/A81-INDEX-AUGMENTATION-v2.md",
+        "results/root-square/proofs/A81-ORIGINALS-AND-GEOMETRY-v1.md"
+      ]
+    },
+    {
+      "id": "A82",
+      "acceptance_sha256": "54d94d2c3ac309d8c5c674fe4e5c421e4e949333e1e4106ea223758e0d7a0036",
+      "internal_gate_sha256": "35405d452abff341892e8b12ba139b4c05194221f1c37c101ef97a420c508199",
+      "classification": "Previously accepted internally; exact public curation passed internal review.",
+      "proofs": [
+        "results/four-letter/proofs/A82-FOUR-LETTER-HEIGHT-v1.md"
+      ]
+    },
+    {
+      "id": "A64 complete table addendum",
+      "adoption_sha256": "a2f5f739f030a48a084920f44d14109001b13d9fd2dbe61ba3947833f83c2fe6",
+      "gate_sha256": "476d86936914112af4403f312ce1efe47bdb4a7cf24f364b2af5a86809be4423",
+      "public_proof": "results/transportation-developments/proofs/C22-FULL-TABLE.md"
+    },
+    {
+      "id": "A83",
+      "classification": "Accepted internally at the actual gate; exact public curation reviewed.",
+      "proofs": [
+        "results/overlap-families/proofs/A83-ORIGINALS-AND-BASES-v1.md",
+        "results/overlap-families/proofs/A83-OVERLAP-GENERATORS-v1.md",
+        "results/overlap-families/proofs/A83-PROOF-CERTIFICATES.md",
+        "results/overlap-families/proofs/A83-THREE-FACTOR-BOUNDARY-v1.md"
+      ],
+      "acceptance_sha256": "9f98323ffd70b75d718916357a210cfcb7f788067f4511be33e877bb4b89ae7f",
+      "internal_gate_sha256": "da4dd1c7c065cacccad93353e079875ffb731681d23be78d2f1d78992e14a98a"
+    }
+  ],
+  "claim_limit": "Internal source acceptance and current public proof custody are distinct; no human review/formal/novelty claim."
+}

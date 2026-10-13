@@ -1,0 +1,42 @@
+{
+  "attempt": "cert-v1-price-001",
+  "controls": "Full fields and derivative failures; no selected-slot-only checks",
+  "finite_cases_supply_no_unbounded_quantifier": true,
+  "free_index_identities": 10,
+  "intermediate_ranges": {
+    "N": [
+      1,
+      12
+    ],
+    "a": [
+      1,
+      10
+    ],
+    "convolution_a": [
+      0,
+      6
+    ],
+    "convolution_b": [
+      0,
+      7
+    ],
+    "far_n": [
+      2,
+      6
+    ],
+    "gain_p": [
+      1,
+      5
+    ],
+    "return_T": [
+      2,
+      14
+    ]
+  },
+  "phase": "price",
+  "rss_cap_bytes": 1073741824,
+  "schema": "a83-overlap-certificates/v1",
+  "scientific_oracle_calls": 0,
+  "source_expected_arrays_read": 0,
+  "wall_cap_seconds": 240
+}

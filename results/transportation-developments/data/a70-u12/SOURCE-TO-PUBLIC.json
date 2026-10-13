@@ -1,0 +1,92 @@
+{
+  "schema": "a70-u12-source-to-public/v1",
+  "status": "CURATED_ACCEPTED_SCOPE_WITH_ORIGINATING_SOURCE_CREDIT",
+  "mappings": [
+    {
+      "public_path": "proofs/A70-PRO049-U12-FULL-PROOF.md",
+      "origin": "Completed Pro049 U12 full proof",
+      "origin_sha256": "8bf014ee64307fad5c527f71e42458c9cb1afe2e1975aa96adf093540735bc96",
+      "projection": "All mathematical sections and appendices exact; remove only one private mission/operator paragraph and final lifecycle sentence; add source/status wrapper.",
+      "public_bytes": 23083,
+      "public_sha256": "c5186a7e625a190a27ab346d8eb7e0514c617ecc653ac84d73adc24ab669a828",
+      "curation_history": [
+        {
+          "previous_public_sha256": "63c42fa5ed2c9d2ecae371043bb7b42c0a5aa3b9d019b9d90252d45918b6da26",
+          "previous_public_bytes": 23231,
+          "reason": "R2 full-prefix/namespace/GFM curation; original source identity unchanged."
+        },
+        {
+          "previous_public_sha256": "5d36a161c3c8375fa2c28134ae96fde58128a5ddf0faa259557ad1293accfb7e",
+          "previous_public_bytes": 23085,
+          "reason": "Only root-approved final Markdown whitespace; original source identity unchanged."
+        }
+      ]
+    },
+    {
+      "public_path": "proofs/A70-PRO049-U12-ADOPTION.md",
+      "origin": "A70 root-science/PRO049-U12-ADOPTION.md",
+      "origin_sha256": "b1853b55950c5e8d5e9915e49c7ec3d9556febccc2af78fd36835c6ad1a3447a",
+      "projection": "Existing public curation retained; add explicit complete source/data/checker closure links and exact verification limits.",
+      "public_bytes": 9223,
+      "public_sha256": "20d1115b9647bd30f06c2350eeb69f560cfa6bdaa0052aaff7db62a6b07381cc",
+      "curation_history": [
+        {
+          "previous_public_sha256": "650292b7e819f83b9665789bc3761c7b055333ccea82f2968c5cd60712b7fe95",
+          "previous_public_bytes": 8575,
+          "reason": "R2 full-prefix/namespace/GFM curation; original source identity unchanged."
+        }
+      ]
+    },
+    {
+      "public_path": "code/a70-u12/verify_a70_u12.py",
+      "origin": "A70 verification/pro049/verify_v1.py",
+      "origin_sha256": "e6ba4211edba01cee3233f06bcbe6a1493d56ec205f9781a603c02b0128d2214",
+      "projection": "37 complete mathematical functions/classes retained with identical AST and source segments; portable source pins/CLI, complete data regeneration and archive-only vector arithmetic added. Remove all counting/dispatch/calibration/private-workspace routines.",
+      "public_bytes": 52905,
+      "public_sha256": "c08392d92ed9eb062732cef8d67e56830a182236acc178f65130d6f2b8525f64"
+    },
+    {
+      "public_path": "data/a70-u12/EXPECTED.json",
+      "origin": "A70 verification/pro049/EXPECTED.json",
+      "origin_sha256": "a6037e31bf7faa6e0f579ac5f750148799706769a34faf90b55ea95905582abc",
+      "projection": "Exact original bytes.",
+      "public_bytes": 5518,
+      "public_sha256": "a6037e31bf7faa6e0f579ac5f750148799706769a34faf90b55ea95905582abc"
+    },
+    {
+      "public_path": "data/a70-u12/RECORDED-CONTROLS.json",
+      "origin": "A70 verification/pro049/evidence/vectors-001.json",
+      "origin_sha256": "17db3e0d52dfad2bdebed641e9dd63a8bc1452dc048dd561cbe117b99ad25821",
+      "projection": "All 16 complete original grade records retain literal partitions and three exact count values; remove process timings/private closures/receipt paths; mark reuse.",
+      "public_bytes": 7885,
+      "public_sha256": "c905c9d90d1927130c3c9a23be6cb0e7a55f1484a119663526a58b0fa9a771d0"
+    },
+    {
+      "public_path": "data/a70-u12/CERTIFICATE-DATA.json",
+      "origin": "Trusted A70 root mathematical reconstruction",
+      "origin_sha256": "e6ba4211edba01cee3233f06bcbe6a1493d56ec205f9781a603c02b0128d2214",
+      "projection": "Fresh exact regeneration from complete original EXPECTED data, excluding only local timing fields.",
+      "public_bytes": 169648,
+      "public_sha256": "e9733cc2ca95bfb0049bd7e773dda503ad7e316ffd2bf8bdacdb4e6f489664c7"
+    },
+    {
+      "public_path": "data/a70-u12/GENERATING-FUNCTION.json",
+      "origin": "Pro049 U12 full G and A70 rational-series verification",
+      "origin_sha256": "8bf014ee64307fad5c527f71e42458c9cb1afe2e1975aa96adf093540735bc96",
+      "projection": "All nine signed terms, full denominator powers, complete 16-cell half-open series and cleared numerator identity.",
+      "public_bytes": 27024,
+      "public_sha256": "4dd2d6cd251b8cffc86cfb8021c86ce6f0ddbb1070747c03b913a6178726d461"
+    },
+    {
+      "public_path": "code/a70-u12/README.md",
+      "origin": "A83 portable dependency closure explanation",
+      "projection": "Exact domains, boundaries, provenance, commands and check limits.",
+      "public_bytes": 4779,
+      "public_sha256": "e1705b1fe41dff063b3a6e391fc22f962c71ab108befc25e1c347254d5f4c75c"
+    }
+  ],
+  "originating_provider_code_executed": false,
+  "new_lr_or_physical_counts": 0,
+  "new_additive_or_unused_claims": 0,
+  "root_retains_scientific_judgment": true
+}

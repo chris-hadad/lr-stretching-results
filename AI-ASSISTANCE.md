@@ -386,7 +386,10 @@ proved the pruning implication, reconstructed the complete original normal
 system and checked the exact field against the accepted scalar and lattice
 records. The [whole theorem](results/rank-six-positivity/PROOF.md) derives
 
-    c1(H) >= (1/2000000) * sum_(actual edges F of H) length_Z(F)
+
+```text
+c1(H) >= (1/2000000) * sum_(actual edges F of H) length_Z(F)
+```
 
 for every nonempty whole hive of ordinary rank at most six. Positive-weight
 cells are retained before the field is tested; excluded negative local rows
@@ -473,3 +476,25 @@ a result relies on a cited theorem or a retained historical computation.
 
 [Back to the main README](README.md) · [Results and open questions](RESULTS.md) ·
 [Reproduction guide](REPRODUCING.md)
+
+## Complete family proofs and formal components, October 2026
+
+Later exchanges produced all-rank two-row-inner positivity, complete transport
+first-jet compensation, selected overlap families, root-square operations and
+a complete four-letter height cover. The [dated mathematical record](results/research-progress/README.md)
+links each accepted scope, failed route and public reproduction limit. Complete
+parents, physical zeros, strict shifts and same-coefficient compensations were
+retained when negative components challenged proposed proof mechanisms.
+The exported programs are trusted separately authored root verifiers; returned
+provider programs were kept inert and are not included here.
+
+Native Claude formalization also made concrete progress. Closed-session audits
+through G4 distinguish kernel proofs, compiled native checks, stated soundness
+and conditional results with unproved coverage premises. A complete rank-at-most-four
+formal result is reported on the actual LR/hive statement. G4 adds audited
+support-checker soundness; its c5 pilot remains conditional on CoverC5, with a
+partial audit, and repaired coverage soundness remains STATED. Whole rank-six
+still reaches unproved correction/coefficient placeholders; the old c6 package
+was not silently repinned or completed. [The formal status page](results/rank-six-positivity/FORMALIZATION.md)
+explains exactly what this progress certifies. It adds no new mathematical
+rank-four coverage and implies no whole-rank-six kernel certification.

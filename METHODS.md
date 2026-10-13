@@ -161,3 +161,23 @@ determine every tight-row closure. This supplies a practical independent check
 and witness constructor without the large field data. The
 [algorithm guide](results/rank-six-positivity/ALGORITHMS.md) explains the scalar
 recurrences, complete domains, original-lattice operations and field search.
+
+## Complete-operation methods after rank six
+
+The [new family packages](results/research-progress/README.md) use several
+independent mechanisms. Marked cycles and symmetric unimodality sign the entire
+two-row transfer before a terminating majorization cover. The full transport
+wall induction makes every higher-class first jet vanish at its original
+offset, while the C22 inverse identifies complete tables without deleting cells.
+Threshold-overlap graphs organize the full singleton/pair/triple compensation;
+convex profile comparisons and complete high-tail payment retain one common
+coefficientwise comparison at every ordinary index.
+
+The root-square height proof keeps the full weak-row reflection and adverse
+clipping population. Its fixed-wall raw-index proof embeds the entire J component
+and pays the first negative complement gain at the same coefficient. The
+four-letter proof retains three ballot families, coupled physical capacities
+and the complete summed moment; finite telescopers, rational majorants and
+consecutive-factor recurrences extend actual paid bases uniformly in m.
+Each [module guide](REPRODUCING.md#later-complete-family-packages) separates a
+complete argument, indispensable certificate, fresh export and supporting sample.

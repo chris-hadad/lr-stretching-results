@@ -1,0 +1,289 @@
+{
+  "schema": "a55-a57-public-mathematical-dependency-provenance/v1",
+  "files": [
+    {
+      "path": "results/research-progress/proofs/A55-head-split-PROOF.md",
+      "bytes": 6137,
+      "sha256": "68f5392f974c3e4c74ebf9788a2b3352bb7b687b8822ff666618f970b248ef9f",
+      "original_sha256": "d3bc8a694a5fd758b0367b3df485c1b5666bfc7ac1b555151f3549d7f2c1bc34",
+      "original_mathematical_artifact": "methods/astra055-2026-09-26/head-split/PROOF.md",
+      "transformation": "Retain complete mathematical sections1\u20134; replace historical gate/operator introduction and final route directive with scoped public evidence links.",
+      "curation_history": [
+        {
+          "previous_included_sha256": "b8e863487af5a45a4c66525c214c62580e308644ed45389fcc95e697654acd3c",
+          "previous_included_bytes": 5818,
+          "reason": "Exact R2 current public bytes; mathematical data/code remain unchanged."
+        }
+      ]
+    },
+    {
+      "path": "results/research-progress/proofs/A56-head-split-PROOF.md",
+      "bytes": 9790,
+      "sha256": "a911bfff30c010f020f63a11a480d7b9af6b8d11648554eb5427f90352f9601e",
+      "original_sha256": "c57992cf9f592a090cd6aa164b9c00c6527d3ee7d4336c5239445bf8e94972eb",
+      "original_mathematical_artifact": "methods/astra056-2026-09-26/head-split/PROOF.md",
+      "transformation": "Retain all original/fan/linearity/certificate mathematics; replace private gate and prospective dispatch/price prose with portable proof/data links and unchanged open scope.",
+      "curation_history": [
+        {
+          "previous_included_sha256": "7e6fa375975e32bf3ef26bd7e887d0c3e1c04d359e1e09af0ea596e1189fe75c",
+          "previous_included_bytes": 9147,
+          "reason": "Exact R2 current public bytes; mathematical data/code remain unchanged."
+        }
+      ]
+    },
+    {
+      "path": "results/research-progress/proofs/A57-U11-COMPONENT-PROOF.md",
+      "bytes": 22072,
+      "sha256": "3efc5c3ec934db423d9ea386d73ec89e48bdb057d5ef806a56066509b13a45bd",
+      "original_sha256": "7018c573dad04ec54a8f7f762c53e4cc0ecf418074de76da90cb14e43d16f358",
+      "original_mathematical_artifact": "methods/astra057-2026-09-26/source-processing/material-source/pro045/7018c573dad04ec54a8f7f762c53e4cc0ecf418074de76da90cb14e43d16f358-U11-SUPPORT-CHANGING-POSITIVE-COMPONENT.md",
+      "transformation": "Complete source mathematical Sections1\u20139; remove mission/operator introduction and procedural Sections10\u201311; preserve all all-rank constructors, physical rows, metric, induction, genericity, extraction and unsigned residual limits.",
+      "curation_history": [
+        {
+          "previous_included_sha256": "cce2744932b4df02e1d8a30d1efc5e8477c58a638ac995928a745b0e878282f4",
+          "previous_included_bytes": 21949,
+          "reason": "Exact R2 current public bytes; mathematical data/code remain unchanged."
+        }
+      ]
+    },
+    {
+      "path": "results/research-progress/proofs/A57-TWO-SIDED-VALUATION.md",
+      "bytes": 3787,
+      "sha256": "d010844a3b158e68b9f2b324e80c40228f080bbf29c52a9da5f4a42e995ae291",
+      "original_sha256": "bcb115c8ef63f2cad71c88b00826374b9aa288ee4fe40a818e34f7bab0e275ec",
+      "original_mathematical_artifact": "methods/astra055-2026-09-26/source-processing/material-source/pro045/bcb115c8ef63f2cad71c88b00826374b9aa288ee4fe40a818e34f7bab0e275ec-U04-COMPLETE-FIBER-AND-STAR-OBSTRUCTION.md",
+      "transformation": "Complete Section2 only, including proof, definitions, every primitive quotient cofacet map and inherited-metric formula; unrelated provider claims excluded explicitly.",
+      "curation_history": [
+        {
+          "previous_included_sha256": "58e5301c0c7caecdb16428c739dca9b33bbafa4976bb0184c4711528639c04ea",
+          "previous_included_bytes": 3759,
+          "reason": "Exact R2 current public bytes; mathematical data/code remain unchanged."
+        },
+        {
+          "previous_included_sha256": "ef0b09bace7e8156c9227c25f3b195f90ec419cfb8a6752fd168d64a497221be",
+          "previous_included_bytes": 3788,
+          "reason": "Only final document whitespace/current source-map binding; numerical/code bytes unchanged."
+        }
+      ]
+    },
+    {
+      "path": "results/research-progress/proofs/A57-P3-REALIZATION.md",
+      "bytes": 3833,
+      "sha256": "daab2625949356db2565219810e5f5bc08a7211bbab7183d151d51d15f29ed51",
+      "original_sha256": "045efb11a95cb9f5254b590f3c125e4ed111f128588612f531b7859226608d7a",
+      "original_mathematical_artifact": "methods/astra057-2026-09-26/component-check/P3-COMMON-RESULT.md",
+      "transformation": "Preserve whole original-row/height/balance/shift/degree and pairing limits; remove process timings/operator receipts, adapt exact certificate and checker links."
+    },
+    {
+      "path": "results/research-progress/data/a55/PILOT.json",
+      "bytes": 45947,
+      "sha256": "3b6cc5dc8956b61e8cc5883fed043fbd847f09369d2568550159e8e46eb0c9c2",
+      "original_sha256": "3b6cc5dc8956b61e8cc5883fed043fbd847f09369d2568550159e8e46eb0c9c2",
+      "original_mathematical_artifact": "methods/astra055-2026-09-26/head-split/PILOT.json",
+      "transformation": "Exact mathematical bytes unchanged"
+    },
+    {
+      "path": "results/research-progress/data/a55/HEAD-SPLIT-VERIFICATION.json",
+      "bytes": 1020,
+      "sha256": "7d5c0997a96457d07e94b684cd773c5c964cb296de88e6f992d5e302963cbeca",
+      "original_sha256": "1f479fd4d7d3ce07456d46245f34073d0d9f9f561c536d9f624b8f8e41cb0343",
+      "original_mathematical_artifact": "methods/astra055-2026-09-26/VERIFICATION.json",
+      "transformation": "Exact head_split object selection; unrelated domains/native operator metadata excluded."
+    },
+    {
+      "path": "results/research-progress/data/a56/RAYS5.json",
+      "bytes": 2970,
+      "sha256": "d38c2f18570eb26f41f908aa7033fac0d2d277196396cc9de5f6f7c389adf333",
+      "original_sha256": "d38c2f18570eb26f41f908aa7033fac0d2d277196396cc9de5f6f7c389adf333",
+      "original_mathematical_artifact": "methods/astra056-2026-09-26/head-split/RAYS5.json",
+      "transformation": "Exact mathematical bytes unchanged"
+    },
+    {
+      "path": "results/research-progress/data/a56/RAYS5-INDEPENDENT.json",
+      "bytes": 1677,
+      "sha256": "172caa5baa165f1883d1ad1bdf9a794c4e7c699a4ccc9f5c330f5ec5043f6f0c",
+      "original_sha256": "172caa5baa165f1883d1ad1bdf9a794c4e7c699a4ccc9f5c330f5ec5043f6f0c",
+      "original_mathematical_artifact": "methods/astra056-2026-09-26/head-split/RAYS5-INDEPENDENT.json",
+      "transformation": "Exact mathematical bytes unchanged"
+    },
+    {
+      "path": "results/research-progress/data/a56/RAYS4.json",
+      "bytes": 619,
+      "sha256": "f029e29dc323cb0a720a687740503d762ac898ba19325dbb51628c8d8173850b",
+      "original_sha256": "f029e29dc323cb0a720a687740503d762ac898ba19325dbb51628c8d8173850b",
+      "original_mathematical_artifact": "methods/astra056-2026-09-26/head-split/RAYS4.json",
+      "transformation": "Exact mathematical bytes unchanged"
+    },
+    {
+      "path": "results/research-progress/data/a56/RAY5-POLYNOMIALS.json",
+      "bytes": 664500,
+      "sha256": "0623a061f9e9fb8be2193712cab78e79788381bfcc8259e858a3909c799ad2a4",
+      "original_sha256": "0623a061f9e9fb8be2193712cab78e79788381bfcc8259e858a3909c799ad2a4",
+      "original_mathematical_artifact": "methods/astra056-2026-09-26/head-split/RAY5-POLYNOMIALS.json",
+      "transformation": "Exact mathematical bytes unchanged"
+    },
+    {
+      "path": "results/research-progress/data/a56/RAY4-POLYNOMIALS.json",
+      "bytes": 42748,
+      "sha256": "3c4b29a6e4df653a557e8d141a516b5b28e1a4cecfc2444a0a5893f11c52719e",
+      "original_sha256": "3c4b29a6e4df653a557e8d141a516b5b28e1a4cecfc2444a0a5893f11c52719e",
+      "original_mathematical_artifact": "methods/astra056-2026-09-26/head-split/RAY4-POLYNOMIALS.json",
+      "transformation": "Exact mathematical bytes unchanged"
+    },
+    {
+      "path": "results/research-progress/data/a56/VERIFICATION.json",
+      "bytes": 66952,
+      "sha256": "4a62fdd08fba2444e54a3a3f7e470953644a750fe9d02d0909820b13d2e7bcdd",
+      "original_sha256": "4a62fdd08fba2444e54a3a3f7e470953644a750fe9d02d0909820b13d2e7bcdd",
+      "original_mathematical_artifact": "methods/astra056-2026-09-26/head-split/VERIFICATION.json",
+      "transformation": "Exact mathematical bytes unchanged"
+    },
+    {
+      "path": "results/research-progress/data/a57/U11-COLLAR-FAMILY.json",
+      "bytes": 1494428,
+      "sha256": "c49d1e2e25d00226ea2b411e36334178af89280d90a2ec9d9942c3fefc1695e9",
+      "original_sha256": "c49d1e2e25d00226ea2b411e36334178af89280d90a2ec9d9942c3fefc1695e9",
+      "original_mathematical_artifact": "methods/astra057-2026-09-26/component-check/inputs/U11-COLLAR-FAMILY.json",
+      "transformation": "Exact mathematical bytes unchanged"
+    },
+    {
+      "path": "results/research-progress/data/a57/U11-GEOMETRY-FAMILY.json",
+      "bytes": 12581643,
+      "sha256": "ed11cfffce059f13f0a98d121eb5e2366e32f06deb716c348311de25c5e0ede4",
+      "original_sha256": "ed11cfffce059f13f0a98d121eb5e2366e32f06deb716c348311de25c5e0ede4",
+      "original_mathematical_artifact": "methods/astra057-2026-09-26/component-check/inputs/U11-GEOMETRY-FAMILY.json",
+      "transformation": "Exact mathematical bytes unchanged"
+    },
+    {
+      "path": "results/research-progress/data/a57/U11-SIMPLEX-PAIR-VALUES.json",
+      "bytes": 98748,
+      "sha256": "ba6ad5d9ad31ec987e4dd4e4c00ef418ef6cb91f41be162e64df86086900bbca",
+      "original_sha256": "ba6ad5d9ad31ec987e4dd4e4c00ef418ef6cb91f41be162e64df86086900bbca",
+      "original_mathematical_artifact": "methods/astra057-2026-09-26/component-check/inputs/U11-SIMPLEX-PAIR-VALUES.json",
+      "transformation": "Exact mathematical bytes unchanged"
+    },
+    {
+      "path": "results/research-progress/data/a57/exact-check-v1.json",
+      "bytes": 6222,
+      "sha256": "771944d750dc3e61b6358f0ceaa139d652d77e2fa40dbf6b5007a1622dd3f9e2",
+      "original_sha256": "771944d750dc3e61b6358f0ceaa139d652d77e2fa40dbf6b5007a1622dd3f9e2",
+      "original_mathematical_artifact": "methods/astra057-2026-09-26/component-check/certificates/exact-check-v1.json",
+      "transformation": "Exact mathematical bytes unchanged"
+    },
+    {
+      "path": "results/research-progress/data/a57/p3-common-v1.json",
+      "bytes": 63641,
+      "sha256": "5f64cd5ea904effbaa9ba8b6984a828d8c97ba2e54895c1208c44214e8f1e2aa",
+      "original_sha256": "5f64cd5ea904effbaa9ba8b6984a828d8c97ba2e54895c1208c44214e8f1e2aa",
+      "original_mathematical_artifact": "methods/astra057-2026-09-26/component-check/certificates/p3-common-v1.json",
+      "transformation": "Exact mathematical bytes unchanged"
+    },
+    {
+      "path": "results/research-progress/data/a57/p3-common-verify-v1.json",
+      "bytes": 829,
+      "sha256": "59a6aeed4799280e2d971e20cbd903746e1467baa126f1013a29d77ab42e1417",
+      "original_sha256": "59a6aeed4799280e2d971e20cbd903746e1467baa126f1013a29d77ab42e1417",
+      "original_mathematical_artifact": "methods/astra057-2026-09-26/component-check/certificates/p3-common-verify-v1.json",
+      "transformation": "Exact mathematical bytes unchanged"
+    },
+    {
+      "path": "results/research-progress/data/a57/p3-component-v1.json",
+      "bytes": 6039,
+      "sha256": "8d92326338a554d87579f78b5d5de05ba7e0423f28eb00c0af3766afa18f7e44",
+      "original_sha256": "8d92326338a554d87579f78b5d5de05ba7e0423f28eb00c0af3766afa18f7e44",
+      "original_mathematical_artifact": "methods/astra057-2026-09-26/component-check/certificates/p3-component-v1.json",
+      "transformation": "Exact mathematical bytes unchanged"
+    },
+    {
+      "path": "results/research-progress/data/a57/p3-probe-v1.json",
+      "bytes": 80951,
+      "sha256": "1b0236b46c75a3b2da0efae93cb1c2b3c23331cee30affc6b2ea0a39f10c5fc0",
+      "original_sha256": "1b0236b46c75a3b2da0efae93cb1c2b3c23331cee30affc6b2ea0a39f10c5fc0",
+      "original_mathematical_artifact": "methods/astra057-2026-09-26/component-check/certificates/p3-probe-v1.json",
+      "transformation": "Exact mathematical bytes unchanged"
+    },
+    {
+      "path": "results/research-progress/data/a57/p3-dual-v2.json",
+      "bytes": 8605,
+      "sha256": "425b5dfac18e74d799abdf4c54bd8ffe0de423ec6c99e0aaff68fb52403fdad8",
+      "original_sha256": "425b5dfac18e74d799abdf4c54bd8ffe0de423ec6c99e0aaff68fb52403fdad8",
+      "original_mathematical_artifact": "methods/astra057-2026-09-26/component-check/certificates/p3-dual-v2.json",
+      "transformation": "Exact mathematical bytes unchanged"
+    },
+    {
+      "path": "results/research-progress/data/a57/GLOBAL-CONTROLS.json",
+      "bytes": 25418,
+      "sha256": "3c8ebbeb3f30ab58587c8f679fb6eee0dd459bff04adb56b58a193636f03f3ee",
+      "original_sha256": "3c8ebbeb3f30ab58587c8f679fb6eee0dd459bff04adb56b58a193636f03f3ee",
+      "original_mathematical_artifact": "methods/astra057-2026-09-26/root-science/GLOBAL-CONTROLS.json",
+      "transformation": "Exact mathematical bytes unchanged"
+    },
+    {
+      "path": "results/research-progress/code/a55_a56/enumerate_width_rays.cpp",
+      "bytes": 2456,
+      "sha256": "980b2b9af99149c8f73377a6dc5b0a0a65f4cdc5273df0168359ea31ebc93677",
+      "original_sha256": "980b2b9af99149c8f73377a6dc5b0a0a65f4cdc5273df0168359ea31ebc93677",
+      "original_mathematical_artifact": "methods/astra056-2026-09-26/head-split/rays_check_v1.cpp",
+      "transformation": "Trusted root independent fraction-free full intersection enumerator, unchanged."
+    },
+    {
+      "path": "results/research-progress/code/a55_a56/flow_counts.py",
+      "bytes": 3132,
+      "sha256": "e1a975460ff2c45dcb0876aaff5803d684b4ef037c1fb8dea0df05b5b2c4111f",
+      "original_sha256": "e1a975460ff2c45dcb0876aaff5803d684b4ef037c1fb8dea0df05b5b2c4111f",
+      "original_mathematical_artifact": "methods/astra056-2026-09-26/head-split/prove_rays_v1.py",
+      "transformation": "Trusted root complete interval/count/Newton/triple helpers, unchanged; replay imports helpers only, no main execution."
+    },
+    {
+      "path": "results/research-progress/code/a57/check_u11.py",
+      "bytes": 20071,
+      "sha256": "719a891d4522a465b47ddf178cf4120e7106ad639c1da71e6c4f1b5dfa26d527",
+      "original_sha256": "342b2a697f89bbee5ec50a4359fdd2d2226bf0726e423eb24517d997a0a52dd6",
+      "original_mathematical_artifact": "methods/astra057-2026-09-26/component-check/executed-v5.py",
+      "transformation": "Trusted root checker arithmetic unchanged; portable package-relative input paths and explicit output directory only."
+    },
+    {
+      "path": "results/research-progress/code/a57/check_p3_parent.py",
+      "bytes": 6134,
+      "sha256": "cc1009c23fca54b191ba2a904729186864a7382e646d26f28af3f26913045a4e",
+      "original_sha256": "ee422ccab419e4ad0c063c28a5cb0af79d5e2ff0cd33e011ff2780d4e703ef68",
+      "original_mathematical_artifact": "methods/astra057-2026-09-26/component-check/p3_common_verify_v1.py",
+      "transformation": "Trusted root certificate-only checker arithmetic unchanged; portable data/output paths and directory creation only."
+    },
+    {
+      "path": "results/research-progress/code/a57/check_p3_component.py",
+      "bytes": 7953,
+      "sha256": "b9e68521b87ca2ca5dfc9df939028f2c3af1dda98d6c15779974e155cd5402b5",
+      "original_sha256": "a07efa0915165506fd7bc63d359f1fff8f48afada95b254e8f5964205e2cb4f5",
+      "original_mathematical_artifact": "methods/astra057-2026-09-26/component-check/p3_component_v2.py",
+      "transformation": "Trusted root complete balance/shift checker arithmetic unchanged; import/path/output adapters only."
+    },
+    {
+      "path": "results/research-progress/A55-A57-REPRODUCIBILITY.md",
+      "bytes": 4442,
+      "sha256": "4796429618468e319f496733ed656fded3cdad7e625af6bd62b3e227eae39c35",
+      "original_sha256": null,
+      "original_mathematical_artifact": "New original portable export checker/documentation",
+      "transformation": "New original portable exact checker or reproduction documentation; no provider code used."
+    },
+    {
+      "path": "results/research-progress/code/a55_a56/check_initial_split.py",
+      "bytes": 10153,
+      "sha256": "498d11f8e02df2bdacb62a293e677975b367ca291cb19d17b1336898c964a267",
+      "original_sha256": null,
+      "original_mathematical_artifact": "New original portable export checker/documentation",
+      "transformation": "New original portable exact checker or reproduction documentation; no provider code used."
+    },
+    {
+      "path": "results/research-progress/code/a57/check_fixed_boundary.py",
+      "bytes": 2889,
+      "sha256": "966be40687986b78b1e750df674e4a108f63d8ab66447b10c70407b488c8dbea",
+      "original_sha256": null,
+      "original_mathematical_artifact": "New original portable export checker/documentation",
+      "transformation": "New original portable exact checker or reproduction documentation; no provider code used."
+    }
+  ],
+  "self_excluded": true,
+  "provider_code_executed": false,
+  "claim_status": "Existing accepted A55/A56/A57 mathematical scopes only; unrelated provider claims remain source-qualified."
+}

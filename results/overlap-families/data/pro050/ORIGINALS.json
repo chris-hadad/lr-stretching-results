@@ -1,0 +1,176 @@
+{
+  "calibration": {
+    "hard_grades": [
+      11
+    ],
+    "small_grades": [
+      1,
+      2,
+      3
+    ]
+  },
+  "construction": "lambda_n=d_n; lambda_i=lambda_(i+1)+d_i-e_i; mu_i=lambda_i-d_i; lambda outer",
+  "determining_grades": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "frozen": true,
+  "originals": [
+    {
+      "L": 3,
+      "b": 4,
+      "c": 3,
+      "g": 2,
+      "h": 1,
+      "id": "S1",
+      "j": 2,
+      "overlaps": [
+        1,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "prior_case": "U>0, delta>0, U>V: D=2L+3",
+      "prior_degree": 9,
+      "s": 4,
+      "widths": [
+        4,
+        5,
+        6,
+        4,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "L": 4,
+      "b": 4,
+      "c": 4,
+      "g": 2,
+      "h": 1,
+      "id": "S2",
+      "j": 2,
+      "overlaps": [
+        1,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "prior_case": "U>0, delta=0, A>0, U=V: D=2L+1",
+      "prior_degree": 9,
+      "s": 2,
+      "widths": [
+        4,
+        4,
+        4,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "prior_degree_basis": "U11-03 ordered actual-degree cases; not fitted from scalar values",
+  "schema": "a71-pro050-originals/v2",
+  "selection_authority": "root A71 fresh prospective v2 roster; S1 unchanged, S2 replaced before any original count",
+  "transition": {
+    "auxiliary_domain_unchanged": true,
+    "new_S2": {
+      "L": 4,
+      "b": 4,
+      "c": 4,
+      "g": 2,
+      "h": 1,
+      "id": "S2",
+      "j": 2,
+      "overlaps": [
+        1,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "prior_case": "U>0, delta=0, A>0, U=V: D=2L+1",
+      "prior_degree": 9,
+      "s": 2,
+      "widths": [
+        4,
+        4,
+        4,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    "old_S2": {
+      "L": 4,
+      "b": 3,
+      "c": 3,
+      "g": 2,
+      "h": 1,
+      "id": "S2",
+      "j": 1,
+      "overlaps": [
+        1,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "prior_case": "U>0, delta=0, A=0, H>0, U=V: D=2L+1",
+      "prior_degree": 9,
+      "s": 1,
+      "widths": [
+        3,
+        3,
+        3,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "old_S2_not_added_to_population": true,
+    "old_S2_scientific_count_status": "never counted, as root reported before v2 implementation",
+    "other_root_originals": [
+      "M1",
+      "M2",
+      "M3",
+      "M4"
+    ],
+    "predecessor_sha256": "684cfca5c2cffe3adcc0317dbac9fc913fe6254c454cdf449ff9116ba068d55e",
+    "reason": "Give S2 positive A as well as fixed total and rank eight, activating nonzero rising multipliers at fixed total",
+    "selected_verifier_originals": [
+      "S1",
+      "S2"
+    ],
+    "session_original_ceiling": 6
+  },
+  "unused_grades": [
+    10,
+    11
+  ],
+  "zero_grade": "accepted A66 engine nonempty-original convention, independently checked at grade one"
+}

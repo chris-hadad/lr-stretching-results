@@ -1,0 +1,74 @@
+{
+  "complete_kernel_cases": 372,
+  "R4_coefficients": [
+    "0",
+    "-2/7",
+    "-2",
+    "4",
+    "40",
+    "80",
+    "64",
+    "128/7"
+  ],
+  "R4_holdouts": [
+    57912336,
+    126461340
+  ],
+  "R4_first_coefficient": "-2/7",
+  "M4_term_first_contribution": "-1/42",
+  "whole_gain_first_coefficient": "12/7",
+  "bare_original_counts": [
+    {
+      "old": [
+        1
+      ],
+      "side": "before",
+      "t": 1,
+      "value": 99
+    },
+    {
+      "old": [
+        1
+      ],
+      "side": "after",
+      "t": 1,
+      "value": 831
+    },
+    {
+      "old": [
+        1,
+        1
+      ],
+      "side": "before",
+      "t": 1,
+      "value": 5157
+    },
+    {
+      "old": [
+        1,
+        1
+      ],
+      "side": "after",
+      "t": 1,
+      "value": 182421
+    },
+    {
+      "old": [
+        1,
+        2
+      ],
+      "side": "before",
+      "t": 1,
+      "value": 34515
+    },
+    {
+      "old": [
+        1,
+        2
+      ],
+      "side": "after",
+      "t": 1,
+      "value": 3184575
+    }
+  ]
+}

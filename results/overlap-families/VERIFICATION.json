@@ -1,0 +1,105 @@
+{
+  "schema": "curated-family-verification/v1",
+  "date": "2026-10-12",
+  "fresh_export_status": "SELECTED_COMPLETE_CHECKS_PASS",
+  "checks": [
+    {
+      "id": "export-interacting-001",
+      "exit_code": 0,
+      "guarded_seconds": 18.092579999996815,
+      "sampled_peak_group_rss_bytes": 117686272,
+      "sample_zero_means_true_peak_unknown": false,
+      "executed_code_sha256": {
+        "overlap-families/code/verify_interacting.py": "3de8227380b78f592512b2205e0d571106d1cd0e70141c57b7e30ebdd1ae6420"
+      }
+    },
+    {
+      "id": "export-absorber-001",
+      "exit_code": 0,
+      "guarded_seconds": 15.676420167001197,
+      "sampled_peak_group_rss_bytes": 204144640,
+      "sample_zero_means_true_peak_unknown": false,
+      "executed_code_sha256": {
+        "overlap-families/code/reproduce_absorber.py": "058205261d5794425dfd0193c496ba048069b874371222c9e784f096f2c27726"
+      }
+    },
+    {
+      "id": "export-pro050-001",
+      "exit_code": 0,
+      "guarded_seconds": 1.3013643749873154,
+      "sampled_peak_group_rss_bytes": 0,
+      "sample_zero_means_true_peak_unknown": true,
+      "executed_code_sha256": {
+        "overlap-families/code/verify_pro050_cells.py": "5fb160d00ff43a19715bd0c15edcc0c06aa19a08610e9e5803c76db5beae4472"
+      }
+    },
+    {
+      "id": "export-a83-001",
+      "exit_code": 0,
+      "guarded_seconds": 11.983787415985717,
+      "sampled_peak_group_rss_bytes": 59080704,
+      "sample_zero_means_true_peak_unknown": false,
+      "executed_code_sha256": {
+        "overlap-families/code/reproduce_a83.py": "7682a3a04c41ddcd6b1fa00b7bda678238f297cf56204ddc0e06444063be64ae"
+      }
+    },
+    {
+      "id": "export-triple-primary-001",
+      "exit_code": 0,
+      "guarded_seconds": 1.3478654169884976,
+      "sampled_peak_group_rss_bytes": 0,
+      "sample_zero_means_true_peak_unknown": true,
+      "executed_code_sha256": {
+        "overlap-families/code/triple_r_primary.py": "110ebef81dcd767c71f0370f0490088d73cb5f985e8b202622be958e653ced92"
+      }
+    },
+    {
+      "id": "export-triple-secondary-001",
+      "exit_code": 0,
+      "guarded_seconds": 1.4274969160032924,
+      "sampled_peak_group_rss_bytes": 0,
+      "sample_zero_means_true_peak_unknown": true,
+      "executed_code_sha256": {
+        "overlap-families/code/triple_r_secondary.py": "8076b45d7e8ff269b12067953b250680bfd6150c6c92fcfb46228082b80ec587"
+      }
+    }
+  ],
+  "public_curation_review": "PASSED_INTERNAL_ASTRA_REVIEW",
+  "A83_scientific_status": "ACCEPTED_AT_ACTUAL_ROOT_GATE",
+  "returned_provider_programs_executed": false,
+  "full_repository_suite_run": false,
+  "raw_private_runtime_records_exported": false,
+  "source_map_is_theorem_proof": false,
+  "scope_limit": "Arithmetic/structural reproduction and recorded exact proofs. Internal AI review, human review, formal certification and novelty are distinct. No new unused observations or additive coverage from replay.",
+  "interacting": {
+    "simplices": 30,
+    "mixed_slots": 60060,
+    "unused_node_occurrences": 70980,
+    "support_cases": 930,
+    "derivative_slots": 193050
+  },
+  "absorber": {
+    "types": 3520,
+    "zero_regimes": 16,
+    "literal_existing_original_calls": 72
+  },
+  "FJ": {
+    "fixtures": 1224,
+    "cells": 23940,
+    "scalar_grades": 10836
+  },
+  "A83": {
+    "full_joins": 6,
+    "complete_fields": 1355,
+    "ordinary_slots": 267796,
+    "LR_or_table_backend_calls": 0
+  },
+  "triple_r": {
+    "complete_symmetric_fields": 494,
+    "canonical_deficit_band": "d<=4 after terminating reflection; n<=8"
+  },
+  "review_receipt_sha256": "da4dd1c7c065cacccad93353e079875ffb731681d23be78d2f1d78992e14a98a",
+  "accepted_scope_sha256": "06484ba8fac8b719d860c32695d5055426cde36b587a53ad4d7b9a640eee2680",
+  "A83_acceptance_sha256": "9f98323ffd70b75d718916357a210cfcb7f788067f4511be33e877bb4b89ae7f",
+  "A83_internal_gate_sha256": "da4dd1c7c065cacccad93353e079875ffb731681d23be78d2f1d78992e14a98a"
+}

@@ -130,3 +130,25 @@ The primary arXiv records were checked for the new
 These source-page checks establish titles, versions and the bounded statements
 above. They are not an exhaustive priority search or a new verification of
 the cited papers' proofs.
+
+## Transportation wall and residue inputs
+
+The complete [all-rank chamber induction](results/transportation-developments/proofs/TRANSPORT-WALL-INDUCTION.md)
+uses the precise unimodular chamber/residue statements of Baldoni-Silva–Vergne,
+*Residues formulae for volumes and Ehrhart polynomials of convex polytopes*,
+[arXiv:math/0103097v1](https://arxiv.org/abs/math/0103097v1), Lemma 18 and
+Theorems 39/45, including closed chamber values and local analytic change of
+variables. Fixed full-type-A nested tori refine subsystems; the primitive need
+not have only the subsystem polar set.
+
+The full polarized jump uses Boysal–Vergne, *Paradan's wall crossing formula
+for partition functions and Khovanski-Pukhlikov differential operator*,
+[arXiv:0803.2810v1](https://arxiv.org/abs/0803.2810v1), Theorems 26/28 and
+Remark 29, including exterior chambers. The proof derives its reversed-root
+shift sign directly. When every crossing root is reversed, its contour extension
+is used only at strictly positive normal grade, and the wall residue changes
+sign with the orientation. The empty-singleton endpoint is a lower-rank residue,
+not an omitted zero form. These are credited analytic inputs, not newly proved
+wall-crossing theorems. Rassart's [polynomiality theorem](https://arxiv.org/abs/math/0308101)
+remains the ordinary LR polynomiality antecedent where invoked; the selected
+four-letter stable-domain proof derives its own all-grade polynomial directly.

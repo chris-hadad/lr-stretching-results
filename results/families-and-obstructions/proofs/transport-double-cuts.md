@@ -10,24 +10,36 @@ Let p,N>=2, r in Z_{>0}^p and c in Z_{>0}^N, with common total M.
 Let F_{r,c}(t) count the ENTIRE nonnegative p-by-N transportation table with
 row margins tr and column margins tc. For a proper nonempty subset S of [k], set
 
-    w_k(S) = (|S|-1)! (k-|S|-1)! / (2(k-1)!).                  (1)
+
+```text
+w_k(S) = (|S|-1)! (k-|S|-1)! / (2(k-1)!).                  (1)
+```
 
 Write H_j=sum_{i=1}^j 1/i. Define
 
-    D_{p,N}(r,c) = sum_{I,J proper nonempty} w_p(I) w_N(J)
-                    min(r(I), M-r(I), c(J), M-c(J)).          (2)
+
+```text
+D_{p,N}(r,c) = sum_{I,J proper nonempty} w_p(I) w_N(J)
+                min(r(I), M-r(I), c(J), M-c(J)).          (2)
+```
 
 In the full Lagrange partial-fraction expansion of product_j h_{tc_j}(x),
 the sum of all one-class and two-class ordinary LINEAR contributions is
 EXACTLY D_{p,N}. Consequently there is an exact decomposition
 
-    [t]F_{r,c}(t) = D_{p,N}(r,c) + E_{>=3}(r,c),              (3)
+
+```text
+[t]F_{r,c}(t) = D_{p,N}(r,c) + E_{>=3}(r,c),              (3)
+```
 
 where E_{>=3} is the sum of the eventual-polynomial first jets of every
 assignment using at least three classes. No sign or vanishing of E_{>=3}
 is asserted in general. The core itself satisfies
 
-    D_{p,N} >= H_{p-1} H_{N-1} min(min_i r_i,min_j c_j)>0.    (4)
+
+```text
+D_{p,N} >= H_{p-1} H_{N-1} min(min_i r_i,min_j c_j)>0.    (4)
+```
 
 It is symmetric separately in rows and columns, symmetric under transposition,
 homogeneous, jointly concave, and superadditive on the closed balanced
@@ -44,7 +56,10 @@ three-row ansatz, does not meet that condition.
 
 For all nonnegative k,
 
-    h_k(x_1,...,x_p) = sum_i x_i^{k+p-1}/prod_{j!=i}(x_i-x_j).
+
+```text
+h_k(x_1,...,x_p) = sum_i x_i^{k+p-1}/prod_{j!=i}(x_i-x_j).
+```
 
 This follows from partial fractions of prod_i(1-x_i z)^(-1), or Lagrange
 interpolation; it is a rational identity before expanding in ordered ratios.
@@ -52,13 +67,19 @@ Expand positive roots x_j/x_i, i<j. If class i is used n_i times and carries
 column total C_i, the sign is (-1)^{sum_i(i-1)n_i}, the root (i,j) has
 multiplicity n_i+n_j, and its vertex netflow target is
 
-    a_i=t(C_i-r_i)+(i-1)n_i-sum_{j>i}n_j.                  (5)
+
+```text
+a_i=t(C_i-r_i)+(i-1)n_i-sum_{j>i}n_j.                  (5)
+```
 
 The sum of these targets is zero. This agrees with the full A3 convention in
 the four-row chamber formula. For positive r_1, an assignment without class 1 has negative
 first netflow eventually and contributes zero. The one-class 1 assignment is
 
-    prod_{i=2}^p binom(r_i t+N-1,N-1),
+
+```text
+prod_{i=2}^p binom(r_i t+N-1,N-1),
+```
 
 whose linear coefficient is H_{N-1}(M-r_1).
 
@@ -68,16 +89,25 @@ l=j-2, d=p-2. The l empty rows BEFORE j are intermediate vertices; the other
 d-l empty rows are terminal vertices. Set B_s(x)=binom(x+s-1,s-1).
 An intermediate row k has flow x+r_k t+b from 1 and flow x into j, with weight
 
-    B_a(x+r_k t+b) B_b(x),       x>=0.                    (6)
+
+```text
+B_a(x+r_k t+b) B_b(x),       x>=0.                    (6)
+```
 
 The constant b is required by (5); omitting it is wrong. A terminal row k has
 flow x from 1 and flow r_k t-x from j, with weight
 
-    B_a(x) B_b(r_k t-x),         0<=x<=r_k t.             (7)
+
+```text
+B_a(x) B_b(r_k t-x),         0<=x<=r_k t.             (7)
+```
 
 The direct core edge has weight B_N(z). Conservation at 1 reads
 
-    z+sum x = (C-r_1-sum_{2<=k<j}r_k)t-(l+1)b.            (8)
+
+```text
+z+sum x = (C-r_1-sum_{2<=k<j}r_k)t-(l+1)b.            (8)
+```
 
 This is a complete grouped flow count: every multiplicity group contributes
 its full weak-composition count. There is no prescribed-support deletion.
@@ -87,12 +117,18 @@ its full weak-composition count. There is no prescribed-support deletion.
 Extend B_b(r_k t-x) as its polynomial to all x>=0. It vanishes at the first
 b-1 outside integers. At x=r_k t+b+y, y>=0, it equals
 
-    B_b(-b-y)=(-1)^{b-1}B_b(y).
+
+```text
+B_b(-b-y)=(-1)^{b-1}B_b(y).
+```
 
 Inclusion-exclusion over a subset S of reflected terminal rows therefore has
 factor (-1)^{b|S|}. Let h=l+|S| and
 
-    U=C-r_1-sum_{2<=k<j}r_k-sum_{k in S}r_k.
+
+```text
+U=C-r_1-sum_{2<=k<j}r_k-sum_{k in S}r_k.
+```
 
 It has h factors of type (6), d-h factors of type (7) with the caps now removed,
 and total composition size Ut-(h+1)b. If U<=0, that size is eventually negative
@@ -103,11 +139,17 @@ The CORRECT rising-binomial Vandermonde identities are
 
  B_a(x+rt+b) B_b(x)
    = sum_{k=0}^{a-1} binom(rt+a-1-k,a-1-k)
-                         binom(b+k-1,k) B_{b+k}(x),       (9)
+
+```text
+                     binom(b+k-1,k) B_{b+k}(x),       (9)
+```
 
  B_a(x) B_b(rt-x)
    = sum_{k=0}^{b-1} (-1)^k binom(rt+N-1,b-1-k)
-                         binom(a+k-1,k) B_{a+k}(x).       (10)
+
+```text
+                     binom(a+k-1,k) B_{a+k}(x).       (10)
+```
 
 For (9), take the coefficient of z^{a-1} in
 (1+z)^{rt+a-1} sum_k binom(x+b+k-1,k)(z/(1+z))^k.
@@ -137,14 +179,21 @@ where B(A,B)=(A-1)!(B-1)!/(A+B-1)!. Multiplying assignment sign
 Introduce polynomials
 
  Q_out(x)=sum_{k=0}^{b-1}(-1)^k binom(N-1,b-1-k)
-                                      binom(a+k-1,k)x^k,
+
+```text
+                                  binom(a+k-1,k)x^k,
+```
+
  Q_in(x)=sum_{k=0}^{a-1}binom(b+k-1,k)x^k.
 
 Let I_x(a,b)=B(a,b)^(-1) integral_0^x u^{a-1}(1-u)^{b-1}du.
 Finite binomial expansion or differentiation with the values at 0,1 proves
 
-    x^a Q_out(x)=I_x(a,b),
-    (1-x)^b Q_in(x)=1-I_x(a,b).                          (13)
+
+```text
+x^a Q_out(x)=I_x(a,b),
+(1-x)^b Q_in(x)=1-I_x(a,b).                          (13)
+```
 
 Expanding (12) using its beta integral, the absolute normalized first jet is
 
@@ -169,7 +218,10 @@ and S=I intersect {j+1,...,p}. In (15), h=|I|-1 and U=c(J)-r(I).
 Since B(a,b)=2w_N(J), the entire one/two-class sum is
 
  L2=H_{N-1}(M-r_1)
-      -4 sum_J w_N(J) sum_{I proper,1 in I} w_p(I)(c(J)-r(I))_+.   (16)
+
+```text
+  -4 sum_J w_N(J) sum_{I proper,1 in I} w_p(I)(c(J)-r(I))_+.   (16)
+```
 
 Here every column assignment is counted exactly once. Define
 F(s)=sum_J w_N(J)(c(J)-s)_+. Complementation gives
@@ -183,7 +235,10 @@ sum_{I: 1, i in I}w_p(I)=(H_{p-1}-1)/2. These follow by grouping subsets by size
 or by integrating their binomial sums in (1). Therefore
 
  sum_{I: 1 in I}w_p(I)(r(I)-M/2)
-       =M H_{p-1}/4-M/2+r_1/2.                           (18)
+
+```text
+   =M H_{p-1}/4-M/2+r_1/2.                           (18)
+```
 
 For 0<=s,C<=M,
 
@@ -236,7 +291,10 @@ hand proof; they do not replace it. The 7/3,11/6,65/18 reference checks pass.
 
 For the n-by-n unit-margin case the core reduces algebraically to
 
-    D_n=sum_{k=1}^{floor(n/2)} (H_{n-k}-H_{k-1})^2.         (19)
+
+```text
+D_n=sum_{k=1}^{floor(n/2)} (H_{n-k}-H_{k-1})^2.         (19)
+```
 
 This follows by writing the integer minimum as a sum of its level indicators.
 The predictions agree with Pixton's published complete-polynomial linear
@@ -244,3 +302,13 @@ coefficients for n=2..9. This is a source comparison only. It does NOT prove
 (19) is the full Birkhoff coefficient for arbitrary n, or that individual
 higher-class terms vanish there. The general remainder may vanish only after
 aggregation. No global novelty assertion is made.
+
+## Later complete first-jet theorem
+
+This page retains the earlier one-/two-class proof. The accepted
+[Pro029/A006 all-rank wall induction](../../transportation-developments/proofs/TRANSPORT-WALL-INDUCTION.md)
+subsequently proves E_(>=3)=0 at the original offsets. Together with the full
+core above, [the complete theorem](../../transportation-developments/proofs/TRANSPORT-C1.md)
+establishes c1=D for every active p,N>=2, with all zero-margin deletion and
+point cases. Its arbitrary-rank conclusion uses the full exported primitive,
+wall proof and cited residue theorems; it is not extrapolated from the old panel.

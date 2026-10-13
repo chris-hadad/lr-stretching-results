@@ -173,7 +173,10 @@ coefficient for a legal balanced triple of maximum trimmed length at most six,
 at every size and boundary. For a nonempty hive H, its first coefficient has
 the accepted bound
 
-    c1(H) >= (1/2000000) * sum_(actual edges F of H) length_Z(F).
+
+```text
+c1(H) >= (1/2000000) * sum_(actual edges F of H) length_Z(F).
+```
 
 The proof uses an original 45-rhombus normal system and its finite refined
 normal cycle. It keeps the actual saturated face and quotient lattices and all
@@ -213,3 +216,37 @@ approach and the preceding normal-cycle work. The common mathematical
 recurrence remains a shared analytic premise. The complete portable replay
 is deployment evidence for those programs, not a third independent analytic
 proof. Human expert assessment and worldwide priority remain separate.
+
+## Curated developments through 12 October 2026
+
+The new [source-linked modules](results/research-progress/README.md) preserve
+result-specific contributions. A006 supplied the complete two-row skew reduction;
+Ferroni–McGinnis and Pro042/A050 supplied the compatible-cycle/marked-endpoint
+antecedents; Pro044 supplied the complete endpoint comparison and majorization
+synthesis. Codex independently reconstructed their all-rank proof and checkers.
+The universal transportation c1 proof is Pro029/A006 work, with Frontier024's
+complete double-cut identity and credited residue/wall theorems; A64's full C22
+bijection is a later cross-result consequence, not a relabeled universal theorem.
+
+Pro044/046/048/050 contributed the selected low/interacting/capped constructions;
+Pro051-Pro053 supplied primitive and overlap identities and high-star/triangle
+arguments. Pro053's completed root-square source and Pro055's fixed-wall source
+have distinct domains. Pro057 Phase 0/U03/U04 supplied the selected four-letter
+chart/height route. Codex rederived the adopted arguments, authored separate
+trusted arithmetic, checked exact finite premises and retained complete
+same-coefficient compensation. Public proof maps identify exact original hashes,
+curation changes and accepted scope references without publishing private returns.
+
+Claude/native work supplied closed-session formal components and further source
+research. The [formalization account](results/rank-six-positivity/FORMALIZATION.md)
+keeps KERNEL/NATIVE/STATED and MODULO(P) separate, reports rank<=4 formal completion, and names
+the remaining rank-six placeholders. Source reports about rank-seven fields,
+root cones, descent, cubes and period control retain unproved hypotheses and
+unrun complements. Frozen G4 closeout sources now report support soundness in
+the kernel, c5 conditional on CoverC5 and repaired coverage soundness STATED;
+the c5 audit was partial and whole rank-six formalization remains incomplete.
+No native build or wholesale native-library adoption is part of this curation.
+
+Internal AI review, implementation agreement, exact hash identity, human peer
+review, formal certification and worldwide novelty remain different claims.
+Research-note authorship and the existing license policy are unchanged.

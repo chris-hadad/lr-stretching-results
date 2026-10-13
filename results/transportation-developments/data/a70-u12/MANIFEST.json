@@ -1,0 +1,83 @@
+{
+  "schema": "a70-u12-portable-complete-inputs/v1",
+  "files": [
+    {
+      "path": "code/a70-u12/README.md",
+      "bytes": 4779,
+      "sha256": "e1705b1fe41dff063b3a6e391fc22f962c71ab108befc25e1c347254d5f4c75c"
+    },
+    {
+      "path": "code/a70-u12/verify_a70_u12.py",
+      "bytes": 52905,
+      "sha256": "c08392d92ed9eb062732cef8d67e56830a182236acc178f65130d6f2b8525f64"
+    },
+    {
+      "path": "data/a70-u12/CERTIFICATE-DATA.json",
+      "bytes": 169648,
+      "sha256": "e9733cc2ca95bfb0049bd7e773dda503ad7e316ffd2bf8bdacdb4e6f489664c7"
+    },
+    {
+      "path": "data/a70-u12/EXPECTED.json",
+      "bytes": 5518,
+      "sha256": "a6037e31bf7faa6e0f579ac5f750148799706769a34faf90b55ea95905582abc"
+    },
+    {
+      "path": "data/a70-u12/GENERATING-FUNCTION.json",
+      "bytes": 27024,
+      "sha256": "4dd2d6cd251b8cffc86cfb8021c86ce6f0ddbb1070747c03b913a6178726d461"
+    },
+    {
+      "path": "data/a70-u12/RECORDED-CONTROLS.json",
+      "bytes": 7885,
+      "sha256": "c905c9d90d1927130c3c9a23be6cb0e7a55f1484a119663526a58b0fa9a771d0"
+    },
+    {
+      "path": "data/a70-u12/SOURCE-TO-PUBLIC.json",
+      "bytes": 4984,
+      "sha256": "86d5360da4aeac37b01c859de7bd1aa892b676a4413fd41be8ee061269c12ddb",
+      "curation_history": [
+        {
+          "previous_included_sha256": "d91aef81fd2e234db60e91bd6f90738a496087bcfaceaa2d2d60f418ed96651c",
+          "previous_included_bytes": 4114,
+          "reason": "Exact R2 current public bytes; mathematical data/code remain unchanged."
+        },
+        {
+          "previous_included_sha256": "2c6f62ab1d89632b6d33acd80531f1286f5f795e987323a858cbe721ebf3ea6a",
+          "previous_included_bytes": 4713,
+          "reason": "Only final document whitespace/current source-map binding; numerical/code bytes unchanged."
+        }
+      ]
+    },
+    {
+      "path": "proofs/A70-PRO049-U12-ADOPTION.md",
+      "bytes": 9223,
+      "sha256": "20d1115b9647bd30f06c2350eeb69f560cfa6bdaa0052aaff7db62a6b07381cc",
+      "curation_history": [
+        {
+          "previous_included_sha256": "650292b7e819f83b9665789bc3761c7b055333ccea82f2968c5cd60712b7fe95",
+          "previous_included_bytes": 8575,
+          "reason": "Exact R2 current public bytes; mathematical data/code remain unchanged."
+        }
+      ]
+    },
+    {
+      "path": "proofs/A70-PRO049-U12-FULL-PROOF.md",
+      "bytes": 23083,
+      "sha256": "c5186a7e625a190a27ab346d8eb7e0514c617ecc653ac84d73adc24ab669a828",
+      "curation_history": [
+        {
+          "previous_included_sha256": "63c42fa5ed2c9d2ecae371043bb7b42c0a5aa3b9d019b9d90252d45918b6da26",
+          "previous_included_bytes": 23231,
+          "reason": "Exact R2 current public bytes; mathematical data/code remain unchanged."
+        },
+        {
+          "previous_included_sha256": "5d36a161c3c8375fa2c28134ae96fde58128a5ddf0faa259557ad1293accfb7e",
+          "previous_included_bytes": 23085,
+          "reason": "Only final document whitespace/current source-map binding; numerical/code bytes unchanged."
+        }
+      ]
+    }
+  ],
+  "self_hash_exception": "MANIFEST.json; externally bound by the frozen export handoff. No generated runtime receipt is a proof premise.",
+  "scope": "Complete cone/triangulation/G/extraction/coefficient/derivative theorem for the stated legal original family only."
+}

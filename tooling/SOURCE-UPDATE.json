@@ -51,7 +51,7 @@
       "transformation": "Public exposition and precise source references; original mathematical statements, executable code and numerical inputs retained."
     },
     {
-      "bytes": 4167,
+      "bytes": 5363,
       "editorial_baseline": {
         "bytes": 2906,
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
@@ -62,17 +62,33 @@
         "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/tooling/CURRENT-SOURCES.md",
         "source_bytes": 2408,
         "source_commit": null,
-        "source_sha256": "6ad9349fea88b0ce73ca818ccb8543d2824a1c8ad383d7be010c49711c3c7154"
+        "source_sha256": "6ad9349fea88b0ce73ca818ccb8543d2824a1c8ad383d7be010c49711c3c7154",
+        "transformation_history": [
+          {
+            "transformation": "historical source projection"
+          }
+        ],
+        "transformation": "Current public explanatory update; original source hashes remain historical lineage."
       },
       "path": "CURRENT-SOURCES.md",
       "previous_included_sha256": "6b13e686b507cd3546243c80bcb97387d9c911cfc17169f5760726d39d6828db",
       "prior_included_sha256": "6ad9349fea88b0ce73ca818ccb8543d2824a1c8ad383d7be010c49711c3c7154",
-      "sha256": "3d6769a38357b1c84b672e7f44b252823b0475ecb9ee99cb35960fea6ae73532",
+      "sha256": "bdbfdfcd6115ea8cd544541c3afccb4193c4c44142ef2e48bafb5ba8685cfdb8",
       "transformation": "Current navigation/source explanation for the rank-six addition; prior mathematical/executable bytes retained elsewhere at their original identities.",
       "publication_refresh_history": [
         {
           "previous_included_sha256": "519160c397accdc4009cb664708e9243b0849e82356e9bb59e7e8793a46558d5",
           "current_included_sha256": "3d6769a38357b1c84b672e7f44b252823b0475ecb9ee99cb35960fea6ae73532"
+        },
+        {
+          "previous_included_sha256": "3d6769a38357b1c84b672e7f44b252823b0475ecb9ee99cb35960fea6ae73532",
+          "current_included_sha256": "fa30b6af2e90352cafee2842aeddafd7af39114327973320146ac20caf2523bf",
+          "date": "2026-10-12"
+        },
+        {
+          "previous_included_sha256": "fa30b6af2e90352cafee2842aeddafd7af39114327973320146ac20caf2523bf",
+          "current_included_sha256": "bdbfdfcd6115ea8cd544541c3afccb4193c4c44142ef2e48bafb5ba8685cfdb8",
+          "round": "R2"
         }
       ]
     },
@@ -113,7 +129,7 @@
       ]
     },
     {
-      "bytes": 12730,
+      "bytes": 13370,
       "current_update": "Three-letter family reader/source integration, 14 September 2026.",
       "editorial_baseline": {
         "bytes": 7737,
@@ -125,7 +141,13 @@
         "source": "plans/active/stretched-lr-counterexample-campaign/sessions/FRONTIER-026-027/publication-staging/repository/tooling/README.md",
         "source_bytes": 7737,
         "source_commit": null,
-        "source_sha256": "97cf619867bf03e948eb601b217d8de337dd95c61d3914c01f69b2c960cab0c1"
+        "source_sha256": "97cf619867bf03e948eb601b217d8de337dd95c61d3914c01f69b2c960cab0c1",
+        "transformation_history": [
+          {
+            "transformation": "historical source projection"
+          }
+        ],
+        "transformation": "Current public explanatory update; original source hashes remain historical lineage."
       },
       "path": "README.md",
       "previous_included_sha256": "68693448598608f9f3cd63ff3e1558de5bca89f70e25b14a27b6aaf083bd195d",
@@ -140,7 +162,7 @@
           }
         ]
       },
-      "sha256": "57f90eed2991ddc2ea4c00de740c5788edb79836b02692046f29a75c7f456376",
+      "sha256": "df28b906db87101795e3d7714bcc6630447d27e10286539e079902a15ab66301",
       "transformation": "Current navigation/source explanation for the rank-six addition; prior mathematical/executable bytes retained elsewhere at their original identities.",
       "publication_refresh_history": [
         {
@@ -150,6 +172,11 @@
         {
           "previous_included_sha256": "620ba8eebc673c72226ff9ae5bd14d95bbef6c58803a3de4e18ce26c3409a7ee",
           "current_included_sha256": "57f90eed2991ddc2ea4c00de740c5788edb79836b02692046f29a75c7f456376"
+        },
+        {
+          "previous_included_sha256": "57f90eed2991ddc2ea4c00de740c5788edb79836b02692046f29a75c7f456376",
+          "current_included_sha256": "df28b906db87101795e3d7714bcc6630447d27e10286539e079902a15ab66301",
+          "date": "2026-10-12"
         }
       ]
     },

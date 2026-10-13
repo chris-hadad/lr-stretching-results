@@ -1,0 +1,102 @@
+{
+  "schema": "curated-recent-mathematical-module/v1",
+  "files": [
+    {
+      "path": "PROOF.md",
+      "bytes": 22397,
+      "sha256": "0a5ab68265186062eeb6613027073961c83f1bda30c783c3594dacca1bbd2f54",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/frontier044-2026-09-26/adoption-two-row/ACCEPTANCE-PROOF.md",
+        "source_sha256": "311073410baac32e9c6ded53d009f9abdba424e253db811d011f4f599d142a6f",
+        "source_bytes": 22601,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "b4ee523a882a3da1a080bfd180f2153a58809e0294784b48bbc92c6792ecb2ed",
+            "current_public_sha256": "b4ee523a882a3da1a080bfd180f2153a58809e0294784b48bbc92c6792ecb2ed",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 21815,
+              "sha256": "b4ee523a882a3da1a080bfd180f2153a58809e0294784b48bbc92c6792ecb2ed"
+            },
+            "after_public_pin": {
+              "bytes": 22508,
+              "sha256": "2e32c260d3ab8dd496e87416fde83517c9d05b2a3d3b51666fa0bfda76e2baa4"
+            }
+          },
+          {
+            "reason": "Corpus audit: remove private checkpoint/roster/source-read bookkeeping; retain complete mathematical provenance and public checker references.",
+            "before_public_pin": {
+              "bytes": 22508,
+              "sha256": "2e32c260d3ab8dd496e87416fde83517c9d05b2a3d3b51666fa0bfda76e2baa4"
+            },
+            "after_public_pin": {
+              "bytes": 22397,
+              "sha256": "0a5ab68265186062eeb6613027073961c83f1bda30c783c3594dacca1bbd2f54"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "0a5ab68265186062eeb6613027073961c83f1bda30c783c3594dacca1bbd2f54",
+            "current_public_sha256": "0a5ab68265186062eeb6613027073961c83f1bda30c783c3594dacca1bbd2f54",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "README.md",
+      "bytes": 3696,
+      "sha256": "2f05ae6e76951d9c438342e35531d58ece548d4f2ef0e22ba841a88750ea58cd",
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "A83 curated explanatory update from accepted proofs",
+        "transformation": "Public editorial update; theorem scopes and historical release identity retained.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "2f05ae6e76951d9c438342e35531d58ece548d4f2ef0e22ba841a88750ea58cd",
+            "current_public_sha256": "2f05ae6e76951d9c438342e35531d58ece548d4f2ef0e22ba841a88750ea58cd",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "2f05ae6e76951d9c438342e35531d58ece548d4f2ef0e22ba841a88750ea58cd",
+            "current_public_sha256": "2f05ae6e76951d9c438342e35531d58ece548d4f2ef0e22ba841a88750ea58cd",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "VERIFICATION.json",
+      "bytes": 1345,
+      "sha256": "aeb24772d47dbad9a577115e0ef49ffc40aa7dd20cd449e7a8b0208700c1b4b7",
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "A83 curated explanatory update from accepted proofs",
+        "transformation": "Public editorial update; theorem scopes and historical release identity retained."
+      }
+    },
+    {
+      "path": "code/check_two_row.py",
+      "bytes": 13265,
+      "sha256": "3ddc74bf2245d6d7cb2744c2964649fc285908b4e7083d7006fd477d60c18f92",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/frontier044-2026-09-26/adoption-two-row/check_two_row.py",
+        "source_sha256": "dc86ca26ef083426c693f1f93cd38111fd375ca5d3a6bb7af15949b2822e73c6",
+        "source_bytes": 13562,
+        "transformation": "Exact mathematics and complete historical finite controls retained; private source authentication replaced with local module manifest authentication."
+      }
+    }
+  ],
+  "scope": "Complete current mathematical proof/data/checker membership; original identities, curation and scientific/internal-review status distinct."
+}

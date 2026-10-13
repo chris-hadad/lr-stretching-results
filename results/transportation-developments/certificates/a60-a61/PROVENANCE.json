@@ -1,0 +1,331 @@
+{
+  "schema": "a60-a61-public-closure-provenance/v1",
+  "sources": [
+    {
+      "public_path": "results/transportation-developments/certificates/a60-a61/polynomial_arithmetic.py",
+      "source_basename": "check_v2.py",
+      "source_sha256": "af683f8bcdc87e164fac00b523a8102b274d68c874eb33c695422bf0beb06d23",
+      "adaptation": {
+        "extracted_complete_functions": [
+          {
+            "function": "trim",
+            "start_line": 33,
+            "end_line": 37,
+            "selected_source_sha256": "3373eb166c5e006bc966172d73c19f49255ddc9d3abb3ce87bf04417534a142f"
+          },
+          {
+            "function": "add",
+            "start_line": 40,
+            "end_line": 45,
+            "selected_source_sha256": "173430d8bb6b60b3a05976d621dd8ad16ec6d6e9e2e7ee95031dabbe5308ba78"
+          },
+          {
+            "function": "scale",
+            "start_line": 48,
+            "end_line": 49,
+            "selected_source_sha256": "6d524b5f318e9074206fcabe702c99a25367cb217e26229aca169649e94794ab"
+          },
+          {
+            "function": "mul",
+            "start_line": 52,
+            "end_line": 60,
+            "selected_source_sha256": "11a71ab40f9b3d54df5ab653409e6b91cd72774459920273a5dc1837100116f3"
+          },
+          {
+            "function": "binpoly",
+            "start_line": 63,
+            "end_line": 64,
+            "selected_source_sha256": "bd6bafa799cbc1676e5a441b72073f3bc040a608f1d3f0d6f98fcc128bb65fc1"
+          },
+          {
+            "function": "at",
+            "start_line": 67,
+            "end_line": 71,
+            "selected_source_sha256": "c13b914bb4b04c7c97ceb8d3bca2909629efa8192cb119f40d9149023765f679"
+          },
+          {
+            "function": "dominates",
+            "start_line": 74,
+            "end_line": 75,
+            "selected_source_sha256": "e5155619d0f2b0a816b9cbb7f69841b2ca4e47312e9f24e49e1e32027db0be48"
+          },
+          {
+            "function": "serial",
+            "start_line": 229,
+            "end_line": 236,
+            "selected_source_sha256": "2646d6cc918e847015c7436c921c208c132e7ff081aeafa098c15f1d980be137"
+          }
+        ],
+        "nonarithmetic_LR_count_engine_and_runtime_entrypoints_excluded": true,
+        "mathematical_function_bodies_unchanged": true
+      }
+    },
+    {
+      "public_path": "results/transportation-developments/certificates/a60-a61/a60_certificate.py",
+      "source_basename": "k3_certificate_v1.py",
+      "source_sha256": "8542a6b2ff2735d6458da1540ffce6b931475456c4404cfa0e0e1252b852cd1c",
+      "adaptation": {
+        "private_absolute_root_and_import_path_removed": true,
+        "header_prose_adapted": true,
+        "all_function_ASTs_unchanged": true,
+        "selected_function_spans": [
+          {
+            "function": "correction",
+            "start_line": 10,
+            "end_line": 20,
+            "selected_source_sha256": "1cc493a274915011479899287386ea539ba568ac7f85b781a549f3d45043c79f"
+          },
+          {
+            "function": "formula",
+            "start_line": 22,
+            "end_line": 28,
+            "selected_source_sha256": "c460638768422071552ccb932e96d652114371207a6d84621affde0711188856"
+          },
+          {
+            "function": "finite_bases",
+            "start_line": 30,
+            "end_line": 53,
+            "selected_source_sha256": "66f525e0cedb8fbb36089dcabb486755504f6848ba623be2e8e797e0698f2acd"
+          },
+          {
+            "function": "E",
+            "start_line": 55,
+            "end_line": 55,
+            "selected_source_sha256": "69f633532eec5b3f390b12bb63f6734138c8a0a184ce68d40d7a7cc23c9fab83"
+          },
+          {
+            "function": "large_base",
+            "start_line": 57,
+            "end_line": 62,
+            "selected_source_sha256": "73e386c7192a80067820b179b1016b80393dcf72a156fc946b8cb69a9f68f5fb"
+          },
+          {
+            "function": "factorizations",
+            "start_line": 64,
+            "end_line": 79,
+            "selected_source_sha256": "6c63858685f384383b8df8f57d548af1753046ebd8cff8f0f8038ad01b2ccd58"
+          },
+          {
+            "function": "main",
+            "start_line": 81,
+            "end_line": 95,
+            "selected_source_sha256": "5fae743a509d1bdd24091a93cd8fe3045f09e24d3bbad0445d2a70c10a936d89"
+          }
+        ]
+      }
+    },
+    {
+      "public_path": "results/transportation-developments/certificates/a60-a61/a61_chambers.py",
+      "source_basename": "chambers_v1.py",
+      "source_sha256": "fb23333104ce4af848d2defa380f09c18a477eb13937c9afe899bfddb9e140b7",
+      "adaptation": {
+        "private_absolute_root_and_import_path_removed": false,
+        "header_prose_adapted": true,
+        "all_function_ASTs_unchanged": true,
+        "selected_function_spans": []
+      }
+    },
+    {
+      "public_path": "results/transportation-developments/certificates/a60-a61/a61_balancing.py",
+      "source_basename": "balancing_probe_v1.py",
+      "source_sha256": "f9be34de181b05216d7901a8a45f59a9db80777a654e147674a493ff2e4033b1",
+      "adaptation": {
+        "private_absolute_root_and_import_path_removed": false,
+        "header_prose_adapted": true,
+        "all_function_ASTs_unchanged": true,
+        "selected_function_spans": []
+      }
+    },
+    {
+      "public_path": "results/transportation-developments/certificates/a60-a61/a61_map_audit.py",
+      "source_basename": "audit_chamber_maps_v1.py",
+      "source_sha256": "d497be91791a63b7898b3d82f2a37f34319becc8d8ddaa8f9ccd683b52ab0157",
+      "adaptation": {
+        "extracted_complete_functions": [
+          {
+            "function": "poly",
+            "start_line": 20,
+            "end_line": 21,
+            "selected_source_sha256": "8345c2c82716dddc949a4ee6ea8fda0952757fb6f53de74597b7695c1ba6eac2"
+          },
+          {
+            "function": "determinant",
+            "start_line": 24,
+            "end_line": 30,
+            "selected_source_sha256": "cdc7c84c2a989776ef0526b923df2f10c031cea072dddbad8b7fe49a49843253"
+          },
+          {
+            "function": "direction",
+            "start_line": 33,
+            "end_line": 42,
+            "selected_source_sha256": "d8b7a15c1681ed3043d28c00faab440cf0f11350c8a8cf82ab4b970850c367c9"
+          },
+          {
+            "function": "derivative",
+            "start_line": 45,
+            "end_line": 56,
+            "selected_source_sha256": "eebe88a56c3052ba029f58a0941fc2b77db0ae6a0cdf663ca13af150d16ce4b0"
+          },
+          {
+            "function": "rays",
+            "start_line": 59,
+            "end_line": 60,
+            "selected_source_sha256": "017ea609286d2872131223b2b4fbc3730be59e50ee99a78916c839f9ea113920"
+          },
+          {
+            "function": "restriction",
+            "start_line": 63,
+            "end_line": 66,
+            "selected_source_sha256": "8e33d5608ac6671a7574c23c0cf22eaad0bfa592526cd5ee0fff6fe753fbb6cb"
+          }
+        ],
+        "private_input_roots_and_runtime_entrypoint_excluded": true,
+        "mathematical_function_bodies_unchanged": true
+      }
+    },
+    {
+      "public_path": "results/transportation-developments/certificates/a60-a61/k3-certificate-v1.json",
+      "source_basename": "k3-certificate-v1.json",
+      "source_sha256": "6c09bc508e61b8590ffc860e2a93dcea78be9e85453521b38e06f413e6dd5fca",
+      "adaptation": {
+        "byte_preserved": true,
+        "complete_mathematical_arrays": true
+      }
+    },
+    {
+      "public_path": "results/transportation-developments/certificates/a60-a61/chambers-v1.json",
+      "source_basename": "chambers-v1.json",
+      "source_sha256": "75f69ffa6b81f62403823a750baa02a613da8c383fff57fbed94672ce5bb9826",
+      "adaptation": {
+        "byte_preserved": true,
+        "complete_mathematical_arrays": true
+      }
+    },
+    {
+      "public_path": "results/transportation-developments/certificates/a60-a61/balancing-probe-v1.json",
+      "source_basename": "balancing-probe-v1.json",
+      "source_sha256": "ceeedadf13b9017a78c4a7833b64edae9d87e03e49d093b5d28175e78861daee",
+      "adaptation": {
+        "byte_preserved": true,
+        "complete_mathematical_arrays": true
+      }
+    },
+    {
+      "public_path": "results/transportation-developments/certificates/a60-a61/historical-chamber-maps.json",
+      "source_basename": "grid-v2.json",
+      "source_sha256": "d132214d07961ad76811bd72778f5f627d3ad4e6784aa1bbfcbb3fa98dfcb420",
+      "adaptation": {
+        "excluded_top_level_fields": [
+          "pins"
+        ],
+        "reason": "Absolute private source locators only; all five complete independent coefficient maps and all thirty original holdout records preserved",
+        "new_counts_or_unused_observations": false
+      }
+    },
+    {
+      "public_path": "results/transportation-developments/proofs/A58-FIRST-WALL-PROOF.md",
+      "source_basename": "FIRST-WALL-PROOF.md",
+      "source_sha256": "2bc8095453d675738c3d4093de5cc61bf859da8359e0f301ab4ae9988acb8070",
+      "adaptation": {
+        "excluded_source_line_ranges": [
+          {
+            "start_line": 2,
+            "end_line": 9,
+            "reason": "Private derivation chronology/adoption/runtime prose; original mathematical provenance is retained separately"
+          },
+          {
+            "start_line": 210,
+            "end_line": 234,
+            "reason": "Historical count/runtime evidence and provider-workflow prose; full mathematical proof Sections 1-4 retained"
+          }
+        ],
+        "path_only_replacements": {},
+        "private_prose_replacements": {},
+        "mathematical_formulas_changed": false
+      }
+    },
+    {
+      "public_path": "results/transportation-developments/proofs/A59-BALANCED-CAPS-PROOF.md",
+      "source_basename": "BALANCED-CAPS-PROOF.md",
+      "source_sha256": "f8e1baeb3ce6d40eaae5a7cecd53b895aef7ddcd02c6140bfb267d328e91c701",
+      "adaptation": {
+        "excluded_source_line_ranges": [
+          {
+            "start_line": 2,
+            "end_line": 8,
+            "reason": "Private derivation chronology/adoption/runtime prose; original mathematical provenance is retained separately"
+          },
+          {
+            "start_line": 191,
+            "end_line": 197,
+            "reason": "Private verification-root pointer; full mathematical proof Sections 1-3 retained"
+          }
+        ],
+        "path_only_replacements": {},
+        "private_prose_replacements": {},
+        "mathematical_formulas_changed": false
+      }
+    },
+    {
+      "public_path": "results/transportation-developments/proofs/A60-K3-RESERVE-PROOF.md",
+      "source_basename": "K3-RESERVE-PROOF.md",
+      "source_sha256": "2d31473443dc13a097f8fcdb36dc0a73a653cb00c91d135d8302200a89db5b7b",
+      "adaptation": {
+        "excluded_source_line_ranges": [
+          {
+            "start_line": 2,
+            "end_line": 7,
+            "reason": "Private derivation chronology/adoption/runtime prose; original mathematical provenance is retained separately"
+          },
+          {
+            "start_line": 239,
+            "end_line": 247,
+            "reason": "Private verification/adoption prose; mathematical boundary paragraph and Section 6 retained"
+          }
+        ],
+        "path_only_replacements": {
+          "FIRST-WALL-PROOF Section 2": "A58-FIRST-WALL-PROOF.md Section 2",
+          "k3-certificate-v1.json": "../certificates/a60-a61/k3-certificate-v1.json"
+        },
+        "private_prose_replacements": {},
+        "mathematical_formulas_changed": false
+      }
+    },
+    {
+      "public_path": "results/transportation-developments/proofs/A61-UNIFORM-PROOF.md",
+      "source_basename": "UNIFORM-PROOF.md",
+      "source_sha256": "72c43b2576de6398c851e40fe7af861f729c377d20d16aadc97c014d92b96623",
+      "adaptation": {
+        "excluded_source_line_ranges": [
+          {
+            "start_line": 2,
+            "end_line": 9,
+            "reason": "Private derivation chronology/adoption/runtime prose; original mathematical provenance is retained separately"
+          },
+          {
+            "start_line": 198,
+            "end_line": 206,
+            "reason": "Private verification/adoption procedure; exact mathematical limitations retained"
+          }
+        ],
+        "path_only_replacements": {
+          "FIRST-WALL-PROOF \u00a71": "A58-FIRST-WALL-PROOF.md \u00a71",
+          "chambers-v1.json": "../certificates/a60-a61/chambers-v1.json",
+          "chambers_v1.py": "../certificates/a60-a61/a61_chambers.py",
+          "balancing-probe-v1.json": "../certificates/a60-a61/balancing-probe-v1.json"
+        },
+        "private_prose_replacements": {
+          "No negative candidate, census coverage increment, global KTT proof, public action or provider send follows.": "No unrestricted KTT conclusion follows."
+        },
+        "mathematical_formulas_changed": false
+      }
+    }
+  ],
+  "historical_acceptance_review_scope_sha256": {
+    "A60": "355fdc77aaf93bbd04d62e374f8789f256c7f9ded141f26b2c427b950a42cccb",
+    "A61": "845cce5362496f8ba1341d88f997f0b0ce8dcbb941d4becc30615fcd622d7f44"
+  },
+  "mathematical_provenance": "Accepted root derivations and locally authored root arithmetic. The A58 source attributes the original family and corrected formula to its originating Pro046 source; its root proof independently reconstructs the full character bridge. No provider program is exported/executed.",
+  "current_replay_not_new_independent_method": true,
+  "original_arrays_byte_preserved": true
+}

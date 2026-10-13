@@ -1,0 +1,726 @@
+{
+  "schema": "a82-four-letter-free-variable-certificates/v1",
+  "sympy_version": "1.14.0",
+  "telescopers": {
+    "one_cap_free_variable_telescoper": {
+      "numerator": "0",
+      "denominator": "1",
+      "free_variables": [
+        "r",
+        "m",
+        "S"
+      ],
+      "exact_zero": true
+    },
+    "one_cap_q_at_S_equals_Q": {
+      "numerator": "0",
+      "denominator": "1",
+      "free_variables": [
+        "m",
+        "S"
+      ],
+      "exact_zero": true
+    },
+    "uncapped_free_variable_telescoper": {
+      "numerator": "0",
+      "denominator": "1",
+      "free_variables": [
+        "r",
+        "k",
+        "ell",
+        "T"
+      ],
+      "exact_zero": true
+    },
+    "one_cap_R_coefficients": [
+      "4*m*(2*m + 1)/(3*(3*m + 1)*(3*m + 2))",
+      "2*(46*m**2 + 41*m + 6)/(9*(3*m + 1)*(3*m + 2))",
+      "2*(m + 2)*(7*m + 3)/(3*(3*m + 1)*(3*m + 2))",
+      "4*(m + 2)*(m + 3)/(9*(3*m + 1)*(3*m + 2))"
+    ],
+    "one_cap_Q_coefficients": [
+      "2*(51*m**3 + 96*m**2 + 58*m + 11)/(9*(m + 1)*(2*m + 1)*(3*m + 1)*(3*m + 2))",
+      "2*(m + 2)*(13*m + 9)/(9*(m + 1)*(3*m + 1)*(3*m + 2))",
+      "2*(4*m**3 + 10*m**2 + 15*m + 7)/(9*(m + 1)*(2*m + 1)*(3*m + 1)*(3*m + 2))"
+    ]
+  },
+  "p": [
+    {
+      "S_degree": 0,
+      "coefficient": "2*(27*m**2 + 18*m + 2)/(3*(3*m + 1)*(3*m + 2))",
+      "common_numerator_m": "54*m**2 + 36*m + 4",
+      "common_denominator_m": "27*m**2 + 27*m + 6",
+      "numerator_m_equals_x_plus_3": [
+        "598",
+        "360",
+        "54"
+      ],
+      "denominator_m_equals_x_plus_3": [
+        "330",
+        "189",
+        "27"
+      ],
+      "numerator_coefficients_strictly_positive": true,
+      "denominator_coefficients_strictly_positive": true,
+      "majorant": "2",
+      "majorant_residual_m_equals_x_plus_3": [
+        "62",
+        "18"
+      ],
+      "residual_coefficients_nonnegative": true
+    },
+    {
+      "S_degree": 1,
+      "coefficient": "(15*m**2 + 25*m + 6)/((3*m + 1)*(3*m + 2))",
+      "common_numerator_m": "45*m**2 + 75*m + 18",
+      "common_denominator_m": "27*m**2 + 27*m + 6",
+      "numerator_m_equals_x_plus_3": [
+        "648",
+        "345",
+        "45"
+      ],
+      "denominator_m_equals_x_plus_3": [
+        "330",
+        "189",
+        "27"
+      ],
+      "numerator_coefficients_strictly_positive": true,
+      "denominator_coefficients_strictly_positive": true,
+      "majorant": "2",
+      "majorant_residual_m_equals_x_plus_3": [
+        "12",
+        "33",
+        "9"
+      ],
+      "residual_coefficients_nonnegative": true
+    },
+    {
+      "S_degree": 2,
+      "coefficient": "(3*m**2 + 7*m + 6)/((3*m + 1)*(3*m + 2))",
+      "common_numerator_m": "9*m**2 + 21*m + 18",
+      "common_denominator_m": "27*m**2 + 27*m + 6",
+      "numerator_m_equals_x_plus_3": [
+        "162",
+        "75",
+        "9"
+      ],
+      "denominator_m_equals_x_plus_3": [
+        "330",
+        "189",
+        "27"
+      ],
+      "numerator_coefficients_strictly_positive": true,
+      "denominator_coefficients_strictly_positive": true,
+      "majorant": "1/2",
+      "majorant_residual_m_equals_x_plus_3": [
+        "3",
+        "39/2",
+        "9/2"
+      ],
+      "residual_coefficients_nonnegative": true
+    }
+  ],
+  "q": [
+    {
+      "S_degree": 0,
+      "coefficient": "(243*m**4 - 162*m**3 - 81*m**2 + 36*m + 4)/(6*(3*m - 2)*(3*m - 1)*(3*m + 1)*(3*m + 2))",
+      "common_numerator_m": "243*m**4 - 162*m**3 - 81*m**2 + 36*m + 4",
+      "common_denominator_m": "486*m**4 - 270*m**2 + 24",
+      "numerator_m_equals_x_plus_3": [
+        "14692",
+        "21420",
+        "11583",
+        "2754",
+        "243"
+      ],
+      "denominator_m_equals_x_plus_3": [
+        "36960",
+        "50868",
+        "25974",
+        "5832",
+        "486"
+      ],
+      "numerator_coefficients_strictly_positive": true,
+      "denominator_coefficients_strictly_positive": true,
+      "majorant": "1411/1320",
+      "majorant_residual_m_equals_x_plus_3": [
+        "24816",
+        "3625029/110",
+        "3559959/220",
+        "191403/55",
+        "60831/220"
+      ],
+      "residual_coefficients_nonnegative": true
+    },
+    {
+      "S_degree": 1,
+      "coefficient": "(1215*m**4 + 162*m**3 - 864*m**2 + 9*m + 44)/(18*(3*m - 2)*(3*m - 1)*(3*m + 1)*(3*m + 2))",
+      "common_numerator_m": "1215*m**4 + 162*m**3 - 864*m**2 + 9*m + 44",
+      "common_denominator_m": "1458*m**4 - 810*m**2 + 72",
+      "numerator_m_equals_x_plus_3": [
+        "95084",
+        "130419",
+        "66204",
+        "14742",
+        "1215"
+      ],
+      "denominator_m_equals_x_plus_3": [
+        "110880",
+        "152604",
+        "77922",
+        "17496",
+        "1458"
+      ],
+      "numerator_coefficients_strictly_positive": true,
+      "denominator_coefficients_strictly_positive": true,
+      "majorant": "4457/2520",
+      "majorant_residual_m_equals_x_plus_3": [
+        "101024",
+        "9763893/70",
+        "10025793/140",
+        "567081/35",
+        "190917/140"
+      ],
+      "residual_coefficients_nonnegative": true
+    },
+    {
+      "S_degree": 2,
+      "coefficient": "(2997*m**4 + 2538*m**3 - 801*m**2 - 1134*m + 44)/(72*(3*m - 2)*(3*m - 1)*(3*m + 1)*(3*m + 2))",
+      "common_numerator_m": "2997*m**4 + 2538*m**3 - 801*m**2 - 1134*m + 44",
+      "common_denominator_m": "5832*m**4 - 3240*m**2 + 288",
+      "numerator_m_equals_x_plus_3": [
+        "300716",
+        "386262",
+        "183879",
+        "38502",
+        "2997"
+      ],
+      "denominator_m_equals_x_plus_3": [
+        "443520",
+        "610416",
+        "311688",
+        "69984",
+        "5832"
+      ],
+      "numerator_coefficients_strictly_positive": true,
+      "denominator_coefficients_strictly_positive": true,
+      "majorant": "40049/36960",
+      "majorant_residual_m_equals_x_plus_3": [
+        "179872",
+        "211881393/770",
+        "236942703/1540",
+        "14372451/385",
+        "5116527/1540"
+      ],
+      "residual_coefficients_nonnegative": true
+    },
+    {
+      "S_degree": 3,
+      "coefficient": "(135*m**4 + 198*m**3 + 99*m**2 - 4*m - 24)/(12*(3*m - 2)*(3*m - 1)*(3*m + 1)*(3*m + 2))",
+      "common_numerator_m": "135*m**4 + 198*m**3 + 99*m**2 - 4*m - 24",
+      "common_denominator_m": "972*m**4 - 540*m**2 + 48",
+      "numerator_m_equals_x_plus_3": [
+        "17136",
+        "20516",
+        "9171",
+        "1818",
+        "135"
+      ],
+      "denominator_m_equals_x_plus_3": [
+        "73920",
+        "101736",
+        "51948",
+        "11664",
+        "972"
+      ],
+      "numerator_coefficients_strictly_positive": true,
+      "denominator_coefficients_strictly_positive": true,
+      "majorant": "1009/3465",
+      "majorant_residual_m_equals_x_plus_3": [
+        "13168/3",
+        "3507076/385",
+        "2293113/385",
+        "607734/385",
+        "56997/385"
+      ],
+      "residual_coefficients_nonnegative": true
+    },
+    {
+      "S_degree": 4,
+      "coefficient": "(27*m**4 + 54*m**3 + 57*m**2 + 38*m + 12)/(24*(3*m - 2)*(3*m - 1)*(3*m + 1)*(3*m + 2))",
+      "common_numerator_m": "27*m**4 + 54*m**3 + 57*m**2 + 38*m + 12",
+      "common_denominator_m": "1944*m**4 - 1080*m**2 + 96",
+      "numerator_m_equals_x_plus_3": [
+        "4284",
+        "4754",
+        "2001",
+        "378",
+        "27"
+      ],
+      "denominator_m_equals_x_plus_3": [
+        "147840",
+        "203472",
+        "103896",
+        "23328",
+        "1944"
+      ],
+      "numerator_coefficients_strictly_positive": true,
+      "denominator_coefficients_strictly_positive": true,
+      "majorant": "51/1760",
+      "majorant_residual_m_equals_x_plus_3": [
+        "0",
+        "125627/110",
+        "222117/220",
+        "16389/55",
+        "6453/220"
+      ],
+      "residual_coefficients_nonnegative": true
+    }
+  ],
+  "H": [
+    {
+      "S_degree": 0,
+      "coefficient": "(409*m**4 - 166*m**3 - 179*m**2 + 44*m + 12)/(18*(3*m - 2)*(3*m - 1)*(3*m + 1)*(3*m + 2))",
+      "common_numerator_m": "409*m**4 - 166*m**3 - 179*m**2 + 44*m + 12",
+      "common_denominator_m": "1458*m**4 - 810*m**2 + 72",
+      "numerator_m_equals_x_plus_3": [
+        "27180",
+        "38660",
+        "20413",
+        "4742",
+        "409"
+      ],
+      "denominator_m_equals_x_plus_3": [
+        "110880",
+        "152604",
+        "77922",
+        "17496",
+        "1458"
+      ],
+      "numerator_coefficients_strictly_positive": true,
+      "denominator_coefficients_strictly_positive": true,
+      "majorant": "409/1458",
+      "majorant_residual_m_equals_x_plus_3": [
+        "317860/81",
+        "12446/3",
+        "13012/9",
+        "166"
+      ],
+      "residual_coefficients_nonnegative": true,
+      "coefficient_ratios": [
+        "151/616",
+        "9665/38151",
+        "20413/77922",
+        "2371/8748",
+        "409/1458"
+      ],
+      "derived_maximum": "409/1458",
+      "maximum_indices": [
+        4
+      ]
+    },
+    {
+      "S_degree": 1,
+      "coefficient": "(9474*m**4 - 2704*m**3 - 4301*m**2 + 641*m + 240)/(90*(3*m - 2)*(3*m - 1)*(3*m + 1)*(3*m + 2))",
+      "common_numerator_m": "9474*m**4 - 2704*m**3 - 4301*m**2 + 641*m + 240",
+      "common_denominator_m": "7290*m**4 - 4050*m**2 + 360",
+      "numerator_m_equals_x_plus_3": [
+        "657840",
+        "925019",
+        "482959",
+        "110984",
+        "9474"
+      ],
+      "denominator_m_equals_x_plus_3": [
+        "554400",
+        "763020",
+        "389610",
+        "87480",
+        "7290"
+      ],
+      "numerator_coefficients_strictly_positive": true,
+      "denominator_coefficients_strictly_positive": true,
+      "majorant": "1579/1215",
+      "majorant_residual_m_equals_x_plus_3": [
+        "1691600/27",
+        "66593",
+        "70121/3",
+        "2704"
+      ],
+      "residual_coefficients_nonnegative": true,
+      "coefficient_ratios": [
+        "2741/2310",
+        "925019/763020",
+        "482959/389610",
+        "13873/10935",
+        "1579/1215"
+      ],
+      "derived_maximum": "1579/1215",
+      "maximum_indices": [
+        4
+      ]
+    },
+    {
+      "S_degree": 2,
+      "coefficient": "(100913*m**4 + 20242*m**3 - 58345*m**2 - 4178*m + 2652)/(648*(3*m - 2)*(3*m - 1)*(3*m + 1)*(3*m + 2))",
+      "common_numerator_m": "100913*m**4 + 20242*m**3 - 58345*m**2 - 4178*m + 2652",
+      "common_denominator_m": "52488*m**4 - 29160*m**2 + 2592",
+      "numerator_m_equals_x_plus_3": [
+        "8185500",
+        "11090890",
+        "5573135",
+        "1231198",
+        "100913"
+      ],
+      "denominator_m_equals_x_plus_3": [
+        "3991680",
+        "5493744",
+        "2805192",
+        "629856",
+        "52488"
+      ],
+      "numerator_coefficients_strictly_positive": true,
+      "denominator_coefficients_strictly_positive": true,
+      "majorant": "45475/22176",
+      "majorant_residual_m_equals_x_plus_3": [
+        "0",
+        "26919665/154",
+        "55225895/308",
+        "4651579/77",
+        "2070071/308"
+      ],
+      "residual_coefficients_nonnegative": true,
+      "coefficient_ratios": [
+        "45475/22176",
+        "5545445/2746872",
+        "5573135/2805192",
+        "615599/314928",
+        "100913/52488"
+      ],
+      "derived_maximum": "45475/22176",
+      "maximum_indices": [
+        0
+      ]
+    },
+    {
+      "S_degree": 3,
+      "coefficient": "(62417*m**4 + 50290*m**3 - 15481*m**2 - 18578*m + 276)/(648*(3*m - 2)*(3*m - 1)*(3*m + 1)*(3*m + 2))",
+      "common_numerator_m": "62417*m**4 + 50290*m**3 - 15481*m**2 - 18578*m + 276",
+      "common_denominator_m": "52488*m**4 - 29160*m**2 + 2592",
+      "numerator_m_equals_x_plus_3": [
+        "6218820",
+        "7987402",
+        "3807647",
+        "799294",
+        "62417"
+      ],
+      "denominator_m_equals_x_plus_3": [
+        "3991680",
+        "5493744",
+        "2805192",
+        "629856",
+        "52488"
+      ],
+      "numerator_coefficients_strictly_positive": true,
+      "denominator_coefficients_strictly_positive": true,
+      "majorant": "34549/22176",
+      "majorant_residual_m_equals_x_plus_3": [
+        "0",
+        "88018991/154",
+        "173308313/308",
+        "14013025/77",
+        "5961785/308"
+      ],
+      "residual_coefficients_nonnegative": true,
+      "coefficient_ratios": [
+        "34549/22176",
+        "3993701/2746872",
+        "3807647/2805192",
+        "399647/314928",
+        "62417/52488"
+      ],
+      "derived_maximum": "34549/22176",
+      "maximum_indices": [
+        0
+      ]
+    },
+    {
+      "S_degree": 4,
+      "coefficient": "(17287*m**4 + 23774*m**3 + 10441*m**2 - 838*m - 2220)/(648*(3*m - 2)*(3*m - 1)*(3*m + 1)*(3*m + 2))",
+      "common_numerator_m": "17287*m**4 + 23774*m**3 + 10441*m**2 - 838*m - 2220",
+      "common_denominator_m": "52488*m**4 - 29160*m**2 + 2592",
+      "numerator_m_equals_x_plus_3": [
+        "2131380",
+        "2570702",
+        "1157905",
+        "231218",
+        "17287"
+      ],
+      "denominator_m_equals_x_plus_3": [
+        "3991680",
+        "5493744",
+        "2805192",
+        "629856",
+        "52488"
+      ],
+      "numerator_coefficients_strictly_positive": true,
+      "denominator_coefficients_strictly_positive": true,
+      "majorant": "3947/7392",
+      "majorant_residual_m_equals_x_plus_3": [
+        "0",
+        "55857883/154",
+        "104702461/308",
+        "8092481/77",
+        "3307693/308"
+      ],
+      "residual_coefficients_nonnegative": true,
+      "coefficient_ratios": [
+        "3947/7392",
+        "1285351/2746872",
+        "1157905/2805192",
+        "115609/314928",
+        "17287/52488"
+      ],
+      "derived_maximum": "3947/7392",
+      "maximum_indices": [
+        0
+      ]
+    },
+    {
+      "S_degree": 5,
+      "coefficient": "(8951*m**4 + 16654*m**3 + 16301*m**2 + 10174*m + 2940)/(3240*(3*m - 2)*(3*m - 1)*(3*m + 1)*(3*m + 2))",
+      "common_numerator_m": "8951*m**4 + 16654*m**3 + 16301*m**2 + 10174*m + 2940",
+      "common_denominator_m": "262440*m**4 - 145800*m**2 + 12960",
+      "numerator_m_equals_x_plus_3": [
+        "1354860",
+        "1524346",
+        "649541",
+        "124066",
+        "8951"
+      ],
+      "denominator_m_equals_x_plus_3": [
+        "19958400",
+        "27468720",
+        "14025960",
+        "3149280",
+        "262440"
+      ],
+      "numerator_coefficients_strictly_positive": true,
+      "denominator_coefficients_strictly_positive": true,
+      "majorant": "2509/36960",
+      "majorant_residual_m_equals_x_plus_3": [
+        "0",
+        "52413293/154",
+        "93200819/308",
+        "6908467/77",
+        "2730275/308"
+      ],
+      "residual_coefficients_nonnegative": true,
+      "coefficient_ratios": [
+        "2509/36960",
+        "762173/13734360",
+        "649541/14025960",
+        "62033/1574640",
+        "8951/262440"
+      ],
+      "derived_maximum": "2509/36960",
+      "maximum_indices": [
+        0
+      ]
+    }
+  ],
+  "r_coefficients": [
+    "8*m*(m - 1)*(5*m**2 - 1)/(9*(3*m - 2)*(3*m - 1)*(3*m + 1)*(3*m + 2))",
+    "2*(471*m**4 - 236*m**3 - 229*m**2 + 64*m + 10)/(45*(3*m - 2)*(3*m - 1)*(3*m + 1)*(3*m + 2))",
+    "2*(895*m**4 + 314*m**3 - 659*m**2 - 79*m + 39)/(81*(3*m - 2)*(3*m - 1)*(3*m + 1)*(3*m + 2))",
+    "(806*m**4 + 904*m**3 - 25*m**2 - 383*m - 12)/(81*(3*m - 2)*(3*m - 1)*(3*m + 1)*(3*m + 2))",
+    "(166*m**4 + 305*m**3 + 223*m**2 + 38*m - 42)/(81*(3*m - 2)*(3*m - 1)*(3*m + 1)*(3*m + 2))"
+  ],
+  "qbar_absolute_factor_majorant_identity": {
+    "numerator": "0",
+    "denominator": "1",
+    "free_variables": [
+      "S"
+    ],
+    "exact_zero": true
+  },
+  "ratios": {
+    "factor_slope_cross_differences": [
+      {
+        "i": 0,
+        "A": "3*m - 6",
+        "B": "6*m - 12",
+        "at_m3_A": 3,
+        "at_m3_B": 6
+      },
+      {
+        "i": 1,
+        "A": "3*m - 5",
+        "B": "6*m - 10",
+        "at_m3_A": 4,
+        "at_m3_B": 8
+      },
+      {
+        "i": 2,
+        "A": "3*m - 4",
+        "B": "6*m - 8",
+        "at_m3_A": 5,
+        "at_m3_B": 10
+      }
+    ],
+    "exact_coefficient_ratios": [
+      {
+        "name": "R_M_minus_R_A",
+        "coefficients": [
+          {
+            "S_degree": 0,
+            "numerator_m_equals_x_plus_3": [
+              "0"
+            ],
+            "denominator_m_equals_x_plus_3": [
+              "1"
+            ],
+            "numerator_nonnegative": true,
+            "denominator_positive": true
+          },
+          {
+            "S_degree": 1,
+            "numerator_m_equals_x_plus_3": [
+              "65596",
+              "120874",
+              "81810",
+              "26235",
+              "4050",
+              "243"
+            ],
+            "denominator_m_equals_x_plus_3": [
+              "720720",
+              "1153956",
+              "766272",
+              "270135",
+              "53325",
+              "5589",
+              "243"
+            ],
+            "numerator_nonnegative": true,
+            "denominator_positive": true
+          },
+          {
+            "S_degree": 2,
+            "numerator_m_equals_x_plus_3": [
+              "73",
+              "76",
+              "15"
+            ],
+            "denominator_m_equals_x_plus_3": [
+              "1848",
+              "1978",
+              "787",
+              "138",
+              "9"
+            ],
+            "numerator_nonnegative": true,
+            "denominator_positive": true
+          },
+          {
+            "S_degree": 3,
+            "numerator_m_equals_x_plus_3": [
+              "3086",
+              "4025",
+              "1494",
+              "171"
+            ],
+            "denominator_m_equals_x_plus_3": [
+              "720720",
+              "1153956",
+              "766272",
+              "270135",
+              "53325",
+              "5589",
+              "243"
+            ],
+            "numerator_nonnegative": true,
+            "denominator_positive": true
+          }
+        ]
+      },
+      {
+        "name": "R_M_minus_R_B",
+        "coefficients": [
+          {
+            "S_degree": 0,
+            "numerator_m_equals_x_plus_3": [
+              "0"
+            ],
+            "denominator_m_equals_x_plus_3": [
+              "1"
+            ],
+            "numerator_nonnegative": true,
+            "denominator_positive": true
+          },
+          {
+            "S_degree": 1,
+            "numerator_m_equals_x_plus_3": [
+              "63728",
+              "134648",
+              "106704",
+              "39996",
+              "7128",
+              "486"
+            ],
+            "denominator_m_equals_x_plus_3": [
+              "244608",
+              "488880",
+              "398532",
+              "169560",
+              "39717",
+              "4860",
+              "243"
+            ],
+            "numerator_nonnegative": true,
+            "denominator_positive": true
+          },
+          {
+            "S_degree": 2,
+            "numerator_m_equals_x_plus_3": [
+              "88",
+              "100",
+              "24"
+            ],
+            "denominator_m_equals_x_plus_3": [
+              "896",
+              "1200",
+              "580",
+              "120",
+              "9"
+            ],
+            "numerator_nonnegative": true,
+            "denominator_positive": true
+          },
+          {
+            "S_degree": 3,
+            "numerator_m_equals_x_plus_3": [
+              "2296",
+              "3436",
+              "1584",
+              "234"
+            ],
+            "denominator_m_equals_x_plus_3": [
+              "244608",
+              "488880",
+              "398532",
+              "169560",
+              "39717",
+              "4860",
+              "243"
+            ],
+            "numerator_nonnegative": true,
+            "denominator_positive": true
+          }
+        ]
+      }
+    ]
+  },
+  "domain": "m=x+3, x>=0; all coefficient inequalities use positive common denominators",
+  "provider_numeric_arrays_read": false
+}

@@ -71,3 +71,19 @@ field or the realizability implication. See the new
 [verification guide](../results/rank-six-positivity/VERIFYING.md) for those
 separate proof and execution obligations. The source maps identify exact
 curated bytes; they are custody records, not mathematical checks.
+
+## Curated family source closure, 12 October 2026
+
+The new [family modules](../results/research-progress/README.md) bind accepted
+proof sources, indispensable exact certificate data and trusted root verifier
+sources in separate leaf manifests. Curation removes operating introductions,
+private paths and runtime records; mathematical formulas, original constraints,
+complete coefficient vectors, strict shifts and physical zero cases remain.
+Portable output roots and local byte-authentication replace private path lookups.
+No returned provider program, raw archive, private conversation, internal review
+transcript or operator log is part of the public tree. Complete selected numerical closures are included and their actual replay scope is recorded; source completeness is not inferred from byte hashes or internal acceptance.
+
+The complete [A55-A57 closure guide](../results/research-progress/A55-A57-REPRODUCIBILITY.md),
+[A60-A61 certificate guide](../results/transportation-developments/certificates/a60-a61/README.md)
+and [A70 U12 cone/G guide](../results/transportation-developments/code/a70-u12/README.md)
+provide the explicit portable routes and their actual source/arithmetic limits.

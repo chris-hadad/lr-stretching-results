@@ -87,8 +87,7 @@ A later [complete all-margin result](../transport-capped/README.md) proves the w
 
 The [whole transportation/LR bridge](proofs/transport-whole-lr-bridge.md)
 retains the entire polytope and its integer lattice. For positive balanced
-p-by-N margins, the complete linear coefficient is positive when
-min(p,N)≤3, and also for 4-by-4 and 4-by-5 margins and their transposes.
+p-by-N margins with both active sizes at least two, the complete linear coefficient is positive at every size by the later [all-rank theorem](../transportation-developments/README.md#the-full-linear-coefficient-at-every-table-size). The earlier small-side, 4-by-4 and 4-by-5 arguments below retain their standalone scopes.
 The sharp positive-integral minima in the last two cases are 65/18 and 325/72.
 
 Read the [small-side argument](proofs/transport-small-side.md),
@@ -107,7 +106,7 @@ equals an explicit positive weighted double-cut sum. The
 at most the two smallest columns' sum. For four rows, the
 [enlarged region with two margin conditions](proofs/transport-two-gates.md) needs only
 `r4 <= c_(1)` and `r3+r4 <= c_(1)+c_(2)` after the stated row ordering.
-Outside the proved regions, the higher-class remainder remains part of c1.
+The later [complete all-rank wall proof](../transportation-developments/proofs/TRANSPORT-WALL-INDUCTION.md) proves that this higher-class remainder is zero at the original offsets for EVERY active table size. These earlier region proofs retain their historical domains and independent mechanisms; the universal [c1 theorem](../transportation-developments/proofs/TRANSPORT-C1.md) supplies the whole-size conclusion.
 
 A stronger [near-corner theorem](proofs/transport-near-corner.md) proves every
 ordinary coefficient positive for arbitrary m≥3 minor rows a_i>0 and N≥2
@@ -246,3 +245,18 @@ reciprocity and valuation mathematics. See the repository
 [references](../../REFERENCES.md) and the citations in each source proof.
 Alper Ferudun's rank-four/five results are central prior inputs. The
 [AI-assisted discovery and verification](../../PROVENANCE.md) are explicit.
+
+## Stronger complete family developments, 12 October 2026
+
+The earlier uniform central two-row theorem remains a readable historical
+specialization. [The later FR044 theorem](../two-row-inner/README.md) signs every
+two-row-inner original at arbitrary outer rank and unequal positive widths,
+with actual degree/parity and a paid majorization cover.
+The old transportation small-side and double-cut statements are supplemented by
+[the complete all-size c1 proof](../transportation-developments/README.md#the-full-linear-coefficient-at-every-table-size):
+all higher-class first jets vanish at the original offsets. The older one-/two-class
+proof alone did not establish that conclusion. [C22, restricted c2 and full
+overlap families](../transportation-developments/README.md),
+[low overlap](../overlap-families/README.md), [root-square operations](../root-square/README.md)
+and [four-letter positivity](../four-letter/README.md) retain their own exact
+floors and open complements. See the [dated record](../research-progress/README.md).

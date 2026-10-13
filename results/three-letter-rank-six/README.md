@@ -8,7 +8,10 @@ wall. Infeasible families have the zero polynomial.
 
 With lambda outer, this concerns the entire polynomial
 
-    P(t)=c^(t lambda)_(t mu,t nu), len(lambda)<=6, len(nu)<=3,
+
+```text
+P(t)=c^(t lambda)_(t mu,t nu), len(lambda)<=6, len(nu)<=3,
+```
 
 and its image under inner symmetry. It closes the complete three-letter
 slice as a standalone family theorem. The later
@@ -21,8 +24,11 @@ from a [full row-letter model](../../tooling/three_letter_certificates/MODEL.md)
 with seven original integer coordinates. Four exact correction fields give
 the bound
 
-    [t^k] P(t) >= 1/100000000 * sum_(actual k-faces F) vol_Z(F),
-                                                     1<=k<=7,
+
+```text
+[t^k] P(t) >= 1/100000000 * sum_(actual k-faces F) vol_Z(F),
+                                                 1<=k<=7,
+```
 
 in that model's saturated lattice. Actual degree can be smaller than seven.
 Normalized volumes do not include a factorial. This is a uniform whole-family
@@ -65,13 +71,19 @@ not LR counterexamples.
 
 For example, the entire triple
 
-    lambda=(13,11,9,7,5,3), mu=(10,8,6,4,2,0), nu=(8,6,4)
+
+```text
+lambda=(13,11,9,7,5,3), mu=(10,8,6,4,2,0), nu=(8,6,4)
+```
 
 has degree seven and polynomial
 
-    1 + (236/35)t + (4061/180)t^2 + (17447/360)t^3
-      + (5033/72)t^4 + (24299/360)t^5
-      + (14233/360)t^6 + (14233/1260)t^7.
+
+```text
+1 + (236/35)t + (4061/180)t^2 + (17447/360)t^3
+  + (5033/72)t^4 + (24299/360)t^5
+  + (14233/360)t^6 + (14233/1260)t^7.
+```
 
 The whole-hive Ehrhart series, independent tableau/lrcalc counts and full
 symbolic formula agree. [Complete examples](EXAMPLES.json) include lower
@@ -92,3 +104,14 @@ and the earlier complete normal-cycle work, are credited foundations.
 This result does not assert worldwide priority or external expert acceptance.
 See the repository's [AI-assistance statement](../../AI-ASSISTANCE.md) for the
 research process and its limitations.
+
+## Later families above the rank-six chart
+
+The complete rank-six three-letter theorem above keeps its standalone domain,
+fields and verification. Later [two-row-inner](../two-row-inner/README.md),
+[transportation/overlap](../transportation-developments/README.md),
+[low-overlap](../overlap-families/README.md) and [root-square](../root-square/README.md)
+results cover selected entire families at higher ranks. The new
+[four-letter family](../four-letter/README.md) has actual degree 3m+3 at rank
+m+4 and retains all three ballot-prefix families. It does not settle arbitrary
+three-/four-letter originals, lower four-letter heights or whole rank seven.

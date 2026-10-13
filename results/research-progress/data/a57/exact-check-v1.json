@@ -1,0 +1,295 @@
+{
+  "schema": "A57-U11-INDEPENDENT-COMPONENT-CHECK-V1",
+  "source_sha256": {
+    "results/runs/SLR-ASTRA057-20260926-001/source-intake/expanded-v1/a01cf64b78d7a1f7315d04c36d82203a838cf5de2c58ec955212eb82fb3e54a2/member-000006.json": "c49d1e2e25d00226ea2b411e36334178af89280d90a2ec9d9942c3fefc1695e9",
+    "results/runs/SLR-ASTRA057-20260926-001/source-intake/expanded-v1/a01cf64b78d7a1f7315d04c36d82203a838cf5de2c58ec955212eb82fb3e54a2/member-000011.json": "ed11cfffce059f13f0a98d121eb5e2366e32f06deb716c348311de25c5e0ede4",
+    "results/runs/SLR-ASTRA057-20260926-001/source-intake/expanded-v1/a01cf64b78d7a1f7315d04c36d82203a838cf5de2c58ec955212eb82fb3e54a2/member-000014.json": "ba6ad5d9ad31ec987e4dd4e4c00ef418ef6cb91f41be162e64df86086900bbca"
+  },
+  "cases": [
+    {
+      "n": 7,
+      "physical_rows": 63,
+      "interior_dimension": 15,
+      "cells": 56,
+      "full_slacks": 3591,
+      "shifted_slacks": 3528,
+      "unit_minors": 56,
+      "gram_matrices": 56,
+      "zero_counts": {
+        "5": 48,
+        "6": 8
+      },
+      "boundary": {
+        "lambda": [
+          12440,
+          11144,
+          10712,
+          8552,
+          8120,
+          5852,
+          3584
+        ],
+        "mu": [
+          6283,
+          5851,
+          4771,
+          3403,
+          2515,
+          1519,
+          1
+        ],
+        "nu": [
+          9625,
+          8107,
+          7129,
+          5365,
+          3565,
+          2269,
+          1
+        ],
+        "trace": 60404
+      },
+      "parent_minimum_slack": 216,
+      "balance": {
+        "cofacets": 124,
+        "equations": 296,
+        "unit_residual_max": 0,
+        "rank": 55
+      },
+      "maximum_cube_loss": 6
+    },
+    {
+      "n": 8,
+      "physical_rows": 84,
+      "interior_dimension": 21,
+      "cells": 88,
+      "full_slacks": 7476,
+      "shifted_slacks": 7392,
+      "unit_minors": 88,
+      "gram_matrices": 88,
+      "zero_counts": {
+        "5": 80,
+        "6": 8
+      },
+      "boundary": {
+        "lambda": [
+          484007,
+          476231,
+          473639,
+          460679,
+          458087,
+          444479,
+          430871,
+          46943
+        ],
+        "mu": [
+          447069,
+          444477,
+          437997,
+          429789,
+          424461,
+          418485,
+          409377,
+          1
+        ],
+        "nu": [
+          57747,
+          57745,
+          48637,
+          42769,
+          21387,
+          21385,
+          13609,
+          1
+        ],
+        "trace": 3274936
+      },
+      "parent_minimum_slack": 1,
+      "balance": {
+        "cofacets": 180,
+        "equations": 500,
+        "unit_residual_max": 0,
+        "rank": 87
+      },
+      "maximum_cube_loss": 7,
+      "old_56_at_rank_8": {
+        "cofacets": 124,
+        "equations": 368,
+        "unit_residual_max": 1,
+        "rank": 56
+      }
+    },
+    {
+      "n": 9,
+      "physical_rows": 108,
+      "interior_dimension": 28,
+      "cells": 128,
+      "full_slacks": 13932,
+      "shifted_slacks": 13824,
+      "unit_minors": 128,
+      "gram_matrices": 128,
+      "zero_counts": {
+        "5": 120,
+        "6": 8
+      },
+      "boundary": {
+        "lambda": [
+          22771840,
+          22725184,
+          22709632,
+          22631872,
+          22616320,
+          22534672,
+          22453024,
+          20149456,
+          218182
+        ],
+        "mu": [
+          22550216,
+          22534664,
+          22495784,
+          22446536,
+          22414568,
+          22378712,
+          22324064,
+          19867808,
+          1
+        ],
+        "nu": [
+          346479,
+          346477,
+          346465,
+          291817,
+          128319,
+          128317,
+          128305,
+          81649,
+          1
+        ],
+        "trace": 178810182
+      },
+      "parent_minimum_slack": 1,
+      "balance": {
+        "cofacets": 248,
+        "equations": 744,
+        "unit_residual_max": 0,
+        "rank": 127
+      },
+      "maximum_cube_loss": 7
+    },
+    {
+      "n": 10,
+      "physical_rows": 135,
+      "interior_dimension": 36,
+      "cells": 176,
+      "full_slacks": 23895,
+      "shifted_slacks": 23760,
+      "unit_minors": 176,
+      "gram_matrices": 176,
+      "zero_counts": {
+        "5": 168,
+        "6": 8
+      },
+      "boundary": {
+        "lambda": [
+          1210590009,
+          1210310073,
+          1210216761,
+          1209750201,
+          1209656889,
+          1209167001,
+          1208677113,
+          1194855705,
+          1075268061,
+          1097877
+        ],
+        "mu": [
+          1209260269,
+          1209166957,
+          1208933677,
+          1208638189,
+          1208446381,
+          1208231245,
+          1207903357,
+          1193165821,
+          1073958979,
+          1
+        ],
+        "nu": [
+          2078871,
+          2078869,
+          2078857,
+          2078785,
+          769911,
+          769909,
+          769897,
+          769825,
+          489889,
+          1
+        ],
+        "trace": 10739589690
+      },
+      "parent_minimum_slack": 1,
+      "balance": {
+        "cofacets": 328,
+        "equations": 1036,
+        "unit_residual_max": 0,
+        "rank": 175
+      },
+      "maximum_cube_loss": 7
+    }
+  ],
+  "extensions": [
+    {
+      "from_rank": 7,
+      "to_rank": 8,
+      "checked_records": 88
+    },
+    {
+      "from_rank": 8,
+      "to_rank": 9,
+      "checked_records": 128
+    },
+    {
+      "from_rank": 9,
+      "to_rank": 10,
+      "checked_records": 176
+    }
+  ],
+  "pair_checks": [
+    {
+      "n": 7,
+      "pairs": 6,
+      "pairing": "11/6",
+      "wrong_metric_pair_rejected": true
+    },
+    {
+      "n": 8,
+      "pairs": 10,
+      "pairing": "35/12",
+      "wrong_metric_pair_rejected": true
+    },
+    {
+      "n": 9,
+      "pairs": 15,
+      "pairing": "17/4",
+      "wrong_metric_pair_rejected": true
+    },
+    {
+      "n": 10,
+      "pairs": 21,
+      "pairing": "35/6",
+      "wrong_metric_pair_rejected": true
+    }
+  ],
+  "corruption_controls": {
+    "wrong_endpoint": true,
+    "missing_cell": true,
+    "wrong_normal_sign": true,
+    "identity_metric_pair": true,
+    "violated_full_row": true,
+    "altered_seed": true,
+    "altered_boundary": true
+  },
+  "status": "PASS"
+}

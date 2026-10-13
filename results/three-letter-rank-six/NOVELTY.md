@@ -36,3 +36,14 @@ covers all ordinary rank-at-most-six triples, while this module retains its
 explicit count formulas and independent small certificate. See the
 [later novelty note](../rank-six-positivity/NOVELTY.md) for that theorem's
 bounded related-work comparison. Rank seven and unrestricted KTT remain open.
+
+## Later families above the rank-six chart
+
+The complete rank-six three-letter theorem above keeps its standalone domain,
+fields and verification. Later [two-row-inner](../two-row-inner/README.md),
+[transportation/overlap](../transportation-developments/README.md),
+[low-overlap](../overlap-families/README.md) and [root-square](../root-square/README.md)
+results cover selected entire families at higher ranks. The new
+[four-letter family](../four-letter/README.md) has actual degree 3m+3 at rank
+m+4 and retains all three ballot-prefix families. It does not settle arbitrary
+three-/four-letter originals, lower four-letter heights or whole rank seven.

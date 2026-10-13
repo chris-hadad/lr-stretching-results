@@ -179,3 +179,18 @@ they are not represented as independent verification of the new theorem.
 The [new novelty discussion](results/rank-six-positivity/NOVELTY.md) keeps
 the comparison bounded. No worldwide-priority or external-review conclusion
 follows from this bibliography.
+
+## Later compensation inputs
+
+- Welleda Baldoni-Silva and Michele Vergne, *Residues formulae for volumes and
+  Ehrhart polynomials of convex polytopes*, arXiv:math/0103097v1 (2001).
+  [Primary paper](https://arxiv.org/abs/math/0103097v1).
+- Arzu Boysal and Michele Vergne, *Paradan's wall crossing formula for partition
+  functions and Khovanski-Pukhlikov differential operator*, Annales de l'Institut
+  Fourier 59 (2009), 1715–1752; arXiv:0803.2810v1.
+  [Primary paper](https://arxiv.org/abs/0803.2810v1), [journal DOI](https://doi.org/10.5802/aif.2475).
+
+The [operative source notes](REFERENCE-NOTES.md#transportation-wall-and-residue-inputs)
+state the exact chamber, contour, orientation and endpoint hypotheses used by
+the complete transportation c1 proof. Existing LR/Pieri, polynomiality and
+compatible-cycle references retain their earlier credit.

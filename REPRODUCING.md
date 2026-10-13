@@ -235,3 +235,32 @@ The [small publication failure-path tests](tests/README.md) exercise optimizatio
 refusals, continuation corruption and owned process cleanup, including signals
 during launch and handler restoration. They are separate from the mathematical
 certificate replays and install no dependencies or proof data.
+
+## Later complete family packages
+
+The old default `python3 -B reproduce.py` still runs its five original small
+modules; it does not reproduce the new family packages. Use the named module
+commands, with Python 3.11+ and fresh explicit output locations:
+
+| Module | Portable route | What it checks |
+| --- | --- | --- |
+| [Two-row inner](results/two-row-inner/README.md) | `python3 -B results/two-row-inner/code/check_two_row.py --output /path/to/new-check.json` | Complete historical control roster: cycle/transfer products, parity states, majorization, original tableaux, point/empty and omission cases |
+| [One triangle](results/transportation-developments/README.md) | `python3 -B results/transportation-developments/code/verify_triangle.py --output /path/to/new-triangle-check` | Entire fixed sign certificates, full initial-slope arrays, symbolic finite polynomial identities and omission controls; analytic proof supplies arbitrary n |
+| [Interacting rank seven](results/overlap-families/README.md) | `python3 -B results/overlap-families/code/verify_interacting.py --full` | Complete finite wall/cone/support/derivative certificate; explicit separate replay |
+| [Root square](results/root-square/README.md) | `python3 -B results/root-square/code/reproduce.py --output /path/to/new-check.json` | Every stored selected endpoint/gain join, complete reserve/exception accounting and fresh low-index arithmetic; no full high-index regeneration timing claim |
+| [Four letters](results/four-letter/README.md) | Exact and symbolic commands in its guide | Every necessary finite F/W base and compensation, plus full free-variable majorants/telescopers/ratios; symbolic route needs SymPy |
+
+`python3 -B verification/check_recent_sources.py --module MODULE` checks complete
+local file/hash/size membership for one new module. It authenticates bytes,
+not mathematical validity. The new leaf source maps exclude themselves, and
+parent source maps bind their actual bytes without cycles. Wrong-hash, wrong-size
+and omitted-file controls are separate publication checks.
+
+The [dependency record](results/research-progress/DEPENDENCIES.md) includes the complete older absorber, crossing and A71 finite closures with portable trusted checkers. Fresh export checks are recorded per module in
+VERIFICATION.json; a missing or pending record is not a successful reproduction.
+No generic/full-repository suite is required for this update.
+
+The complete [A55-A57 closure guide](results/research-progress/A55-A57-REPRODUCIBILITY.md),
+[A60-A61 certificate guide](results/transportation-developments/certificates/a60-a61/README.md)
+and [A70 U12 cone/G guide](results/transportation-developments/code/a70-u12/README.md)
+provide the explicit portable routes and their actual source/arithmetic limits.

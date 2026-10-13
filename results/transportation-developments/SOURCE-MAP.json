@@ -1,0 +1,3248 @@
+{
+  "schema": "curated-recent-mathematical-module/v1",
+  "files": [
+    {
+      "path": "DEPENDENCIES.md",
+      "bytes": 2007,
+      "sha256": "81832e50c137ed81373b03829019a778328a6a909d4485162ba4a4031e67c4ed",
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "A83 curated explanatory update from accepted proofs",
+        "transformation": "Public editorial update; theorem scopes and historical release identity retained.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "f328d0c6a0db7e852d99e800f68b5339ab0e1ccb37bdf8736edffb24619b2288",
+            "current_public_sha256": "f328d0c6a0db7e852d99e800f68b5339ab0e1ccb37bdf8736edffb24619b2288",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "f328d0c6a0db7e852d99e800f68b5339ab0e1ccb37bdf8736edffb24619b2288",
+            "current_public_sha256": "f328d0c6a0db7e852d99e800f68b5339ab0e1ccb37bdf8736edffb24619b2288",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "PROOF-INDEX.md",
+      "bytes": 3134,
+      "sha256": "09c8414dc14dcbb51faad544685920dd0df38d018395d7c9dbabbbb8297bbf19",
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "A83 curated explanatory update from accepted proofs",
+        "transformation": "Public editorial update; theorem scopes and historical release identity retained.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "09c8414dc14dcbb51faad544685920dd0df38d018395d7c9dbabbbb8297bbf19",
+            "current_public_sha256": "09c8414dc14dcbb51faad544685920dd0df38d018395d7c9dbabbbb8297bbf19",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "09c8414dc14dcbb51faad544685920dd0df38d018395d7c9dbabbbb8297bbf19",
+            "current_public_sha256": "09c8414dc14dcbb51faad544685920dd0df38d018395d7c9dbabbbb8297bbf19",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "README.md",
+      "bytes": 8342,
+      "sha256": "1094b6d923badffd7e794234a70ab88e7ac99ece64bd955e1110a8fb80a50194",
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "A83 curated explanatory update from accepted proofs",
+        "transformation": "Public editorial update; theorem scopes and historical release identity retained.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "1094b6d923badffd7e794234a70ab88e7ac99ece64bd955e1110a8fb80a50194",
+            "current_public_sha256": "1094b6d923badffd7e794234a70ab88e7ac99ece64bd955e1110a8fb80a50194",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "1094b6d923badffd7e794234a70ab88e7ac99ece64bd955e1110a8fb80a50194",
+            "current_public_sha256": "1094b6d923badffd7e794234a70ab88e7ac99ece64bd955e1110a8fb80a50194",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "VERIFICATION.json",
+      "bytes": 3440,
+      "sha256": "880143e6474987d01e170fbfc0d03b46afbeca1ef17ea81e85359545c981cdc4",
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "A83 curated explanatory update from accepted proofs",
+        "transformation": "Public editorial update; theorem scopes and historical release identity retained."
+      }
+    },
+    {
+      "path": "certificates/a60-a61/MANIFEST.json",
+      "bytes": 5204,
+      "sha256": "d44aa21cf038e64885bb6f6a88e9c866373b6184c72d12d0ebee6bd5fb969a85",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a60-a61/stage-v3/public/results/transportation-developments/certificates/a60-a61/MANIFEST.json",
+        "source_bytes": 3726,
+        "source_sha256": "0b126929ad2d56eb0cffbe05f6cfafa3dff61d4ed622261d3ee155c6d7c66ae9",
+        "transformation": "Locally authored wrapper/documentation",
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a60-a61/stage-v3/public/results/transportation-developments/certificates/a60-a61/MANIFEST.json",
+          "bytes": 3726,
+          "sha256": "0b126929ad2d56eb0cffbe05f6cfafa3dff61d4ed622261d3ee155c6d7c66ae9"
+        },
+        "prior_public_pin": null,
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW",
+        "source_state": "FROZEN_CHECKED_R2_WORKING_EXPORT_BYTES_NOT_ATTRIBUTED_TO_OLD_HEAD",
+        "R2_transformations": [
+          {
+            "reason": "Refresh exact integrated public bytes after presentation/path changes; all canonical original-source hashes retained.",
+            "before_public_pin": {
+              "bytes": 3726,
+              "sha256": "0b126929ad2d56eb0cffbe05f6cfafa3dff61d4ed622261d3ee155c6d7c66ae9"
+            },
+            "after_public_pin": {
+              "bytes": 4928,
+              "sha256": "d22883f15104f73f21c4812492ed4184bb0a1c98997d32fd2b3be29e3fc8ecd1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "path": "certificates/a60-a61/PROVENANCE.json",
+      "bytes": 13470,
+      "sha256": "05fdec78bbaa3b62cf198bc72b1c15ac5e93de44fa846bd30f5ed35e25ff271e",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a60-a61/stage-v3/public/results/transportation-developments/certificates/a60-a61/PROVENANCE.json",
+        "source_bytes": 13470,
+        "source_sha256": "05fdec78bbaa3b62cf198bc72b1c15ac5e93de44fa846bd30f5ed35e25ff271e",
+        "transformation": "Locally authored wrapper/documentation",
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a60-a61/stage-v3/public/results/transportation-developments/certificates/a60-a61/PROVENANCE.json",
+          "bytes": 13470,
+          "sha256": "05fdec78bbaa3b62cf198bc72b1c15ac5e93de44fa846bd30f5ed35e25ff271e"
+        },
+        "prior_public_pin": null,
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW",
+        "source_state": "FROZEN_CHECKED_R2_WORKING_EXPORT_BYTES_NOT_ATTRIBUTED_TO_OLD_HEAD"
+      }
+    },
+    {
+      "path": "certificates/a60-a61/README.md",
+      "bytes": 3668,
+      "sha256": "7db011771e382e21a730967523f06c3167eb84b3c8ff3e9e5576cf54cb826d2f",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a60-a61/stage-v3/public/results/transportation-developments/certificates/a60-a61/README.md",
+        "source_bytes": 3668,
+        "source_sha256": "7db011771e382e21a730967523f06c3167eb84b3c8ff3e9e5576cf54cb826d2f",
+        "transformation": "Locally authored wrapper/documentation",
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a60-a61/stage-v3/public/results/transportation-developments/certificates/a60-a61/README.md",
+          "bytes": 3668,
+          "sha256": "7db011771e382e21a730967523f06c3167eb84b3c8ff3e9e5576cf54cb826d2f"
+        },
+        "prior_public_pin": null,
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW",
+        "source_state": "FROZEN_CHECKED_R2_WORKING_EXPORT_BYTES_NOT_ATTRIBUTED_TO_OLD_HEAD",
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "7db011771e382e21a730967523f06c3167eb84b3c8ff3e9e5576cf54cb826d2f",
+            "current_public_sha256": "7db011771e382e21a730967523f06c3167eb84b3c8ff3e9e5576cf54cb826d2f",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "certificates/a60-a61/a60_certificate.py",
+      "bytes": 5312,
+      "sha256": "ced6a15dbaf4a7b6c57691b84f4a4b215b332d86d1001a372c58d20a0957b057",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra060-2026-09-27/root-science/k3_certificate_v1.py",
+        "source_bytes": 5429,
+        "source_sha256": "8542a6b2ff2735d6458da1540ffce6b931475456c4404cfa0e0e1252b852cd1c",
+        "transformation": {
+          "all_function_ASTs_unchanged": true,
+          "header_prose_adapted": true,
+          "private_absolute_root_and_import_path_removed": true,
+          "selected_function_spans": [
+            {
+              "end_line": 20,
+              "function": "correction",
+              "selected_source_sha256": "1cc493a274915011479899287386ea539ba568ac7f85b781a549f3d45043c79f",
+              "start_line": 10
+            },
+            {
+              "end_line": 28,
+              "function": "formula",
+              "selected_source_sha256": "c460638768422071552ccb932e96d652114371207a6d84621affde0711188856",
+              "start_line": 22
+            },
+            {
+              "end_line": 53,
+              "function": "finite_bases",
+              "selected_source_sha256": "66f525e0cedb8fbb36089dcabb486755504f6848ba623be2e8e797e0698f2acd",
+              "start_line": 30
+            },
+            {
+              "end_line": 55,
+              "function": "E",
+              "selected_source_sha256": "69f633532eec5b3f390b12bb63f6734138c8a0a184ce68d40d7a7cc23c9fab83",
+              "start_line": 55
+            },
+            {
+              "end_line": 62,
+              "function": "large_base",
+              "selected_source_sha256": "73e386c7192a80067820b179b1016b80393dcf72a156fc946b8cb69a9f68f5fb",
+              "start_line": 57
+            },
+            {
+              "end_line": 79,
+              "function": "factorizations",
+              "selected_source_sha256": "6c63858685f384383b8df8f57d548af1753046ebd8cff8f0f8038ad01b2ccd58",
+              "start_line": 64
+            },
+            {
+              "end_line": 95,
+              "function": "main",
+              "selected_source_sha256": "5fae743a509d1bdd24091a93cd8fe3045f09e24d3bbad0445d2a70c10a936d89",
+              "start_line": 81
+            }
+          ]
+        },
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a60-a61/stage-v3/public/results/transportation-developments/certificates/a60-a61/a60_certificate.py",
+          "bytes": 5312,
+          "sha256": "ced6a15dbaf4a7b6c57691b84f4a4b215b332d86d1001a372c58d20a0957b057"
+        },
+        "prior_public_pin": null,
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW"
+      }
+    },
+    {
+      "path": "certificates/a60-a61/a61_balancing.py",
+      "bytes": 2357,
+      "sha256": "3b5b2367fc8c931340c5c999b93c3ddf264a22ca9443ac809a175495f64adc8b",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra061-2026-09-27/root-science/balancing_probe_v1.py",
+        "source_bytes": 2370,
+        "source_sha256": "f9be34de181b05216d7901a8a45f59a9db80777a654e147674a493ff2e4033b1",
+        "transformation": {
+          "all_function_ASTs_unchanged": true,
+          "header_prose_adapted": true,
+          "private_absolute_root_and_import_path_removed": false,
+          "selected_function_spans": []
+        },
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a60-a61/stage-v3/public/results/transportation-developments/certificates/a60-a61/a61_balancing.py",
+          "bytes": 2357,
+          "sha256": "3b5b2367fc8c931340c5c999b93c3ddf264a22ca9443ac809a175495f64adc8b"
+        },
+        "prior_public_pin": null,
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW"
+      }
+    },
+    {
+      "path": "certificates/a60-a61/a61_chambers.py",
+      "bytes": 3714,
+      "sha256": "431a82469ef2f2ae79d26046fd89b67b247115ae73832916aac5e2e83d0318fa",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra061-2026-09-27/root-science/chambers_v1.py",
+        "source_bytes": 3728,
+        "source_sha256": "fb23333104ce4af848d2defa380f09c18a477eb13937c9afe899bfddb9e140b7",
+        "transformation": {
+          "all_function_ASTs_unchanged": true,
+          "header_prose_adapted": true,
+          "private_absolute_root_and_import_path_removed": false,
+          "selected_function_spans": []
+        },
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a60-a61/stage-v3/public/results/transportation-developments/certificates/a60-a61/a61_chambers.py",
+          "bytes": 3714,
+          "sha256": "431a82469ef2f2ae79d26046fd89b67b247115ae73832916aac5e2e83d0318fa"
+        },
+        "prior_public_pin": null,
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW"
+      }
+    },
+    {
+      "path": "certificates/a60-a61/a61_map_audit.py",
+      "bytes": 1795,
+      "sha256": "06c864cc47ad9764caf7ad103188243d6e96c5e8307711376242047914e31946",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra061-2026-09-27/verification/audit_chamber_maps_v1.py",
+        "source_bytes": 5342,
+        "source_sha256": "d497be91791a63b7898b3d82f2a37f34319becc8d8ddaa8f9ccd683b52ab0157",
+        "transformation": {
+          "extracted_complete_functions": [
+            {
+              "end_line": 21,
+              "function": "poly",
+              "selected_source_sha256": "8345c2c82716dddc949a4ee6ea8fda0952757fb6f53de74597b7695c1ba6eac2",
+              "start_line": 20
+            },
+            {
+              "end_line": 30,
+              "function": "determinant",
+              "selected_source_sha256": "cdc7c84c2a989776ef0526b923df2f10c031cea072dddbad8b7fe49a49843253",
+              "start_line": 24
+            },
+            {
+              "end_line": 42,
+              "function": "direction",
+              "selected_source_sha256": "d8b7a15c1681ed3043d28c00faab440cf0f11350c8a8cf82ab4b970850c367c9",
+              "start_line": 33
+            },
+            {
+              "end_line": 56,
+              "function": "derivative",
+              "selected_source_sha256": "eebe88a56c3052ba029f58a0941fc2b77db0ae6a0cdf663ca13af150d16ce4b0",
+              "start_line": 45
+            },
+            {
+              "end_line": 60,
+              "function": "rays",
+              "selected_source_sha256": "017ea609286d2872131223b2b4fbc3730be59e50ee99a78916c839f9ea113920",
+              "start_line": 59
+            },
+            {
+              "end_line": 66,
+              "function": "restriction",
+              "selected_source_sha256": "8e33d5608ac6671a7574c23c0cf22eaad0bfa592526cd5ee0fff6fe753fbb6cb",
+              "start_line": 63
+            }
+          ],
+          "mathematical_function_bodies_unchanged": true,
+          "private_input_roots_and_runtime_entrypoint_excluded": true
+        },
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a60-a61/stage-v3/public/results/transportation-developments/certificates/a60-a61/a61_map_audit.py",
+          "bytes": 1795,
+          "sha256": "06c864cc47ad9764caf7ad103188243d6e96c5e8307711376242047914e31946"
+        },
+        "prior_public_pin": null,
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW"
+      }
+    },
+    {
+      "path": "certificates/a60-a61/balancing-probe-v1.json",
+      "bytes": 513797,
+      "sha256": "ceeedadf13b9017a78c4a7833b64edae9d87e03e49d093b5d28175e78861daee",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra061-2026-09-27/root-science/balancing-probe-v1.json",
+        "source_bytes": 513797,
+        "source_sha256": "ceeedadf13b9017a78c4a7833b64edae9d87e03e49d093b5d28175e78861daee",
+        "transformation": {
+          "byte_preserved": true,
+          "complete_mathematical_arrays": true
+        },
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a60-a61/stage-v3/public/results/transportation-developments/certificates/a60-a61/balancing-probe-v1.json",
+          "bytes": 513797,
+          "sha256": "ceeedadf13b9017a78c4a7833b64edae9d87e03e49d093b5d28175e78861daee"
+        },
+        "prior_public_pin": null,
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW"
+      }
+    },
+    {
+      "path": "certificates/a60-a61/chambers-v1.json",
+      "bytes": 309182,
+      "sha256": "75f69ffa6b81f62403823a750baa02a613da8c383fff57fbed94672ce5bb9826",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra061-2026-09-27/root-science/chambers-v1.json",
+        "source_bytes": 309182,
+        "source_sha256": "75f69ffa6b81f62403823a750baa02a613da8c383fff57fbed94672ce5bb9826",
+        "transformation": {
+          "byte_preserved": true,
+          "complete_mathematical_arrays": true
+        },
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a60-a61/stage-v3/public/results/transportation-developments/certificates/a60-a61/chambers-v1.json",
+          "bytes": 309182,
+          "sha256": "75f69ffa6b81f62403823a750baa02a613da8c383fff57fbed94672ce5bb9826"
+        },
+        "prior_public_pin": null,
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW"
+      }
+    },
+    {
+      "path": "certificates/a60-a61/check_certificates.py",
+      "bytes": 12484,
+      "sha256": "b29f2b3cf56a563c7e24f9b5ef70ceb6dd985311262a25ad953918a90a8db406",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a60-a61/stage-v3/public/results/transportation-developments/certificates/a60-a61/check_certificates.py",
+        "source_bytes": 12484,
+        "source_sha256": "b29f2b3cf56a563c7e24f9b5ef70ceb6dd985311262a25ad953918a90a8db406",
+        "transformation": "Locally authored wrapper/documentation",
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a60-a61/stage-v3/public/results/transportation-developments/certificates/a60-a61/check_certificates.py",
+          "bytes": 12484,
+          "sha256": "b29f2b3cf56a563c7e24f9b5ef70ceb6dd985311262a25ad953918a90a8db406"
+        },
+        "prior_public_pin": null,
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW",
+        "source_state": "FROZEN_CHECKED_R2_WORKING_EXPORT_BYTES_NOT_ATTRIBUTED_TO_OLD_HEAD"
+      }
+    },
+    {
+      "path": "certificates/a60-a61/historical-chamber-maps.json",
+      "bytes": 315830,
+      "sha256": "a32606979a8dd49a8e3a6c628bb61287dcf093b2f183f7820a2da16942360e2c",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "results/raw/SLR-ASTRA061-20260927-001/verify/grid-v2.json",
+        "source_bytes": 316378,
+        "source_sha256": "d132214d07961ad76811bd72778f5f627d3ad4e6784aa1bbfcbb3fa98dfcb420",
+        "transformation": {
+          "excluded_top_level_fields": [
+            "pins"
+          ],
+          "new_counts_or_unused_observations": false,
+          "reason": "Absolute private source locators only; all five complete independent coefficient maps and all thirty original holdout records preserved"
+        },
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a60-a61/stage-v3/public/results/transportation-developments/certificates/a60-a61/historical-chamber-maps.json",
+          "bytes": 315830,
+          "sha256": "a32606979a8dd49a8e3a6c628bb61287dcf093b2f183f7820a2da16942360e2c"
+        },
+        "prior_public_pin": null,
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW"
+      }
+    },
+    {
+      "path": "certificates/a60-a61/k3-certificate-v1.json",
+      "bytes": 54381,
+      "sha256": "6c09bc508e61b8590ffc860e2a93dcea78be9e85453521b38e06f413e6dd5fca",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra060-2026-09-27/root-science/k3-certificate-v1.json",
+        "source_bytes": 54381,
+        "source_sha256": "6c09bc508e61b8590ffc860e2a93dcea78be9e85453521b38e06f413e6dd5fca",
+        "transformation": {
+          "byte_preserved": true,
+          "complete_mathematical_arrays": true
+        },
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a60-a61/stage-v3/public/results/transportation-developments/certificates/a60-a61/k3-certificate-v1.json",
+          "bytes": 54381,
+          "sha256": "6c09bc508e61b8590ffc860e2a93dcea78be9e85453521b38e06f413e6dd5fca"
+        },
+        "prior_public_pin": null,
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW"
+      }
+    },
+    {
+      "path": "certificates/a60-a61/polynomial_arithmetic.py",
+      "bytes": 1207,
+      "sha256": "11ed64d95220dde41c9cfefde89ebe616a6a46210a0ea6cea7f84ae9acb1ff8f",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra059-2026-09-27/reserve-check/check_v2.py",
+        "source_bytes": 15057,
+        "source_sha256": "af683f8bcdc87e164fac00b523a8102b274d68c874eb33c695422bf0beb06d23",
+        "transformation": {
+          "extracted_complete_functions": [
+            {
+              "end_line": 37,
+              "function": "trim",
+              "selected_source_sha256": "3373eb166c5e006bc966172d73c19f49255ddc9d3abb3ce87bf04417534a142f",
+              "start_line": 33
+            },
+            {
+              "end_line": 45,
+              "function": "add",
+              "selected_source_sha256": "173430d8bb6b60b3a05976d621dd8ad16ec6d6e9e2e7ee95031dabbe5308ba78",
+              "start_line": 40
+            },
+            {
+              "end_line": 49,
+              "function": "scale",
+              "selected_source_sha256": "6d524b5f318e9074206fcabe702c99a25367cb217e26229aca169649e94794ab",
+              "start_line": 48
+            },
+            {
+              "end_line": 60,
+              "function": "mul",
+              "selected_source_sha256": "11a71ab40f9b3d54df5ab653409e6b91cd72774459920273a5dc1837100116f3",
+              "start_line": 52
+            },
+            {
+              "end_line": 64,
+              "function": "binpoly",
+              "selected_source_sha256": "bd6bafa799cbc1676e5a441b72073f3bc040a608f1d3f0d6f98fcc128bb65fc1",
+              "start_line": 63
+            },
+            {
+              "end_line": 71,
+              "function": "at",
+              "selected_source_sha256": "c13b914bb4b04c7c97ceb8d3bca2909629efa8192cb119f40d9149023765f679",
+              "start_line": 67
+            },
+            {
+              "end_line": 75,
+              "function": "dominates",
+              "selected_source_sha256": "e5155619d0f2b0a816b9cbb7f69841b2ca4e47312e9f24e49e1e32027db0be48",
+              "start_line": 74
+            },
+            {
+              "end_line": 236,
+              "function": "serial",
+              "selected_source_sha256": "2646d6cc918e847015c7436c921c208c132e7ff081aeafa098c15f1d980be137",
+              "start_line": 229
+            }
+          ],
+          "mathematical_function_bodies_unchanged": true,
+          "nonarithmetic_LR_count_engine_and_runtime_entrypoints_excluded": true
+        },
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a60-a61/stage-v3/public/results/transportation-developments/certificates/a60-a61/polynomial_arithmetic.py",
+          "bytes": 1207,
+          "sha256": "11ed64d95220dde41c9cfefde89ebe616a6a46210a0ea6cea7f84ae9acb1ff8f"
+        },
+        "prior_public_pin": null,
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW"
+      }
+    },
+    {
+      "path": "code/a70-u12/README.md",
+      "bytes": 4779,
+      "sha256": "e1705b1fe41dff063b3a6e391fc22f962c71ab108befc25e1c347254d5f4c75c",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a70-u12/export-v1/results/transportation-developments/code/a70-u12/README.md",
+        "source_bytes": 4779,
+        "source_sha256": "e1705b1fe41dff063b3a6e391fc22f962c71ab108befc25e1c347254d5f4c75c",
+        "transformation": "Exact domains, boundaries, provenance, commands and check limits.",
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a70-u12/export-v1/results/transportation-developments/code/a70-u12/README.md",
+          "bytes": 4779,
+          "sha256": "e1705b1fe41dff063b3a6e391fc22f962c71ab108befc25e1c347254d5f4c75c"
+        },
+        "prior_public_pin": null,
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW",
+        "source_state": "FROZEN_CHECKED_R2_WORKING_EXPORT_BYTES_NOT_ATTRIBUTED_TO_OLD_HEAD",
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "e1705b1fe41dff063b3a6e391fc22f962c71ab108befc25e1c347254d5f4c75c",
+            "current_public_sha256": "e1705b1fe41dff063b3a6e391fc22f962c71ab108befc25e1c347254d5f4c75c",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "code/a70-u12/verify_a70_u12.py",
+      "bytes": 52905,
+      "sha256": "c08392d92ed9eb062732cef8d67e56830a182236acc178f65130d6f2b8525f64",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra070-2026-09-30/verification/pro049/verify_v1.py",
+        "source_bytes": 64142,
+        "source_sha256": "e6ba4211edba01cee3233f06bcbe6a1493d56ec205f9781a603c02b0128d2214",
+        "transformation": "37 complete mathematical functions/classes retained with identical AST and source segments; portable source pins/CLI, complete data regeneration and archive-only vector arithmetic added. Remove all counting/dispatch/calibration/private-workspace routines.",
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a70-u12/export-v1/results/transportation-developments/code/a70-u12/verify_a70_u12.py",
+          "bytes": 52905,
+          "sha256": "c08392d92ed9eb062732cef8d67e56830a182236acc178f65130d6f2b8525f64"
+        },
+        "prior_public_pin": null,
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW"
+      }
+    },
+    {
+      "path": "code/crossing_math.py",
+      "bytes": 9402,
+      "sha256": "36b2d1f7ee526aec78453a5a3bb73037ef9c79939bd25e770eb833e6888155a6",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra063-2026-09-27/verification/verify_crossing_v2.py",
+        "source_sha256": "86cec85902f17dcc56b8511c3b82ff056b690016047d35dc084aa482b429eddc",
+        "source_bytes": 26440,
+        "transformation": "AST-exact transitive mathematical-function closure; only unused runtime/original-engine orchestration omitted."
+      }
+    },
+    {
+      "path": "code/reproduce_two_cap.py",
+      "bytes": 411,
+      "sha256": "fb74e9d9d56d19437e3b668438fc4c632a9c3a275a8ea5375d4f7e827044f3f4",
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "A83 portable wrapper",
+        "transformation": "Explicit portable selected replay wrapper, no new theorem."
+      }
+    },
+    {
+      "path": "code/verify_crossing.py",
+      "bytes": 968,
+      "sha256": "33d47ec30d3229636beaf7a147b7b925e0305b28a5bf733f69daa94f35e9e444",
+      "origin": {
+        "repository": "lr-stretching-results",
+        "source": "A83 portable wrapper",
+        "transformation": "Explicit portable selected replay wrapper, no new theorem."
+      }
+    },
+    {
+      "path": "code/verify_high_star.py",
+      "bytes": 32463,
+      "sha256": "29785354610988eb67472eb42003d6d1eb2c8845157edee441e972a8dcb13df4",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra078-2026-10-05/verification/high-star/verify_high_star_v1.py",
+        "source_sha256": "f152932f759ed17ed09ba86fbafacbb77c71db728138e329ea09d144df0bf795",
+        "source_bytes": 33452,
+        "transformation": "All complete high-star arithmetic and omission controls unchanged; local manifest and four selected bases replace private lookups, with caller-selected fresh output and no public-tree runtime writes."
+      }
+    },
+    {
+      "path": "code/verify_triangle.py",
+      "bytes": 53546,
+      "sha256": "2972ca1e4289b37333806750d849cdfaf3ba8a520db34396c034c73177502ef7",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra079-2026-10-06/verification/algebra/a79-algebra-verifier-v4.py",
+        "source_sha256": "8b19258b49f39492b4ca7b7cf0c1962ae15b2f643da336abd94988c6acc891a2",
+        "source_bytes": 54510,
+        "transformation": "Complete root mathematics/parser/audit unchanged; local curated dependency pins replace private source paths; portable fresh output.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "ef3ac5f581511fbe80edfe2b609472416adb03a9fb37f13c9df7d2d233457863",
+            "current_public_sha256": "2972ca1e4289b37333806750d849cdfaf3ba8a520db34396c034c73177502ef7",
+            "transformation": "Only spaces on one otherwise empty line removed; every executable expression, function and assertion unchanged.",
+            "full_AST_identity": "PASS_EXACT_WITHOUT_LOCATION_ATTRIBUTES",
+            "AST_sha256": "767adff30a473cb1932ffe5ce974b525394d1b1d340b0595cb063c069b676f68"
+          }
+        ]
+      }
+    },
+    {
+      "path": "code/verify_two_cap.py",
+      "bytes": 18111,
+      "sha256": "acf7f4fe2e2b7e910bf2aa90bad3754ec8509f99c403fa9af9161ed664bdd84a",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra064-2026-09-27/verification/verify_two_cap_v1.py",
+        "source_sha256": "acf7f4fe2e2b7e910bf2aa90bad3754ec8509f99c403fa9af9161ed664bdd84a",
+        "source_bytes": 18111,
+        "transformation": "Exact trusted root mathematical source; no returned program import."
+      }
+    },
+    {
+      "path": "data/HIGH-STAR-ARRAYS.json",
+      "bytes": 276342,
+      "sha256": "86b747391a1f48800bc4d710fd3beb7e1b79d666074167b93176c97351461b88",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "results/raw/SLR-ASTRA078-20261005-001/verification/high-star/v1/ARRAYS-v1.json",
+        "source_sha256": "d5acec40e005cbd868038c3c2e5b9389e3aaf02982b35327a9dfae1349948f5c",
+        "source_bytes": 276382,
+        "transformation": "Mathematical JSON projection; runtime/path/operator fields omitted; exact scalar strings and mathematical ordering retained."
+      }
+    },
+    {
+      "path": "data/HIGH-STAR-BASES.json",
+      "bytes": 5379,
+      "sha256": "fec3fce068efd7dd45596ba683e5528e54b5d413e64a94a3339aac2f3c961cdd",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra078-2026-10-05/source-processing/pro053/provider-internal/objects/2a/2a27bb8b3b9b0fc211df76dbffb53397866c26aea0bd94f8fdb7e161d54296b0.json",
+        "source_sha256": "2a27bb8b3b9b0fc211df76dbffb53397866c26aea0bd94f8fdb7e161d54296b0",
+        "source_bytes": 29297,
+        "transformation": "Only the four indispensable complete mathematical high-star fixed-base fields; all unrelated source history omitted."
+      }
+    },
+    {
+      "path": "data/TRIANGLE-CERTIFICATES.json",
+      "bytes": 116765,
+      "sha256": "38e3064aa9a789df2f39aceb0642327b2929c38a43c51ab2e9023b27fdb9692d",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "results/raw/SLR-ASTRA079-20261006-001/verification/algebra/attempt-003/COEFFICIENT-CERTIFICATES.json",
+        "source_sha256": "38e3064aa9a789df2f39aceb0642327b2929c38a43c51ab2e9023b27fdb9692d",
+        "source_bytes": 116765,
+        "transformation": "Mathematical data projection; only runtime/path/operating fields omitted. Exact mathematical values and order preserved."
+      }
+    },
+    {
+      "path": "data/a70-u12/CERTIFICATE-DATA.json",
+      "bytes": 169648,
+      "sha256": "e9733cc2ca95bfb0049bd7e773dda503ad7e316ffd2bf8bdacdb4e6f489664c7",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra070-2026-09-30/verification/pro049/verify_v1.py",
+        "source_bytes": 64142,
+        "source_sha256": "e6ba4211edba01cee3233f06bcbe6a1493d56ec205f9781a603c02b0128d2214",
+        "transformation": "Fresh exact regeneration from complete original EXPECTED data, excluding only local timing fields.",
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a70-u12/export-v1/results/transportation-developments/data/a70-u12/CERTIFICATE-DATA.json",
+          "bytes": 169648,
+          "sha256": "e9733cc2ca95bfb0049bd7e773dda503ad7e316ffd2bf8bdacdb4e6f489664c7"
+        },
+        "prior_public_pin": null,
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW"
+      }
+    },
+    {
+      "path": "data/a70-u12/EXPECTED.json",
+      "bytes": 5518,
+      "sha256": "a6037e31bf7faa6e0f579ac5f750148799706769a34faf90b55ea95905582abc",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra070-2026-09-30/verification/pro049/EXPECTED.json",
+        "source_bytes": 5518,
+        "source_sha256": "a6037e31bf7faa6e0f579ac5f750148799706769a34faf90b55ea95905582abc",
+        "transformation": "Exact original bytes.",
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a70-u12/export-v1/results/transportation-developments/data/a70-u12/EXPECTED.json",
+          "bytes": 5518,
+          "sha256": "a6037e31bf7faa6e0f579ac5f750148799706769a34faf90b55ea95905582abc"
+        },
+        "prior_public_pin": null,
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW"
+      }
+    },
+    {
+      "path": "data/a70-u12/GENERATING-FUNCTION.json",
+      "bytes": 27024,
+      "sha256": "4dd2d6cd251b8cffc86cfb8021c86ce6f0ddbb1070747c03b913a6178726d461",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra070-2026-09-30/source-processing/pro049-export/objects/8b/8bf014ee64307fad5c527f71e42458c9cb1afe2e1975aa96adf093540735bc96.md",
+        "source_bytes": 23025,
+        "source_sha256": "8bf014ee64307fad5c527f71e42458c9cb1afe2e1975aa96adf093540735bc96",
+        "transformation": "All nine signed terms, full denominator powers, complete 16-cell half-open series and cleared numerator identity.",
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a70-u12/export-v1/results/transportation-developments/data/a70-u12/GENERATING-FUNCTION.json",
+          "bytes": 27024,
+          "sha256": "4dd2d6cd251b8cffc86cfb8021c86ce6f0ddbb1070747c03b913a6178726d461"
+        },
+        "prior_public_pin": null,
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW"
+      }
+    },
+    {
+      "path": "data/a70-u12/MANIFEST.json",
+      "bytes": 3313,
+      "sha256": "d076cd2773020e1f6b449bb559bebe4638a88b1af19f2ee59c19e059a20e3f40",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a70-u12/export-v1/results/transportation-developments/data/a70-u12/MANIFEST.json",
+        "source_bytes": 1845,
+        "source_sha256": "f8f1c80ba346f0b192209ae31693769e8c99251d30e095f73cf1ee12fca38ce5",
+        "transformation": "Complete checked root-created public closure.",
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a70-u12/export-v1/results/transportation-developments/data/a70-u12/MANIFEST.json",
+          "bytes": 1845,
+          "sha256": "f8f1c80ba346f0b192209ae31693769e8c99251d30e095f73cf1ee12fca38ce5"
+        },
+        "prior_public_pin": null,
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW",
+        "source_state": "FROZEN_CHECKED_R2_WORKING_EXPORT_BYTES_NOT_ATTRIBUTED_TO_OLD_HEAD",
+        "R2_transformations": [
+          {
+            "reason": "Refresh exact integrated public bytes after presentation/path changes; all canonical original-source hashes retained.",
+            "before_public_pin": {
+              "bytes": 1845,
+              "sha256": "f8f1c80ba346f0b192209ae31693769e8c99251d30e095f73cf1ee12fca38ce5"
+            },
+            "after_public_pin": {
+              "bytes": 2746,
+              "sha256": "dc9389e93f0eda62cdc9eefe38ca64027b209fdc8a0fc7214841da70504f46f9"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/a70-u12/RECORDED-CONTROLS.json",
+      "bytes": 7885,
+      "sha256": "c905c9d90d1927130c3c9a23be6cb0e7a55f1484a119663526a58b0fa9a771d0",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra070-2026-09-30/verification/pro049/evidence/vectors-001.json",
+        "source_bytes": 24728,
+        "source_sha256": "17db3e0d52dfad2bdebed641e9dd63a8bc1452dc048dd561cbe117b99ad25821",
+        "transformation": "All 16 complete original grade records retain literal partitions and three exact count values; remove process timings/private closures/receipt paths; mark reuse.",
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a70-u12/export-v1/results/transportation-developments/data/a70-u12/RECORDED-CONTROLS.json",
+          "bytes": 7885,
+          "sha256": "c905c9d90d1927130c3c9a23be6cb0e7a55f1484a119663526a58b0fa9a771d0"
+        },
+        "prior_public_pin": null,
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW"
+      }
+    },
+    {
+      "path": "data/a70-u12/SOURCE-TO-PUBLIC.json",
+      "bytes": 4984,
+      "sha256": "86d5360da4aeac37b01c859de7bd1aa892b676a4413fd41be8ee061269c12ddb",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a70-u12/export-v1/results/transportation-developments/data/a70-u12/SOURCE-TO-PUBLIC.json",
+        "source_bytes": 4114,
+        "source_sha256": "d91aef81fd2e234db60e91bd6f90738a496087bcfaceaa2d2d60f418ed96651c",
+        "transformation": "Complete checked root-created public closure.",
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a70-u12/export-v1/results/transportation-developments/data/a70-u12/SOURCE-TO-PUBLIC.json",
+          "bytes": 4114,
+          "sha256": "d91aef81fd2e234db60e91bd6f90738a496087bcfaceaa2d2d60f418ed96651c"
+        },
+        "prior_public_pin": null,
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW",
+        "source_state": "FROZEN_CHECKED_R2_WORKING_EXPORT_BYTES_NOT_ATTRIBUTED_TO_OLD_HEAD",
+        "R2_transformations": [
+          {
+            "reason": "Refresh exact integrated public bytes after presentation/path changes; all canonical original-source hashes retained.",
+            "before_public_pin": {
+              "bytes": 4114,
+              "sha256": "d91aef81fd2e234db60e91bd6f90738a496087bcfaceaa2d2d60f418ed96651c"
+            },
+            "after_public_pin": {
+              "bytes": 4713,
+              "sha256": "2c6f62ab1d89632b6d33acd80531f1286f5f795e987323a858cbe721ebf3ea6a"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/crossing/CHAMBER-CERTIFICATE-v1.json",
+      "bytes": 1830720,
+      "sha256": "73b2f9923b25b32fec016a0a89eed627b9d36cc5a364c6a43d369a7bfd65324e",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra063-2026-09-27/root-science/CHAMBER-CERTIFICATE-v1.json",
+        "source_sha256": "3c967830593dbd48428c2025d4522aaa4fff700f2aa57e2a617d117f91b9bd0c",
+        "source_bytes": 1830752,
+        "transformation": "Mathematical data projection; only runtime/path/operating fields omitted. Exact mathematical values and order preserved."
+      }
+    },
+    {
+      "path": "data/crossing/TWO-CAP-a4.json",
+      "bytes": 1570781,
+      "sha256": "22bc622f4e142cc00254643feca2b0407b3cfe4ae08bf88dd017d99e4e75c858",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "sources": [
+          {
+            "source": "results/raw/SLR-ASTRA064-20260927-001/two-cap-a4-A1-v1.json",
+            "sha256": "ad12afd2b03980bd4a21ca413ca91f52b6bc56af6930400964f588ea613195b4"
+          },
+          {
+            "source": "results/raw/SLR-ASTRA064-20260927-001/two-cap-a4-rest-v1.json",
+            "sha256": "24cf7061d4750442871aa7c4e1e6c74422a89c6bb1bb1eee6fa68356a7fa4165"
+          }
+        ],
+        "transformation": "Complete chamber-array union for the same a; runtime metadata omitted; every chamber coefficient and zero-domain declaration retained."
+      }
+    },
+    {
+      "path": "data/crossing/TWO-CAP-a5.json",
+      "bytes": 3179997,
+      "sha256": "d4971d1911515b5887f667d0edcc4fe99d6ed27204b74d38c022574bb9aa321c",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "sources": [
+          {
+            "source": "results/raw/SLR-ASTRA064-20260927-001/two-cap-a5-v1.json",
+            "sha256": "99950f70d094ef18cc337b2cd67926843eea1557c9c44a890e3ae51a081ba511"
+          }
+        ],
+        "transformation": "Complete chamber-array union for the same a; runtime metadata omitted; every chamber coefficient and zero-domain declaration retained."
+      }
+    },
+    {
+      "path": "data/crossing/TWO-CAP-a6.json",
+      "bytes": 5797875,
+      "sha256": "838c7e31d316ec60523bb0ccf03d1af70de9f244d546df042c5ae7cd7f106d86",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "sources": [
+          {
+            "source": "results/raw/SLR-ASTRA064-20260927-001/two-cap-a6-v1.json",
+            "sha256": "20800720b7150a625d49c6a807896ebb9fa2309d3347b0c6ec0405b136806310"
+          }
+        ],
+        "transformation": "Complete chamber-array union for the same a; runtime metadata omitted; every chamber coefficient and zero-domain declaration retained."
+      }
+    },
+    {
+      "path": "data/crossing/TWO-CAP-a7.json",
+      "bytes": 9783515,
+      "sha256": "23e26682ef10ce3373578cd7031b24604ffc6eb8b04f6f0792f1d3bd06ef8a78",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "sources": [
+          {
+            "source": "results/raw/SLR-ASTRA064-20260927-001/two-cap-a7-v1.json",
+            "sha256": "ce04a3d9d6fe97d6e1e77120786237d5a651d0e015e23031f3f5ef2520091616"
+          }
+        ],
+        "transformation": "Complete chamber-array union for the same a; runtime metadata omitted; every chamber coefficient and zero-domain declaration retained."
+      }
+    },
+    {
+      "path": "data/crossing/TWO-CAP-a8.json",
+      "bytes": 15656349,
+      "sha256": "d1b3b62a72e1cf88a4f9bd197af44d703e8053d7a487faaafde2501e3aa9ef8c",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "sources": [
+          {
+            "source": "results/raw/SLR-ASTRA064-20260927-001/two-cap-a8-rest-v1.json",
+            "sha256": "9a4dbdb524d4e8db9941a3eed4160ac20b1d5fd751c1ae8fffeb2512034fa335"
+          },
+          {
+            "source": "results/raw/SLR-ASTRA064-20260927-001/two-cap-a8-B3-v1.json",
+            "sha256": "f611d16e13659219c52305ea1662f472870cdd5f5fa6f5a0b2cb997e41f0ea7c"
+          }
+        ],
+        "transformation": "Complete chamber-array union for the same a; runtime metadata omitted; every chamber coefficient and zero-domain declaration retained."
+      }
+    },
+    {
+      "path": "data/crossing/ZERO-BASE-CERTIFICATE-v1.json",
+      "bytes": 22951,
+      "sha256": "2fabfb2aea2f45226c6242872e3ee230dc9026f56cd61297bc853f51de83c9e6",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra063-2026-09-27/root-science/ZERO-BASE-CERTIFICATE-v1.json",
+        "source_sha256": "6e3036f3a35cedb8ea20f5785d49c9729b497c2a1d543bdab7bd5c3054f2897d",
+        "source_bytes": 22987,
+        "transformation": "Mathematical data projection; only runtime/path/operating fields omitted. Exact mathematical values and order preserved."
+      }
+    },
+    {
+      "path": "proofs/A58-FIRST-WALL-PROOF.md",
+      "bytes": 9542,
+      "sha256": "27f4f181aacf59fbd8735b9034dce590a34af0f84ef1a6a7b3651fd778019fef",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra058-2026-09-27/root-science/FIRST-WALL-PROOF.md",
+        "source_bytes": 10890,
+        "source_sha256": "2bc8095453d675738c3d4093de5cc61bf859da8359e0f301ab4ae9988acb8070",
+        "transformation": {
+          "excluded_source_line_ranges": [
+            {
+              "end_line": 9,
+              "reason": "Private derivation chronology/adoption/runtime prose; original mathematical provenance is retained separately",
+              "start_line": 2
+            },
+            {
+              "end_line": 234,
+              "reason": "Historical count/runtime evidence and provider-workflow prose; full mathematical proof Sections 1-4 retained",
+              "start_line": 210
+            }
+          ],
+          "mathematical_formulas_changed": false,
+          "path_only_replacements": {},
+          "private_prose_replacements": {}
+        },
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a60-a61/stage-v3/public/results/transportation-developments/proofs/A58-FIRST-WALL-PROOF.md",
+          "bytes": 8901,
+          "sha256": "c7284ebe853d765b91d0b121f5ac48441b98fdcd5127ce1615ae4cfd210c39ac"
+        },
+        "prior_public_pin": {
+          "bytes": 10848,
+          "sha256": "51328abe854e5b5c2458c19fd4f2397139d56166c27158286797b629481dfd79"
+        },
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW",
+        "prior_origin_history": [
+          {
+            "repository": "stretched-lr-research",
+            "source": "methods/astra058-2026-09-27/root-science/FIRST-WALL-PROOF.md",
+            "source_sha256": "2bc8095453d675738c3d4093de5cc61bf859da8359e0f301ab4ae9988acb8070",
+            "source_bytes": 10890,
+            "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+            "public_formatting_history": [
+              {
+                "before_public_sha256": "2ed0c156796c7ad1e052426f32b19d675d588773652d0c4a4f3ebb409c98e17c",
+                "current_public_sha256": "51328abe854e5b5c2458c19fd4f2397139d56166c27158286797b629481dfd79",
+                "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+              },
+              {
+                "before_public_sha256": "2ed0c156796c7ad1e052426f32b19d675d588773652d0c4a4f3ebb409c98e17c",
+                "current_public_sha256": "51328abe854e5b5c2458c19fd4f2397139d56166c27158286797b629481dfd79",
+                "transformation": "Only inline code-span delimiters protect the complete unchanged mathematical expression from accidental GFM links. One missing prose space before an expression is restored.",
+                "actual_accidental_links_before": [
+                  [
+                    "1-y/x",
+                    "x^B y^C"
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 8901,
+              "sha256": "c7284ebe853d765b91d0b121f5ac48441b98fdcd5127ce1615ae4cfd210c39ac"
+            },
+            "after_public_pin": {
+              "bytes": 9449,
+              "sha256": "ae92c2d541d014b6119567b37b2cd3d8d66a62867c9b3a1a9b9e527c56dfedbb"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "ae92c2d541d014b6119567b37b2cd3d8d66a62867c9b3a1a9b9e527c56dfedbb",
+            "current_public_sha256": "27f4f181aacf59fbd8735b9034dce590a34af0f84ef1a6a7b3651fd778019fef",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A59-BALANCED-CAPS-PROOF.md",
+      "bytes": 8449,
+      "sha256": "35ff8aacfe28d29ad9f45b36c86abce8c19e61620ac4e6ca1d7f1c32c06c676c",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra059-2026-09-27/root-science/BALANCED-CAPS-PROOF.md",
+        "source_bytes": 8633,
+        "source_sha256": "f8e1baeb3ce6d40eaae5a7cecd53b895aef7ddcd02c6140bfb267d328e91c701",
+        "transformation": {
+          "excluded_source_line_ranges": [
+            {
+              "end_line": 8,
+              "reason": "Private derivation chronology/adoption/runtime prose; original mathematical provenance is retained separately",
+              "start_line": 2
+            },
+            {
+              "end_line": 197,
+              "reason": "Private verification-root pointer; full mathematical proof Sections 1-3 retained",
+              "start_line": 191
+            }
+          ],
+          "mathematical_formulas_changed": false,
+          "path_only_replacements": {},
+          "private_prose_replacements": {}
+        },
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a60-a61/stage-v3/public/results/transportation-developments/proofs/A59-BALANCED-CAPS-PROOF.md",
+          "bytes": 7866,
+          "sha256": "26304de707fc70202d2a844b88463e1eb8aa6d924f93316c2c4578b84242d934"
+        },
+        "prior_public_pin": {
+          "bytes": 8630,
+          "sha256": "3cf6a9d20b03e40116aaee980f09c49dbdb895c6515f27bc1c73694f8879656b"
+        },
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW",
+        "prior_origin_history": [
+          {
+            "repository": "stretched-lr-research",
+            "source": "methods/astra059-2026-09-27/root-science/BALANCED-CAPS-PROOF.md",
+            "source_sha256": "f8e1baeb3ce6d40eaae5a7cecd53b895aef7ddcd02c6140bfb267d328e91c701",
+            "source_bytes": 8633,
+            "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+            "public_formatting_history": [
+              {
+                "before_public_sha256": "3cf6a9d20b03e40116aaee980f09c49dbdb895c6515f27bc1c73694f8879656b",
+                "current_public_sha256": "3cf6a9d20b03e40116aaee980f09c49dbdb895c6515f27bc1c73694f8879656b",
+                "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+              }
+            ]
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 7866,
+              "sha256": "26304de707fc70202d2a844b88463e1eb8aa6d924f93316c2c4578b84242d934"
+            },
+            "after_public_pin": {
+              "bytes": 8360,
+              "sha256": "13f13e18b49f61d7598cf6e83ee5792f2d45cfd8db6aa537daef21430c3a1564"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "13f13e18b49f61d7598cf6e83ee5792f2d45cfd8db6aa537daef21430c3a1564",
+            "current_public_sha256": "35ff8aacfe28d29ad9f45b36c86abce8c19e61620ac4e6ca1d7f1c32c06c676c",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A59-TWO-CAP-BANDS-PROOF.md",
+      "bytes": 8660,
+      "sha256": "b2a7eebfd0f99875fc585c4997eb299caa4fb08d02fe52ca56a05f278d1e3763",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra059-2026-09-27/root-science/TWO-CAP-BANDS-PROOF.md",
+        "source_sha256": "059017572a7abaae5e068b81f3bab447a1b9c018509f61958e09ea0ada902061",
+        "source_bytes": 8199,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "cdbeabfc3fdd7a088543a08e8b5ee1ba1789ef349e4d2a0cc6138f470aaea6cd",
+            "current_public_sha256": "84d65993c613757bc71940836da6c391b54616464dd81f9461691a00e50d35b2",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          },
+          {
+            "before_public_sha256": "cdbeabfc3fdd7a088543a08e8b5ee1ba1789ef349e4d2a0cc6138f470aaea6cd",
+            "current_public_sha256": "84d65993c613757bc71940836da6c391b54616464dd81f9461691a00e50d35b2",
+            "transformation": "Removed one trailing ASCII space in prose; equation tokens and displays unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 8186,
+              "sha256": "84d65993c613757bc71940836da6c391b54616464dd81f9461691a00e50d35b2"
+            },
+            "after_public_pin": {
+              "bytes": 8660,
+              "sha256": "b2a7eebfd0f99875fc585c4997eb299caa4fb08d02fe52ca56a05f278d1e3763"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "b2a7eebfd0f99875fc585c4997eb299caa4fb08d02fe52ca56a05f278d1e3763",
+            "current_public_sha256": "b2a7eebfd0f99875fc585c4997eb299caa4fb08d02fe52ca56a05f278d1e3763",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A60-GROUPED-BANDS.md",
+      "bytes": 3898,
+      "sha256": "f96e1428fbc0816f76eef86407fcf8a6e7bb592e145bac46a0c3750fb7751042",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra060-2026-09-27/root-science/GROUPED-BANDS.md",
+        "source_sha256": "66f5531502206e7f349f18d595780c86b4e6cfbe6ea89e65c7ab64ab3577960d",
+        "source_bytes": 3629,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "f96e1428fbc0816f76eef86407fcf8a6e7bb592e145bac46a0c3750fb7751042",
+            "current_public_sha256": "f96e1428fbc0816f76eef86407fcf8a6e7bb592e145bac46a0c3750fb7751042",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "f96e1428fbc0816f76eef86407fcf8a6e7bb592e145bac46a0c3750fb7751042",
+            "current_public_sha256": "f96e1428fbc0816f76eef86407fcf8a6e7bb592e145bac46a0c3750fb7751042",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A60-K3-RESERVE-PROOF.md",
+      "bytes": 13873,
+      "sha256": "886e12654262779f4475e59a05215ec5c8356202d6e160bd33af7e26ff17db69",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra060-2026-09-27/root-science/K3-RESERVE-PROOF.md",
+        "source_bytes": 14091,
+        "source_sha256": "2d31473443dc13a097f8fcdb36dc0a73a653cb00c91d135d8302200a89db5b7b",
+        "transformation": {
+          "excluded_source_line_ranges": [
+            {
+              "end_line": 7,
+              "reason": "Private derivation chronology/adoption/runtime prose; original mathematical provenance is retained separately",
+              "start_line": 2
+            },
+            {
+              "end_line": 247,
+              "reason": "Private verification/adoption prose; mathematical boundary paragraph and Section 6 retained",
+              "start_line": 239
+            }
+          ],
+          "mathematical_formulas_changed": false,
+          "path_only_replacements": {
+            "FIRST-WALL-PROOF Section 2": "A58-FIRST-WALL-PROOF.md Section 2",
+            "k3-certificate-v1.json": "../certificates/a60-a61/k3-certificate-v1.json"
+          },
+          "private_prose_replacements": {}
+        },
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a60-a61/stage-v3/public/results/transportation-developments/proofs/A60-K3-RESERVE-PROOF.md",
+          "bytes": 13373,
+          "sha256": "0577b5c076ecf140177fab993ba8b929c59f0220f6ef24bd77c90a44d00f538f"
+        },
+        "prior_public_pin": {
+          "bytes": 14119,
+          "sha256": "2597011e0d26867841b113f74df648d8dd60bafe38946764888ad31a4d547080"
+        },
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW",
+        "prior_origin_history": [
+          {
+            "repository": "stretched-lr-research",
+            "source": "methods/astra060-2026-09-27/root-science/K3-RESERVE-PROOF.md",
+            "source_sha256": "2d31473443dc13a097f8fcdb36dc0a73a653cb00c91d135d8302200a89db5b7b",
+            "source_bytes": 14091,
+            "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+            "public_formatting_history": [
+              {
+                "before_public_sha256": "2597011e0d26867841b113f74df648d8dd60bafe38946764888ad31a4d547080",
+                "current_public_sha256": "2597011e0d26867841b113f74df648d8dd60bafe38946764888ad31a4d547080",
+                "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+              }
+            ]
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 13373,
+              "sha256": "0577b5c076ecf140177fab993ba8b929c59f0220f6ef24bd77c90a44d00f538f"
+            },
+            "after_public_pin": {
+              "bytes": 13812,
+              "sha256": "ec5c19ddd98a18bd0279de52fe7f56bd874a6e83177bc75a31824d99e55f5f99"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "ec5c19ddd98a18bd0279de52fe7f56bd874a6e83177bc75a31824d99e55f5f99",
+            "current_public_sha256": "886e12654262779f4475e59a05215ec5c8356202d6e160bd33af7e26ff17db69",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A61-UNIFORM-PROOF.md",
+      "bytes": 10769,
+      "sha256": "42c35b9acc3c520fb8467e3166d2609267d548b65591938c5e5800b0b91e9ecb",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra061-2026-09-27/root-science/UNIFORM-PROOF.md",
+        "source_bytes": 11146,
+        "source_sha256": "72c43b2576de6398c851e40fe7af861f729c377d20d16aadc97c014d92b96623",
+        "transformation": {
+          "excluded_source_line_ranges": [
+            {
+              "end_line": 9,
+              "reason": "Private derivation chronology/adoption/runtime prose; original mathematical provenance is retained separately",
+              "start_line": 2
+            },
+            {
+              "end_line": 206,
+              "reason": "Private verification/adoption procedure; exact mathematical limitations retained",
+              "start_line": 198
+            }
+          ],
+          "mathematical_formulas_changed": false,
+          "path_only_replacements": {
+            "FIRST-WALL-PROOF \u00a71": "A58-FIRST-WALL-PROOF.md \u00a71",
+            "balancing-probe-v1.json": "../certificates/a60-a61/balancing-probe-v1.json",
+            "chambers-v1.json": "../certificates/a60-a61/chambers-v1.json",
+            "chambers_v1.py": "../certificates/a60-a61/a61_chambers.py"
+          },
+          "private_prose_replacements": {
+            "No negative candidate, census coverage increment, global KTT proof, public action or provider send follows.": "No unrestricted KTT conclusion follows."
+          }
+        },
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a60-a61/stage-v3/public/results/transportation-developments/proofs/A61-UNIFORM-PROOF.md",
+          "bytes": 10168,
+          "sha256": "6cecfbf44fc82b227c168ac6db81f56b279f37715490ef2699d8542ad751a6cc"
+        },
+        "prior_public_pin": {
+          "bytes": 10925,
+          "sha256": "6687eec37c108a2cf7699e1be1dcfd4c65ca28459281838bca019fa31956382f"
+        },
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW",
+        "prior_origin_history": [
+          {
+            "repository": "stretched-lr-research",
+            "source": "methods/astra061-2026-09-27/root-science/UNIFORM-PROOF.md",
+            "source_sha256": "72c43b2576de6398c851e40fe7af861f729c377d20d16aadc97c014d92b96623",
+            "source_bytes": 11146,
+            "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+            "public_formatting_history": [
+              {
+                "before_public_sha256": "6687eec37c108a2cf7699e1be1dcfd4c65ca28459281838bca019fa31956382f",
+                "current_public_sha256": "6687eec37c108a2cf7699e1be1dcfd4c65ca28459281838bca019fa31956382f",
+                "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+              }
+            ]
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 10168,
+              "sha256": "6cecfbf44fc82b227c168ac6db81f56b279f37715490ef2699d8542ad751a6cc"
+            },
+            "after_public_pin": {
+              "bytes": 10745,
+              "sha256": "1f05d99baff29b475037a8f53ec3a40dfaa1a6c082c7552bad5daffa8a459006"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "1f05d99baff29b475037a8f53ec3a40dfaa1a6c082c7552bad5daffa8a459006",
+            "current_public_sha256": "42c35b9acc3c520fb8467e3166d2609267d548b65591938c5e5800b0b91e9ecb",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A62-PAID-OPERATIONS-PROOF.md",
+      "bytes": 11310,
+      "sha256": "b0cef5c3d05533b7f3d9cafe55a70dbcbcce9f100bdd4348df203cef508000b5",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra062-2026-09-27/root-science/PAID-OPERATIONS-PROOF.md",
+        "source_sha256": "b95894eced838b76a729dca988d7a06a4a4355c205c8de83816eecbfe887988e",
+        "source_bytes": 10872,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "4f35dd27dcdcbbe5316d99f542d60b98cc9a450066ccdaaa5c30973f97f0c222",
+            "current_public_sha256": "4f35dd27dcdcbbe5316d99f542d60b98cc9a450066ccdaaa5c30973f97f0c222",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 10896,
+              "sha256": "4f35dd27dcdcbbe5316d99f542d60b98cc9a450066ccdaaa5c30973f97f0c222"
+            },
+            "after_public_pin": {
+              "bytes": 11310,
+              "sha256": "b0cef5c3d05533b7f3d9cafe55a70dbcbcce9f100bdd4348df203cef508000b5"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "b0cef5c3d05533b7f3d9cafe55a70dbcbcce9f100bdd4348df203cef508000b5",
+            "current_public_sha256": "b0cef5c3d05533b7f3d9cafe55a70dbcbcce9f100bdd4348df203cef508000b5",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A63-CROSSING-PROOF.md",
+      "bytes": 9864,
+      "sha256": "b30492ed6fb5167c75c93e607ffec8a61cc6327133a099a2bc5e0d71147dfd2e",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra063-2026-09-27/root-science/CROSSING-PROOF.md",
+        "source_sha256": "21873e1a04579b200b9d25e0c8196c5c4d04901d23d970f2aadc8fa6ceca44df",
+        "source_bytes": 9903,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "9f10de5ece10a586a11aca16202d29cc272746dcae867f9739eb49f87a40b612",
+            "current_public_sha256": "9f10de5ece10a586a11aca16202d29cc272746dcae867f9739eb49f87a40b612",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 9447,
+              "sha256": "9f10de5ece10a586a11aca16202d29cc272746dcae867f9739eb49f87a40b612"
+            },
+            "after_public_pin": {
+              "bytes": 9864,
+              "sha256": "b30492ed6fb5167c75c93e607ffec8a61cc6327133a099a2bc5e0d71147dfd2e"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "b30492ed6fb5167c75c93e607ffec8a61cc6327133a099a2bc5e0d71147dfd2e",
+            "current_public_sha256": "b30492ed6fb5167c75c93e607ffec8a61cc6327133a099a2bc5e0d71147dfd2e",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A64-TWO-CAP-PROOF.md",
+      "bytes": 11435,
+      "sha256": "e0a6346f0d2e24e7db51ea343c2d62bf1af21990282ffaa2c834176ab6bf0d1f",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra064-2026-09-27/root-science/TWO-CAP-PROOF.md",
+        "source_sha256": "4a8958d4f1cd878b038eb328677cc45295b48540f51664e305480ae61cee95f8",
+        "source_bytes": 11495,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "60c46d24211f8d2752de7dfdef1e540507cce793a0d36f8ed85ebb1622a85556",
+            "current_public_sha256": "60c46d24211f8d2752de7dfdef1e540507cce793a0d36f8ed85ebb1622a85556",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 10984,
+              "sha256": "60c46d24211f8d2752de7dfdef1e540507cce793a0d36f8ed85ebb1622a85556"
+            },
+            "after_public_pin": {
+              "bytes": 11435,
+              "sha256": "e0a6346f0d2e24e7db51ea343c2d62bf1af21990282ffaa2c834176ab6bf0d1f"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "e0a6346f0d2e24e7db51ea343c2d62bf1af21990282ffaa2c834176ab6bf0d1f",
+            "current_public_sha256": "e0a6346f0d2e24e7db51ea343c2d62bf1af21990282ffaa2c834176ab6bf0d1f",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A65-QUADRATIC-WALL.md",
+      "bytes": 9859,
+      "sha256": "e51443499eb4d64ac9aeee77b30bb2f512561757d9de3a5c45cea0749fce33eb",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra065-2026-09-27/root-science/QUADRATIC-WALL.md",
+        "source_sha256": "18d79afbbb2ba121c0e50b8eb06678193aa65944fd2f4027cabbefe9064aece5",
+        "source_bytes": 9379,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "32a75f989976fcb1c4401923299d00adf70a0616865839adb4b634eaf339fc4c",
+            "current_public_sha256": "32a75f989976fcb1c4401923299d00adf70a0616865839adb4b634eaf339fc4c",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 8976,
+              "sha256": "32a75f989976fcb1c4401923299d00adf70a0616865839adb4b634eaf339fc4c"
+            },
+            "after_public_pin": {
+              "bytes": 9859,
+              "sha256": "e51443499eb4d64ac9aeee77b30bb2f512561757d9de3a5c45cea0749fce33eb"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "e51443499eb4d64ac9aeee77b30bb2f512561757d9de3a5c45cea0749fce33eb",
+            "current_public_sha256": "e51443499eb4d64ac9aeee77b30bb2f512561757d9de3a5c45cea0749fce33eb",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A65-THREE-ROW-KERNEL.md",
+      "bytes": 6960,
+      "sha256": "1369c361f1ca0b4816a3a7f039a7cdaa10bacfecb9654833c43d71218588850a",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra065-2026-09-27/root-science/THREE-ROW-KERNEL.md",
+        "source_sha256": "382832e38966bd4eb9e0e336e9dc65db90a7fe1ccb7ceff4ac93e230ebf529e2",
+        "source_bytes": 6873,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "bda4dd37764c370efa340b84def1fb3c5c27f79570b2c03ac1d52cf93b9c80b2",
+            "current_public_sha256": "bda4dd37764c370efa340b84def1fb3c5c27f79570b2c03ac1d52cf93b9c80b2",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 6327,
+              "sha256": "bda4dd37764c370efa340b84def1fb3c5c27f79570b2c03ac1d52cf93b9c80b2"
+            },
+            "after_public_pin": {
+              "bytes": 6960,
+              "sha256": "1369c361f1ca0b4816a3a7f039a7cdaa10bacfecb9654833c43d71218588850a"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "1369c361f1ca0b4816a3a7f039a7cdaa10bacfecb9654833c43d71218588850a",
+            "current_public_sha256": "1369c361f1ca0b4816a3a7f039a7cdaa10bacfecb9654833c43d71218588850a",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A67-COARSENING.md",
+      "bytes": 7465,
+      "sha256": "01a5c29ffb3733d12beabd3843f7e8598855d3584f441a643813f7a1960d597c",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra067-2026-09-28/root-science/COARSENING.md",
+        "source_sha256": "b4bfd543adb2211a1c3bf10984b76fc89dd33ec0613c6f745650b9ad3a654103",
+        "source_bytes": 6964,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "7776144be6748eb57a5ca8c750d1c0a583895be2e2e21dd7bfbc6b7400932ed1",
+            "current_public_sha256": "7776144be6748eb57a5ca8c750d1c0a583895be2e2e21dd7bfbc6b7400932ed1",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 7142,
+              "sha256": "7776144be6748eb57a5ca8c750d1c0a583895be2e2e21dd7bfbc6b7400932ed1"
+            },
+            "after_public_pin": {
+              "bytes": 7465,
+              "sha256": "01a5c29ffb3733d12beabd3843f7e8598855d3584f441a643813f7a1960d597c"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "01a5c29ffb3733d12beabd3843f7e8598855d3584f441a643813f7a1960d597c",
+            "current_public_sha256": "01a5c29ffb3733d12beabd3843f7e8598855d3584f441a643813f7a1960d597c",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A67-KERNEL-RECURRENCE.md",
+      "bytes": 4297,
+      "sha256": "454826424ee00d91ddf0b97a93255ff1e849c520f8e44999543e12ee949b395f",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra067-2026-09-28/root-science/KERNEL-RECURRENCE.md",
+        "source_sha256": "2ab477ec89a430aa91d5f94e5ab6cd33bc0fcb3ae9b18ff2f289f9968b189e1f",
+        "source_bytes": 4366,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "0db060b542b16bd71fbf2e70d1f01e0875cc30fe73d121c052dd346e0390e0a9",
+            "current_public_sha256": "0db060b542b16bd71fbf2e70d1f01e0875cc30fe73d121c052dd346e0390e0a9",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 3986,
+              "sha256": "0db060b542b16bd71fbf2e70d1f01e0875cc30fe73d121c052dd346e0390e0a9"
+            },
+            "after_public_pin": {
+              "bytes": 4297,
+              "sha256": "454826424ee00d91ddf0b97a93255ff1e849c520f8e44999543e12ee949b395f"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "454826424ee00d91ddf0b97a93255ff1e849c520f8e44999543e12ee949b395f",
+            "current_public_sha256": "454826424ee00d91ddf0b97a93255ff1e849c520f8e44999543e12ee949b395f",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A67-TRANSVERSE.md",
+      "bytes": 6073,
+      "sha256": "9e706e0869659f9acb5e2bf04b859b367a0906714094ce17845974092e56df9c",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra067-2026-09-28/root-science/TRANSVERSE.md",
+        "source_sha256": "2b8665cb5e44e88671d9daeadf0f6f33444112ec8e24b751b69e9deca15e8eb5",
+        "source_bytes": 5942,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "9e706e0869659f9acb5e2bf04b859b367a0906714094ce17845974092e56df9c",
+            "current_public_sha256": "9e706e0869659f9acb5e2bf04b859b367a0906714094ce17845974092e56df9c",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "9e706e0869659f9acb5e2bf04b859b367a0906714094ce17845974092e56df9c",
+            "current_public_sha256": "9e706e0869659f9acb5e2bf04b859b367a0906714094ce17845974092e56df9c",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A68-COMPLETE-GAIN.md",
+      "bytes": 12116,
+      "sha256": "60ed8635eb5d7d73871ed84b6170c939a6bf2a30d149dc45bc9f1b09f276fab5",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra068-2026-09-29/root-science/COMPLETE-GAIN.md",
+        "source_sha256": "5b5d390688f4892bc275cfaa40fda459c8c7dd993a05e6ddcc83435b3c986b84",
+        "source_bytes": 11650,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "0c7db1776ed0aa197f5ad88759ba0b8d67c2d33565e47d9b055ee79832a9697e",
+            "current_public_sha256": "0c7db1776ed0aa197f5ad88759ba0b8d67c2d33565e47d9b055ee79832a9697e",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 11696,
+              "sha256": "0c7db1776ed0aa197f5ad88759ba0b8d67c2d33565e47d9b055ee79832a9697e"
+            },
+            "after_public_pin": {
+              "bytes": 12116,
+              "sha256": "60ed8635eb5d7d73871ed84b6170c939a6bf2a30d149dc45bc9f1b09f276fab5"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "60ed8635eb5d7d73871ed84b6170c939a6bf2a30d149dc45bc9f1b09f276fab5",
+            "current_public_sha256": "60ed8635eb5d7d73871ed84b6170c939a6bf2a30d149dc45bc9f1b09f276fab5",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A69-AGGREGATE.md",
+      "bytes": 5464,
+      "sha256": "ca4a564296d8c5cdf030e70a536daa7a892d9b568bd17ec5e44777f696ca9b59",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra069-2026-09-29/root-science/AGGREGATE.md",
+        "source_sha256": "0f2d537979ee5dc988438ce5b319837b578e93d3333dc274c3cfce03f6d4d03a",
+        "source_bytes": 5009,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "1ec47ea977bcddef5223e1a74338f71162e7adb435ad297d7c42ab1ae36bc1e6",
+            "current_public_sha256": "1ec47ea977bcddef5223e1a74338f71162e7adb435ad297d7c42ab1ae36bc1e6",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 5153,
+              "sha256": "1ec47ea977bcddef5223e1a74338f71162e7adb435ad297d7c42ab1ae36bc1e6"
+            },
+            "after_public_pin": {
+              "bytes": 5464,
+              "sha256": "ca4a564296d8c5cdf030e70a536daa7a892d9b568bd17ec5e44777f696ca9b59"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "ca4a564296d8c5cdf030e70a536daa7a892d9b568bd17ec5e44777f696ca9b59",
+            "current_public_sha256": "ca4a564296d8c5cdf030e70a536daa7a892d9b568bd17ec5e44777f696ca9b59",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A69-WALL-JUMPS.md",
+      "bytes": 12353,
+      "sha256": "53475525c3830743a5a2a84c501096bb3e4a01838ec12e6812128cf3db5d451c",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra069-2026-09-29/root-science/WALL-JUMPS.md",
+        "source_sha256": "de5c6a455a912d525e63a2bdadf15fe8ffac47577f1687d16453ddf821590ef8",
+        "source_bytes": 11886,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "bedd5bfc0339a0402255fe544982aeefaf44e7ef032e71e2b9fc523923b4f23c",
+            "current_public_sha256": "bedd5bfc0339a0402255fe544982aeefaf44e7ef032e71e2b9fc523923b4f23c",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 11877,
+              "sha256": "bedd5bfc0339a0402255fe544982aeefaf44e7ef032e71e2b9fc523923b4f23c"
+            },
+            "after_public_pin": {
+              "bytes": 12353,
+              "sha256": "53475525c3830743a5a2a84c501096bb3e4a01838ec12e6812128cf3db5d451c"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "53475525c3830743a5a2a84c501096bb3e4a01838ec12e6812128cf3db5d451c",
+            "current_public_sha256": "53475525c3830743a5a2a84c501096bb3e4a01838ec12e6812128cf3db5d451c",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A70-BALANCED-SPLITTING.md",
+      "bytes": 5881,
+      "sha256": "f770448fea3923a3ce5de633fd53c40f1d65ff0e30de645f5b7094345e2f773d",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra070-2026-09-30/root-science/BALANCED-SPLITTING.md",
+        "source_sha256": "2d5410a7d85ec4b2a7607ce1eef6604e88ed9584aaa0bdd7c824a7441c31a622",
+        "source_bytes": 5586,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "593126e5dadeb5d9b5484f081355f8f77af3d3978e6c1b7b6dde75dc0a52f305",
+            "current_public_sha256": "593126e5dadeb5d9b5484f081355f8f77af3d3978e6c1b7b6dde75dc0a52f305",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 5421,
+              "sha256": "593126e5dadeb5d9b5484f081355f8f77af3d3978e6c1b7b6dde75dc0a52f305"
+            },
+            "after_public_pin": {
+              "bytes": 5881,
+              "sha256": "f770448fea3923a3ce5de633fd53c40f1d65ff0e30de645f5b7094345e2f773d"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "f770448fea3923a3ce5de633fd53c40f1d65ff0e30de645f5b7094345e2f773d",
+            "current_public_sha256": "f770448fea3923a3ce5de633fd53c40f1d65ff0e30de645f5b7094345e2f773d",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A70-CONVEX-CAP.md",
+      "bytes": 7371,
+      "sha256": "c17748a637bc07d355abdc6841e14e07d687e5436c5253f1607e34b1ce62f502",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra070-2026-09-30/root-science/CONVEX-CAP.md",
+        "source_sha256": "2bee0264246b4c87dcb0ae5aab84883ea6a76e3f014bb7e047bed1ff09514232",
+        "source_bytes": 7091,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "f5234f1a548ce1c95fb1ba599fd6aed8b7bc186ab0a0e3dfb55dc55747ee11a0",
+            "current_public_sha256": "f5234f1a548ce1c95fb1ba599fd6aed8b7bc186ab0a0e3dfb55dc55747ee11a0",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 6898,
+              "sha256": "f5234f1a548ce1c95fb1ba599fd6aed8b7bc186ab0a0e3dfb55dc55747ee11a0"
+            },
+            "after_public_pin": {
+              "bytes": 7371,
+              "sha256": "c17748a637bc07d355abdc6841e14e07d687e5436c5253f1607e34b1ce62f502"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "c17748a637bc07d355abdc6841e14e07d687e5436c5253f1607e34b1ce62f502",
+            "current_public_sha256": "c17748a637bc07d355abdc6841e14e07d687e5436c5253f1607e34b1ce62f502",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A70-DOMINANT-PARENT.md",
+      "bytes": 4002,
+      "sha256": "727630ef79b78a6896a7015249a12ff48a852a5775b465bd46e3a98e5627ada3",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra070-2026-09-30/root-science/DOMINANT-PARENT.md",
+        "source_sha256": "a8a3ac3addd79608325328c382910c5a85abff09453d87e324c3dab1af46325b",
+        "source_bytes": 3718,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "d8a201a9702bea81bf0f468eaf867eee77919e9be209d2bd966941aad56a36ce",
+            "current_public_sha256": "d8a201a9702bea81bf0f468eaf867eee77919e9be209d2bd966941aad56a36ce",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 3661,
+              "sha256": "d8a201a9702bea81bf0f468eaf867eee77919e9be209d2bd966941aad56a36ce"
+            },
+            "after_public_pin": {
+              "bytes": 4002,
+              "sha256": "727630ef79b78a6896a7015249a12ff48a852a5775b465bd46e3a98e5627ada3"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "727630ef79b78a6896a7015249a12ff48a852a5775b465bd46e3a98e5627ada3",
+            "current_public_sha256": "727630ef79b78a6896a7015249a12ff48a852a5775b465bd46e3a98e5627ada3",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A70-PRO049-U12-ADOPTION.md",
+      "bytes": 9223,
+      "sha256": "20d1115b9647bd30f06c2350eeb69f560cfa6bdaa0052aaff7db62a6b07381cc",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra070-2026-09-30/root-science/PRO049-U12-ADOPTION.md",
+        "source_bytes": 7701,
+        "source_sha256": "b1853b55950c5e8d5e9915e49c7ec3d9556febccc2af78fd36835c6ad1a3447a",
+        "transformation": "Existing public curation retained; add explicit complete source/data/checker closure links and exact verification limits.",
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a70-u12/export-v1/results/transportation-developments/proofs/A70-PRO049-U12-ADOPTION.md",
+          "bytes": 8575,
+          "sha256": "650292b7e819f83b9665789bc3761c7b055333ccea82f2968c5cd60712b7fe95"
+        },
+        "prior_public_pin": {
+          "bytes": 7293,
+          "sha256": "4629e2f3c3ad32482d7fb90f8470b644660cf11feb67d9fccbcb549ce103c0ae"
+        },
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW",
+        "prior_origin_history": [
+          {
+            "repository": "stretched-lr-research",
+            "source": "methods/astra070-2026-09-30/root-science/PRO049-U12-ADOPTION.md",
+            "source_sha256": "b1853b55950c5e8d5e9915e49c7ec3d9556febccc2af78fd36835c6ad1a3447a",
+            "source_bytes": 7701,
+            "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+            "public_formatting_history": [
+              {
+                "before_public_sha256": "922e0342fc5d32a347d54b2cbb894199330195b7cb911b744b89e8edfe172c69",
+                "current_public_sha256": "4629e2f3c3ad32482d7fb90f8470b644660cf11feb67d9fccbcb549ce103c0ae",
+                "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+              },
+              {
+                "before_public_sha256": "922e0342fc5d32a347d54b2cbb894199330195b7cb911b744b89e8edfe172c69",
+                "current_public_sha256": "4629e2f3c3ad32482d7fb90f8470b644660cf11feb67d9fccbcb549ce103c0ae",
+                "transformation": "Removed one trailing ASCII space in prose; equation tokens and displays unchanged."
+              }
+            ]
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 8575,
+              "sha256": "650292b7e819f83b9665789bc3761c7b055333ccea82f2968c5cd60712b7fe95"
+            },
+            "after_public_pin": {
+              "bytes": 9223,
+              "sha256": "20d1115b9647bd30f06c2350eeb69f560cfa6bdaa0052aaff7db62a6b07381cc"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "20d1115b9647bd30f06c2350eeb69f560cfa6bdaa0052aaff7db62a6b07381cc",
+            "current_public_sha256": "20d1115b9647bd30f06c2350eeb69f560cfa6bdaa0052aaff7db62a6b07381cc",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A70-PRO049-U12-FULL-PROOF.md",
+      "bytes": 23083,
+      "sha256": "c5186a7e625a190a27ab346d8eb7e0514c617ecc653ac84d73adc24ab669a828",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra070-2026-09-30/source-processing/pro049-export/objects/8b/8bf014ee64307fad5c527f71e42458c9cb1afe2e1975aa96adf093540735bc96.md",
+        "source_bytes": 23025,
+        "source_sha256": "8bf014ee64307fad5c527f71e42458c9cb1afe2e1975aa96adf093540735bc96",
+        "transformation": "All mathematical sections and appendices exact; remove only one private mission/operator paragraph and final lifecycle sentence; add source/status wrapper.",
+        "checked_export": {
+          "path": "results/raw/SLR-ASTRA083-20261012-001/publication/closures/a70-u12/export-v1/results/transportation-developments/proofs/A70-PRO049-U12-FULL-PROOF.md",
+          "bytes": 23231,
+          "sha256": "63c42fa5ed2c9d2ecae371043bb7b42c0a5aa3b9d019b9d90252d45918b6da26"
+        },
+        "prior_public_pin": null,
+        "curation_status": "R2_DEPENDENCY_CLOSURE_PASSED_INTERNAL_PUBLIC_REVIEW",
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "63c42fa5ed2c9d2ecae371043bb7b42c0a5aa3b9d019b9d90252d45918b6da26",
+            "current_public_sha256": "c5186a7e625a190a27ab346d8eb7e0514c617ecc653ac84d73adc24ab669a828",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A70-STABILIZED-QUOTIENT.md",
+      "bytes": 12914,
+      "sha256": "99b6953f1edfe6681dc30f708606483186c26a3066286e4c1fc24aeb930532ba",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra070-2026-09-30/root-science/STABILIZED-QUOTIENT.md",
+        "source_sha256": "04d8731757ab3affaef76993a34a87ac06dbb0b24aaa884768c40e911fc8da9d",
+        "source_bytes": 12473,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "e1c0256f41b5b8a987f18e87d7867db36cd3068723fb42d1b63a7e3ff7b15f3a",
+            "current_public_sha256": "e1c0256f41b5b8a987f18e87d7867db36cd3068723fb42d1b63a7e3ff7b15f3a",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 12207,
+              "sha256": "e1c0256f41b5b8a987f18e87d7867db36cd3068723fb42d1b63a7e3ff7b15f3a"
+            },
+            "after_public_pin": {
+              "bytes": 12914,
+              "sha256": "99b6953f1edfe6681dc30f708606483186c26a3066286e4c1fc24aeb930532ba"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "99b6953f1edfe6681dc30f708606483186c26a3066286e4c1fc24aeb930532ba",
+            "current_public_sha256": "99b6953f1edfe6681dc30f708606483186c26a3066286e4c1fc24aeb930532ba",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A71-DOMINANT-SPLITTING.md",
+      "bytes": 8573,
+      "sha256": "ebc8f84c3c9dcd7afd900b6db97d24dc8f82a2057d759b373158d15a253e7d45",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra071-2026-10-03/root-science/DOMINANT-SPLITTING.md",
+        "source_sha256": "6d3ff55b55733ae01f7e1f5ecee371a99b09d79b3994d4399160c199bd2a9153",
+        "source_bytes": 8134,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "7f64df39242709c0a42afc408a8f1d882deea195a7bb50f6515ed35181a8db79",
+            "current_public_sha256": "7f64df39242709c0a42afc408a8f1d882deea195a7bb50f6515ed35181a8db79",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 8058,
+              "sha256": "7f64df39242709c0a42afc408a8f1d882deea195a7bb50f6515ed35181a8db79"
+            },
+            "after_public_pin": {
+              "bytes": 8573,
+              "sha256": "ebc8f84c3c9dcd7afd900b6db97d24dc8f82a2057d759b373158d15a253e7d45"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "ebc8f84c3c9dcd7afd900b6db97d24dc8f82a2057d759b373158d15a253e7d45",
+            "current_public_sha256": "ebc8f84c3c9dcd7afd900b6db97d24dc8f82a2057d759b373158d15a253e7d45",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A72-CONSTRAINED-PARENT-v2.md",
+      "bytes": 19300,
+      "sha256": "038a4c6db4a4a1f163211f11574ded1d302770f693d72364aa0cf34e980b66d2",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra072-2026-10-03/root-science/CONSTRAINED-PARENT-v2.md",
+        "source_sha256": "7db579f4f654fedd94bf1069cf18eece012064a7fa2ced627f8ced5046969240",
+        "source_bytes": 18680,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "b211c3afabcc0d5429a9c0e5b1d52a5fbea13468ccd38681039f5bc934632986",
+            "current_public_sha256": "b211c3afabcc0d5429a9c0e5b1d52a5fbea13468ccd38681039f5bc934632986",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 18559,
+              "sha256": "b211c3afabcc0d5429a9c0e5b1d52a5fbea13468ccd38681039f5bc934632986"
+            },
+            "after_public_pin": {
+              "bytes": 19300,
+              "sha256": "038a4c6db4a4a1f163211f11574ded1d302770f693d72364aa0cf34e980b66d2"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "038a4c6db4a4a1f163211f11574ded1d302770f693d72364aa0cf34e980b66d2",
+            "current_public_sha256": "038a4c6db4a4a1f163211f11574ded1d302770f693d72364aa0cf34e980b66d2",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A73-ALL-MARGIN.md",
+      "bytes": 9518,
+      "sha256": "9b1fe3db0db4482c324276ca55b62adaff144e49ced9a4d4ab343b54ce450841",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra073-2026-10-03/root-science/ALL-MARGIN.md",
+        "source_sha256": "f72a0002b0f8c40e004f2b97051c7a1403e699b886a6b3de15e12d82ea950fcb",
+        "source_bytes": 9048,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "5487b510842b6fdb949ee04bd41536999a2b9a36346ceaeb246a9277b9c75afd",
+            "current_public_sha256": "5487b510842b6fdb949ee04bd41536999a2b9a36346ceaeb246a9277b9c75afd",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 8899,
+              "sha256": "5487b510842b6fdb949ee04bd41536999a2b9a36346ceaeb246a9277b9c75afd"
+            },
+            "after_public_pin": {
+              "bytes": 9518,
+              "sha256": "9b1fe3db0db4482c324276ca55b62adaff144e49ced9a4d4ab343b54ce450841"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "9b1fe3db0db4482c324276ca55b62adaff144e49ced9a4d4ab343b54ce450841",
+            "current_public_sha256": "9b1fe3db0db4482c324276ca55b62adaff144e49ced9a4d4ab343b54ce450841",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A73-PRIMITIVE-ADOPTION.md",
+      "bytes": 12165,
+      "sha256": "db1ff18ec178d52691570db057d1390478e08d10b0aec70f63cc86d087dfd0b2",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra073-2026-10-03/root-science/PRIMITIVE-ADOPTION.md",
+        "source_sha256": "76911a0d96c7295ea9bfa4170ceef863284339fe37e4a3fa41f0d5a1266f0af3",
+        "source_bytes": 12145,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "122c3e8259c7953a6af06d9ec429ec486067ccfd0e16273e41448f41fb17de02",
+            "current_public_sha256": "122c3e8259c7953a6af06d9ec429ec486067ccfd0e16273e41448f41fb17de02",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 11452,
+              "sha256": "122c3e8259c7953a6af06d9ec429ec486067ccfd0e16273e41448f41fb17de02"
+            },
+            "after_public_pin": {
+              "bytes": 12165,
+              "sha256": "db1ff18ec178d52691570db057d1390478e08d10b0aec70f63cc86d087dfd0b2"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "db1ff18ec178d52691570db057d1390478e08d10b0aec70f63cc86d087dfd0b2",
+            "current_public_sha256": "db1ff18ec178d52691570db057d1390478e08d10b0aec70f63cc86d087dfd0b2",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A74-COMPLETE-INTERSECTIONS.md",
+      "bytes": 8982,
+      "sha256": "ee3cca1f4258014669f612b85a5a7a5b3f1c1eab9dcfd3664d991c97e111370c",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra074-2026-10-04/root-science/COMPLETE-INTERSECTIONS.md",
+        "source_sha256": "26da0231cb3e2a36d829e30df6e40357b5124575ac24d056e9e8b94ae3223cd1",
+        "source_bytes": 8506,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "4bb744f436ab136c6f834c1beb1d231e27dbdf28fa2798e657b200209632b6de",
+            "current_public_sha256": "4bb744f436ab136c6f834c1beb1d231e27dbdf28fa2798e657b200209632b6de",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 8416,
+              "sha256": "4bb744f436ab136c6f834c1beb1d231e27dbdf28fa2798e657b200209632b6de"
+            },
+            "after_public_pin": {
+              "bytes": 8982,
+              "sha256": "ee3cca1f4258014669f612b85a5a7a5b3f1c1eab9dcfd3664d991c97e111370c"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "ee3cca1f4258014669f612b85a5a7a5b3f1c1eab9dcfd3664d991c97e111370c",
+            "current_public_sha256": "ee3cca1f4258014669f612b85a5a7a5b3f1c1eab9dcfd3664d991c97e111370c",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A74-PAIR-SUM-ADOPTION.md",
+      "bytes": 8660,
+      "sha256": "7587aa5aeda9941f025eca73aeb159fad3c9d00f8a5404c2e2135df30c4eefae",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra074-2026-10-04/root-science/PAIR-SUM-ADOPTION.md",
+        "source_sha256": "7423e5b784388029b9e47f7d8ade0c44902ad9d99aa87b83813c589615b3d229",
+        "source_bytes": 8183,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "bfa58209497eb7a523345f21759a54f407b98943b365d993485a266cce10527b",
+            "current_public_sha256": "bfa58209497eb7a523345f21759a54f407b98943b365d993485a266cce10527b",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 8034,
+              "sha256": "bfa58209497eb7a523345f21759a54f407b98943b365d993485a266cce10527b"
+            },
+            "after_public_pin": {
+              "bytes": 8660,
+              "sha256": "7587aa5aeda9941f025eca73aeb159fad3c9d00f8a5404c2e2135df30c4eefae"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "7587aa5aeda9941f025eca73aeb159fad3c9d00f8a5404c2e2135df30c4eefae",
+            "current_public_sha256": "7587aa5aeda9941f025eca73aeb159fad3c9d00f8a5404c2e2135df30c4eefae",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A75-HIGH-BAND-CONTRACTION-v2.md",
+      "bytes": 8631,
+      "sha256": "bc72c6c03deb67a923c31b5f66d377f9d2653e0610f0d2c484340edf48ec705f",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra075-2026-10-04/root-science/HIGH-BAND-CONTRACTION-v2.md",
+        "source_sha256": "72965e33fbf5cfb9c5715844d6df7fa12b2bbba4d60f4ea50131d650008ed1b9",
+        "source_bytes": 8136,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "3de8ed270c2a88c5aec4cab6f6fb268c446bdc8960f86b4dec0ec7382bfbf098",
+            "current_public_sha256": "3de8ed270c2a88c5aec4cab6f6fb268c446bdc8960f86b4dec0ec7382bfbf098",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 8046,
+              "sha256": "3de8ed270c2a88c5aec4cab6f6fb268c446bdc8960f86b4dec0ec7382bfbf098"
+            },
+            "after_public_pin": {
+              "bytes": 8631,
+              "sha256": "bc72c6c03deb67a923c31b5f66d377f9d2653e0610f0d2c484340edf48ec705f"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "bc72c6c03deb67a923c31b5f66d377f9d2653e0610f0d2c484340edf48ec705f",
+            "current_public_sha256": "bc72c6c03deb67a923c31b5f66d377f9d2653e0610f0d2c484340edf48ec705f",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A75-ONE-PAIR-REDUCTION-v2.md",
+      "bytes": 9384,
+      "sha256": "fb8c3c405187bd649ed8ee17597b8808d24d19629ee77a0bd00c83469a893f74",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra075-2026-10-04/root-science/ONE-PAIR-REDUCTION-v2.md",
+        "source_sha256": "2571886552d77db96eba248e1adfdc94cf3e29866697c2c4a01bded12416a225",
+        "source_bytes": 9128,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "b7c90a7d28c3107aed4f3691b43036a69e0a8d863589bbd35c0173e09b127f2f",
+            "current_public_sha256": "b7c90a7d28c3107aed4f3691b43036a69e0a8d863589bbd35c0173e09b127f2f",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 8845,
+              "sha256": "b7c90a7d28c3107aed4f3691b43036a69e0a8d863589bbd35c0173e09b127f2f"
+            },
+            "after_public_pin": {
+              "bytes": 9384,
+              "sha256": "fb8c3c405187bd649ed8ee17597b8808d24d19629ee77a0bd00c83469a893f74"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "fb8c3c405187bd649ed8ee17597b8808d24d19629ee77a0bd00c83469a893f74",
+            "current_public_sha256": "fb8c3c405187bd649ed8ee17597b8808d24d19629ee77a0bd00c83469a893f74",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A76-STAR-COMPOSITION-v2.md",
+      "bytes": 9857,
+      "sha256": "31dc337866fa21e5b40b920506212d43654e00dffc8ff47bd2191bfeca2b5fba",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra076-2026-10-04/root-science/STAR-COMPOSITION-v2.md",
+        "source_sha256": "f7b9d3a3d9c24959fbf39754a0e22d0394baaf663bc4a360d2f288a9da7d26bd",
+        "source_bytes": 9353,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "36489d62267803eb933efb83cf0b70d2429da7ac713d89c0eab3d8c60b223ece",
+            "current_public_sha256": "36489d62267803eb933efb83cf0b70d2429da7ac713d89c0eab3d8c60b223ece",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 9340,
+              "sha256": "36489d62267803eb933efb83cf0b70d2429da7ac713d89c0eab3d8c60b223ece"
+            },
+            "after_public_pin": {
+              "bytes": 9857,
+              "sha256": "31dc337866fa21e5b40b920506212d43654e00dffc8ff47bd2191bfeca2b5fba"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "31dc337866fa21e5b40b920506212d43654e00dffc8ff47bd2191bfeca2b5fba",
+            "current_public_sha256": "31dc337866fa21e5b40b920506212d43654e00dffc8ff47bd2191bfeca2b5fba",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A76-TRIANGLE-FREE-REDUCTION-v1.md",
+      "bytes": 11542,
+      "sha256": "0f1dca55659fbaeae0c519ef0f492c2979538822fefe3a384269d25b5a938752",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra076-2026-10-04/root-science/TRIANGLE-FREE-REDUCTION-v1.md",
+        "source_sha256": "bfef4f0607506de8c8e51bfcffc5bad8055106ae4bcdfc7099b00d887bf56312",
+        "source_bytes": 11088,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "46fb0dc001e3cac528797750d6a4da011106da0465cbbf1aa803602ce1acec46",
+            "current_public_sha256": "46fb0dc001e3cac528797750d6a4da011106da0465cbbf1aa803602ce1acec46",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 10727,
+              "sha256": "46fb0dc001e3cac528797750d6a4da011106da0465cbbf1aa803602ce1acec46"
+            },
+            "after_public_pin": {
+              "bytes": 11542,
+              "sha256": "0f1dca55659fbaeae0c519ef0f492c2979538822fefe3a384269d25b5a938752"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "0f1dca55659fbaeae0c519ef0f492c2979538822fefe3a384269d25b5a938752",
+            "current_public_sha256": "0f1dca55659fbaeae0c519ef0f492c2979538822fefe3a384269d25b5a938752",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A77-DOMINANT-COLUMN-ADOPTION-v1.md",
+      "bytes": 9743,
+      "sha256": "ae650413f5328435201d458bbd02669ad4f42f624eddc2002c528b35335bf74e",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra077-2026-10-05/root-science/DOMINANT-COLUMN-ADOPTION-v1.md",
+        "source_sha256": "3d65978cd9f29788be6e3c8dd15956d0029d6946101cde48045ee648101084cf",
+        "source_bytes": 9333,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "dd8c8aad42500b5856e6ccb5df466895b4c93391a748570ebfb15c643f98af01",
+            "current_public_sha256": "dd8c8aad42500b5856e6ccb5df466895b4c93391a748570ebfb15c643f98af01",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 9165,
+              "sha256": "dd8c8aad42500b5856e6ccb5df466895b4c93391a748570ebfb15c643f98af01"
+            },
+            "after_public_pin": {
+              "bytes": 9743,
+              "sha256": "ae650413f5328435201d458bbd02669ad4f42f624eddc2002c528b35335bf74e"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "ae650413f5328435201d458bbd02669ad4f42f624eddc2002c528b35335bf74e",
+            "current_public_sha256": "ae650413f5328435201d458bbd02669ad4f42f624eddc2002c528b35335bf74e",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A77-HIGH-CORE-OBSTRUCTION-v1.md",
+      "bytes": 1529,
+      "sha256": "f91fe530e0617e1ee84fd820b1e99a9e9679884bd23867cc345128d820cb5fee",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra077-2026-10-05/root-science/HIGH-CORE-OBSTRUCTION-v1.md",
+        "source_sha256": "852ddacfd62e62bfad30a8e611d6b52d2bd9f80b5aa92a9ad99ea6855a70394b",
+        "source_bytes": 1767,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "f91fe530e0617e1ee84fd820b1e99a9e9679884bd23867cc345128d820cb5fee",
+            "current_public_sha256": "f91fe530e0617e1ee84fd820b1e99a9e9679884bd23867cc345128d820cb5fee",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "f91fe530e0617e1ee84fd820b1e99a9e9679884bd23867cc345128d820cb5fee",
+            "current_public_sha256": "f91fe530e0617e1ee84fd820b1e99a9e9679884bd23867cc345128d820cb5fee",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A77-HIGH-LEAF-CONTRACTION-v1.md",
+      "bytes": 4254,
+      "sha256": "b6c72979eb7292a5b317aa086e4695cfbded270ef41df95a1307cc9ab72e6a6c",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra077-2026-10-05/root-science/HIGH-LEAF-CONTRACTION-v1.md",
+        "source_sha256": "27e981fb1ad8214992961fbee358b4493030001913db1900324767758c2f2100",
+        "source_bytes": 3816,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "66403343071bdcd93a5f94160b449289723ee6ae9c1d64b017dbc559e3bc42cf",
+            "current_public_sha256": "66403343071bdcd93a5f94160b449289723ee6ae9c1d64b017dbc559e3bc42cf",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 3850,
+              "sha256": "66403343071bdcd93a5f94160b449289723ee6ae9c1d64b017dbc559e3bc42cf"
+            },
+            "after_public_pin": {
+              "bytes": 4254,
+              "sha256": "b6c72979eb7292a5b317aa086e4695cfbded270ef41df95a1307cc9ab72e6a6c"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "b6c72979eb7292a5b317aa086e4695cfbded270ef41df95a1307cc9ab72e6a6c",
+            "current_public_sha256": "b6c72979eb7292a5b317aa086e4695cfbded270ef41df95a1307cc9ab72e6a6c",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A77-LOW-ENVELOPE-v2.md",
+      "bytes": 6964,
+      "sha256": "0ae7abe99bc7356995465fcb55f1242f21860c7767156588aa60a9a2e97ebda8",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra077-2026-10-05/root-science/LOW-ENVELOPE-v2.md",
+        "source_sha256": "8a3ee60f774a18e798517bb3f15b92cca4d35a586149eb2d3e5aea1cfe7b7ded",
+        "source_bytes": 7002,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "6df4ab770b6944a7ed4ad0bf48f0091c2229bb8b15dc9c10c2f6423657b113eb",
+            "current_public_sha256": "6df4ab770b6944a7ed4ad0bf48f0091c2229bb8b15dc9c10c2f6423657b113eb",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 6468,
+              "sha256": "6df4ab770b6944a7ed4ad0bf48f0091c2229bb8b15dc9c10c2f6423657b113eb"
+            },
+            "after_public_pin": {
+              "bytes": 6964,
+              "sha256": "0ae7abe99bc7356995465fcb55f1242f21860c7767156588aa60a9a2e97ebda8"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "0ae7abe99bc7356995465fcb55f1242f21860c7767156588aa60a9a2e97ebda8",
+            "current_public_sha256": "0ae7abe99bc7356995465fcb55f1242f21860c7767156588aa60a9a2e97ebda8",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A77-UNIFORM-G-v1.md",
+      "bytes": 6064,
+      "sha256": "969ff13c5a2cb774d5e7150425ecf5c713ece4347e447cd797b11a92ca5bd553",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra077-2026-10-05/root-science/UNIFORM-G-v1.md",
+        "source_sha256": "387f10d552882a6b81ebbe056d18400dd11dae39d0f9a0d07a014b879f378ad7",
+        "source_bytes": 5603,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "a3ab55b3b526a4bfe5d93b69f4a2898fb2311ddb2010b38dad66195b8ba9f5cb",
+            "current_public_sha256": "47295a7de60f162b08ae0fa3a90a7a021225b672126cad1aaaa7e59cdeff13e5",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          },
+          {
+            "before_public_sha256": "a3ab55b3b526a4bfe5d93b69f4a2898fb2311ddb2010b38dad66195b8ba9f5cb",
+            "current_public_sha256": "47295a7de60f162b08ae0fa3a90a7a021225b672126cad1aaaa7e59cdeff13e5",
+            "transformation": "Only inline code-span delimiters protect the complete unchanged mathematical expression from accidental GFM links. One missing prose space before an expression is restored.",
+            "actual_accidental_links_before": [
+              [
+                "s+2",
+                "pr"
+              ]
+            ]
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 5633,
+              "sha256": "47295a7de60f162b08ae0fa3a90a7a021225b672126cad1aaaa7e59cdeff13e5"
+            },
+            "after_public_pin": {
+              "bytes": 6064,
+              "sha256": "969ff13c5a2cb774d5e7150425ecf5c713ece4347e447cd797b11a92ca5bd553"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "969ff13c5a2cb774d5e7150425ecf5c713ece4347e447cd797b11a92ca5bd553",
+            "current_public_sha256": "969ff13c5a2cb774d5e7150425ecf5c713ece4347e447cd797b11a92ca5bd553",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A78-HIGH-STAR-ADOPTION-v1.md",
+      "bytes": 14123,
+      "sha256": "65bfa9fa17e1ceecdb6bb8e82ec9332c3957b57301f1e303c37214e54d1e9a49",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra078-2026-10-05/root-science/HIGH-STAR-ADOPTION-v1.md",
+        "source_sha256": "d4cd82eb71b2747b1aa60bafc16316e4d83871c10cfb970f1fed8121ea0e2d67",
+        "source_bytes": 13745,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "811ec1a48973a893f3107b7e225cd2d29e50b74183b735b005ee864190d46bba",
+            "current_public_sha256": "811ec1a48973a893f3107b7e225cd2d29e50b74183b735b005ee864190d46bba",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 13641,
+              "sha256": "811ec1a48973a893f3107b7e225cd2d29e50b74183b735b005ee864190d46bba"
+            },
+            "after_public_pin": {
+              "bytes": 14123,
+              "sha256": "65bfa9fa17e1ceecdb6bb8e82ec9332c3957b57301f1e303c37214e54d1e9a49"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "65bfa9fa17e1ceecdb6bb8e82ec9332c3957b57301f1e303c37214e54d1e9a49",
+            "current_public_sha256": "65bfa9fa17e1ceecdb6bb8e82ec9332c3957b57301f1e303c37214e54d1e9a49",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/A79-UNIFORM-TRIANGLE-v1.md",
+      "bytes": 18974,
+      "sha256": "cfd1696b5b817772e051c1b8d5c04e334fb70467212c49ac4170cf67c18c542f",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra079-2026-10-06/root-science/UNIFORM-TRIANGLE-v1.md",
+        "source_sha256": "bc5bf33751e990080baa8eaa434b852f6da3af33155e515bace50ae7824dd126",
+        "source_bytes": 18478,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "68526a645f9441401136cb8f71133681c3af282256ed6ff3ae68b87a6a6cd7b9",
+            "current_public_sha256": "68526a645f9441401136cb8f71133681c3af282256ed6ff3ae68b87a6a6cd7b9",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 18576,
+              "sha256": "68526a645f9441401136cb8f71133681c3af282256ed6ff3ae68b87a6a6cd7b9"
+            },
+            "after_public_pin": {
+              "bytes": 18974,
+              "sha256": "cfd1696b5b817772e051c1b8d5c04e334fb70467212c49ac4170cf67c18c542f"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "cfd1696b5b817772e051c1b8d5c04e334fb70467212c49ac4170cf67c18c542f",
+            "current_public_sha256": "cfd1696b5b817772e051c1b8d5c04e334fb70467212c49ac4170cf67c18c542f",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/C22-FULL-TABLE.md",
+      "bytes": 8898,
+      "sha256": "55672d89571b8504260c6e6e6b22cfc30af34d08411eb79150296701f78e5bec",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra064-2026-09-27/late-transportation/PROOF-v2.md",
+        "source_sha256": "6297283e7ced95659d83cc50df9778f9c3c8f6b21232c3a4490518519c9d3310",
+        "source_bytes": 8429,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "03d3de7ea3141fcab7ae2aac366bbc47424e41ea57f43907b3cbce660d07e069",
+            "current_public_sha256": "03d3de7ea3141fcab7ae2aac366bbc47424e41ea57f43907b3cbce660d07e069",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 8461,
+              "sha256": "03d3de7ea3141fcab7ae2aac366bbc47424e41ea57f43907b3cbce660d07e069"
+            },
+            "after_public_pin": {
+              "bytes": 8898,
+              "sha256": "55672d89571b8504260c6e6e6b22cfc30af34d08411eb79150296701f78e5bec"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "55672d89571b8504260c6e6e6b22cfc30af34d08411eb79150296701f78e5bec",
+            "current_public_sha256": "55672d89571b8504260c6e6e6b22cfc30af34d08411eb79150296701f78e5bec",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/TRANSPORT-C1.md",
+      "bytes": 7535,
+      "sha256": "89737139d63f4e0f03fae9ad984b37115624bf56beb617ac12afe9c973b6b9ed",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra006-pro029-2026-09-13/sources/pro029/UNIT07/PROOFS/005-WHOLE-ALL-ROW-COMPENSATION.md",
+        "source_sha256": "746ca479075342edae2c38ceec1cb3818f0f75675f9b6da0bb8ca57db33afff8",
+        "source_bytes": 7071,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "97872f79058742d67183495d74fbe6675c9d4e0b81a455804c3ebe16db4f12f1",
+            "current_public_sha256": "97872f79058742d67183495d74fbe6675c9d4e0b81a455804c3ebe16db4f12f1",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 7161,
+              "sha256": "97872f79058742d67183495d74fbe6675c9d4e0b81a455804c3ebe16db4f12f1"
+            },
+            "after_public_pin": {
+              "bytes": 7535,
+              "sha256": "89737139d63f4e0f03fae9ad984b37115624bf56beb617ac12afe9c973b6b9ed"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "89737139d63f4e0f03fae9ad984b37115624bf56beb617ac12afe9c973b6b9ed",
+            "current_public_sha256": "89737139d63f4e0f03fae9ad984b37115624bf56beb617ac12afe9c973b6b9ed",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/TRANSPORT-PRIMITIVE.md",
+      "bytes": 3526,
+      "sha256": "9efad8b12258163a3eebdb0ffa01d9571b673079bf2fc5230380b007e3816560",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra006-pro029-2026-09-13/sources/pro029/UNIT07/PROOFS/002-GENERAL-LAGRANGE-FORMS.md",
+        "source_sha256": "91b01827198f746bea9c01cafa7ab7be88862ba0a8024eb55c7d9d2635677582",
+        "source_bytes": 3006,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "c8312619abb913ad0b70c7757a28cb25c4b1c823be79e477012322ff8f7c13d2",
+            "current_public_sha256": "c8312619abb913ad0b70c7757a28cb25c4b1c823be79e477012322ff8f7c13d2",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 664,
+              "sha256": "c8312619abb913ad0b70c7757a28cb25c4b1c823be79e477012322ff8f7c13d2"
+            },
+            "after_public_pin": {
+              "bytes": 3526,
+              "sha256": "9efad8b12258163a3eebdb0ffa01d9571b673079bf2fc5230380b007e3816560"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "9efad8b12258163a3eebdb0ffa01d9571b673079bf2fc5230380b007e3816560",
+            "current_public_sha256": "9efad8b12258163a3eebdb0ffa01d9571b673079bf2fc5230380b007e3816560",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/TRANSPORT-WALL-INDUCTION.md",
+      "bytes": 17366,
+      "sha256": "01690506659588f7fd5abf085a4831c366d9c2fd4481e74ecfb2b93da6dd153e",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra006-pro029-2026-09-13/sources/pro029/UNIT07/PROOFS/003-ALL-RANK-WALL-INDUCTION.md",
+        "source_sha256": "cde20bf8f76626a12db3d647f04b829ca38da785447a61bc9024e8ef44f187b9",
+        "source_bytes": 16868,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "b5069fb0e7aa8a075c181d4254dce70e08b9b38c1ab189b61465895a0def7ea0",
+            "current_public_sha256": "b5069fb0e7aa8a075c181d4254dce70e08b9b38c1ab189b61465895a0def7ea0",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 16807,
+              "sha256": "b5069fb0e7aa8a075c181d4254dce70e08b9b38c1ab189b61465895a0def7ea0"
+            },
+            "after_public_pin": {
+              "bytes": 17366,
+              "sha256": "01690506659588f7fd5abf085a4831c366d9c2fd4481e74ecfb2b93da6dd153e"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "01690506659588f7fd5abf085a4831c366d9c2fd4481e74ecfb2b93da6dd153e",
+            "current_public_sha256": "01690506659588f7fd5abf085a4831c366d9c2fd4481e74ecfb2b93da6dd153e",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/pro053/U03.md",
+      "bytes": 19125,
+      "sha256": "d03a964d41b0032f12ee9dfc1b8a4a75376b35faa0135ec0d91cca9747b6286d",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra077-2026-10-05/source-processing/pro053/provider-internal/objects/9b/9b9f960cb2baa3b39766117417b8e478063a8608e0c1081307f3115de6a08412.md",
+        "source_sha256": "9b9f960cb2baa3b39766117417b8e478063a8608e0c1081307f3115de6a08412",
+        "source_bytes": 20293,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "ceb9a9a0f6b43376cbe4131248940766f8e8bd65aed94da1618bfa05a810df33",
+            "current_public_sha256": "ceb9a9a0f6b43376cbe4131248940766f8e8bd65aed94da1618bfa05a810df33",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 20287,
+              "sha256": "ceb9a9a0f6b43376cbe4131248940766f8e8bd65aed94da1618bfa05a810df33"
+            },
+            "after_public_pin": {
+              "bytes": 20820,
+              "sha256": "3bbd613a4a131cba476ca847ef297a0acaa7cc028375a6e5a51babdd538b264d"
+            }
+          },
+          {
+            "reason": "Corpus audit: remove private source-custody/route/dispatch instructions, preserving all mathematical domains and evidence limitations.",
+            "before_public_pin": {
+              "bytes": 20820,
+              "sha256": "3bbd613a4a131cba476ca847ef297a0acaa7cc028375a6e5a51babdd538b264d"
+            },
+            "after_public_pin": {
+              "bytes": 19108,
+              "sha256": "ba654bb6f630e5ac0be2749543c6090d500413ef1c9ddd531015df90ac54eefb"
+            }
+          },
+          {
+            "reason": "Exclude private external-status bookkeeping while retaining source-versus-adoption boundary.",
+            "before_public_pin": {
+              "bytes": 19108,
+              "sha256": "ba654bb6f630e5ac0be2749543c6090d500413ef1c9ddd531015df90ac54eefb"
+            },
+            "after_public_pin": {
+              "bytes": 19125,
+              "sha256": "d03a964d41b0032f12ee9dfc1b8a4a75376b35faa0135ec0d91cca9747b6286d"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "d03a964d41b0032f12ee9dfc1b8a4a75376b35faa0135ec0d91cca9747b6286d",
+            "current_public_sha256": "d03a964d41b0032f12ee9dfc1b8a4a75376b35faa0135ec0d91cca9747b6286d",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/pro053/U05.md",
+      "bytes": 25651,
+      "sha256": "e8a280431c0ead2641c8812160bb53946d7a93e86aab6bd5b1595975f7bcd1a0",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra077-2026-10-05/source-processing/pro053/provider-internal/objects/83/83c45feb0a5481d3d0bbe5ccc3da526a70a57a9d0ecffa11530480d5bdd3013f.md",
+        "source_sha256": "83c45feb0a5481d3d0bbe5ccc3da526a70a57a9d0ecffa11530480d5bdd3013f",
+        "source_bytes": 25879,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "2981e14dc1ca8eb43521e22f0d17063dd9c98414cc55cf8db93acf7c17b18c3a",
+            "current_public_sha256": "2981e14dc1ca8eb43521e22f0d17063dd9c98414cc55cf8db93acf7c17b18c3a",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 25711,
+              "sha256": "2981e14dc1ca8eb43521e22f0d17063dd9c98414cc55cf8db93acf7c17b18c3a"
+            },
+            "after_public_pin": {
+              "bytes": 26355,
+              "sha256": "8b8bb00570414fceb601b5fddc8a362ca544521d6594fe0edbfe1d5f6d794e24"
+            }
+          },
+          {
+            "reason": "PUB-R1-03: replace private launch/checkpoint/alias/status/continuation bookkeeping with mathematical provenance and exact evidence limits.",
+            "before_public_pin": {
+              "bytes": 26355,
+              "sha256": "8b8bb00570414fceb601b5fddc8a362ca544521d6594fe0edbfe1d5f6d794e24"
+            },
+            "after_public_pin": {
+              "bytes": 25639,
+              "sha256": "95ec1b5989bc270a9529c5ce92942b0c3f58485e2b54fcf4ff09f0b5bd1c1270"
+            }
+          },
+          {
+            "reason": "Replace source-only mathematical locator with exact public dependency.",
+            "before_public_pin": {
+              "bytes": 25639,
+              "sha256": "95ec1b5989bc270a9529c5ce92942b0c3f58485e2b54fcf4ff09f0b5bd1c1270"
+            },
+            "after_public_pin": {
+              "bytes": 25655,
+              "sha256": "1e41ef73dd48c40dbecc714c1b670a63a96ea1a977058c093398f685e35c9732"
+            }
+          },
+          {
+            "reason": "Replace exact private mathematical alias with the already exported full U03 theorem.",
+            "before_public_pin": {
+              "bytes": 25655,
+              "sha256": "1e41ef73dd48c40dbecc714c1b670a63a96ea1a977058c093398f685e35c9732"
+            },
+            "after_public_pin": {
+              "bytes": 25651,
+              "sha256": "e8a280431c0ead2641c8812160bb53946d7a93e86aab6bd5b1595975f7bcd1a0"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "e8a280431c0ead2641c8812160bb53946d7a93e86aab6bd5b1595975f7bcd1a0",
+            "current_public_sha256": "e8a280431c0ead2641c8812160bb53946d7a93e86aab6bd5b1595975f7bcd1a0",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/pro053/U05_SIGN.md",
+      "bytes": 11260,
+      "sha256": "920a46a70717b5f4557cfbd26eda0a3598ca632f959bed41cc30eed7c12c8a22",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra077-2026-10-05/source-processing/pro053/provider-internal/objects/8a/8a7142c20f9f765d98933d9587334a8eed801fc76de28fe1a0181c3307c4f77d.md",
+        "source_sha256": "8a7142c20f9f765d98933d9587334a8eed801fc76de28fe1a0181c3307c4f77d",
+        "source_bytes": 10774,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "7d849f2a856c1b7263471fbd788f31d5bbb1a5f959a2c79cf39f833f4607c817",
+            "current_public_sha256": "7d849f2a856c1b7263471fbd788f31d5bbb1a5f959a2c79cf39f833f4607c817",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 10590,
+              "sha256": "7d849f2a856c1b7263471fbd788f31d5bbb1a5f959a2c79cf39f833f4607c817"
+            },
+            "after_public_pin": {
+              "bytes": 11260,
+              "sha256": "920a46a70717b5f4557cfbd26eda0a3598ca632f959bed41cc30eed7c12c8a22"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "920a46a70717b5f4557cfbd26eda0a3598ca632f959bed41cc30eed7c12c8a22",
+            "current_public_sha256": "920a46a70717b5f4557cfbd26eda0a3598ca632f959bed41cc30eed7c12c8a22",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/pro053/U10-BASES.md",
+      "bytes": 18557,
+      "sha256": "df4d601fee69ab58eff18ad5a3ac260a50f5fcbb8933cb0fa1a2494bc62b62c6",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra078-2026-10-05/source-processing/pro053/provider-internal/objects/65/654ed0319368b6a623d0312decf8fe24949710b57f2cb8c609c52e4258418090.md",
+        "source_sha256": "654ed0319368b6a623d0312decf8fe24949710b57f2cb8c609c52e4258418090",
+        "source_bytes": 18070,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "d741d862783d7a01013960ed166669c91ad6fed27d632acf3ea0576fda8e8526",
+            "current_public_sha256": "d741d862783d7a01013960ed166669c91ad6fed27d632acf3ea0576fda8e8526",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 17266,
+              "sha256": "d741d862783d7a01013960ed166669c91ad6fed27d632acf3ea0576fda8e8526"
+            },
+            "after_public_pin": {
+              "bytes": 18557,
+              "sha256": "df4d601fee69ab58eff18ad5a3ac260a50f5fcbb8933cb0fa1a2494bc62b62c6"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "df4d601fee69ab58eff18ad5a3ac260a50f5fcbb8933cb0fa1a2494bc62b62c6",
+            "current_public_sha256": "df4d601fee69ab58eff18ad5a3ac260a50f5fcbb8933cb0fa1a2494bc62b62c6",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/pro053/U10.md",
+      "bytes": 21933,
+      "sha256": "58d7d21218d2dcc0714a7e895faf70806da9e8ecaaa1e4411283e8462ecfa666",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra078-2026-10-05/source-processing/pro053/provider-internal/objects/9e/9eea71ce6034778058220ebfaff34e3127623c3f9495a3226ff83f3b5028cffe.md",
+        "source_sha256": "9eea71ce6034778058220ebfaff34e3127623c3f9495a3226ff83f3b5028cffe",
+        "source_bytes": 21305,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "08fb3386089acb034c7d1e80708c20b656de124843a173ea3fff4e479d9cf8d9",
+            "current_public_sha256": "08fb3386089acb034c7d1e80708c20b656de124843a173ea3fff4e479d9cf8d9",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 21071,
+              "sha256": "08fb3386089acb034c7d1e80708c20b656de124843a173ea3fff4e479d9cf8d9"
+            },
+            "after_public_pin": {
+              "bytes": 21879,
+              "sha256": "23f5ac8eb9ea5eca0566eb3117775e2294bd411e76655ea4da4b569cef6ac22e"
+            }
+          },
+          {
+            "reason": "Corpus audit: remove private external-status/lifecycle bookkeeping while retaining historical evidence distinctions.",
+            "before_public_pin": {
+              "bytes": 21879,
+              "sha256": "23f5ac8eb9ea5eca0566eb3117775e2294bd411e76655ea4da4b569cef6ac22e"
+            },
+            "after_public_pin": {
+              "bytes": 21831,
+              "sha256": "abac3291b19570b33dbee328710f3cf51ba4591690b023542e36bf0201cf7503"
+            }
+          },
+          {
+            "reason": "Replace private prior-source locators with complete already adopted public proofs of the same N=3/n=2/no-overlap boundary, retaining original U06 provenance in source history.",
+            "before_public_pin": {
+              "bytes": 21831,
+              "sha256": "abac3291b19570b33dbee328710f3cf51ba4591690b023542e36bf0201cf7503"
+            },
+            "after_public_pin": {
+              "bytes": 21933,
+              "sha256": "58d7d21218d2dcc0714a7e895faf70806da9e8ecaaa1e4411283e8462ecfa666"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "58d7d21218d2dcc0714a7e895faf70806da9e8ecaaa1e4411283e8462ecfa666",
+            "current_public_sha256": "58d7d21218d2dcc0714a7e895faf70806da9e8ecaaa1e4411283e8462ecfa666",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/pro053/U11-SIGN.md",
+      "bytes": 1577,
+      "sha256": "99566fc995e65e212ad621b3d819102fa97a3eca86baea048b35b8476950bc88",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra078-2026-10-05/source-processing/pro053/provider-internal/objects/73/73a94dc4f1f98df279bfa2aca53496042b6eee20f55896514ee83c63dfa157f2.md",
+        "source_sha256": "73a94dc4f1f98df279bfa2aca53496042b6eee20f55896514ee83c63dfa157f2",
+        "source_bytes": 1090,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "5a80f129d044c2bf8cf6cbfbca8b5e673d41f94a2cd98b94307d7fda0a3eb16f",
+            "current_public_sha256": "5a80f129d044c2bf8cf6cbfbca8b5e673d41f94a2cd98b94307d7fda0a3eb16f",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 1314,
+              "sha256": "5a80f129d044c2bf8cf6cbfbca8b5e673d41f94a2cd98b94307d7fda0a3eb16f"
+            },
+            "after_public_pin": {
+              "bytes": 1577,
+              "sha256": "99566fc995e65e212ad621b3d819102fa97a3eca86baea048b35b8476950bc88"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "99566fc995e65e212ad621b3d819102fa97a3eca86baea048b35b8476950bc88",
+            "current_public_sha256": "99566fc995e65e212ad621b3d819102fa97a3eca86baea048b35b8476950bc88",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/pro053/U11.md",
+      "bytes": 23622,
+      "sha256": "3af4dd415e271c07af1beeef69c485883b96b71ff2e26e77c5e66e8f4874f399",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra078-2026-10-05/source-processing/pro053/provider-internal/objects/ef/efa4f3ee7b5c04de928dc6a6c9021478316f4674be1530eb9225ec6017670cf7.md",
+        "source_sha256": "efa4f3ee7b5c04de928dc6a6c9021478316f4674be1530eb9225ec6017670cf7",
+        "source_bytes": 24279,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "cf865ddcd795216b6ee7fdb3d4d3d82a4dbc062308d8754969199888a4f97a88",
+            "current_public_sha256": "5d1a21937c5f8ae398779b538f3a6de5bc7593d0a82f82043819db3d4c40c751",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          },
+          {
+            "before_public_sha256": "cf865ddcd795216b6ee7fdb3d4d3d82a4dbc062308d8754969199888a4f97a88",
+            "current_public_sha256": "5d1a21937c5f8ae398779b538f3a6de5bc7593d0a82f82043819db3d4c40c751",
+            "transformation": "Removed one trailing ASCII space in prose; equation tokens and displays unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 23825,
+              "sha256": "5d1a21937c5f8ae398779b538f3a6de5bc7593d0a82f82043819db3d4c40c751"
+            },
+            "after_public_pin": {
+              "bytes": 24309,
+              "sha256": "ba04ba4aa3fd24e4acfd9ac3277977e1feba18d2387d9e31fad0c22724695055"
+            }
+          },
+          {
+            "reason": "Corpus audit: remove private alias/critical-roster/CLI/custody/stop instructions, retain failed-attempt and count-population evidence limits.",
+            "before_public_pin": {
+              "bytes": 24309,
+              "sha256": "ba04ba4aa3fd24e4acfd9ac3277977e1feba18d2387d9e31fad0c22724695055"
+            },
+            "after_public_pin": {
+              "bytes": 23609,
+              "sha256": "501d3ad305bf88d14218b0bfb44cba1646db9dea67bf477b63f059a15ef31bf7"
+            }
+          },
+          {
+            "reason": "Replace private dependency locators while preserving complete paid-base premises.",
+            "before_public_pin": {
+              "bytes": 23609,
+              "sha256": "501d3ad305bf88d14218b0bfb44cba1646db9dea67bf477b63f059a15ef31bf7"
+            },
+            "after_public_pin": {
+              "bytes": 23622,
+              "sha256": "3af4dd415e271c07af1beeef69c485883b96b71ff2e26e77c5e66e8f4874f399"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "3af4dd415e271c07af1beeef69c485883b96b71ff2e26e77c5e66e8f4874f399",
+            "current_public_sha256": "3af4dd415e271c07af1beeef69c485883b96b71ff2e26e77c5e66e8f4874f399",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    },
+    {
+      "path": "proofs/pro053/U12.md",
+      "bytes": 22439,
+      "sha256": "1bb19ed36de69616ecabc124310a070900fc9b8496c760e65a0c8f526de7daf2",
+      "origin": {
+        "repository": "stretched-lr-research",
+        "source": "methods/astra078-2026-10-05/source-processing/pro053/provider-internal/objects/3a/3a618e03c4b3f4c2697f00c09767a912a3a58b05742d0938cbf62693b88a3bd3.md",
+        "source_sha256": "3a618e03c4b3f4c2697f00c09767a912a3a58b05742d0938cbf62693b88a3bd3",
+        "source_bytes": 21864,
+        "transformation": "Remove operating introduction/paragraphs; retain mathematical proof, all formulas, cases and scope. Source labels remain attribution, not extra theorems.",
+        "public_formatting_history": [
+          {
+            "before_public_sha256": "83731fc9308bffc5c2165014db8850bb8ebbec8dab5cbf40d53f6fea930365a1",
+            "current_public_sha256": "83731fc9308bffc5c2165014db8850bb8ebbec8dab5cbf40d53f6fea930365a1",
+            "transformation": "Explicit GFM ASCII fences; protected/native math delimiters; comment-free TeX whitespace normalization. In the absorber proof only, two tags moved outside gathered and three bare less-than comparisons use equivalent lt commands. Canonical original source hashes are unchanged."
+          }
+        ],
+        "R2_transformations": [
+          {
+            "reason": "Restore all missing pre-heading mathematical clauses without first-section truncation.",
+            "before_public_pin": {
+              "bytes": 22029,
+              "sha256": "83731fc9308bffc5c2165014db8850bb8ebbec8dab5cbf40d53f6fea930365a1"
+            },
+            "after_public_pin": {
+              "bytes": 22553,
+              "sha256": "b0f002ab02341131c4e7ca6c87bd65fbab028fe84d91b75a60a9cf33d681bc08"
+            }
+          },
+          {
+            "reason": "PUB-R1-03: remove private mission-closing directive.",
+            "before_public_pin": {
+              "bytes": 22553,
+              "sha256": "b0f002ab02341131c4e7ca6c87bd65fbab028fe84d91b75a60a9cf33d681bc08"
+            },
+            "after_public_pin": {
+              "bytes": 22406,
+              "sha256": "7d5b009c39f841ec3647318991c1605ef88508afd08328aed59da9439cafc776"
+            }
+          },
+          {
+            "reason": "Replace private transport aliases with complete public mathematical dependencies.",
+            "before_public_pin": {
+              "bytes": 22406,
+              "sha256": "7d5b009c39f841ec3647318991c1605ef88508afd08328aed59da9439cafc776"
+            },
+            "after_public_pin": {
+              "bytes": 22452,
+              "sha256": "4f2ea2b2c6dc33ad9dca7c7aef2a82380a65000d88e135d4a8f06339700e908b"
+            }
+          },
+          {
+            "reason": "Remove private synthesis locator while preserving scope boundary.",
+            "before_public_pin": {
+              "bytes": 22452,
+              "sha256": "4f2ea2b2c6dc33ad9dca7c7aef2a82380a65000d88e135d4a8f06339700e908b"
+            },
+            "after_public_pin": {
+              "bytes": 22440,
+              "sha256": "a0e967cd6e5fe092dc5a4d58fd50d30cc266bbdb2d76a1bfb6b35139f9f3df9b"
+            }
+          }
+        ],
+        "R2_formatting_history": [
+          {
+            "before_public_sha256": "a0e967cd6e5fe092dc5a4d58fd50d30cc266bbdb2d76a1bfb6b35139f9f3df9b",
+            "current_public_sha256": "1bb19ed36de69616ecabc124310a070900fc9b8496c760e65a0c8f526de7daf2",
+            "transformation": "Current actual GitHub GFM presentation; mathematical TeX sequence is exactly unchanged, all ASCII displays checked in full."
+          }
+        ]
+      }
+    }
+  ],
+  "scope": "Complete current mathematical proof/data/checker membership; original identities, curation and scientific/internal-review status distinct."
+}

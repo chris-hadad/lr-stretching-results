@@ -1,0 +1,15 @@
+{
+  "schema": "curated-family-verification/v1",
+  "date": "2026-10-12",
+  "fresh_export_status": "DOCUMENTATION_SOURCE_AUTHENTICATION",
+  "checks": [],
+  "public_curation_review": "PASSED_INTERNAL_ASTRA_REVIEW",
+  "A83_scientific_status": "Not an additional A83 claim",
+  "returned_provider_programs_executed": false,
+  "full_repository_suite_run": false,
+  "raw_private_runtime_records_exported": false,
+  "source_map_is_theorem_proof": false,
+  "scope_limit": "Arithmetic/structural reproduction and recorded exact proofs. Internal AI review, human review, formal certification and novelty are distinct. No new unused observations or additive coverage from replay.",
+  "review_receipt_sha256": "da4dd1c7c065cacccad93353e079875ffb731681d23be78d2f1d78992e14a98a",
+  "accepted_scope_sha256": "06484ba8fac8b719d860c32695d5055426cde36b587a53ad4d7b9a640eee2680"
+}

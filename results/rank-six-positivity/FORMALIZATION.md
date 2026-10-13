@@ -30,22 +30,81 @@ already checked by an independent Python program. A formal version must also
 prove the closure sandwich and formula interpretation, not merely accept a
 Boolean checker result.
 
-There is a concrete Lean route using the standard library alone. In
-[Lean v4.34.1's pinned LRAT checker](https://github.com/leanprover/lean4/blob/5045d0056413266e57c625dcd7c365b10e377c52/src/Std/Tactic/BVDecide/LRAT/Checker.lean),
-`Std.Tactic.BVDecide.LRAT.check_sound` proves that a successful check establishes
-the input CNF's unsatisfiability. An exporter would attach ordered unit/conflict
-reason IDs to each of the existing RUP additions, embed exact CNF and proof
-data, and discharge the check by kernel reduction. Variables and clause IDs
-must follow that release's exact conventions. A useful pilot starts with one
-complete representative, then the largest 4,531-addition representative.
-No mathlib cache or external SAT solver is required for this finite step.
+## Closed native formal evidence through G3
 
-**This pilot has not been compiled or kernel-checked.** The release and API
-were inspected, but no Lean toolchain was installed. Kernel reduction time and
-memory remain unmeasured. A proof using compiled native evaluation has a
-different trust boundary from kernel-only evaluation and must be labeled
-accordingly. Even a successful CNF pilot would leave the geometric
-interpretation and the LR/BV bridge to formalize.
+A concrete finite pilot has now landed. The attempted core Lean LRAT kernel
+reduction was blocked by opaque platform operations and partial parsing.
+A separate structurally recursive 45-bit mask/trie checker was proved sound;
+closed-session audits report nine representative refutations, 6,488 additions,
+166 feasible heights / 7,470 slacks and 103 row identities. These certify their
+actual data and Boolean/algebraic predicates; the full hive interpretation and
+geometric bridge are separate obligations.
+
+The evidence labels distinguish **KERNEL** proofs using the standard axioms,
+**NATIVE** compiled evaluation with its additional trust boundary, and **STATED**
+soundness obligations. The earlier pilot audit reports 56 KERNEL / 9 NATIVE
+components; the G3 audited run copies report 126 KERNEL / 14 STATED claims.
+The latter counts concern those run copies, not wholesale adoption into the
+maintained library. No current build was run for this public assessment.
+
+Later closed-session work reports actual LR/hive, polyhedral and local-weight
+components and a complete **rank-at-most-four kernel theorem** on the real LR
+statement: polynomial agreement and uniqueness, actual dimension at most three,
+constant one and strict coefficients for nonempty hives, and the zero empty
+case. This is formal assurance progress, not new mathematical rank-four coverage.
+The recorded rank-four audit reaches 32,424 constants with no own-sorry leaves
+and standard axioms only. These are attributed native audit results; this public
+package does not contain or freshly compile the full native formal library.
+
+Whole rank six remains incomplete. Its assembly still reaches
+`correction_identity` and `hbeta_c1` through `hbeta_c9` placeholders. The G3
+`hbeta_c6_pkg` record was STATED with four named soundness premises:
+`checkSup_sound`, `thetaField_isKernelField`, `thetaOKQ_sound` and
+`betaThetaQ_sound`. The later support-checker proof below is progress on one
+part of that route; G4 did not repin or adopt the old c6 package or compose a
+whole-rank-six proof. Residue or unimodularity lemmas alone do not supply the
+remaining field, soundness and coverage bridges.
+
+## Closed G4: support soundness and conditional coverage
+
+The native formalization program closed G4 on 12 October 2026. Its audited
+library records `checkSup_sound_gen` as **KERNEL**, together with the original
+`checkSup_sound` and `checkSup_sound_nine` statements. The generalized statement
+has the fixed 42-by-10 representation and explicit normal, row independence,
+index, source-list and lower-state hypotheses. The original bounded instance
+retains Q<=9 and unimodularity. This is checker soundness under its stated
+hypotheses, not arbitrary-input or all-rank positivity. The library census
+reports fourteen own-sorry leaves remaining, including the ten assembly leaves.
+
+The c5 arithmetic pilot was built and its measured arithmetic cost reproduced,
+but `hbeta_c5_of_cov : CoverC5 -> Assembly.HBeta5` remains
+**MODULO(CoverC5)**. Here MODULO(P) means a formal conditional result whose named
+mathematical premise P remains unproved. The audit was explicitly partial:
+complete roster coverage, roster/beta seams and whole-import memory checks
+were not completed. This is neither unconditional c5 formalization nor full
+independent certification of the entire pilot.
+
+A separate coverage checker's original general soundness statements were
+kernel-refuted and narrowed. The repairs require bounded key blocks, valid
+45-bit masks and a matching image invariant; their soundness is still
+**STATED (OPEN)**. Key/root invariant and composition bridges remain obligations.
+Kernel evaluation of proxy chunks does not prove the checker meaning or full
+roster coverage. Those refuted prototype statements are separate from the
+published mathematical LR proof; no defect in that published proof follows.
+
+Recorded chunk timings and partial-pilot measurements are distinct from a
+whole-layer forecast; the key join and top walk remain unmeasured in Lean.
+No completion time or whole-layer resource bound is established here.
+
+This status uses frozen lab commit
+`913e044b684b6926dc61188f78f92ffb3da76f98` and Lean commit
+`c3c5ce923a366d682d704101a2d6577e3ef86021`. The source map records the exact native
+statement/audit/source hashes. The whole rank-six assembly and rank-four assembly
+are byte-unchanged from G3; the rank-four kernel result above is unchanged.
+These are attributed native source reports. This public package neither
+exports the complete native formal artifact nor freshly compiles or adopts it.
+The [dated research record](../research-progress/README.md#qualified-native-research-and-formal-progress)
+keeps native mathematical leads and their unproved hypotheses separate.
 
 The original 45-row cone is another useful target: formalize exact
 double description, the tight-face adjacency test and rational arithmetic,
@@ -62,12 +121,7 @@ parsed scalars are the required BV constants. Kernel checking must not be
 described as covering unformalized analytic premises, unverified input parsing
 or a trusted external computation.
 
-The current project contains no existing whole-theorem formalization. A bounded
-search of the current mathlib source inventory did not identify the required
-Ehrhart/BV/LR modules; that is not proof that no relevant formal development
-exists elsewhere. A full estimate therefore requires actual library and
-dependency work. The present release should make the complete exact proof
-inspectable without promising a short formalization timeline.
+The current project has no completed whole-rank-six formalization. The landed lower-rank and local components above reduce specific obligations, but a full estimate still requires the remaining bridge and soundness work. The present release makes the exact proof inspectable without promising a short completion timeline.
 
 There is useful existing infrastructure: [mathlib's convex-cone library](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Geometry/Convex/Cone/Basic.html)
 provides cone hulls, linear images and preimages, and the relevant cone

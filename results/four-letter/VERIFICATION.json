@@ -1,0 +1,60 @@
+{
+  "schema": "curated-family-verification/v1",
+  "date": "2026-10-12",
+  "fresh_export_status": "SELECTED_COMPLETE_CHECKS_PASS",
+  "checks": [
+    {
+      "id": "export-four-letter-finite-001",
+      "exit_code": 0,
+      "guarded_seconds": 1.6149453340040054,
+      "sampled_peak_group_rss_bytes": 24969216,
+      "sample_zero_means_true_peak_unknown": false,
+      "executed_code_sha256": {
+        "four-letter/code/exact_arithmetic.py": "5e828e8a53df6a52b7c3f5021498c5870c282d2abfc107172a3544b0065970a5"
+      }
+    },
+    {
+      "id": "export-four-letter-symbolic-002",
+      "exit_code": 0,
+      "guarded_seconds": 11.412689166027121,
+      "sampled_peak_group_rss_bytes": 89931776,
+      "sample_zero_means_true_peak_unknown": false,
+      "executed_code_sha256": {
+        "four-letter/code/symbolic_certificates.py": "2e96fbe4b1a1e304ca75436453795184a309554985add0440939adf696ed8b01"
+      }
+    },
+    {
+      "id": "export-four-letter-geometry-001",
+      "exit_code": 0,
+      "guarded_seconds": 1.2725831670104526,
+      "sampled_peak_group_rss_bytes": 0,
+      "sample_zero_means_true_peak_unknown": true,
+      "executed_code_sha256": {
+        "four-letter/code/verify_geometry.py": "2f4c3f0559fba5fddf06b51cbdb8149b3ccbcebe1ea8e94edb5b42f1821c3457"
+      }
+    }
+  ],
+  "public_curation_review": "PASSED_INTERNAL_ASTRA_REVIEW",
+  "A83_scientific_status": "Not an additional A83 claim",
+  "returned_provider_programs_executed": false,
+  "full_repository_suite_run": false,
+  "raw_private_runtime_records_exported": false,
+  "source_map_is_theorem_proof": false,
+  "scope_limit": "Arithmetic/structural reproduction and recorded exact proofs. Internal AI review, human review, formal certification and novelty are distinct. No new unused observations or additive coverage from replay.",
+  "SymPy_version": "1.14.0",
+  "symbolic_runtime": "Existing plain Python interpreter with SymPy; no Sage backend or installation.",
+  "finite_slots": {
+    "F": 265,
+    "W": 255,
+    "required_F_bridge": 225,
+    "G12": 40,
+    "GW3": 12,
+    "adverse_sufficient_bound": 94
+  },
+  "geometry": {
+    "simplex_comparisons": 18,
+    "complete_orbits": 519
+  },
+  "review_receipt_sha256": "da4dd1c7c065cacccad93353e079875ffb731681d23be78d2f1d78992e14a98a",
+  "accepted_scope_sha256": "06484ba8fac8b719d860c32695d5055426cde36b587a53ad4d7b9a640eee2680"
+}

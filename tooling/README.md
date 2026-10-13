@@ -178,3 +178,13 @@ optional; the default panel remains the original seventeen inputs.
 python3 -B tooling/examples/quickstart.py
 python3 -B tooling/benchmarks/compare.py --case transport-repeated8x8
 ```
+
+## Later family checker sources
+
+The [new reproduction routes](../REPRODUCING.md#later-complete-family-packages)
+export trusted root arithmetic for two-row transfers, complete triangle sign
+certificates, the full interacting rank-seven finite proof, root-square selected
+endpoint/gain accounting and four-letter finite/free-variable certificates.
+Every module is local and explicit; no command imports a provider program or
+looks up a private research path. The legacy default root reproduction remains
+its original five-module selection. The complete older numerical closures are [included](../results/research-progress/DEPENDENCIES.md).
