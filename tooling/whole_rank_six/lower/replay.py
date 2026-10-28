@@ -6,6 +6,7 @@ This program compiles only the copied campaign-owned checkers in src/.
 """
 import argparse
 from concurrent.futures import ThreadPoolExecutor
+from fractions import Fraction
 import hashlib
 import json
 import math
@@ -30,6 +31,10 @@ PRO33 = Path('results/runs/SLR-PRO033-PACKET-20260916-001/science-restored-check
 H8IDX = Path('results/runs/SLR-ASTRA017-20260917-001/h8/adapter-v5-final/indices')
 H8_COUNTS = [0, 4, 36, 386, 4279, 39908, 293306, 1651060]
 TOPOLOGY = [0, 42, 861, 11480, 111930, 850668, 5245786, 26978328]
+# The theorem's c2 margin: every exact original-field beta must be at least epsilon_2.
+C2_EPSILON = Fraction(1, 200000000)
+C2_CERTIFICATE = HERE/'c2-certificate'
+C2_CERTIFICATE_SHA256 = '019b6f49721236876975db63c27441e465ee622fc5cc2f899b96130acf3e6ccb'
 CANCELLED = False
 ACTIVE = {}
 ACTIVE_LOCK = threading.Lock()
@@ -387,7 +392,7 @@ def c2_field(args,out):
     shards=validated_operator_shards(sorted(original.glob('full-operator-*.rows')))
     checker=binary(out,'field-original','field_original_v1.cpp',args)
     phase=out/'c2-field';phase.mkdir()
-    cursor=rows=nnz=originals=violations=0
+    results=[]
     for shard,begin,end in shards:
         result=run_one([checker,args.asset_root/C3/'U02/DATA',args.asset_root/A15,
                         args.asset_root/PRO33/'U07/DATA/COLLATION/merge-02-00.types',shard,begin,end,
@@ -395,10 +400,130 @@ def c2_field(args,out):
                         1000000000000,0,phase/f'{begin:08d}-{end:08d}.result.json'],
                        phase/f'{begin:08d}-{end:08d}.process.json','PASS_EXACT_ORIGINAL_FIELD_RANGE',120)
         require((result['begin'],result['end'],result['rows'])==(begin,end,end-begin),'field receipt range')
-        cursor=end;rows+=result['rows'];nnz+=result['nnz'];originals+=result['original_multiplicity'];violations+=result['violations']
+        results.append(result)
+    fresh_json(phase/'COMPLETE.json', c2_field_summary(results))
+
+
+def exact_minimum_beta(result):
+    """Read one c2 range result's minimum_beta as an exact canonical rational.
+
+    Args:
+        result: A field_original_v1 range result.
+
+    Returns:
+        The range's exact minimum beta as a Fraction.
+
+    Raises:
+        RuntimeError: The value is absent, not a string, or not a canonical rational.
+    """
+    where='c2 range receipt '+str(result.get('begin'))+'-'+str(result.get('end'))
+    text=result.get('minimum_beta')
+    require(type(text) is str, where+' has no exact minimum_beta string')
+    require(re.fullmatch(r'-?[0-9]+(/[0-9]+)?', text) is not None,
+            where+' minimum_beta is not an exact rational: '+text[:80])
+    try:
+        value=Fraction(text)
+    except ZeroDivisionError:
+        raise RuntimeError(where+' minimum_beta has a zero denominator') from None
+    require(str(value)==text, where+' minimum_beta is not in lowest terms: '+text[:80])
+    return value
+
+
+def c2_field_summary(results):
+    """Fold c2 range results: complete coverage, zero violations and the exact margin.
+
+    The field checker counts only beta < 0 at threshold zero; the theorem's
+    margin is the exact minimum over every range compared with C2_EPSILON.
+
+    Args:
+        results: Range results in begin order.
+
+    Returns:
+        The c2-field COMPLETE record, with exact_minimum_beta and theorem_epsilon.
+
+    Raises:
+        RuntimeError: Coverage, a range status or count, or the margin fails.
+    """
+    cursor=rows=nnz=originals=violations=0
+    minimum=None
+    for result in results:
+        require(type(result) is dict, 'c2 range receipt is not a JSON object')
+        counts=('begin','end','rows','nnz','original_multiplicity','violations')
+        require(all(type(result.get(key)) is int for key in counts),
+                'c2 range receipt counts must be integers')
+        require(result['begin']==cursor and result['rows']==result['end']-result['begin']>0,
+                'field receipt range')
+        require(result.get('status')=='PASS_EXACT_ORIGINAL_FIELD_RANGE',
+                'c2 range receipt '+str(result['begin'])+'-'+str(result['end'])+' is not a passing exact field range')
+        beta=exact_minimum_beta(result)
+        minimum=beta if minimum is None or beta<minimum else minimum
+        cursor=result['end'];rows+=result['rows'];nnz+=result['nnz'];originals+=result['original_multiplicity'];violations+=result['violations']
     require(cursor==10480218 and rows==10480218 and violations==0,'incomplete or failing c2 original field')
-    fresh_json(phase/'COMPLETE.json', {'status':'PASS_COMPLETE_C2_ORIGINAL_FIELD_REPLAY','rows':rows,'nnz':nnz,
-                                      'original_multiplicity':originals,'violations':violations,'ranges':len(shards)})
+    require(minimum>=C2_EPSILON, 'c2 exact minimum beta '+str(minimum)+' is below the theorem epsilon '+str(C2_EPSILON))
+    return {'status':'PASS_COMPLETE_C2_ORIGINAL_FIELD_REPLAY','rows':rows,'nnz':nnz,
+            'original_multiplicity':originals,'violations':violations,'ranges':len(results),
+            'exact_minimum_beta':str(minimum),'theorem_epsilon':str(C2_EPSILON)}
+
+
+def recheck_c2_receipts(directory):
+    """Refold the range results of a completed c2-field phase without rerunning it.
+
+    Args:
+        directory: A c2-field phase directory holding NNNNNNNN-NNNNNNNN.result.json files.
+
+    Returns:
+        The c2_field_summary of those results.
+
+    Raises:
+        RuntimeError: No results, a name and range disagree, or the fold fails.
+    """
+    named=[]
+    for path in Path(directory).iterdir():
+        match=re.fullmatch(r'(\d{8})-(\d{8})\.result\.json', path.name)
+        if match:
+            require(path.is_file() and not path.is_symlink(), 'c2 range receipt must be a regular file: '+path.name)
+            named.append((int(match.group(1)),int(match.group(2)),path))
+    require(named, 'no c2 range receipts in '+str(directory))
+    results=[]
+    for begin,end,path in sorted(named):
+        result=json.loads(path.read_text(encoding='utf-8'))
+        require(type(result) is dict and (result.get('begin'),result.get('end'))==(begin,end),
+                'c2 range receipt does not match its file name: '+path.name)
+        results.append(result)
+    return c2_field_summary(results)
+
+
+def check_c2_certificate(directory=C2_CERTIFICATE):
+    """Recheck the shipped A17 c2 certificate's positive margin from its bound range results.
+
+    Args:
+        directory: Holds GLOBAL-C2-CERTIFICATE.json and ranges/ with its 105 range results.
+
+    Returns:
+        The c2_field_summary of the certificate's range results.
+
+    Raises:
+        RuntimeError: A file is changed or missing, or the certificate disagrees with the fold.
+    """
+    path=Path(directory)/'GLOBAL-C2-CERTIFICATE.json'
+    require(path.is_file() and not path.is_symlink() and digest(path)==C2_CERTIFICATE_SHA256,
+            'missing or changed c2 certificate: '+str(path))
+    certificate=json.loads(path.read_text(encoding='utf-8'))
+    results=[]
+    for proof in certificate['range_proofs']:
+        spec=proof['result']
+        copy=Path(directory)/'ranges'/Path(spec['path']).name
+        require(copy.is_file() and not copy.is_symlink() and copy.stat().st_size==spec['bytes'] and
+                digest(copy)==spec['sha256'], 'c2 certificate range result missing or changed: '+copy.name)
+        results.append(json.loads(copy.read_text(encoding='utf-8')))
+    summary=c2_field_summary(results)
+    require(certificate['proposed_epsilon']==summary['theorem_epsilon'] and
+            certificate['exact_minimum_beta']==summary['exact_minimum_beta'] and
+            (certificate['ranges'],certificate['orbit_rows'],certificate['original_multiplicity'])==
+            (summary['ranges'],summary['rows'],summary['original_multiplicity']) and
+            certificate['all_exact_range_minima_at_least_epsilon'] is True,
+            'c2 certificate disagrees with its range results')
+    return summary
 
 
 def h8_sources(root, phase):
@@ -680,12 +805,26 @@ def h8_levels(args,out,upper):
 def main():
     refuse_optimized()
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--asset-root',type=Path,required=True)
-    parser.add_argument('--output',type=Path,required=True)
-    parser.add_argument('--phase',required=True,choices=['c3-core','c3-analytic','c2-field','h8-small','h8-through4','h8-through5','h8-full'])
+    parser.add_argument('--asset-root',type=Path)
+    parser.add_argument('--output',type=Path)
+    parser.add_argument('--phase',choices=['c3-core','c3-analytic','c2-field','h8-small','h8-through4','h8-through5','h8-full'])
     parser.add_argument('--workers',type=int,choices=[1,2],default=1)
+    recheck=parser.add_mutually_exclusive_group()
+    recheck.add_argument('--recheck-c2-receipts',type=Path,metavar='C2_FIELD_DIR',
+                         help='refold a completed c2-field phase against epsilon_2 without rerunning it')
+    recheck.add_argument('--check-c2-certificate',action='store_true',
+                         help='recheck the shipped A17 c2 certificate from its bound range results')
     add_toolchain_arguments(parser)
     args=parser.parse_args()
+    if args.recheck_c2_receipts is not None or args.check_c2_certificate:
+        if args.asset_root is not None or args.output is not None or args.phase is not None:
+            parser.error('a c2 recheck takes no replay arguments')
+        summary=(recheck_c2_receipts(args.recheck_c2_receipts) if args.recheck_c2_receipts is not None
+                 else check_c2_certificate())
+        print(json.dumps(summary,sort_keys=True))
+        return
+    if args.asset_root is None or args.output is None or args.phase is None:
+        parser.error('the following arguments are required: --asset-root, --output, --phase')
     validate_toolchain(args)
     args.asset_root,args.output=prepare_roots(args.asset_root,args.output)
     install_signal_handlers()

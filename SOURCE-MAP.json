@@ -981,13 +981,18 @@
     },
     {
       "path": "papers/rank-six/BUILD.json",
-      "included_bytes": 4925,
-      "included_sha256": "129220fc58c1429bd45f45db4b30ab518fad276ada9cf7646bddedc3918f058c",
+      "included_bytes": 6049,
+      "included_sha256": "5bb35ddcc49f68a55245d21fa3c5b301a06eaaefe65f4b4f2887a34ab7b9b684",
       "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
       "publication_refresh_history": [
         {
           "previous_included_sha256": "9997bff6928e806f974034253e5e40bec227fbc27959870a5048c737da7de2bb",
           "current_included_sha256": "129220fc58c1429bd45f45db4b30ab518fad276ada9cf7646bddedc3918f058c"
+        },
+        {
+          "previous_included_sha256": "129220fc58c1429bd45f45db4b30ab518fad276ada9cf7646bddedc3918f058c",
+          "current_included_sha256": "5bb35ddcc49f68a55245d21fa3c5b301a06eaaefe65f4b4f2887a34ab7b9b684",
+          "date": "2026-10-28"
         }
       ]
     },
@@ -1000,12 +1005,17 @@
     {
       "path": "papers/rank-six/SOURCE-MAP.json",
       "included_bytes": 2031,
-      "included_sha256": "a37c8dc65d67e159b0113b6322b9c0f40b4b15dad532f9981796145fe14296d0",
+      "included_sha256": "74ce2f50ddafb8745a8213e990dffbb0514f643dc81c1a3e6321a51fa7f6f15f",
       "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
       "publication_refresh_history": [
         {
           "previous_included_sha256": "0769fdfb9237e198b634094b03b52e6a325cadf9dac1353af1d18f0e2a6e1eea",
           "current_included_sha256": "a37c8dc65d67e159b0113b6322b9c0f40b4b15dad532f9981796145fe14296d0"
+        },
+        {
+          "previous_included_sha256": "a37c8dc65d67e159b0113b6322b9c0f40b4b15dad532f9981796145fe14296d0",
+          "current_included_sha256": "74ce2f50ddafb8745a8213e990dffbb0514f643dc81c1a3e6321a51fa7f6f15f",
+          "date": "2026-10-28"
         }
       ]
     },
@@ -1017,15 +1027,21 @@
     },
     {
       "path": "papers/rank-six/rank-six-preprint-source.tar.gz",
-      "included_bytes": 3253300,
-      "included_sha256": "447b621aa0024d1f2276cbbc4b7fe786f99b63e41c6711d72e2968486988aa54",
+      "included_bytes": 3253876,
+      "included_sha256": "e5fedcaf2fe089c711d138f4ddd8378ef53e564dd1b433de0e748917d4c6cb1f",
       "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
       "publication_refresh_history": [
         {
           "previous_included_sha256": "6be46eae4b5578e4f834147498ccbc73f4835d0d168ae7a9f72c22abb7104d45",
           "current_included_sha256": "447b621aa0024d1f2276cbbc4b7fe786f99b63e41c6711d72e2968486988aa54"
+        },
+        {
+          "previous_included_sha256": "447b621aa0024d1f2276cbbc4b7fe786f99b63e41c6711d72e2968486988aa54",
+          "current_included_sha256": "e5fedcaf2fe089c711d138f4ddd8378ef53e564dd1b433de0e748917d4c6cb1f",
+          "date": "2026-10-28"
         }
-      ]
+      ],
+      "publication_update_note": "Repacked with anc/small_rank_six/verify.py updated to the c7-c9 margin gate; every other member, the TeX and the PDF are byte-identical."
     },
     {
       "path": "papers/rank-six/rank-six.pdf",
@@ -15384,8 +15400,8 @@
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "sha256": "1f895a27276d5acb4d88a2c373a94f47ffa4723716fec40c2f55e8ae3036499b"
       },
-      "included_bytes": 166472,
-      "included_sha256": "4b82f133bc55e9b436e028b0451141d6cd7bd3310621e665c182cce8300708e8",
+      "included_bytes": 226945,
+      "included_sha256": "cb4c7add50ccbd6e0d1f41995deb2d79ebe34fd649931a90f640da5a980410a8",
       "path": "tooling/SOURCE-UPDATE.json",
       "pre_licensing_included_sha256": "0617793a3cc1b4123e2a7c8795df40ea753c612e35ac8f955510dceb5e660b5b",
       "previous_included_sha256": "86f2f85c35b098751ff977c479d199e9298bf898c864378fba54b90d1ac2386d",
@@ -15417,6 +15433,11 @@
           "previous_included_sha256": "c30cfde2a5ba3aa855bcfe957399a6aa99fcfadc745a554fa2feb78eecfd50a3",
           "current_included_sha256": "4b82f133bc55e9b436e028b0451141d6cd7bd3310621e665c182cce8300708e8",
           "round": "R2"
+        },
+        {
+          "previous_included_sha256": "4b82f133bc55e9b436e028b0451141d6cd7bd3310621e665c182cce8300708e8",
+          "current_included_sha256": "cb4c7add50ccbd6e0d1f41995deb2d79ebe34fd649931a90f640da5a980410a8",
+          "date": "2026-10-28"
         }
       ]
     },
@@ -17196,14 +17217,21 @@
     },
     {
       "path": "tooling/whole_rank_six/README.md",
-      "included_bytes": 8260,
-      "included_sha256": "89edf2dae73dcfa35588f5b64759469db3ca53d6124a0cd2cb5985093c7da02b",
-      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+      "included_bytes": 9014,
+      "included_sha256": "45a0c0e8f752c7d753ee8372b315e4b3ee12f1a102dca6c1c7f281a0ff9f5836",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "89edf2dae73dcfa35588f5b64759469db3ca53d6124a0cd2cb5985093c7da02b",
+          "current_included_sha256": "45a0c0e8f752c7d753ee8372b315e4b3ee12f1a102dca6c1c7f281a0ff9f5836",
+          "date": "2026-10-28"
+        }
+      ]
     },
     {
       "path": "tooling/whole_rank_six/SOURCE-MAP.json",
-      "included_bytes": 22801,
-      "included_sha256": "b0b936ba446c8b124da0440d0b83730de40b0ae580f5ab9da60478eddd2e4b95",
+      "included_bytes": 79432,
+      "included_sha256": "a2968d1548aff844adb6c1b9da4f25be6518b56a80efbf4cdf75badbe272d2bb",
       "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
       "publication_refresh_history": [
         {
@@ -17213,18 +17241,28 @@
         {
           "previous_included_sha256": "d7c84cec6e396277f26af770e8b384774111e4a09788c9a2fa66ec059d3ef33e",
           "current_included_sha256": "b0b936ba446c8b124da0440d0b83730de40b0ae580f5ab9da60478eddd2e4b95"
+        },
+        {
+          "previous_included_sha256": "b0b936ba446c8b124da0440d0b83730de40b0ae580f5ab9da60478eddd2e4b95",
+          "current_included_sha256": "a2968d1548aff844adb6c1b9da4f25be6518b56a80efbf4cdf75badbe272d2bb",
+          "date": "2026-10-28"
         }
       ]
     },
     {
       "path": "tooling/whole_rank_six/VERIFICATION.json",
-      "included_bytes": 10814,
-      "included_sha256": "32aeda6ff787ae6fc7caeaf5b64cd94f9f19e9d9f21e4272cf1d3d34d22587b8",
+      "included_bytes": 12330,
+      "included_sha256": "ae611bdf0ba268c5403374e536fadfdb7eb970d2fb77af798e623183a0bc2de1",
       "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
       "publication_refresh_history": [
         {
           "previous_included_sha256": "13e0bc300361d660099f5f2f023122c449892dad6732a4c4b393550b736606d5",
           "current_included_sha256": "32aeda6ff787ae6fc7caeaf5b64cd94f9f19e9d9f21e4272cf1d3d34d22587b8"
+        },
+        {
+          "previous_included_sha256": "32aeda6ff787ae6fc7caeaf5b64cd94f9f19e9d9f21e4272cf1d3d34d22587b8",
+          "current_included_sha256": "ae611bdf0ba268c5403374e536fadfdb7eb970d2fb77af798e623183a0bc2de1",
+          "date": "2026-10-28"
         }
       ]
     },
@@ -17345,13 +17383,18 @@
     },
     {
       "path": "tooling/whole_rank_six/lower/README.md",
-      "included_bytes": 5846,
-      "included_sha256": "3854e2e604b87801da82ab4987b29dc21ab7f7e64b62ccc2e667739ad77f1c6c",
+      "included_bytes": 7705,
+      "included_sha256": "baf9e570521ef0e21c05addedfa3af1b236156d19cdedb956d92fc9049acc2de",
       "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
       "publication_refresh_history": [
         {
           "previous_included_sha256": "958e0e84bf01ddd20fd1c5fd4ba9b98ed882db5c327a80929a62aace25f29afd",
           "current_included_sha256": "3854e2e604b87801da82ab4987b29dc21ab7f7e64b62ccc2e667739ad77f1c6c"
+        },
+        {
+          "previous_included_sha256": "3854e2e604b87801da82ab4987b29dc21ab7f7e64b62ccc2e667739ad77f1c6c",
+          "current_included_sha256": "baf9e570521ef0e21c05addedfa3af1b236156d19cdedb956d92fc9049acc2de",
+          "date": "2026-10-28"
         }
       ]
     },
@@ -17360,6 +17403,647 @@
       "included_bytes": 3205,
       "included_sha256": "9f97f1caf5d7303e7a3f881900ab84f3aa5c26b7760f3727354a5c4c94828db6",
       "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/GLOBAL-C2-CERTIFICATE.json",
+      "included_bytes": 104050,
+      "included_sha256": "019b6f49721236876975db63c27441e465ee622fc5cc2f899b96130acf3e6ccb",
+      "provenance": "Byte copy of stretched-lr-research methods/astra017-2026-09-17/GLOBAL-C2-CERTIFICATE.json at commit 58d00ef34af13b05d241bc0b44ad0e665d0a00d5; no transformation.",
+      "source_commit": "58d00ef34af13b05d241bc0b44ad0e665d0a00d5",
+      "source_path": "methods/astra017-2026-09-17/GLOBAL-C2-CERTIFICATE.json",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "019b6f49721236876975db63c27441e465ee622fc5cc2f899b96130acf3e6ccb",
+      "transformation": "none"
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-00000000-00100000-001.json",
+      "included_bytes": 453,
+      "included_sha256": "ea3e3f7e765568cddd14565214a8027c8e7749351055261469499e751d10058e",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-00000000-00100000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-00100000-00200000-001.json",
+      "included_bytes": 504,
+      "included_sha256": "20cf978e0d2f5f278595318ddb1ee28417c5217c9ec44db658556ca629700012",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-00100000-00200000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-00200000-00300000-001.json",
+      "included_bytes": 448,
+      "included_sha256": "9eee65ff35e2eae38f277c5d9373fb91b56839ec62afbc758e11332a614b6e41",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-00200000-00300000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-00300000-00400000-001.json",
+      "included_bytes": 478,
+      "included_sha256": "81c4d4913864bcc3d1f564cee116519a531e507e8e2c184c5f8c031ddd25250c",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-00300000-00400000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-00400000-00500000-001.json",
+      "included_bytes": 466,
+      "included_sha256": "6610343169242748e5d7c44d49c7ed4e20faa64139e008acc7581bf3b3e8aa53",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-00400000-00500000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-00500000-00600000-001.json",
+      "included_bytes": 446,
+      "included_sha256": "0a4bdf8da49253c01aa6ae943450562ce4d2b4eef8bd8ef73d2f2746d32706bd",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-00500000-00600000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-00600000-00700000-001.json",
+      "included_bytes": 465,
+      "included_sha256": "3cee2a9facc1f0f26490fcc9822195b3902cdf3aa02e3d6b030d637bacdc3d0c",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-00600000-00700000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-00700000-00800000-001.json",
+      "included_bytes": 443,
+      "included_sha256": "ea11afa3ad5c2328024789282f779ac7d4e34e7c5c9eba94b115ac5a8b3cbe9c",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-00700000-00800000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-00800000-00900000-001.json",
+      "included_bytes": 438,
+      "included_sha256": "6547da5a726cdd58e10aaf30c00e0d2097770ec7c0dc438baebb4813fb401d22",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-00800000-00900000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-00900000-01000000-001.json",
+      "included_bytes": 435,
+      "included_sha256": "76069d294ce361a2b839fbb945756e7db33c7ddd6d50f28515901cde7851c9de",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-00900000-01000000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-01000000-01100000-001.json",
+      "included_bytes": 442,
+      "included_sha256": "5f263d4819dd6c6db05b6215b6dfb3fb87ccca0a04aede94a59d1fe59f5374a7",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-01000000-01100000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-01100000-01200000-001.json",
+      "included_bytes": 468,
+      "included_sha256": "a09c6e7f770f846d2f4dfdcea0aeda68df2ca3219ec3c8ad02b71052d8d8e1ac",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-01100000-01200000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-01200000-01300000-001.json",
+      "included_bytes": 427,
+      "included_sha256": "007e719d3ed686019d4d4925f0c5b6b2edf07bb40ab30ac3d719be6e5d79c7a6",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-01200000-01300000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-01300000-01400000-001.json",
+      "included_bytes": 449,
+      "included_sha256": "53088d4fc360502ff621168c4c478e4172ea79795be9723cc316da2aeb199efd",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-01300000-01400000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-01400000-01500000-001.json",
+      "included_bytes": 432,
+      "included_sha256": "8cdc669799873d57750cdad3cbc8d9a17f2a92c89c8d9c24b80052a8eae8a1b5",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-01400000-01500000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-01500000-01600000-001.json",
+      "included_bytes": 436,
+      "included_sha256": "242bccc89b52e3411de91fa9d124373335b04a9b7c9c80d3bf8c1f29ef9287af",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-01500000-01600000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-01600000-01700000-001.json",
+      "included_bytes": 446,
+      "included_sha256": "c19dc49cc8d8dab185f8dd097c5fdb7307a33ef9afa70be47da082a14eba051c",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-01600000-01700000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-01700000-01800000-001.json",
+      "included_bytes": 442,
+      "included_sha256": "8a600f28972429c348d059f59dc7bc942daf154aa08d04fda8bd68e636a57b22",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-01700000-01800000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-01800000-01900000-001.json",
+      "included_bytes": 427,
+      "included_sha256": "e8d9b22c136d936667a04d4a6e8931924c6384701c4ebecae6e07f9711d128df",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-01800000-01900000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-01900000-02000000-001.json",
+      "included_bytes": 470,
+      "included_sha256": "002680551572e2967b415d81425d47fe77a3ed8de144807a5391df6491cbd626",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-01900000-02000000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-02000000-02100000-001.json",
+      "included_bytes": 430,
+      "included_sha256": "d622f66f1b5315415b2f27ccb2c581aa956c36bdb8e719041918515d7da804c3",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-02000000-02100000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-02100000-02200000-001.json",
+      "included_bytes": 452,
+      "included_sha256": "06537adfe6f58096265c2969c0a0f6ec6c91827bca4767f76e9ebc3e0d115b0e",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-02100000-02200000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-02200000-02300000-001.json",
+      "included_bytes": 454,
+      "included_sha256": "2da901fbabb7b712ae620ed2513d4f15b6dfbe387e0bf4129764e45dbf77311a",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-02200000-02300000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-02300000-02400000-001.json",
+      "included_bytes": 476,
+      "included_sha256": "152db76238ebb5597159adfa62f889fa453a832c55c4b226cc842c3df53cb784",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-02300000-02400000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-02400000-02500000-001.json",
+      "included_bytes": 432,
+      "included_sha256": "bd41ad77cac3cbe29fa36270a1fb7d24081f254f0d2850f9a21c21899f2550f0",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-02400000-02500000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-02500000-02600000-001.json",
+      "included_bytes": 466,
+      "included_sha256": "91477855d4e1e9174f91b877d550d24371967ec80df06ccc1e2820fa07ab4a86",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-02500000-02600000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-02600000-02700000-001.json",
+      "included_bytes": 470,
+      "included_sha256": "e7d289bc233d35fa012f9955b349aaca5a8443be8d4c7f28722b986b43f86d3c",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-02600000-02700000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-02700000-02800000-001.json",
+      "included_bytes": 439,
+      "included_sha256": "cf290a2934131beb1a0ea708cc39702490b64cc9a74f0c92d4f25af082fd83cd",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-02700000-02800000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-02800000-02900000-001.json",
+      "included_bytes": 433,
+      "included_sha256": "13adaafa58bd40d5ddcd8d98d5efce1058c9f1746901a7b65d88e42a12c3f176",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-02800000-02900000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-02900000-03000000-001.json",
+      "included_bytes": 433,
+      "included_sha256": "807e55d952b9ddc728688dde521b34021915b4298f753159b9c6a310de4a9d02",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-02900000-03000000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-03000000-03100000-001.json",
+      "included_bytes": 443,
+      "included_sha256": "26788febd84fd0af97ad6607a7a848df19af62a9ca5c6529508d80b016239706",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-03000000-03100000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-03100000-03200000-001.json",
+      "included_bytes": 444,
+      "included_sha256": "b3e54eba8d974040dde4fe038017e6e783ec7ccb0fd5b485c626878d27dcb62d",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-03100000-03200000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-03200000-03300000-001.json",
+      "included_bytes": 445,
+      "included_sha256": "87e268b5dbaeb86f3398c8828508c6cdcd9146935caee1f760a294d0332e5864",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-03200000-03300000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-03300000-03400000-001.json",
+      "included_bytes": 466,
+      "included_sha256": "ba7548fd39fc918b8c2bba26444d6775af85906b4b755a761c3b03857f44f7d6",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-03300000-03400000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-03400000-03500000-001.json",
+      "included_bytes": 456,
+      "included_sha256": "e071f3fad0deca222e83ab891b30ea4a70465af994be154ee267a88bfd771e2e",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-03400000-03500000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-03500000-03600000-001.json",
+      "included_bytes": 456,
+      "included_sha256": "d5da24bc567f0a160e9a0abf8bf99934df9d1e1baded21e03455f3273e8fa24a",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-03500000-03600000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-03600000-03700000-001.json",
+      "included_bytes": 463,
+      "included_sha256": "70074cfbbf6d4923f0af235d6fb2985c8149310a4a42829672b616e1067832f2",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-03600000-03700000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-03700000-03800000-001.json",
+      "included_bytes": 456,
+      "included_sha256": "8f270fb79ac3dc7145a16af8649ed914e00d676aaaf9e174698a9f87885691f9",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-03700000-03800000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-03800000-03900000-001.json",
+      "included_bytes": 462,
+      "included_sha256": "40a687ea6bfefa989b2f7869e0ab773d6e3278d9a770955da3d132e554cab868",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-03800000-03900000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-03900000-04000000-001.json",
+      "included_bytes": 453,
+      "included_sha256": "0d769e928fb190b8e34441c70b47908899a3ed7f00979e71f82962f7bdb5e886",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-03900000-04000000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-04000000-04100000-001.json",
+      "included_bytes": 466,
+      "included_sha256": "abb0c66cd089b2ed8522a4f0c9df9a58ae3390e5f45eec27ade2294667f3a4e8",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-04000000-04100000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-04100000-04200000-001.json",
+      "included_bytes": 445,
+      "included_sha256": "83fb3d901060297038f8b6c4297cc4305ddfb4eb94d2734daaeb8bb9925364ad",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-04100000-04200000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-04200000-04300000-001.json",
+      "included_bytes": 454,
+      "included_sha256": "2a76f120c7490d670e1969b7fdae8dce45258f0432c58cdd85a240a01141e3bc",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-04200000-04300000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-04300000-04400000-001.json",
+      "included_bytes": 446,
+      "included_sha256": "56d38a6feb1031dcdb34a4bad82b14b57f592224af802bbe923255fbcc076faa",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-04300000-04400000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-04400000-04500000-001.json",
+      "included_bytes": 464,
+      "included_sha256": "0f618dbacd76e3a6b9dd0b48a6e48502e000bd54d46652b7212b7cc0ce0415c2",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-04400000-04500000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-04500000-04600000-001.json",
+      "included_bytes": 452,
+      "included_sha256": "c7dea6ee6fe69d523c7e2bb150e35dab5c4fc82e63f1a13d56a6029f56af7ad6",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-04500000-04600000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-04600000-04700000-001.json",
+      "included_bytes": 496,
+      "included_sha256": "e052cfbe058a46055f0496ecf84c592fe60b72017f9cb0ab1d68b2e5fff41e2d",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-04600000-04700000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-04700000-04800000-001.json",
+      "included_bytes": 464,
+      "included_sha256": "d3d6381a70fc765ee1a219662f23e5bcc9d647e855424ea2977a848ed1b54f40",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-04700000-04800000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-04800000-04900000-001.json",
+      "included_bytes": 486,
+      "included_sha256": "d42aa807069f23e6165ce60c279ed0497c14a457561fb9b0087dda7ea7b19f51",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-04800000-04900000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-04900000-05000000-001.json",
+      "included_bytes": 474,
+      "included_sha256": "562a385c76151be7992eb92906c91391f260eff97cc481be63cc6acfb55c9c0b",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-04900000-05000000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-05000000-05100000-001.json",
+      "included_bytes": 486,
+      "included_sha256": "c4273e1a8d8546580b97a63bccb6266621f7d8674d3262583a8b356e762aed45",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-05000000-05100000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-05100000-05200000-001.json",
+      "included_bytes": 490,
+      "included_sha256": "421d849c9527b34c50661f9b9705abcc6ef7f2cedc01d2ab5a2168bc298d8ff6",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-05100000-05200000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-05200000-05300000-001.json",
+      "included_bytes": 498,
+      "included_sha256": "ff98685bf4632cd5d80a6ecc91403a2ff1eba68183728414e0ac5417bba5b8ed",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-05200000-05300000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-05300000-05400000-001.json",
+      "included_bytes": 464,
+      "included_sha256": "417c63338de8d4740b1a14d9ba642ae2849460e0859df79a938cb7cb87d5a626",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-05300000-05400000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-05400000-05500000-001.json",
+      "included_bytes": 480,
+      "included_sha256": "160996055ef1b343d022e425355082f1af1e44c3ddf35383764674e8fdb4e0f9",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-05400000-05500000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-05500000-05600000-001.json",
+      "included_bytes": 452,
+      "included_sha256": "4825b2f61147956c49e324fa9e0b06aa100cefda6d203d90dbce90f9ea8959aa",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-05500000-05600000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-05600000-05700000-001.json",
+      "included_bytes": 452,
+      "included_sha256": "74663c24b0ecbb1cfa644177efbd7ffc01a32eca479aa9dd1ce9370ef2482306",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-05600000-05700000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-05700000-05800000-001.json",
+      "included_bytes": 460,
+      "included_sha256": "6e3e6a765664ef3257a280e502d6cd5701bbca779547be26f66795a06896403d",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-05700000-05800000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-05800000-05900000-001.json",
+      "included_bytes": 498,
+      "included_sha256": "39deb29c6da5967c8005c5b09c919b7136ea2b502ed10ed04cc17e7a4f8b8450",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-05800000-05900000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-05900000-06000000-001.json",
+      "included_bytes": 478,
+      "included_sha256": "4d1d6b3d331902dccf75bbd9990481581231f2f743493bd93a84655f0aed98c4",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-05900000-06000000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-06000000-06100000-001.json",
+      "included_bytes": 477,
+      "included_sha256": "6a2f5cb58c0478ec96f48a84954f2568c3ef3c9b0bb596f0b77a19b2ddde7858",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-06000000-06100000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-06100000-06200000-001.json",
+      "included_bytes": 445,
+      "included_sha256": "ccb5222c356a43adc772d5c794af68fe5bc7901db5822ca0c3e42be03fe7e54d",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-06100000-06200000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-06200000-06300000-001.json",
+      "included_bytes": 455,
+      "included_sha256": "983623e6192285818028e60fa5779e1249032ce6daa415f977669911604fdda5",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-06200000-06300000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-06300000-06400000-001.json",
+      "included_bytes": 493,
+      "included_sha256": "1d79a18a827fce8db1f103b89d00349b976c3d95024025cc1037707e6edca774",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-06300000-06400000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-06400000-06500000-001.json",
+      "included_bytes": 463,
+      "included_sha256": "7b1e62a3a18075f3315b37c2d5b022b6eb73054ce9c6a73133aee4781ba2da80",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-06400000-06500000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-06500000-06600000-001.json",
+      "included_bytes": 447,
+      "included_sha256": "2d10decf74a859e1b446c875ccba400d15f65364a88a3192cd51bc7a9c3667c9",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-06500000-06600000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-06600000-06700000-001.json",
+      "included_bytes": 471,
+      "included_sha256": "5fe052d444178e720fb2dc4bce136cfcdef14400d70b1b41113b1fdf93e1e4a9",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-06600000-06700000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-06700000-06800000-001.json",
+      "included_bytes": 478,
+      "included_sha256": "4a6af4c7b74f439d3ffdd91f107c91cc298ae995b833e4bc94506bf782f5b8e9",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-06700000-06800000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-06800000-06900000-001.json",
+      "included_bytes": 478,
+      "included_sha256": "edf9f2791d630531d0d22021d6973eafa7337a7c36e0017041a60984ed8af83e",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-06800000-06900000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-06900000-07000000-001.json",
+      "included_bytes": 480,
+      "included_sha256": "468c3b067269deeb4d9fb4023c394e296202064731011054fb5f75e5efea274f",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-06900000-07000000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-07000000-07100000-001.json",
+      "included_bytes": 482,
+      "included_sha256": "a255cc414655c0b0b78be5800c9a3a305f10314d460e4ad1077e544f75917a8f",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-07000000-07100000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-07100000-07200000-001.json",
+      "included_bytes": 488,
+      "included_sha256": "489a5d236f84068752a29feb1cf545cdb75c65eb3f00a95b8eb306cb7c12af9d",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-07100000-07200000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-07200000-07300000-001.json",
+      "included_bytes": 480,
+      "included_sha256": "be529b5450216aee267cd21d13042aee39908a2d8f18d950e70fc31f31f83bab",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-07200000-07300000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-07300000-07400000-001.json",
+      "included_bytes": 518,
+      "included_sha256": "93210cb1e5be82201634f2bc4567b063a3e67407a265c969a09342d745060984",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-07300000-07400000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-07400000-07500000-001.json",
+      "included_bytes": 475,
+      "included_sha256": "1ca0e272fd3c532b65e203dba80b26bd2dcb9c8fdd41a1fb4d171a265cc71e95",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-07400000-07500000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-07500000-07600000-001.json",
+      "included_bytes": 520,
+      "included_sha256": "85c58bf41a1c13dce6edfbafb0575029b1da2026463b01df806831222abc1eab",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-07500000-07600000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-07600000-07700000-001.json",
+      "included_bytes": 486,
+      "included_sha256": "4191f319aaa024513745e52bc143468dffe4be38604798a119d58564e969cc1a",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-07600000-07700000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-07700000-07800000-001.json",
+      "included_bytes": 466,
+      "included_sha256": "507ed10817145d5965cef19dc7d41ae137bc8b55d5cedd89cfa7e852e084552d",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-07700000-07800000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-07800000-07900000-001.json",
+      "included_bytes": 494,
+      "included_sha256": "a8b0bd9be34a9d0898064d315d426202d685768ab7ae53c63a5c170d7ad24bec",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-07800000-07900000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-07900000-08000000-001.json",
+      "included_bytes": 510,
+      "included_sha256": "ef800eebbc6561a557999f221a2ed7af0b9e587cadc291f3f6986c378e17d3ac",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-07900000-08000000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-08000000-08100000-001.json",
+      "included_bytes": 481,
+      "included_sha256": "1f5ade709f2a6678aef76f201a7056a4cfad8dc6afaa01e03228ba96b86a74ac",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-08000000-08100000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-08100000-08200000-001.json",
+      "included_bytes": 528,
+      "included_sha256": "91ee8358abe3606a54191f63083ceeeaeb0ea417b0f31557816841ae19056dc9",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-08100000-08200000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-08200000-08300000-001.json",
+      "included_bytes": 514,
+      "included_sha256": "d8c29dfb3547ff2ca64a5f9b131f777d2fc76d8015637bc66ea356fa62713094",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-08200000-08300000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-08300000-08400000-001.json",
+      "included_bytes": 511,
+      "included_sha256": "5dcbff5cdd0946ede511d99a88f90d576711e670fabb104cc6a8d0b657e361c9",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-08300000-08400000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-08400000-08500000-001.json",
+      "included_bytes": 470,
+      "included_sha256": "bc3f6478f70187101a2288083bebc92f67a0b91509468e70255bfda652a80213",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-08400000-08500000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-08500000-08600000-001.json",
+      "included_bytes": 512,
+      "included_sha256": "05c22208a52709c64c7b1ba59763d9ed9a2f76e45f2326e1072a9150ae069fab",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-08500000-08600000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-08600000-08700000-001.json",
+      "included_bytes": 477,
+      "included_sha256": "641f15fa8d493aba61f1693a1a3c79afdbe00ac7415f68c4e87d33032a6b05d3",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-08600000-08700000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-08700000-08800000-001.json",
+      "included_bytes": 447,
+      "included_sha256": "b4553885ea456b8b00fa20af5d3482a4c0d676ece1fa7fd2e9567791314871d4",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-08700000-08800000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-08800000-08900000-001.json",
+      "included_bytes": 444,
+      "included_sha256": "46296e4188a295022b352d5fd937232e6fbad3d064f26dd33444fabcfc8a837a",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-08800000-08900000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-08900000-09000000-001.json",
+      "included_bytes": 458,
+      "included_sha256": "2122b24d95e49ff43215cf04509826633891c1581581518ecf2b9751d36ad6cd",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-08900000-09000000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-09000000-09100000-001.json",
+      "included_bytes": 446,
+      "included_sha256": "f97cac3a05aa353edcc18e04698569ff66de3ebfa8ef294bff4567a9e54a1043",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-09000000-09100000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-09100000-09200000-001.json",
+      "included_bytes": 444,
+      "included_sha256": "d9e3a558bee3693e98f531f25b508d0fb1629cc83e5f6f6b29d6094e457301b4",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-09100000-09200000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-09200000-09300000-001.json",
+      "included_bytes": 442,
+      "included_sha256": "36c2ec0ea3cf3edf1e9f4d0ccb4eeaaf9d48f270b5475efe90e70e77b00c3e42",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-09200000-09300000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-09300000-09400000-001.json",
+      "included_bytes": 478,
+      "included_sha256": "718f06d1dc92e49e85c8738cfb2c91b15985e887806f262941392fe1d9ac3532",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-09300000-09400000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-09400000-09500000-001.json",
+      "included_bytes": 465,
+      "included_sha256": "59451d83223fd1df1045f366608257898c6072f4b37275d69d7a59ce2cbf43d3",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-09400000-09500000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-09500000-09600000-001.json",
+      "included_bytes": 457,
+      "included_sha256": "611aeaf8810796ddd6a3cd5df97b4727770438e155596955314dd7d22d4b07a4",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-09500000-09600000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-09600000-09700000-001.json",
+      "included_bytes": 434,
+      "included_sha256": "9a562bdd1374b1fe762f6909adb4110be6959d29bdc4f12d70e703f1aede3a6e",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-09600000-09700000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-09700000-09800000-001.json",
+      "included_bytes": 460,
+      "included_sha256": "3aee2433bb7c13b549edcd8791d76085f744ea73aabf3520eaaa2200be28fa5c",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-09700000-09800000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-09800000-09900000-001.json",
+      "included_bytes": 486,
+      "included_sha256": "28c62d2781b5aaa7bc6f8e46c8b1cd36c33cb0ca915136e61fa566b0ad64f6a0",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-09800000-09900000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-09900000-10000000-001.json",
+      "included_bytes": 489,
+      "included_sha256": "40411659c7346e20304e1d810c0952b3e0747ea453e303e2009fe60f48df6b4a",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-09900000-10000000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-10000000-10100000-001.json",
+      "included_bytes": 462,
+      "included_sha256": "9be113706afea3c7467ad89eda5fafe98a77eaca1c7a5a290639a7c55a543a9f",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-10000000-10100000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-10100000-10200000-001.json",
+      "included_bytes": 458,
+      "included_sha256": "d295356bed35fd52f421a6bf52d7063ae3e5c88f2803f266884a70c726ff968b",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-10100000-10200000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-10200000-10300000-001.json",
+      "included_bytes": 468,
+      "included_sha256": "5f598ae8e4dc33acdd63edba73f5949d16e622d408cfad3a2978de46e710170b",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-10200000-10300000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-10300000-10400000-001.json",
+      "included_bytes": 483,
+      "included_sha256": "23754c5949ecd5f2c14a0512f6462bc508f0ad0cf99d921718f01dd2541dc055",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-10300000-10400000-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/c2-certificate/ranges/full-field-polish30-10400000-10480218-001.json",
+      "included_bytes": 481,
+      "included_sha256": "e77126a4bd4823055da0d2916676325c32e9f94601c00b2081e86414406f98a3",
+      "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-10400000-10480218-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
     },
     {
       "path": "tooling/whole_rank_six/lower/controls.py",
@@ -17375,14 +18059,19 @@
     },
     {
       "path": "tooling/whole_rank_six/lower/replay.py",
-      "included_bytes": 32115,
-      "included_sha256": "27ccd765a631c508ecda84be2729c3613546cbdc9b9ee86dc21722b4d079c76b",
+      "included_bytes": 38710,
+      "included_sha256": "96646f06b78ca248904615a53d08ba74014c0f777d504f62f3c3b5e8a3ac4e76",
       "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
-      "publication_update_note": "Bound successful H8 row bytes and source/input identity at production, and validate exact row identities/counts before continuation; unbound legacy output is refused. Mathematical engines and input assets are unchanged.",
+      "publication_update_note": "Added the exact c2 margin gate: c2-field folds every range result's minimum_beta in exact rationals and refuses unless the minimum is at least 1/200000000, recording exact_minimum_beta and theorem_epsilon; added --recheck-c2-receipts and --check-c2-certificate. Field checker sources and input assets are unchanged. Previous update: Bound successful H8 row bytes and source/input identity at production, and validate exact row identities/counts before continuation; unbound legacy output is refused. Mathematical engines and input assets are unchanged.",
       "publication_refresh_history": [
         {
           "previous_included_sha256": "a901ed3e7acc37269087ded45aec282cc830e7a280c7c70ade5c5212fb6a4d13",
           "current_included_sha256": "27ccd765a631c508ecda84be2729c3613546cbdc9b9ee86dc21722b4d079c76b"
+        },
+        {
+          "previous_included_sha256": "27ccd765a631c508ecda84be2729c3613546cbdc9b9ee86dc21722b4d079c76b",
+          "current_included_sha256": "96646f06b78ca248904615a53d08ba74014c0f777d504f62f3c3b5e8a3ac4e76",
+          "date": "2026-10-28"
         }
       ]
     },
@@ -17464,6 +18153,12 @@
           "current_included_sha256": "8fb3e61e289210fd2228aef92ef3aa6a8914bb346a533036f37e7643cc626537"
         }
       ]
+    },
+    {
+      "path": "tooling/whole_rank_six/lower/tests/test_c2_margin.py",
+      "included_bytes": 10062,
+      "included_sha256": "72759ae4bd2d02a82ff02e94355d7f2fd667b8e81da0ba71a3ea6a503edb7d8b",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
     },
     {
       "path": "tooling/whole_rank_six/restore.py",
@@ -17660,6 +18355,12 @@
       "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
     },
     {
+      "path": "tooling/whole_rank_six/test_small_margins.py",
+      "included_bytes": 4651,
+      "included_sha256": "b77e3e2ea4b8f620b20fe62cc5c13a6264e7378e5aeb139f13a4f22e25505a14",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+    },
+    {
       "path": "tooling/whole_rank_six/top/forward.cpp",
       "included_bytes": 1390,
       "included_sha256": "03033e84c451b998ff8f598a68e42c0e6d1d160dd9c8940e687912f64375a93a",
@@ -17679,9 +18380,17 @@
     },
     {
       "path": "tooling/whole_rank_six/verify.py",
-      "included_bytes": 4660,
-      "included_sha256": "88df1ea02cf4dc798acad8978df136ecef452e5d1d065dc56c235172adff8e52",
-      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+      "included_bytes": 6182,
+      "included_sha256": "ad7f53aff9b7cbef192313462a407cc70d39b0ad509e5353617ffccb34b98c0f",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "88df1ea02cf4dc798acad8978df136ecef452e5d1d065dc56c235172adff8e52",
+          "current_included_sha256": "ad7f53aff9b7cbef192313462a407cc70d39b0ad509e5353617ffccb34b98c0f",
+          "date": "2026-10-28"
+        }
+      ],
+      "publication_update_note": "Added the exact c7-c9 margin gate: the small driver requires the c7, c8 and c9 minima to be at least 1/144, 1/9 and 1/2 and records them. Component checkers and data are unchanged."
     },
     {
       "path": "verification/check_recent_sources.py",
@@ -17803,9 +18512,9 @@
       ]
     },
     "tooling": {
-      "bytes": 166472,
+      "bytes": 226945,
       "path": "tooling/SOURCE-UPDATE.json",
-      "sha256": "4b82f133bc55e9b436e028b0451141d6cd7bd3310621e665c182cce8300708e8",
+      "sha256": "cb4c7add50ccbd6e0d1f41995deb2d79ebe34fd649931a90f640da5a980410a8",
       "publication_refresh_history": [
         {
           "previous_included_sha256": "ae4b49a6ebcdbcea8d43041adfdb9d1371fb956bc8d68a4ec57b804415ff088a",
@@ -17832,6 +18541,11 @@
           "previous_included_sha256": "c30cfde2a5ba3aa855bcfe957399a6aa99fcfadc745a554fa2feb78eecfd50a3",
           "current_included_sha256": "4b82f133bc55e9b436e028b0451141d6cd7bd3310621e665c182cce8300708e8",
           "round": "R2"
+        },
+        {
+          "previous_included_sha256": "4b82f133bc55e9b436e028b0451141d6cd7bd3310621e665c182cce8300708e8",
+          "current_included_sha256": "cb4c7add50ccbd6e0d1f41995deb2d79ebe34fd649931a90f640da5a980410a8",
+          "date": "2026-10-28"
         }
       ]
     },
@@ -17865,7 +18579,7 @@
     "papers/rank-six": {
       "path": "papers/rank-six/SOURCE-MAP.json",
       "bytes": 2031,
-      "sha256": "a37c8dc65d67e159b0113b6322b9c0f40b4b15dad532f9981796145fe14296d0"
+      "sha256": "74ce2f50ddafb8745a8213e990dffbb0514f643dc81c1a3e6321a51fa7f6f15f"
     },
     "results/five-capacity": {
       "path": "results/five-capacity/SOURCE-MAP.json",
@@ -17940,8 +18654,8 @@
     },
     "tooling/whole_rank_six": {
       "path": "tooling/whole_rank_six/SOURCE-MAP.json",
-      "bytes": 22801,
-      "sha256": "b0b936ba446c8b124da0440d0b83730de40b0ae580f5ab9da60478eddd2e4b95"
+      "bytes": 79432,
+      "sha256": "a2968d1548aff844adb6c1b9da4f25be6518b56a80efbf4cdf75badbe272d2bb"
     },
     "tooling/whole_rank_six/lower": {
       "path": "tooling/whole_rank_six/lower/SOURCE-MAP.json",

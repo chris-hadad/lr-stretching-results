@@ -44,7 +44,10 @@ The supplied default is serial, and the program enforces its memory floor.
 The phases recheck different exact finite premises. `c3-core` checks q1–q7
 topology, the geometric operator and the declared c3 field rows.
 `c3-analytic` checks the complete 65-range analytic partition. `c2-field`
-checks original q8 field rows and saturated operator action. H8 checks the
+checks original q8 field rows and saturated operator action, then folds the
+exact minimum β of every range result and refuses unless the overall minimum
+is at least the theorem's c2 bound 1/200,000,000; its `COMPLETE.json` records
+`exact_minimum_beta` and `theorem_epsilon`. H8 checks the
 top-layer rows in level order; every level token depends on complete lower
 coverage. The final q8 phase regenerates and compares accepted scalar rows.
 The controls deliberately reject changed inputs, a zero field and malformed
@@ -76,6 +79,29 @@ source/asset is refused;
 remove or repair such output only after inspecting its exact identity. An
 incomplete run grants no full replay credit.
 
+The c2 field checker counts only rows with β below its threshold argument,
+which the wrapper sets to zero; the c2 bound is enforced by the exact fold
+above. To apply that fold to an existing `c2-field` phase without rerunning
+the sweep, use:
+
+```sh
+python3 -B replay.py --recheck-c2-receipts /path/to/new-run/c2-field
+python3 -B replay.py --check-c2-certificate
+```
+
+The first refolds that directory's 105 `*.result.json` range results. The
+second rechecks `c2-certificate/GLOBAL-C2-CERTIFICATE.json`, a byte copy of the
+campaign's global c2 certificate, from the 105 range results it binds by size
+and SHA-256 (copied under `c2-certificate/ranges/`). Both require complete
+contiguous coverage, zero violations and an exact minimum of at least
+1/200,000,000. The 105 c2 range results of each publication c2 field run,
+the complete isolated replay and the final public source export, refold to the
+same minimum 24825324385226107946765127095421513511423465909470146108411 /
+2827810858868907481115714320001048479611331101093378048000000000000
+(about 8.778990400778063e-9, or 1.7558 times the bound), in range
+[8100000, 8200000), equal to the certificate's. Those refolds
+read the recorded results; the exact sweep was not rerun with the margin gate.
+
 `tests/test_adapter.py` stages bounded refusal checks for a missing compiler,
 optimized Python, malformed or omitted analytic and operator ranges, H8 output
 binding and per-type row tampering, macOS memory parsing and TERM cleanup of a
@@ -83,12 +109,18 @@ synthetic child. Run them with:
 
 ```sh
 python3 -B -m unittest discover -s tests -p 'test_adapter.py'
+python3 -B -m unittest discover -s tests -p 'test_c2_margin.py'
 ```
+
+`tests/test_c2_margin.py` checks the c2 margin fold: a passing fold, a
+minimum below the bound, missing or malformed `minimum_beta` values, the
+phase record, the recheck commands and the shipped certificate.
 
 Those tests exercise adapter behavior, not the scientific certificate. The
 final public source export passed all seven adapter checks, complete c3 core,
 complete c2 field, small H8 levels, all six scientific controls and a diagnostic
-q8 shard. The complete c3 analytic/H8/q8 mathematical engines passed separate
+q8 shard. That c2 field run predates the margin gate; its margin rests on the
+refold of its recorded range results described above. The complete c3 analytic/H8/q8 mathematical engines passed separate
 full-domain replays on identical mathematical sources and input bytes. The
 final convenience wrapper's full long H8/q8 orchestration was not repeated.
 See the parent [verification record](../VERIFICATION.json) for these exact

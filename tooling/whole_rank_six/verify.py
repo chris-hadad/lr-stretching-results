@@ -1,19 +1,47 @@
 #!/usr/bin/env python3
 """Run the complete small rank-six certificate components in a fresh directory."""
 from __future__ import annotations
-import argparse,hashlib,importlib.util,json,os,signal,subprocess,sys,time
+import argparse,hashlib,importlib.util,json,os,re,signal,subprocess,sys,time
+from fractions import Fraction
 from pathlib import Path
 from runtime import run_owned
 
 HERE=Path(__file__).resolve().parent
 EXPECTED={f'{d}/{n}' for d in ('top','c6') for n in ('forward.cpp','verify.py','local_values.cpp')}
 EXPECTED|={f'c6/data/{n}.json.gz' for n in ('raw','incidence','field')}
+# Theorem epsilons for the zero-field q1-q3 supports: q normals give c(10-q).
+TOP_EPSILON={'c7':('3',Fraction(1,144)),'c8':('2',Fraction(1,9)),'c9':('1',Fraction(1,2))}
 
 def need(ok,message):
     if not ok:raise ValueError(message)
 
 def sha(path):
     with path.open('rb') as f:return hashlib.file_digest(f,'sha256').hexdigest()
+
+def top_margins(top):
+    """Require each exact c7-c9 minimum in the top receipt to be at least its theorem epsilon.
+
+    Args:
+        top: The top verifier's report, whose results are keyed by normal-subset size.
+
+    Returns:
+        For c7, c8 and c9, the exact minimum and theorem epsilon as strings.
+
+    Raises:
+        ValueError: A minimum is absent, not a canonical exact rational, or below its epsilon.
+    """
+    margins={}
+    for name,(q,epsilon) in TOP_EPSILON.items():
+        results=top.get('results') if type(top) is dict else None
+        text=results.get(q,{}).get('minimum') if type(results) is dict else None
+        need(type(text) is str,name+' small receipt has no exact minimum string')
+        need(re.fullmatch(r'-?[0-9]+(/[0-9]+)?',text) is not None,name+' minimum is not an exact rational: '+text[:80])
+        try:minimum=Fraction(text)
+        except ZeroDivisionError:raise ValueError(name+' minimum has a zero denominator') from None
+        need(str(minimum)==text,name+' minimum is not in lowest terms: '+text[:80])
+        need(minimum>=epsilon,name+' exact minimum '+text+' is below the theorem epsilon '+str(epsilon))
+        margins[name]={'exact_minimum':text,'theorem_epsilon':str(epsilon)}
+    return margins
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
@@ -41,7 +69,7 @@ def main():
                 env={**os.environ,'PYTHONDONTWRITEBYTECODE':'1','PYTHONOPTIMIZE':'','OMP_NUM_THREADS':'1','OPENBLAS_NUM_THREADS':'1'})
         record['label']=label;records.append(record)
         need(record['exit']==0,'component refused: '+label+'; see '+str(out/(label+'.stderr')))
-    status='FAILED';reason=None
+    status='FAILED';reason=None;margins=None
     try:
         spec=importlib.util.spec_from_file_location('rank_six_top',HERE/'top/verify.py')
         module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
@@ -60,6 +88,7 @@ def main():
             run('check-'+part,command)
         top=json.loads((out/'top.json').read_text());c6=json.loads((out/'c6.json').read_text())
         need(top['status']=='PASS_COMPLETE' and c6['status']=='PASS_COMPLETE_C6','incomplete component')
+        margins=top_margins(top)
         for rel,record in manifest['files'].items():need(sha(HERE/rel)==record['sha256'],'input changed during run')
         status='PASS_COMPLETE_SMALL_COMPONENTS'
     except BaseException as error:
@@ -68,7 +97,7 @@ def main():
     finally:
         result={'schema':'rank-six-small-replay-v1','status':status,'reason':reason,
                 'scope':'complete c6,c7,c8,c9 numerical certificates; c10 is the volume term',
-                'whole_rank_six_verified':False,'remaining_components':['c1','c2','c3','c4','c5'],
+                'whole_rank_six_verified':False,'remaining_components':['c1','c2','c3','c4','c5'],'margins':margins,
                 'seconds':time.monotonic()-started,'all_completed_command_groups_exited':all(r['owned_process_group_exited'] for r in records),'commands':records}
         (out/'RESULT.json').write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps({k:v for k,v in result.items() if k!='commands'}))

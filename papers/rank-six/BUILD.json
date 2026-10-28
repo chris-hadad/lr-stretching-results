@@ -9,8 +9,8 @@
   "compiler_warnings": 0,
   "pdf_sha256": "743058e010a91d52995b2f8b4d3e1c2cfc64d3791c4fc3ca8768130e0735c1ee",
   "pdf_bytes": 142934,
-  "source_archive_sha256": "447b621aa0024d1f2276cbbc4b7fe786f99b63e41c6711d72e2968486988aa54",
-  "source_archive_bytes": 3253300,
+  "source_archive_sha256": "e5fedcaf2fe089c711d138f4ddd8378ef53e564dd1b433de0e748917d4c6cb1f",
+  "source_archive_bytes": 3253876,
   "source_archive_members": {
     "anc/CLOSURE-CERTIFICATE.json": {
       "bytes": 254843,
@@ -85,8 +85,8 @@
       "sha256": "08fc7b6c4e620f834347aa15badbf57942ad0f736ed48f28d256b9b3ded55b42"
     },
     "anc/small_rank_six/verify.py": {
-      "bytes": 4660,
-      "sha256": "88df1ea02cf4dc798acad8978df136ecef452e5d1d065dc56c235172adff8e52"
+      "bytes": 6182,
+      "sha256": "ad7f53aff9b7cbef192313462a407cc70d39b0ad509e5353617ffccb34b98c0f"
     },
     "anc/test_constructive_hive_closure.py": {
       "bytes": 5337,
@@ -123,5 +123,23 @@
     "reason": "Early optimized-Python refusal in constructive test and robust shared child launch/cancellation; mathematical functions and TeX/PDF are unchanged.",
     "prior_archive_sha256": "6be46eae4b5578e4f834147498ccbc73f4835d0d168ae7a9f72c22abb7104d45",
     "all_ancillary_checks_repeated": true
-  }
+  },
+  "later_post_review_revisions": [
+    {
+      "date": "2026-10-28",
+      "changed_members": [
+        "anc/small_rank_six/verify.py"
+      ],
+      "reason": "The small-component driver now requires the exact c7, c8 and c9 minima to be at least the theorem bounds 1/144, 1/9 and 1/2 and records them; previously it required only positive local constants. The component checkers top/verify.py and c6/verify.py, all data, the TeX and the PDF are unchanged.",
+      "prior_archive_sha256": "447b621aa0024d1f2276cbbc4b7fe786f99b63e41c6711d72e2968486988aa54",
+      "prior_archive_bytes": 3253300,
+      "unchanged_members_byte_identical": true,
+      "archive_metadata": "Same member order, ustar headers, mode 0644, uid/gid 0, empty owner names, mtime 0, gzip level 9 with mtime 0; the prior archive was reproduced byte-for-byte by the same procedure",
+      "ancillary_checks_repeated": [
+        "complete c6-c9 finite premises (small_rank_six/verify.py small), PASS_COMPLETE_SMALL_COMPONENTS from the extracted repacked archive"
+      ],
+      "all_ancillary_checks_repeated": false,
+      "pdf_rebuilt": false
+    }
+  ]
 }

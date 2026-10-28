@@ -4,8 +4,8 @@
   "files": [
     {
       "path": "BUILD.json",
-      "bytes": 4925,
-      "sha256": "129220fc58c1429bd45f45db4b30ab518fad276ada9cf7646bddedc3918f058c",
+      "bytes": 6049,
+      "sha256": "5bb35ddcc49f68a55245d21fa3c5b301a06eaaefe65f4b4f2887a34ab7b9b684",
       "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
     },
     {
@@ -22,8 +22,8 @@
     },
     {
       "path": "rank-six-preprint-source.tar.gz",
-      "bytes": 3253300,
-      "sha256": "447b621aa0024d1f2276cbbc4b7fe786f99b63e41c6711d72e2968486988aa54",
+      "bytes": 3253876,
+      "sha256": "e5fedcaf2fe089c711d138f4ddd8378ef53e564dd1b433de0e748917d4c6cb1f",
       "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
     },
     {

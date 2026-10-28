@@ -1,0 +1,1841 @@
+{
+  "schema": "astra017-global-c2-exact-certificate/v1",
+  "status": "COMPLETE_EXACT_FINITE_PREMISES_PENDING_GLOBAL_MATHEMATICAL_REVIEW",
+  "date": "2026-09-17T23:46:11.269948+00:00",
+  "field_certificate": {
+    "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/FIELD-POLISH30-COMPLETE.json",
+    "bytes": 102928,
+    "sha256": "628ab5ff88e8559460c272de8287711e9c01ffa9640acda28702ae2cfe43b296"
+  },
+  "rhs": {
+    "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/RHS-COMPLETE.json",
+    "bytes": 122969,
+    "sha256": "6ff1d88ffaf93fdeaac649464a6e1b7455358d3b2f3721e118aae7a52aef1f68"
+  },
+  "operator": {
+    "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/OPERATOR-COMPLETE.json",
+    "bytes": 90967,
+    "sha256": "cdb298a761f5cb0f3721d297573e671f59469bdde4bc2a266b8d86b7cfaa6352"
+  },
+  "rational_field": {
+    "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-cyclic-polish30.i64",
+    "bytes": 71989512,
+    "sha256": "74fbd163801e04dd8917f62bbb5f5868b924df9a9f0d9dbc139d6fe80375c283"
+  },
+  "denominator": "1000000000000",
+  "proposed_epsilon": "1/200000000",
+  "exact_minimum_beta": "24825324385226107946765127095421513511423465909470146108411/2827810858868907481115714320001048479611331101093378048000000000000",
+  "minimum_location": {
+    "result": {
+      "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-08100000-08200000-001.json",
+      "bytes": 528,
+      "sha256": "91ee8358abe3606a54191f63083ceeeaeb0ea417b0f31557816841ae19056dc9"
+    },
+    "begin": 8100000,
+    "end": 8200000,
+    "worst_original_ordinal": 34740013
+  },
+  "ranges": 105,
+  "orbit_rows": 10480218,
+  "original_multiplicity": 62868270,
+  "rational_coordinates_checked": 8998689,
+  "nonzero_rational_coordinates": 7325812,
+  "range_proofs": [
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-00000000-00100000-001.json",
+        "bytes": 453,
+        "sha256": "ea3e3f7e765568cddd14565214a8027c8e7749351055261469499e751d10058e"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-00000000-00100000-001/RECEIPT.json",
+        "bytes": 9931,
+        "sha256": "1ec939d586e26dcc0e787af043d363d29ba83f709a974cd3379487b3da6371d2"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-00000000-00100000-001/BINDING.json",
+        "bytes": 38162,
+        "sha256": "960314c76ceb29d3ac21eb28c18794218c9d5da08944e4991326e90821eaeab0"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-00100000-00200000-001.json",
+        "bytes": 504,
+        "sha256": "20cf978e0d2f5f278595318ddb1ee28417c5217c9ec44db658556ca629700012"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-00100000-00200000-001/RECEIPT.json",
+        "bytes": 9990,
+        "sha256": "accceba635d7e1144dad23b11b354e71ed3e09e3dff5ea6458ff47928c359cdb"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-00100000-00200000-001/BINDING.json",
+        "bytes": 38167,
+        "sha256": "02205b6e6f74f4af850f0c934b37d0ce63529cfa3b910b3acec8f8bc63db4c15"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-00200000-00300000-001.json",
+        "bytes": 448,
+        "sha256": "9eee65ff35e2eae38f277c5d9373fb91b56839ec62afbc758e11332a614b6e41"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-00200000-00300000-001/RECEIPT.json",
+        "bytes": 9932,
+        "sha256": "03a00ba0277a4ed79551cdf8b5f3f1eb469c0d4b42b36498202f057eb887af19"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-00200000-00300000-001/BINDING.json",
+        "bytes": 38167,
+        "sha256": "7c6f9fbd11dd35a250c1ded8e50d0818b0d73987c78e930ca6e8cdc48824b335"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-00300000-00400000-001.json",
+        "bytes": 478,
+        "sha256": "81c4d4913864bcc3d1f564cee116519a531e507e8e2c184c5f8c031ddd25250c"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-00300000-00400000-001/RECEIPT.json",
+        "bytes": 9957,
+        "sha256": "1e8d22b16da5aec3bffe73eefe8037c6d346878312628f8f440a94de5515fd0f"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-00300000-00400000-001/BINDING.json",
+        "bytes": 38167,
+        "sha256": "0ec9542741498eaefbe57de6a83584d31f0b9453175b2817886fc45088128661"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-00400000-00500000-001.json",
+        "bytes": 466,
+        "sha256": "6610343169242748e5d7c44d49c7ed4e20faa64139e008acc7581bf3b3e8aa53"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-00400000-00500000-001/RECEIPT.json",
+        "bytes": 9952,
+        "sha256": "6a1e497ce9b47c34b7110c3b89adc4c717f320c4c95d7e4300b19437fdc59476"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-00400000-00500000-001/BINDING.json",
+        "bytes": 38167,
+        "sha256": "88cbed12fb2a21e50df8b9d484932f0b404034102916ee63c8e656a8dfcbe799"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-00500000-00600000-001.json",
+        "bytes": 446,
+        "sha256": "0a4bdf8da49253c01aa6ae943450562ce4d2b4eef8bd8ef73d2f2746d32706bd"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-00500000-00600000-001/RECEIPT.json",
+        "bytes": 9930,
+        "sha256": "458d26ef7ba4c22c3f94ab7faea69aca2e041c2ad65fd3c0a6d84a094364f7c1"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-00500000-00600000-001/BINDING.json",
+        "bytes": 38167,
+        "sha256": "f4a4ca6d517d192ed69dc87408f1ba3d54c68fb948f71c0be9417d4eeb0d8db3"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-00600000-00700000-001.json",
+        "bytes": 465,
+        "sha256": "3cee2a9facc1f0f26490fcc9822195b3902cdf3aa02e3d6b030d637bacdc3d0c"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-00600000-00700000-001/RECEIPT.json",
+        "bytes": 9944,
+        "sha256": "0f24cec7ad695b5a176a1a4d9c6de3d1f6cf63816fe3de0166f0d6680f9d94a2"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-00600000-00700000-001/BINDING.json",
+        "bytes": 38167,
+        "sha256": "57499f0172179d0d0d1942d9ebe52e96afbdb8fce42ae37282fbd64c2901e40b"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-00700000-00800000-001.json",
+        "bytes": 443,
+        "sha256": "ea11afa3ad5c2328024789282f779ac7d4e34e7c5c9eba94b115ac5a8b3cbe9c"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-00700000-00800000-001/RECEIPT.json",
+        "bytes": 9917,
+        "sha256": "b6df373b3ae8b68c58968f5bef475823a6588daf544300a841dccb50d173ab44"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-00700000-00800000-001/BINDING.json",
+        "bytes": 38167,
+        "sha256": "00077f1bc36b394686561efcf306990f63e7667491bda86c9c0a012f94ec20b9"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-00800000-00900000-001.json",
+        "bytes": 438,
+        "sha256": "6547da5a726cdd58e10aaf30c00e0d2097770ec7c0dc438baebb4813fb401d22"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-00800000-00900000-001/RECEIPT.json",
+        "bytes": 9920,
+        "sha256": "ace38cc8520198a61418873caf12d2f631023eeda1fcdbd2c93681b2cab24558"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-00800000-00900000-001/BINDING.json",
+        "bytes": 38167,
+        "sha256": "d4a91420ebc4735ed149c03557bfc1da077819ca93f9fc2962e9b056fbcf9a27"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-00900000-01000000-001.json",
+        "bytes": 435,
+        "sha256": "76069d294ce361a2b839fbb945756e7db33c7ddd6d50f28515901cde7851c9de"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-00900000-01000000-001/RECEIPT.json",
+        "bytes": 9245,
+        "sha256": "61fb35400f81260c9c7020be4f8bad89cd2709615856a9356edbe221ed727335"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-00900000-01000000-001/BINDING.json",
+        "bytes": 38168,
+        "sha256": "292f479bd88a9fb6b3f38f05deb9fb679c418b8ab0f50e5690cb433c8a7637c9"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-01000000-01100000-001.json",
+        "bytes": 442,
+        "sha256": "5f263d4819dd6c6db05b6215b6dfb3fb87ccca0a04aede94a59d1fe59f5374a7"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-01000000-01100000-001/RECEIPT.json",
+        "bytes": 9922,
+        "sha256": "fcf94015691744ec7174291a97dd51cd0f8e282c6ee46b144eee94560df5a585"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-01000000-01100000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "6b49096ffa37a5c2247d334795b48a712b61d9cec0eb42b5b07061aa0d1514f7"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-01100000-01200000-001.json",
+        "bytes": 468,
+        "sha256": "a09c6e7f770f846d2f4dfdcea0aeda68df2ca3219ec3c8ad02b71052d8d8e1ac"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-01100000-01200000-001/RECEIPT.json",
+        "bytes": 9955,
+        "sha256": "3a29e23491484d326bd5a2f6793b78b4dfe046cf65f8eaad7cdc0af299c0f399"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-01100000-01200000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "2efd3cc3540c8af1478eeebd1431e68b4447c27b386a388187b7939a5c4ec103"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-01200000-01300000-001.json",
+        "bytes": 427,
+        "sha256": "007e719d3ed686019d4d4925f0c5b6b2edf07bb40ab30ac3d719be6e5d79c7a6"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-01200000-01300000-001/RECEIPT.json",
+        "bytes": 9593,
+        "sha256": "8635a46ca59a2e36f9e7498ee364f38d68625107705eb4dd74c37d46d14fffcd"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-01200000-01300000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "8b105f22cdd8d8c101ff1f2d032709c201f2080e9a5b78e6a4ca29da0dff061a"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-01300000-01400000-001.json",
+        "bytes": 449,
+        "sha256": "53088d4fc360502ff621168c4c478e4172ea79795be9723cc316da2aeb199efd"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-01300000-01400000-001/RECEIPT.json",
+        "bytes": 9940,
+        "sha256": "21415814546c5242c0dc2e8f98acf3b83fa218d1f96d5f1799f13d508bd0e2af"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-01300000-01400000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "edfceeabe3c683c20168c3d14a80c53c53de92a8d7dedebbc7ddf508bf265b38"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-01400000-01500000-001.json",
+        "bytes": 432,
+        "sha256": "8cdc669799873d57750cdad3cbc8d9a17f2a92c89c8d9c24b80052a8eae8a1b5"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-01400000-01500000-001/RECEIPT.json",
+        "bytes": 9234,
+        "sha256": "50a7c9f55546389a6a2eb4207a7dfee7b47f8fa57706c1e9fd739ff86ce03a41"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-01400000-01500000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "024413616a212405f6c799911d385aca5854ae330363392929f3e11f38f55724"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-01500000-01600000-001.json",
+        "bytes": 436,
+        "sha256": "242bccc89b52e3411de91fa9d124373335b04a9b7c9c80d3bf8c1f29ef9287af"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-01500000-01600000-001/RECEIPT.json",
+        "bytes": 9246,
+        "sha256": "95c33988ea2ba4a4fdcecf627f908909e03d3ca4541f8f7896d3d5019a11b9d0"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-01500000-01600000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "ac1ff06ef4ab7a5922f8ec4f85689edf85ad675a5b63d1394f0bc0321e90e1b1"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-01600000-01700000-001.json",
+        "bytes": 446,
+        "sha256": "c19dc49cc8d8dab185f8dd097c5fdb7307a33ef9afa70be47da082a14eba051c"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-01600000-01700000-001/RECEIPT.json",
+        "bytes": 9252,
+        "sha256": "c2e6c9fda1e867439af447c5d59fa1510bb01cab6e2972fe42c70458c6accec8"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-01600000-01700000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "93076e85b42520ad1db8f71935872cce5c6788b21638c5972ba839469bb8c55d"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-01700000-01800000-001.json",
+        "bytes": 442,
+        "sha256": "8a600f28972429c348d059f59dc7bc942daf154aa08d04fda8bd68e636a57b22"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-01700000-01800000-001/RECEIPT.json",
+        "bytes": 9925,
+        "sha256": "2ca614ee1fb497f4d2fea2c0a1cb13444f64c0dd154784778322e918727467bd"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-01700000-01800000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "54fad943bc4544a903211ff6d35d04330d9b6983eac0b4666df9c707415ad2d2"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-01800000-01900000-001.json",
+        "bytes": 427,
+        "sha256": "e8d9b22c136d936667a04d4a6e8931924c6384701c4ebecae6e07f9711d128df"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-01800000-01900000-001/RECEIPT.json",
+        "bytes": 9907,
+        "sha256": "43a2e54e116712f1ad5dc04f43e35313be9070d2d99accfce5e5248744ae783c"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-01800000-01900000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "965f87b103fe7659c02fd63854b15f21139551de3867e3658fe3534a6b7cc552"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-01900000-02000000-001.json",
+        "bytes": 470,
+        "sha256": "002680551572e2967b415d81425d47fe77a3ed8de144807a5391df6491cbd626"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-01900000-02000000-001/RECEIPT.json",
+        "bytes": 9951,
+        "sha256": "7c96215725712919a711bbf6c2601ddf13b84e060de485cb31c45e6348e7e045"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-01900000-02000000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "5fbe955b947c217b198f45e6650f278169cbc33b001d27edbbe53afb5949489d"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-02000000-02100000-001.json",
+        "bytes": 430,
+        "sha256": "d622f66f1b5315415b2f27ccb2c581aa956c36bdb8e719041918515d7da804c3"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-02000000-02100000-001/RECEIPT.json",
+        "bytes": 9916,
+        "sha256": "612aa65bbf1fb5fdee833f1581af608a3db54c8c19f4c2d4a03a5658e9d25c0a"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-02000000-02100000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "244b28e441b8e3c75d6a31eb4acfc0c5728186ab3845688fe32a69b766b06e8e"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-02100000-02200000-001.json",
+        "bytes": 452,
+        "sha256": "06537adfe6f58096265c2969c0a0f6ec6c91827bca4767f76e9ebc3e0d115b0e"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-02100000-02200000-001/RECEIPT.json",
+        "bytes": 9937,
+        "sha256": "99bac60bf936e3eb38b7f8ac819e07a2a50d6901aed84d882b6a4e332dbfa2ac"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-02100000-02200000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "749b4a156af16ebc29a8878ef2f592e34940b831d2204147282c444623ecf40e"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-02200000-02300000-001.json",
+        "bytes": 454,
+        "sha256": "2da901fbabb7b712ae620ed2513d4f15b6dfbe387e0bf4129764e45dbf77311a"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-02200000-02300000-001/RECEIPT.json",
+        "bytes": 9940,
+        "sha256": "e81af75ade54216a14b1b2faf43bf61bff2c1b61c29b1d3f92c066025964883b"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-02200000-02300000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "dbc16a7b213997e9468f55d160ca29b63444c490abb96063c8fdcfc878a59e68"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-02300000-02400000-001.json",
+        "bytes": 476,
+        "sha256": "152db76238ebb5597159adfa62f889fa453a832c55c4b226cc842c3df53cb784"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-02300000-02400000-001/RECEIPT.json",
+        "bytes": 9287,
+        "sha256": "ee8b88705be481f7b7f3a4070059d6e5ffe5109b76995e5b9279074f29010660"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-02300000-02400000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "70b757c43bd744eec7d90ce6e5010402c3df88c1705b7fdbb040f28115841ebe"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-02400000-02500000-001.json",
+        "bytes": 432,
+        "sha256": "bd41ad77cac3cbe29fa36270a1fb7d24081f254f0d2850f9a21c21899f2550f0"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-02400000-02500000-001/RECEIPT.json",
+        "bytes": 9917,
+        "sha256": "adca2c38386bd55ffb437766ca18f97833a5fc3cb77061329cd87f58c9bb8f28"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-02400000-02500000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "2c588c87b05c7355a13bcc50bd840641870c3b390ec6d40850cb49a0f4487d3f"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-02500000-02600000-001.json",
+        "bytes": 466,
+        "sha256": "91477855d4e1e9174f91b877d550d24371967ec80df06ccc1e2820fa07ab4a86"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-02500000-02600000-001/RECEIPT.json",
+        "bytes": 9631,
+        "sha256": "ad95e41e1b559916871cc1115a23f642fc27fb1ed85730857fa41194666a7538"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-02500000-02600000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "d3b30c6639b45ab3b3a8024eb156293074638b96ad1d4125e891395179b672e3"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-02600000-02700000-001.json",
+        "bytes": 470,
+        "sha256": "e7d289bc233d35fa012f9955b349aaca5a8443be8d4c7f28722b986b43f86d3c"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-02600000-02700000-001/RECEIPT.json",
+        "bytes": 9619,
+        "sha256": "46311ed0562916a6fe33de448080d93363cb8938e5961bffb5a8fd2911941f41"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-02600000-02700000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "3cd3869178a92ce778a748545d69339c3af9ba33cde0e4ef4d8ae3a71395f4a5"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-02700000-02800000-001.json",
+        "bytes": 439,
+        "sha256": "cf290a2934131beb1a0ea708cc39702490b64cc9a74f0c92d4f25af082fd83cd"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-02700000-02800000-001/RECEIPT.json",
+        "bytes": 9927,
+        "sha256": "8b53ec2ad2a34e2932bb4bea71a1d3cfbe1bf4710af2d5c21188d603d85ffc72"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-02700000-02800000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "d03d9450267805fd6d3eb3d2d13a06c446ef42cf24fb93b4d48f34335089bdec"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-02800000-02900000-001.json",
+        "bytes": 433,
+        "sha256": "13adaafa58bd40d5ddcd8d98d5efce1058c9f1746901a7b65d88e42a12c3f176"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-02800000-02900000-001/RECEIPT.json",
+        "bytes": 9246,
+        "sha256": "6cbbb343d4e79da6d6290bba92034d03f1376807604dbcccc7e3f851a25c4409"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-02800000-02900000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "a1120e1dbd648d5832e3be0eb06841f71aca4c915b8f1e0bda8174ba265862ee"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-02900000-03000000-001.json",
+        "bytes": 433,
+        "sha256": "807e55d952b9ddc728688dde521b34021915b4298f753159b9c6a310de4a9d02"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-02900000-03000000-001/RECEIPT.json",
+        "bytes": 9911,
+        "sha256": "02a9423ed2e28986d47f68b59fce3b56132bbf6ca1f94072e7c3d2562f2a9c19"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-02900000-03000000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "a2650ddd85a5fa2ab977706dd0f37eb91704835bc4bb825804210c5425725950"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-03000000-03100000-001.json",
+        "bytes": 443,
+        "sha256": "26788febd84fd0af97ad6607a7a848df19af62a9ca5c6529508d80b016239706"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-03000000-03100000-001/RECEIPT.json",
+        "bytes": 9930,
+        "sha256": "b7c6ee00e3bc9dc80e6134abd6c6f7bba16ff9d9d6960ce187b1ed16bb96078b"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-03000000-03100000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "c1b663e7ce58adef72eccf5e365e3402a8cc2c2bb915a4bcf953fd1a01dd48bc"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-03100000-03200000-001.json",
+        "bytes": 444,
+        "sha256": "b3e54eba8d974040dde4fe038017e6e783ec7ccb0fd5b485c626878d27dcb62d"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-03100000-03200000-001/RECEIPT.json",
+        "bytes": 9927,
+        "sha256": "5b1edb3f6968108aab6a9779b4fedb1c044692c29887eb0988de71c3b2588b37"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-03100000-03200000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "47662a78c041765980f396db6bdf3071287b3b08aa062e78b955ad6c3c541655"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-03200000-03300000-001.json",
+        "bytes": 445,
+        "sha256": "87e268b5dbaeb86f3398c8828508c6cdcd9146935caee1f760a294d0332e5864"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-03200000-03300000-001/RECEIPT.json",
+        "bytes": 9934,
+        "sha256": "c0fac93e6a855c1be748245fcaf187bdbd280d55d6ab5b5f24a7a65704af5a02"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-03200000-03300000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "0163c33b9b77cf37d65eeeb42218a6ffef9eb7a9b62ffef2872db2a01f6ca1cc"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-03300000-03400000-001.json",
+        "bytes": 466,
+        "sha256": "ba7548fd39fc918b8c2bba26444d6775af85906b4b755a761c3b03857f44f7d6"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-03300000-03400000-001/RECEIPT.json",
+        "bytes": 9951,
+        "sha256": "add82557c1e67c4dfe3d2d9ff7548bb25858e6f41baff042481b8853079e7eb7"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-03300000-03400000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "e12fae4c19467fee9491fe9ab373fbd0779aa61af4bbdc405abe41657ec62c3c"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-03400000-03500000-001.json",
+        "bytes": 456,
+        "sha256": "e071f3fad0deca222e83ab891b30ea4a70465af994be154ee267a88bfd771e2e"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-03400000-03500000-001/RECEIPT.json",
+        "bytes": 9945,
+        "sha256": "16be5ec49bd1b9eeb85f965a224381d88ea07d7de692ce8fb7f1c0aca377f821"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-03400000-03500000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "634dbba7858bf30add3c3ae7f3c3215ac0e1a4992810cdf5ad273c0a4bda9edf"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-03500000-03600000-001.json",
+        "bytes": 456,
+        "sha256": "d5da24bc567f0a160e9a0abf8bf99934df9d1e1baded21e03455f3273e8fa24a"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-03500000-03600000-001/RECEIPT.json",
+        "bytes": 9931,
+        "sha256": "1e4b4bfdc16c711b66309c35d3f3f91e831562869d588b9e45140d8239d94a8f"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-03500000-03600000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "9c163e9a2e5706307359b81d4c3e3399d40c0717f138c84fffc2584acb4448f3"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-03600000-03700000-001.json",
+        "bytes": 463,
+        "sha256": "70074cfbbf6d4923f0af235d6fb2985c8149310a4a42829672b616e1067832f2"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-03600000-03700000-001/RECEIPT.json",
+        "bytes": 9954,
+        "sha256": "9440d6b7e411ebbdb507cc44223afb612ec8c4f1ba1d8acf7ac21b277c9f0beb"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-03600000-03700000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "bdfc46b07b04fa93378741ac09443946305cf88ce734c8670c051e5f9b5ab950"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-03700000-03800000-001.json",
+        "bytes": 456,
+        "sha256": "8f270fb79ac3dc7145a16af8649ed914e00d676aaaf9e174698a9f87885691f9"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-03700000-03800000-001/RECEIPT.json",
+        "bytes": 9944,
+        "sha256": "91bda76e3cacfec54479d5abb6fd4c503766a992759f3adf106ac3c487d919f9"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-03700000-03800000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "a562c8146aec7527b3e3f938445b6a2e52aabe45517ed3396b7857ce828262bc"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-03800000-03900000-001.json",
+        "bytes": 462,
+        "sha256": "40a687ea6bfefa989b2f7869e0ab773d6e3278d9a770955da3d132e554cab868"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-03800000-03900000-001/RECEIPT.json",
+        "bytes": 9948,
+        "sha256": "39f041bdc0d23e21c2d1fff5cd1062f672138ad72518e2b23ecd396d03853b02"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-03800000-03900000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "f8402cc2f7bd6c533de486e49a1f7d5bad06e7e2cdba3586ebe05413ed6e5cf4"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-03900000-04000000-001.json",
+        "bytes": 453,
+        "sha256": "0d769e928fb190b8e34441c70b47908899a3ed7f00979e71f82962f7bdb5e886"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-03900000-04000000-001/RECEIPT.json",
+        "bytes": 9945,
+        "sha256": "26fa9b9640e8e9b2cad96d62d8f14d10d89beb2243997af80643c8f60ae67c85"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-03900000-04000000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "dc5e311397d504d6d0be5c9bfd5fb633ac653117674302d8c4f837797e62eb2a"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-04000000-04100000-001.json",
+        "bytes": 466,
+        "sha256": "abb0c66cd089b2ed8522a4f0c9df9a58ae3390e5f45eec27ade2294667f3a4e8"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-04000000-04100000-001/RECEIPT.json",
+        "bytes": 9950,
+        "sha256": "b6112f73b1aa7b0ce93e63253e0ef0f0dc4b80aeba5f7e42752974eb65328e10"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-04000000-04100000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "29c5feb3d1c7d6bf0ed67c97e53520d6bbca3c1370654e762dc16f9394942e81"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-04100000-04200000-001.json",
+        "bytes": 445,
+        "sha256": "83fb3d901060297038f8b6c4297cc4305ddfb4eb94d2734daaeb8bb9925364ad"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-04100000-04200000-001/RECEIPT.json",
+        "bytes": 9926,
+        "sha256": "171e66f12fa96fa1cfd012e7851479ac2b35c1dfc5f3ceee0d17e761d89edabb"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-04100000-04200000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "7ea934d5875c586f9b528d306e5a5612d8198fd1a02a92182e1e84be00b85b3a"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-04200000-04300000-001.json",
+        "bytes": 454,
+        "sha256": "2a76f120c7490d670e1969b7fdae8dce45258f0432c58cdd85a240a01141e3bc"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-04200000-04300000-001/RECEIPT.json",
+        "bytes": 9944,
+        "sha256": "0cf28cb6c21d91d48d2cb2f6d7ffd50c77b1ea2890ce0292fc533ddcc29a5a9b"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-04200000-04300000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "b128bb97d194ee600cc4dfb735513baa2a9fea3d27969c0a5ea38590fbee4ffc"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-04300000-04400000-001.json",
+        "bytes": 446,
+        "sha256": "56d38a6feb1031dcdb34a4bad82b14b57f592224af802bbe923255fbcc076faa"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-04300000-04400000-001/RECEIPT.json",
+        "bytes": 9928,
+        "sha256": "b179f18b8d84ff3f220a1af81aa2ad62767e2616b686f10a52b381952bbcd70c"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-04300000-04400000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "b7e77686389cd23dc89f16ae2979dab673cb0239f0826976f7450a1e9f35b8a4"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-04400000-04500000-001.json",
+        "bytes": 464,
+        "sha256": "0f618dbacd76e3a6b9dd0b48a6e48502e000bd54d46652b7212b7cc0ce0415c2"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-04400000-04500000-001/RECEIPT.json",
+        "bytes": 9950,
+        "sha256": "d91e78db2053d666db8bd2cc94f81896f7fec3eb2a7dba60cfc0b0f75ca62101"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-04400000-04500000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "f6f3283f872089412ef9c6dd012765bcc0daab88dc779312665779a5d53b30ff"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-04500000-04600000-001.json",
+        "bytes": 452,
+        "sha256": "c7dea6ee6fe69d523c7e2bb150e35dab5c4fc82e63f1a13d56a6029f56af7ad6"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-04500000-04600000-001/RECEIPT.json",
+        "bytes": 9942,
+        "sha256": "ac97bd02a0d7ecf435d6af4e4d8a7ab11146eac18dc81cbd20d402a84a2d4aff"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-04500000-04600000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "161fb45554b0a4ce98da0587a3a0adf6622eb48e4bb30ece76279471e96f3b88"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-04600000-04700000-001.json",
+        "bytes": 496,
+        "sha256": "e052cfbe058a46055f0496ecf84c592fe60b72017f9cb0ab1d68b2e5fff41e2d"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-04600000-04700000-001/RECEIPT.json",
+        "bytes": 9975,
+        "sha256": "0d34ccb4f86f6a16f97e74aa5c10b51d88e7adb04871ea7ace8630a7ba1de3aa"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-04600000-04700000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "ca06fc5ea52c6ff39638608186772e5b447dba14209c79d4eaef6f0e6c26015c"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-04700000-04800000-001.json",
+        "bytes": 464,
+        "sha256": "d3d6381a70fc765ee1a219662f23e5bcc9d647e855424ea2977a848ed1b54f40"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-04700000-04800000-001/RECEIPT.json",
+        "bytes": 9947,
+        "sha256": "44681a6a8d488d7de4a7ddc28aaae75ce11eee89f49023363683adb4a2d22201"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-04700000-04800000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "bb6551e3b1ebc2365aa6da97d5250e19b04f4d9a270d4463ae16a9fe502ed9ea"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-04800000-04900000-001.json",
+        "bytes": 486,
+        "sha256": "d42aa807069f23e6165ce60c279ed0497c14a457561fb9b0087dda7ea7b19f51"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-04800000-04900000-001/RECEIPT.json",
+        "bytes": 9965,
+        "sha256": "bf4b17258ea166617b390be766de31cc50f0224f5b08b23b41e8f4d49b738251"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-04800000-04900000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "a46f0a4856ae0573817f9bda2e5797ab143f422f25276cbf48f849339d11b97f"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-04900000-05000000-001.json",
+        "bytes": 474,
+        "sha256": "562a385c76151be7992eb92906c91391f260eff97cc481be63cc6acfb55c9c0b"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-04900000-05000000-001/RECEIPT.json",
+        "bytes": 9957,
+        "sha256": "e8fc484277f10c715a201fa5faed5ac776290c6f67bc546290d357cfc5a54f8e"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-04900000-05000000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "84c8f4904fe3e923a4c484e3f0e1db54d1968f0aa11bb5fc219b266dd6507ea6"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-05000000-05100000-001.json",
+        "bytes": 486,
+        "sha256": "c4273e1a8d8546580b97a63bccb6266621f7d8674d3262583a8b356e762aed45"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-05000000-05100000-001/RECEIPT.json",
+        "bytes": 9972,
+        "sha256": "6c0c075e1a2cf076a7d2bd97d0998a624f71000702b64871ab2c9c205c2e263d"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-05000000-05100000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "a54cbd13259287430e25006e79d9f6383d07e59ea187e15f317be949d3d382a0"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-05100000-05200000-001.json",
+        "bytes": 490,
+        "sha256": "421d849c9527b34c50661f9b9705abcc6ef7f2cedc01d2ab5a2168bc298d8ff6"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-05100000-05200000-001/RECEIPT.json",
+        "bytes": 9974,
+        "sha256": "a8860157f52a336068ddb26b33af0d0ec547d14a53c1a12572632d5a8c375736"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-05100000-05200000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "4be3e71df676d6164dcbd211cb55bcd7244bd04129142cb47635a0885cbbabdb"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-05200000-05300000-001.json",
+        "bytes": 498,
+        "sha256": "ff98685bf4632cd5d80a6ecc91403a2ff1eba68183728414e0ac5417bba5b8ed"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-05200000-05300000-001/RECEIPT.json",
+        "bytes": 9984,
+        "sha256": "f4a525644d61275bf6118c3d7d969aa77ed46f73150c22839316acbe7060134d"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-05200000-05300000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "0f05d216d49b427918b95b19a76b1e2e356c6f81b0a246427f13a1030fa39574"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-05300000-05400000-001.json",
+        "bytes": 464,
+        "sha256": "417c63338de8d4740b1a14d9ba642ae2849460e0859df79a938cb7cb87d5a626"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-05300000-05400000-001/RECEIPT.json",
+        "bytes": 9943,
+        "sha256": "b2781b4d2b345d146cc4aae61f7728f262da304ff05084873d1abed379f21d36"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-05300000-05400000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "358582830b295da5ecf4548dc8260529446c8aaed1c5de653e536da647afabf5"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-05400000-05500000-001.json",
+        "bytes": 480,
+        "sha256": "160996055ef1b343d022e425355082f1af1e44c3ddf35383764674e8fdb4e0f9"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-05400000-05500000-001/RECEIPT.json",
+        "bytes": 9972,
+        "sha256": "f5bc4482a494affdaecae1eeef32bde5a3f382a879b505782a6c3646d04d0e02"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-05400000-05500000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "c50e8db6bffbccb3685c15fb16a9e6307068306bfc1bec101dfaae8ff8284263"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-05500000-05600000-001.json",
+        "bytes": 452,
+        "sha256": "4825b2f61147956c49e324fa9e0b06aa100cefda6d203d90dbce90f9ea8959aa"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-05500000-05600000-001/RECEIPT.json",
+        "bytes": 9938,
+        "sha256": "f9a6174d39f229688f413871debc4b170c59ddc08d36dc4fc8fd54ad0bec9242"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-05500000-05600000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "cb7f123048f45a3a50621ead0f71dcd75fc726ba06f6f4292a4c8ca0091d054d"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-05600000-05700000-001.json",
+        "bytes": 452,
+        "sha256": "74663c24b0ecbb1cfa644177efbd7ffc01a32eca479aa9dd1ce9370ef2482306"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-05600000-05700000-001/RECEIPT.json",
+        "bytes": 9936,
+        "sha256": "7384da87bc88c724014be2a2f6f52936aae203dc11c1482121804ff0dde80688"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-05600000-05700000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "9547da7074a2c7330eecff0ae82230c4262173ac73bfe5327322792723bf1e2b"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-05700000-05800000-001.json",
+        "bytes": 460,
+        "sha256": "6e3e6a765664ef3257a280e502d6cd5701bbca779547be26f66795a06896403d"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-05700000-05800000-001/RECEIPT.json",
+        "bytes": 9941,
+        "sha256": "e66e15209de8a1c1fdd404991fcb3059dc795548c90368abca7c5b03181b85b9"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-05700000-05800000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "5d24dc2a58e4288472d6e537d4c2ceed907874d8b4ce11bc6426e471f3916fd4"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-05800000-05900000-001.json",
+        "bytes": 498,
+        "sha256": "39deb29c6da5967c8005c5b09c919b7136ea2b502ed10ed04cc17e7a4f8b8450"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-05800000-05900000-001/RECEIPT.json",
+        "bytes": 9973,
+        "sha256": "05d7d23984dda8371662c1a3b62047f5ed453da33454481d8a3c1acf405c3ac4"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-05800000-05900000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "0ddd1cfd1f63dc9a3977168e960a9da42261ff35920bd25ee757b74fe7ad42b6"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-05900000-06000000-001.json",
+        "bytes": 478,
+        "sha256": "4d1d6b3d331902dccf75bbd9990481581231f2f743493bd93a84655f0aed98c4"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-05900000-06000000-001/RECEIPT.json",
+        "bytes": 9964,
+        "sha256": "56b5613a32a95665cd5a303df77b2989e86570255bab64c61ea5e2a11b5b5bea"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-05900000-06000000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "fd9aa6a61cbf8c5be9ba6fe9e67ab5b52e8ba279a3fdb218284c88029a3a3743"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-06000000-06100000-001.json",
+        "bytes": 477,
+        "sha256": "6a2f5cb58c0478ec96f48a84954f2568c3ef3c9b0bb596f0b77a19b2ddde7858"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-06000000-06100000-001/RECEIPT.json",
+        "bytes": 9955,
+        "sha256": "2c90567076c7519114ac569302386df963a51e1d648c318945784ab8c06a3d8f"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-06000000-06100000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "31b7636c28f213ce85e0c6c18caccf68affbf802ee580a2362c35c74f06fbd81"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-06100000-06200000-001.json",
+        "bytes": 445,
+        "sha256": "ccb5222c356a43adc772d5c794af68fe5bc7901db5822ca0c3e42be03fe7e54d"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-06100000-06200000-001/RECEIPT.json",
+        "bytes": 9936,
+        "sha256": "0316726cf382fe49bf29496d5088bb6410963c6668baa6982e140a8d628319b3"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-06100000-06200000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "5bcc94384e4cd86b66a9bae705e246d05b20f43deaacefc235ed590a8c374b68"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-06200000-06300000-001.json",
+        "bytes": 455,
+        "sha256": "983623e6192285818028e60fa5779e1249032ce6daa415f977669911604fdda5"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-06200000-06300000-001/RECEIPT.json",
+        "bytes": 9936,
+        "sha256": "3af7a8c98fe1256883993b48ce1861c7ed6951023cfd4ea6c989888fa021f2dd"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-06200000-06300000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "6ab209a05ce3bb59ceeac9157ad268173702408119347b0b1b8641a97baf5bcc"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-06300000-06400000-001.json",
+        "bytes": 493,
+        "sha256": "1d79a18a827fce8db1f103b89d00349b976c3d95024025cc1037707e6edca774"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-06300000-06400000-001/RECEIPT.json",
+        "bytes": 9970,
+        "sha256": "c4211832f3e1fe95dd0b849c2bf9abfb55ec8edeb386b4eef252587dd31507bb"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-06300000-06400000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "0a18058369cddb7ca7d38ee4a0b8b3ede346cbb1155ee686b1725804f8c29754"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-06400000-06500000-001.json",
+        "bytes": 463,
+        "sha256": "7b1e62a3a18075f3315b37c2d5b022b6eb73054ce9c6a73133aee4781ba2da80"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-06400000-06500000-001/RECEIPT.json",
+        "bytes": 9945,
+        "sha256": "2b9113363b57d95eff92128fd2efc70b3a8ee814e1a8d868edf8c39b142a1b3e"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-06400000-06500000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "b0ef0467928f8d6ce870257552e08ce7e0dbd42c8b2e94e0072df601f8f9376c"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-06500000-06600000-001.json",
+        "bytes": 447,
+        "sha256": "2d10decf74a859e1b446c875ccba400d15f65364a88a3192cd51bc7a9c3667c9"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-06500000-06600000-001/RECEIPT.json",
+        "bytes": 9929,
+        "sha256": "2fc0ea11aeeee1e4117f3dfa6c6ed8bd3d63afebf8354d3dad4de387d99d077f"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-06500000-06600000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "557ba70c8883d8985cc0a3b38d7df158ae7998cdfab73d6fa5556a24cb169093"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-06600000-06700000-001.json",
+        "bytes": 471,
+        "sha256": "5fe052d444178e720fb2dc4bce136cfcdef14400d70b1b41113b1fdf93e1e4a9"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-06600000-06700000-001/RECEIPT.json",
+        "bytes": 9955,
+        "sha256": "8bb0d3814c117c0b72fbcc5283fd52580276afeb7e5acb750d9209caa9d0e84f"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-06600000-06700000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "7c1e483c84fd229743e086480075fcf37c719aba03b002ddde92cfa353ecfce9"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-06700000-06800000-001.json",
+        "bytes": 478,
+        "sha256": "4a6af4c7b74f439d3ffdd91f107c91cc298ae995b833e4bc94506bf782f5b8e9"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-06700000-06800000-001/RECEIPT.json",
+        "bytes": 9966,
+        "sha256": "f32ce477a1b3771a0161f103832e1c4f2e79ddfa522189170c484b40609086d3"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-06700000-06800000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "e80551289958a022f8c7b7012eb95e88ed273774a283ae5dabab7b6a10cbc9fc"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-06800000-06900000-001.json",
+        "bytes": 478,
+        "sha256": "edf9f2791d630531d0d22021d6973eafa7337a7c36e0017041a60984ed8af83e"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-06800000-06900000-001/RECEIPT.json",
+        "bytes": 9968,
+        "sha256": "60410a825f35f0697dae6fe2c012a16949afc08d38e8fe0af50e8d3dfb5b1195"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-06800000-06900000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "ea8258f22bef1f3c4430a0142c3f03c07b587f55cac90bafe20e50fa4908d545"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-06900000-07000000-001.json",
+        "bytes": 480,
+        "sha256": "468c3b067269deeb4d9fb4023c394e296202064731011054fb5f75e5efea274f"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-06900000-07000000-001/RECEIPT.json",
+        "bytes": 9966,
+        "sha256": "79847f1624c4b7895820e8ae2506037f5edef3e00c19fdb03a7495f4b1dc8d93"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-06900000-07000000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "fe10f1cd437640462f088fe638efeb23ed5400184503fd880131f59037fe80a8"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-07000000-07100000-001.json",
+        "bytes": 482,
+        "sha256": "a255cc414655c0b0b78be5800c9a3a305f10314d460e4ad1077e544f75917a8f"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-07000000-07100000-001/RECEIPT.json",
+        "bytes": 9971,
+        "sha256": "fdb02c1c51846a4d8c3a12693150864f607e363f93cd93436cc5dae03c4eb466"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-07000000-07100000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "e573f1bac1c7a2284b289df17495f17f4f8e79c125075f516479030e3cb4ba83"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-07100000-07200000-001.json",
+        "bytes": 488,
+        "sha256": "489a5d236f84068752a29feb1cf545cdb75c65eb3f00a95b8eb306cb7c12af9d"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-07100000-07200000-001/RECEIPT.json",
+        "bytes": 9974,
+        "sha256": "6e448735620f8735fa5672e9743fe0d3d02954e874bcbacdf8898ff5bd7d8dcb"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-07100000-07200000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "63c44e729f2f87fa0e5cf172ecc3c3b76136a59e0e90871f5dc77f8c7ef659f0"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-07200000-07300000-001.json",
+        "bytes": 480,
+        "sha256": "be529b5450216aee267cd21d13042aee39908a2d8f18d950e70fc31f31f83bab"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-07200000-07300000-001/RECEIPT.json",
+        "bytes": 9966,
+        "sha256": "b0599cfb28c5027a73e3c4778211544eb65239100a20e48cdf8eec7009c6add6"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-07200000-07300000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "c63e34998e2af4b2f3104313c95a1e0c72eed823cccdcb3ae4a1998346cccc90"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-07300000-07400000-001.json",
+        "bytes": 518,
+        "sha256": "93210cb1e5be82201634f2bc4567b063a3e67407a265c969a09342d745060984"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-07300000-07400000-001/RECEIPT.json",
+        "bytes": 10009,
+        "sha256": "146b9f50b6ae99d36a1cc842dad6b1c815e6e4c556dfe613c662cba66a7952c6"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-07300000-07400000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "ca1243abfa7332672d56e1b581bfdfa7ca3812e27b5fa6036cf24e9ee8595d20"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-07400000-07500000-001.json",
+        "bytes": 475,
+        "sha256": "1ca0e272fd3c532b65e203dba80b26bd2dcb9c8fdd41a1fb4d171a265cc71e95"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-07400000-07500000-001/RECEIPT.json",
+        "bytes": 9966,
+        "sha256": "4bebacf90d796ed6d52263795bbd646016f86e9039ae7b1aee0ea93bc8a8ec9b"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-07400000-07500000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "0487cd1631501353ed8842489504e60d43187f91afbd450e56123481e7e67754"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-07500000-07600000-001.json",
+        "bytes": 520,
+        "sha256": "85c58bf41a1c13dce6edfbafb0575029b1da2026463b01df806831222abc1eab"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-07500000-07600000-001/RECEIPT.json",
+        "bytes": 10010,
+        "sha256": "7395c51bac3dadc6d240c1e351d33ad728c367f4af5943be6fa0ba57d03e9318"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-07500000-07600000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "85812703ddab3afef99ba5a3a3ec85509a047b130f4ce8c1b604e093bd29e84e"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-07600000-07700000-001.json",
+        "bytes": 486,
+        "sha256": "4191f319aaa024513745e52bc143468dffe4be38604798a119d58564e969cc1a"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-07600000-07700000-001/RECEIPT.json",
+        "bytes": 9967,
+        "sha256": "137e7c0fa98148e86cb382f2846f3431cd2d184d2a3d46ad44b3ec5aa616ef20"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-07600000-07700000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "6fa6cd090546ed6249a911c63bb475cf9d3a2c89069cb8583b720dbd25ed82a7"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-07700000-07800000-001.json",
+        "bytes": 466,
+        "sha256": "507ed10817145d5965cef19dc7d41ae137bc8b55d5cedd89cfa7e852e084552d"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-07700000-07800000-001/RECEIPT.json",
+        "bytes": 9948,
+        "sha256": "3ce38d781c0148f136f9a1698b64bb01cdab4acfa3b47a842ed325d652d20805"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-07700000-07800000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "7282dd2b8c40ecd46a93210c9ada20f2b1f1d927c9b51b8f971b99aa13972c8f"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-07800000-07900000-001.json",
+        "bytes": 494,
+        "sha256": "a8b0bd9be34a9d0898064d315d426202d685768ab7ae53c63a5c170d7ad24bec"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-07800000-07900000-001/RECEIPT.json",
+        "bytes": 9980,
+        "sha256": "de93b525f7d18814f129304c88b807796425a4c96b69e3b636fa21b3a7b49293"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-07800000-07900000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "87219968fa743b5fe3b96803956e3344ee95f86c6204efae9a89dbf3dc822479"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-07900000-08000000-001.json",
+        "bytes": 510,
+        "sha256": "ef800eebbc6561a557999f221a2ed7af0b9e587cadc291f3f6986c378e17d3ac"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-07900000-08000000-001/RECEIPT.json",
+        "bytes": 10002,
+        "sha256": "a4008d9368d009d2a5a7530ae17969690635ce989d3b031ee3a39b6534c4405b"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-07900000-08000000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "9a92740350a6b2b05fe17b719abfc440cd4564633a4fb84c7c3bda9ff4018395"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-08000000-08100000-001.json",
+        "bytes": 481,
+        "sha256": "1f5ade709f2a6678aef76f201a7056a4cfad8dc6afaa01e03228ba96b86a74ac"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-08000000-08100000-001/RECEIPT.json",
+        "bytes": 9970,
+        "sha256": "84b43602f2c6af4b0223e6ca550a434222dc380d4a41e8e27a47b8813f7d0a58"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-08000000-08100000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "36c1118aab3a190ff8de3aae9d9ec155fd3bcd5541e5d5b47adda3b34b672617"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-08100000-08200000-001.json",
+        "bytes": 528,
+        "sha256": "91ee8358abe3606a54191f63083ceeeaeb0ea417b0f31557816841ae19056dc9"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-08100000-08200000-001/RECEIPT.json",
+        "bytes": 10009,
+        "sha256": "005734301e960b3ba6fd2c7e3f3732bbba368d542be5d04d40fb8a194d62f493"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-08100000-08200000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "2b604016a34631cb046ef6c96ea51792be07ec741d66282af33f552338220bf1"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-08200000-08300000-001.json",
+        "bytes": 514,
+        "sha256": "d8c29dfb3547ff2ca64a5f9b131f777d2fc76d8015637bc66ea356fa62713094"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-08200000-08300000-001/RECEIPT.json",
+        "bytes": 9997,
+        "sha256": "94a13946250fcc9523b29cacfa2ba520716c36062be24a70c4469f2645350ccd"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-08200000-08300000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "560fb63163e51414996454d9219a93f2c9f52c6301dc07de513fafffc1d205bf"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-08300000-08400000-001.json",
+        "bytes": 511,
+        "sha256": "5dcbff5cdd0946ede511d99a88f90d576711e670fabb104cc6a8d0b657e361c9"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-08300000-08400000-001/RECEIPT.json",
+        "bytes": 9990,
+        "sha256": "56a1635782dd1f3e5eff7574f18586149c0d2a1d9942843b3b4b8fef66c13715"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-08300000-08400000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "e097c47e311b9f343c1ec8c15b21be390ced51d0a42ec9d2b99c8cd9da521747"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-08400000-08500000-001.json",
+        "bytes": 470,
+        "sha256": "bc3f6478f70187101a2288083bebc92f67a0b91509468e70255bfda652a80213"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-08400000-08500000-001/RECEIPT.json",
+        "bytes": 9958,
+        "sha256": "70847f884b9b43eec4e43b948c6988eb52cd05d3010d22ef97bcb439be506dfa"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-08400000-08500000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "3cdcfe8e813c33e7a17e13fe10c34d8e1ffd44b116bbc79eba537d1ac3d39345"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-08500000-08600000-001.json",
+        "bytes": 512,
+        "sha256": "05c22208a52709c64c7b1ba59763d9ed9a2f76e45f2326e1072a9150ae069fab"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-08500000-08600000-001/RECEIPT.json",
+        "bytes": 9999,
+        "sha256": "e1e6a85e19704d451c925191b0d86d06974022ca874b30885b55d45c772a2382"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-08500000-08600000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "c344bf30f1732d7f9cec9b488f50b52f78fae936d2775499d95d786fa82c461b"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-08600000-08700000-001.json",
+        "bytes": 477,
+        "sha256": "641f15fa8d493aba61f1693a1a3c79afdbe00ac7415f68c4e87d33032a6b05d3"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-08600000-08700000-001/RECEIPT.json",
+        "bytes": 9968,
+        "sha256": "8f8855b8774640918e7da1cdfceecbe20179859fbe4c143d4250df5a131c200b"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-08600000-08700000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "3cafcbb7ecd243063f3e5903283a51af45e5731c6593375b4bd527e98ff8aa2d"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-08700000-08800000-001.json",
+        "bytes": 447,
+        "sha256": "b4553885ea456b8b00fa20af5d3482a4c0d676ece1fa7fd2e9567791314871d4"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-08700000-08800000-001/RECEIPT.json",
+        "bytes": 9937,
+        "sha256": "3da3caba02b2921b1196fd52fb9ea38599c57e5f807df311233d19ce40a5d4c0"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-08700000-08800000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "9bbed2d0e3f69c41899138d8f4d298ee98f32595ddd36eaf4ac8fa9c2d3c293a"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-08800000-08900000-001.json",
+        "bytes": 444,
+        "sha256": "46296e4188a295022b352d5fd937232e6fbad3d064f26dd33444fabcfc8a837a"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-08800000-08900000-001/RECEIPT.json",
+        "bytes": 9927,
+        "sha256": "f1b7830c6ff6fdcfb2deaadf6a58df9d57ad9cae95d0a8a22076b1773164c48f"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-08800000-08900000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "fe5abdefe0089114afe8ee1e1ee6babc6837c7cf2b5b583398d9f50fde12fbde"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-08900000-09000000-001.json",
+        "bytes": 458,
+        "sha256": "2122b24d95e49ff43215cf04509826633891c1581581518ecf2b9751d36ad6cd"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-08900000-09000000-001/RECEIPT.json",
+        "bytes": 9950,
+        "sha256": "951a24f7396d8a29a8048d216ed209247fbe50160f9f6b991c451f0570ad82ff"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-08900000-09000000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "b2aa39d383af35102a1926b1e3bef6cbd87986dc3de0549a58f96b7235e2f2fc"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-09000000-09100000-001.json",
+        "bytes": 446,
+        "sha256": "f97cac3a05aa353edcc18e04698569ff66de3ebfa8ef294bff4567a9e54a1043"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-09000000-09100000-001/RECEIPT.json",
+        "bytes": 9936,
+        "sha256": "d50e7615bd389a5ed013e363cf492fabb4a149855a316a7d9396908ce42bb7b4"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-09000000-09100000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "91e65fa1508715fb439f45ed0b979971f83f8beb9046f742649d3c48b6136755"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-09100000-09200000-001.json",
+        "bytes": 444,
+        "sha256": "d9e3a558bee3693e98f531f25b508d0fb1629cc83e5f6f6b29d6094e457301b4"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-09100000-09200000-001/RECEIPT.json",
+        "bytes": 9924,
+        "sha256": "078b7e84f24bddba318aeb639a14565af333c2767adac5af2a7076dfedec5289"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-09100000-09200000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "00073bc886d528f842a0f9b028f76ccba29b1c965301698183356920cc4c7ee7"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-09200000-09300000-001.json",
+        "bytes": 442,
+        "sha256": "36c2ec0ea3cf3edf1e9f4d0ccb4eeaaf9d48f270b5475efe90e70e77b00c3e42"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-09200000-09300000-001/RECEIPT.json",
+        "bytes": 9930,
+        "sha256": "c4e6d773ce2011807aad3757117b0ce9b4ff8d97f9c5ea7e9dd80998affce916"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-09200000-09300000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "409e3bbe6299d302bd066aebefd1a3a3355c2ac840d228863896dce3be7d09f4"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-09300000-09400000-001.json",
+        "bytes": 478,
+        "sha256": "718f06d1dc92e49e85c8738cfb2c91b15985e887806f262941392fe1d9ac3532"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-09300000-09400000-001/RECEIPT.json",
+        "bytes": 9964,
+        "sha256": "4b7b3e59342b965e70b7e86fcb659ca47d9bc3e3de91b797278e11af200e2491"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-09300000-09400000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "eee8ff066061bb204214ab5f0db838e4d7b113783e67bf72c14ce6af7064925c"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-09400000-09500000-001.json",
+        "bytes": 465,
+        "sha256": "59451d83223fd1df1045f366608257898c6072f4b37275d69d7a59ce2cbf43d3"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-09400000-09500000-001/RECEIPT.json",
+        "bytes": 9941,
+        "sha256": "d04ff3a3ef7f5fbd614c0f29fc11493d019698e8d388c1e6f2c20a86cd9b0f32"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-09400000-09500000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "cb9903bff83fa9d36a9211be9ef03ce3a91b3edcdac3a2745dd6aca8ae2645de"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-09500000-09600000-001.json",
+        "bytes": 457,
+        "sha256": "611aeaf8810796ddd6a3cd5df97b4727770438e155596955314dd7d22d4b07a4"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-09500000-09600000-001/RECEIPT.json",
+        "bytes": 9937,
+        "sha256": "71cf0a4190039d6e6bb7c33e0e78caee185b4e86ca0a305e5702bfca6bf5d31b"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-09500000-09600000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "42f3ace9fc8d25769385d0da599ec8d98ecc34cc918b98a33a90a00ad93e0a4b"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-09600000-09700000-001.json",
+        "bytes": 434,
+        "sha256": "9a562bdd1374b1fe762f6909adb4110be6959d29bdc4f12d70e703f1aede3a6e"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-09600000-09700000-001/RECEIPT.json",
+        "bytes": 9921,
+        "sha256": "238353026011c12bd238f793042068533e6cada42a3472ed568792f8a27ef836"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-09600000-09700000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "d9041f3b003e1a7fdd6b085ab7ac981f3feaca7b0fea6b333b95e7f370d2091a"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-09700000-09800000-001.json",
+        "bytes": 460,
+        "sha256": "3aee2433bb7c13b549edcd8791d76085f744ea73aabf3520eaaa2200be28fa5c"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-09700000-09800000-001/RECEIPT.json",
+        "bytes": 9946,
+        "sha256": "38fead8e5972e92b8a99adfeda15e853f460ac50d1b35cc36602397cbf6fd70b"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-09700000-09800000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "f64edec618fb21105794b27d14c270dcf908f9bda46127bf5f55754d2e44467a"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-09800000-09900000-001.json",
+        "bytes": 486,
+        "sha256": "28c62d2781b5aaa7bc6f8e46c8b1cd36c33cb0ca915136e61fa566b0ad64f6a0"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-09800000-09900000-001/RECEIPT.json",
+        "bytes": 9974,
+        "sha256": "07a273217a437bdba09fb062d7cce5c706dfcde86617f1c94a746fae8996c7d9"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-09800000-09900000-001/BINDING.json",
+        "bytes": 38169,
+        "sha256": "8ce3a8d76ec1f8ab29a5d0333064339e1e45fa3bb0dc7d50f86952dd73b7274c"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-09900000-10000000-001.json",
+        "bytes": 489,
+        "sha256": "40411659c7346e20304e1d810c0952b3e0747ea453e303e2009fe60f48df6b4a"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-09900000-10000000-001/RECEIPT.json",
+        "bytes": 9975,
+        "sha256": "a215701517c87414733d0a3dbe3ee2192e8d2f6b815d15dffd80719ab8f61283"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-09900000-10000000-001/BINDING.json",
+        "bytes": 38170,
+        "sha256": "a9b7089e9005431a7afafb9de910d6e6f10cee7c5dddcd695136fd1559b165cb"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-10000000-10100000-001.json",
+        "bytes": 462,
+        "sha256": "9be113706afea3c7467ad89eda5fafe98a77eaca1c7a5a290639a7c55a543a9f"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-10000000-10100000-001/RECEIPT.json",
+        "bytes": 9948,
+        "sha256": "30e5bbccece75026bdae525fa8b2ee109e683b8164be22b6215317396fd37d08"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-10000000-10100000-001/BINDING.json",
+        "bytes": 38171,
+        "sha256": "0bf790b65744837dbda42298e3cd1e5e0e22abb23038b18d2f35a0caecccc232"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-10100000-10200000-001.json",
+        "bytes": 458,
+        "sha256": "d295356bed35fd52f421a6bf52d7063ae3e5c88f2803f266884a70c726ff968b"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-10100000-10200000-001/RECEIPT.json",
+        "bytes": 9944,
+        "sha256": "61202fa98d4b95911baa68cec85ab547b30ceeca1982bbbd63ec9f6332d11417"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-10100000-10200000-001/BINDING.json",
+        "bytes": 38171,
+        "sha256": "f475da1eb238992c8874573ae0dc938b871c63760f8f440d55007d09f49842a5"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-10200000-10300000-001.json",
+        "bytes": 468,
+        "sha256": "5f598ae8e4dc33acdd63edba73f5949d16e622d408cfad3a2978de46e710170b"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-10200000-10300000-001/RECEIPT.json",
+        "bytes": 9965,
+        "sha256": "590f826fb037371ba0cb56bf676e6cf42e2df6f4f2af9b256f03ec06e6527787"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-10200000-10300000-001/BINDING.json",
+        "bytes": 38171,
+        "sha256": "416e07e671ade636a00ce2e2727ac44766f70ee19ec498133df5f3f83dc3e1c9"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-10300000-10400000-001.json",
+        "bytes": 483,
+        "sha256": "23754c5949ecd5f2c14a0512f6462bc508f0ad0cf99d921718f01dd2541dc055"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-10300000-10400000-001/RECEIPT.json",
+        "bytes": 9967,
+        "sha256": "d33af4a248a4000e6cf746a5c9dc81b1b15e6475befdbf9489eb57f5a47a95e8"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-10300000-10400000-001/BINDING.json",
+        "bytes": 38171,
+        "sha256": "7969480a8b6606ba732f13a9f23a42bdd64c714f018271e89832eab9d8262e17"
+      }
+    },
+    {
+      "result": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-10400000-10480218-001.json",
+        "bytes": 481,
+        "sha256": "e77126a4bd4823055da0d2916676325c32e9f94601c00b2081e86414406f98a3"
+      },
+      "receipt": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-10400000-10480218-001/RECEIPT.json",
+        "bytes": 9297,
+        "sha256": "fb9c4f0894376fa8f01f55a8fc0d57f2a53e550bdac20aec7e0a9f3de5c5e37c"
+      },
+      "binding": {
+        "path": "/Volumes/SLR-Research/stretched-lr-research/results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/jobs/full-field-polish30-10400000-10480218-001/BINDING.json",
+        "bytes": 38171,
+        "sha256": "732054521bf0b2760ce327967dc51a0441c430093d36d9a3269a8700f82b56fd"
+      }
+    }
+  ],
+  "all_exact_range_minima_at_least_epsilon": true,
+  "candidate_label": "full-cyclic-polish30-001",
+  "total_actual_numerical_sweeps": 247,
+  "generic_parent_c1_established": false,
+  "whole_rank_six_established": false,
+  "ordinary_negative_LR_claimed": false,
+  "proof_documents": [
+    "/Volumes/SLR-Research/stretched-lr-research/methods/astra017-2026-09-17/WHOLE-C2-IMPLICATION.md",
+    "/Volumes/SLR-Research/stretched-lr-research/methods/astra017-2026-09-17/GLOBAL-QUOTIENT-CONSEQUENCES.md",
+    "/Volumes/SLR-Research/stretched-lr-research/methods/astra017-2026-09-17/GLOBAL-C2-RESULT.md"
+  ]
+}

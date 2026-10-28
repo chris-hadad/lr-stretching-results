@@ -39,7 +39,12 @@ The small coefficient command enumerates every one-, two- and three-normal
 support using two exact scalar algorithms, then all 102,297 independent
 four-normal supports. It checks 381 saturated kernels and 14,067 primitive
 incidences in the sixth-coefficient field. Exact minima are `1/2`, `1/9`,
-`1/144`, and `164999999111/491400000000000`. Dependent complements are included.
+`1/144`, and `164999999111/491400000000000`. Every c6 row must be at least
+`1/3000`, and the command refuses unless the c9, c8 and c7 minima are at least
+their bounds `1/2`, `1/9` and `1/144`; it records those three exact minima and
+bounds under `margins` in `RESULT.json`. Dependent complements are included.
+`python3 -B tooling/whole_rank_six/test_small_margins.py` checks that gate on
+synthetic receipts, without compiling or running the components.
 `PASS_COMPLETE_SMALL_COMPONENTS` covers c6–c9; c10 is the volume term.
 
 ## Restore the complete numerical data
@@ -87,7 +92,9 @@ The c1 command reconstructs the complete cone, every physical branch, the
 original correction action and the full q7→q8→q9 domain/extension coverage.
 Its finite sign domain has 13,325,662 retained orbit rows, within the complete
 27,230,728-row roster. The new public c3 and c2 commands cover all 2,999,563
-and 10,480,218 field rows respectively. The c4/c5 command includes complete
+and 10,480,218 field rows respectively, and each requires every exact β to be
+at least 1/200,000,000; the c2 command folds its range minima and records the
+exact minimum in its complete receipt. The c4/c5 command includes complete
 regeneration of its 333,769 local types. Each phase has a precise complete
 receipt and retains its original-lattice interpretation.
 
@@ -126,7 +133,10 @@ source bindings, fresh exports, data restoration and refusal controls. The
 complete mathematical engines were replayed on isolated inputs. The final
 portable lower wrapper additionally ran complete c3 core, complete c2 field,
 small H8 levels, all six scientific controls and a diagnostic q8 shard from a
-clean export. The final q9 parallel wrapper received actual interruption and
+clean export. The c2 margin gate was added after those runs; their recorded c2
+range results refold to the exact minimum about 8.778990400778063e-9, 1.7558
+times 1/200,000,000, without a rerun of the sweep ([lower guide](lower/README.md)).
+The final q9 parallel wrapper received actual interruption and
 partial-result checks; its full 455-range computation is recorded under the
 separate complete driver. Those implementation scopes are kept explicit.
 
