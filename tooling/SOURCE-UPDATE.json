@@ -2698,7 +2698,7 @@
     {
       "path": "whole_rank_six/SOURCE-MAP.json",
       "bytes": 79432,
-      "sha256": "a2968d1548aff844adb6c1b9da4f25be6518b56a80efbf4cdf75badbe272d2bb",
+      "sha256": "10e0668b1758eb930daa8d24f9cfd4a0d3ba2032dbe476733309a04c7a0acf10",
       "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
       "publication_refresh_history": [
         {
@@ -2713,13 +2713,18 @@
           "previous_included_sha256": "b0b936ba446c8b124da0440d0b83730de40b0ae580f5ab9da60478eddd2e4b95",
           "current_included_sha256": "a2968d1548aff844adb6c1b9da4f25be6518b56a80efbf4cdf75badbe272d2bb",
           "date": "2026-10-28"
+        },
+        {
+          "previous_included_sha256": "a2968d1548aff844adb6c1b9da4f25be6518b56a80efbf4cdf75badbe272d2bb",
+          "current_included_sha256": "10e0668b1758eb930daa8d24f9cfd4a0d3ba2032dbe476733309a04c7a0acf10",
+          "date": "2026-10-28"
         }
       ]
     },
     {
       "path": "whole_rank_six/VERIFICATION.json",
-      "bytes": 12330,
-      "sha256": "ae611bdf0ba268c5403374e536fadfdb7eb970d2fb77af798e623183a0bc2de1",
+      "bytes": 13768,
+      "sha256": "f88e872ec512d289b2dca92965b626aac5d8d2208c7635dd451b6c76f00869bb",
       "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
       "publication_refresh_history": [
         {
@@ -2729,6 +2734,11 @@
         {
           "previous_included_sha256": "32aeda6ff787ae6fc7caeaf5b64cd94f9f19e9d9f21e4272cf1d3d34d22587b8",
           "current_included_sha256": "ae611bdf0ba268c5403374e536fadfdb7eb970d2fb77af798e623183a0bc2de1",
+          "date": "2026-10-28"
+        },
+        {
+          "previous_included_sha256": "ae611bdf0ba268c5403374e536fadfdb7eb970d2fb77af798e623183a0bc2de1",
+          "current_included_sha256": "f88e872ec512d289b2dca92965b626aac5d8d2208c7635dd451b6c76f00869bb",
           "date": "2026-10-28"
         }
       ]

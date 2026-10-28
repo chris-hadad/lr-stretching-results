@@ -15407,8 +15407,8 @@
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "sha256": "1f895a27276d5acb4d88a2c373a94f47ffa4723716fec40c2f55e8ae3036499b"
       },
-      "included_bytes": 226945,
-      "included_sha256": "cb4c7add50ccbd6e0d1f41995deb2d79ebe34fd649931a90f640da5a980410a8",
+      "included_bytes": 227471,
+      "included_sha256": "0e2bcfd9fd88cbbaa3c2b7a075088b76de0f81832609a68af447546693177d76",
       "path": "tooling/SOURCE-UPDATE.json",
       "pre_licensing_included_sha256": "0617793a3cc1b4123e2a7c8795df40ea753c612e35ac8f955510dceb5e660b5b",
       "previous_included_sha256": "86f2f85c35b098751ff977c479d199e9298bf898c864378fba54b90d1ac2386d",
@@ -15444,6 +15444,11 @@
         {
           "previous_included_sha256": "4b82f133bc55e9b436e028b0451141d6cd7bd3310621e665c182cce8300708e8",
           "current_included_sha256": "cb4c7add50ccbd6e0d1f41995deb2d79ebe34fd649931a90f640da5a980410a8",
+          "date": "2026-10-28"
+        },
+        {
+          "previous_included_sha256": "cb4c7add50ccbd6e0d1f41995deb2d79ebe34fd649931a90f640da5a980410a8",
+          "current_included_sha256": "0e2bcfd9fd88cbbaa3c2b7a075088b76de0f81832609a68af447546693177d76",
           "date": "2026-10-28"
         }
       ]
@@ -17238,7 +17243,7 @@
     {
       "path": "tooling/whole_rank_six/SOURCE-MAP.json",
       "included_bytes": 79432,
-      "included_sha256": "a2968d1548aff844adb6c1b9da4f25be6518b56a80efbf4cdf75badbe272d2bb",
+      "included_sha256": "10e0668b1758eb930daa8d24f9cfd4a0d3ba2032dbe476733309a04c7a0acf10",
       "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
       "publication_refresh_history": [
         {
@@ -17253,13 +17258,18 @@
           "previous_included_sha256": "b0b936ba446c8b124da0440d0b83730de40b0ae580f5ab9da60478eddd2e4b95",
           "current_included_sha256": "a2968d1548aff844adb6c1b9da4f25be6518b56a80efbf4cdf75badbe272d2bb",
           "date": "2026-10-28"
+        },
+        {
+          "previous_included_sha256": "a2968d1548aff844adb6c1b9da4f25be6518b56a80efbf4cdf75badbe272d2bb",
+          "current_included_sha256": "10e0668b1758eb930daa8d24f9cfd4a0d3ba2032dbe476733309a04c7a0acf10",
+          "date": "2026-10-28"
         }
       ]
     },
     {
       "path": "tooling/whole_rank_six/VERIFICATION.json",
-      "included_bytes": 12330,
-      "included_sha256": "ae611bdf0ba268c5403374e536fadfdb7eb970d2fb77af798e623183a0bc2de1",
+      "included_bytes": 13768,
+      "included_sha256": "f88e872ec512d289b2dca92965b626aac5d8d2208c7635dd451b6c76f00869bb",
       "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
       "publication_refresh_history": [
         {
@@ -17269,6 +17279,11 @@
         {
           "previous_included_sha256": "32aeda6ff787ae6fc7caeaf5b64cd94f9f19e9d9f21e4272cf1d3d34d22587b8",
           "current_included_sha256": "ae611bdf0ba268c5403374e536fadfdb7eb970d2fb77af798e623183a0bc2de1",
+          "date": "2026-10-28"
+        },
+        {
+          "previous_included_sha256": "ae611bdf0ba268c5403374e536fadfdb7eb970d2fb77af798e623183a0bc2de1",
+          "current_included_sha256": "f88e872ec512d289b2dca92965b626aac5d8d2208c7635dd451b6c76f00869bb",
           "date": "2026-10-28"
         }
       ]
@@ -18519,9 +18534,9 @@
       ]
     },
     "tooling": {
-      "bytes": 226945,
+      "bytes": 227471,
       "path": "tooling/SOURCE-UPDATE.json",
-      "sha256": "cb4c7add50ccbd6e0d1f41995deb2d79ebe34fd649931a90f640da5a980410a8",
+      "sha256": "0e2bcfd9fd88cbbaa3c2b7a075088b76de0f81832609a68af447546693177d76",
       "publication_refresh_history": [
         {
           "previous_included_sha256": "ae4b49a6ebcdbcea8d43041adfdb9d1371fb956bc8d68a4ec57b804415ff088a",
@@ -18552,6 +18567,11 @@
         {
           "previous_included_sha256": "4b82f133bc55e9b436e028b0451141d6cd7bd3310621e665c182cce8300708e8",
           "current_included_sha256": "cb4c7add50ccbd6e0d1f41995deb2d79ebe34fd649931a90f640da5a980410a8",
+          "date": "2026-10-28"
+        },
+        {
+          "previous_included_sha256": "cb4c7add50ccbd6e0d1f41995deb2d79ebe34fd649931a90f640da5a980410a8",
+          "current_included_sha256": "0e2bcfd9fd88cbbaa3c2b7a075088b76de0f81832609a68af447546693177d76",
           "date": "2026-10-28"
         }
       ]
@@ -18662,7 +18682,7 @@
     "tooling/whole_rank_six": {
       "path": "tooling/whole_rank_six/SOURCE-MAP.json",
       "bytes": 79432,
-      "sha256": "a2968d1548aff844adb6c1b9da4f25be6518b56a80efbf4cdf75badbe272d2bb"
+      "sha256": "10e0668b1758eb930daa8d24f9cfd4a0d3ba2032dbe476733309a04c7a0acf10"
     },
     "tooling/whole_rank_six/lower": {
       "path": "tooling/whole_rank_six/lower/SOURCE-MAP.json",

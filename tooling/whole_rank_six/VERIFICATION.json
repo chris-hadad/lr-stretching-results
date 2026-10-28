@@ -42,6 +42,21 @@
     },
     "theorem_epsilon": "1/200000000"
   },
+  "c3": {
+    "exact_minimum_recorded": false,
+    "exact_minimum_note": "No committed record in this repository states the c3 exact minimum. lower/src/check_field.py emits minimum_beta in its field result, but no such result is committed here; the value is not inferred.",
+    "margin_gate": "lower/src/check_field.py counts every row with beta below theorem_epsilon; lower/replay.py c3_core requires that count to be zero",
+    "theorem_epsilon": "1/200000000"
+  },
+  "c4": {
+    "exact_minimum": "3412401888539617/3407104701000000000000",
+    "margin_gate": "tooling/rank6_certificates/verify.py requires every row's exact corrected value to be at least theorem_epsilon",
+    "minimum_row_zero_based": 192,
+    "source_field": "rational.q6.minimum",
+    "source_record": "results/rank-six-coefficients/VERIFICATION.json",
+    "source_record_sha256": "3ab36309d67a4885df8aad08b7c748fa21be01fa1a61fde34b363038d9360abf",
+    "theorem_epsilon": "1/2000000"
+  },
   "c4_c5": {
     "complete_local_types": 333769,
     "elapsed_seconds": 1383.6485,
@@ -50,6 +65,15 @@
       "c4": 675721,
       "c5": 121241
     }
+  },
+  "c5": {
+    "exact_minimum": "25239007/25245000000000",
+    "margin_gate": "tooling/rank6_certificates/verify.py requires every row's exact corrected value to be at least theorem_epsilon",
+    "minimum_row_zero_based": 291,
+    "source_field": "rational.q5.minimum",
+    "source_record": "results/rank-six-coefficients/VERIFICATION.json",
+    "source_record_sha256": "3ab36309d67a4885df8aad08b7c748fa21be01fa1a61fde34b363038d9360abf",
+    "theorem_epsilon": "1/2000000"
   },
   "c6": {
     "dependent_complement": 9633,
