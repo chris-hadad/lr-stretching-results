@@ -43,9 +43,15 @@
     "theorem_epsilon": "1/200000000"
   },
   "c3": {
-    "exact_minimum_recorded": false,
-    "exact_minimum_note": "No committed record in this repository states the c3 exact minimum. lower/src/check_field.py emits minimum_beta in its field result, but no such result is committed here; the value is not inferred.",
+    "exact_minimum": "151439793809/15146439000000000000",
+    "exact_minimum_note": "Read from lower/c3-core-field/field.json, a byte copy of the c3 field result that check_field.py wrote for the publication replay run SLR-PUB-RANK-SIX-20260925-001 (c3-core phase, all 2999563 rows, below_epsilon 0); that run's checker copy differs from lower/src/check_field.py only by the latter's early refusal of optimized Python. That run's c3-core COMPLETE.json and its audit do not hash this file; its bytes and SHA-256 are bound by the campaign's committed custody manifests SLR-PUB-RANK-SIX-20260925-001-ALL.json, -ALL-V2.json and -ALL-V3.json.",
+    "exact_minimum_recorded": true,
     "margin_gate": "lower/src/check_field.py counts every row with beta below theorem_epsilon; lower/replay.py c3_core requires that count to be zero",
+    "minimum_over_theorem_epsilon": "151439793809/75732195000",
+    "minimum_row_zero_based": 398151,
+    "source_field": "minimum_beta",
+    "source_record": "lower/c3-core-field/field.json",
+    "source_record_sha256": "79bf4a65951c99317643548034f826f12d73d5f9ea4174cdeedfaaf7cf4838c4",
     "theorem_epsilon": "1/200000000"
   },
   "c4": {

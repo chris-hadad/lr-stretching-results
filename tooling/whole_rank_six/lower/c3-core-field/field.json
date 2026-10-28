@@ -1,0 +1,218 @@
+{
+  "status": "PASS_EXACT_DECLARED_FIELD_ROWS",
+  "end": 2999563,
+  "rows": 2999563,
+  "nonzeros": 38215504,
+  "field": {
+    "entries": 2702884,
+    "nonzero": 1347074,
+    "max_abs": 119981311320,
+    "all_multiples_of_six": true
+  },
+  "scalar_types": 1651060,
+  "negative_scalar_types": 114894,
+  "scalar_max_integer_bits": 206,
+  "minimum_raw_type": 1649641,
+  "minimum_raw_alpha": "-909029731760635234353657213378487939/10113587488172929625941553897958720000",
+  "raw_negative_rows": 181142,
+  "original_subsets_by_supplied_stabilizers": 17989332,
+  "negative_originals_by_supplied_stabilizers": 1086564,
+  "negative_corrected_rows": 0,
+  "zero_corrected_rows": 0,
+  "below_epsilon": 0,
+  "maximum_abs_Bv": 2458894177368,
+  "maximum_l1": 96,
+  "minimum": {
+    "row": 398151,
+    "ordinal": 1303913,
+    "type_id": 574161,
+    "Bv": -9305176764
+  },
+  "minimum_beta": "151439793809/15146439000000000000",
+  "loading_seconds": 4.248895833967254,
+  "scan_seconds": 47.047211957979016,
+  "total_seconds": 51.29618558392394,
+  "all_row_estimate_seconds": 51.29610779194627,
+  "bindings": [
+    {
+      "path": "U02/DATA/atlas.txt",
+      "bytes": 1704,
+      "sha256": "c9dda99e779c800af87e7b61bc254c2d732d0473e955f93d5e3d3e3f12712718"
+    },
+    {
+      "path": "U02/DATA/atlas.json",
+      "bytes": 20229,
+      "sha256": "69872685131cfbdab8c1ac3acd2b92b551f2abfee562b8cc5c717dbd30b52885"
+    },
+    {
+      "path": "U02/DATA/ALL.kernels",
+      "bytes": 111493965,
+      "sha256": "bd4eaf8d74677b6709f441c3b19e2fa19be9d4b5e6bdd8d18a70d5ccb5a7db96"
+    },
+    {
+      "path": "U02/DATA/q6.join",
+      "bytes": 8108652,
+      "sha256": "54804f191d1dfa3d8290c7e7e53d75a599ae6a2066d31ac8a5cb8281cde981fa"
+    },
+    {
+      "path": "U02/DATA/q7.join",
+      "bytes": 35994756,
+      "sha256": "58fc88b306c2b4a1fcaa13497be9c209b2ec1a7c103c9d288590ea4819e57a64"
+    },
+    {
+      "path": "U02/DATA/q7.lookup",
+      "bytes": 215826624,
+      "sha256": "ce8c067d9f7ef9ea56418c3c3e2722e707ccbe0fa45290adb7d3299d050cf30f"
+    },
+    {
+      "path": "U02/DATA/q7.types",
+      "bytes": 120527380,
+      "sha256": "0072dc545230a7acab77a9da8f510840300a2b2aafd8900e6f1f14efc2743f06"
+    },
+    {
+      "path": "U02/DATA/incidence-0000000.rows",
+      "bytes": 881512,
+      "sha256": "c1a8e4f46f98a844a37ddb3fe12774614729101c0201cd9772f0d6125a64ffc3"
+    },
+    {
+      "path": "U02/DATA/incidence-0010000.rows",
+      "bytes": 24056112,
+      "sha256": "f43048676fdc0f74d9e4fc466cedf40c2f0dc3b3331cb2a10ded2cc99158583a"
+    },
+    {
+      "path": "U02/DATA/incidence-0260000.rows",
+      "bytes": 25542896,
+      "sha256": "c9d79c5933e86e049abd0d0363c7035d0b17340eb0266a53004de663dfbde229"
+    },
+    {
+      "path": "U02/DATA/incidence-0510000.rows",
+      "bytes": 27161224,
+      "sha256": "e6a3b85e25b14279cfcf35343dcab8d90b8620090ff105f93b1933b822dc3422"
+    },
+    {
+      "path": "U02/DATA/incidence-0760000.rows",
+      "bytes": 26318624,
+      "sha256": "08b6716c87138803909250f11cc05c1538fd39d93bd1839c794124c64e47a20f"
+    },
+    {
+      "path": "U02/DATA/incidence-1010000.rows",
+      "bytes": 24944728,
+      "sha256": "714e8b939c50dd7a115d8ea65c34e1f848095458005347daa94722beed7185a0"
+    },
+    {
+      "path": "U02/DATA/incidence-1260000.rows",
+      "bytes": 26982416,
+      "sha256": "e7bc37382febea7abad10ca9ed05de4f4476e95458499493809e48e87bcb87d8"
+    },
+    {
+      "path": "U02/DATA/incidence-1510000.rows",
+      "bytes": 28798288,
+      "sha256": "30e76c2c5de01a855d828016f0061be2b8a2cc0f69bcec193e685d74a3b9922b"
+    },
+    {
+      "path": "U02/DATA/incidence-1760000.rows",
+      "bytes": 27949248,
+      "sha256": "03e3ced886acb71c79aeae37790bce0ac764e42f7869d46cb452d232e8469d45"
+    },
+    {
+      "path": "U02/DATA/incidence-2010000.rows",
+      "bytes": 27597960,
+      "sha256": "087b96a01e2bb5e8fa3e5ac96a6ec56588a812d7a8070e8b2bf2b10dec5d6c39"
+    },
+    {
+      "path": "U02/DATA/incidence-2260000.rows",
+      "bytes": 28342944,
+      "sha256": "d1b46d88ec9c681173096657e51cfa67805bc0d033594983a19f98cbcb5a7a2b"
+    },
+    {
+      "path": "U02/DATA/incidence-2510000.rows",
+      "bytes": 28704784,
+      "sha256": "f3ff819314d86923668a2b5dece2290e8a738ce4de3f6defaeb1cf7f31eb98fb"
+    },
+    {
+      "path": "U02/DATA/incidence-2760000.rows",
+      "bytes": 26440674,
+      "sha256": "e26f3c9701ef28518a5a9fbb8e42260fff716b0dc2e5f30db72b2bde81cc4c51"
+    },
+    {
+      "path": "U03-A05/DATA/CACHE/q7.jets",
+      "bytes": 71054145,
+      "sha256": "aa151cee1fadac03f6b8ecddcd989457ed7eec17eeaf6a06f79990f588c153ce"
+    },
+    {
+      "path": "U03-A05/DATA/RHS-ORBIT-TYPES.u32",
+      "bytes": 11998252,
+      "sha256": "3c5f8d1fcad68367e9e83347cd5c4dbd2cc4db7ac70ab6494490a4b3c8b83121"
+    }
+  ],
+  "returned_code_executed": false,
+  "scope": "Exact field inequalities and declared full scalar/operator/join consistency. Does not derive scalar values from BV or regenerate complete topology.",
+  "all_types_used": true,
+  "maximum_type_reuse": 160,
+  "adverse_control": {
+    "kind": "INTENTIONAL_CHANGED_FIELD_CONTROL",
+    "coordinate": 265040,
+    "delta": -30001,
+    "wrong_Bv": -9305236766,
+    "wrong_beta": "-2470417/1262203250000000000",
+    "whole_LR_negative": false
+  },
+  "witness": {
+    "row": 398151,
+    "ordinal": 1303913,
+    "type_id": 574161,
+    "raw_alpha": "481079299/310199070720",
+    "Bv": -9305176764,
+    "entries": [
+      [
+        265040,
+        2
+      ],
+      [
+        265042,
+        -1
+      ],
+      [
+        265077,
+        1
+      ],
+      [
+        265079,
+        -1
+      ],
+      [
+        265617,
+        -2
+      ],
+      [
+        265618,
+        1
+      ],
+      [
+        277273,
+        2
+      ],
+      [
+        277274,
+        -1
+      ],
+      [
+        293501,
+        -1
+      ],
+      [
+        547157,
+        1
+      ],
+      [
+        547158,
+        -1
+      ],
+      [
+        1646803,
+        -1
+      ]
+    ],
+    "beta": "151439793809/15146439000000000000"
+  }
+}

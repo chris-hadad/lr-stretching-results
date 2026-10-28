@@ -2697,8 +2697,8 @@
     },
     {
       "path": "whole_rank_six/SOURCE-MAP.json",
-      "bytes": 79432,
-      "sha256": "10e0668b1758eb930daa8d24f9cfd4a0d3ba2032dbe476733309a04c7a0acf10",
+      "bytes": 80122,
+      "sha256": "8f3b4798b7a58ed49f0c1003c94a3d533f6aab4c56d5f50863f1c0a5d66a29a6",
       "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
       "publication_refresh_history": [
         {
@@ -2718,13 +2718,18 @@
           "previous_included_sha256": "a2968d1548aff844adb6c1b9da4f25be6518b56a80efbf4cdf75badbe272d2bb",
           "current_included_sha256": "10e0668b1758eb930daa8d24f9cfd4a0d3ba2032dbe476733309a04c7a0acf10",
           "date": "2026-10-28"
+        },
+        {
+          "previous_included_sha256": "10e0668b1758eb930daa8d24f9cfd4a0d3ba2032dbe476733309a04c7a0acf10",
+          "current_included_sha256": "8f3b4798b7a58ed49f0c1003c94a3d533f6aab4c56d5f50863f1c0a5d66a29a6",
+          "date": "2026-10-28"
         }
       ]
     },
     {
       "path": "whole_rank_six/VERIFICATION.json",
-      "bytes": 13768,
-      "sha256": "f88e872ec512d289b2dca92965b626aac5d8d2208c7635dd451b6c76f00869bb",
+      "bytes": 14469,
+      "sha256": "17a3b93fa71cc9c03db4c60d6416c3967fd9577207319229d5c28f63e6e0b09c",
       "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
       "publication_refresh_history": [
         {
@@ -2739,6 +2744,11 @@
         {
           "previous_included_sha256": "ae611bdf0ba268c5403374e536fadfdb7eb970d2fb77af798e623183a0bc2de1",
           "current_included_sha256": "f88e872ec512d289b2dca92965b626aac5d8d2208c7635dd451b6c76f00869bb",
+          "date": "2026-10-28"
+        },
+        {
+          "previous_included_sha256": "f88e872ec512d289b2dca92965b626aac5d8d2208c7635dd451b6c76f00869bb",
+          "current_included_sha256": "17a3b93fa71cc9c03db4c60d6416c3967fd9577207319229d5c28f63e6e0b09c",
           "date": "2026-10-28"
         }
       ]
@@ -3516,6 +3526,12 @@
       "bytes": 481,
       "sha256": "e77126a4bd4823055da0d2916676325c32e9f94601c00b2081e86414406f98a3",
       "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-10400000-10480218-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
+    },
+    {
+      "path": "whole_rank_six/lower/c3-core-field/field.json",
+      "bytes": 5966,
+      "sha256": "79bf4a65951c99317643548034f826f12d73d5f9ea4174cdeedfaaf7cf4838c4",
+      "provenance": "Byte copy of the c3-core field result of the publication replay run SLR-PUB-RANK-SIX-20260925-001, stretched-lr-research results/runs/SLR-PUB-RANK-SIX-20260925-001/c2-c3/replay-isolated/c3-core/field.json; that run output is untracked there, and its bytes and SHA-256 are bound by the committed custody manifests results/manifests/SLR-PUB-RANK-SIX-20260925-001-ALL.json, -ALL-V2.json (commit 756f625e95a73a422dcfb03bf55b8081b1085c8b) and -ALL-V3.json (commit 869b6314fc81e4c3753806368af6abceb0395401)."
     },
     {
       "path": "whole_rank_six/lower/controls.py",

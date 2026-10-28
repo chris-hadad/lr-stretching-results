@@ -15407,8 +15407,8 @@
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "sha256": "1f895a27276d5acb4d88a2c373a94f47ffa4723716fec40c2f55e8ae3036499b"
       },
-      "included_bytes": 227471,
-      "included_sha256": "0e2bcfd9fd88cbbaa3c2b7a075088b76de0f81832609a68af447546693177d76",
+      "included_bytes": 228702,
+      "included_sha256": "b2a54c2696ae8593b3e40ec7bf701c083205dfe2dafb9835c7fbc62773dc97c9",
       "path": "tooling/SOURCE-UPDATE.json",
       "pre_licensing_included_sha256": "0617793a3cc1b4123e2a7c8795df40ea753c612e35ac8f955510dceb5e660b5b",
       "previous_included_sha256": "86f2f85c35b098751ff977c479d199e9298bf898c864378fba54b90d1ac2386d",
@@ -15449,6 +15449,11 @@
         {
           "previous_included_sha256": "cb4c7add50ccbd6e0d1f41995deb2d79ebe34fd649931a90f640da5a980410a8",
           "current_included_sha256": "0e2bcfd9fd88cbbaa3c2b7a075088b76de0f81832609a68af447546693177d76",
+          "date": "2026-10-28"
+        },
+        {
+          "previous_included_sha256": "0e2bcfd9fd88cbbaa3c2b7a075088b76de0f81832609a68af447546693177d76",
+          "current_included_sha256": "b2a54c2696ae8593b3e40ec7bf701c083205dfe2dafb9835c7fbc62773dc97c9",
           "date": "2026-10-28"
         }
       ]
@@ -17242,8 +17247,8 @@
     },
     {
       "path": "tooling/whole_rank_six/SOURCE-MAP.json",
-      "included_bytes": 79432,
-      "included_sha256": "10e0668b1758eb930daa8d24f9cfd4a0d3ba2032dbe476733309a04c7a0acf10",
+      "included_bytes": 80122,
+      "included_sha256": "8f3b4798b7a58ed49f0c1003c94a3d533f6aab4c56d5f50863f1c0a5d66a29a6",
       "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
       "publication_refresh_history": [
         {
@@ -17263,13 +17268,18 @@
           "previous_included_sha256": "a2968d1548aff844adb6c1b9da4f25be6518b56a80efbf4cdf75badbe272d2bb",
           "current_included_sha256": "10e0668b1758eb930daa8d24f9cfd4a0d3ba2032dbe476733309a04c7a0acf10",
           "date": "2026-10-28"
+        },
+        {
+          "previous_included_sha256": "10e0668b1758eb930daa8d24f9cfd4a0d3ba2032dbe476733309a04c7a0acf10",
+          "current_included_sha256": "8f3b4798b7a58ed49f0c1003c94a3d533f6aab4c56d5f50863f1c0a5d66a29a6",
+          "date": "2026-10-28"
         }
       ]
     },
     {
       "path": "tooling/whole_rank_six/VERIFICATION.json",
-      "included_bytes": 13768,
-      "included_sha256": "f88e872ec512d289b2dca92965b626aac5d8d2208c7635dd451b6c76f00869bb",
+      "included_bytes": 14469,
+      "included_sha256": "17a3b93fa71cc9c03db4c60d6416c3967fd9577207319229d5c28f63e6e0b09c",
       "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
       "publication_refresh_history": [
         {
@@ -17284,6 +17294,11 @@
         {
           "previous_included_sha256": "ae611bdf0ba268c5403374e536fadfdb7eb970d2fb77af798e623183a0bc2de1",
           "current_included_sha256": "f88e872ec512d289b2dca92965b626aac5d8d2208c7635dd451b6c76f00869bb",
+          "date": "2026-10-28"
+        },
+        {
+          "previous_included_sha256": "f88e872ec512d289b2dca92965b626aac5d8d2208c7635dd451b6c76f00869bb",
+          "current_included_sha256": "17a3b93fa71cc9c03db4c60d6416c3967fd9577207319229d5c28f63e6e0b09c",
           "date": "2026-10-28"
         }
       ]
@@ -18068,6 +18083,16 @@
       "provenance": "Byte copy of the stretched-lr-research run output results/runs/SLR-ASTRA017-20260917-001/correction/full-q8/v2/output/full-field-polish30-10400000-10480218-001.json, bound by size and SHA-256 in GLOBAL-C2-CERTIFICATE.json range_proofs; the run output is untracked there, so no source commit exists."
     },
     {
+      "path": "tooling/whole_rank_six/lower/c3-core-field/field.json",
+      "included_bytes": 5966,
+      "included_sha256": "79bf4a65951c99317643548034f826f12d73d5f9ea4174cdeedfaaf7cf4838c4",
+      "provenance": "Byte copy of the c3-core field result of the publication replay run SLR-PUB-RANK-SIX-20260925-001, stretched-lr-research results/runs/SLR-PUB-RANK-SIX-20260925-001/c2-c3/replay-isolated/c3-core/field.json; that run output is untracked there, and its bytes and SHA-256 are bound by the committed custody manifests results/manifests/SLR-PUB-RANK-SIX-20260925-001-ALL.json, -ALL-V2.json (commit 756f625e95a73a422dcfb03bf55b8081b1085c8b) and -ALL-V3.json (commit 869b6314fc81e4c3753806368af6abceb0395401).",
+      "source_path": "results/runs/SLR-PUB-RANK-SIX-20260925-001/c2-c3/replay-isolated/c3-core/field.json",
+      "source_repository": "stretched-lr-research",
+      "source_sha256": "79bf4a65951c99317643548034f826f12d73d5f9ea4174cdeedfaaf7cf4838c4",
+      "transformation": "none"
+    },
+    {
       "path": "tooling/whole_rank_six/lower/controls.py",
       "included_bytes": 7132,
       "included_sha256": "ac8c5dd28f9d5e7aab462df28266dae39cf222fccf634cc69922378e27f75abd",
@@ -18534,9 +18559,9 @@
       ]
     },
     "tooling": {
-      "bytes": 227471,
+      "bytes": 228702,
       "path": "tooling/SOURCE-UPDATE.json",
-      "sha256": "0e2bcfd9fd88cbbaa3c2b7a075088b76de0f81832609a68af447546693177d76",
+      "sha256": "b2a54c2696ae8593b3e40ec7bf701c083205dfe2dafb9835c7fbc62773dc97c9",
       "publication_refresh_history": [
         {
           "previous_included_sha256": "ae4b49a6ebcdbcea8d43041adfdb9d1371fb956bc8d68a4ec57b804415ff088a",
@@ -18572,6 +18597,11 @@
         {
           "previous_included_sha256": "cb4c7add50ccbd6e0d1f41995deb2d79ebe34fd649931a90f640da5a980410a8",
           "current_included_sha256": "0e2bcfd9fd88cbbaa3c2b7a075088b76de0f81832609a68af447546693177d76",
+          "date": "2026-10-28"
+        },
+        {
+          "previous_included_sha256": "0e2bcfd9fd88cbbaa3c2b7a075088b76de0f81832609a68af447546693177d76",
+          "current_included_sha256": "b2a54c2696ae8593b3e40ec7bf701c083205dfe2dafb9835c7fbc62773dc97c9",
           "date": "2026-10-28"
         }
       ]
@@ -18681,8 +18711,8 @@
     },
     "tooling/whole_rank_six": {
       "path": "tooling/whole_rank_six/SOURCE-MAP.json",
-      "bytes": 79432,
-      "sha256": "10e0668b1758eb930daa8d24f9cfd4a0d3ba2032dbe476733309a04c7a0acf10"
+      "bytes": 80122,
+      "sha256": "8f3b4798b7a58ed49f0c1003c94a3d533f6aab4c56d5f50863f1c0a5d66a29a6"
     },
     "tooling/whole_rank_six/lower": {
       "path": "tooling/whole_rank_six/lower/SOURCE-MAP.json",
