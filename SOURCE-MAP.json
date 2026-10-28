@@ -10894,9 +10894,16 @@
     },
     {
       "path": "results/rank-six-quotients/SOURCE-MAP.json",
-      "included_bytes": 2177,
-      "included_sha256": "e94d0a75b0cf932b41303a5ca22b6c83eaa7495dfa9ed2563bc7446ce6831990",
-      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+      "included_bytes": 2753,
+      "included_sha256": "a03c8be69ac19f8c30e7622f2f87b070a5542cd45e4988d25775881de328377a",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "e94d0a75b0cf932b41303a5ca22b6c83eaa7495dfa9ed2563bc7446ce6831990",
+          "current_included_sha256": "a03c8be69ac19f8c30e7622f2f87b070a5542cd45e4988d25775881de328377a",
+          "date": "2026-10-28"
+        }
+      ]
     },
     {
       "path": "results/research-progress/A55-A57-REPRODUCIBILITY.md",
@@ -18629,8 +18636,8 @@
     },
     "results/rank-six-quotients": {
       "path": "results/rank-six-quotients/SOURCE-MAP.json",
-      "bytes": 2177,
-      "sha256": "e94d0a75b0cf932b41303a5ca22b6c83eaa7495dfa9ed2563bc7446ce6831990"
+      "bytes": 2753,
+      "sha256": "a03c8be69ac19f8c30e7622f2f87b070a5542cd45e4988d25775881de328377a"
     },
     "results/structural-positivity/replay/fresh-counts": {
       "path": "results/structural-positivity/replay/FRESH-COUNTS-SOURCE-MAP.json",

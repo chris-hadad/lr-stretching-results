@@ -16,6 +16,12 @@
             "bytes": 4738
           },
           {
+            "label": "GLOBAL-C2-CERTIFICATE.json",
+            "sha256": "019b6f49721236876975db63c27441e465ee622fc5cc2f899b96130acf3e6ccb",
+            "bytes": 104050,
+            "path": "tooling/whole_rank_six/lower/c2-certificate/GLOBAL-C2-CERTIFICATE.json"
+          },
+          {
             "label": "GLOBAL-QUOTIENT-CONSEQUENCES.md",
             "sha256": "f8878102ff796f0595301e29130dc014f8138b24d6b1d217036ad338751c8804",
             "bytes": 7283
@@ -40,6 +46,12 @@
             "label": "GLOBAL-C2-ACCEPTANCE.md",
             "sha256": "10bf44ba16957e75da3d1203a96ff9b2302f2f6b8c0eb2dd9cb87ec6d172a593",
             "bytes": 4738
+          },
+          {
+            "label": "GLOBAL-C2-CERTIFICATE.json",
+            "sha256": "019b6f49721236876975db63c27441e465ee622fc5cc2f899b96130acf3e6ccb",
+            "bytes": 104050,
+            "path": "tooling/whole_rank_six/lower/c2-certificate/GLOBAL-C2-CERTIFICATE.json"
           },
           {
             "label": "GLOBAL-QUOTIENT-CONSEQUENCES.md",
