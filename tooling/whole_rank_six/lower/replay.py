@@ -379,6 +379,12 @@ def c3_analytic(args, out):
         record=phase/f'q{k}-{b:07d}-{e:07d}.json'
         result=run_one([checker,data,k,b,e],record,'PASS_FRESH_COMPLETE_ANALYTIC_RANGE',120)
         require((result['k'],result['begin'],result['end'])==(k,b,e), 'analytic receipt range')
+        where=f'c3 analytic range receipt q{k} {b}-{e}'
+        require(type(result.get('types')) is int and type(result.get('complete_coefficients')) is int,
+                where+' counts must be integers')
+        require(result['types']==e-b and result['complete_coefficients']==(e-b)*math.comb(7,k),
+                where+' reports '+str(result['types'])+' types and '+str(result['complete_coefficients'])+
+                ' coefficients; its range holds '+str(e-b)+' and '+str((e-b)*math.comb(7,k)))
         seen[k]=e;types+=result['types'];slots+=result['complete_coefficients']
     require(all(seen[k]==H8_COUNTS[k] for k in seen), 'incomplete analytic domain')
     require(types==1988979 and slots==4706329, 'analytic population or slot mismatch')
@@ -407,6 +413,12 @@ def c2_field(args,out):
 def exact_minimum_beta(result):
     """Read one c2 range result's minimum_beta as an exact canonical rational.
 
+    The same strict parser is copied, as a recorded copy, in
+    tooling/whole_rank_six/verify.py top_margins (raising ValueError there).
+    Each component ships self-contained, with its own runtime.py, and verify.py
+    is also shipped byte-identical in the preprint source archive as
+    anc/small_rank_six/verify.py, so the two are kept separate rather than shared.
+
     Args:
         result: A field_original_v1 range result.
 
@@ -414,7 +426,8 @@ def exact_minimum_beta(result):
         The range's exact minimum beta as a Fraction.
 
     Raises:
-        RuntimeError: The value is absent, not a string, or not a canonical rational.
+        RuntimeError: The value is absent, not a string, not a canonical rational,
+            or has more digits than Python reads as an integer.
     """
     where='c2 range receipt '+str(result.get('begin'))+'-'+str(result.get('end'))
     text=result.get('minimum_beta')
@@ -425,6 +438,9 @@ def exact_minimum_beta(result):
         value=Fraction(text)
     except ZeroDivisionError:
         raise RuntimeError(where+' minimum_beta has a zero denominator') from None
+    except ValueError:
+        # Python refuses integer strings longer than its digit limit (4300 by default).
+        raise RuntimeError(where+' minimum_beta has too many digits to read: '+str(len(text))+' characters') from None
     require(str(value)==text, where+' minimum_beta is not in lowest terms: '+text[:80])
     return value
 
@@ -434,6 +450,8 @@ def c2_field_summary(results):
 
     The field checker counts only beta < 0 at threshold zero; the theorem's
     margin is the exact minimum over every range compared with C2_EPSILON.
+    Every range must itself report nonnegative counts and zero violations, so
+    no receipt can offset another in the totals.
 
     Args:
         results: Range results in begin order.
@@ -451,10 +469,15 @@ def c2_field_summary(results):
         counts=('begin','end','rows','nnz','original_multiplicity','violations')
         require(all(type(result.get(key)) is int for key in counts),
                 'c2 range receipt counts must be integers')
+        where='c2 range receipt '+str(result['begin'])+'-'+str(result['end'])
+        for key in ('rows','nnz','original_multiplicity','violations'):
+            require(result[key]>=0, where+' has a negative '+key+' count: '+str(result[key]))
+        require(result['violations']==0,
+                where+' reports '+str(result['violations'])+' violations; every range must report none')
         require(result['begin']==cursor and result['rows']==result['end']-result['begin']>0,
                 'field receipt range')
         require(result.get('status')=='PASS_EXACT_ORIGINAL_FIELD_RANGE',
-                'c2 range receipt '+str(result['begin'])+'-'+str(result['end'])+' is not a passing exact field range')
+                where+' is not a passing exact field range')
         beta=exact_minimum_beta(result)
         minimum=beta if minimum is None or beta<minimum else minimum
         cursor=result['end'];rows+=result['rows'];nnz+=result['nnz'];originals+=result['original_multiplicity'];violations+=result['violations']
@@ -475,8 +498,10 @@ def recheck_c2_receipts(directory):
         The c2_field_summary of those results.
 
     Raises:
-        RuntimeError: No results, a name and range disagree, or the fold fails.
+        RuntimeError: The directory is missing, no results, a name and range
+            disagree, or the fold fails.
     """
+    require(Path(directory).is_dir(), 'c2 receipt directory not found: '+str(directory))
     named=[]
     for path in Path(directory).iterdir():
         match=re.fullmatch(r'(\d{8})-(\d{8})\.result\.json', path.name)

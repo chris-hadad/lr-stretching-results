@@ -15407,8 +15407,8 @@
         "commit": "a8f62fcb24757f6e5c694cf307880b246f61ba4e",
         "sha256": "1f895a27276d5acb4d88a2c373a94f47ffa4723716fec40c2f55e8ae3036499b"
       },
-      "included_bytes": 228702,
-      "included_sha256": "b2a54c2696ae8593b3e40ec7bf701c083205dfe2dafb9835c7fbc62773dc97c9",
+      "included_bytes": 230435,
+      "included_sha256": "8ae18ad5152cc797bd275764b4afd3bf7a02d68b15bf3075e1dd065f2c4a2ae8",
       "path": "tooling/SOURCE-UPDATE.json",
       "pre_licensing_included_sha256": "0617793a3cc1b4123e2a7c8795df40ea753c612e35ac8f955510dceb5e660b5b",
       "previous_included_sha256": "86f2f85c35b098751ff977c479d199e9298bf898c864378fba54b90d1ac2386d",
@@ -15454,6 +15454,11 @@
         {
           "previous_included_sha256": "0e2bcfd9fd88cbbaa3c2b7a075088b76de0f81832609a68af447546693177d76",
           "current_included_sha256": "b2a54c2696ae8593b3e40ec7bf701c083205dfe2dafb9835c7fbc62773dc97c9",
+          "date": "2026-10-28"
+        },
+        {
+          "previous_included_sha256": "b2a54c2696ae8593b3e40ec7bf701c083205dfe2dafb9835c7fbc62773dc97c9",
+          "current_included_sha256": "8ae18ad5152cc797bd275764b4afd3bf7a02d68b15bf3075e1dd065f2c4a2ae8",
           "date": "2026-10-28"
         }
       ]
@@ -17248,7 +17253,7 @@
     {
       "path": "tooling/whole_rank_six/SOURCE-MAP.json",
       "included_bytes": 80122,
-      "included_sha256": "8f3b4798b7a58ed49f0c1003c94a3d533f6aab4c56d5f50863f1c0a5d66a29a6",
+      "included_sha256": "cfaa2e0a95a9d57a160043afc0ccf370ce535bc09440511ecdf627ddd9e70897",
       "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
       "publication_refresh_history": [
         {
@@ -17273,13 +17278,18 @@
           "previous_included_sha256": "10e0668b1758eb930daa8d24f9cfd4a0d3ba2032dbe476733309a04c7a0acf10",
           "current_included_sha256": "8f3b4798b7a58ed49f0c1003c94a3d533f6aab4c56d5f50863f1c0a5d66a29a6",
           "date": "2026-10-28"
+        },
+        {
+          "previous_included_sha256": "8f3b4798b7a58ed49f0c1003c94a3d533f6aab4c56d5f50863f1c0a5d66a29a6",
+          "current_included_sha256": "cfaa2e0a95a9d57a160043afc0ccf370ce535bc09440511ecdf627ddd9e70897",
+          "date": "2026-10-28"
         }
       ]
     },
     {
       "path": "tooling/whole_rank_six/VERIFICATION.json",
-      "included_bytes": 14469,
-      "included_sha256": "17a3b93fa71cc9c03db4c60d6416c3967fd9577207319229d5c28f63e6e0b09c",
+      "included_bytes": 14638,
+      "included_sha256": "8e4ba41c97855b60bcf0840ba01af9c39eca0dfb51ecf8e6131922141066001c",
       "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
       "publication_refresh_history": [
         {
@@ -17299,6 +17309,11 @@
         {
           "previous_included_sha256": "f88e872ec512d289b2dca92965b626aac5d8d2208c7635dd451b6c76f00869bb",
           "current_included_sha256": "17a3b93fa71cc9c03db4c60d6416c3967fd9577207319229d5c28f63e6e0b09c",
+          "date": "2026-10-28"
+        },
+        {
+          "previous_included_sha256": "17a3b93fa71cc9c03db4c60d6416c3967fd9577207319229d5c28f63e6e0b09c",
+          "current_included_sha256": "8e4ba41c97855b60bcf0840ba01af9c39eca0dfb51ecf8e6131922141066001c",
           "date": "2026-10-28"
         }
       ]
@@ -17420,8 +17435,8 @@
     },
     {
       "path": "tooling/whole_rank_six/lower/README.md",
-      "included_bytes": 7705,
-      "included_sha256": "baf9e570521ef0e21c05addedfa3af1b236156d19cdedb956d92fc9049acc2de",
+      "included_bytes": 8475,
+      "included_sha256": "f3f6a125240c43a8fccfe2598c2f54a610364a81534791b26d9b67452939f1a8",
       "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
       "publication_refresh_history": [
         {
@@ -17431,6 +17446,11 @@
         {
           "previous_included_sha256": "3854e2e604b87801da82ab4987b29dc21ab7f7e64b62ccc2e667739ad77f1c6c",
           "current_included_sha256": "baf9e570521ef0e21c05addedfa3af1b236156d19cdedb956d92fc9049acc2de",
+          "date": "2026-10-28"
+        },
+        {
+          "previous_included_sha256": "baf9e570521ef0e21c05addedfa3af1b236156d19cdedb956d92fc9049acc2de",
+          "current_included_sha256": "f3f6a125240c43a8fccfe2598c2f54a610364a81534791b26d9b67452939f1a8",
           "date": "2026-10-28"
         }
       ]
@@ -18106,10 +18126,10 @@
     },
     {
       "path": "tooling/whole_rank_six/lower/replay.py",
-      "included_bytes": 38710,
-      "included_sha256": "96646f06b78ca248904615a53d08ba74014c0f777d504f62f3c3b5e8a3ac4e76",
+      "included_bytes": 40464,
+      "included_sha256": "5041ad0dd7837407e71b9530651684fcc5d5b01e3b9a5f595a32a89e773dad23",
       "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
-      "publication_update_note": "Added the exact c2 margin gate: c2-field folds every range result's minimum_beta in exact rationals and refuses unless the minimum is at least 1/200000000, recording exact_minimum_beta and theorem_epsilon; added --recheck-c2-receipts and --check-c2-certificate. Field checker sources and input assets are unchanged. Previous update: Bound successful H8 row bytes and source/input identity at production, and validate exact row identities/counts before continuation; unbound legacy output is refused. Mathematical engines and input assets are unchanged.",
+      "publication_update_note": "Each c2 range result must report nonnegative counts and zero violations before the fold, so no receipt can offset another; an oversized minimum_beta and a missing receipt directory are refused in plain words; c3-analytic requires each range result's type and coefficient counts to equal its range's. Field checker sources and input assets are unchanged. Previous update: Added the exact c2 margin gate: c2-field folds every range result's minimum_beta in exact rationals and refuses unless the minimum is at least 1/200000000, recording exact_minimum_beta and theorem_epsilon; added --recheck-c2-receipts and --check-c2-certificate. Field checker sources and input assets are unchanged. Previous update: Bound successful H8 row bytes and source/input identity at production, and validate exact row identities/counts before continuation; unbound legacy output is refused. Mathematical engines and input assets are unchanged.",
       "publication_refresh_history": [
         {
           "previous_included_sha256": "a901ed3e7acc37269087ded45aec282cc830e7a280c7c70ade5c5212fb6a4d13",
@@ -18118,6 +18138,11 @@
         {
           "previous_included_sha256": "27ccd765a631c508ecda84be2729c3613546cbdc9b9ee86dc21722b4d079c76b",
           "current_included_sha256": "96646f06b78ca248904615a53d08ba74014c0f777d504f62f3c3b5e8a3ac4e76",
+          "date": "2026-10-28"
+        },
+        {
+          "previous_included_sha256": "96646f06b78ca248904615a53d08ba74014c0f777d504f62f3c3b5e8a3ac4e76",
+          "current_included_sha256": "5041ad0dd7837407e71b9530651684fcc5d5b01e3b9a5f595a32a89e773dad23",
           "date": "2026-10-28"
         }
       ]
@@ -18203,9 +18228,16 @@
     },
     {
       "path": "tooling/whole_rank_six/lower/tests/test_c2_margin.py",
-      "included_bytes": 10062,
-      "included_sha256": "72759ae4bd2d02a82ff02e94355d7f2fd667b8e81da0ba71a3ea6a503edb7d8b",
-      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted."
+      "included_bytes": 15781,
+      "included_sha256": "61bbd4d6face0ff8c6d3d85141d8f74eebc8e53cffc8d28e14131e2a11ded435",
+      "provenance": "Current publication artifact inventory only; no original-source byte equivalence or mathematical verification is asserted.",
+      "publication_refresh_history": [
+        {
+          "previous_included_sha256": "72759ae4bd2d02a82ff02e94355d7f2fd667b8e81da0ba71a3ea6a503edb7d8b",
+          "current_included_sha256": "61bbd4d6face0ff8c6d3d85141d8f74eebc8e53cffc8d28e14131e2a11ded435",
+          "date": "2026-10-28"
+        }
+      ]
     },
     {
       "path": "tooling/whole_rank_six/restore.py",
@@ -18559,9 +18591,9 @@
       ]
     },
     "tooling": {
-      "bytes": 228702,
+      "bytes": 230435,
       "path": "tooling/SOURCE-UPDATE.json",
-      "sha256": "b2a54c2696ae8593b3e40ec7bf701c083205dfe2dafb9835c7fbc62773dc97c9",
+      "sha256": "8ae18ad5152cc797bd275764b4afd3bf7a02d68b15bf3075e1dd065f2c4a2ae8",
       "publication_refresh_history": [
         {
           "previous_included_sha256": "ae4b49a6ebcdbcea8d43041adfdb9d1371fb956bc8d68a4ec57b804415ff088a",
@@ -18602,6 +18634,11 @@
         {
           "previous_included_sha256": "0e2bcfd9fd88cbbaa3c2b7a075088b76de0f81832609a68af447546693177d76",
           "current_included_sha256": "b2a54c2696ae8593b3e40ec7bf701c083205dfe2dafb9835c7fbc62773dc97c9",
+          "date": "2026-10-28"
+        },
+        {
+          "previous_included_sha256": "b2a54c2696ae8593b3e40ec7bf701c083205dfe2dafb9835c7fbc62773dc97c9",
+          "current_included_sha256": "8ae18ad5152cc797bd275764b4afd3bf7a02d68b15bf3075e1dd065f2c4a2ae8",
           "date": "2026-10-28"
         }
       ]
@@ -18712,7 +18749,7 @@
     "tooling/whole_rank_six": {
       "path": "tooling/whole_rank_six/SOURCE-MAP.json",
       "bytes": 80122,
-      "sha256": "8f3b4798b7a58ed49f0c1003c94a3d533f6aab4c56d5f50863f1c0a5d66a29a6"
+      "sha256": "cfaa2e0a95a9d57a160043afc0ccf370ce535bc09440511ecdf627ddd9e70897"
     },
     "tooling/whole_rank_six/lower": {
       "path": "tooling/whole_rank_six/lower/SOURCE-MAP.json",

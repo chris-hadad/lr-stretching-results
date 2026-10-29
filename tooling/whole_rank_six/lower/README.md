@@ -93,8 +93,15 @@ The first refolds that directory's 105 `*.result.json` range results. The
 second rechecks `c2-certificate/GLOBAL-C2-CERTIFICATE.json`, a byte copy of the
 campaign's global c2 certificate, from the 105 range results it binds by size
 and SHA-256 (copied under `c2-certificate/ranges/`). Both require complete
-contiguous coverage, zero violations and an exact minimum of at least
-1/200,000,000. The 105 c2 range results of each publication c2 field run,
+contiguous coverage, nonnegative counts and zero violations in every range
+result, and an exact minimum of at least 1/200,000,000. The certificate's
+absolute `path` fields are the campaign's provenance pointers into its own
+research tree, not paths a reader needs; `--check-c2-certificate` binds the
+certificate's content, and each range result it names, by SHA-256. The
+strict exact-rational reading of `minimum_beta` here is a recorded copy of the
+one in `../verify.py` `top_margins`: each component ships self-contained, and
+`verify.py` is also shipped byte-identical in the preprint source archive, so
+the two are kept separate. The 105 c2 range results of each publication c2 field run,
 the complete isolated replay and the final public source export, refold to the
 same minimum 24825324385226107946765127095421513511423465909470146108411 /
 2827810858868907481115714320001048479611331101093378048000000000000
@@ -113,8 +120,11 @@ python3 -B -m unittest discover -s tests -p 'test_c2_margin.py'
 ```
 
 `tests/test_c2_margin.py` checks the c2 margin fold: a passing fold, a
-minimum below the bound, missing or malformed `minimum_beta` values, the
-phase record, the recheck commands and the shipped certificate.
+minimum below the bound, missing, malformed or oversized `minimum_beta`
+values, negative or offsetting per-range counts, the phase record, the recheck
+commands and their argument refusals, a missing receipt directory and the
+shipped certificate. It also checks that `c3-analytic` refuses a range result
+whose type or coefficient count differs from its range.
 
 Those tests exercise adapter behavior, not the scientific certificate. The
 final public source export passed all seven adapter checks, complete c3 core,

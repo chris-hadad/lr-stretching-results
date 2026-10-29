@@ -1,7 +1,10 @@
-"""Bounded checks of the exact c2 margin fold over range receipts."""
+"""Bounded checks of the exact c2 margin fold and the per-receipt count checks of the lower folds."""
 from argparse import Namespace
+from contextlib import redirect_stderr
 from fractions import Fraction
+import io
 import json
+import math
 from pathlib import Path
 import shutil
 import subprocess
@@ -79,12 +82,35 @@ class C2MarginFoldTests(unittest.TestCase):
                 with self.assertRaisesRegex(RuntimeError, message):
                     replay.c2_field_summary(receipts('1/100000000', text))
 
+    def test_oversized_minimum_beta_refused(self):
+        limit = sys.get_int_max_str_digits()
+        if not limit:
+            self.skipTest('this Python reads integer strings of any length')
+        oversized = '1/'+'7'*(limit+1)
+        with self.assertRaisesRegex(RuntimeError, 'c2 range receipt 5000000-10480218 minimum_beta has too many digits'):
+            replay.c2_field_summary(receipts('1/100000000', oversized))
+
+    def test_cancelling_violation_counts_refused(self):
+        results = receipts('1/100000000', '1/100000000')
+        results[0]['violations'] = 1
+        results[1]['violations'] = -1
+        with self.assertRaisesRegex(RuntimeError, 'c2 range receipt 0-5000000 reports 1 violations'):
+            replay.c2_field_summary(results)
+
+    def test_negative_count_refused(self):
+        for key in ('rows', 'nnz', 'original_multiplicity', 'violations'):
+            with self.subTest(key=key):
+                results = receipts('1/100000000', '1/100000000')
+                results[1][key] = -1
+                with self.assertRaisesRegex(RuntimeError, 'c2 range receipt 5000000-10480218 has a negative '+key):
+                    replay.c2_field_summary(results)
+
     def test_incomplete_or_failing_ranges_refused(self):
         with self.assertRaisesRegex(RuntimeError, 'incomplete or failing c2 original field'):
             replay.c2_field_summary(receipts('1/100000000', '1/100000000')[:1])
         results = receipts('1/100000000', '1/100000000')
         results[1]['violations'] = 1
-        with self.assertRaisesRegex(RuntimeError, 'incomplete or failing c2 original field'):
+        with self.assertRaisesRegex(RuntimeError, 'c2 range receipt 5000000-10480218 reports 1 violations'):
             replay.c2_field_summary(results)
         results = receipts('1/100000000', '1/100000000')
         results[0]['status'] = 'FAIL_EXACT_ORIGINAL_FIELD_RANGE'
@@ -147,6 +173,16 @@ class C2RecheckTests(unittest.TestCase):
             with self.assertRaisesRegex(RuntimeError, 'does not match its file name'):
                 replay.recheck_c2_receipts(directory)
 
+    def test_recheck_refuses_missing_directory(self):
+        with tempfile.TemporaryDirectory() as scratch:
+            absent = Path(scratch)/'absent'
+            with self.assertRaisesRegex(RuntimeError, 'c2 receipt directory not found: '):
+                replay.recheck_c2_receipts(absent)
+            receipt_file = Path(scratch)/'00000000-05000000.result.json'
+            receipt_file.write_text('{}', encoding='utf-8')
+            with self.assertRaisesRegex(RuntimeError, 'c2 receipt directory not found: '):
+                replay.recheck_c2_receipts(receipt_file)
+
     def test_command_line_recheck(self):
         with tempfile.TemporaryDirectory() as scratch:
             good = write_receipts(Path(scratch)/'good', receipts('1/100000000', '3/400000000'))
@@ -162,6 +198,80 @@ class C2RecheckTests(unittest.TestCase):
                                    capture_output=True, text=True, timeout=10)
             self.assertEqual(mixed.returncode, 2)
             self.assertIn('takes no replay arguments', mixed.stderr)
+
+
+class ReplayArgumentTests(unittest.TestCase):
+    def refusal(self, argv):
+        """Run replay.main with argv; return its exit code and standard error."""
+        stderr = io.StringIO()
+        with patch.object(sys, 'argv', ['replay.py']+argv), redirect_stderr(stderr):
+            with self.assertRaises(SystemExit) as caught:
+                replay.main()
+        return caught.exception.code, stderr.getvalue()
+
+    def test_replay_requires_root_output_and_phase(self):
+        for argv in ([], ['--phase', 'c2-field'], ['--asset-root', 'a', '--output', 'b']):
+            with self.subTest(argv=argv):
+                code, stderr = self.refusal(argv)
+                self.assertEqual(code, 2)
+                self.assertIn('the following arguments are required: --asset-root, --output, --phase', stderr)
+
+    def test_recheck_takes_no_replay_arguments(self):
+        for recheck in (['--check-c2-certificate'], ['--recheck-c2-receipts', 'c2-field']):
+            for extra in (['--asset-root', 'a'], ['--output', 'b'], ['--phase', 'c2-field']):
+                with self.subTest(recheck=recheck, extra=extra):
+                    code, stderr = self.refusal(recheck+extra)
+                    self.assertEqual(code, 2)
+                    self.assertIn('a c2 recheck takes no replay arguments', stderr)
+
+
+class C3AnalyticFoldTests(unittest.TestCase):
+    def run_phase(self, scratch, alter):
+        out = scratch/'run'; out.mkdir()
+
+        def fake_run(argv, record, expected, timeout):
+            k, begin, end = argv[2], argv[3], argv[4]
+            result = {'status':'PASS_FRESH_COMPLETE_ANALYTIC_RANGE','k':k,'begin':begin,'end':end,
+                      'types':end-begin,'complete_coefficients':(end-begin)*math.comb(7, k)}
+            alter(result)
+            return result
+
+        with patch.object(replay, 'verify_assets'), \
+                patch.object(replay, 'binary', return_value=scratch/'bin/analytic'), \
+                patch.object(replay, 'run_one', side_effect=fake_run):
+            replay.c3_analytic(Namespace(asset_root=scratch/'assets'), out)
+        return out/'c3-analytic/COMPLETE.json'
+
+    def test_analytic_fold_passes(self):
+        with tempfile.TemporaryDirectory() as scratch:
+            complete = json.loads(self.run_phase(Path(scratch), lambda result: None).read_text(encoding='utf-8'))
+            self.assertEqual((complete['types'], complete['coefficient_slots']), (1988979, 4706329))
+
+    def test_cancelling_type_counts_refused(self):
+        def alter(result):
+            if (result['k'], result['begin']) == (1, 0):
+                result['types'] += 1
+            if (result['k'], result['begin']) == (2, 0):
+                result['types'] -= 1
+        with tempfile.TemporaryDirectory() as scratch:
+            with self.assertRaisesRegex(RuntimeError, 'c3 analytic range receipt q1 0-4 reports 5 types'):
+                self.run_phase(Path(scratch), alter)
+            self.assertFalse((Path(scratch)/'run/c3-analytic/COMPLETE.json').exists())
+
+    def test_negative_or_non_integer_count_refused(self):
+        def negative(result):
+            if (result['k'], result['begin']) == (1, 0):
+                result['types'] = -4
+            if (result['k'], result['begin']) == (2, 0):
+                result['types'] = 44
+        def text(result):
+            result['complete_coefficients'] = str(result['complete_coefficients'])
+        for alter, message in ((negative, 'c3 analytic range receipt q1 0-4 reports -4 types'),
+                               (text, 'c3 analytic range receipt q1 0-4 counts must be integers')):
+            with self.subTest(message=message):
+                with tempfile.TemporaryDirectory() as scratch:
+                    with self.assertRaisesRegex(RuntimeError, message):
+                        self.run_phase(Path(scratch), alter)
 
 
 class C2CertificateTests(unittest.TestCase):

@@ -27,9 +27,9 @@
     "certificate_bound_range_results": 105,
     "certificate_sha256": "019b6f49721236876975db63c27441e465ee622fc5cc2f899b96130acf3e6ccb",
     "exact_minimum": "24825324385226107946765127095421513511423465909470146108411/2827810858868907481115714320001048479611331101093378048000000000000",
-    "margin_gate": "lower/replay.py c2_field_summary folds every range result's exact minimum_beta and requires the minimum to be at least theorem_epsilon; the field checker itself runs at threshold zero",
+    "margin_gate": "lower/replay.py c2_field_summary requires every range result to report nonnegative counts and zero violations, folds every range result's exact minimum_beta and requires the minimum to be at least theorem_epsilon; the field checker itself runs at threshold zero",
     "margin_gate_added": "2026-10-28",
-    "margin_gate_controller_sha256": "96646f06b78ca248904615a53d08ba74014c0f777d504f62f3c3b5e8a3ac4e76",
+    "margin_gate_controller_sha256": "5041ad0dd7837407e71b9530651684fcc5d5b01e3b9a5f595a32a89e773dad23",
     "minimum_range": [
       8100000,
       8200000
@@ -89,31 +89,33 @@
     "saturated_kernels": 381,
     "theorem_epsilon": "1/3000"
   },
+  "c7": {
+    "exact_minimum": "1/144",
+    "theorem_epsilon": "1/144"
+  },
   "c7_c8_c9": {
     "dependent_complements": {
       "q1": 0,
       "q2": 12,
       "q3": 486
     },
-    "exact_minima": {
-      "c7": "1/144",
-      "c8": "1/9",
-      "c9": "1/2"
-    },
     "independent_literal_supports": {
       "c7": 10994,
       "c8": 849,
       "c9": 42
     },
-    "margin_gate": "verify.py top_margins requires each exact minimum to be at least its theorem epsilon",
+    "margin_gate": "verify.py top_margins requires each exact minimum to be at least its theorem epsilon; both are recorded per grade under c7, c8 and c9",
     "margin_gate_added": "2026-10-28",
     "margin_gate_fresh_small_replay": "PASS_COMPLETE_SMALL_COMPONENTS from the repacked preprint source archive, 2026-10-28",
-    "theorem_epsilons": {
-      "c7": "1/144",
-      "c8": "1/9",
-      "c9": "1/2"
-    },
     "two_complete_exact_algorithms": true
+  },
+  "c8": {
+    "exact_minimum": "1/9",
+    "theorem_epsilon": "1/9"
+  },
+  "c9": {
+    "exact_minimum": "1/2",
+    "theorem_epsilon": "1/2"
   },
   "data": {
     "archives": 9,
